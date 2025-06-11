@@ -1,6 +1,6 @@
 # Asistente Conversacional con RASA
 
-Este repositorio contiene el código y los datos del Trabajo de Fin de Grado (TFG) dedicado a la construcción de asistentes conversacionales usando RASA. El proyecto utiliza dos datasets: **DIHANA** y **MultiWOZ**, y está estructurado siguiendo diferentes enfoques de generación: `PATH_0`, `PATH_A` y `PATH_B`.
+Este repositorio contiene el código y los datos del Trabajo de Fin de Grado (TFG) dedicado a la automatización de la creación de asistentes conversacionales usando RASA. El proyecto utiliza dos datasets: **DIHANA** y **MultiWOZ**, y está estructurado siguiendo diferentes enfoques de generación: `PATH_0`, `PATH_A` y `PATH_B`.
 
 ---
 
@@ -39,6 +39,7 @@ Estos comandos deben ejecutarse desde la carpeta donde se encuentre el proyecto 
 En la carpeta IU/ se encuentra una interfaz construida con Streamlit. Para lanzarla:
 
 cd IU
+
 streamlit run chatbot_IU.py
 
 Esta interfaz permite interactuar fácilmente con los modelos entrenados a partir del enfoque PATH_A para ambos datasets.
@@ -47,6 +48,7 @@ Esta interfaz permite interactuar fácilmente con los modelos entrenados a parti
 
 ## 📁 Estructura del Proyecto
 
+```
 TFG/
 ├── data/
 │   ├── dihana/
@@ -77,7 +79,7 @@ TFG/
 │
 └── IU/
     └── chatbot_IU.py
-
+```
 
 
 ## 📝 Notas
