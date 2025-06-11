@@ -20,10 +20,6 @@ python -m venv .venv
 ```
 source .venv/bin/activate
 ```
-Luego, instala las dependencias necesarias:
-```
-pip install -r requirements.txt
-```
 
 
 ## 🧠 Ejecutar el Asistente con RASA
