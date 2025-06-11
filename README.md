@@ -1,4 +1,4 @@
-# Asistente Conversacional con RASA
+# Asistentes Conversacionales con RASA
 
 Este repositorio contiene el código y los datos del Trabajo de Fin de Grado (TFG) dedicado a la automatización de la creación de asistentes conversacionales usando RASA. El proyecto utiliza dos datasets: **DIHANA** y **MultiWOZ**, y está estructurado siguiendo diferentes enfoques de generación: `PATH_0`, `PATH_A` y `PATH_B`.
 
@@ -9,39 +9,43 @@ Este repositorio contiene el código y los datos del Trabajo de Fin de Grado (TF
 Se recomienda el uso de un entorno virtual para evitar conflictos de dependencias. Para crear y activar uno:
 
 ### Crear el entorno virtual
+```
 python -m venv .venv
-
+```
 ### Activar en Windows
+```
 .venv\Scripts\activate
-
+```
 ### Activar en Linux/Mac
+```
 source .venv/bin/activate
-
+```
 Luego, instala las dependencias necesarias:
+```
 pip install -r requirements.txt
-
+```
 
 
 ## 🧠 Ejecutar el Asistente con RASA
 Para iniciar el servidor de RASA y permitir conexiones desde otras aplicaciones, utiliza:
-
+```
 rasa run --enable-api --cors "*"
-
+```
 Si deseas especificar un puerto diferente (por ejemplo, el 5006):
-
+```
 rasa run --enable-api --cors "*" --port 5006
-
+```
 Estos comandos deben ejecutarse desde la carpeta donde se encuentre el proyecto de RASA generado (por ejemplo, en dihana_chatbot/chatbot_generated si estás usando ese modelo).
 
 
 
 ## 💻 Interfaz de Usuario
 En la carpeta IU/ se encuentra una interfaz construida con Streamlit. Para lanzarla:
-
+```
 cd IU
 
 streamlit run chatbot_IU.py
-
+```
 Esta interfaz permite interactuar fácilmente con los modelos entrenados a partir del enfoque PATH_A para ambos datasets.
 
 
