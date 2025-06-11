@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQscn5ednZ+alxxelFpamFpfU1sYCAPywIrA=": "utter_confirm_booking_details",
+    "eJyNjVEKgDAMQ6+yA3iCXUWkzFmlODvtOn+Gd3cw8Ve/ksBL0perM2UXPMF5pcjWlGaA3YbWPCFQUuTK5oRSGeIa1ZqmMMa4Ei8geGRMen2MZlUU8JFnku0tT6iOQvp/Mtxus0pR": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQseXFCVm5sUXpRaWphaX1NbGAgC4uSHl": "utter_check_train_schedules",
+    "eJyNjcsJgDAQRFtJAVaQVkSWEAcM6qq7Gy8hvRuIdz3NPJjPWOrgyim4KURLB3tXuiEOO7x7YUtq4JbNCmmZxA3Nu65kEhKT4MpQqx+T2QxCcUFc36I2mPMG/XswPbKNR9o=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsenp+alFiXmxKcXpaaW1NbGAgC20SGz": "utter_welcome_message",
+    "eJyNjMEJwCAQBFuxgFRgKyEcIosIeobzTB5i7xHMP3ntDgyz97GZfgoucl5jYWv6OsQuw5oXUqwKnm6rkOlEnqjWrKUAhrhEQQAdH8mmCqEbyZcMyqjVBfxNHw/zHEUM": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsdn5Jek5sRn5qXlF+XW1sYCAJZRIWU=": "utter_provide_hotel_info",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsdn5Jek5sRn5qXlF+XWEjCxtKQktSi+oCi/LDMlFUknkYbHAgBJqUW/": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQscXpRaXJJYWJQKZmXlp+UW5tbWxAESDI5I=": "utter_ask_restaurant_details",
+    "eJyVjVEKgDAMQ6+yA3iCXUVkFK1Q3DppO3/G7u5gfvgnfiWBl2SubXL1FLwCrEaZvavDBIaE3j0hkhpyZ4uidIa4R/NuaBBUgyLQLfGeJbWP2WKGEkCPd3VDA4r652W5AWF4S8Y=": "action_listen",
+    "eJytjkEKgDAMBL/SB/iCfkWkBI0Q1KhJ6qX07wb04E0ET9mB3c22pTahbIJHgt5o5RjKJRLDgjHcMJMasnuzoriH2NFiuG4SVIMs4JJ4XGWpL7XZDCWBTs/ogAY0639fPo8X3LNTrd0JPuduJQ==": "utter_call_restaurant_service",
+    "eJytTkkKwzAM/Iof0Bf4K6UY4U5B1FFaSc7F5O8VpIfcmkBPMwOzXcd6SeOlWApV51lyGhspQhNy+orG5pDwdoOGhyWk57RhUZhTVwrK8ph1Wn/UdndoIXvuo3c4cbP/rZw+r3j3UMfeV2ptH47yhStO7dw+Qn6XPw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQseXJFZkxhelFpamFpfU1sYCAJcWIX0=": "utter_call_taxi_service",
+    "eJyNjEEKgDAMBL+SB/iCfkUklJJDoEZN0yKU/t1Avetpd2F21j4W6KdSw5iMDwnQZ0GJOwV4R+ZiJM7WQuoMi08LMBMt3oxKV6Vi48NYzUgxxZznzYWNE/10bw8IRkVx": "action_listen"
+  }
+}

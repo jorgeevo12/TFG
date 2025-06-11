@@ -1,0 +1,42 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform_2\"}}]": "utter_system_restaurant_inform_2",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform_2\"}}, {\"prev_action\": {\"action_name\": \"utter_system_restaurant_inform_2\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform_2\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_hotel_inform\"}}]": "utter_system_hotel_inform",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_hotel_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_system_hotel_inform\"}, \"user\": {\"intent\": \"intent_user_hotel_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_request\"}}]": "utter_system_restaurant_request",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_request\"}}, {\"prev_action\": {\"action_name\": \"utter_system_restaurant_request\"}, \"user\": {\"intent\": \"intent_user_restaurant_request\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform\"}}]": "utter_system_restaurant_inform",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_system_restaurant_inform\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform_3\"}}]": "utter_system_restaurant_inform_3",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform_3\"}}, {\"prev_action\": {\"action_name\": \"utter_system_restaurant_inform_3\"}, \"user\": {\"intent\": \"intent_user_restaurant_inform_3\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_general_bye\"}}]": "utter_system_general_bye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_general_bye\"}}, {\"prev_action\": {\"action_name\": \"utter_system_general_bye\"}, \"user\": {\"intent\": \"intent_user_general_bye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_general_thank\"}}]": "utter_system_general_thank",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_general_thank\"}}, {\"prev_action\": {\"action_name\": \"utter_system_general_thank\"}, \"user\": {\"intent\": \"intent_user_general_thank\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_train_inform\"}}]": "utter_system_train_inform",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_train_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_system_train_inform\"}, \"user\": {\"intent\": \"intent_user_train_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_taxi_inform\"}}]": "utter_system_taxi_inform",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_taxi_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_system_taxi_inform\"}, \"user\": {\"intent\": \"intent_user_taxi_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_request_2\"}}]": "utter_system_restaurant_request_2",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_request_2\"}}, {\"prev_action\": {\"action_name\": \"utter_system_restaurant_request_2\"}, \"user\": {\"intent\": \"intent_user_restaurant_request_2\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_other\"}}]": "utter_system_other",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_other\"}}, {\"prev_action\": {\"action_name\": \"utter_system_other\"}, \"user\": {\"intent\": \"intent_user_other\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_request_3\"}}]": "utter_system_restaurant_request_3",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_restaurant_request_3\"}}, {\"prev_action\": {\"action_name\": \"utter_system_restaurant_request_3\"}, \"user\": {\"intent\": \"intent_user_restaurant_request_3\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_general_thank\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_general_thank\"}}, {\"prev_action\": {\"action_name\": \"utter_system_general_thank\"}, \"user\": {\"intent\": \"intent_user_general_thank\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_other\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_user_other\"}}, {\"prev_action\": {\"action_name\": \"utter_system_other\"}, \"user\": {\"intent\": \"intent_user_other\"}}]",
+      "predicting default action with intent back",
+      "predicting default action with intent restart"
+    ]
+  }
+}

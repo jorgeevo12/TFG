@@ -1,0 +1,63 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "intent_general_greet": 1,
+        "intent_hotel_request": 2,
+        "intent_other": 3,
+        "intent_restaurant_inform": 4,
+        "intent_taxi_request": 5,
+        "intent_train_request": 6,
+        "nlu_fallback": 7,
+        "out_of_scope": 8,
+        "restart": 9,
+        "session_start": 10
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_restaurant_info": 13,
+        "utter_hotel_info": 14,
+        "utter_taxi_info": 15,
+        "utter_train_info": 16,
+        "utter_welcome": 17,
+        "utter_assistant": 18,
+        "form_restaurant_form": 19,
+        "form_hotel_form": 20,
+        "form_taxi_form": 21,
+        "form_train_form": 22
+      },
+      "entities": {},
+      "slots": {
+        "slot_restaurant_name_0": 0,
+        "slot_hotel_name_0": 1,
+        "slot_taxi_destination_0": 2,
+        "slot_train_station_0": 3,
+        "slot_user_name_0": 4
+      },
+      "active_loop": {
+        "form_restaurant_form": 0,
+        "form_hotel_form": 1,
+        "form_taxi_form": 2,
+        "form_train_form": 3
+      }
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

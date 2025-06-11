@@ -1,0 +1,22 @@
+{
+  "0": "attraction_info",
+  "1": "hotel_area",
+  "2": "hotel_rooms",
+  "3": "inform_area",
+  "4": "inform_attraction",
+  "5": "inform_food",
+  "6": "inform_people",
+  "7": "inform_phone",
+  "8": "inform_price",
+  "9": "inform_reservation",
+  "10": "request_attraction",
+  "11": "request_hotel",
+  "12": "request_restaurant",
+  "13": "request_taxi",
+  "14": "request_train",
+  "15": "restaurant_area",
+  "16": "restaurant_food",
+  "17": "taxi_phone",
+  "18": "train_price",
+  "19": "train_time"
+}

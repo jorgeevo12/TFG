@@ -1,0 +1,15 @@
+{
+  "0": "answer_price",
+  "1": "confirm_time",
+  "2": "disconfirm_time",
+  "3": "inform_date",
+  "4": "inform_destination",
+  "5": "inform_origin",
+  "6": "inform_price",
+  "7": "inform_time",
+  "8": "question_time",
+  "9": "request_destination",
+  "10": "request_price",
+  "11": "request_trip",
+  "12": "suggest_origin"
+}

@@ -1,0 +1,33 @@
+nlu:
+  - intent: check_train_schedule
+    examples: |
+      - "quiero obtener el horario del tren."
+      - "¿cuáles son los horarios de los trenes?"
+      - "necesito saber las horas de la estación."
+      - "qué hora sale el tren de [train_type]?"
+
+  - intent: ask_price
+    examples: |
+      - "quiero saber los precios de los billetes."
+      - "cuánto cuesta el billete a [destination_station]."
+
+  - intent: confirm_reservation
+    examples: |
+      - "[date]"
+      - "¿puedo reservar un billete para el [date]?"
+
+  - intent: provide_date
+    examples: |
+      - "[date]"
+
+  - intent: provide_time
+    examples: |
+      - "[time]"
+
+  - intent: provide_origin_station
+    examples: |
+      - "[origin_station]"
+
+  - intent: provide_destination_station
+    examples: |
+      - "[destination_station]"

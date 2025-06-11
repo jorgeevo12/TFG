@@ -1,0 +1,13 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwtytEJgDAMANFVMoATdBWREDSFgCYlTQUp3d2C/t2DW/tYoBfnG2kPMU3Qv0ClixP8OKUG63xbZZ+P6GQkcK5BzUkDRbP5hfEURsuYzY4xthch4SX9": "utter_ask_restaurant_type_of_food",
+    "eJyVjUEKgDAMBL/SB/iCfkUkBE2hqElJU0GKf7egBz2Jtx0YZvt6dK4mpQ1wtCjsXb0GMK7k3Q1LzEbc3JJJmxO5oXmnlA2LIhtEDqIr2J4IJEAQmY6PeDEjBcwzPDqvwO/D4QSyhFKz": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhKLW4JLG0KDGvJD4zLy2/KLe2NhYAVSMgoQ==": "utter_ask_restaurant_location",
+    "eJyNjEEKgDAMBL/SB/iCfkUkhBKh2KaSpF5K/25FD970tgOzM7c+ubYLHYDBYmHv2j2AMZN3D6SoRjzcqiTDiTzQvBNSwyrIBpHXIrl/9KoZCaBu8LqmEvByfvWXE5qLRlc=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohI78kNSc+My8tvygXrKO2NhYAUzsgdA==": "utter_confirm_hotel_name",
+    "eJyNjEEKwCAMBL+SB/QFfqWUIBJpQGPR2Iv494r23t52YGb31jdoV6YbrVNOYqCtgWIjGXghcFGS4dZCeTgsA9XAmZQCsviU4yz6x19VpYwuiedRrHx2f66PByC1Q8c=": "action_listen",
+    "eJwtytEJgDAMRdFVMoATdBWRUMpTAzUtafSndHcL+ncP3LWPhXo1PByTS9FA/QvWeCHQjyzNofO9G2w+opMe6CyOzKJ7sYurSQJb1ANjbC9BcyNS": "utter_ask_hotel_price_range",
+    "eJyVjUEKgCAQRa/iATqBV4kYRKYaslHGsY149wRbtIt2/8H/78+1TaYmwQucV4psTR0B2J1ozQOBsiL3bskovUPcUa3Zo2IA4jXKCUnII4jjDduHtqiigMsHDMN7+uNkuQHsuUqy": "action_listen"
+  }
+}

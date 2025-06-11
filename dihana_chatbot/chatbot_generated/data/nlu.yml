@@ -1,0 +1,171 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_date
+    examples: |
+      - I want to travel on [15th April](date)
+      - The date is [20th May](date)
+      - Let's set the date for [3rd June](date)
+      - Can we plan for [10th July](date)?
+      - When would be good? How about [2nd August](date)?
+      - Traveling on [5th September](date) works best
+      - The departure is scheduled for [12th October](date)
+      - I'm available on [18th November](date)
+      - Next weekend, so [24th December](date), sounds good
+      - How about [7th January](date) next year?
+
+  - intent: question_time
+    examples: |
+      - What's the departure time?
+      - When does the train leave?
+      - Could you tell me the schedule for today?
+      - What time do we depart tomorrow?
+      - I need to know the exact timing
+      - The time is crucial for my plans
+      - Please provide the departure hour
+      - It's important to know when it departs
+      - When is the train scheduled to leave?
+      - Can you confirm the departure time?
+
+  - intent: request_price
+    examples: |
+      - How much does it cost?
+      - What are the prices available?
+      - Could you tell me the fare details?
+      - The price information is needed
+      - I need to know the ticket costs
+      - What's the total price for this trip?
+      - Can you provide the pricing options?
+      - It would help if you gave me the prices
+      - Price details are essential for my decision
+      - How much will the journey cost?
+
+  - intent: inform_origin
+    examples: |
+      - I'm departing from [Paris](origin)
+      - My origin is [Murcia](origin)
+      - Origin is [London](origin)
+      - Departure city is [Madrid](origin)
+      - The origin is set to [Sevilla](origin)
+      - We'll start our journey from [Rome](origin)
+      - Originating from [Valencia](origin)
+      - I'm leaving from [Bilbao](origin)
+      - Departing city is [Granada](origin)
+      - Origin is [Sydney](origin)
+      - Starting point is [Paris](origin)
+
+  - intent: confirm_time
+    examples: |
+      - Yes, that time works.
+      - That's correct.
+      - Perfect timing for me
+      - Yes, that suits my schedule
+      - That's the right time
+      - I agree with this timing
+      - Correct, that's what I wanted
+      - Yes, that's perfect
+      - Alright, let's go with that
+      - Confirmed, that's good
+
+  - intent: disconfirm_time
+    examples: |
+      - No, that doesn't work.
+      - That's not right.
+      - Can't make it at that time
+      - Doesn't fit my schedule
+      - Not suitable for me
+      - I'm unavailable then
+      - That timing won't work
+      - Not possible for me
+      - Unfortunate timing
+      - Need to change the time
+
+  - intent: request_destination
+    examples: |
+      - Where can I book tickets?
+      - What destinations are available?
+      - Where is this service offered?
+      - Which locations do you cover?
+      - Can you provide a list of destinations?
+      - What cities do you operate in?
+      - Destinations available for booking?
+      - Where can I go with this service?
+      - List of possible destinations
+      - Available travel destinations
+
+  - intent: answer_price
+    examples: |
+      - The price is [40](price)€
+      - It costs around [50](price)€
+      - Approximately [30](price)€ for the trip
+      - Price is set at [60](price)€
+      - Around [25](price)€ per ticket
+      - The fare is [70](price)€ total
+      - It's about [80](price)€ for this journey
+      - Total cost is [90](price)€
+      - Approximately [100](price)€ expected
+
+  - intent: suggest_origin
+    examples: |
+      - How about traveling from [Berlin](origin)?
+      - Maybe [Rome](origin) would be better
+      - What if we depart from [Paris](origin)?
+      - Consider starting in [London](origin)
+      - Perhaps [Madrid](origin) is a good option
+      - How about [Amsterdam](origin)? It might work
+      - Departing from [New York](origin), how's that?
+      - Maybe [Sydney](origin) would be ideal
+      - Suggestion: start your journey in [Tokyo](origin)
+      - What do you think about [Paris](origin)?
+  
+  - intent: inform_time
+    examples: |
+      - I need to leave at [9 AM](time)
+      - The departure should be at [7 PM](time)
+      - Can we set it for [midnight](time)?
+      - How about [5:30 PM](time) tomorrow?
+      - What if we go at [12 noon](time)?
+      - Maybe [6:30 AM](time) early morning
+      - Let's plan to depart at [8 PM](time)
+      - The time is set for [10:30 AM](time)
+      - How about [7:45 PM](time) in the evening?
+      - Perhaps [3:30 PM](time) would work
+
+  - intent: inform_destination
+    examples: |
+      - I want to go to [Barcelona](destination)
+      - Can you book me to [Rome](destination)?
+      - Destination is [Bali](destination), please
+      - Let's plan the trip to [New York](destination)
+      - How about [Tokyo](destination) as a destination?
+      - I'm interested in visiting [Paris](destination)
+      - Maybe [London](destination) would be nice
+      - Can we go to [Sydney](destination)?
+      - Destination set to [Madrid](destination)
+      - Let's travel to [Amsterdam](destination)
+
+  - intent: inform_price
+    examples: |
+      - The price is [40](price)€ for this trip
+      - It's acceptable if it's [30](price)€ per person
+      - I can afford up to [100](price)€ for this trip
+      - The fare should be around [60](price)€ total
+      - Approximately [25](price)€ per ticket is good
+      - Let's confirm the price is [70](price)€
+      - The cost is set at [85](price)€
+      - It's about [100](price)€ for this journey
+      - Total expected to be [90](price)€
+      - Price of [50](price)€ seems reasonable
+
+  - intent: request_trip
+    examples: |
+      - Can you tell me about available trips?
+      - Are there any trips going to [Paris](destination)?
+      - I need help planning a trip to [London](origin)
+      - What trips are available for next week?
+      - Request assistance with booking a trip
+      - Any trips departing from [New York](origin) soon?
+      - Help me find a suitable trip option
+      - Information on available travel itineraries
+      - Can you suggest any trip destinations?
+      - Need help planning my upcoming journey

@@ -1,0 +1,14 @@
+# FORMATO CORREGIDO
+# STEPS EN LUGAR DE CONDITIONS
+# FORMATO ACTION
+
+rules:
+  - rule: offer_restaurant_suggestion
+    steps:
+      - intent: request_restaurant
+      - action: utter_offer_restaurant_suggestion
+
+  - rule: confirm_reservation_mapping
+    steps:
+      - intent: confirm_reservation
+      - action: utter_confirm_reservation

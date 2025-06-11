@@ -1,0 +1,80 @@
+nlu:
+  - intent: request_restaurant
+    examples: |
+      - "Looking for a restaurant in the centre"
+      - "Could you suggest something cheap?"
+      - "I want to find an expensive place"
+      - "What's good in the south area?"
+      - "Recommend a Korean place"
+
+  - intent: inform_location
+    examples: |
+      - "in cambridge"
+      - "at kings lynn"
+      - "located in the centre"
+      - "on the south side"
+      - "near city centre"
+
+  - intent: confirm_reservation
+    examples: |
+      - "Yes, please make a reservation"
+      - "Can you book it for me?"
+      - "I want to confirm my booking"
+      - "Please reserve for tomorrow"
+      - "Book it now"
+
+  - intent: request_information
+    examples: |
+      - "What's the phone number?"
+      - "Give me the address"
+      - "Do you have the postcode?"
+      - "Where is the Riverside Brasserie?"
+      - "Tell me about the Lucky Star"
+
+  - intent: request_booking
+    examples: |
+      - "Book a train ticket for me"
+      - "Can I reserve a hotel room?"
+      - "Please book me a taxi"
+      - "Reserve a table at Little Seoul"
+      - "I need to book tickets now"
+
+  - intent: inform_time
+    examples: |
+      - "at 20:00"
+      - "after 9:15 am"
+      - "on Saturday evening"
+      - "before midnight"
+      - "tomorrow morning"
+
+  - intent: inform_date
+    examples: |
+      - "for tomorrow"
+      - "next week"
+      - "this weekend"
+      - "on Saturday"
+      - "today"
+
+  - intent: request_phone_number
+    examples: |
+      - "What's the phone number for booking?"
+      - "Do you have a contact number?"
+      - "Please give me the restaurant's number"
+      - "I need the hotel's phone number"
+      - "What's the taxi service number?"
+
+  - intent: request_postcode
+    examples: |
+      - "What's the postcode?"
+      - "Give me the area code"
+      - "Where is it located? Postcode"
+      - "Do you have the postal code?"
+      - "I need the zip code for that place"
+
+  - intent: request_address
+    examples: |
+      - "Where exactly is it?"
+      - "Can you give me the full address?"
+      - "What's the street location?"
+      - "Tell me the exact address"
+      - "Do you have the building number?

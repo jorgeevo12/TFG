@@ -1,0 +1,702 @@
+[
+  {
+    "dialogue_id": "PMUL4398.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "i need a place to dine in the center thats expensive",
+        "act": "restaurant_user_request_price"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I have several options for you; do you prefer African, Asian, or British food?",
+        "act": "restaurant_system_inform_food_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Any sort of food would be fine, as long as it is a bit expensive. Could I get the phone number for your recommendation?",
+        "act": "restaurant_user_request_phone"
+      },
+      {
+        "speaker": "system",
+        "utterance": "There is an Afrian place named Bedouin in the centre. How does that sound?",   
+        "act": "restaurant_system_inform_food_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?",
+        "act": "restaurant_user_request_phone_hotel_user_request_price"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Bedouin's phone is 01223367660. As far as hotels go, I recommend the University Arms Hotel in the center of town.",
+        "act": "restaurant_system_inform_phone_hotel_system_inform_location"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes. Can you book it for me?",
+        "act": "hotel_user_confirm_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sure, when would you like that reservation?",
+        "act": "hotel_system_question_time"
+      },
+      {
+        "speaker": "user",
+        "utterance": "i want to book it for 2 people and 2 nights starting from saturday.",
+        "act": "hotel_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your booking was successful. Your reference number is FRGZWQL2 . May I help you further?",
+        "act": "hotel_system_inform_success_reference_number_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "That is all I need to know. Thanks, good bye.",
+        "act": "general_user_answer_goodbye"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thank you so much for Cambridge TownInfo centre. Have a great day!",
+        "act": "general_system_inform_thanks_goodbye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG1013.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "Guten Tag, I am staying overnight in Cambridge and need a place to sleep. I need free parking and internet.",
+        "act": "hotel_user_request_info"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I have 4 different options for you. I have two cheaper guesthouses and two expensive hotels. Do you have a preference?",
+        "act": "hotel_system_inform_options_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "No, but I'd really like to be on the south end of the city. Do any of those fit the bill?",
+        "act": "hotel_user_request_location"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sure. Does price matter? We can narrow it down and find exactly what you need.",
+        "act": "hotel_system_question_price"
+      },
+      {
+        "speaker": "user",
+        "utterance": "No I don't care about the price. Which one do you recommend?",
+        "act": "hotel_user_answer_location"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I would recommend aylesbray lodge guest house. Would you like me to book that for you?",
+        "act": "hotel_system_inform_recommendation_question_reservation"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, book it for 4 people and 4 nights starting from tuesday.",
+        "act": "hotel_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "The booking was unsuccessful. would you like another day or a shorter stay?",  
+        "act": "hotel_system_inform_failure_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "How about for 3 nights?",
+        "act": "hotel_user_answer_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Booked! Reference number is: 84ESP6F5",
+        "act": "hotel_system_inform_success_reference_number"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Great. I am all set then. Have a nice day. Bye.",
+        "act": "general_user_goodbye"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Have a nice stay. Bye.",
+        "act": "general_system_goodbye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0121.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "Hi there! Can you give me some info on Cityroomz?",
+        "act": "hotel_user_request_info"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Cityroomz is located at Sleeperz Hotel, Station Road in the Centre area. It is a moderatley priced hotel with a 0 star rating. Would you like to book a room?",
+        "act": "hotel_system_inform_location_price_rating_question_reservation"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes please. I need it for 7 people for 3 nights starting on tuesday.",
+        "act": "hotel_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "How many days would you like to book it for?",
+        "act": "hotel_system_question_days"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I would like to book it for 3 nights beginning on Tuesday.",
+        "act": "hotel_user_answer_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Ok, Your rooms have been booked. Your reference number is CYJD5612 . May I help you further?",
+        "act": "hotel_system_inform_success_reference_number_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Thanks. Do you know any good restaurants nearby?",
+        "act": "restaurant_user_request_info"
+      },
+      {
+        "speaker": "system",
+        "utterance": "There are 9 great restaurants nearby, would you like me to list them?",        
+        "act": "restaurant_system_inform_list_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, please.",
+        "act": "restaurant_user_answer_info"
+      },
+      {
+        "speaker": "system",
+        "utterance": "There are 9 great restaurants nearby, would you like me to list them?",        
+        "act": "restaurant_system_inform_list_question"
+      },
+      {
+        "speaker": "user",
+        "utterance": "No, I just need the phone number and postcode.",
+        "act": "restaurant_user_request_phone_postcode"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Here's the phone number: 0123456789 and the postcode: AB12 3CD.",
+        "act": "restaurant_system_inform_phone_postcode"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Thanks, that's all I need.",
+        "act": "general_user_thanks"
+      },
+      {
+        "speaker": "system",
+        "utterance": "You're welcome. Anything else I can help with?",
+        "act": "general_system_question_help"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3484.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You are a helpful assistant.",
+        "act": "general_user_comment"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thank you! How can I assist you today?",
+        "act": "general_system_question_assistance"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I'm looking for a hotel in Cambridge.",
+        "act": "hotel_user_request_info"
+      },
+      {
+        "speaker": "system",
+        "utterance": "What kind of information are you looking for?",
+        "act": "hotel_system_question_info"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I need to book a room.",
+        "act": "hotel_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Got it! Could you let me know your preferred check-in date and number of guests?",
+        "act": "hotel_system_question_date_guests"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I want to stay on the 15th of June for 3 nights with 2 guests.",
+        "act": "hotel_user_answer_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thank you! I've found several options. Do you have a preferred location?",     
+        "act": "hotel_system_inform_options_question_location"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I'd like to stay in the city center.",
+        "act": "hotel_user_answer_location"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Perfect! I've booked a room at The Cambridge Hotel. Your reference number is 789456.",
+        "act": "hotel_system_inform_success_reference_number"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Great, thank you. Do you know any good restaurants nearby?",
+        "act": "restaurant_user_request_info"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Yes! There's a fantastic Italian restaurant called Don Pasquale Pizzeria nearby.",
+        "act": "restaurant_system_inform_location"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Is it possible to make a reservation there?",
+        "act": "restaurant_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Certainly! Would you like to book a table for when?",
+        "act": "restaurant_system_question_reservation_time"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I'd like to reserve a table for 7 PM.",
+        "act": "restaurant_user_answer_reservation_time"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Perfect! Your reservation is confirmed. Here's your reference number: 123456.",        
+        "act": "restaurant_system_inform_success_reference_number"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Thank you. Could you also arrange a taxi to take me there?",
+        "act": "transport_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Of course! I've arranged a taxi for you at 6:45 PM. The driver will wait outside your hotel.",
+        "act": "transport_system_inform_reservation"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG0389.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "i need a train on tuesday out of kings lynn",
+        "act": "train_user_inform_time_kingslynn"
+      },
+      {
+        "speaker": "system",
+        "utterance": "What time of day would you like to leave?",
+        "act": "train_system_question_time_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I want to leave on Tuesday.",
+        "act": "train_user_answer_time_tuesday"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Do you have a time you'd like to leave?",
+        "act": "train_system_question_time_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I'd like to leave after 9:30.",
+        "act": "train_user_inform_time_after930"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Is that 9:30 AM or PM?",
+        "act": "train_system_confirm_time_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Looking for a train Tuesday leaving kings lynn after 9:30 to go to cambridge.",
+        "act": "train_user_inform_time_after930_cambridge"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I'm sorry, I'm not seeing any trains for that time. Would you like to try another time or a different route?",
+        "act": "train_system_request_time_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "No, I'd like a train leaving after 09:30 departing from Kings Lynn and going to Cambridge. Please take another look?",
+        "act": "train_user_request_time_after930_kingslynn_cambridge"
+      },
+      {
+        "speaker": "system",
+        "utterance": "There are no trains running at this time. Can I narrow your search in any way?",
+        "act": "train_system_confirm_time_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Wow...no, I really needed that time. I guess not. Thanks anyway.",
+        "act": "train_user_disconfirm_time_tuesday"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I do have a train leaving at 10:11 of that would work for you.",
+        "act": "train_system_inform_time_1011"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, that works. Please book for two people. Thanks for checking again.",
+        "act": "train_user_request_reservation_two_people"
+      },
+      {
+        "speaker": "system",
+        "utterance": "It's my pleasure. You're booked with reference HXG3N56O . The total fee is 19.6 GBP payable at the station. May I help with anything else?",
+        "act": "train_system_answer_reservation_referencefee"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Perfect. Thank you for your help. Have a great day. Bye.",
+        "act": "train_user_answer_none_none"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thank you for using our service, goodbye.",
+        "act": "train_system_answer_none_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Have a nice day.",
+        "act": "train_user_answer_none_none"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Booking was successful, the total fee is 19.6 GBP payable at the station . Reference number is : HXG3N56O .",
+        "act": "train_system_inform_reservation_referencefee"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG01520.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "I am looking for a restaurant. I would like something cheap that has Chinese food.",
+        "act": "restaurant_user_request_quality_price_chinesefood"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I've heard good things about the lucky star. Need a reservation?",
+        "act": "restaurant_system_inform_reservation_lucky_star"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, could you make a reservation for 1 at 20:00 on Saturday?",
+        "act": "restaurant_user_request_reservation_one_person_time_saturday"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Your booking was successful. The table will be reserved for 15 minutes. Reference number is : FDLFKTZM .",
+        "act": "restaurant_system_answer_reservation_reference"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Thank you so much for your help!",
+        "act": "restaurant_user_answer_none_none"
+      },
+      {
+        "speaker": "system",
+        "utterance": "You're welcome. Thank you! Have a good day now!",
+        "act": "restaurant_system_answer_none_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Thanks, you too. Goodbye.",
+        "act": "restaurant_user_answer_none_none"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Thank you for using Cambridge TownInfo centre. Good-bye",
+        "act": "restaurant_system_answer_none_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3951.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "Please find me a train from cambridge to stansted airport",
+        "act": "train_user_request_transportation_cambridge_stanstedairport"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sure, I can do that but first I need a little more information. What day would you like to travel as well as departure and arrival times?",
+        "act": "train_system_request_information_day_departuretime_arrivaltime"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Saturday leaving Cambridge anytime after 20:00 please",
+        "act": "train_user_inform_time_after2000_cambridge"
+      },
+      {
+        "speaker": "system",
+        "utterance": "TR3128 will leave at 20:40 and arrive by 21:08. Do you need more information or would you like to book tickets?",
+        "act": "train_system_inform_departuretime_2040_arrivaltime_2108"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Can you book me 6 tickets please?",
+        "act": "train_user_request_reservation_six_tickets"
+      },
+      {
+        "speaker": "system",
+        "utterance": "You're all set. Total for tickets is 48.48 GBP payable at the station. Reference number is JD6SA21J .",
+        "act": "train_system_answer_reservation_referencefee"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I am also looking for The Riverside Brasserie.",
+        "act": "restaurant_user_request_quality_the_riverside_brasserie"
+      },
+      {
+        "speaker": "system",
+        "utterance": "riverside brasserie is a modern european restaurant in the centre. Its address is Doubletree by Hilton Cambridge Granta Place Mill Lane and postcode is cb21rt. Want to book it?",
+        "act": "restaurant_system_inform_reservation_address_postcode"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, I would like to book it and get a reference number.",
+        "act": "restaurant_user_request_reservation_reference"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I'm sorry, I can't do that.",
+        "act": "restaurant_system_disconfirm_reservation_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Can you take me to the station?",
+        "act": "train_user_request_transportation_to_station"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Yes, I can.",
+        "act": "train_system_answer_reservation_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0843.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "I need an expensive restaurant in the city center.",
+        "act": "restaurant_user_request_quality_expensive_citycenter"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Le Gourmet is a great option. Would you like reservations?",
+        "act": "restaurant_system_inform_reservation_legourmet"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, for two people.",
+        "act": "restaurant_user_request_reservation_two_people"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I'm sorry, we don't have availability for tonight.",
+        "act": "restaurant_system_disconfirm_reservation_none"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Can you find me a train?",
+        "act": "train_user_request_transportation_train"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Yes, I can.",
+        "act": "train_system_answer_reservation_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL2979.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "I'm looking for a places to go and see during my upcoming trip to Cambridge.",
+        "act": "attraction_user_request_none"
+      },
+      {
+        "speaker": "system",
+        "utterance": "What area of town would you like?",
+        "act": "attraction_system_question_area"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I would like to go to the south area please.",
+        "act": "attraction_user_inform_area_south"
+      },
+      {
+        "speaker": "system",
+        "utterance": "On the south side, your options are the cinema, entertainment venues, museums, nightclubs, parks, and a theatre.",
+        "act": "attraction_system_inform_options"
+      },
+      {
+        "speaker": "user",
+        "utterance": "That's a lot of choices, how about nightclubs? Can you get me a couple of phone numbers for good ones? I'm hoping to catch DJ Squalour from Ibiza!",
+        "act": "attraction_user_request_phone_numbers"
+      },
+      {
+        "speaker": "system",
+        "utterance": "The only nightclub in the south is called the place on 22 sidney street. Phone number is 01223324600. Can I help you with anything else?",
+        "act": "attraction_system_inform_location_phone_number"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Yes, I would like an expensive hotel with free parking.",
+        "act": "hotel_user_request_price"
+      },
+      {
+        "speaker": "system",
+        "utterance": "I have places that fit that description all over town, except in the north. If area is no concern, I recommend the Gonville in the center of town.",
+        "act": "hotel_system_inform_recommendation"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Is it four star?",
+        "act": "hotel_user_question_stars"
+      },
+      {
+        "speaker": "system",
+        "utterance": "No, it only 3 stars. The Huntington Marriott is 4 stars though. It is also expensive and has free parking and internet.",
+        "act": "hotel_system_inform_rating_price"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Okay well now I need to get a taxi to leave the hotel by 17:45 to the attraction. I will need a contact number and car type.",
+        "act": "taxi_user_request_booking_time_contact_number_car_type"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Booking completed! Booked car type : red lexus Contact number : 07421633218",
+        "act": "taxi_system_inform_confirmation_car_type_contact_number"
+      },
+      {
+        "speaker": "user",
+        "utterance": "I want to confirm that the booked red Lexus is a taxi, as I previously requested?",
+        "act": "taxi_user_confirm_booking"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Yes, it is! Anything else needed?",
+        "act": "taxi_system_answer_confirmation"
+      },
+      {
+        "speaker": "user",
+        "utterance": "No that is it. Thank you!",
+        "act": "general_user_acknowledgement"
+      },
+      {
+        "speaker": "system",
+        "utterance": "you are welcome. enjoy your stay.",
+        "act": "general_system_inform_acknowledgement"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "MUL1681.json",
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "Hi, I'd like to book a train to stansted airport from cambridge. Can you help?",
+        "act": "train_user_request_booking"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Absolutely. Where will you departing from?",
+        "act": "train_system_question_departure_location"
+      },
+      {
+        "speaker": "user",
+        "utterance": "From Cambridge, which is why I asked the Cambridge TownInfo centre.",
+        "act": "train_user_inform_departure_location"
+      },
+      {
+        "speaker": "system",
+        "utterance": "What day would you like to leave?",
+        "act": "train_system_question_day"
+      },
+      {
+        "speaker": "user",
+        "utterance": "On Saturday. Is there a train that will arrive by 15:15?",
+        "act": "train_user_request_arrival"
+      },
+      {
+        "speaker": "system",
+        "utterance": "There is! TR7213 leaves at 05:40 and arrive at 06:08 it is 10.10 pounds. Can I book that for you?",
+        "act": "train_system_inform_train_details_price"
+      },
+      {
+        "speaker": "user",
+        "utterance": "No need to book it. Thanks. But can you help me find a cheap restaurant in the south?",
+        "act": "restaurant_user_request_budget"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sure - The Lucky Star serves Chinese food and Nandos serves Portuguese food. Do either of those sound good?",
+        "act": "restaurant_system_inform_recommendation"
+      },
+      {
+        "speaker": "user",
+        "utterance": "The Lucky Star sounds good. That's all I need.",
+        "act": "restaurant_user_request_reservation"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Would you like to book a table?",
+        "act": "restaurant_system_question_reservation_table"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Can you also tell me the postcode?",
+        "act": "restaurant_user_request_postcode"
+      },
+      {
+        "speaker": "system",
+        "utterance": "Sure. The post code is cb17dy.",
+        "act": "restaurant_system_inform_postcode"
+      },
+      {
+        "speaker": "user",
+        "utterance": "Thanks for your help. Good bye.",
+        "act": "general_user_acknowledgement_none"
+      },
+      {
+        "speaker": "system",
+        "utterance": "",
+        "act": "general_system_acknowledgement_none"
+      }
+    ]
+  }
+]

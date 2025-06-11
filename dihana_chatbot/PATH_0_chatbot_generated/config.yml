@@ -1,0 +1,39 @@
+version: "3.1"
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: "word"
+  min_ngram: 1
+  max_ngram: 2
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
+  min_ngram: 3
+  max_ngram: 5
+  lowercase: true
+- name: DIETClassifier
+  epochs: 150
+  hidden_layers_sizes:
+    text: [256, 128]
+  dropout: 0.3
+  loss_type: cross_entropy
+  constrain_similarities: true
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  epochs: 100
+
+policies:
+- name: MemoizationPolicy
+  max_history: 5
+- name: RulePolicy
+  core_fallback_threshold: 0.4
+  fallback_action_name: "action_default_fallback"
+  enable_fallback_prediction: true
+  fallback_classification_threshold: 0.3     # ✅ Opcional, evita respuestas inciertas
+- name: TEDPolicy
+  max_history: 5
+  epochs: 150
+assistant_id: 20250529-114822-counting-decision

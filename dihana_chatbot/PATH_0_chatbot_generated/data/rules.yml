@@ -1,0 +1,12 @@
+# NO ENTITIES
+
+rules:
+  - rule: Ask for Date when Checking Schedule
+    steps:
+      - intent: check_train_schedule
+      - action: utter_ask_date
+  
+  - rule: Confirm Reservation with Default Values
+    steps:
+      - intent: confirm_reservation
+      - action: utter_confirm_reservation

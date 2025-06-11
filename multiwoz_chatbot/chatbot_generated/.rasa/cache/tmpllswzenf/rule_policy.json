@@ -1,0 +1,32 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_inform\"}}]": "utter_provide_hotel_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_provide_hotel_info\"}, \"user\": {\"intent\": \"intent_hotel_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}]": "utter_ask_hotel_details",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_hotel_details\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_booking_inform\"}}]": "utter_provide_booking_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_booking_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_provide_booking_info\"}, \"user\": {\"intent\": \"intent_booking_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_booking_request\"}}]": "utter_ask_booking_details",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_booking_request\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_booking_details\"}, \"user\": {\"intent\": \"intent_booking_request\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_inform\"}}]": "utter_provide_restaurant_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_provide_restaurant_info\"}, \"user\": {\"intent\": \"intent_restaurant_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_request\"}}]": "utter_book_restaurant_table",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_request\"}}, {\"prev_action\": {\"action_name\": \"utter_book_restaurant_table\"}, \"user\": {\"intent\": \"intent_restaurant_request\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_request\"}}]",
+      "predicting default action with intent restart",
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_hotel_details\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_request\"}}, {\"prev_action\": {\"action_name\": \"utter_book_restaurant_table\"}, \"user\": {\"intent\": \"intent_restaurant_request\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_booking_inform\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_booking_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_provide_booking_info\"}, \"user\": {\"intent\": \"intent_booking_inform\"}}]"
+    ]
+  }
+}

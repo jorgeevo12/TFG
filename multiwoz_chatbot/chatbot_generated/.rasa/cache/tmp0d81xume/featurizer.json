@@ -1,0 +1,60 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "affirm": 0,
+        "back": 1,
+        "deny": 2,
+        "general": 3,
+        "goodbye": 4,
+        "greet": 5,
+        "hotel_inform": 6,
+        "hotel_request": 7,
+        "nlu_fallback": 8,
+        "out_of_scope": 9,
+        "request_more": 10,
+        "restart": 11,
+        "restaurant_greet": 12,
+        "restaurant_inform": 13,
+        "restaurant_request": 14,
+        "session_start": 15,
+        "taxi_inform": 16,
+        "thank_you": 17,
+        "train_inform": 18,
+        "train_request": 19,
+        "welcome": 20
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_restaurant_book": 13,
+        "action_train_info": 14,
+        "utter_goodbye": 15,
+        "utter_greet": 16,
+        "utter_reqmore": 17,
+        "utter_restaurant_welcome": 18,
+        "utter_thank": 19,
+        "utter_welcome": 20
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

@@ -1,0 +1,135 @@
+stories:
+- story: restaurant_form_submission
+  steps:
+    - intent: request_restaurant
+    - action: restaurant_form
+    - active_loop: restaurant_form
+    - intent: inform_food
+      entities:
+        - food: "Chinese"
+    - slot_was_set:
+        - food: "Chinese"
+    - intent: inform_area
+      entities:
+        - area: "city center"
+    - slot_was_set:
+        - area: "city center"
+    - intent: inform_people
+      entities:
+        - people: "2"
+    - slot_was_set:
+        - people: "2"
+    - intent: inform_price
+      entities:
+        - price: "100"
+    - slot_was_set:
+        - price: "100"
+    - intent: inform_phone
+      entities:
+        - phone: "0123456789"
+    - slot_was_set:
+        - phone: "0123456789"
+    - active_loop: null
+    - action: utter_confirm_all_restaurant
+
+- story: hotel_form_submission
+  steps:
+    - intent: request_hotel
+    - action: hotel_form
+    - active_loop: hotel_form
+    - intent: inform_area
+      entities:
+        - area: "downtown"
+    - slot_was_set:
+        - area: "downtown"
+    - intent: inform_people
+      entities:
+        - people: "3"
+    - slot_was_set:
+        - people: "3"
+    - intent: inform_price
+      entities:
+        - price: "200"
+    - slot_was_set:
+        - price: "200"
+    - intent: inform_phone
+      entities:
+        - phone: "1234567890"
+    - slot_was_set:
+        - phone: "1234567890"
+    - active_loop: null
+    - action: utter_confirm_all_hotel
+
+- story: train_form_submission
+  steps:
+    - intent: request_train
+    - action: train_form
+    - active_loop: train_form
+    - intent: inform_area
+      entities:
+        - area: "Rome"
+    - slot_was_set:
+        - area: "Rome"
+    - intent: inform_price
+      entities:
+        - price: "150"
+    - slot_was_set:
+        - price: "150"
+    - intent: inform_phone
+      entities:
+        - phone: "2345678901"
+    - slot_was_set:
+        - phone: "2345678901"
+    - active_loop: null
+    - action: utter_confirm_all_train
+
+- story: taxi_form_submission
+  steps:
+    - intent: request_taxi
+    - action: taxi_form
+    - active_loop: taxi_form
+    - intent: inform_area
+      entities:
+        - area: "airport"
+    - slot_was_set:
+        - area: "airport"
+    - intent: inform_phone
+      entities:
+        - phone: "3456789012"
+    - slot_was_set:
+        - phone: "3456789012"
+    - intent: inform_price
+      entities:
+        - price: "50"
+    - slot_was_set:
+        - price: "50"
+    - active_loop: null
+    - action: utter_confirm_all_taxi
+
+- story: attraction_form_submission
+  steps:
+    - intent: request_attraction
+    - action: attraction_form
+    - active_loop: attraction_form
+    - intent: inform_area
+      entities:
+        - area: "tourist_area"
+    - slot_was_set:
+        - area: "tourist_area"
+    - intent: inform_attraction
+      entities:
+        - attraction: "museum"
+    - slot_was_set:
+        - attraction: "museum"
+    - intent: inform_price
+      entities:
+        - price: "80"
+    - slot_was_set:
+        - price: "80"
+    - intent: inform_phone
+      entities:
+        - phone: "4567890123"
+    - slot_was_set:
+        - phone: "4567890123"
+    - active_loop: null
+    - action: utter_confirm_all_attraction

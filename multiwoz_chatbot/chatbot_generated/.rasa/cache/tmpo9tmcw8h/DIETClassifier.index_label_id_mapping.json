@@ -1,0 +1,10 @@
+{
+  "0": "intent_booking_inform",
+  "1": "intent_booking_request",
+  "2": "intent_general_bye",
+  "3": "intent_general_greet",
+  "4": "intent_hotel_inform",
+  "5": "intent_hotel_request",
+  "6": "intent_restaurant_inform",
+  "7": "intent_restaurant_request"
+}

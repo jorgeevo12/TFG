@@ -1,0 +1,66 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "nlu_fallback": 1,
+        "out_of_scope": 2,
+        "restart": 3,
+        "session_start": 4,
+        "user_answer_date": 5,
+        "user_answer_destination": 6,
+        "user_answer_none": 7,
+        "user_answer_origin": 8,
+        "user_answer_time": 9,
+        "user_question_date": 10,
+        "user_question_destination": 11,
+        "user_question_origin": 12,
+        "user_question_time": 13
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_ask_date": 13,
+        "utter_ask_destination": 14,
+        "utter_ask_origin": 15,
+        "utter_ask_time": 16,
+        "utter_confirm_date": 17,
+        "utter_confirm_destination": 18,
+        "utter_confirm_origin": 19,
+        "utter_confirm_time": 20,
+        "utter_no_info": 21
+      },
+      "entities": {
+        "date": 0,
+        "destination": 1,
+        "origin": 2,
+        "price": 3,
+        "time": 4
+      },
+      "slots": {
+        "date_0": 0,
+        "time_0": 1,
+        "origin_0": 2,
+        "destination_0": 3,
+        "price_0": 4
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

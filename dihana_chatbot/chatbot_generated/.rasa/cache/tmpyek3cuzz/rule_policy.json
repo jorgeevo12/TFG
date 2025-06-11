@@ -1,0 +1,23 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"utter_no_info\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_date\"}}]": "utter_confirm_date",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_date\"}}, {\"prev_action\": {\"action_name\": \"utter_confirm_date\"}, \"user\": {\"intent\": \"user_answer_date\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_time\"}}]": "utter_confirm_time",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_time\"}}, {\"prev_action\": {\"action_name\": \"utter_confirm_time\"}, \"user\": {\"intent\": \"user_answer_time\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_origin\"}}]": "utter_confirm_origin",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_origin\"}}, {\"prev_action\": {\"action_name\": \"utter_confirm_origin\"}, \"user\": {\"intent\": \"user_answer_origin\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_destination\"}}]": "utter_confirm_destination",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"user_answer_destination\"}}, {\"prev_action\": {\"action_name\": \"utter_confirm_destination\"}, \"user\": {\"intent\": \"user_answer_destination\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart"
+    ]
+  }
+}

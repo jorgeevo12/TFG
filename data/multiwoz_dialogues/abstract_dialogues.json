@@ -1,0 +1,200 @@
+[
+  {
+    "dialogue_id": "PMUL4398.json",
+    "abstract_dialogue": [
+      "restaurant-inform",
+      "restaurant-inform",
+      "restaurant-request",
+      "restaurant-inform",
+      "hotel-inform",
+      "hotel-inform",
+      "hotel-inform",
+      "booking-request",
+      "hotel-inform",
+      "booking-inform",
+      "general-bye",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "SNG1013.json",
+    "abstract_dialogue": [
+      "hotel-inform",
+      "hotel-inform",
+      "hotel-inform",
+      "hotel-request",
+      "hotel-inform",
+      "booking-inform",
+      "hotel-inform",
+      "booking-inform",
+      "hotel-inform",
+      "booking-inform",
+      "general-bye",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0121.json",
+    "abstract_dialogue": [
+      "hotel-inform",
+      "booking-inform",
+      "hotel-inform",
+      "booking-request",
+      "hotel-inform",
+      "booking-inform",
+      "restaurant-inform",
+      "restaurant-inform",
+      "restaurant-request",
+      "booking-inform",
+      "general-thank",
+      "general-reqmore",
+      "general-thank",
+      "general-welcome"
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3484.json",
+    "abstract_dialogue": [
+      "hotel-inform",
+      "general-reqmore",
+      "hotel-inform",
+      "booking-inform",
+      "hotel-inform",
+      "booking-request",
+      "hotel-inform",
+      "booking-inform",
+      "general-thank",
+      "general-bye",
+      "restaurant-inform",
+      "restaurant-request",
+      "restaurant-inform",
+      "booking-inform",
+      "restaurant-inform",
+      "booking-inform",
+      "taxi-inform",
+      "taxi-inform",
+      "general-thank",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "SNG0389.json",
+    "abstract_dialogue": [
+      "train-inform",
+      "train-request",
+      "other",
+      "train-request",
+      "train-inform",
+      "train-request",
+      "train-inform",
+      "train-inform",
+      "train-inform",
+      "train-inform",
+      "general-thank",
+      "train-inform",
+      "train-inform",
+      "train-inform",
+      "general-bye",
+      "general-bye",
+      "general-bye",
+      "train-inform"
+    ]
+  },
+  {
+    "dialogue_id": "SNG01520.json",
+    "abstract_dialogue": [
+      "restaurant-inform",
+      "booking-inform",
+      "restaurant-inform",
+      "booking-inform",
+      "general-thank",
+      "general-bye",
+      "general-bye",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3951.json",
+    "abstract_dialogue": [
+      "train-inform",
+      "train-request",
+      "train-inform",
+      "train-inform",
+      "train-inform",
+      "train-inform",
+      "restaurant-inform",
+      "booking-inform",
+      "restaurant-request",
+      "booking-inform",
+      "restaurant-inform",
+      "booking-request",
+      "restaurant-inform",
+      "booking-inform",
+      "general-thank",
+      "general-reqmore",
+      "general-thank",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0843.json",
+    "abstract_dialogue": [
+      "restaurant-inform",
+      "restaurant-inform",
+      "restaurant-inform",
+      "restaurant-inform",
+      "restaurant-request",
+      "restaurant-inform",
+      "restaurant-request",
+      "restaurant-inform",
+      "train-inform",
+      "train-request",
+      "train-inform",
+      "train-inform",
+      "train-request",
+      "train-inform",
+      "general-thank",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "PMUL2979.json",
+    "abstract_dialogue": [
+      "hotel-inform",
+      "hotel-request",
+      "attraction-inform",
+      "attraction-inform",
+      "attraction-inform",
+      "attraction-inform",
+      "hotel-inform",
+      "hotel-inform",
+      "hotel-inform",
+      "hotel-inform",
+      "taxi-inform",
+      "taxi-inform",
+      "taxi-inform",
+      "taxi-inform",
+      "general-thank",
+      "general-bye"
+    ]
+  },
+  {
+    "dialogue_id": "MUL1681.json",
+    "abstract_dialogue": [
+      "train-inform",
+      "train-request",
+      "other",
+      "train-request",
+      "train-inform",
+      "train-inform",
+      "restaurant-inform",
+      "restaurant-inform",
+      "restaurant-inform",
+      "booking-inform",
+      "restaurant-request",
+      "restaurant-inform",
+      "general-bye",
+      "general-welcome"
+    ]
+  }
+]

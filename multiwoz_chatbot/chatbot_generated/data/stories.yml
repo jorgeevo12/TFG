@@ -1,0 +1,147 @@
+stories:
+- story: restaurant_reservation_process
+  steps:
+    - intent: restaurant_request
+    - action: restaurant_form
+    - active_loop: restaurant_form
+    - intent: inform_food
+      entities:
+        - food: "Chinese"
+    - slot_was_set:
+        - food: "Chinese"
+    - intent: inform_price
+      entities:
+        - price: "20"
+    - slot_was_set:
+        - price: "20"
+    - intent: inform_phone
+      entities:
+        - phone: "0123456789"
+    - slot_was_set:
+        - phone: "0123456789"
+    - intent: inform_location
+      entities:
+        - location: "Rome"
+    - slot_was_set:
+        - location: "Rome"
+    - intent: inform_reservation
+      entities:
+        - reservation: "Angela Prados"
+    - slot_was_set:
+        - reservation: "Angela Prados"
+    - active_loop: null
+    - action: utter_confirm_all_restaurant
+
+- story: hotel_booking_process
+  steps:
+    - intent: hotel_request
+    - action: hotel_form
+    - active_loop: hotel_form
+    - intent: inform_price
+      entities:
+        - price: "100"
+    - slot_was_set:
+        - price: "100"
+    - intent: inform_phone
+      entities:
+        - phone: "0123456789"
+    - slot_was_set:
+        - phone: "0123456789"
+    - intent: inform_location
+      entities:
+        - location: "Rome"
+    - slot_was_set:
+        - location: "Rome"
+    - intent: inform_reservation
+      entities:
+        - reservation: "Angela Prados"
+    - slot_was_set:
+        - reservation: "Angela Prados"
+    - active_loop: null
+    - action: utter_confirm_all_hotel
+
+- story: train_ticket_booking
+  steps:
+    - intent: train_request
+    - action: train_form
+    - active_loop: train_form
+    - intent: inform_station
+      entities:
+        - station: "London King's Cross"
+    - slot_was_set:
+        - station: "London King's Cross"
+    - intent: inform_price
+      entities:
+        - price: "100"
+    - slot_was_set:
+        - price: "100"
+    - intent: inform_phone
+      entities:
+        - phone: "0123456789"
+    - slot_was_set:
+        - phone: "0123456789"
+    - active_loop: null
+    - action: utter_confirm_all_train
+
+- story: taxi_booking_confirmation
+  steps:
+    - intent: taxi_request
+    - action: taxi_form
+    - active_loop: taxi_form
+    - intent: inform_location
+      entities:
+        - location: "Rome"
+    - slot_was_set:
+        - location: "Rome"
+    - intent: inform_phone
+      entities:
+        - phone: "0123456789"
+    - slot_was_set:
+        - phone: "0123456789"
+    - intent: inform_price
+      entities:
+        - price: "50"
+    - slot_was_set:
+        - price: "50"
+    - active_loop: null
+    - action: utter_confirm_all_taxi
+
+#- story: restaurant_price_request
+ # steps:
+  #  - intent: restaurant_request_price
+   # - action: utter_restaurant_price_info
+
+#- story: restaurant_food_request
+ # steps:
+  #  - intent: restaurant_request_food
+   # - action: utter_restaurant_food_info
+
+#- story: phone_number_request
+ # steps:
+  #  - intent: restaurant_request_phone
+   # - action: utter_phone_request
+
+#- story: hotel_location_request
+ # steps:
+  #  - intent: hotel_request_location
+   # - action: utter_location_info
+
+#- story: train_departure_request
+ # steps:
+  #  - intent: train_request_departure_location
+   # - action: utter_train_departure_info
+
+#- story: train_arrival_request
+ # steps:
+  #  - intent: train_request_arrival_location
+   # - action: utter_train_arrival_info
+
+#- story: taxi_confirmation
+ # steps:
+  #  - intent: taxi_request_confirmation
+   # - action: utter_taxi_confirmation
+
+#- story: general_acknowledgement_response
+ # steps:
+  #  - intent: general_acknowledgement
+   # - action: utter_acknowledgement

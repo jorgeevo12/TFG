@@ -1,0 +1,9 @@
+{
+  "0": "intent_hotel_booking",
+  "1": "intent_hotel_inform",
+  "2": "intent_restaurant_booking",
+  "3": "intent_restaurant_inform",
+  "4": "intent_restaurant_request",
+  "5": "intent_train_inform",
+  "6": "intent_train_request"
+}

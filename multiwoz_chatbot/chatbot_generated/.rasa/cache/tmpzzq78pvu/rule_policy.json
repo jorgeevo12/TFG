@@ -1,0 +1,34 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_general_greet\"}}]": "utter_welcome",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_general_greet\"}}, {\"prev_action\": {\"action_name\": \"utter_welcome\"}, \"user\": {\"intent\": \"intent_general_greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_taxi_request\"}}]": "utter_taxi_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_taxi_request\"}}, {\"prev_action\": {\"action_name\": \"utter_taxi_info\"}, \"user\": {\"intent\": \"intent_taxi_request\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_other\"}}]": "utter_assistant",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_other\"}}, {\"prev_action\": {\"action_name\": \"utter_assistant\"}, \"user\": {\"intent\": \"intent_other\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}]": "utter_hotel_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}, {\"prev_action\": {\"action_name\": \"utter_hotel_info\"}, \"user\": {\"intent\": \"intent_hotel_request\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_inform\"}}]": "utter_restaurant_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_restaurant_inform\"}}, {\"prev_action\": {\"action_name\": \"utter_restaurant_info\"}, \"user\": {\"intent\": \"intent_restaurant_inform\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_train_request\"}}]": "utter_train_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"intent_train_request\"}}, {\"prev_action\": {\"action_name\": \"utter_train_info\"}, \"user\": {\"intent\": \"intent_train_request\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "handling active loops and forms - form_train_form",
+      "predicting default action with intent session_start",
+      "handling active loops and forms - form_train_form - action_listen",
+      "handling active loops and forms - form_taxi_form",
+      "handling active loops and forms - form_hotel_form - action_listen",
+      "predicting default action with intent restart",
+      "handling active loops and forms - form_restaurant_form - action_listen",
+      "handling active loops and forms - form_hotel_form",
+      "handling active loops and forms - form_restaurant_form",
+      "predicting default action with intent back",
+      "handling active loops and forms - form_taxi_form - action_listen"
+    ]
+  }
+}

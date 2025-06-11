@@ -1,0 +1,47 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}]": "train_form",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}, {\"active_loop\": {\"name\": \"train_form\"}, \"prev_action\": {\"action_name\": \"train_form\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}]": "action_listen",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"train_form\"}}]": "utter_confirm_all_train",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"train_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_train\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}]": "restaurant_form",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}, {\"active_loop\": {\"name\": \"restaurant_form\"}, \"prev_action\": {\"action_name\": \"restaurant_form\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}]": "action_listen",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"restaurant_form\"}}]": "utter_confirm_all_restaurant",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"restaurant_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_restaurant\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hotel_request_location\"}}]": "hotel_form",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hotel_request_location\"}}, {\"active_loop\": {\"name\": \"hotel_form\"}, \"prev_action\": {\"action_name\": \"hotel_form\"}, \"user\": {\"intent\": \"hotel_request_location\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}]": "taxi_form",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}, {\"active_loop\": {\"name\": \"taxi_form\"}, \"prev_action\": {\"action_name\": \"taxi_form\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}]": "action_listen",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"hotel_form\"}}]": "utter_confirm_all_hotel",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"hotel_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_hotel\"}}]": "action_listen",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"taxi_form\"}}]": "utter_confirm_all_taxi",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"taxi_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_taxi\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}}, {\"active_loop\": {\"name\": \"train_form\"}, \"prev_action\": {\"action_name\": \"train_form\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}]": "do_not_predict_loop_action",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}}, {\"active_loop\": {\"name\": \"restaurant_form\"}, \"prev_action\": {\"action_name\": \"restaurant_form\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}]": "do_not_predict_loop_action",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}}, {\"active_loop\": {\"name\": \"hotel_form\"}, \"prev_action\": {\"action_name\": \"hotel_form\"}, \"user\": {\"intent\": \"hotel_request_location\"}}]": "do_not_predict_loop_action",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}}, {\"active_loop\": {\"name\": \"taxi_form\"}, \"prev_action\": {\"action_name\": \"taxi_form\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}]": "do_not_predict_loop_action"
+    },
+    "rules_not_in_stories": [
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"train_form\"}}]",
+      "handling active loops and forms - train_form",
+      "handling active loops and forms - restaurant_form",
+      "handling active loops and forms - taxi_form",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"restaurant_form\"}}]",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"taxi_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_taxi\"}}]",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"taxi_form\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"hotel_form\"}}]",
+      "predicting default action with intent back",
+      "handling active loops and forms - hotel_form",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"restaurant_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_restaurant\"}}]",
+      "predicting default action with intent restart",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"train_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_train\"}}]",
+      "[{\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"hotel_form\"}}, {\"active_loop\": {\"name\": \"should_not_be_set\"}, \"prev_action\": {\"action_name\": \"utter_confirm_all_hotel\"}}]"
+    ]
+  }
+}

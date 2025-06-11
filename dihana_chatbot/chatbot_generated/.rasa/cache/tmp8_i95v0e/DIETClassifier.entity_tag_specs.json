@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-date",
+      "2": "I-date",
+      "3": "L-date",
+      "4": "U-date",
+      "5": "B-origin",
+      "6": "I-origin",
+      "7": "L-origin",
+      "8": "U-origin",
+      "9": "B-price",
+      "10": "I-price",
+      "11": "L-price",
+      "12": "U-price",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-date": 1,
+      "I-date": 2,
+      "L-date": 3,
+      "U-date": 4,
+      "B-origin": 5,
+      "I-origin": 6,
+      "L-origin": 7,
+      "U-origin": 8,
+      "B-price": 9,
+      "I-price": 10,
+      "L-price": 11,
+      "U-price": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

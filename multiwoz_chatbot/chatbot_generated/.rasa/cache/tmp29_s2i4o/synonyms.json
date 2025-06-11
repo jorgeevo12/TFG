@@ -1,0 +1,10 @@
+{
+  "other": "other",
+  "restaurant_inform": "restaurant_inform",
+  "restaurant_request": "restaurant_request",
+  "taxi_inform": "taxi_inform",
+  "train_inform": "train_inform",
+  "train_request": "train_request",
+  "hotel_inform": "hotel_inform",
+  "hotel_request": "hotel_request"
+}

@@ -1,0 +1,11 @@
+{
+  "0": "answer_price",
+  "1": "confirm_time",
+  "2": "disconfirm_time",
+  "3": "inform_date",
+  "4": "inform_origin",
+  "5": "question_time",
+  "6": "request_destination",
+  "7": "request_price",
+  "8": "suggest_origin"
+}

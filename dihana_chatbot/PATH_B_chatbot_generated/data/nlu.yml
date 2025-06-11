@@ -1,0 +1,58 @@
+nlu:
+  - intent: inform_date
+    examples: |
+      - I want to travel on [15th April](date)
+      - On [20th May](date)
+      - The trip is scheduled for [May 10th](date)
+      - Let's go on [the 5th of June](date)
+      - When is the trip? [Next Monday](date)
+
+  - intent: inform_time
+    examples: |
+      - I want to leave at [8 AM](time)
+      - Departure time should be [10 PM](time)
+      - Let's go at [midnight](time)
+      - What about [noon](time)?
+      - The train at [5 PM](time) works for me
+
+  - intent: inform_origin
+    examples: |
+      - Origin is [Madrid](origin)
+      - I'm starting from [Barcelona](origin)
+      - Departure city is [Paris](origin)
+      - Starting point is [Rome](origin)
+      - The trip begins in [London](origin)
+
+  - intent: inform_destination
+    examples: |
+      - Destination is [Salamanca](destination)
+      - I'm going to [Sevilla](destination)
+      - Arriving at [Valladolid](destination)
+      - The endpoint is [Bilbao](destination)
+      - Final stop is [Madrid](destination)
+
+  - intent: inform_price
+    examples: |
+      - Budget is [100](price)€
+      - Price should be around [200](price)€
+      - What's the cost? [50](price)€
+      - The price range is [30-40](price)€
+      - How much does it cost? [Free](price)€
+
+  - intent: request_trip
+    examples: |
+      - I want to plan a trip.
+      - Let me book a train ticket.
+      - Help me schedule my travel.
+      - Plan my journey, please.
+      - Arrange my trip for me.
+
+
+# SLOTS ANOTADOS
+# origin
+# 
+# destination
+# 
+# date
+# 
+# time

@@ -1,0 +1,30 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_phone\"}}]": "utter_phone_request",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_phone\"}}, {\"prev_action\": {\"action_name\": \"utter_phone_request\"}, \"user\": {\"intent\": \"restaurant_request_phone\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}]": "utter_train_departure_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}, {\"prev_action\": {\"action_name\": \"utter_train_departure_info\"}, \"user\": {\"intent\": \"train_request_departure_location\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"general_acknowledgement\"}}]": "utter_acknowledgement",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"general_acknowledgement\"}}, {\"prev_action\": {\"action_name\": \"utter_acknowledgement\"}, \"user\": {\"intent\": \"general_acknowledgement\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}]": "utter_taxi_confirmation",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}, {\"prev_action\": {\"action_name\": \"utter_taxi_confirmation\"}, \"user\": {\"intent\": \"taxi_request_confirmation\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_food\"}}]": "utter_restaurant_food_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_food\"}}, {\"prev_action\": {\"action_name\": \"utter_restaurant_food_info\"}, \"user\": {\"intent\": \"restaurant_request_food\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"train_request_arrival_location\"}}]": "utter_train_arrival_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"train_request_arrival_location\"}}, {\"prev_action\": {\"action_name\": \"utter_train_arrival_info\"}, \"user\": {\"intent\": \"train_request_arrival_location\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}]": "utter_restaurant_price_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}, {\"prev_action\": {\"action_name\": \"utter_restaurant_price_info\"}, \"user\": {\"intent\": \"restaurant_request_price\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hotel_request_location\"}}]": "utter_location_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"hotel_request_location\"}}, {\"prev_action\": {\"action_name\": \"utter_location_info\"}, \"user\": {\"intent\": \"hotel_request_location\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent restart",
+      "predicting default action with intent session_start",
+      "predicting default action with intent back"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "0": "affirm",
+  "1": "deny",
+  "2": "general",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "hotel_inform",
+  "6": "hotel_request",
+  "7": "request_more",
+  "8": "restaurant_greet",
+  "9": "restaurant_inform",
+  "10": "restaurant_request",
+  "11": "taxi_inform",
+  "12": "thank_you",
+  "13": "train_inform",
+  "14": "train_request",
+  "15": "welcome"
+}

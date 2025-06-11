@@ -1,0 +1,517 @@
+[
+  {
+    "dialogue_id": "Z510_ZA9a3",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Hola buenas tardes me gustaría ir Salamanca desde Madrid un viaje de ida para asistir a un concierto . Me gustaría saber el horario que podría tener ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "El diez de julio por la mañana ."
+      },
+      {
+        "SYSTEM": "Lo siento . No he entendido bien . puede repetir ? ."
+      },
+      {
+        "USER": "Me gustaría salir el diez de julio por la mañana ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de madrid a salamanca el sábado , día 10 de julio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . El primero sale a las 8 y 45 de la mañana y el otro a las 11 de la mañana . Desea algo más ? ."
+      },
+      {
+        "USER": "No gracias ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z510_ZB2c7",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Hola buenas tardes me gustaría saber el horario y los precios para ir a Valladolid , es un viaje de ida , voy a visitar unos familiares . Me gustaría viajar en un tren cómodo ."
+      },
+      {
+        "SYSTEM": "¿ A qué ciudad desea viajar ? ."
+      },
+      {
+        "USER": "Sí , a Valladolid ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "Me gustaría llegar el sábado ."
+      },
+      {
+        "SYSTEM": "Lo siento . No he entendido bien . puede repetir ? ."
+      },
+      {
+        "USER": "Sí , me gustaría llegar el sábado ."
+      },
+      {
+        "SYSTEM": "Quiere horarios de trenes a valladolid , ¿ desde zaragoza ? ."
+      },
+      {
+        "USER": "Sí ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en zaragoza destino valladolid saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . El primero sale a las 2 y 30 de la madrugada y el otro a las 2 y 20 de la tarde . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí , me gustaría saber el precio ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . En clase turista , el tren más caro es un miguel_de_unamuno que cuesta 27 euros la ida y el otro es un pío_baroja que cuesta 26 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "No gracias ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z510_ZB9a3",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Buenas tardes me gustaría saber el precio de un viaje de ida de Ciudad_Real a Sevilla para el veinte de julio al mediodía , si pudiera ser talgo y con litera por favor ."
+      },
+      {
+        "SYSTEM": "¿ A qué ciudad desea viajar ? ."
+      },
+      {
+        "USER": "A Sevilla ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "El veinte de julio ."
+      },
+      {
+        "SYSTEM": "Quiere saber el precio a sevilla , ¿ desde zaragoza ? ."
+      },
+      {
+        "USER": "No , desde Ciudad_Real ."
+      },
+      {
+        "SYSTEM": "Le consulto precios de ciudad_real a sevilla saliendo el martes , día 20 de julio de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Los trenes son ave y en clase turista , el billete cuesta 41 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "¿ No hay trenes talgo o con litera ? ."
+      },
+      {
+        "SYSTEM": "¿ Desea hacer el viaje en un talgo ? ."
+      },
+      {
+        "USER": "Sí ."
+      },
+      {
+        "SYSTEM": "Le consulto precios de ciudad_real a sevilla en tipo tren talgo . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ."
+      },
+      {
+        "USER": "Me gustaría viajar en litera ."
+      },
+      {
+        "SYSTEM": "Le consulto precios . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ."
+      },
+      {
+        "USER": "No , gracias ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z510_ZC4c3",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Buenas tardes me gustaría saber los horarios y los precios para un viaje de Barcelona a Valencia de ida y vuelta es para ver las fallas es para llegar diecisiete de marzo entre ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "Sí , me gustaría llegar a Valencia el diecisiete de marzo entre las diez y las once ."
+      },
+      {
+        "SYSTEM": "Lo siento . No he entendido bien . puede repetir ? ."
+      },
+      {
+        "USER": "Sí , me gustaría llegar a Valencia el diecisiete de marzo entre las diez y las once de la mañana ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de barcelona a valencia llegando el jueves , día 17 de marzo de 2005 entre las 10 y las 11 de la mañana . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ."
+      },
+      {
+        "USER": "Sí , me gustaría llegar por la mañana ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de barcelona a valencia llegando el jueves , día 17 de marzo de 2005 entre las 7 de la mañana y la una de la tarde . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 9 de la mañana y llega a las 11 y 54 de la mañana . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí me gustaría que vuelva el día veinte por la tarde por favor ."
+      },
+      {
+        "SYSTEM": "Lo siento . No he entendido bien . puede repetir ? ."
+      },
+      {
+        "USER": "Me gustaría saber los horarios para volver el veinte por la tarde el veinte de marzo ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de valencia a barcelona el domingo , día 20 de marzo de 2005 entre la una de la tarde y las 9 de la noche . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Hay varios trenes . El primero sale a la una y 8 de la tarde y el último a las 8 y 45 de la tarde . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí , me gustaría saber los precios para el trayecto de ida y de vuelta ."
+      },
+      {
+        "SYSTEM": "Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el más barato es un regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "No , gracias ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZA9a2",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Querría obtener el horario tren ."
+      },
+      {
+        "SYSTEM": "¿ A qué ciudad desea viajar ? ."
+      },
+      {
+        "USER": "Tarragona ."
+      },
+      {
+        "SYSTEM": "Lo siento . No he entendido bien . puede repetir ? ."
+      },
+      {
+        "USER": "Madrid ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "Veinticinco de abril ."
+      },
+      {
+        "SYSTEM": "¿ Desea salir el martes , día 27 de abril de 2004 ? ."
+      },
+      {
+        "USER": "No , veinticinco de abril de dos mil cuatro ."
+      },
+      {
+        "SYSTEM": "Quiere horarios de trenes a madrid , ¿ desde zaragoza ? ."
+      },
+      {
+        "USER": "No , Barcelona ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en barcelona destino madrid saliendo el domingo , día 25 de abril de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? ."
+      },
+      {
+        "USER": "No ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZB2c6",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Querría obtener el horario para ir a Madrid el veintiocho de febrero ."
+      },
+      {
+        "SYSTEM": "Quiere horarios de trenes a madrid , ¿ desde zaragoza ? ."
+      },
+      {
+        "USER": "Sí , desde Zaragoza y en un tren rápido ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el lunes , día 28 de febrero de 2005 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Hay varios trenes . El más rápido sale a las 12 y 10 de la mañana y el más lento a las 3 y 36 de la madrugada . Desea algo más ? ."
+      },
+      {
+        "USER": "Y para el mismo recorrido , ¿ cuáles son los precios ? ."
+      },
+      {
+        "SYSTEM": "Hay varios trenes . En clase turista , el tren más rápido es un triana que cuesta 26 con 50 euros la ida y el más lento es un trenhotel que cuesta 26 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "No ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZB9a2",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Quiero los precios para ir el día veinticinco de marzo desde Gerona hasta Salamanca ."
+      },
+      {
+        "SYSTEM": "¿ Quiere viajar desde barcelona ? ."
+      },
+      {
+        "USER": "Sí , y hasta Salamanca ."
+      },
+      {
+        "SYSTEM": "Le consulto precios de barcelona a salamanca saliendo el viernes , día 25 de marzo de 2005 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . En clase turista , el tren más caro es un miguel_de_unamuno que cuesta 39 euros la ida y el otro es un pío_baroja que cuesta 37 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "¿ Y cuál es el precio del tren más rápido ? ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . En clase turista , el tren más rápido es un miguel_de_unamuno que cuesta 39 euros la ida y el otro es un pío_baroja que cuesta 37 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí , y ¿ hay algún tren entre las diez y las doce de la mañana ? ."
+      },
+      {
+        "SYSTEM": "Un momento por favor ."
+      },
+      {
+        "SYSTEM": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ."
+      },
+      {
+        "USER": "No ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZC4c2",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Quiero los horarios para ir de Jaén a Madrid el día veintitrés de octubre a las diez de la noche ."
+      },
+      {
+        "SYSTEM": "¿ A qué ciudad desea viajar ? ."
+      },
+      {
+        "USER": "A Madrid el veintitrés de octubre a las diez de la noche ."
+      },
+      {
+        "SYSTEM": "¿ Quiere salir desde madrid ? ."
+      },
+      {
+        "USER": "No , quiero salir desde Jaén ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de jaén a madrid el martes , día 27 de abril de 2004 entre las 9 y 30 y las 10 y 30 de la noche . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ."
+      },
+      {
+        "USER": "Sí , la fecha en la que quiero viajar es el veintitrés de octubre y a las diez de la noche ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en jaén destino madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ."
+      },
+      {
+        "USER": "Y ¿ a partir de las doce de la noche ? ."
+      },
+      {
+        "SYSTEM": "Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y el otro a las 3 y 40 de la tarde . Desea algo más ? ."
+      },
+      {
+        "USER": "¿ Cuáles son los precios para el viaje ? ."
+      },
+      {
+        "SYSTEM": "Los trenes son regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "Quiero los horarios para el viaje de vuelta a partir de las dos de la mañana ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en madrid destino jaén saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí , el horario del viaje de vuelta para el día veinticuatro de octubre ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en madrid destino jaén saliendo el domingo , día 24 de octubre de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí y cuáles son los precios del tren ."
+      },
+      {
+        "SYSTEM": "Los trenes son regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "No ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z508_ZA9a1",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Quiero un billete para ir de Madrid a Granada el diez de mayo entre las seis y las diez ."
+      },
+      {
+        "SYSTEM": "¿ Quiere saber horarios ? ."
+      },
+      {
+        "USER": "Entre las seis y las diez ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "El diez de mayo ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de madrid a granada el lunes , día 10 de mayo de 2004 entre las 6 y las 10 de la mañana . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "El único tren que realiza el trayecto es un talgo que sale a las 8 y 10 de la mañana . Desea algo más ? ."
+      },
+      {
+        "USER": "No ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z508_ZB2c5",
+    "turns": [
+      {
+        "SYSTEM": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ."
+      },
+      {
+        "USER": "Deseo consultar horarios de tren rápido a Sevilla para primeros de noviembre ."
+      },
+      {
+        "SYSTEM": "¿ Qué día desea salir ? ."
+      },
+      {
+        "USER": "El dos de noviembre ."
+      },
+      {
+        "SYSTEM": "Quiere horarios de trenes a sevilla , ¿ desde zaragoza ? ."
+      },
+      {
+        "USER": "Sí ."
+      },
+      {
+        "SYSTEM": "Le consulto horarios de trenes con salida en zaragoza destino sevilla saliendo el martes , día 2 de noviembre de 2004 . Un momento por favor ."
+      },
+      {
+        "SYSTEM": "El único tren que realiza el trayecto es un triana que sale a las 12 y 10 de la mañana . Desea algo más ? ."
+      },
+      {
+        "USER": "Sí , consultar precios ."
+      },
+      {
+        "SYSTEM": "Lo siento . No he entendido bien . puede repetir ? ."
+      },
+      {
+        "USER": "Deseo consultar precio del tren rápido a Sevilla para el día dos de noviembre ."
+      },
+      {
+        "SYSTEM": "El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ."
+      },
+      {
+        "USER": "No ."
+      },
+      {
+        "SYSTEM": "Gracias por utilizar este servicio . Feliz viaje ."
+      }
+    ]
+  }
+]

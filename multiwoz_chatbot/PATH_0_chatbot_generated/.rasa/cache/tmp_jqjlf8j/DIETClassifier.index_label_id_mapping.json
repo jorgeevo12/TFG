@@ -1,0 +1,12 @@
+{
+  "0": "confirm_reservation",
+  "1": "inform_date",
+  "2": "inform_location",
+  "3": "inform_time",
+  "4": "request_address",
+  "5": "request_booking",
+  "6": "request_information",
+  "7": "request_phone_number",
+  "8": "request_postcode",
+  "9": "request_restaurant"
+}

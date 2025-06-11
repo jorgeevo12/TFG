@@ -1,0 +1,34 @@
+# Ignorar entornos virtuales
+.venv/
+**/.venv/
+
+# Ignorar la carpeta MultiWOZ dentro de data
+data/multiwoz/
+
+# Ignorar todo dentro de data/dihana excepto dihana_dialogues
+data/dihana/*
+!data/dihana/dihana_dialogues/
+
+# Ignorar todo dentro de la carpeta updates
+updates/
+
+# Archivos .txt a ignorar
+app.log
+app-1.log
+app-2.log
+app-3.log
+app-4.log
+app-5.log
+resultados_prueba_2_comp.txt
+server.log
+server-1.log
+server-2.log
+server-3.log
+server-4.log
+server-5.log
+
+# Archivos .py a ignorar
+test_2_da.py
+test_2_models.py
+test_ollama_da.py
+test_ollama_models.py

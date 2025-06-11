@@ -1,0 +1,91 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "attraction_info": 0,
+        "back": 1,
+        "hotel_location": 2,
+        "hotel_rooms": 3,
+        "inform_area": 4,
+        "inform_attraction": 5,
+        "inform_food": 6,
+        "inform_phone": 7,
+        "inform_price": 8,
+        "inform_reservation": 9,
+        "nlu_fallback": 10,
+        "out_of_scope": 11,
+        "request_attraction": 12,
+        "request_hotel": 13,
+        "request_restaurant": 14,
+        "request_taxi": 15,
+        "request_train": 16,
+        "restart": 17,
+        "restaurant_food": 18,
+        "restaurant_location": 19,
+        "session_start": 20,
+        "taxi_phone": 21,
+        "train_price": 22,
+        "train_time": 23
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_ask_food": 13,
+        "utter_ask_area": 14,
+        "utter_ask_price": 15,
+        "utter_ask_phone": 16,
+        "utter_ask_people": 17,
+        "utter_confirm_all_restaurant": 18,
+        "utter_confirm_all_hotel": 19,
+        "utter_confirm_all_train": 20,
+        "utter_confirm_all_taxi": 21,
+        "utter_confirm_all_attraction": 22,
+        "restaurant_form": 23,
+        "hotel_form": 24,
+        "train_form": 25,
+        "taxi_form": 26,
+        "attraction_form": 27
+      },
+      "entities": {
+        "area": 0,
+        "attraction": 1,
+        "food": 2,
+        "people": 3,
+        "phone": 4,
+        "price": 5,
+        "time": 6
+      },
+      "slots": {
+        "food_0": 0,
+        "area_0": 1,
+        "people_0": 2,
+        "price_0": 3,
+        "phone_0": 4,
+        "attraction_0": 5
+      },
+      "active_loop": {
+        "restaurant_form": 0,
+        "hotel_form": 1,
+        "train_form": 2,
+        "taxi_form": 3,
+        "attraction_form": 4
+      }
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

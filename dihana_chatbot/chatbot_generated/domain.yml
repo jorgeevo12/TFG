@@ -1,0 +1,173 @@
+version: "3.1"
+
+intents:
+  - inform_date
+  - question_time
+  - request_price
+  - inform_origin
+  - confirm_time
+  - disconfirm_time
+  - request_destination
+  - answer_price
+  - suggest_origin
+  - inform_time # ANIADIDOS A PARTIR DE AQUI
+  - request_trip
+  - inform_destination
+  - inform_price
+
+entities:
+  - date
+  - time
+  - origin
+  - destination
+  - price
+
+slots:
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+  time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: time
+  origin:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: origin
+  destination:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: destination
+  price:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: price
+
+forms:
+  trip_form:
+    required_slots:
+      - date
+      - time
+      - origin
+      - destination
+      - price
+
+responses:
+  utter_confirm_date:
+    - text: "Okay, the date is set to {date}."
+    - text: "Got it, we'll travel on {date}."
+    - text: "Perfect! Your journey will be on {date}."
+
+  utter_question_time:
+    - text: "What time would you like to depart?"
+    - text: "Could you confirm the departure time?"
+    - text: "When should I schedule your travel?"
+
+  utter_answer_time:
+    - text: "The train departs at 9:15 AM."
+    - text: "Your train leaves at 3:40 PM."
+    - text: "The next available train is at 7:30 PM."
+
+  utter_request_price:
+    - text: "The price for this trip is 40€."
+    - text: "It costs approximately 50€."
+    - text: "Your ticket will be around 30€."
+
+  utter_inform_origin:
+    - text: "Departing from {origin}."
+    - text: "Origin set to {origin}."
+    - text: "Starting your journey from {origin}."
+
+  utter_confirm_time:
+    - text: "Great, we'll depart at the specified time."
+    - text: "Confirmed, that's correct."
+    - text: "Perfect timing! All set."
+
+  utter_disconfirm_time:
+    - text: "No issue, let's adjust the timing."
+    - text: "Understood, I'll change the time."
+    - text: "Alright, let's find a better time."
+
+  utter_request_destination:
+    - text: "Please provide your destination city."
+    - text: "Where would you like to travel?"
+    - text: "Which destination are you interested in?"
+
+  utter_answer_price:
+    - text: "The price is 40€."
+    - text: "It's around 50€."
+    - text: "Expect to pay about 60€ for this trip."
+
+  utter_suggest_origin:
+    - text: "How about departing from Berlin?"
+    - text: "Maybe Rome would be a good option."
+    - text: "What if we start in Paris instead?"
+
+  utter_ask_date:
+    - text: "What date would you like to travel?"
+    - text: "Could you specify the date for your trip?"
+    - text: "On what date are you planning to depart?"
+
+  utter_ask_time:
+    - text: "What time would you like to depart?"
+    - text: "Can you confirm the departure time?"
+    - text: "When should I schedule your travel time?"
+
+  utter_ask_origin:
+    - text: "Where is your journey starting from?"
+    - text: "Could you provide the origin location?"
+    - text: "What is the starting point of your trip?"
+
+  utter_ask_destination:
+    - text: "What destination are you traveling to?"
+    - text: "Can you confirm the destination city?"
+    - text: "Where would you like to go?"
+
+  utter_ask_price:
+    - text: "What is your budget for this trip?"
+    - text: "Could you provide the price range?"
+    - text: "What's the maximum amount you're willing to spend?"
+
+  utter_confirm_all:
+    - text: "Great! All details are confirmed.
+        Date: {date}
+        Time: {time}
+        Origin: {origin}
+        Destination: {destination}
+        Price: {price}"
+    - text: "Perfect, everything is set.
+        Date: {date}
+        Time: {time}
+        Origin: {origin}
+        Destination: {destination}
+        Price: {price}"
+    - text: "Thanks for providing all the information!
+        Date: {date}
+        Time: {time}
+        Origin: {origin}
+        Destination: {destination}
+        Price: {price}"
+
+actions:
+  - utter_confirm_date
+  - utter_question_time
+  - utter_answer_time
+  - utter_request_price
+  - utter_inform_origin
+  - utter_confirm_time
+  - utter_disconfirm_time
+  - utter_request_destination
+  - utter_answer_price
+  - utter_suggest_origin
+  - utter_ask_date
+  - utter_ask_time
+  - utter_ask_origin
+  - utter_ask_destination
+  - utter_ask_price
+  - utter_confirm_all

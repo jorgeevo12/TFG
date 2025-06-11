@@ -1,0 +1,177 @@
+intents:
+  - restaurant_request_price
+  - restaurant_request_food
+  - restaurant_request_phone
+  - hotel_request_price
+  - hotel_request_location
+  - train_request_departure_location
+  - train_request_arrival_location
+  - taxi_request_confirmation
+  - general_acknowledgement
+  - inform_price
+  - inform_food
+  - inform_phone
+  - inform_location
+  - inform_station
+  - inform_reservation
+  - restaurant_request
+  - hotel_request
+  - train_request
+  - taxi_request
+
+entities:
+  - price
+  - food
+  - phone
+  - location
+  - station
+  - reservation
+
+slots:
+  price:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: price
+  food:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: food
+  phone:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: phone
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+  station:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: station
+  reservation:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: reservation
+
+forms:
+  restaurant_form:
+    required_slots:
+      - food
+      - price
+      - phone
+      - location
+      - reservation
+  hotel_form:
+    required_slots:
+      - price
+      - phone
+      - location
+      - reservation
+  train_form:
+    required_slots:
+      - station
+      - price
+      - phone
+  taxi_form:
+    required_slots:
+      - location
+      - phone
+      - price
+
+responses:
+  utter_restaurant_price_info:
+    - text: "Most restaurants here range from [0-20] GBP. Would you like me to find one for you?"
+    - text: "Prices vary, but I can help find an affordable option."
+    - text: "The average price is around [15-30] GBP per person."
+
+  utter_restaurant_food_info:
+    - text: "We have several [Chinese](food) options available."
+    - text: "I can suggest a great [Indian](food) restaurant."
+    - text: "There are [Italian](food) places nearby as well."
+
+  utter_phone_request:
+    - text: "The phone number is [01234 567890]."
+    - text: "You can reach them at [01234 567891]."
+
+  utter_location_info:
+    - text: "This location is in the [city center](location)."
+    - text: "It's situated in the [south] part of town."
+
+  utter_train_departure_info:
+    - text: "The train departs from [London King's Cross](station)."
+    - text: "Source station is [Cambridge Station](station)."
+
+  utter_train_arrival_info:
+    - text: "Arriving at [Stansted Airport](station)."
+    - text: "Destination is [Liverpool Street](station)."
+
+  utter_taxi_confirmation:
+    - text: "Your taxi booking has been confirmed. A car will arrive shortly."
+    - text: "The reservation for your taxi is confirmed."
+
+  utter_acknowledgement:
+    - text: "You're welcome!"
+    - text: "No problem, happy to help!"
+
+  utter_ask_food:
+    - text: "What type of food are you looking for?"
+    - text: "Can you specify the cuisine you prefer?"
+
+  utter_ask_price:
+    - text: "What is your budget for this service?"
+    - text: "Please provide your desired price range."
+
+  utter_ask_phone:
+    - text: "May I have your phone number?"
+    - text: "What number should I reach you at?"
+
+  utter_ask_location:
+    - text: "Where are you located?"
+    - text: "Can you specify the area or location?"
+
+  utter_ask_station:
+    - text: "Which station are you departing from?"
+    - text: "Please provide the source station."
+
+  utter_ask_reservation:
+    - text: "Can I have the name the reservation is under?"
+    - text: "Who is the booking for?"
+    - text: "Please tell me the name used for the reservation."
+
+  utter_confirm_all_restaurant:
+    - text: "Perfect. You're booking a restaurant with {food} cuisine in {location}, within budget of {price}. We'll call you at {phone} to confirm your reservation for {reservation}."
+
+  utter_confirm_all_hotel:
+    - text: "Great! You're booking a hotel in {location} with a budget of {price}. We'll contact you at {phone} to confirm your reservation for {reservation}."
+
+  utter_confirm_all_train:
+    - text: "Perfect. Your train ticket is booked from {station} station, within the price range of {price}, and we'll call you at {phone}."
+
+  utter_confirm_all_taxi:
+    - text: "Confirming your taxi booking in {location}, with a budget of {price}. We'll reach out to you at {phone}."
+
+actions:
+  - utter_restaurant_price_info
+  - utter_restaurant_food_info
+  - utter_phone_request
+  - utter_location_info
+  - utter_train_departure_info
+  - utter_train_arrival_info
+  - utter_taxi_confirmation
+  - utter_acknowledgement
+  - utter_ask_food
+  - utter_ask_price
+  - utter_ask_phone
+  - utter_ask_location
+  - utter_ask_station
+  - utter_ask_reservation
+  - utter_confirm_all_restaurant
+  - utter_confirm_all_hotel
+  - utter_confirm_all_train
+  - utter_confirm_all_taxi

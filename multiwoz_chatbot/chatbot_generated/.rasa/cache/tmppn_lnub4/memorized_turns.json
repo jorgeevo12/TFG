@@ -1,0 +1,21 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwti8EJgDAMAFfJAE7QVURCKBECNq1pKkLp7lb0dwd3ax8L9GJ8IUWXrAH6B6iUOMAvh1RnnW2rbLMRneoBnG5B47NxdYxZd7FE7zHG9gBnwCP0": "utter_taxi_confirmation",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJLEiM74otbA0tbgkPjk/Ly2zKDcRpKOWgLmlJSWpRfFg7SjaSLEhFgB5XEp8": "action_listen",
+    "eJwti9EJgDAMBVfpAE7QVURCqO8jUGNNU39Kd7eif3dwt/axhF4MN3FyOTWG/gEpH4jhlyzVobNtFTYb0akegxuLkuFqqE47Cps3A+Uz8TuOsT1t1SbX": "utter_train_departure_info",
+    "eJydjUEKwzAMBL/iB/QF/kooQiRbELhyIsu5GP+9LgnkGMhtF2Znp9Zfoa2GnXh2yRpDOwIpfxHDWZIUhw62FthgREf1GNxYlAxbRXFasLJ5NVDKM/+H/UZf3WF0WK616Cc/+Xr/ALajUXg=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohI78kNSe+KLWwNLW4JD4nPzkRpLy2NhYA/OYiqg==": "utter_location_info",
+    "eJyNzMEJgDAMheFVMoATdBWRUErEQk00Tb2U7m5F8aq398PHG2sboG5KB/pgUdhBvQeyX8nBEylmI+62ZNJuIvc0B4sYJVTaC2XDJMFfvH2cFjPSV2PkWf5fTyeRdUYu": "action_listen",
+    "eJwtysEJgDAMQNFVMoATdBWREDRCQVNNUi8luxvQ23/w5xETjEv5QVq9NikwvkChkwv8OKo5S77dWPOpkvQCyubUlcRR+e4p3FvbIpYXIaYjJg==": "utter_restaurant_food_info",
+    "eJyVjUEKgDAMBL/SB/iCfkUkFE2hoImmiZfi343owZt424Gd3b4dXWir4A5p1MIUQ7sDUFowhgfmUhXJu1ZRvFPIUWMQrJpMEikIbuYEmXk6PlZNFQVe8iVBocw/LoYTM0xKHQ==": "action_listen",
+    "eJwti8EJgDAMAFfJAE7QVURCKHkEaqpp2k/p7kb0dwd3+1wbzMt4IGWXqgnmB6h0coJfijRnjbY3tmhEQz2BG4mi8d25OZKZDCpYaqZ3W+t4ACCmJfw=": "utter_train_arrival_info",
+    "eJyVjUEKgDAMBL/SB/iCfkUkhBIhUFNN015K/25FPYu3XZidnVufXNuVKmAwTuJduwMIbuTdUyJnIxlsyaSDYRnVvDNFFlA6CmUDVOWKEWIKeM36h7yYkcLteLcsa/r/s5zJ4k7n": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPTUvtSgxB6g5Oy+/PCc1JT01FyhRWxsLABwnIuM=": "utter_acknowledgement",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPTUvtSgxB6g5Oy+/PCc1JT01FyhRS8DU0pKS1CIMTcSbHgsAmE9HdA==": "action_listen",
+    "eJwtysEJgDAMRuFVMoATdBWREMp/CGjUNPVSursBvb0P3jrmQuNyPCw19LRC4ws2OVDox64tYPn2Bs9HLRmFHC2ku1iw4+4pvlwr5txeRUUjkQ==": "utter_restaurant_price_info",
+    "eJyVjUEKgDAMBL+SB/iCfkUkhBIhoLGmqZfSv1vUgzfxtgM7u2NtA9RkfCBFl00D1Dug0soBHlgkO2vvlszWO6IdPYBxdipG6mi8l06YTCK3j9nizoYv+7JQdN7+nEwnF/ZLXg==": "action_listen",
+    "eJwtytEJgDAMRdFVMoATdBWREOSBBU1rmvpTursB/bsH7jrmQqMaHpbdc9FE4wtWuZDox5mbQ+PtDRZP1qAnMjSXbqLOhruHuB5FMef2AkVaI5g=": "utter_phone_request",
+    "eJyVjEEKgDAMBL+SB/iCfkWkBAlY0LSmiZfSvxuonsXbDszO3PoErQhdEVdNmQO0MSLjQQEe2FNVYnetkriT2FEDCFVFE2SNQqc5xbJlpv6RNVWSob7HP/HlBsWOSCg=": "action_listen"
+  }
+}

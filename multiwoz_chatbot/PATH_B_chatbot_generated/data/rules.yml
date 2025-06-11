@@ -1,0 +1,63 @@
+# VUELVE A SALIR TRIGGERS EN LUGAR DE STEPS
+# ANIADIR RULE RESPOND_TO_RESTAURANT_LOCATION
+
+rules:
+- rule: activate_restaurant_form_by_request
+  steps:
+    - intent: request_restaurant
+    - action: restaurant_form
+    - active_loop: restaurant_form
+
+- rule: submit_restaurant_form
+  steps:
+    - action: restaurant_form
+    - active_loop: null
+    - action: utter_confirm_all_restaurant
+
+- rule: activate_hotel_form_by_request
+  steps:
+    - intent: request_hotel
+    - action: hotel_form
+    - active_loop: hotel_form
+
+- rule: submit_hotel_form
+  steps:
+    - action: hotel_form
+    - active_loop: null
+    - action: utter_confirm_all_hotel
+
+- rule: activate_train_form_by_request
+  steps:
+    - intent: request_train
+    - action: train_form
+    - active_loop: train_form
+
+- rule: submit_train_form
+  steps:
+    - action: train_form
+    - active_loop: null
+    - action: utter_confirm_all_train
+
+- rule: activate_taxi_form_by_request
+  steps:
+    - intent: request_taxi
+    - action: taxi_form
+    - active_loop: taxi_form
+
+- rule: submit_taxi_form
+  steps:
+    - action: taxi_form
+    - active_loop: null
+    - action: utter_confirm_all_taxi
+
+- rule: activate_attraction_form_by_request
+  steps:
+    - intent: request_attraction
+    - action: attraction_form
+    - active_loop: attraction_form
+
+- rule: submit_attraction_form
+  steps:
+    - action: attraction_form
+    - active_loop: null
+    - action: utter_confirm_all_attraction

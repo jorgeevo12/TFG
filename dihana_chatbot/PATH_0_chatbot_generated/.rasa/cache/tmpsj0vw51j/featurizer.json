@@ -1,0 +1,72 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "inform_date": 1,
+        "inform_destination": 2,
+        "inform_origin": 3,
+        "inform_price": 4,
+        "inform_time": 5,
+        "nlu_fallback": 6,
+        "out_of_scope": 7,
+        "restart": 8,
+        "session_start": 9
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_confirm_date": 13,
+        "utter_question_time": 14,
+        "utter_answer_time": 15,
+        "utter_request_price": 16,
+        "utter_inform_origin": 17,
+        "utter_confirm_time": 18,
+        "utter_disconfirm_time": 19,
+        "utter_request_destination": 20,
+        "utter_answer_price": 21,
+        "utter_suggest_origin": 22,
+        "utter_ask_date": 23,
+        "utter_ask_time": 24,
+        "utter_ask_origin": 25,
+        "utter_ask_destination": 26,
+        "utter_ask_price": 27,
+        "utter_confirm_all": 28,
+        "trip_form": 29
+      },
+      "entities": {
+        "date": 0,
+        "destination": 1,
+        "origin": 2,
+        "price": 3,
+        "time": 4
+      },
+      "slots": {
+        "date_0": 0,
+        "time_0": 1,
+        "origin_0": 2,
+        "destination_0": 3,
+        "price_0": 4
+      },
+      "active_loop": {
+        "trip_form": 0
+      }
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

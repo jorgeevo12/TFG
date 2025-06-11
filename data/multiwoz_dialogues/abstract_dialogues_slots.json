@@ -1,0 +1,897 @@
+[
+  {
+    "dialogue_id": "PMUL4398.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "type_of_food"
+        ]
+      },
+      {
+        "act": "user-restaurant-request",
+        "slots": [
+          "price_range"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "price_range"
+        ]
+      },
+      {
+        "act": "system-hotel-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "booking"
+        ]
+      },
+      {
+        "act": "system-booking-request",
+        "slots": [
+          "date"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "number_of_people",
+          "start_date"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-general-bye",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG1013.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-hotel-inform",
+        "slots": [
+          "price_range"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-hotel-request",
+        "slots": [
+          "price_range"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "type_of_food"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "name"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "4",
+          "4_nights",
+          "tuesday"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "stay_length"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "duration"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-general-bye",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0121.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "number_of_people",
+          "start_date"
+        ]
+      },
+      {
+        "act": "system-booking-request",
+        "slots": [
+          "number_of_days"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "tuesday",
+          "3"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "location",
+          "price_range"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "number"
+        ]
+      },
+      {
+        "act": "user-restaurant-request",
+        "slots": [
+          "phone_number"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "restaurant_name"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": [
+          "none"
+        ]
+      },
+      {
+        "act": "system-general-reqmore",
+        "slots": []
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-welcome",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3484.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "name"
+        ]
+      },
+      {
+        "act": "system-general-reqmore",
+        "slots": [
+          "info"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "reservation"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "start_date"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "checkin_date"
+        ]
+      },
+      {
+        "act": "system-booking-request",
+        "slots": [
+          "number_of_guests"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "number_of_guests"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "booking"
+        ]
+      },
+      {
+        "act": "system-restaurant-request",
+        "slots": [
+          "area"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "date"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-taxi-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-taxi-inform",
+        "slots": [
+          "phone_number"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG0389.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "tuesday",
+          "kings_lynn"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "time_of_day"
+        ]
+      },
+      {
+        "act": "user-other",
+        "slots": [
+          "date"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "departure_station"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "departure_time"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "number_of_people"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "reference"
+        ]
+      },
+      {
+        "act": "user-general-bye",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      },
+      {
+        "act": "user-general-bye",
+        "slots": []
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "reference_number"
+        ]
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG01520.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "type_of_food"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "restaurant_name"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "date"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      },
+      {
+        "act": "user-general-bye",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3951.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "cambridge",
+          "stansted_airport"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "day",
+          "departure_time",
+          "arrival_time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "departure_time",
+          "origin"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "departure_time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "number_of_tickets"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "price"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "restaurant_name"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "address"
+        ]
+      },
+      {
+        "act": "user-restaurant-request",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "unavailable"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "date"
+        ]
+      },
+      {
+        "act": "system-booking-request",
+        "slots": [
+          "number_of_people"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "number_of_people"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "reference_number"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-reqmore",
+        "slots": []
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0843.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "price_range"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "type_of_food"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "type_of_food"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "name"
+        ]
+      },
+      {
+        "act": "user-restaurant-request",
+        "slots": [
+          "phone_number"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "phone_number"
+        ]
+      },
+      {
+        "act": "user-restaurant-request",
+        "slots": [
+          "address"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "address"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "cambridge",
+          "kings lynn",
+          "saturday",
+          "09:15"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "arrival_time"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "departure_station"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "departure_time"
+        ]
+      },
+      {
+        "act": "user-train-request",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "journey_number",
+          "time"
+        ]
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL2979.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-hotel-request",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-attraction-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-attraction-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-attraction-inform",
+        "slots": [
+          "type_of_attraction"
+        ]
+      },
+      {
+        "act": "system-attraction-inform",
+        "slots": [
+          "name"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "price_range"
+        ]
+      },
+      {
+        "act": "system-hotel-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "user-hotel-inform",
+        "slots": [
+          "rating"
+        ]
+      },
+      {
+        "act": "system-hotel-inform",
+        "slots": [
+          "stars"
+        ]
+      },
+      {
+        "act": "user-taxi-inform",
+        "slots": [
+          "destination"
+        ]
+      },
+      {
+        "act": "system-taxi-inform",
+        "slots": [
+          "car_type",
+          "contact_number"
+        ]
+      },
+      {
+        "act": "user-taxi-inform",
+        "slots": [
+          "vehicle"
+        ]
+      },
+      {
+        "act": "system-taxi-inform",
+        "slots": []
+      },
+      {
+        "act": "user-general-thank",
+        "slots": []
+      },
+      {
+        "act": "system-general-bye",
+        "slots": []
+      }
+    ]
+  },
+  {
+    "dialogue_id": "MUL1681.json",
+    "abstract_dialogue": [
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "origin"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "departure_location"
+        ]
+      },
+      {
+        "act": "user-other",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-train-request",
+        "slots": [
+          "date"
+        ]
+      },
+      {
+        "act": "user-train-inform",
+        "slots": [
+          "day",
+          "time"
+        ]
+      },
+      {
+        "act": "system-train-inform",
+        "slots": [
+          "time"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "location"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "type_of_food"
+        ]
+      },
+      {
+        "act": "user-restaurant-inform",
+        "slots": [
+          "restaurant_name"
+        ]
+      },
+      {
+        "act": "system-booking-inform",
+        "slots": [
+          "booking"
+        ]
+      },
+      {
+        "act": "user-restaurant-request",
+        "slots": [
+          "postcode"
+        ]
+      },
+      {
+        "act": "system-restaurant-inform",
+        "slots": [
+          "post_code"
+        ]
+      },
+      {
+        "act": "user-general-bye",
+        "slots": []
+      },
+      {
+        "act": "system-general-welcome",
+        "slots": []
+      }
+    ]
+  }
+]

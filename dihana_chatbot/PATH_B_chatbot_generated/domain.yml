@@ -1,0 +1,73 @@
+intents:
+  - inform_date
+  - inform_time
+  - inform_origin
+  - inform_destination
+  - inform_price
+  - request_trip
+
+entities:
+  - date
+  - time
+  - origin
+  - destination
+  - price
+
+slots:
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+  time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: time
+  origin:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: origin
+  destination:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: destination
+  price:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: price
+
+forms:
+  trip_form:
+    required_slots:
+    - date
+    - time
+    - origin
+    - destination
+    - price
+
+responses:
+  utter_ask_date:
+    - text: "What date would you like to travel?"
+  utter_ask_time:
+    - text: "At what time do you want to leave?"
+  utter_ask_origin:
+    - text: "Where is your journey starting from?"
+  utter_ask_destination:
+    - text: "Where are you traveling to?"
+  utter_ask_price:
+    - text: "What's your budget for the trip?"
+  utter_confirm_all:
+    - text: "So, let me confirm all details. Date: {date}, Time: {time}, Origin: {origin}, Destination: {destination}, and Price: {price}."
+    - text: "Just to make sure everything's set. You're traveling on {date} at {time} from {origin} to {destination} with a budget of {price}."
+
+actions:
+  - utter_ask_date
+  - utter_ask_time
+  - utter_ask_origin
+  - utter_ask_destination
+  - utter_ask_price
+  - utter_confirm_all

@@ -1,0 +1,207 @@
+nlu:
+  - intent: restaurant_request_price
+    examples: |
+      - [What's the price](price) range for a nice restaurant?
+      - Can you tell me the [cost](price)?
+      - What is the [average price](price) here?
+      - I'm looking for a place with [cheap](price).
+      - Any [affordable](price) options available?
+      - What's the [pricier](price) option?
+      - I need to know the [menu prices](price).
+      - Can you give me info on [dining costs](price)?
+      - What is the [price range](price) for tonight?
+      - Are there any [expensive](price) restaurants nearby?
+
+  - intent: restaurant_request_food
+    examples: |
+      - Do they serve [Chinese](food) food here?
+      - I'm interested in [Indian](food).
+      - Any [Italian](food) options available?
+      - Can you find a place with [Japanese](food)?
+      - What about [Mexican](food) restaurants?
+      - Are there any [vegetarian](food) places left?
+      - I want to know if they have [seafood](food).
+      - Does this restaurant offer [BBQ](food)?
+      - Can you suggest a [pub food](food) place?
+      - Any [fast food](food) options nearby?
+
+  - intent: restaurant_request_phone
+    examples: |
+      - What's the [phone number](phone)?
+      - Do you have their [contact number](phone)?
+      - I need the [telephone number](phone).
+      - Can you give me the [restaurant phone](phone)?
+      - Their [phone number](phone) please.
+      - Is there a [landline number](phone)?
+      - What is the [mobile number](phone)?
+      - Do they have an [office number](phone)?
+      - I need to reach them via [phone](phone).
+      - Can you provide their [contact info](phone)?
+
+  - intent: hotel_request_price
+    examples: |
+      - What's the [rate](price) for a room?
+      - Can you tell me the [cost per night](price)?
+      - Any [discounts](price) available?
+      - I'm looking for an [affordable](price) option.
+      - What is the [average price](price) here?
+      - Are there any [pricier](price) options?
+      - Need info on [hotel prices](price).
+      - Can you suggest a place with [low rates](price)?
+      - What's the [total cost](price) for a night?
+      - Any [expensive](price) hotels nearby?
+
+  - intent: hotel_request_location
+    examples: |
+      - Where is this [hotel](location) located?
+      - Do you know the [address](location)?
+      - Can you provide the [area](location)?
+      - I need to know the [neighborhood](location).
+      - What part of town is this [hotel](location) in?
+      - Is it in the [city center](location)?
+      - Can you give me the [directions](location)?
+      - Do they have a [map](location)?
+      - Where exactly is this [hotel](location)?
+      - The [vicinity](location) please.
+
+  - intent: train_request_departure_location
+    examples: |
+      - What's the [departure station](station)?
+      - Can you tell me the [starting point](station)?
+      - I need to know the [origin](station).
+      - Where is the [train leaving from](station)?
+      - The [source station](station) please.
+      - Is it departing from [main station](station)?
+      - What's the [departure city](station)?
+      - Can you confirm the [starting location](station)?
+      - I'm interested in the [origin](station).
+      - Where exactly is the [train departing from](station)?
+
+  - intent: train_request_arrival_location
+    examples: |
+      - Where is the [arrival station](station)?
+      - Do you know the [destination](station)?
+      - Can you provide the [end point](station)?
+      - I need to know the [terminus](station).
+      - What's the [final stop](station)?
+      - Is it arriving at [main station](station)?
+      - Where is the [arrival city](station)?
+      - Can you confirm the [destination](station)?
+      - I'm interested in the [end location](station).
+      - The [arrival point](station) please.
+
+  - intent: taxi_request_confirmation
+    examples: |
+      - Let me confirm my [booking](reservation).
+      - Are we good to go with this [taxi](reservation)?
+      - Can you confirm the [order](reservation)?
+      - I just want to make sure about this [cab](reservation).
+      - Is everything set for this [taxi booking](reservation)?
+      - Let me verify my [ride request](reservation).
+      - Confirming this [car hire](reservation).
+      - Just checking if this [taxy ride](reservation) is confirmed.
+      - Can you confirm the [reservation](reservation)?
+      - I need to make sure this [taxi booking](reservation) is valid.
+
+  - intent: general_acknowledgement
+    examples: |
+      - Thanks for the info.
+      - Got it, thanks.
+      - Understood, appreciate it.
+      - Alright, that's helpful.
+      - Okay, thank you.
+      - I see, thanks.
+      - That clarifies things.
+      - Fine, thanks.
+      - Great, that's good to know.
+      - Perfect, thanks a lot.
+  
+  - intent: inform_price
+    examples: |
+      - I'm okay with prices up to [50](price)€.
+      - [30-40](price)€ sounds good.
+      - Looking for something around [20](price)€.
+      - Our budget is [15-25](price)€ per person.
+      - Please suggest options under [30](price)€.
+      - I'd prefer nothing over [50](price)€.
+
+  - intent: inform_food
+    examples: |
+      - We need a place with [vegan](food) options.
+      - How about [Italian](food)?
+      - Looking for [fast food](food).
+      - Do you have any [vegetarian](food) spots?
+      - [Seafood](food) is our preference.
+      - Can we get a [pub food](food) place?
+
+  - intent: inform_phone
+    examples: |
+      - Call me at [123456789](phone).
+      - My number is [123456789](phone).
+      - Reach me at [123456789](phone) in country code 33.
+      - You can contact me at [123456789](phone).
+      - My mobile is [123456789](phone).
+      - Please use [123456789](phone) for landline.
+
+  - intent: inform_location
+    examples: |
+      - I'm at [San Francisco](location), CA.
+      - Looking for delivery in [Paris](location).
+      - Our area is [Midtown Manhattan](location).
+      - Can you deliver to [Tokyo](location)?
+      - We're in [Sydney](location), near the Opera House.
+      - Location is [Rome](location), Italy.
+
+  - intent: inform_station
+    examples: |
+      - Departing from [King's Cross Station](station).
+      - Arriving at [Waterloo Station](station).
+      - The nearest station is [Oxford Circus](station).
+      - I want to go to [Victoria Station](station).
+      - Leaving from [Liverpool Street](station).
+      - Destination is [Paddington Station](station).
+
+  - intent: inform_reservation
+    examples: |
+      - My name is [Emily Davis](reservation).
+      - Reservation under [Michael Clark](reservation).
+      - It's for [Sophia Martinez](reservation).
+      - Please use [Daniel Brown](reservation) for the booking.
+      - My reservation name is [Sarah Williams](reservation).
+      - Book it under [Henry Miller](reservation).
+  
+  - intent: restaurant_request
+    examples: |
+      - I want to book a restaurant.
+      - Can I reserve a table for two?
+      - Looking for a nice place to eat dinner.
+      - Need help finding a good restaurant nearby.
+      - Book me a table at the nearest Italian place.
+      - Help me find a dining option in this area.
+
+  - intent: hotel_request
+    examples: |
+      - I need help booking a hotel room.
+      - Looking for a comfortable hotel near the city center.
+      - Can you suggest a good hotel nearby?
+      - Book me a room at a decent price.
+      - Help find a hotel with breakfast included.
+      - Need assistance finding an available hotel.
+
+  - intent: train_request
+    examples: |
+      - Find me some train schedules to London.
+      - I need information about the next train to Manchester.
+      - Can you help book a train ticket?
+      - Looking for departure times from Birmingham.
+      - What's the schedule for trains to Edinburgh?
+      - Need assistance finding an early morning train.
+
+  - intent: taxi_request
+    examples: |
+      - Request a taxi please.
+      - Can I book a cab through you?
+      - Need a ride to the airport, can you help?
+      - Looking for a reliable taxi service nearby.
+      - Book me a taxi to the city center.
+      - Arrange a taxi for tomorrow morning.

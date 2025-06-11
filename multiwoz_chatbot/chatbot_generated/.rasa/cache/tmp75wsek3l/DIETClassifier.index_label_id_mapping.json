@@ -1,0 +1,11 @@
+{
+  "0": "general_acknowledgement",
+  "1": "hotel_request_location",
+  "2": "hotel_request_price",
+  "3": "restaurant_request_food",
+  "4": "restaurant_request_phone",
+  "5": "restaurant_request_price",
+  "6": "taxi_request_confirmation",
+  "7": "train_request_arrival_location",
+  "8": "train_request_departure_location"
+}

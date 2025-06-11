@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-date",
+      "2": "I-date",
+      "3": "L-date",
+      "4": "U-date",
+      "5": "B-destination",
+      "6": "I-destination",
+      "7": "L-destination",
+      "8": "U-destination",
+      "9": "B-origin",
+      "10": "I-origin",
+      "11": "L-origin",
+      "12": "U-origin",
+      "13": "B-price",
+      "14": "I-price",
+      "15": "L-price",
+      "16": "U-price",
+      "17": "B-time",
+      "18": "I-time",
+      "19": "L-time",
+      "20": "U-time",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-date": 1,
+      "I-date": 2,
+      "L-date": 3,
+      "U-date": 4,
+      "B-destination": 5,
+      "I-destination": 6,
+      "L-destination": 7,
+      "U-destination": 8,
+      "B-origin": 9,
+      "I-origin": 10,
+      "L-origin": 11,
+      "U-origin": 12,
+      "B-price": 13,
+      "I-price": 14,
+      "L-price": 15,
+      "U-price": 16,
+      "B-time": 17,
+      "I-time": 18,
+      "L-time": 19,
+      "U-time": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

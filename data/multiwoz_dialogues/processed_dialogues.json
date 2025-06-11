@@ -1,0 +1,1088 @@
+[
+  {
+    "dialogue_id": "PMUL4398.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "i need a place to dine in the center thats expensive",
+        "turn_id": "0",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have several options for you; do you prefer African, Asian, or British food?",
+        "turn_id": "1",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Any sort of food would be fine, as long as it is a bit expensive. Could I get the phone number for your recommendation?",
+        "turn_id": "2",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is an Afrian place named Bedouin in the centre. How does that sound?",
+        "turn_id": "3",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?",
+        "turn_id": "4",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Bedouin's phone is 01223367660. As far as hotels go, I recommend the University Arms Hotel in the center of town.",
+        "turn_id": "5",
+        "dialog_act": "Hotel-Recommend",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes. Can you book it for me?",
+        "turn_id": "6",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, when would you like that reservation?",
+        "turn_id": "7",
+        "dialog_act": "Booking-Request",
+        "expected_DA": "booking-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "i want to book it for 2 people and 2 nights starting from saturday.",
+        "turn_id": "8",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your booking was successful. Your reference number is FRGZWQL2 . May I help you further?",
+        "turn_id": "9",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is all I need to know. Thanks, good bye.",
+        "turn_id": "10",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Thank you so much for Cambridge TownInfo centre. Have a great day!",
+        "turn_id": "11",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG1013.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Guten Tag, I am staying overnight in Cambridge and need a place to sleep. I need free parking and internet.",
+        "turn_id": "0",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have 4 different options for you. I have two cheaper guesthouses and two expensive hotels. Do you have a preference?",
+        "turn_id": "1",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, but I'd really like to be on the south end of the city. Do any of those fit the bill?",
+        "turn_id": "2",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure. Does price matter? We can narrow it down and find exactly what you need.",
+        "turn_id": "3",
+        "dialog_act": "Hotel-Request",
+        "expected_DA": "hotel-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No I don't care about the price. Which one do you recommend?",
+        "turn_id": "4",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I would recommend aylesbray lodge guest house. Would you like me to book that for you?",
+        "turn_id": "5",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, book it for 4 people and 4 nights starting from tuesday.",
+        "turn_id": "6",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The booking was unsuccessful. would you like another day or a shorter stay?",
+        "turn_id": "7",
+        "dialog_act": "Booking-NoBook",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "How about for 3 nights?",
+        "turn_id": "8",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Booked! Reference number is: 84ESP6F5",
+        "turn_id": "9",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Great. I am all set then. Have a nice day. Bye.",
+        "turn_id": "10",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Have a nice stay. Bye.",
+        "turn_id": "11",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0121.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Hi there! Can you give me some info on Cityroomz?",
+        "turn_id": "0",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Cityroomz is located at Sleeperz Hotel, Station Road in the Centre area. It is a moderatley priced hotel with a 0 star rating. Would you like to book a room?",
+        "turn_id": "1",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes please. I need it for 7 people for 3 nights starting on tuesday.",
+        "turn_id": "2",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How many days would you like to book it for?",
+        "turn_id": "3",
+        "dialog_act": "Booking-Request",
+        "expected_DA": "booking-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to book it for 3 nights beginning on Tuesday.",
+        "turn_id": "4",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Ok, Your rooms have been booked. Your reference number is CYJDAR7R . Is there anything else I can help you with today?",
+        "turn_id": "5",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yeah, I need a restaurant in the west and with expensive pricing.",
+        "turn_id": "6",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are 9 expensive restaurants in the west area. Do you prefer a certain type of food?",
+        "turn_id": "7",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I don't have a preference, but I need the phone number and postcode.",
+        "turn_id": "8",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I recommend Graffiti, the number is 01223277977 and the postcode is cb30lx. Would you like me to book a table for you?",
+        "turn_id": "9",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, right now, I just need the infor. Thanks!",
+        "turn_id": "10",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can I help you with anything else today?",
+        "turn_id": "11",
+        "dialog_act": "general-reqmore",
+        "expected_DA": "general-reqmore"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That is all. thanks",
+        "turn_id": "12",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Thank you for using our system.",
+        "turn_id": "13",
+        "dialog_act": "general-welcome",
+        "expected_DA": "general-welcome"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3484.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I am looking for a hotel named alyesbray lodge guest house.",
+        "turn_id": "0",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "i have their info, what would you like to know?",
+        "turn_id": "1",
+        "dialog_act": "general-reqmore",
+        "expected_DA": "general-reqmore"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to book a reservation for it. Can you help me with that?",
+        "turn_id": "2",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I sure can. First, I will need to know when you want your stay to begin and how many days you'll be staying. Also, how many people will be staying?",
+        "turn_id": "3",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "We will be arriving on Sunday and will stay for 5 nights.",
+        "turn_id": "4",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Can you tell me how many guests will be staying in the room?",
+        "turn_id": "5",
+        "dialog_act": "Booking-Request",
+        "expected_DA": "booking-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "There will be 8 guests.",
+        "turn_id": "6",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Booking was successful. Your reference number is 4UFN3SWC . Will that be all for today?",
+        "turn_id": "7",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "that is it thank you.",
+        "turn_id": "8",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You have a nice day then!",
+        "turn_id": "9",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you actually look up a restaurant for me as well?",
+        "turn_id": "10",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "sure thing what's the area and or name?",
+        "turn_id": "11",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "It's a place called Don Pasquale Pizzeria.",
+        "turn_id": "12",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "A very nice place in the centre. Need a reservation?",
+        "turn_id": "13",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I do. I'll need it booked for the same day, same people, and we'd like to eat at 19:00.",
+        "turn_id": "14",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : GVM0PAM2 .",
+        "turn_id": "15",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Great. One more thing. Can you book a taxi between the two places? I'd like to arrive at the restaurant in time for my reservation.",
+        "turn_id": "16",
+        "dialog_act": "Taxi-Inform",
+        "expected_DA": "taxi-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Contact number 07404031593. You are in a Red Skoda.",
+        "turn_id": "17",
+        "dialog_act": "Taxi-Inform",
+        "expected_DA": "taxi-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you so much that was all I needed.",
+        "turn_id": "18",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Alright, hope you enjoy the rest of your day.",
+        "turn_id": "19",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG0389.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "i need a train on tuesday out of kings lynn",
+        "turn_id": "0",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What time of day would you like to leave?",
+        "turn_id": "1",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to leave on Tuesday.",
+        "turn_id": "2",
+        "dialog_act": null,
+        "expected_DA": "other"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Do you have a time you'd like to leave?",
+        "turn_id": "3",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I'd like to leave after 9:30.",
+        "turn_id": "4",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is that 9:30 AM or PM?",
+        "turn_id": "5",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Looking for a train Tuesday leaving kings lynn after 9:30 to go to cambridge.",
+        "turn_id": "6",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I'm sorry, I'm not seeing any trains for that time. Would you like to try another time or a different route?",
+        "turn_id": "7",
+        "dialog_act": "Train-NoOffer",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, I'd like a train leaving after 09:30 departing from Kings Lynn and going to Cambridge. Please take another look?",
+        "turn_id": "8",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There are no trains running at this time. Can I narrow your search in any way?",
+        "turn_id": "9",
+        "dialog_act": "Train-NoOffer",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Wow...no, I really needed that time. I guess not. Thanks anyway.",
+        "turn_id": "10",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I do have a train living at 10:11 of that would work for you.",
+        "turn_id": "11",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, that works. Please book for two people. Thanks for checking again.",
+        "turn_id": "12",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "It's my pleasure. You're booked with reference HXG3N56O . The total fee is 19.6 GBP payable at the station. May I help with anything else?",
+        "turn_id": "13",
+        "dialog_act": "Train-OfferBooked",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Perfect. Thank you for your help. Have a great day. Bye.",
+        "turn_id": "14",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Thank you for using our service, goodbye.",
+        "turn_id": "15",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Have a nice day.",
+        "turn_id": "16",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Booking was successful, the total fee is 19.6 GBP payable at the station . Reference number is : HXG3N56O .",
+        "turn_id": "17",
+        "dialog_act": "Train-OfferBooked",
+        "expected_DA": "train-inform"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "SNG01520.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I am looking for a restaurant. I would like something cheap that has Chinese food.",
+        "turn_id": "0",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I've heard good things about the lucky star. Need a reservation?",
+        "turn_id": "1",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, could you make a reservation for 1 at 20:00 on Saturday?",
+        "turn_id": "2",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your booking was successful. The table will be reserved for 15 minutes. Reference number is : FDLFKTZM .",
+        "turn_id": "3",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thank you so much for your help!",
+        "turn_id": "4",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You're welcome. Thank you! Have a good day now!",
+        "turn_id": "5",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks, you too. Goodbye.",
+        "turn_id": "6",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Thank you for using Cambridge TownInfo centre. Good-bye",
+        "turn_id": "7",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL3951.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Please find me a train from cambridge to stansted airport",
+        "turn_id": "0",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure, I can do that but first I need a little more information. What day would you like to travel as well as departure and arrival times?",
+        "turn_id": "1",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Saturday leaving Cambridge anytime after 20:00 please",
+        "turn_id": "2",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "TR3128 will leave at 20:40 and arrive by 21:08. Do you need more information or would you like to book tickets?",
+        "turn_id": "3",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you book me 6 tickets please?",
+        "turn_id": "4",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You're all set. Total for tickets is 48.48 GBP payable at the station. Reference number is JD6SA21J .",
+        "turn_id": "5",
+        "dialog_act": "Train-OfferBooked",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I am also looking for The Riverside Brasserie.",
+        "turn_id": "6",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "riverside brasserie is a modern european restaurant in the centre. Its address is Doubletree by Hilton Cambridge Granta Place Mill Lane and postcode is cb21rt. Want to book it?",
+        "turn_id": "7",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I would like to book it and get a reference number.",
+        "turn_id": "8",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Unfortunately, I cannot book it at this time.",
+        "turn_id": "9",
+        "dialog_act": "Booking-NoBook",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you try for Saturday at 13:00?",
+        "turn_id": "10",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "How many people will be dining?",
+        "turn_id": "11",
+        "dialog_act": "Booking-Request",
+        "expected_DA": "booking-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "6 people will be dining",
+        "turn_id": "12",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Your booking was successful. Your reference number is 3VX3AOKS .",
+        "turn_id": "13",
+        "dialog_act": "Booking-Book",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks for everything you have been great!",
+        "turn_id": "14",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Thank you is there anything else today?",
+        "turn_id": "15",
+        "dialog_act": "general-reqmore",
+        "expected_DA": "general-reqmore"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No that is all I needed. Thank you ever so kindly.",
+        "turn_id": "16",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Wonderful. I'm glad I could help. Have a great day. Goodbye.",
+        "turn_id": "17",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL0843.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I'm looking for an expensive restaurant in the centre if you could help me.",
+        "turn_id": "0",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I sure can. There are lots of choices. Are you looking for a particular type of food?",
+        "turn_id": "1",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No, not really. I think I'd like to try something different. Could you suggest something?",
+        "turn_id": "2",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is a Korean restaurant called Little Seoul located at 108 Regent Street City Centre. Would you like their phone number?",
+        "turn_id": "3",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I would like both the phone number and the postcode please.",
+        "turn_id": "4",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The phone number for little seoul is 01223308681, postcode cb21dp. Can I help you with anything else today?",
+        "turn_id": "5",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can I also have the address please?",
+        "turn_id": "6",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The address for Little Seoul is 108 Regent Street, City Centre. Is there anything else I can help you with?",
+        "turn_id": "7",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I also want to see the travel times for a train going from Kings Lynn from Cambridge on Saturday. It should leave after 09:15.",
+        "turn_id": "8",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Is there a time you would like to arrive by?",
+        "turn_id": "9",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I got that backwards. Need a train leaving Kings Lynn after 9:15 and arriving in Cambridge sometime on Saturday.",
+        "turn_id": "10",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "TR2514 leaves at 10:11 and arrives at 10:58. Will this one work for you?",
+        "turn_id": "11",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Sure. Could you tell me the exact travel time?",
+        "turn_id": "12",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure. The travel time for TR2514 is 47 minutes. Anything else I can help you with today?",
+        "turn_id": "13",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "that is it for today. good day thank you",
+        "turn_id": "14",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Have a wonderful day yourself. Goodbye.",
+        "turn_id": "15",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "PMUL2979.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "I'm looking for a places to go and see during my upcoming trip to Cambridge.",
+        "turn_id": "0",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What area of town would you like?",
+        "turn_id": "1",
+        "dialog_act": "Hotel-Request",
+        "expected_DA": "hotel-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I would like to go to the south area please.",
+        "turn_id": "2",
+        "dialog_act": "Attraction-Inform",
+        "expected_DA": "attraction-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "On the south side, your options are the cinema, entertainment venues, museums, nightclubs, parks, and a theatre.",
+        "turn_id": "3",
+        "dialog_act": "Attraction-Inform",
+        "expected_DA": "attraction-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "That's a lot of choices, how about nightclubs? Can you get me a couple of phone numbers for good ones? I'm hoping to catch DJ Squalour from Ibiza!",
+        "turn_id": "4",
+        "dialog_act": "Attraction-Inform",
+        "expected_DA": "attraction-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "The only nightclub in the south is called the place on 22 sidney street. Phone number is 01223324600. Can I help you with anything else?",
+        "turn_id": "5",
+        "dialog_act": "Attraction-Inform",
+        "expected_DA": "attraction-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Yes, I would like an expensive hotel with free parking.",
+        "turn_id": "6",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "I have places that fit that description all over town, except in the north. If area is no concern, I recommend the Gonville in the center of town.",
+        "turn_id": "7",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Is it four star?",
+        "turn_id": "8",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "No, it only 3 stars. The Huntington Marriott is 4 stars though. It is also expensive and has free parking and internet.",
+        "turn_id": "9",
+        "dialog_act": "Hotel-Inform",
+        "expected_DA": "hotel-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Okay well now I need to get a taxi to leave the hotel by 17:45 to the attraction. I will need a contact number and car type.",
+        "turn_id": "10",
+        "dialog_act": "Taxi-Inform",
+        "expected_DA": "taxi-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Booking completed! Booked car type : red lexus Contact number : 07421633218",
+        "turn_id": "11",
+        "dialog_act": "Taxi-Inform",
+        "expected_DA": "taxi-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "I want to confirm that the booked red Lexus is a taxi, as I previously requested?",
+        "turn_id": "12",
+        "dialog_act": "Taxi-Inform",
+        "expected_DA": "taxi-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Yes, it is! Anything else needed?",
+        "turn_id": "13",
+        "dialog_act": "Taxi-Inform",
+        "expected_DA": "taxi-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No that is it. Thank you!",
+        "turn_id": "14",
+        "dialog_act": "general-thank",
+        "expected_DA": "general-thank"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "you are welcome. enjoy your stay.",
+        "turn_id": "15",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "MUL1681.json",
+    "turns": [
+      {
+        "speaker": "USER",
+        "utterance": "Hi, I'd like to book a train to stansted airport from cambridge. Can you help?",
+        "turn_id": "0",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Absolutely. Where will you departing from?",
+        "turn_id": "1",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "From Cambridge, which is why I asked the Cambridge TownInfo centre.",
+        "turn_id": "2",
+        "dialog_act": null,
+        "expected_DA": "other"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "What day would you like to leave?",
+        "turn_id": "3",
+        "dialog_act": "Train-Request",
+        "expected_DA": "train-request"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "On Saturday. Is there a train that will arrive by 15:15?",
+        "turn_id": "4",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "There is! TR7213 leaves at 05:40 and arrive at 06:08 it is 10.10 pounds. Can I book that for you?",
+        "turn_id": "5",
+        "dialog_act": "Train-Inform",
+        "expected_DA": "train-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "No need to book it. Thanks. But can you help me find a cheap restaurant in the south?",
+        "turn_id": "6",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure - The Lucky Star serves Chinese food and Nandos serves Portuguese food. Do either of those sound good?",
+        "turn_id": "7",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "The Lucky Star sounds good. That's all I need.",
+        "turn_id": "8",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Would you like to book a table?",
+        "turn_id": "9",
+        "dialog_act": "Booking-Inform",
+        "expected_DA": "booking-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Can you also tell me the postcode?",
+        "turn_id": "10",
+        "dialog_act": "Restaurant-Request",
+        "expected_DA": "restaurant-request"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "Sure. The post code is cb17dy.",
+        "turn_id": "11",
+        "dialog_act": "Restaurant-Inform",
+        "expected_DA": "restaurant-inform"
+      },
+      {
+        "speaker": "USER",
+        "utterance": "Thanks for your help. Good bye.",
+        "turn_id": "12",
+        "dialog_act": "general-bye",
+        "expected_DA": "general-bye"
+      },
+      {
+        "speaker": "SYSTEM",
+        "utterance": "You're welcome. Please let me know if you need anything else.",
+        "turn_id": "13",
+        "dialog_act": "general-welcome",
+        "expected_DA": "general-welcome"
+      }
+    ]
+  }
+]

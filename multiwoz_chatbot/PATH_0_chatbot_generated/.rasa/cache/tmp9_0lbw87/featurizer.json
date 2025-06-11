@@ -1,0 +1,67 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "confirm_reservation": 1,
+        "inform_date": 2,
+        "inform_location": 3,
+        "inform_time": 4,
+        "nlu_fallback": 5,
+        "out_of_scope": 6,
+        "request_address": 7,
+        "request_booking": 8,
+        "request_information": 9,
+        "request_phone_number": 10,
+        "request_postcode": 11,
+        "request_restaurant": 12,
+        "restart": 13,
+        "session_start": 14
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_offer_restaurant_suggestion": 13,
+        "utter_need_more_info": 14,
+        "utter_confirm_reservation": 15,
+        "utter_provide_information": 16,
+        "utter_decline_assistance": 17
+      },
+      "entities": {
+        "date": 0,
+        "food_type": 1,
+        "location": 2,
+        "people_count": 3,
+        "phone_number": 4,
+        "price_range": 5,
+        "time": 6
+      },
+      "slots": {
+        "location_0": 0,
+        "food_type_0": 1,
+        "price_range_0": 2,
+        "phone_number_0": 3,
+        "date_0": 4,
+        "time_0": 5,
+        "people_count_0": 6
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

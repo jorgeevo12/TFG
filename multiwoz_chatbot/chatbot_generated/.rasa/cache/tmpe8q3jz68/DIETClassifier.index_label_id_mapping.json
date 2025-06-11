@@ -1,0 +1,12 @@
+{
+  "0": "intent_attraction_inform",
+  "1": "intent_general_greet",
+  "2": "intent_hotel_inform",
+  "3": "intent_hotel_request",
+  "4": "intent_other",
+  "5": "intent_restaurant_inform",
+  "6": "intent_taxi_inform",
+  "7": "intent_taxi_request",
+  "8": "intent_train_inform",
+  "9": "intent_train_request"
+}

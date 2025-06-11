@@ -1,0 +1,60 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "intent_user_general_bye": 1,
+        "intent_user_general_thank": 2,
+        "intent_user_hotel_inform": 3,
+        "intent_user_other": 4,
+        "intent_user_restaurant_inform": 5,
+        "intent_user_restaurant_inform_2": 6,
+        "intent_user_restaurant_inform_3": 7,
+        "intent_user_restaurant_request": 8,
+        "intent_user_restaurant_request_2": 9,
+        "intent_user_restaurant_request_3": 10,
+        "intent_user_taxi_inform": 11,
+        "intent_user_train_inform": 12,
+        "nlu_fallback": 13,
+        "out_of_scope": 14,
+        "restart": 15,
+        "session_start": 16
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_system_general_bye": 13,
+        "utter_system_general_thank": 14,
+        "utter_system_hotel_inform": 15,
+        "utter_system_other": 16,
+        "utter_system_restaurant_inform": 17,
+        "utter_system_restaurant_inform_2": 18,
+        "utter_system_restaurant_inform_3": 19,
+        "utter_system_restaurant_request": 20,
+        "utter_system_restaurant_request_2": 21,
+        "utter_system_restaurant_request_3": 22,
+        "utter_system_taxi_inform": 23,
+        "utter_system_train_inform": 24
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

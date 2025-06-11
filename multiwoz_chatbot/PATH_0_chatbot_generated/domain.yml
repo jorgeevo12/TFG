@@ -1,0 +1,79 @@
+# ACTIONS INCOMPLETO
+# FORMATO DE SLOTS CORREGIDO
+
+intents:
+  - request_restaurant
+  - inform_location
+  - confirm_reservation
+  - request_information
+  - request_booking
+  - inform_time
+  - inform_date
+  - request_phone_number
+  - request_postcode
+  - request_address
+
+entities:
+  - location
+  - food_type
+  - price_range
+  - phone_number
+  - date
+  - time
+  - people_count
+
+slots:
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+  food_type:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: food_type
+  price_range:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: price_range
+  phone_number:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: phone_number
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+  time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: time
+  people_count:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: people_count
+
+responses:
+  utter_offer_restaurant_suggestion:
+    - text: "I can help with that! There's a great restaurant called Little Seoul in the centre. Would you like their phone number and address?"
+  utter_need_more_info:
+    - text: "Could you please provide more details about what you're looking for?"
+  utter_confirm_reservation:
+    - text: "Great! I've booked your reservation. Here's your reference number: 12345."
+  utter_provide_information:
+    - text: "Sure, the phone number is [phone_number] and the postcode is [postcode]."
+  utter_decline_assistance:
+    - text: "I'm sorry, but I can't help with that right now."
+
+actions:
+  - utter_offer_restaurant_suggestion
+  - utter_need_more_info
+  - utter_confirm_reservation
+  - utter_provide_information
+  - utter_decline_assistance

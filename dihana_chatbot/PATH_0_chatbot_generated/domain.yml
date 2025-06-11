@@ -1,0 +1,79 @@
+# SLOTS MAL FORMATEADOS, SOLO EL PRIMERO BIEN
+# ANIADIR ACTIONS
+# ANIADIR UTTER_ASK_DATE
+# FORMATO SLOTS
+# ANIADIR UTTER_ASK_ORIGIN
+
+intents:
+  - check_train_schedule
+  - ask_price
+  - confirm_reservation
+  - provide_date
+  - provide_time
+  - provide_origin_station
+  - provide_destination_station
+
+entities:
+  - train_type
+  - date
+  - time
+  - origin_station
+  - destination_station
+
+slots:
+  train_type:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: train_type
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+  time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: time
+  origin_station:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: origin_station
+  destination_station:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: destination_station
+
+responses:
+  utter_check_train_schedule:
+    - text: "Los horarios del tren para {destination_station} son a las {time}. ¿Necesita más información?"
+    - text: "Para {date}, el tren sale a las {time}."
+    - text: "No hay horarios disponibles en este momento."
+
+  utter_ask_price:
+    - text: "El precio del billete es de #{price_range} euros.¿Desea reservar?"
+    - text: "Los precios van desde #{price_range} euros."
+    - text: "Precio no disponible."
+
+  utter_confirm_reservation:
+    - text: "Reservación realizada para el {date}."
+    - text: "No se pudo reservar en este momento."
+
+  utter_ask_date:
+    - text: "¿En qué fecha desea viajar?"
+    - text: "Por favor, indique el día del viaje."  
+
+  utter_ask_origin:
+    - text: "¿Desde qué ciudad vas a salir?"
+    - text: "Indícame tu estación de origen, por favor."
+
+
+actions:
+  - utter_check_train_schedule
+  - utter_ask_price
+  - utter_confirm_reservation
+  - utter_ask_date
+  - utter_ask_origin

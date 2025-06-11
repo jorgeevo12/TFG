@@ -1,0 +1,9 @@
+{
+  "0": "ask_price",
+  "1": "check_train_schedule",
+  "2": "confirm_reservation",
+  "3": "provide_date",
+  "4": "provide_destination_station",
+  "5": "provide_origin_station",
+  "6": "provide_time"
+}

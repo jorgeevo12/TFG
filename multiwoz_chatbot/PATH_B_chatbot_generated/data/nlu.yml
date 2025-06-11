@@ -1,0 +1,170 @@
+nlu:
+  - intent: restaurant_food
+    examples: |
+      - i want a [italian](food) place
+      - show me [japanese](food) restaurants
+      - any [vegetarian](food) options?
+      - [thai](food) food near here
+      - do you know [mexican](food) restaurants?
+
+  - intent: restaurant_area
+    examples: |
+      - where are the restaurants in [south](area)?
+      - find a place in [downtown](area)
+      - any restaurants around [city centre](area)?
+      - nearby [north](area) spots
+      - [east](area) restaurant suggestions
+
+  - intent: hotel_area
+    examples: |
+      - book me a hotel in [paris](area)
+      - looking for hotels in [london](area)
+      - any hotels near [downtown](area)?
+      - want to stay in [south](area)
+      - find a hotel in [new york](area)
+
+  - intent: hotel_rooms
+    examples: |
+      - for [2](people) people please
+      - need a room for [4](people)
+      - can you book a room for [1](people)?
+      - how about [3](people) guests?
+      - [5](people) accommodation needed
+
+  - intent: train_price
+    examples: |
+      - what's the [price](train_price)
+      - how much does it cost? → [cost](train_price)
+      - [fare](train_price) for tickets?
+      - can you tell me the [price](train_price)?
+      - need to know the [rate](train_price)
+
+  - intent: train_time
+    examples: |
+      - when is the next train?
+      - what's the [time](train_time)
+      - [schedule](train_time) please
+      - any trains at [14:00](train_time)?
+      - check the [ timetable](train_time)
+
+  - intent: taxi_phone
+    examples: |
+      - call a taxi using [01223 351707](phone)
+      - can you book a taxi on [01223 351707](phone)?
+      - my number is [07890 123456](phone), call a taxi
+      - please call taxi via [01223 351707](phone)
+      - book a taxi with phone [01223 351707](phone)
+
+  - intent: attraction_info
+    examples: |
+      - find [attractions](attraction) nearby
+      - are there any [points of interest](attraction) around?
+      - can you recommend [landmarks](attraction)?
+      - what's the name of an [attraction](attraction) here?
+      - suggest a [tourist spot](attraction)
+  
+  - intent: request_restaurant
+    examples: |
+      - Find me a restaurant.
+      - I want to book a restaurant.
+      - Can you suggest a good place to eat?
+      - Any restaurants available?
+      - Let's find a dining spot.
+
+  - intent: inform_food
+    examples: |
+      - I'm looking for [italian](food) food.
+      - Do you have [vegetarian](food) options?
+      - We need a [mexican](food) restaurant.
+      - Any [japanese](food) places nearby?
+      - Can we get [chinese](food) here?
+
+  - intent: inform_area
+    examples: |
+      - Near [downtown](area).
+      - Restaurants in [south](area) please.
+      - Are there any spots in [east](area)?
+      - Looking for a place around [city centre](area).
+      - Check places in [north](area).
+
+  - intent: inform_people
+    examples: |
+      - It's for [2](people) people.
+      - We'll be [four](people).
+      - Just [1](people), it's only me.
+      - There will be [six](people) of us.
+      - We're a group of [3](people).
+
+
+  - intent: inform_price
+    examples: |
+      - I'm looking for something under [50](price) euros.
+      - My budget is around [30](price).
+      - It shouldn't cost more than [20](price).
+      - I'd prefer something about [45](price) if possible.
+      - I can spend up to [60](price).
+
+  - intent: inform_phone
+    examples: |
+      - Call using [01223 351707](phone).
+      - My number is [07890 123456](phone), please.
+      - Can you book with [01223 351707](phone)?
+      - Use [01223 351707](phone) to call.
+      - Phone number is [01223 351707](phone).
+
+  - intent: request_hotel
+    examples: |
+      - Book me a hotel.
+      - I need a place to stay.
+      - Can you find a hotel for me?
+      - Any hotels available?
+      - Looking for a hotel nearby.
+
+  - intent: inform_reservation
+    examples: |
+      - The booking is under [Alice Smith](reservation).
+      - It's for [John](reservation), please.
+      - My name is [Emma](reservation).
+      - Reserve under [Bob Johnson](reservation).
+      - Can you book for [Charlie Brown](reservation)?
+
+  - intent: request_train
+    examples: |
+      - When is the next train?
+      - What's the schedule?
+      - Check the timetable, please.
+      - Any trains at [14:00](train_time)?
+      - Need to know the [time](train_time).
+
+  - intent: request_taxi
+    examples: |
+      - Call a taxi.
+      - Book me a taxi, please.
+      - Need a ride now.
+      - Any taxis available?
+      - Can you hail a taxi?
+
+  - intent: inform_attraction
+    examples: |
+      - I want to see the [museum](attraction).
+      - Let's visit the [botanical garden](attraction).
+      - Are there any [castles](attraction) nearby?
+      - Check for [zoos](attraction) around.
+      - Any [parks](attraction) in the area?
+
+  - intent: request_attraction
+    examples: |
+      - Find attractions nearby.
+      - Are there points of interest here?
+      - Can you recommend landmarks?
+      - What's a good tourist spot?
+      - Suggest an attraction, please.
+
+# SLOTS
+#- food
+#- area
+#- people
+#- train_price
+#- train_time
+#- phone
+#- attraction

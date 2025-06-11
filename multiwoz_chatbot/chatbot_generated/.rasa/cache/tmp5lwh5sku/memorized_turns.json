@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQseXFCVm5sVn5qXlF+XW1sYCAJZ+IWc=": "inform_trains",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQseXFCVm5sVn5qXlF+XWEjARogqipZhIE2MBVLlBLA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQseXJFZkxmfmpeUX5dbWxgIAdUMg/w==": "inform_taxis",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQseXJFZkxmfmpeUX5dYSMBCiCqyjmDjzYgGQij/0": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQscXpRaXJJYWJQKZmXlp+UW5tbWxAESDI5I=": "inform_restaurants",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQscXpRaXJJYWJQKZmXlp+UW5tQSMhahC0ldMitmxAHcSR60=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsfnl2SkFtXWxgIAtkgegQ==": "inform_other",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsfnl2SkFtUSMCozLy2/KBeqloBJsQCfbjrx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsdn5Jek5sRn5qXlF+XW1sYCAJZRIWU=": "inform_hotels",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBQsdn5Jek5sRn5qXlF+XWEjARogqipZhIE2MBU1BBJg==": "action_listen"
+  }
+}

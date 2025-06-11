@@ -1,0 +1,34 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"confirm_time\"}}]": "utter_confirm_time",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"confirm_time\"}}, {\"prev_action\": {\"action_name\": \"utter_confirm_time\"}, \"user\": {\"intent\": \"confirm_time\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"suggest_origin\"}}]": "utter_suggest_origin",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"suggest_origin\"}}, {\"prev_action\": {\"action_name\": \"utter_suggest_origin\"}, \"user\": {\"intent\": \"suggest_origin\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_price\"}}]": "utter_answer_price",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_price\"}}, {\"prev_action\": {\"action_name\": \"utter_answer_price\"}, \"user\": {\"intent\": \"request_price\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_destination\"}}]": "utter_request_destination",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"request_destination\"}}, {\"prev_action\": {\"action_name\": \"utter_request_destination\"}, \"user\": {\"intent\": \"request_destination\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inform_date\"}}]": "utter_confirm_date",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inform_date\"}}, {\"prev_action\": {\"action_name\": \"utter_confirm_date\"}, \"user\": {\"intent\": \"inform_date\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"answer_price\"}}]": "utter_answer_price",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"answer_price\"}}, {\"prev_action\": {\"action_name\": \"utter_answer_price\"}, \"user\": {\"intent\": \"answer_price\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"disconfirm_time\"}}]": "utter_disconfirm_time",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"disconfirm_time\"}}, {\"prev_action\": {\"action_name\": \"utter_disconfirm_time\"}, \"user\": {\"intent\": \"disconfirm_time\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"question_time\"}}]": "utter_question_time",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"question_time\"}}, {\"prev_action\": {\"action_name\": \"utter_question_time\"}, \"user\": {\"intent\": \"question_time\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inform_origin\"}}]": "utter_inform_origin",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"inform_origin\"}}, {\"prev_action\": {\"action_name\": \"utter_inform_origin\"}, \"user\": {\"intent\": \"inform_origin\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"question_time\"}}, {\"prev_action\": {\"action_name\": \"utter_question_time\"}, \"user\": {\"intent\": \"question_time\"}}]",
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"question_time\"}}]",
+      "predicting default action with intent restart"
+    ]
+  }
+}

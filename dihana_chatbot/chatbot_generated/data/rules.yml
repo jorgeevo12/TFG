@@ -1,0 +1,12 @@
+rules:
+  - rule: activate_trip_form_on_request
+    steps:
+      - intent: request_trip
+      - action: trip_form
+      - active_loop: trip_form
+
+  - rule: submit_trip_form_and_confirm
+    steps:
+      - action: trip_form
+      - active_loop: null
+      - action: utter_confirm_all

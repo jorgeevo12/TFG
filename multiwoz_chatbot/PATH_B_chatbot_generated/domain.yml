@@ -1,0 +1,140 @@
+# SE ANIADEN INTENTS Y EN ENTITIES NUMBER-->TEXT
+
+intents:
+  - restaurant_food
+  - restaurant_location
+  - hotel_location
+  - hotel_rooms
+  - train_price
+  - train_time
+  - taxi_phone
+  - attraction_info
+  - request_restaurant
+  - request_hotel
+  - request_train
+  - request_taxi
+  - request_attraction
+  - inform_price
+  - inform_food
+  - inform_phone
+  - inform_area
+  - inform_reservation
+  - inform_attraction
+  - inform_people
+
+
+entities:
+  - food
+  - area
+  - people
+  - price
+  - time
+  - phone
+  - attraction
+
+slots:
+  food:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: food
+  area:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: area
+  people:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: people
+  price:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: price
+  phone:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: phone
+  attraction:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: attraction
+
+forms:
+  restaurant_form:
+    required_slots:
+      - food
+      - area
+      - people
+      - price
+      - phone
+  hotel_form:
+    required_slots:
+      - area
+      - people
+      - price
+      - phone
+  train_form:
+    required_slots:
+      - area
+      - price
+      - phone
+  taxi_form:
+    required_slots:
+      - area
+      - phone
+      - price
+  attraction_form:
+    required_slots:
+      - area
+      - attraction
+      - price
+      - phone
+
+responses:
+  utter_ask_food:
+    - text: "What type of food would you like?"
+    - text: "Can you specify the cuisine you prefer?"
+    - text: "Which kind of food are you looking for?"
+  utter_ask_area:
+    - text: "Where would you like to go?"
+    - text: "Can you provide the area?"
+    - text: "Please specify the area."
+  utter_ask_price:
+    - text: "What is your budget?"
+    - text: "What price range are you looking for?"
+    - text: "Please specify the maximum amount."
+  utter_ask_phone:
+    - text: "What is your phone number?"
+    - text: "Can you provide a contact number?"
+    - text: "Please give me your phone number."
+  utter_ask_people:
+    - text: "How many people is the reservation for?"
+    - text: "Can you tell me the number of guests?"
+    - text: "For how many people should I make the booking?"
+  utter_confirm_all_restaurant:
+    - text: "You're looking for a restaurant serving {food} in {area} for {people} person/people, with a budget of {price}. We'll contact {phone} to confirm."
+  utter_confirm_all_hotel:
+    - text: "You're booking a hotel in {area} with a budget of {price} for {people} person/people. We'll call {phone} to confirm your reservation."
+  utter_confirm_all_train:
+    - text: "You're looking for a train from station {station}, within a price range of {price}. We'll contact {phone} to confirm."
+  utter_confirm_all_taxi:
+    - text: "You need a taxi in {area}, with a budget of {price}. We'll call {phone} to arrange the booking."
+  utter_confirm_all_attraction:
+    - text: "You're looking for an attraction in {area} called {attraction}, within a price range of {price}. We'll contact {phone} to confirm."
+
+actions:
+  - utter_ask_food
+  - utter_ask_area
+  - utter_ask_price
+  - utter_ask_phone
+  - utter_ask_people
+  - utter_confirm_all_restaurant
+  - utter_confirm_all_hotel
+  - utter_confirm_all_train
+  - utter_confirm_all_taxi
+  - utter_confirm_all_attraction

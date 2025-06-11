@@ -1,0 +1,11 @@
+{
+  "0": "user_answer_date",
+  "1": "user_answer_destination",
+  "2": "user_answer_none",
+  "3": "user_answer_origin",
+  "4": "user_answer_time",
+  "5": "user_question_date",
+  "6": "user_question_destination",
+  "7": "user_question_origin",
+  "8": "user_question_time"
+}

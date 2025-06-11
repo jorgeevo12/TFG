@@ -1,0 +1,12 @@
+stories:
+  - story: request_restaurant_example
+    steps:
+      - intent: request_restaurant
+      - action: utter_offer_restaurant_suggestion
+      - intent: confirm_reservation
+      - action: utter_confirm_reservation
+
+  - story: request_information_example
+    steps:
+      - intent: request_information
+      - action: utter_provide_information

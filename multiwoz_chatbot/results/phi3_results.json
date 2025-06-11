@@ -1,0 +1,318 @@
+{
+  "accuracy": 0.08333333333333333,
+  "partial_accuracy": 0.2708333333333333,
+  "total_dialogues": 2,
+  "total_turns": 24,
+  "correct_turns": 2,
+  "partial_turns": 9,
+  "incorrect_turns": 13,
+  "details": [
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "0",
+      "speaker": "USER",
+      "utterance": "i need a place to dine in the center thats expensive",
+      "full_dialog_act": "Restaurant-Inform",
+      "expected_DA": "restaurant-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "restaurant-inform"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "1",
+      "speaker": "SYSTEM",
+      "utterance": "I have several options for you; do you prefer African, Asian, or British food?",
+      "full_dialog_act": "Restaurant-Inform",
+      "expected_DA": "restaurant-inform",
+      "predicted_DAs": [
+        "general-inform"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "2",
+      "speaker": "USER",
+      "utterance": "Any sort of food would be fine, as long as it is a bit expensive. Could I get the phone number for y...",
+      "full_dialog_act": "Restaurant-Request",
+      "expected_DA": "restaurant-request",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-request"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "3",
+      "speaker": "SYSTEM",
+      "utterance": "There is an Afrian place named Bedouin in the centre. How does that sound?",
+      "full_dialog_act": "Restaurant-Inform",
+      "expected_DA": "restaurant-inform",
+      "predicted_DAs": [
+        "general-greet",
+        "restaurant-inform"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "4",
+      "speaker": "USER",
+      "utterance": "Sounds good, could I get that phone number? Also, could you recommend me an expensive hotel?",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-request",
+        "hotel-request"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "5",
+      "speaker": "SYSTEM",
+      "utterance": "Bedouin's phone is 01223367660. As far as hotels go, I recommend the University Arms Hotel in the ce...",
+      "full_dialog_act": "Hotel-Recommend",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-inform"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "6",
+      "speaker": "USER",
+      "utterance": "Yes. Can you book it for me?",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-request",
+        "general-greet"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "7",
+      "speaker": "SYSTEM",
+      "utterance": "Sure, when would you like that reservation?",
+      "full_dialog_act": "Booking-Request",
+      "expected_DA": "booking-request",
+      "predicted_DAs": [
+        "booking-request"
+      ],
+      "result": "correct"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "8",
+      "speaker": "USER",
+      "utterance": "i want to book it for 2 people and 2 nights starting from saturday.",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-greet"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "9",
+      "speaker": "SYSTEM",
+      "utterance": "Your booking was successful. Your reference number is FRGZWQL2 . May I help you further?",
+      "full_dialog_act": "Booking-Book",
+      "expected_DA": "booking-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-greet"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "10",
+      "speaker": "USER",
+      "utterance": "That is all I need to know. Thanks, good bye.",
+      "full_dialog_act": "general-bye",
+      "expected_DA": "general-bye",
+      "predicted_DAs": [
+        "general-bye"
+      ],
+      "result": "correct"
+    },
+    {
+      "dialogue_id": "PMUL4398.json",
+      "turn_id": "11",
+      "speaker": "SYSTEM",
+      "utterance": "Thank you so much for Cambridge TownInfo centre. Have a great day!",
+      "full_dialog_act": "general-bye",
+      "expected_DA": "general-bye",
+      "predicted_DAs": [
+        "general-thankyou",
+        "cambridge-towninfo-centre-inform"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "0",
+      "speaker": "USER",
+      "utterance": "Guten Tag, I am staying overnight in Cambridge and need a place to sleep. I need free parking and in...",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "general-greet",
+        "booking-inform"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "1",
+      "speaker": "SYSTEM",
+      "utterance": "I have 4 different options for you. I have two cheaper guesthouses and two expensive hotels. Do you ...",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "hotel-request"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "2",
+      "speaker": "USER",
+      "utterance": "No, but I'd really like to be on the south end of the city. Do any of those fit the bill?",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "general-greet",
+        "hotel-inform"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "3",
+      "speaker": "SYSTEM",
+      "utterance": "Sure. Does price matter? We can narrow it down and find exactly what you need.",
+      "full_dialog_act": "Hotel-Request",
+      "expected_DA": "hotel-request",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-greet"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "4",
+      "speaker": "USER",
+      "utterance": "No I don't care about the price. Which one do you recommend?",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-recommendation"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "5",
+      "speaker": "SYSTEM",
+      "utterance": "I would recommend aylesbray lodge guest house. Would you like me to book that for you?",
+      "full_dialog_act": "Booking-Inform",
+      "expected_DA": "booking-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-greet"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "6",
+      "speaker": "USER",
+      "utterance": "Yes, book it for 4 people and 4 nights starting from tuesday.",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-inform"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "7",
+      "speaker": "SYSTEM",
+      "utterance": "The booking was unsuccessful. would you like another day or a shorter stay?",
+      "full_dialog_act": "Booking-NoBook",
+      "expected_DA": "booking-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-greet",
+        "hotel-request"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "8",
+      "speaker": "USER",
+      "utterance": "How about for 3 nights?",
+      "full_dialog_act": "Hotel-Inform",
+      "expected_DA": "hotel-inform",
+      "predicted_DAs": [
+        "booking-inform"
+      ],
+      "result": "incorrect"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "9",
+      "speaker": "SYSTEM",
+      "utterance": "Booked! Reference number is: 84ESP6F5",
+      "full_dialog_act": "Booking-Book",
+      "expected_DA": "booking-inform",
+      "predicted_DAs": [
+        "booking-inform",
+        "general-greet (implied)"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "10",
+      "speaker": "USER",
+      "utterance": "Great. I am all set then. Have a nice day. Bye.",
+      "full_dialog_act": "general-bye",
+      "expected_DA": "general-bye",
+      "predicted_DAs": [
+        "general-bye",
+        "general-greet",
+        "general-welcome"
+      ],
+      "result": "partial"
+    },
+    {
+      "dialogue_id": "SNG1013.json",
+      "turn_id": "11",
+      "speaker": "SYSTEM",
+      "utterance": "Have a nice stay. Bye.",
+      "full_dialog_act": "general-bye",
+      "expected_DA": "general-bye",
+      "predicted_DAs": [
+        "general-bye",
+        "general-greet"
+      ],
+      "result": "partial"
+    }
+  ]
+}

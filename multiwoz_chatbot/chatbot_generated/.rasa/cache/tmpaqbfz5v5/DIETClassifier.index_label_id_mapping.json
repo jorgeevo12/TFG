@@ -1,0 +1,14 @@
+{
+  "0": "intent_user_general_bye",
+  "1": "intent_user_general_thank",
+  "2": "intent_user_hotel_inform",
+  "3": "intent_user_other",
+  "4": "intent_user_restaurant_inform",
+  "5": "intent_user_restaurant_inform_2",
+  "6": "intent_user_restaurant_inform_3",
+  "7": "intent_user_restaurant_request",
+  "8": "intent_user_restaurant_request_2",
+  "9": "intent_user_restaurant_request_3",
+  "10": "intent_user_taxi_inform",
+  "11": "intent_user_train_inform"
+}

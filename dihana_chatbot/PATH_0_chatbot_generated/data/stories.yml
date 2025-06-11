@@ -1,0 +1,30 @@
+# MAL DEFINIDOS LOS ENTITIES
+# CAMBIO EN EL ULTIMO POR CONFLICTOS
+
+stories:
+- story: Check Train Schedule with Date and Origin
+  steps:
+    - intent: check_train_schedule
+      entities:
+        - origin_station: "Granada"
+    - action: utter_ask_date
+
+- story: Ask Price for Destination Station
+  steps:
+    - intent: ask_price
+      entities:
+        - destination_station: "Bilbao"
+    - action: utter_ask_price
+
+- story: Confirm Reservation with Date and Origin
+  steps:
+    - intent: confirm_reservation
+      entities:
+        - origin_station: "Valencia"
+        - date: "20-04-2025"
+    - action: utter_confirm_reservation
+
+- story: Check Train Schedule without Details
+  steps:
+    - intent: provide_origin_station
+    - action: utter_ask_origin

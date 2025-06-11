@@ -1,0 +1,587 @@
+[
+  {
+    "dialogue_id": "Z510_ZA9a3",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_question_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Hola buenas tardes me gustaría ir Salamanca desde Madrid un viaje de ida para asistir a un concierto . Me gustaría saber el horario que podría tener ",
+        "act": "user_inform_destination_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Qué día desea salir ? ",
+        "act": "system_question_time"
+      },
+      {
+        "speaker": "user",
+        "text": "El diez de julio por la mañana ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Lo siento . No he entendido bien . puede repetir ? ",
+        "act": "system_request_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Me gustaría salir el diez de julio por la mañana ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de madrid a salamanca el sábado , día 10 de julio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor ",
+        "act": "system_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Sólo hay dos trenes . El primero sale a las 8 y 45 de la mañana y el otro a las 11 de la mañana . Desea algo más ? ",
+        "act": "system_answer_time"
+      },
+      {
+        "speaker": "user",
+        "text": "No gracias ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_answer_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z510_ZB2c7",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_question_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Hola buenas tardes me gustaría saber el horario y los precios para ir a Valladolid , es un viaje de ida , voy a visitar unos familiares . Me gustaría viajar en un tren cómodo ",
+        "act": "user_inform_destination_price_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ A qué ciudad desea viajar ? ",
+        "act": "system_question_destination"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí , a Valladolid ",
+        "act": "user_answer_destination"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Qué día desea salir ? ",
+        "act": "system_question_time"
+      },
+      {
+        "speaker": "user",
+        "text": "Me gustaría llegar el sábado ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Lo siento . No he entendido bien . puede repetir ? ",
+        "act": "system_request_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Me gustaría llegar el sábado ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ De dónde parte ? ",
+        "act": "system_question_origin"
+      },
+      {
+        "speaker": "user",
+        "text": "Madrid ",
+        "act": "user_answer_origin"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de Madrid a Valladolid el sábado , ¿ cuál es su presupuesto ? ",
+        "act": "system_answer_price"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí , me gustaría saber el precio ",
+        "act": "user_request_price"
+      },
+      {
+        "speaker": "system",
+        "text": "El precio es de 30 euros . ¿ Desea algo más ? ",
+        "act": "system_answer_price"
+      },
+      {
+        "speaker": "user",
+        "text": "No gracias ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_answer_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z510_ZB9a3",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_question_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Hola buenas tardes me gustaría ir a Barcelona desde Madrid un viaje de ida para asistir a un concierto . Me gustaría saber el horario que podría tener ",
+        "act": "user_inform_destination_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ A qué ciudad desea viajar ? ",
+        "act": "system_question_destination"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí , a Barcelona ",
+        "act": "user_answer_destination"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Qué día desea salir ? ",
+        "act": "system_question_time"
+      },
+      {
+        "speaker": "user",
+        "text": "El diez de julio por la mañana ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ De dónde parte ? ",
+        "act": "system_question_origin"
+      },
+      {
+        "speaker": "user",
+        "text": "Madrid ",
+        "act": "user_answer_origin"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Desea viajar en un tren cómodo ? ",
+        "act": "system_question_preference"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí ",
+        "act": "user_answer_preference"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de Madrid a Barcelona el día 10 de julio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor ",
+        "act": "system_answer_time"
+      },
+      {
+        "speaker": "user",
+        "text": "¿ No hay trenes talgo o con litera ? ",
+        "act": "user_question_availability"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Desea hacer el viaje en un talgo ? ",
+        "act": "system_question_preference"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí ",
+        "act": "user_answer_preference"
+      },
+      {
+        "speaker": "system",
+        "text": "No hay trenes talgo disponibles . ¿ Desea viajar en un tren con litera ? ",
+        "act": "system_answer_availability"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí ",
+        "act": "user_answer_preference"
+      },
+      {
+        "speaker": "system",
+        "text": "No hay trenes con litera disponibles . ¿ Desea algo más ? ",
+        "act": "system_answer_availability"
+      },
+      {
+        "speaker": "user",
+        "text": "No gracias ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_answer_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z510_ZC4c3",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_question_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Hola buenas tardes me gustaría saber los horarios y precios para ir a Valencia desde Barcelona un viaje de ida para asistir a un concierto . Me gustaría viajar en un tren cómodo ",
+        "act": "user_inform_destination_price_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Qué día desea salir ? ",
+        "act": "system_question_time"
+      },
+      {
+        "speaker": "user",
+        "text": "El diez de julio por la mañana ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Lo siento . No he entendido bien . puede repetir ? ",
+        "act": "system_request_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Me gustaría llegar el diez de julio por la mañana ",
+        "act": "user_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de Barcelona a Valencia el día 10 de julio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor ",
+        "act": "system_answer_time"
+      },
+      {
+        "speaker": "user",
+        "text": "¿ No hay trenes talgo o con litera ? ",
+        "act": "user_question_availability"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Desea hacer el viaje en un talgo ? ",
+        "act": "system_question_preference"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí ",
+        "act": "user_answer_preference"
+      },
+      {
+        "speaker": "system",
+        "text": "No hay trenes talgo disponibles . ¿ Desea viajar en un tren con litera ? ",
+        "act": "system_answer_availability"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí ",
+        "act": "user_answer_preference"
+      },
+      {
+        "speaker": "system",
+        "text": "No hay trenes con litera disponibles . ¿ Desea algo más ? ",
+        "act": "system_answer_availability"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí me gustaría que vuelva el día 20 de julio ",
+        "act": "user_request_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de Valencia a Barcelona el día 20 de julio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor ",
+        "act": "system_answer_time"
+      },
+      {
+        "speaker": "user",
+        "text": "¿ Cuál es el precio ? ",
+        "act": "user_request_price"
+      },
+      {
+        "speaker": "system",
+        "text": "El precio es de 30 euros . ¿ Desea algo más ? ",
+        "act": "system_answer_price"
+      },
+      {
+        "speaker": "user",
+        "text": "No gracias ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_answer_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZA9a2",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_inform_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Querría obtener el horario tren ",
+        "act": "user_request_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ A qué ciudad desea viajar ? ",
+        "act": "system_question_destination"
+      },
+      {
+        "speaker": "user",
+        "text": "Tarragona ",
+        "act": "user_inform_destination"
+      },
+      {
+        "speaker": "system",
+        "text": "Lo siento . No he entendido bien . puede repetir ? ",
+        "act": "system_request_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Madrid ",
+        "act": "user_inform_destination"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Qué día desea salir ? ",
+        "act": "system_question_time"
+      },
+      {
+        "speaker": "user",
+        "text": "Veinticinco de abril ",
+        "act": "user_inform_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Desea salir el martes , día 27 de abril de 2004 ? ",
+        "act": "system_confirm_time"
+      },
+      {
+        "speaker": "user",
+        "text": "No , veinticinco de abril de dos mil cuatro ",
+        "act": "user_disconfirm_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Quiere horarios de trenes a madrid , ¿ desde zaragoza ? ",
+        "act": "system_question_origin"
+      },
+      {
+        "speaker": "user",
+        "text": "No , Barcelona ",
+        "act": "user_inform_origin"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de trenes con salida en barcelona destino madrid saliendo el domingo , día 25 de abril de 2004 . Un momento por favor ",
+        "act": "system_inform_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? ",
+        "act": "system_inform_time"
+      },
+      {
+        "speaker": "user",
+        "text": "No ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_inform_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZB2c6",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_inform_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Querría obtener el horario para ir a Madrid el veintiocho de febrero ",
+        "act": "user_request_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Quiere horarios de trenes a madrid , ¿ desde zaragoza ? ",
+        "act": "system_question_origin"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí , desde Zaragoza y en un tren rápido ",
+        "act": "user_inform_origin"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el lunes , día 28 de febrero de 2005 . Un momento por favor ",
+        "act": "system_inform_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Hay varios trenes . El más rápido sale a las 12 y 10 de la mañana y el más lento a las 3 y 36 de la madrugada . Desea algo más ? ",
+        "act": "system_inform_time"
+      },
+      {
+        "speaker": "user",
+        "text": "Y para el mismo recorrido , ¿ cuáles son los precios ? ",
+        "act": "user_question_price"
+      },
+      {
+        "speaker": "system",
+        "text": "Hay varios trenes . En clase turista , el tren más rápido es un triana que cuesta 26 con 50 euros la ida y el más lento es un trenhotel que cuesta 26 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? ",
+        "act": "system_inform_price"
+      },
+      {
+        "speaker": "user",
+        "text": "No ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_inform_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZB9a2",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_inform_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Quiero los precios para ir el día veinticinco de marzo desde Gerona hasta Salamanca ",
+        "act": "user_request_price"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Quiere viajar desde barcelona ? ",
+        "act": "system_question_origin"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí , y hasta Salamanca ",
+        "act": "user_inform_origin"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de trenes con salida en barcelona destino Salamanca saliendo el viernes , día 25 de marzo de 2022 . Un momento por favor ",
+        "act": "system_inform_time"
+      },
+      {
+        "speaker": "system",
+        "text": "Hay varios trenes . El primero sale a las 10 y 00 de la mañana y el último a las 20 y 00 de la noche . Desea algo más ? ",
+        "act": "system_inform_time"
+      },
+      {
+        "speaker": "user",
+        "text": "¿ Cuál es el precio del tren más rápido ? ",
+        "act": "user_question_price"
+      },
+      {
+        "speaker": "system",
+        "text": "El tren más rápido cuesta 50 euros la ida y 90 euros la ida y vuelta .",
+        "act": "system_inform_price"
+      },
+      {
+        "speaker": "user",
+        "text": "¿ Hay un tren que salga entre las 10 y 12 ? ",
+        "act": "user_question_time"
+      },
+      {
+        "speaker": "system",
+        "text": "No, no hay trenes que salgan entre las 10 y 12 ",
+        "act": "system_disconfirm_time"
+      },
+      {
+        "speaker": "user",
+        "text": "No ",
+        "act": "user_disconfirm_none"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje ",
+        "act": "system_inform_none"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "Z509_ZC4c2",
+    "turns": [
+      {
+        "speaker": "system",
+        "text": "Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? ",
+        "act": "system_offer_none"
+      },
+      {
+        "speaker": "user",
+        "text": "Quiero los horarios para ir de Jaén a Madrid el día veintitrés de octubre a las diez de la noche .",
+        "act": "user_question_time"
+      },
+      {
+        "speaker": "system",
+        "text": "¿ Cuál es la fecha y hora de salida ? ",
+        "act": "system_request_time"
+      },
+      {
+        "speaker": "user",
+        "text": "Sí , y hasta Salamanca .",
+        "act": "user_confirm_location"
+      },
+      {
+        "speaker": "system",
+        "text": "Le consulto horarios de Jaén a Madrid saliendo el día veintitrés de octubre a las diez de la noche . Un momento por favor .",
+        "act": "system_answer_time"
+      },
+      {
+        "speaker": "system",
+        "text": "No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? ",
+        "act": "system_disconfirm"
+      },
+      {
+        "speaker": "user",
+        "text": "No .",
+        "act": "user_disconfirm"
+      },
+      {
+        "speaker": "system",
+        "text": "Gracias por utilizar este servicio . Feliz viaje .",
+        "act": "system_inform_none"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "0": "booking-inform",
+  "1": "general-bye",
+  "2": "general-reqmore",
+  "3": "general-thank",
+  "4": "general-welcome",
+  "5": "hotel-inform",
+  "6": "hotel-request",
+  "7": "restaurant-inform",
+  "8": "restaurant-request",
+  "9": "taxi-inform",
+  "10": "taxi-request"
+}

@@ -1,0 +1,66 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "answer_price": 0,
+        "back": 1,
+        "confirm_time": 2,
+        "disconfirm_time": 3,
+        "inform_date": 4,
+        "inform_origin": 5,
+        "nlu_fallback": 6,
+        "out_of_scope": 7,
+        "question_time": 8,
+        "request_destination": 9,
+        "request_price": 10,
+        "restart": 11,
+        "session_start": 12,
+        "suggest_origin": 13
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_confirm_date": 13,
+        "utter_question_time": 14,
+        "utter_request_price": 15,
+        "utter_inform_origin": 16,
+        "utter_confirm_time": 17,
+        "utter_disconfirm_time": 18,
+        "utter_request_destination": 19,
+        "utter_answer_price": 20,
+        "utter_suggest_origin": 21
+      },
+      "entities": {
+        "date": 0,
+        "destination": 1,
+        "origin": 2,
+        "price": 3,
+        "time": 4
+      },
+      "slots": {
+        "date_0": 0,
+        "time_0": 1,
+        "origin_0": 2,
+        "destination_0": 3,
+        "price_0": 4
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}
