@@ -49,35 +49,36 @@ Esta interfaz permite interactuar fácilmente con los modelos entrenados a parti
 📁 Estructura del Proyecto
 
 TFG/
-|-- data/
-|   |-- dihana/
-|   |   `-- dihana_dialogues/
-|   |       `-- processed_dialogues.json
-|   `-- multiwoz_dialogues/
-|       `-- processed_dialogues.json
-|
-|-- dihana_chatbot/
-|   |-- chatbot_generated/
-|   |   `-- models/
-|   |-- PATH_0_chatbot_generated/
-|   |   `-- models/
-|   |-- PATH_B_chatbot_generated/
-|   |   `-- models/
-|   |-- results/
-|   `-- scripts/
-|
-|-- multiwoz_chatbot/
-|   |-- chatbot_generated/
-|   |   `-- models/
-|   |-- PATH_0_chatbot_generated/
-|   |   `-- models/
-|   |-- PATH_B_chatbot_generated/
-|   |   `-- models/
-|   |-- results/
-|   `-- scripts/
-|
-`-- IU/
-    `-- chatbot_IU.py
+├── data/
+│   ├── dihana/
+│   │   └── dihana_dialogues/
+│   │       └── processed_dialogues.json
+│   └── multiwoz_dialogues/
+│       └── processed_dialogues.json
+│
+├── dihana_chatbot/
+│   ├── chatbot_generated/
+│   │   └── models/
+│   ├── PATH_0_chatbot_generated/
+│   │   └── models/
+│   ├── PATH_B_chatbot_generated/
+│   │   └── models/
+│   ├── results/
+│   └── scripts/
+│
+├── multiwoz_chatbot/
+│   ├── chatbot_generated/
+│   │   └── models/
+│   ├── PATH_0_chatbot_generated/
+│   │   └── models/
+│   ├── PATH_B_chatbot_generated/
+│   │   └── models/
+│   ├── results/
+│   └── scripts/
+│
+└── IU/
+    └── chatbot_IU.py
+
 
 
 📝 Notas
