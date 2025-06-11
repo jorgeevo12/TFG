@@ -8,14 +8,13 @@ Este repositorio contiene el código y los datos del Trabajo de Fin de Grado (TF
 
 Se recomienda el uso de un entorno virtual para evitar conflictos de dependencias. Para crear y activar uno:
 
-# bash
-# Crear el entorno virtual
+### Crear el entorno virtual
 python -m venv .venv
 
-# Activar en Windows
+### Activar en Windows
 .venv\Scripts\activate
 
-# Activar en Linux/Mac
+### Activar en Linux/Mac
 source .venv/bin/activate
 
 Luego, instala las dependencias necesarias:
@@ -23,7 +22,7 @@ pip install -r requirements.txt
 
 
 
-🧠 Ejecutar el Asistente con RASA
+## 🧠 Ejecutar el Asistente con RASA
 Para iniciar el servidor de RASA y permitir conexiones desde otras aplicaciones, utiliza:
 
 rasa run --enable-api --cors "*"
@@ -36,7 +35,7 @@ Estos comandos deben ejecutarse desde la carpeta donde se encuentre el proyecto 
 
 
 
-💻 Interfaz de Usuario
+## 💻 Interfaz de Usuario
 En la carpeta IU/ se encuentra una interfaz construida con Streamlit. Para lanzarla:
 
 cd IU
@@ -46,7 +45,7 @@ Esta interfaz permite interactuar fácilmente con los modelos entrenados a parti
 
 
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 TFG/
 ├── data/
@@ -81,7 +80,7 @@ TFG/
 
 
 
-📝 Notas
+## 📝 Notas
 Se ha utilizado un archivo .gitignore para excluir automáticamente entornos virtuales .venv/, archivos de prueba innecesarios (*.log, test_*.py) y carpetas pesadas como multiwoz/ o updates/.
 
 Se recomienda entrenar y ejecutar los asistentes dentro de los directorios generados por cada PATH.
