@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Billete de Barcelona (p) a Madrid .
+M3: ¿ Quiere saber horarios ?
+U3: El próximo jueves .
+M4: ¿ Quiere saber horarios ?
+U4: (na) El próximo jueves por la mañana a primera hora .
+M5: ¿ Quiere saber horarios ?
+U5: Sí .
+M6: Le consulto horarios de Barcelona a Madrid el jueves , día 18 de marzo de 2004 entre las 5 de la madrugada y las 7 de la mañana . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (fe) (p) A partir de las siete de la mañana .
+M8: ¿ Quiere salir entre las 7 de la mañana y las 11 de la noche ?
+U7: Sí .
+M9: Le consulto horarios de Barcelona a Madrid el jueves , día 18 de marzo de 2004 entre las 7 de la mañana y las 11 de la noche . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U8: (na) Sí , que el tren sea Talgo .
+M11: Le consulto horarios de Barcelona a Madrid el jueves , día 18 de marzo de 2004 entre las 7 de la mañana y las 11 de la noche en Talgo . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U9: (na) No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

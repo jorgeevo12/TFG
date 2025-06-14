@@ -1,0 +1,55 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Me gustaría saber cuánto cuesta un viaje en tren de Zaragoza a Santander .
+Me gustaría saber cuánto cuesta un viaje en tren de Zaragoza (U:Pregunta:Precio:Origen) pal: 1 - 11
+a Santander . (U:Pregunta:Precio:Destino) pal: 12 - 14
+
+
+M2: ¿ Quiere viajar desde zaragoza ? .
+¿ Quiere viajar desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U2: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 5
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: Me gustaría salir el jueves o viernes de la semana que viene .
+Me gustaría salir el jueves o viernes de la semana que viene . (U:Respuesta:Dia:Dia) pal: 1 - 13
+
+
+M4: Le consulto precios de zaragoza a santander saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a santander saliendo el jueves , día 26 de febrero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M5: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U4: ¿ Hay intercitys ? .
+¿ Hay intercitys ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 5
+
+
+M6: Le consulto precios de zaragoza a santander en tipo tren intercity . Un momento por favor .
+Le consulto precios de zaragoza a santander en tipo tren intercity . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M7: El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+U5: No , muchas gracias , ha sido muy amable .
+No , muchas gracias , ha sido muy amable . (U:Cierre:Nil:Nil) pal: 1 - 10
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

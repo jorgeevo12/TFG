@@ -1,0 +1,116 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quería saber el horario desde Valencia hasta Barcelona el nueve de abril .
+Quería saber el horario desde Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 6
+hasta Barcelona (U:Pregunta:Hora_salida:Destino) pal: 7 - 8
+el nueve de abril . (U:Pregunta:Hora_salida:Dia) pal: 9 - 13
+
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+U2: A Barcelona .
+A Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+
+M3: ¿ Quiere viajar a barcelona ? .
+¿ Quiere viajar a barcelona ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+
+
+M4: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el viernes , día 9 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el viernes , día 9 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+
+U4: Que el intervalo de hora sea desde las tres hasta las siete .
+Que el intervalo de hora sea desde las tres hasta las siete . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 13
+
+
+
+M6: ¿ Quiere salir entre las 3 y las 7 de la tarde ? .
+¿ Quiere salir entre las 3 y las 7 de la tarde ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 14
+
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M8: Hay varios trenes . El primero sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde y el último sale a las 6 y 5 de la tarde y llega a las 9 y 5 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde y el último sale a las 6 y 5 de la tarde y llega a las 9 y 5 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+
+U6: Sí , que el tren sea un arco .
+Sí , que el tren sea un arco . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 9
+
+
+
+M9: ¿ Desea hacer el viaje en un arco ? .
+¿ Desea hacer el viaje en un arco ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+
+U7: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+
+M10: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el viernes , día 9 de abril de 2004 en arco . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el viernes , día 9 de abril de 2004 en arco . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+M11: El único tren que realiza el trayecto es un arco que sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un arco que sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+
+U8: Sí , el precio de ese tren .
+Sí , el precio de ese tren . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+
+
+M12: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

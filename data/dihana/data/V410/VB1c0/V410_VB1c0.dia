@@ -1,0 +1,58 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Deseo saber el primer tren que salga , para ir desde Valencia a Santiago_de_Compostela .
+Deseo saber el primer tren que salga , (U:Pregunta:Nil:Hora_salida) pal: 1 - 8
+para ir desde Valencia (U:Pregunta:Nil:Origen) pal: 9 - 12
+a Santiago_de_Compostela . (U:Pregunta:Nil:Destino) pal: 13 - 15
+
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: A Santiago_de_Compostela .
+A Santiago_de_Compostela . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: ¿ Quiere viajar a santiago ? .
+¿ Quiere viajar a santiago ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U4: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U5: El veintitrés de julio .
+El veintitrés de julio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M6: ¿ Desea salir el viernes , día 23 de julio de 2004 ? .
+¿ Desea salir el viernes , día 23 de julio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M7: Le consulto horarios de trenes con salida en valencia destino santiago saliendo el viernes , día 23 de julio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino santiago saliendo el viernes , día 23 de julio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M8: El primer tren es un talgo que sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . Desea algo más ? .
+El primer tren es un talgo que sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Tipo_tren) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U7: Sí , dígame el precio del billete .
+Sí , dígame el precio del billete . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U8: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

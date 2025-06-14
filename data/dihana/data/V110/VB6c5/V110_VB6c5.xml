@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:23"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="V110"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="V110_VB6c5_T01u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <f tipo="e"/> <d tipo="abrir"> Buenos días </d> , necesito ir de Vigo a La_Coruña y quisiera saber horarios y precios de trenes Regionales qu<a>e</a> salieran el viernes por la mañana . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere viajar a La_Coruña ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="V110_VB6c5_T02u.ul">
+<t> <f tipo="e"/> Sí <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Vigo destino La_Coruña saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 8 y 59 de la mañana y el otro sale a las 9 y 20 de la mañana y llega a las 12 y 25 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="V110_VB6c5_T03u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , quisiera saber s<a>i</a> es posible viajar en clase turista . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Vigo destino La_Coruña saliendo el viernes , día 26 de marzo de 2004 en clase turista . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 8 y 59 de la mañana y el otro sale a las 9 y 20 de la mañana y llega a las 12 y 25 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="V110_VB6c5_T04u.ul">
+<t> No , nada más , <d tipo="cerrar"> gracias </d> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería obtener el horario .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería obtener el horario (p) de los trenes .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Madrid .
+M4: ¿ Quiere viajar a Madrid ?
+U4: Sí , a Madrid .
+M5: ¿ Qué día desea salir ?
+U5: (nw) Quiero llegar (p) el cinco o seis de junio .
+M6: ¿ Desea llegar el sábado , día 5 de junio de 2004 ?
+U6: Sí , deseo llegar el cinco de junio del dos mil (lm cuatro cuadro) .
+M7: Le consulto horarios de Valencia a Madrid llegando el sábado , día 5 de junio de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U7: (nw) ¿ Podría salir el viernes por la tarde ?
+M9: Le consulto horarios . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 3 y 45 de la tarde y llega a las 7 y 14 de la tarde y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U8: Sí , el tipo de tren .
+M11: Le consulto tipos de trenes para el trayecto Valencia a Madrid . Un momento por favor .
+M12: Dispone de un único tipo de tren con salida el sábado , día 5 de junio de 2004 , que es un Alaris ¿ Desea algo más ?
+U9: No , (dc nada más (lm gracias gracia)) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

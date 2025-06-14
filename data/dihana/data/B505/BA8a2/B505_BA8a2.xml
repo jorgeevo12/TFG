@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:22"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B505"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B505_BA8a2_T01u.ul">
+<t> <d tipo="abrir"> Buenos <l tipo="mal_pronunciada" palabra="días"> díes </l> </d> , <d tipo="rellenar"> mire </d> , necesito un viaje de ida <p/> para ir desde San_Sebastián a Vigo que vaya por toda la costa porque quiero conocer un poquito el norte que no lo conozco . <n fuente="hablante" tipo="aspiración"/> <d tipo="editar"> <l tipo="mal_pronunciada" palabra="Entonces"> entoes </l> </d> me gustaría salir el tres de mayo <n fuente="hablante" tipo="aspiración"/> y a poder ser a la mañana <p/> . Me gustaría conocer los horarios que <l tipo="cortada" palabra="tienen"> tie </l> . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de San_Sebastián a Vigo el lunes , día 3 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B505_BA8a2_T02u.ul">
+<t> Sí , quisiera saber qué tipos de trenes son , si son rápidos , si son lentos y cada uno de <r tipo="repetición"> <m> <l tipo="mal_pronunciada" palabra="ellos"> ella </l> </m> <c> ellos </c> </r> a qué hora llega a Vigo . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto tipos de trenes para el trayecto San_Sebastián a Vigo . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios tipos de trenes con salida el lunes , día 3 de mayo de 2004 , El tren más rápido es un Intercity y el más lento es un Talgo ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B505_BA8a2_T03u.ul">
+<t> Sí , no quiero saber únicamente cuál es el más rápidos quiero saber los otros <l tipo="mal_pronunciada" palabra="también"> tamién </l> <f tipo="e"/> cuáles son y cuánto tiempo tardan hasta Vigo . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto tipos de tren . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Talgo ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B505_BA8a2_T04u.ul">
+<t> Sí , quiero saber <p/> esos dos trenes a qué hora llegan a Vigo . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes con salida entre las 5 de la madrugada y la una de la tarde , El tren más rápido es un Intercity que tarda 6 horas y 31 minutos y el más lento es un tipo Talgo que tarda 7 horas y 10 minutos ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B505_BA8a2_T05u.ul">
+<t> Sí , quiero saber a qué hora llegan a Vigo , <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B505_BA8a2_T06u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> No ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B505_BA8a2_T07u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

@@ -1,0 +1,84 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Buenas tardes , quería saber los trenes que van de Valencia a Cáceres el próximo fin de semana el viernes o sábado .
+Buenas tardes , quería saber los trenes que van de Valencia (U:Pregunta:Nil:Origen) pal: 1 - 11
+a Cáceres (U:Pregunta:Nil:Destino) pal: 12 - 13
+el próximo fin de semana el viernes o sábado . (U:Pregunta:Nil:Dia) pal: 14 - 23
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+M3: ¿ Quiere viajar a cáceres ? .
+¿ Quiere viajar a cáceres ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+
+
+M4: Quiere horarios de trenes a cáceres , ¿ saliendo de valencia ? .
+Quiere horarios de trenes a cáceres , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+
+M5: Le consulto horarios de trenes con salida en valencia destino cáceres saliendo el sábado , día 8 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino cáceres saliendo el sábado , día 8 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+U5: Quería saber el tipo de tren que sale de la mañana de siete y tres .
+Quería saber el tipo de tren que sale de la mañana (U:Pregunta:Tipo_tren:Dia) pal: 1 - 11
+de siete y tres . (U:Pregunta:Tipo_tren:Hora_salida) pal: 12 - 16
+
+
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U6: Quería saber el tipo de tren de las siete y tres de la mañana .
+Quería saber el tipo de tren de las siete y tres de la mañana . (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 15
+
+
+
+M8: Ese tren es un talgo . Desea algo más ? .
+Ese tren es un talgo . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

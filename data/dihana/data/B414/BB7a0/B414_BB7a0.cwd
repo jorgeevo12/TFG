@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera saber el precio del billete de tren a $C_DESTINO<Santiago_de_Compostela> .
+Quisiera saber el precio del billete de tren a $C_DESTINO<Santiago_de_Compostela> . (U:Pregunta:Precio:Destino) pal: 1 - 11
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El $FECHA<uno> o el $FECHA<dos de febrero> .
+El $FECHA<uno> o el $FECHA<dos de febrero> . (U:Respuesta:Dia:Dia) pal: 1 - 8
+
+M3: ¿ Desea salir el $FECHA<martes , día 1 de febrero de 2005> ? .
+¿ Desea salir el $FECHA<martes , día 1 de febrero de 2005> ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M4: Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<santiago> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<santiago> . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M5: Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

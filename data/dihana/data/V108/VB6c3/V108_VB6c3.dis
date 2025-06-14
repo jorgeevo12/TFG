@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , me gustaría saber viajes de Lleida a Madrid que salgan mañana .
+M2: Puede repetir de manera clara lo último que ha dicho , por favor .
+U2: Sí , me gustaría ir de Lleida a Madrid mañana .
+M3: ¿ Quiere saber horarios ?
+U3: Sí .
+M4: Horarios para llegar a Madrid ¿ saliendo de Lérida ?
+U4: Sí , y (rs (m que sea (lu posible posi)) (c si es posible)) llegar (lm antes ate) de las diez .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Que quisiera llegar antes de las diez (nw) .
+M6: Le consulto horarios de trenes con salida en Lérida destino Madrid saliendo el martes , día 3 de febrero de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Tren_Hotel que sale a la una y 25 de la madrugada ¿ Desea algo más ?
+U6: ¿ Llega (lm antes ante) de las diez ?
+M8: Ese tren sale a la una y 25 de la madrugada y llega a las 8 de la mañana ¿ Desea algo más ?
+U7: ¿ Cuánto cuesta ?
+M9: Puede repetir de manera clara lo último que ha dicho , por favor .
+U8: ¿ Cuánto cuesta el billete ?
+M10: El precio de ese tren en clase turista es 34 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

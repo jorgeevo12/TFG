@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , me gustaría obtener (rr (m (lu horarios hor)) (c horarios)) para un viaje de ida (p) a Castellón en Euromed .
+M2: ¿ Qué día desea salir ?
+U2: Me gustaría salir mañana .
+M3: Quiere horarios de trenes a Castellón ¿ desde Zaragoza ?
+U3: (na) (dr No) . Desde Barcelona .
+M4: Le consulto horarios de trenes con salida en Barcelona destino Castellón saliendo el viernes , día 27 de febrero de 2004 en Euromed . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 8 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí , me gustaría saber el precio para el viaje en primera .
+M6: Los trenes son Euromed y en clase preferente , el billete cuesta 45 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) eso era todo , (dc hasta luego) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

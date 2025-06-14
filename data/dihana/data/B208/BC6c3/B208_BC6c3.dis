@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero horarios .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Horarios (na) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A León .
+M4: Quiere horarios de trenes a León ¿ desde Bilbao ?
+U4: No , desde Almería .
+M5: ¿ Qué día desea salir ?
+U5: Finales de junio (na) .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: (nl) A finales de junio .
+M7: ¿ Desea salir el miércoles , día 30 de junio de 2004 ?
+U7: Sí .
+M8: Le consulto horarios de trenes con salida en Almería destino León saliendo el miércoles , día 30 de junio de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: (fm) Viajar de noche .
+M10: ¿ Quiere salir entre las 9 de la noche y las 5 de la madrugada ?
+U9: Sí .
+M11: Le consulto horarios de Almería a León el miércoles , día 30 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: (nw) Sí , salir veintinueve de junio .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: Sí (na) (p) , salir veintinueve de junio .
+M14: Le consulto horarios de Almería a León el martes , día 29 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M15: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U12: Sí , salir veintisiete de junio .
+M16: Le consulto horarios de Almería a León el domingo , día 27 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M17: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U13: (nl) Sí , salir veintiséis de junio .
+M18: Le consulto horarios de Almería a León el sábado , día 26 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M19: El único tren que realiza el trayecto es un Diurno que sale a las 10 y 3 de la noche ¿ Desea algo más ?
+U14: ¿ Cuánto cuesta ?
+M20: El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U15: Viaje de vuelta .
+M21: ¿ Quiere saber horarios ?
+U16: Sí .
+M22: Le consulto horarios de trenes con salida en León destino Almería saliendo el sábado , día 26 de junio de 2004 . Un momento por favor .
+M23: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U17: Cambiar la salida .
+M24: Si ¿ Desea algo más ?
+U18: Cambiar el día .
+M25: ¿ Qué día desea salir ?
+U19: El veintiseís de julio .
+M26: ¿ Desea salir el martes , día 27 de julio de 2004 ?
+U20: No , el veintiseís de julio .
+M27: Le consulto horarios de trenes con salida en León destino Almería saliendo el lunes , día 26 de julio de 2004 . Un momento por favor .
+M28: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U21: ¿ Cuál es el más barato ?
+M29: Lo siento . No he entendido bien ¿ puede repetir ?
+U22: Saber el más barato (na) .
+M30: El tren más barato es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U23: ¿ Cuánto cuesta ?
+M31: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U24: No .
+M32: Gracias por utilizar este servicio . Feliz viaje .

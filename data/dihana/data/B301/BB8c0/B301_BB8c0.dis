@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería un billete de tren desd(a e) Zaragoza hasta Santander .
+M2: ¿ Quiere saber horarios ?
+U2: (fm) No .
+M3: ¿ Quiere saber horarios ?
+U3: No .
+M4: ¿ Le consulto precios ?
+U4: Bien .
+M5: ¿ Qué día desea salir ?
+U5: Jueves o viernes d(a e) la semana que viene (p) en el Intercity .
+M6: ¿ Desea salir el viernes , día 12 de marzo de 2004 ?
+U6: Sí .
+M7: Le consulto precios de Zaragoza a Santander en tipo tren Intercity . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

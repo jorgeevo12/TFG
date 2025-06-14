@@ -1,0 +1,127 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quiero un viaje de ida y vuelta a Sevilla .
+Quiero un viaje de ida y vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+a Sevilla . (U:Pregunta:Nil:Destino) pal: 8 - 10
+
+
+M2: ¿ Quiere viajar desde sevilla ? .
+¿ Quiere viajar desde sevilla ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U2: No , quiero viajar a Sevilla .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero viajar a Sevilla . (U:Respuesta:Nil:Destino) pal: 3 - 7
+
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+M4: Quiere horarios de trenes a sevilla , ¿ desde bilbao ? .
+Quiere horarios de trenes a sevilla , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U4: Sí , el día uno de agosto .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+el día uno de agosto . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+
+M5: Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el domingo , día 1 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U5: Sí , que el tren sea Ave .
+Sí , que el tren sea Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U6: El tren sea un Ave .
+El tren sea un Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 6
+
+
+M8: Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el domingo , día 1 de agosto de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el domingo , día 1 de agosto de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U7: Sí , salir desde .
+Sí , salir desde . (U:Indefinida:Nil:Nil) pal: 1 - 5
+
+
+M10: ¿ Quiere salir desde bilbao ? .
+¿ Quiere salir desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U8: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M11: Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el domingo , día 1 de agosto de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el domingo , día 1 de agosto de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M12: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U9: Sí , el billete que sea de vuelta el diez de agosto .
+Sí , el billete que sea de vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 8
+el diez de agosto . (U:Pregunta:Nil:Dia) pal: 9 - 13
+
+
+M13: ¿ Desea salir el martes , día 10 de agosto de 2004 ? .
+¿ Desea salir el martes , día 10 de agosto de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U10: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M14: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U11: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+M15: Le consulto horarios de trenes con salida en sevilla destino bilbao saliendo el martes , día 10 de agosto de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino bilbao saliendo el martes , día 10 de agosto de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M16: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U12: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M17: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

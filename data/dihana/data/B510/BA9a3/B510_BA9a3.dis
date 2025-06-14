@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do (lu Hola a) buenas tardes) (p) , me gustarí(a a) obtener información sobre el horario d(a e) trenes .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (b Quería) me gustaría viajar desd(a e) Gijón (a a) San_Sebastián .
+M3: Quiere horarios de trenes a San_Sebastián ¿ desde Barcelona ?
+U3: (fe) No (fe) , me gustaría (p) desd(a e) Gijón .
+M4: ¿ Qué día desea salir ?
+U4: Me gustaría salir (a e)l siete d(a e) junio .
+M5: Le consulto horarios de trenes con salida en Gijón destino San_Sebastián saliendo el lunes , día 7 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: ¿ Habrí(a a) algún otro tipo de tren que salies(a e) al mediodía ?
+M7: Le consulto horarios de Gijón a San_Sebastián el lunes , día 7 de junio de 2004 entre las 12 de la mañana y las 2 de la tarde . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No , (dc gracias muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

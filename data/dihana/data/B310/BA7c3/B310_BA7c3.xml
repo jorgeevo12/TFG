@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:19"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B310"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B310_BA7c3_T01u.ul">
+<t> <d tipo="rellenar"> Verá </d> , <l tipo="cortada" palabra="Tengo"> quengo </l> que hacer un viaje de La_Coruña a Vigo <p/> <n fuente="hablante" tipo="aspiración"/> el domingo que viene <n fuente="exterior" tipo="genérico"/> <n fuente="hablante" tipo="aspiración"/> ¿ Podría darme los horarios <p/> de trenes ? </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el domingo , día 14 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B310_BA7c3_T02u.ul">
+<t> Sí , <d tipo="aceptar"> desde luego </d> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en La_Coruña destino Vigo saliendo el domingo , día 14 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 6 y 20 de la mañana y el último a las 8 y 20 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B310_BA7c3_T03u.ul">
+<t> Sí , <d tipo="pedir"> por favor </d> podría decirme cuáles son los trenes más rápidos <f tipo="a"/> desde <n fuente="exterior" tipo="genérico"/> las seis y veinte de la mañana me dice el primero hasta las <p/> diez y media de la mañana sólo , solamente por la mañana . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 10 y las 11 de la noche ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B310_BA7c3_T04u.ul">
+<t> <r tipo="repetición"> <m> No </m> <c> no </c> </r> , quiero salir entre las seis y veinte de la mañana y las diez y media de la mañana <p/> <n fuente="hablante" tipo="labios"/> y quiero que el tren sea un tren rápido . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Barcelona a Vigo el viernes , día 3 de diciembre de 2004 entre las 6 y 20 y las 10 y 30 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un covadonga que sale a las 7 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B310_BA7c3_T05u.ul">
+<t> Creo que sí , que era de La_Coruña a Vigo <n fuente="hablante" tipo="aspiración"/> no de Barcelona , <r tipo="repetición"> <m> me </m> <c> me </c> </r> parece que el primero era <r tipo="repetición"> <m> <r tipo="repetición"> <m> un </m> <c> un </c> </r> </m> <c> un </c> </r> tren a las seis y veinte ¿ y no hay ninguno hasta las diez y media , <d tipo="pedir"> por favor </d> ? </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de La_Coruña a Vigo el domingo , día 14 de marzo de 2004 entre las 6 y 20 y las 10 y 30 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 6 y 20 de la mañana y el último a las 9 y 25 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B310_BA7c3_T06u.ul">
+<t> Sí , <d tipo="pedir"> por favor </d> , <b> cuáles son los </b> <f tipo="sin_identificar"/> , cuál de estos dos trenes es el más rápido <p/> <n fuente="hablante" tipo="labios"/> y cuánto tardaría en llegar a Vigo <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El tren más rápido es un TRD que sale a las 8 y 25 de la mañana y llega a las 10 y 50 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B310_BA7c3_T07u.ul">
+<t> No <d tipo="cerrar"> gracias </d> , <l tipo="mal_pronunciada" palabra="está"> ta </l> bien . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

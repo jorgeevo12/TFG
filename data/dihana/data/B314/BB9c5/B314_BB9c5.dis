@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (rr (m Me (lu gustaría gu)) (c me gustaría)) obtener el precio del viaje de ida de Segovia a Badajoz saliendo por la mañana al mediodía (p) en un (lm Intercity intersity) , si es posible .
+M2: ¿ Quiere salir desde Barcelona ?
+U2: (nw) No (p) , quiero salir desde Segovia (p) a Badajoz .
+M3: Quiere saber el precio a Badajoz ¿ desde Segovia ?
+U3: Si .
+M4: ¿ Qué día desea salir ?
+U4: El día catorce de marzo .
+M5: ¿ Desea salir el domingo , día 14 de marzo de 2004 ?
+U5: Sí .
+M6: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ?
+U6: Sí .
+M7: Le consulto precios de Segovia a Badajoz saliendo el domingo , día 14 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dr nada más) , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

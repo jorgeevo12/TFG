@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería un billete de ida de Badajoz a Valencia para el día veintinueve de mayo .
+M2: ¿ Desea salir el miércoles , día 19 de mayo de 2004 ?
+U2: No , el día veintinueve de mayo (nw) .
+M3: ¿ Quiere saber horarios ?
+U3: (nw) Sí , (dq por favor) , horarios de mañana .
+M4: Le consulto horarios de Badajoz a Valencia el sábado , día 29 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M5: El único tren que realiza el trayecto es un García_Lorca que sale a las 6 y 40 de la mañana ¿ Desea algo más ?
+U4: Sí , me gustaría saber a qué hora llega .
+M6: Ese tren sale a las 6 y 40 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U5: ¿ Me puede decir el precio del billete , (dq por favor) ?
+M7: El precio de ese tren en clase turista es 42 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) (nw) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

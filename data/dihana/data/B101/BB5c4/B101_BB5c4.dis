@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (lm Oiga oya) (df mira) . Quería ir d(a e)sde aquí desde Bilbao , a Madrid (p) el próxim(a o) jueves por la tarde .
+M2: ¿ Quiere viajar desde Barcelona ?
+U2: No , desde Bilbao .
+M3: ¿ Quiere saber horarios ?
+U3: (fe) Sí .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Madrid .
+M5: Le consulto horarios de Bilbao a Madrid el jueves , día 19 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: (fe) Sí ¿ me podría decir el precio del billete ?
+M7: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (fe) Sí ¿ me podría decir el precio (p) (rr (m en) (c en)) primera clase ?
+M8: El precio de ese tren en clase preferente es 39 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (fe) Sí ¿ (b cuánto) (fa) cuál es la duración del trayecto ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Cuál es la duración del trayecto .
+M10: Ese tren tarda 5 horas y 48 minutos ¿ Desea algo más ?
+U9: (fe) No , (dc muchas (lu gracias gracia)) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

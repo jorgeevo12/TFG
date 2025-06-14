@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero obtener horario y obtener precio .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (na) Tarragona .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Tarragona .
+M4: ¿ Qué día desea salir ?
+U4: Próximo jueves o próximo viernes (na) .
+M5: Quiere horarios de trenes a Tarragona ¿ desde Zaragoza ?
+U5: No , quiero desde Lleida .
+M6: Perdón . No consigo entenderle .
+U6: No .
+M7: Quiere horarios de trenes a Tarragona ¿ desde Zaragoza ?
+U7: No .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Desde (nw Lleida) .
+M9: Le consulto horarios de trenes con salida en Lérida destino Tarragona saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 5 de la madrugada y el último a las 4 y 24 de la tarde ¿ Desea algo más ?
+U9: Sí , quiero consultar horario para llegar sobre las dos de la tarde (nw) .
+M11: Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: (na) Sí , quiero un tren que llegue antes de las dos de la tarde .
+M13: Un momento por favor .
+M14: Hay varios trenes . El primero sale a las 5 de la madrugada y llega a las 6 y 25 de la mañana y el último sale a las 6 y 38 de la mañana y llega a las 8 y 14 de la mañana ¿ Desea algo más ?
+U11: Sí , quiero obtener precio .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Tren_Hotel que cuesta 12 con 50 euros la ida y el más barato es un Delta que cuesta 4 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: No .
+M16: Gracias por utilizar este servicio . Feliz viaje .

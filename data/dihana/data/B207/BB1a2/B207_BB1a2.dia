@@ -1,0 +1,80 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quiero saber el horario el precio de un tren para salir desde Bilbao a Madrid .
+Quiero saber el horario el precio de un tren para salir desde Bilbao (U:Pregunta:Hora_salida,Precio:Origen) pal: 1 - 13
+a Madrid . (U:Pregunta:Hora_salida,Precio:Destino) pal: 14 - 16
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: Madrid .
+Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: El sábado .
+El sábado . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U4: Mañana .
+Mañana . (U:Respuesta:Dia:Dia) pal: 1 - 2
+
+
+M5: ¿ Desea salir el jueves , día 26 de febrero de 2004 ? .
+¿ Desea salir el jueves , día 26 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M6: Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M7: El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U6: ¿ Puedo llevar el coche en el tren ? .
+¿ Puedo llevar el coche en el tren ? . (U:Pregunta:Servicio:Servicio) pal: 1 - 10
+
+
+M8: Este servicio no está preparado para este tipo de consultas . Desea realizar otra consulta ? .
+Este servicio no está preparado para este tipo de consultas . (M:Indefinida:Nil:Nil) pal: 1 - 11
+Desea realizar otra consulta ? . (M:Nueva_consulta:Nil:Nil) pal: 12 - 17
+
+
+U7: ¿ Qué precio tiene ? .
+¿ Qué precio tiene ? . (U:Pregunta:Precio:Nil) pal: 1 - 6
+
+
+M9: Le consulto precios de bilbao a madrid . Un momento por favor .
+Le consulto precios de bilbao a madrid . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+M10: El único tren que realiza el trayecto es un talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

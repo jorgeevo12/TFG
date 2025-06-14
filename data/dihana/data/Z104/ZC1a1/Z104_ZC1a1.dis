@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) (p) (fe) me gustar(a í)a .
+M2: ¿ Quiere saber horarios ?
+U2: (na) Sí , es que me gustaría (nw) ir a un concierto .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (df Pues) querrí(a a) ir a Madrid .
+M4: ¿ Qué día desea salir ?
+U4: (df Pues) me gustaría salir mañana , (p) mañana cinco .
+M5: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U5: Sí (p) , eso es lo que quiero .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U6: (rr (m Sí) (c sí)) me gustaría tambié(a n) saber el precio (p) cuánto vale .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 28 con 50 euros la ida y el más barato es un Costa_Brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) Sí , también me gustarí(a a) (rr (m volver) (s (p)) (c volver)) de Madrid (rr (m e(a l)) (c el)) sábado .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: (na) Sí , querría saber el horario de trene(a s) (p) (nw) que salen de Madrid el sábado .
+M10: Le consulto horarios de trenes con salida en Madrid destino Zaragoza saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche ¿ Desea algo más ?
+U9: Sí , me gustaría tambié(a n) saber el precio .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 28 con 50 euros la ida y el más barato es un Intercity que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (df Pues) sí , querría cambiar la hora porqu(a e) (p) creo que será mejor (rs (m ir por la tarde) (s (p)) (c salir por la tarde)) .
+M13: Le consulto horarios de Madrid a Zaragoza el sábado , día 6 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M14: Hay varios trenes . El primero sale a las 2 de la tarde y el último a las 6 de la tarde ¿ Desea algo más ?
+U11: (fe) Sí , me gustaría saber el precio (p) de esos trenes por la tarde .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 28 con 50 euros la ida y el más barato es un Intercity que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: (fe) No , (dc nada más) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

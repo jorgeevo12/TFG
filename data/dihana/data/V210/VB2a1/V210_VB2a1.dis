@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber horarios para ir de Valencia a Castellón .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Castelló .
+M3: ¿ Quiere viajar a Castellón ?
+U3: Sí (p) , el día diez de marzo .
+M4: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el miércoles , día 10 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 9 y 35 de la noche ¿ Desea algo más ?
+U4: Quisiera viajar en Euromed .
+M6: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el miércoles , día 10 de marzo de 2004 en Euromed . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U5: Quiero saber el precio del último .
+M8: El precio de ese tren en clase turista es 14 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Nada más , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

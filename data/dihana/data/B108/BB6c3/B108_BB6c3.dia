@@ -1,0 +1,59 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Querría obtener el horario y el precio para ir a Lleida .
+Querría obtener el horario y el precio para ir a Lleida . (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 12
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ Quiere salir desde barcelona ? .
+¿ Quiere salir desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U3: No , quiero salir desde Lleida .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero salir desde Lleida . (U:Respuesta:Hora_salida:Origen) pal: 3 - 7
+
+M4: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U4: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M5: Quiere horarios de trenes a madrid , ¿ desde lérida ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde lérida ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U5: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U6: Quiero salir mañana y llegar antes de las diez .
+Quiero salir mañana (U:Respuesta:Dia:Dia) pal: 1 - 3
+y llegar antes de las diez . (U:Respuesta:Hora_salida:Hora_llegada) pal: 4 - 10
+
+M7: Le consulto horarios de lérida a madrid llegando el sábado , día 14 de febrero de 2004 entre las 0 de la noche y las 10 de la mañana . Un momento por favor .
+Le consulto horarios de lérida a madrid llegando el sábado , día 14 de febrero de 2004 entre las 0 de la noche y las 10 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+M8: El único tren que realiza el trayecto es un trenhotel que sale a la una y 25 de la madrugada . Desea algo más ? .
+El único tren que realiza el trayecto es un trenhotel que sale a la una y 25 de la madrugada . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U7: Sí , querría obtener precios .
+Sí , querría obtener precios . (U:Pregunta:Precio:Nil) pal: 1 - 6
+
+M9: El único tren que realiza el trayecto es un trenhotel y su precio en clase turista es 34 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un trenhotel y su precio en clase turista es 34 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U8: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,66 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quería información para un viaje de ida , desde Zaragoza a Madrid con salida entre el doce y el catorce de mayo por la tarde .
+Quería información para un viaje de ida , (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 8
+desde Zaragoza (U:Pregunta:Nil:Origen) pal: 9 - 10
+a Madrid (U:Pregunta:Nil:Destino) pal: 11 - 12
+con salida entre el doce y el catorce de mayo (U:Pregunta:Nil:Dia) pal: 13 - 22
+por la tarde . (U:Pregunta:Nil:Hora_salida) pal: 23 - 26
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U3: Quiero el horario para el doce de mayo .
+Quiero el horario para el doce de mayo . (U:Pregunta:Hora_salida:Dia) pal: 1 - 9
+
+
+M4: Le consulto horarios de zaragoza a madrid el miércoles , día 12 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de zaragoza a madrid el miércoles , día 12 de mayo de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M5: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U4: Quería saber los horarios del trece y del catorce de mayo .
+Quería saber los horarios del trece y del catorce de mayo . (U:Pregunta:Hora_salida:Dia) pal: 1 - 12
+
+
+M6: Le consulto horarios de zaragoza a madrid el viernes , día 14 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de zaragoza a madrid el viernes , día 14 de mayo de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M7: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U5: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U6: Más .
+Más . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

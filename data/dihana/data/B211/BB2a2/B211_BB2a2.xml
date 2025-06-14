@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:17"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B211"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B211_BB2a2_T01u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <d tipo="abrir"> Hola </d> , me gustaría saber que horarios de trenes hay y que precio tiene <f tipo="e"/> para ir <r tipo="sustitución"> <m> <a>a</a> <l tipo="cortada" palabra="Londres"> Lon </l> </m> <c> a París </c> </r> <p/> <a>e</a>l uno de agosto <p/> <r tipo="repetición"> <m> <a>y</a> </m> <c> y </c> </r> los horarios que tiene . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B211_BB2a2_T02u.ul">
+<t> <d tipo="rellenar"> Pu<a>e</a>s </d> <p/> sí , me gustaría que me dirí<a>a</a> el horario para <a>i</a>r <p/> <r tipo="repetición"> <m> <a>a</a> </m> <c> a </c> </r> Francia , <r tipo="inserción"> <m> en </m> <c> <r tipo="inserción"> <m> a <l tipo="cortada" palabra="París"> Pa </l> </m> <c> a la ciudad de París </c> </r> en </c> </r> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere viajar a Valencia ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B211_BB2a2_T03u.ul">
+<t> No , quiero ir a París . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B211_BB2a2_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> Sí , me gustaría que me diría el horario para un tr<a>e</a>n a Sevilla . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere llegar a Sevilla ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B211_BB2a2_T05u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , <f tipo="e"/> la fecha entre el uno de agosto y el tres . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B211_BB2a2_T06u.ul">
+<t> Sí , me gustaría saber si hay alguno qu<a>e</a> sea coche cama . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 en clase cama . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B211_BB2a2_T07u.ul">
+<t> Sí , me gustaría saber el precio del billete del coche cama . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Sevilla en clase cama . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . En clase cama , el tren más caro es un Tren_Hotel que cuesta 117 con 50 euros la ida y el otro es un Diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B211_BB2a2_T08u.ul">
+<t> No , eso es todo , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

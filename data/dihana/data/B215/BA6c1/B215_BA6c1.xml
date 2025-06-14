@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:18"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B215"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B215_BA6c1_T01u.ul">
+<t> <d tipo="abrir"> Buenos días </d> , <f tipo="e"/> querría viajar hoy <r tipo="repetición"> <m> de <l tipo="cortada" palabra="Valencia"> Valen </l> </m> <c> de Valencia </c> </r> a Alicante <n fuente="hablante" tipo="aspiración"/> <p/> y quería saber los horarios <r tipo="inserción"> <m> <r tipo="sustitución"> <m> o </m> <c> y </c> </r> </m> <c> <d tipo="aceptar"> bueno </d> y </c> </r> tipo de tren <p/> <f tipo="e"/> que podría tener hoy . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Alicante ¿ desde Valencia ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B215_BA6c1_T02u.ul">
+<t> Sí <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B215_BA6c1_T03u.ul">
+<t> Hoy mismo <p/> , hoy tiene que ser . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el lunes , día 8 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B215_BA6c1_T04u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el lunes , día 8 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B215_BA6c1_T05u.ul">
+<t> Sí , <r tipo="sustitución"> <m> querría <l tipo="cortada" palabra="salir"> sa </l> </m> <c> querría viajar </c> </r> en un tren rápido <n fuente="hablante" tipo="aspiración"/> <p/> <d tipo="rellenar"> entonces </d> me gustaría saber el horario de los trenes rápidos . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> El tren más rápido es un Euromed que sale a las 10 de la mañana y llega a las 11 y 35 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B215_BA6c1_T06u.ul">
+<t> No , eso es todo , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

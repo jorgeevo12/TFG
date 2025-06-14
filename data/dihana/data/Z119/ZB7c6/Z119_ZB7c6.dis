@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , me gustaría saber precios para un viaje de ida a Toledo .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , me gustaría saber precios (p) para Toledo (nw) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Toledo .
+M4: ¿ Qué día desea salir ?
+U4: (lu Salir alir) el próximo sábado (nw) .
+M5: Quiere saber el precio a Toledo ¿ desde Zaragoza ?
+U5: Sí , y me gustaría viajar en Talgo si fuese posible .
+M6: Le consulto precios de Zaragoza a Toledo en tipo tren Talgo . Un momento por favor .
+M7: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , me gustaría saber el precio del coche cama .
+M8: Le consulto precios de Zaragoza a Toledo en clase cama . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: No , (dc gracias) eso es todo .
+M10: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas tardes) , quería saber los trenes que van de Valencia a Cáceres el próximo fin de semana (p) el viernes o sábado .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Quiere viajar a Cáceres ?
+U3: Sí .
+M4: Quiere horarios de trenes a Cáceres ¿ saliendo de Valencia ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Cáceres saliendo el sábado , día 8 de mayo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: (fe) Quería saber (rr (m el) (c el)) tipo de tren que sale (rr (m de) (c de)) la mañana (ri(m de (lu siete si)) (c (rr (m de) (s (p)) (c de)) las siete)) y tres .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: (fe) Quería saber el tipo de tren (p) de (lm las ra) (p) siete y tres de la mañana .
+M8: Ese tren es un Talgo ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

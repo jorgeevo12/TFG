@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días , llamaba para pedir información de trenes que salgan de $C_ORIGEN<Cuenca> con llegada en $CIUDAD<Valencia> para el día $FECHA<quince de marzo> .
+Hola buenos días , llamaba para pedir información de trenes que salgan de $C_ORIGEN<Cuenca> (U:Pregunta:Nil:Origen) pal: 1 - 14
+con llegada en $CIUDAD<Valencia> (U:Pregunta:Nil:Destino) pal: 15 - 18
+para el día $FECHA<quince de marzo> . (U:Pregunta:Nil:Dia) pal: 19 - 25
+
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN<cuenca> destino $C_DESTINO<valencia> saliendo el $FECHA<lunes , día 15 de marzo de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<cuenca> destino $C_DESTINO<valencia> saliendo el $FECHA<lunes , día 15 de marzo de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 45 de la mañana> y el $NRORDEN<último> a las $HORA<7 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 45 de la mañana> y el $NRORDEN<último> a las $HORA<7 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U2: ¿ Algún tren que llegue al destino antes de las $HORA<ocho> ? .
+¿ Algún tren que llegue al destino antes de las $HORA<ocho> ? . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 13
+
+M4: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M5: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M6: Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<10 y 57 de la mañana> y el $NRORDEN<último> a las $HORA<6 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<10 y 57 de la mañana> y el $NRORDEN<último> a las $HORA<6 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U3: ¿ A qué hora sale de $C_ORIGEN<Cuenca> el que llega a las $HLLEG<seis de la tarde> ? .
+¿ A qué hora sale de $C_ORIGEN<Cuenca> (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+el que llega a las $HLLEG<seis de la tarde> ? . (U:Pregunta:Hora_salida:Hora_llegada) pal: 8 - 18
+
+M7: Ese tren sale a las $HSAL<2 y 52 de la tarde> y llega a las $HLLEG<6 de la tarde> . Desea algo más ? .
+Ese tren sale a las $HSAL<2 y 52 de la tarde> y llega a las $HLLEG<6 de la tarde> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida) pal: 1 - 20
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 21 - 25
+
+U4: ¿ Qué precio tiene el billete ? .
+¿ Qué precio tiene el billete ? . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Qué precio tiene el billete .
+Qué precio tiene el billete . (U:Pregunta:Precio:Nil) pal: 1 - 6
+
+M9: El precio de ese tren en clase $CLASE<turista> es $PRECIO<9 con 84 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase $CLASE<turista> es $PRECIO<9 con 84 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

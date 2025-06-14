@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:39"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z509"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T01u.ul">
+<t> Quiero l<a>o</a>s horarios para ir de Jaén a <l tipo="mal_pronunciada" palabra="Madrid"> Madrit </l> <p/> el día <l tipo="mal_pronunciada" palabra="veintitrés"> ventitrés </l> de octubre a las diez de la noche . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T02u.ul">
+<t> A Madrid <p/> el <l tipo="mal_pronunciada" palabra="veintitrés"> ventitrés </l> de octubre a las diez de la noche . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir desde Madrid ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T03u.ul">
+<t> No , quiero salir desde Jaén . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Jaén a Madrid el martes , día 27 de abril de 2004 entre las 9 y 30 y las 10 y 30 de la noche . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T04u.ul">
+<t> Sí , la fecha en la que quier<a>o</a> viajar es el <l tipo="mal_pronunciada" palabra="veintitrés"> ventitrés </l> de octubre <p/> y a las diez de la noche . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Jaén destino Madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T05u.ul">
+<t> <a>Y</a> <p/> <f tipo="sin_identificar"/> ¿ a partir de las doce de la noche ? </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y el otro a las 3 y 40 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T06u.ul">
+<t> ¿ Cuáles son los precios <p/> para el viaje ? </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Los trenes son Regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T07u.ul">
+<t> Quiero los horarios <r tipo="sustitución"> <m> para <l tipo="cortada" palabra="volver"> vol </l> </m> <c> para el viaje de vuelta </c> </r> a partir de las dos de la mañana . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T08u.ul">
+<t> Sí , <a>e</a>l horario del viaje de vuelta para el día <l tipo="mal_pronunciada" palabra="veinticuatro"> venticuatro </l> de octubre . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el domingo , día 24 de octubre de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T09u.ul">
+<t> Sí y cuáles son los precios d<a>e</a>l tren . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Los trenes son Regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="Z509_ZC4c2_T10u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

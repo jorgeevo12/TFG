@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (nw) (do Hola) quería ir a Granada (a e)n Nochevieja (p) (fm) (b en u(a n)) viajando por la noche .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Granada .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (na) Quería ir a Granada saliendo el veintiséis de (nw diciembre) por la noche . (p) En un Tren_Hotel si es posible .
+M5: Quiere horarios de trenes a Granada ¿ desde Granada ?
+U5: A Granada .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Granada saliendo el domingo , día 26 de diciembre de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Quería sal(a i)r si es posible entre el veintiséis y el treinta y uno de diciembre por la noche .
+M8: Le consulto horarios de Bilbao a Granada el lunes , día 26 de enero de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U7: (na) Sí , quería el horario de trenes de Bilbao a Granada (na) el veintiséis de diciembre (p) por la noche quería viajar .
+M10: Le consulto horarios de Bilbao a Granada el domingo , día 26 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , (fm) míreme a ver si ha(a y) (rr (m (lu viajes vi)) (c viajes)) con las mismas condiciones entre el veintisiete y el (fb) treinta y uno de diciembre .
+M12: Le consulto horarios de Bilbao a Granada el lunes , día 27 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M13: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U9: ¿ Alguno de los dos es de clase turista ?
+M14: El primer tren es un Diurno y su precio en turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M15: Gracias por utilizar este servicio . Feliz viaje .

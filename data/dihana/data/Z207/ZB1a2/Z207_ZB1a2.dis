@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero viajar la próxima semana a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Quiero saber horarios y precios .
+M3: Horarios de trenes con destino a Barcelona ¿ desde Zaragoza ?
+U3: Sí , para la próxima semana .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: (na) Me gustaría no viajar de noche , y si es posible llevar mi coche .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero viajar de día y llevar mi coche en el tren , si es posible .
+M7: Le consulto horarios . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (na) (df Pues) (p) quiero viajar de día (na) y me gustaría saber el precio .
+M9: Le consulto precios de Zaragoza a Barcelona saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

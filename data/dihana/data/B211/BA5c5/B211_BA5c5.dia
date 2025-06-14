@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , me gustaría obtener un horario para un viaje de ida para ir a Santander y es para la fecha del uno de julio antes de las tres .
+Hola , me gustaría obtener un horario para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 12
+para ir a Santander (U:Pregunta:Hora_salida:Destino) pal: 13 - 16
+y es para la fecha del uno de julio (U:Pregunta:Hora_salida:Dia) pal: 17 - 25
+antes de las tres . (U:Pregunta:Hora_salida:Hora_salida) pal: 26 - 30
+
+M2: Quiere horarios de trenes a barcelona , ¿ desde valencia ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U2: No , le he dicho es para ir desde Palencia a Santander .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+le he dicho es para ir desde Palencia (U:Respuesta:Origen:Origen) pal: 3 - 10
+a Santander . (U:Respuesta:Hora_salida:Destino) pal: 11 - 13
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El uno de julio .
+El uno de julio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: Le consulto horarios de valencia a santander el jueves , día 1 de julio de 2004 entre las 0 de la noche y las 3 de la tarde . Un momento por favor .
+Le consulto horarios de valencia a santander el jueves , día 1 de julio de 2004 entre las 0 de la noche y las 3 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Pues , es que el viaje el punto de salida es Palencia . De Palencia a Santander .
+Pues , es que el viaje el punto de salida es Palencia . De Palencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 15
+a Santander . (U:Pregunta:Hora_salida:Destino) pal: 16 - 18
+
+M6: Le consulto horarios de trenes con salida en palencia destino santander saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en palencia destino santander saliendo el jueves , día 1 de julio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U5: Sí , me gustaría saber a que hora llega el de las siete de la mañana .
+Sí , me gustaría saber a que hora llega el de las siete de la mañana . (U:Pregunta:Hora_llegada:Hora_salida) pal: 1 - 17
+
+M8: Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . Desea algo más ? .
+Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+U6: No , gracias eso es todo .
+No , gracias eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

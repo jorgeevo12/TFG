@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , para saber los horarios (rs (m de un (lu tren tre)) (c para un tren)) a Granada (a e)l viernes por la noche .
+M2: Quiere horarios de trenes a Granada ¿ desde Zaragoza ?
+U2: Sí .
+M3: Le consulto horarios de Zaragoza a Granada el viernes , día 30 de abril de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (a Y) de un tren sin litera (p) , quite la litera (na) .
+M5: ¿ Desea viajar en clase litera ?
+U4: No .
+M6: Perdón . No consigo entenderle .
+U5: No , (dc gracias) .
+M7: Le consulto horarios . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

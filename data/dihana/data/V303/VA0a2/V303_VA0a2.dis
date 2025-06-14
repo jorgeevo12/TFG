@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , me gustaría Granada (p) saliendo el treinta (p) de enero .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , saber el horario para el viernes (lm treinta trenta) de enero .
+M3: Quiere horarios de trenes a Granada ¿ desde Valencia ?
+U3: Sí , (dq (lm por po) (lm favor favó)) .
+M4: Le consulto horarios de trenes con salida en Valencia destino Granada saliendo el martes , día 13 de enero de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Tren_Hotel que sale a las 0 y 27 de la noche ¿ Desea algo más ?
+U4: No , (dc (lm muchas mucha) gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

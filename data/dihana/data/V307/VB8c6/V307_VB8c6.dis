@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quiero saber el precio de un billete para ir de Oviedo a Bilb(a a)o (p) la semana que viene .
+M2: ¿ Me pregunta por horarios ?
+U2: No , precio . Precio del billete .
+M3: ¿ Quiere viajar desde Oviedo ?
+U3: Sí , desde Oviedo (p) (a a) Bilbao .
+M4: ¿ Desea salir el lunes , día 23 de febrero de 2004 ?
+U4: Muy bien (p) , el lunes .
+M5: Le consulto precios de Oviedo a Bilbao . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

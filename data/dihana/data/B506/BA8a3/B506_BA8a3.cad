@@ -1,0 +1,120 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero un viaje de $TVIAJE a $C_DESTINO el $FECHA .
+Quiero un viaje de $TVIAJE (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 5
+a $C_DESTINO (U:Pregunta:Nil:Destino) pal: 6 - 7
+el $FECHA . (U:Pregunta:Nil:Dia) pal: 8 - 13
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí quiero salir desde $C_ORIGEN a $C_DESTINO entre las $HORA y las $HORA horas de la $FECHA .
+Sí (U:Afirmacion:Hora_salida:Nil) pal: 1 - 1
+quiero salir desde $C_ORIGEN (U:Pregunta:Hora_salida:Origen) pal: 2 - 5
+a $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 6 - 7
+entre las $HORA y las $HORA horas de la $FECHA . (U:Pregunta:Hora_salida:Hora_salida) pal: 8 - 18
+
+M3: ¿ Quiere salir entre las $HORA y las $HORA ? .
+¿ Quiere salir entre las $HORA y las $HORA ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 14
+
+U3: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: ¿ Perdone ? No le he entendido .
+¿ Perdone ? No le he entendido . (U:No_entendido:Nil:Nil) pal: 1 - 8
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U5: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+M6: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U6: No , deseo salir el $FECHA .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+deseo salir el $FECHA . (U:Respuesta:Hora_salida:Dia) pal: 3 - 14
+
+M7: El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el $FECHA .
+El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el $FECHA . (M:Confirmacion:Dia:Dia) pal: 1 - 29
+
+U7: Sí , quiero salir el $FECHA .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+quiero salir el $FECHA . (U:Respuesta:Hora_salida:Dia) pal: 3 - 14
+
+M8: Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . Un momento por favor .
+Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U8: Sí , deseo cambiar el día .
+Sí , deseo cambiar el día . (U:Pregunta:Hora_salida:Dia) pal: 1 - 7
+
+M10: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U9: al día siguiente $FECHA $FECHA del año dos mil cuatro .
+al día siguiente $FECHA $FECHA del año dos mil cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 13
+
+M11: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U10: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M12: Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . Un momento por favor .
+Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+
+M13: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U11: Sí deseo cambiar el intervalo de las horas si podría ser desde las $HORA a las $HORA .
+Sí deseo cambiar el intervalo de las horas si podría ser desde las $HORA a las $HORA . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 24
+
+M14: Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y la $HORA . Un momento por favor .
+Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y la $HORA . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M15: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U12: Sí , deseo cambiar el intervalo de hora .
+Sí , deseo cambiar el intervalo de hora . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 9
+
+M16: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M17: El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U13: Sí me gustaría que me confirme el billete .
+Sí me gustaría que me confirme el billete . (U:Indefinida:Nil:Nil) pal: 1 - 9
+
+M18: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U14: Sí me gustaría comprar un billete para el $T_TREN de las $HORA el $FECHA .
+Sí me gustaría comprar un billete para el $T_TREN de las $HORA el $FECHA . (U:Indefinida:Nil:Nil) pal: 1 - 25
+
+M19: Este servicio no está preparado para realizar reservas . Desea realizar otra consulta ? .
+Este servicio no está preparado para realizar reservas . (M:Indefinida:Nil:Nil) pal: 1 - 9
+Desea realizar otra consulta ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 15
+
+U15: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M20: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw (do Hola buenas tardes) , quisiera sabe(a r) los horario(a s) de ida (p) (na) (a a) Madrid (p) el treinta y uno de febrero) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (na) (do Buenas tardes) , (na) quisiera saber los horario(a s) de ida (p) a Madrid (p) para el treinta y uno de febrero .
+M3: Quiere horarios de trenes a Madrid ¿ saliendo de Valencia ?
+U3: No , saliendo de Segovia .
+M4: Quiere horarios de trenes a Madrid ¿ saliendo de Segovia ?
+U4: (nl) Sí , (dc gracias) .
+M5: ¿ Qué día desea salir ?
+U5: (nl) El treinta y uno de febrero .
+M6: ¿ Qué día desea salir ?
+U6: (na) El veintiocho de febrero .
+M7: Le consulto horarios de trenes con salida en Segovia destino Madrid saliendo el lunes , día 28 de febrero de 2005 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y el último a las 8 y 55 de la tarde ¿ Desea algo más ?
+U7: (nl) Sí , quisiera llegar antes de las veintidós horas .
+M9: Le consulto horarios . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y llega a las 7 y 52 de la mañana y el último sale a las 6 y 55 de la tarde y llega a las 8 y 50 de la tarde ¿ Desea algo más ?
+U8: (na) No , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

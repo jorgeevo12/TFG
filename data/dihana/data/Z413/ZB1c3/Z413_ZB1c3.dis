@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería información para un viaje (p) de ida , (p) desde Zaragoza a Madrid (p) (na) con salida entre el doce y el catorce de mayo por la tarde .
+M2: ¿ Quiere saber horarios ?
+U2: (nw) .
+M3: ¿ Quiere saber horarios ?
+U3: Quiero el horario par(a a) (na) (p) el doce (rr (m d(a e)) (c de)) mayo (na) .
+M4: Le consulto horarios de Zaragoza a Madrid el miércoles , día 12 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde ¿ Desea algo más ?
+U4: (lu Quería ía) saber los horarios del trece y del catorce de mayo .
+M6: Le consulto horarios de Zaragoza a Madrid el viernes , día 14 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde ¿ Desea algo más ?
+U5: (na) .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Más (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (na) quería saber el horario y el precio (fe) para ir a Madrid en tren (na) e(a l) (p) viernes (fe) diecinueve de noviembre (na) .
+M2: ¿ Desea salir el lunes , día 22 de noviembre de 2004 ?
+U2: No , tiene que ser el viernes (na) .
+M3: ¿ Desea salir el viernes , día 26 de noviembre de 2004 ?
+U3: No , el viernes diecinueve .
+M4: ¿ Desea salir el viernes , día 19 de noviembre de 2004 ?
+U4: Sí , el viernes a partir del mediodía .
+M5: ¿ Quiere salir entre las 12 de la mañana y las 11 de la noche ?
+U5: (nw) No , entre (rs (m las diez y la(a s) (p) cinco de la tarde) (s (p) de) (c las doce (de perdón) y las cinco de la tarde)) .
+M6: ¿ Quiere salir entre las 12 de la mañana y las 5 de la tarde ?
+U6: Sí .
+M7: ¿ A qué ciudad desea viajar ?
+U7: A Madrid .
+M8: Le consulto horarios de Bilbao a Madrid el viernes , día 19 de noviembre de 2004 entre las 12 de la mañana y las 5 de la tarde . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U8: (nw) Sí , me gustaría saber el precio (p) del viaje de ida solamente .
+M10: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) (nw) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quería saber los horarios de trene(a s) para Córdoba (na) el viernes que viene .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Córdoba .
+M3: ¿ Quiere viajar a Córdoba ?
+U3: Sí , a Córdoba .
+M4: ¿ Qué día desea salir ?
+U4: El próximo viernes día veinte .
+M5: Le consulto horarios de trenes con salida en Valencia destino Córdoba saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M6: Sólo hay dos trenes . El primero sale a las 0 y 27 de la noche y llega a las 6 y 39 de la mañana y el otro sale a las 11 y 30 de la mañana y llega a las 6 y 30 de la tarde ¿ Desea algo más ?
+U5: (na) Sí ¿ no habría (rr (m (lu posibilidad pao)) (c posibilidad)) de viajar de noche el viernes ? ¿ Entre el viernes y el sábado ?
+M7: Le consulto horarios . Un momento por favor .
+M8: Sólo hay dos trenes con salida el sábado , día 21 de febrero de 2004 . El primero sale a las 0 y 27 de la noche y el otro a las 11 y 30 de la mañana ¿ Desea algo más ?
+U6: No , eso está bien , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,69 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenas tardes , quería un billete de ida desde Zaragoza a Madrid para el día seis de marzo y si es posible viajar en el Ave .
+Hola buenas tardes , quería un billete de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 9
+desde Zaragoza (U:Pregunta:Nil:Origen) pal: 10 - 11
+a Madrid (U:Pregunta:Nil:Destino) pal: 12 - 13
+para el día seis de marzo (U:Pregunta:Nil:Dia) pal: 14 - 19
+y si es posible viajar en el Ave . (U:Pregunta:Nil:Tipo_tren) pal: 20 - 28
+
+
+M2: ¿ Desea hacer el viaje en un alaris ? .
+¿ Desea hacer el viaje en un alaris ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+U2: No desearía hacer el viaje en el Ave .
+No (U:Negacion:Tipo_tren:Nil) pal: 1 - 1
+desearía hacer el viaje en el Ave . (U:Respuesta:Nil:Tipo_tren) pal: 2 - 9
+
+
+M3: ¿ Desea hacer el viaje en un ave ? .
+¿ Desea hacer el viaje en un ave ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+M4: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U4: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U5: El día seis de marzo .
+El día seis de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+
+M6: ¿ Desea salir el sábado , día 6 de marzo de 2004 ? .
+¿ Desea salir el sábado , día 6 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M7: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el sábado , día 6 de marzo de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el sábado , día 6 de marzo de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:33"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z201"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z201_ZB0a0_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Me gustaría saber los horarios <a>y</a> consultar el precio <p/> para un viaje de id<a>a</a> a Cádiz el próximo fin de semana . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z201_ZB0a0_T02u.ul">
+<t> Cádiz . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Cádiz ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z201_ZB0a0_T03u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Sí , para el próximo fin de semana y además dese<a>o</a> consultar el precio . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Zaragoza destino Cádiz saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z201_ZB0a0_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , deseo saber el precio <p/> d<a>e</a> este tren que sal<a>e</a> el veintiocho de febrero <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z201_ZB0a0_T05u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

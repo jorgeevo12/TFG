@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:32"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z106"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z106_ZB6c1_T01u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <d tipo="abrir"> Buenas </d> , querría saber los horarios y los precios <p/> de los trenes con salida en Castellón y llegada en Tarragona <n fuente="exterior" tipo="genérico"/> <p/> que lleguen este viernes por la mañana . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z106_ZB6c1_T02u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Quiero saber los horarios y precios de los trenes de Castellón a Tarragona <p/> <f tipo="e"/> para este viernes por la mañana . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z106_ZB6c1_T03u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Cualquiera pero que llegue el viernes por la mañana <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Castellón a Tarragona llegando el viernes , día 5 de marzo de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 6 y 39 de la mañana y llega a las 8 y 28 de la mañana y el último sale a las 10 y 50 de la mañana y llega a las 12 y 32 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z106_ZB6c1_T04u.ul">
+<t> Sí , si es posible me gustaría que fuese un tren Euromed . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Castellón a Tarragona llegando el viernes , día 5 de marzo de 2004 en Euromed . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 7 y 19 de la mañana y llega a las 8 y 34 de la mañana y el otro sale a las 9 y 16 de la mañana y llega a las 10 y 35 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z106_ZB6c1_T05u.ul">
+<t> Sí , querría conocer también los precios . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Los trenes son Euromed y en clase turista , el billete cuesta 24 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z106_ZB6c1_T06u.ul">
+<t> No , eso es todo , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

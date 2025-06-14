@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero horarios y precios (nw) (p) para viajar de Ávila a Salamanca .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Salamanca .
+M3: ¿ Qué día desea salir ?
+U3: El viernes por la tarde .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: El viernes por la tarde .
+M5: Quiere horarios de trenes a Salamanca ¿ desde Zaragoza ?
+U5: No .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Horario y precio de trenes de Ávila a Salamanca .
+M7: Le consulto horarios de ávila a Salamanca el viernes , día 20 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 3 y 5 de la tarde y el otro a las 5 y 2 de la tarde ¿ Desea algo más ?
+U7: Sí , quiero los precios .
+M9: Los trenes son TRD y en clase turista , el billete cuesta 7 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , nada más .
+M10: Gracias por utilizar este servicio . Feliz viaje .

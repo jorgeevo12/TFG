@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , me gustaría saber horarios (p) para Madrid el jueves veintidós de mayo .
+M2: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el sábado , día 22 de mayo de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U2: Sí , me gustaría saber (p) trenes de vuelta (p) y su precio también .
+M4: ¿ Quiere saber horarios ?
+U3: Sí (na) .
+M5: Le consulto horarios de trenes con salida en Madrid destino Valencia saliendo el sábado , día 22 de mayo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 8 de la mañana y llega a las 11 y 27 de la mañana y el último sale a las 7 de la tarde y llega a las 10 y 29 de la noche ¿ Desea algo más ?
+U4: Sí , saber los precios de los trenes tanto de ida como de vuelta .
+M7: Le consulto precios . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Alaris que cuesta 36 con 50 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: No (na) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

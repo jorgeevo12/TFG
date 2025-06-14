@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero un billete para ir de Madrid a Granada el diez de mayo entre las seis y las diez .
+Quiero un billete para ir de Madrid (U:Pregunta:Nil:Origen) pal: 1 - 7
+a Granada (U:Pregunta:Nil:Destino) pal: 8 - 9
+el diez de mayo (U:Pregunta:Nil:Dia) pal: 10 - 13
+entre las seis y las diez . (U:Pregunta:Nil:Hora_salida) pal: 14 - 20
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U2: Entre las seis y las diez .
+Entre las seis y las diez . (U:Respuesta:Hora_salida:Hora_salida) pal: 1 - 7
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El diez de mayo .
+El diez de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M4: Le consulto horarios de madrid a granada el lunes , día 10 de mayo de 2004 entre las 6 y las 10 de la mañana . Un momento por favor .
+Le consulto horarios de madrid a granada el lunes , día 10 de mayo de 2004 entre las 6 y las 10 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+M5: El único tren que realiza el trayecto es un talgo que sale a las 8 y 10 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 8 y 10 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

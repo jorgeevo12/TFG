@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber el horario y el preci(a o) de un viaj(a e) dirección Barcelona .
+M2: Quiere horarios de trenes a Barcelona ¿ desde Madrid ?
+U2: (fm) Sí .
+M3: ¿ Qué día desea salir ?
+U3: El catorce de junio .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Catorce de junio .
+M5: Le consulto horarios de trenes con salida en Madrid destino Barcelona saliendo el lunes , día 14 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: Querrí(a a) saber el precio .
+M7: Le consulto precios de Madrid a Barcelona . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Costa_Brava que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

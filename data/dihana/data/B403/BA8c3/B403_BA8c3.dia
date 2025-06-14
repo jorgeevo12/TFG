@@ -1,0 +1,53 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenas , me gustaría saber los horarios de los trenes que van de Granada a Sevilla .
+Buenas , me gustaría saber los horarios de los trenes que van de Granada (U:Pregunta:Hora_salida:Origen) pal: 1 - 14
+a Sevilla . (U:Pregunta:Hora_salida:Destino) pal: 15 - 17
+M2: Horarios de trenes con destino a sevilla , ¿ desde córdoba ? .
+Horarios de trenes con destino a sevilla , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 8
+¿ desde córdoba ? . (M:Confirmacion:Origen:Origen) pal: 9 - 13
+U2: No .
+No . (U:Negacion:Origen:Nil) pal: 1 - 2
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El dieciséis de enero del dos mil cinco a partir de las dos y media .
+El dieciséis de enero del dos mil cinco (U:Respuesta:Dia:Dia) pal: 1 - 8
+a partir de las dos y media . (U:Respuesta:Hora_salida:Hora_salida) pal: 9 - 16
+M4: ¿ Desea salir el domingo , día 16 de enero de 2005 ? .
+¿ Desea salir el domingo , día 16 de enero de 2005 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M5: ¿ Quiere salir entre las 2 y 30 de la tarde y las 11 de la noche ? .
+¿ Quiere salir entre las 2 y 30 de la tarde y las 11 de la noche ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 19
+U5: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M6: Le consulto horarios de córdoba a sevilla el domingo , día 16 de enero de 2005 entre las 2 y 30 de la tarde y las 11 de la noche . Un momento por favor .
+Le consulto horarios de córdoba a sevilla el domingo , día 16 de enero de 2005 entre las 2 y 30 de la tarde y las 11 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 31
+Un momento por favor . (M:Espera:Nil:Nil) pal: 32 - 36
+M7: Hay varios trenes . El primero sale a las 2 y 52 de la tarde y el último a las 10 y 44 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 52 de la tarde y el último a las 10 y 44 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U6: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+M8: Si . Desea algo más ? .
+Si . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+U7: Trenes que salen de Granada .
+Trenes que salen de Granada . (U:Pregunta:Hora_salida:Origen) pal: 1 - 6
+M9: Le consulto horarios de granada a sevilla el domingo , día 16 de enero de 2005 entre las 2 y 30 de la tarde y las 11 de la noche . Un momento por favor .
+Le consulto horarios de granada a sevilla el domingo , día 16 de enero de 2005 entre las 2 y 30 de la tarde y las 11 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 31
+Un momento por favor . (M:Espera:Nil:Nil) pal: 32 - 36
+M10: Sólo hay dos trenes . El primero sale a las 4 y 29 de la tarde y el otro a las 8 y 43 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 4 y 29 de la tarde y el otro a las 8 y 43 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+U8: Sí , saber cuál es el tipo de tren .
+Sí , saber cuál es el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 10
+M11: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+M12: Dispone de un único tipo de tren con salida el domingo , día 16 de enero de 2005 , que es un trd . Desea algo más ? .
+Dispone de un único tipo de tren con salida el domingo , día 16 de enero de 2005 , que es un trd . (M:Respuesta:Tipo_tren:Dia,Tipo_tren) pal: 1 - 24
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 25 - 29
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

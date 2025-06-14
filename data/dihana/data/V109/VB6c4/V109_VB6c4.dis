@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) (fe) , quería saber los horarios de los trenes que salen de Barcelona (p) a Alicante par(a a) el miércoles que viene .
+M2: Le consulto horarios de trenes con salida en Barcelona destino Alicante saliendo el miércoles , día 17 de marzo de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 6 de la tarde ¿ Desea algo más ?
+U2: Sí ¿ algún billete disponible en el Euromed ?
+M4: Le consulto horarios de trenes con salida en Barcelona destino Alicante saliendo el miércoles , día 17 de marzo de 2004 en Euromed . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 6 de la tarde ¿ Desea algo más ?
+U3: Sí ¿ qué precio (nw tiene) el billete ?
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: ¿ Qué precio tiene el billete ?
+M7: Le consulto precios de Barcelona a Alicante en tipo tren Euromed . Un momento por favor .
+M8: Los trenes son Euromed y en clase turista , el billete cuesta 43 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , (a e)l tren que sale a las seis (fe) ¿ a qué hora lleg(a a) (p) a Alicante ?
+M9: Ese tren sale a las 6 de la tarde y llega a las 10 y 35 de la noche ¿ Desea algo más ?
+U6: Sí , a qué hora sal(a e) el tren anterior (p) y a qué hor(a a) lleg(a a) a Alicante .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: ¿ Hay algún tren que salga antes de las seis (p) o que llegue antes de l(a a)s diez de la noche ?
+M11: Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 11 y 35 de la mañana y el último sale a las 4 de la tarde y llega a las 8 y 35 de la tarde ¿ Desea algo más ?
+U8: ¿ Cuál era el precio del billete ?
+M13: Le consulto precios . Un momento por favor .
+M14: Los trenes son Euromed y en clase turista , el billete cuesta 43 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

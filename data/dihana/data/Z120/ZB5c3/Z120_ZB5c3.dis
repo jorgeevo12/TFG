@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Deseo viajar desde Valladolid a Madrid el veinticinco de marzo .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , deseo saber precios y horarios .
+M3: Le consulto horarios de trenes con salida en Valladolid destino Madrid saliendo el jueves , día 25 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 4 de la madrugada y el último a las 8 y 41 de la tarde ¿ Desea algo más ?
+U3: (na) Deseo viajar en Talgo .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Desearía viajar en Talgo .
+M6: Le consulto horarios de trenes con salida en Valladolid destino Madrid saliendo el jueves , día 25 de marzo de 2004 en Talgo . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 11 y 13 de la mañana y el último a las 7 y 38 de la tarde ¿ Desea algo más ?
+U5: (nl) Sí , deseo saber el precio .
+M8: Los trenes son Talgo y en clase turista , el billete cuesta 20 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

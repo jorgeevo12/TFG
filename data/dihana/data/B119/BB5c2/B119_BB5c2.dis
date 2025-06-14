@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do (lm Hola ana)) , me gustaría saber el horari(a o) (p) (fe) de un tren (fe) Barcelona Castellón .
+M2: ¿ Qué día desea salir ?
+U2: Mañana .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quiero salir mañana .
+M4: Le consulto horarios de trenes con salida en Barcelona destino Castellón saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U4: (fe) Sí , si me puedes concretar el horario de los trenes por la mañana .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Mañana por la mañana (p) qué horario de trenes hay .
+M7: Le consulto horarios de Barcelona a Castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 4 de la mañana y el último sale a las 12 de la mañana y llega a las 2 y 25 de la tarde ¿ Desea algo más ?
+U6: Sí (fe) ¿ alguno de esos trenes es Euromed ?
+M9: ¿ Desea hacer el viaje en un Euromed ?
+U7: Sí .
+M10: Le consulto horarios de Barcelona a Castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde en Euromed . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana ¿ Desea algo más ?
+U8: Sí (fe) ¿ puedo ir en primera clase ?
+M12: Le consulto horarios de Barcelona a Castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde en clase preferente . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

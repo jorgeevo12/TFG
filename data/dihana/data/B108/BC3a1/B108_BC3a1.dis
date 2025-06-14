@@ -1,0 +1,36 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría obtener horarios y precios para un viaje de ida y vuelta (na) a Vitoria , (na) (fe) mañana o pasado mañana (na) (a y) saliend(a o) entre las diez y las once . Además querría ir en Ave , si puede ser .
+M2: ¿ Desea salir el sábado , día 14 de febrero de 2004 ?
+U2: Sí , mañana o pasado .
+M3: ¿ Quiere salir entre las 6 de la tarde y las 11 de la noche ?
+U3: No , quiero salir entre las diez de la mañana y las once de la mañana .
+M4: Le consulto horarios de Bilbao a Vitoria el sábado , día 14 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ?
+U4: Sí , querría obten(a e)r precios .
+M6: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , querría sab(a e)r si cojo de ida y vuelta (p) ¿ qué horarios tendré para volver ?
+M7: Le consulto horarios de trenes con salida en Vitoria destino Bilbao saliendo el sábado , día 14 de febrero de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U6: (na) Sí , querría saber , si salgo pasado mañana ¿ a qué hora podrí(a a) (p) (de o sea) a qué hora tendría horarios y precios ?
+M9: ¿ Desea salir el domingo , día 15 de febrero de 2004 ?
+U7: Sí , entre las diez y las once de la mañana .
+M10: Le consulto horarios de Vitoria a Bilbao el domingo , día 15 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ?
+U8: Sí , querría saber el horario para salir pasado mañana entre las diez y las once , (p) saliendo de aquí de Bilbao , para llegar a Vitoria .
+M12: Le consulto horarios de Bilbao a Vitoria el domingo , día 15 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+M13: El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ?
+U9: (fe) Saber el precio .
+M14: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí , horarios de vuelt(a a) (p) para el lunes .
+M15: Le consulto horarios de Vitoria a Bilbao el lunes , día 16 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+M16: El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ?
+U11: Sí , querría saber para volver el mismo día per(a o) (rs (m hacia l(a a)s) (s (p)) (c hacia la)) una del mediodía .
+M17: Horarios desde Vitoria ¿ saliendo entre las 12 y 30 de la mañana y la una y 30 de la tarde ?
+U12: Sí .
+M18: Le consulto horarios . Un momento por favor .
+M19: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U13: Sí , (fe) saliendo un poco más tard(a e) , (p) (df pues) hacia l(a a)s tres de la tarde por ejemplo .
+M20: Le consulto horarios de Vitoria a Bilbao el lunes , día 16 de febrero de 2004 entre las 3 de la tarde y las 11 de la noche . Un momento por favor .
+M21: Hay varios trenes . El primero sale a las 3 y 30 de la tarde y el último a las 11 de la noche ¿ Desea algo más ?
+U14: No .
+M22: Gracias por utilizar este servicio . Feliz viaje .

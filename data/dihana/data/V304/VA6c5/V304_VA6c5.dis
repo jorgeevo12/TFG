@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw (do Buenas) , quería información para ir d(a e) Murcia a Pamplona (p) el día seis de julio) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , y el tipo de tren también .
+M3: Le consulto horarios de trenes con salida en Murcia destino Pamplona saliendo el martes , día 6 de julio de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U3: Sí , saber el tipo de tren .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: ¿ (nw Qué tipo de trenes hacen ese trayecto) ?
+M6: ¿ Me pregunta por tipos de trenes ?
+U5: (nw Sí , (da exacto)) .
+M7: Le consulto tipos de trenes para el trayecto Murcia a Pamplona . Un momento por favor .
+M8: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

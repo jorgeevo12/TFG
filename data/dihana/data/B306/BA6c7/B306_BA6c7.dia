@@ -1,0 +1,94 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quería saber el horario para ir de Cáceres a Mérida .
+Quería saber el horario para ir de Cáceres (U:Pregunta:Hora_salida:Origen) pal: 1 - 8
+a Mérida . (U:Pregunta:Hora_salida:Destino) pal: 9 - 11
+
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+U2: Desde Cáceres a Mérida .
+Desde Cáceres (U:Respuesta:Hora_salida:Origen) pal: 1 - 2
+a Mérida . (U:Respuesta:Hora_salida:Destino) pal: 3 - 5
+
+
+
+M3: ¿ Quiere viajar a mérida ? .
+¿ Quiere viajar a mérida ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+
+U3: Sí , sólo viaje de ida .
+Sí , (U:Afirmacion:Destino:Nil) pal: 1 - 2
+sólo viaje de ida . (U:Respuesta:Hora_salida:Tipo_viaje) pal: 3 - 7
+
+
+
+M4: Quiere horarios de trenes a mérida , ¿ desde bilbao ? .
+Quiere horarios de trenes a mérida , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+U4: No , desde Cáceres a Mérida .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Cáceres (U:Respuesta:Hora_salida:Origen) pal: 3 - 4
+a Mérida . (U:Respuesta:Hora_salida:Destino) pal: 5 - 7
+
+
+
+M5: Quiere horarios de trenes a mérida , ¿ desde cáceres ? .
+Quiere horarios de trenes a mérida , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde cáceres ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+U5: Sí para ir el lunes o el martes de la semana que viene .
+Sí (U:Afirmacion:Origen:Nil) pal: 1 - 1
+para ir el lunes o el martes de la semana que viene . (U:Respuesta:Hora_salida:Dia) pal: 2 - 14
+
+
+
+M6: Le consulto horarios de trenes con salida en cáceres destino mérida saliendo el lunes , día 8 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en cáceres destino mérida saliendo el lunes , día 8 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+U6: Sí , quiero saber qué tipo de tren es .
+Sí , quiero saber qué tipo de tren es . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 10
+
+
+
+M8: Le consulto tipos de trenes para el trayecto cáceres a mérida . Un momento por favor .
+Le consulto tipos de trenes para el trayecto cáceres a mérida . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 16
+
+
+
+M9: Hay varios tipos de trenes . El tren más rápido es un intercity y el más lento es un trenhotel . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un intercity y el más lento es un trenhotel . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U7: No , nada más gracias .
+No , nada más gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Buenas) , querría saber los horarios y los precios (p) de los trenes con salida en Castellón y llegada en Tarragona (nw) (p) que lleguen este viernes por la mañana .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: (na) Quiero saber los horarios y precios de los trenes de Castellón a Tarragona (p) (fe) para este viernes por la mañana .
+M3: ¿ Qué día desea salir ?
+U3: (nw) Cualquiera pero que llegue el viernes por la mañana (nw) .
+M4: Le consulto horarios de Castellón a Tarragona llegando el viernes , día 5 de marzo de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 39 de la mañana y llega a las 8 y 28 de la mañana y el último sale a las 10 y 50 de la mañana y llega a las 12 y 32 de la mañana ¿ Desea algo más ?
+U4: Sí , si es posible me gustaría que fuese un tren Euromed .
+M6: Le consulto horarios de Castellón a Tarragona llegando el viernes , día 5 de marzo de 2004 en Euromed . Un momento por favor .
+M7: Sólo hay dos trenes . El primero sale a las 7 y 19 de la mañana y llega a las 8 y 34 de la mañana y el otro sale a las 9 y 16 de la mañana y llega a las 10 y 35 de la mañana ¿ Desea algo más ?
+U5: Sí , querría conocer también los precios .
+M8: Los trenes son Euromed y en clase turista , el billete cuesta 24 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , eso es todo , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

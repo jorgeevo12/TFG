@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días mira , quería saber horario de trenes para ir a Cuenca .
+Hola buenos días mira , quería saber horario de trenes para ir a Cuenca . (U:Pregunta:Hora_salida:Destino) pal: 1 - 15
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Sí , que quería saber horarios de trenes para ir a Cuenca .
+Sí , que quería saber horarios de trenes para ir a Cuenca . (U:Pregunta:Hora_salida:Destino) pal: 1 - 13
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Pues quiero salir el día treinta de junio .
+Pues quiero salir el día treinta de junio . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M4: Le consulto horarios de trenes con salida en valencia destino cuenca saliendo el miércoles , día 30 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino cuenca saliendo el miércoles , día 30 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 8 y 18 de la mañana y el último a las 6 y 18 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 8 y 18 de la mañana y el último a las 6 y 18 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Pues no , gracias .
+Pues no , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

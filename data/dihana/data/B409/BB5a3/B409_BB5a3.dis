@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos días) . (fe) Quisier(a a) saber el horario y el precio de u(a n) viaje de ida (rs (m entre Bilbao) (s (de perdón)) (c entre Cartagena y Bilbao)) , (na) (fe) a realizar e(a l) sábado o domingo diecisiete (fe) (fb) (rs (m y) (c o)) dieciocho de .
+M2: Quiere horarios de trenes a Cartagena ¿ desde Barcelona ?
+U2: (nw) No , quiero desde Cartagena (rs (m (lu hasta has)) (c hacia)) Bilbao .
+M3: ¿ Qué día desea salir ?
+U3: (fe) (a O) el sábado o el domingo (rr (m (lu diecisiete di)) (c diecisiete)) (p) o dieciocho de abril (na) .
+M4: ¿ Desea salir el sábado , día 17 de abril de 2004 ?
+U4: (fe) (p) o el sábado o el domingo .
+M5: Le consulto horarios de trenes con salida en Cartagena destino Bilbao saliendo el sábado , día 17 de abril de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: (fe) Sí , (na) (fe) me gustaría saber (fe) también (p) trenes para el día siguiente .
+M7: Le consulto horarios de trenes con salida en Cartagena destino Bilbao saliendo el domingo , día 18 de abril de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: (na) (fe) Sí , me gustarí(a a) ya finalmente (fe) saber (rr (m el) (c e(a l))) precio (nl) del viaje que sale el domingo (p) (nl) a las tres treinta (p) y me gustaría saber .
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (nw) Sí , (fe) ¿ a qué hora (nw llegaría) a Bilbao ? (nw) .
+M10: Ese tren sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U8: No , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

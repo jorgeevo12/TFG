@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:20"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B407"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B407_BB0c5_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Me gustaría hacer un viaje d<a>e</a> Bilbao a Madrid <p/> el quince de mayo . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B407_BB0c5_T02u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir desde Vigo ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B407_BB0c5_T03u.ul">
+<t> No , desde Bilbao . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B407_BB0c5_T04u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B407_BB0c5_T05u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Me gustaría salir el quince de mayo <p/> a primera hora de la mañana <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 7 y las 8 de la mañana ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B407_BB0c5_T06u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el sábado , día 15 de mayo de 2004 entre las 7 y las 8 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B407_BB0c5_T07u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí ¿ hay algún tren que salga e<a>l</a> día catorce <p/> a la noche ? </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el viernes , día 14 de mayo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un costa_vasca que sale a las 11 y 5 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B407_BB0c5_T08u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Sí ¿ cuál es el precio del billete de ida ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un costa_vasca y su precio en clase turista es 26 con 25 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B407_BB0c5_T09u.ul">
+<t> Sí , me gustaría saber a qué hora llega a Madrid este tren . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren sale a las 11 y 5 de la noche y llega a las 7 y 35 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B407_BB0c5_T10u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

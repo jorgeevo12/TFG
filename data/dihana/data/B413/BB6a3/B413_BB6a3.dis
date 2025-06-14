@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Horarios para ir a Madrid .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería obtener el horario (rr (m (a y)) (s (p)) (c y)) el precio d(a e) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Alicante .
+M4: Quiere horarios de trenes a Alicante ¿ desde Bilbao ?
+U4: (na) Sí , (a e)l catorc(a e) (p) de febrero .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Alicante saliendo el lunes , día 14 de febrero de 2005 . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Qu(a e) salga de Bilbao a Burgos .
+M7: ¿ Puede repetir su consulta ?
+U6: Que salga de Bilbao a Burgos en un tren Talgo .
+M8: ¿ Quiere llegar a Burgos ?
+U7: Sí .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Burgos saliendo el lunes , día 14 de febrero de 2005 en Talgo . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U8: Obtener el precio .
+M11: El precio de ese tren en clase turista es 15 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

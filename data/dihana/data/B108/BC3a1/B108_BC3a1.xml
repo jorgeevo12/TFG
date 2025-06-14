@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:15"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B108"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B108_BC3a1_T01u.ul">
+<t> Querría obtener horarios y precios para un viaje de ida y vuelta <n fuente="hablante" tipo="aspiración"/> a Vitoria , <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> mañana o pasado mañana <n fuente="hablante" tipo="aspiración"/> <a>y</a> saliend<a>o</a> entre las diez y las once . Además querría ir en Ave , si puede ser . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el sábado , día 14 de febrero de 2004 ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B108_BC3a1_T02u.ul">
+<t> Sí , mañana o pasado . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 6 de la tarde y las 11 de la noche ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B108_BC3a1_T03u.ul">
+<t> No , quiero salir entre las diez de la mañana y las once de la mañana . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Vitoria el sábado , día 14 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B108_BC3a1_T04u.ul">
+<t> Sí , querría obten<a>e</a>r precios . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B108_BC3a1_T05u.ul">
+<t> Sí , querría sab<a>e</a>r si cojo de ida y vuelta <p/> ¿ qué horarios tendré para volver ? </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Vitoria destino Bilbao saliendo el sábado , día 14 de febrero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B108_BC3a1_T06u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , querría saber , si salgo pasado mañana ¿ a qué hora podrí<a>a</a> <p/> <d tipo="editar"> o sea </d> a qué hora tendría horarios y precios ? </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el domingo , día 15 de febrero de 2004 ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B108_BC3a1_T07u.ul">
+<t> Sí , entre las diez y las once de la mañana . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Vitoria a Bilbao el domingo , día 15 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B108_BC3a1_T08u.ul">
+<t> Sí , querría saber el horario para salir pasado mañana entre las diez y las once , <p/> saliendo de aquí de Bilbao , para llegar a Vitoria . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Vitoria el domingo , día 15 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B108_BC3a1_T09u.ul">
+<t> <f tipo="e"/> Saber el precio . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B108_BC3a1_T10u.ul">
+<t> Sí , horarios de vuelt<a>a</a> <p/> para el lunes . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Vitoria a Bilbao el lunes , día 16 de febrero de 2004 entre las 10 y las 11 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B108_BC3a1_T11u.ul">
+<t> Sí , querría saber para volver el mismo día per<a>o</a> <r tipo="sustitución"> <m> hacia l<a>a</a>s </m> <s> <p/> </s> <c> hacia la </c> </r> una del mediodía . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> Horarios desde Vitoria ¿ saliendo entre las 12 y 30 de la mañana y la una y 30 de la tarde ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B108_BC3a1_T12u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B108_BC3a1_T13u.ul">
+<t> Sí , <f tipo="e"/> saliendo un poco más tard<a>e</a> , <p/> <d tipo="rellenar"> pues </d> hacia l<a>a</a>s tres de la tarde por ejemplo . </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Vitoria a Bilbao el lunes , día 16 de febrero de 2004 entre las 3 de la tarde y las 11 de la noche . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 21 sistema -->
+<turno id="M_021" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 3 y 30 de la tarde y el último a las 11 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="B108_BC3a1_T14u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 22 sistema -->
+<turno id="M_022" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

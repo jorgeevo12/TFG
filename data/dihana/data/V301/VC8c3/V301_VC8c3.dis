@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Bueno) me gustaría saber (na) el precio de un viaje de ida y vuelta (a a) Santander .
+M2: ¿ Quiere viajar a Santander ?
+U2: Sí , quier(a o) ir (fe) a Santander (fe) saliendo hoy (p) (rr (m y) (c y)) volviendo pasado mañana .
+M3: ¿ Qué día desea salir ?
+U3: Deseo salir hoy de (lu Madrid Madrí) y volver (fe) pasado mañana .
+M4: Precios desde Madrid ¿ saliendo el miércoles , día 16 de junio de 2004 ?
+U4: (p) .
+M5: Le consulto precios de Madrid a Santander saliendo el miércoles , día 16 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí (fe) deseaba también conocer el precio de la vuelta .
+M7: ¿ Qué día desea salir ?
+U6: Pasado mañana .
+M8: ¿ Desea salir el viernes , día 18 de junio de 2004 ?
+U7: (rr (m No) (c no)) (fe) deseo salir hoy y regresar el viernes (na) .
+M9: Le consulto precios de Santander a Madrid saliendo el viernes , día 18 de junio de 2004 . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí , me gustaría conocer (fe) los precios (rr (m d(a e)) (c de)) estos trayectos en primera .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: Me gustaría conocer el precio (p) (rr (m d(a e)) (c de)) primera (rs (m de) (c para)) viajar en primera .
+M12: Le consulto precios . Un momento por favor .
+M13: Hay varios trenes . En clase preferente , el tren más caro es un Talgo que cuesta 58 euros la ida y el más barato es un Diurno que cuesta 43 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc muchas gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

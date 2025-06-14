@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero preguntar horarios (a y) precios d(a e) trenes de Vigo a La_Coruña .
+M2: ¿ Quiere viajar desde La_Coruña ?
+U2: No , quiero viajar desde Vigo a La_Coruña .
+M3: ¿ Qué día desea salir ?
+U3: (a E)l viernes por la mañana .
+M4: Le consulto horarios de Vigo a La_Coruña el viernes , día 13 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U4: Sí , querría viajar e(a n) (nt) en Regional si es posible . (a Y) en clase turista .
+M6: ¿ Desea hacer el viaje en un Regional ?
+U5: Sí (p) , y en clase turista si puede ser .
+M7: Le consulto horarios de trenes con salida en Vigo destino La_Coruña saliendo el viernes , día 13 de febrero de 2004 en Regional . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 5 y 45 de la madrugada y el otro a las 9 y 20 de la mañana ¿ Desea algo más ?
+U6: (nl) ¿ Podría viajar en clase turista en el último ? (nw) .
+M9: Ese tren dispone de clase turista ¿ Desea algo más ?
+U7: ¿ Cuánto costaría el viaje , en clase turista ?
+M10: El precio de ese tren en clase turista es 8 con 9 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,9 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el precio de un viaje de Zaragoza a Bilbao (p) para el viernes por la tarde o el sábado por la mañana (p) si es posible en un tren Miguel de Unamuno .
+M2: Le consulto precios de Zaragoza a Bilbao . Un momento por favor .
+M3: El único tren que realiza el trayecto es un Miguel_de_Unamuno y su precio en clase turista es 22 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U2: Sí (fe) quería saber el precio del mismo trayecto (p) (ri (m e(a n) clase) (c en primera clase)) o clase preferente .
+M4: Un momento por favor .
+M5: El precio de ese tren en clase preferente es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: No , no deseo nada más .
+M6: Gracias por utilizar este servicio . Feliz viaje .

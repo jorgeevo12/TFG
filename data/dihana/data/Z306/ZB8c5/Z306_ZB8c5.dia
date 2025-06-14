@@ -1,0 +1,58 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Pues , querría saber el precio para pasar un fin de semana en Galicia .
+Pues , querría saber el precio para pasar un fin de semana en Galicia . (U:Pregunta:Precio:Destino) pal: 1 - 15
+
+M2: ¿ Quiere viajar desde valencia ? .
+¿ Quiere viajar desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U2: no , salida en Valladolid y llegada a Vigo .
+no , (U:Negacion:Origen:Nil) pal: 1 - 2
+salida en Valladolid (U:Respuesta:Precio:Origen) pal: 3 - 5
+y llegada a Vigo . (U:Respuesta:Precio:Destino) pal: 6 - 10
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Pues preferiría salir la primera semana de julio del uno al cuatro .
+Pues preferiría salir la primera semana de julio del uno al cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 13
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U4: Alrededor del uno al cuatro de julio y en un tren rápido si fuese posible .
+Alrededor del uno al cuatro de julio (U:Respuesta:Dia:Dia) pal: 1 - 7
+y en un tren rápido si fuese posible . (U:Respuesta:Precio:Tipo_tren) pal: 8 - 16
+
+M5: Le consulto precios de valladolid a vigo saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+Le consulto precios de valladolid a vigo saliendo el jueves , día 1 de julio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 40 con 50 euros la ida y el más lento es un trenhotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 40 con 50 euros la ida y el más lento es un trenhotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U5: Pues sí , porque se ha equivocado quiero del uno al cuatro de julio .
+Pues sí , porque se ha equivocado quiero del uno al cuatro de julio . (U:Pregunta:Precio:Dia) pal: 1 - 15
+
+M7: Le consulto precios de valladolid a vigo saliendo el domingo , día 4 de julio de 2004 . Un momento por favor .
+Le consulto precios de valladolid a vigo saliendo el domingo , día 4 de julio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M8: Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 40 con 50 euros la ida y el más lento es un trenhotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 40 con 50 euros la ida y el más lento es un trenhotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U6: Sí , ¿ puede repetirme el precio del tren rápido ? .
+Sí , ¿ puede repetirme el precio del tren rápido ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 12
+
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

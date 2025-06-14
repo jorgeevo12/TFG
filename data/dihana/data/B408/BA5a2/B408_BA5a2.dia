@@ -1,0 +1,71 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quería saber los horarios para viajar de Bilbao a Zaragoza , entre el doce y el catorce de abril , a las diez de la mañana , si puede ser .
+Quería saber los horarios para viajar de Bilbao (U:Pregunta:Hora_salida:Origen) pal: 1 - 8
+a Zaragoza , (U:Pregunta:Hora_salida:Destino) pal: 9 - 11
+entre el doce y el catorce de abril , (U:Pregunta:Hora_salida:Dia) pal: 12 - 20
+a las diez de la mañana , si puede ser . (U:Pregunta:Hora_salida:Hora_salida) pal: 21 - 31
+
+
+
+M2: ¿ Desea salir el miércoles , día 14 de abril de 2004 ? .
+¿ Desea salir el miércoles , día 14 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U2: Sí , podría ser el miércoles , el lunes o el martes , me da igual .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+podría ser el miércoles , el lunes o el martes , me da igual . (U:Respuesta:Hora_salida:Dia) pal: 3 - 17
+
+
+
+M3: Le consulto horarios de trenes con salida en bilbao destino zaragoza saliendo el miércoles , día 14 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino zaragoza saliendo el miércoles , día 14 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M4: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U3: Sí , me gustaría saber si hay algún tren que salga un poquito antes .
+Sí , me gustaría saber si hay algún tren que salga un poquito antes . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 15
+
+
+
+M5: El primer y último tren es un miguel_de_unamuno que sale a las 10 y 5 de la mañana y llega a las 2 y 28 de la tarde . Desea algo más ? .
+El primer y último tren es un miguel_de_unamuno que sale a las 10 y 5 de la mañana y llega a las 2 y 28 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Tipo_tren) pal: 1 - 29
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 30 - 34
+
+
+
+U4: Sí , me gustaría saber , si el lunes de esa misma semana , el horario es el mismo .
+Sí , me gustaría saber , si el lunes de esa misma semana , el horario es el mismo . (U:Pregunta:Hora_salida:Dia) pal: 1 - 20
+
+
+
+M6: Le consulto horarios de trenes con salida en bilbao destino zaragoza saliendo el lunes , día 12 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino zaragoza saliendo el lunes , día 12 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M7: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U5: No , es todo , muchas gracias .
+No , es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

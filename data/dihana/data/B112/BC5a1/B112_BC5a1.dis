@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Nada .
+M2: ¿ Quiere salir desde Pamplona ?
+U2: No (p) , salida desde Santander .
+M3: Quiere horarios de trenes a Pamplona ¿ desde Santander ?
+U3: Sí , el día quince de julio .
+M4: Le consulto horarios de trenes con salida en Santander destino Pamplona saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: Sí , (p) me gustaría (fa) (fe) consultar además (rr (m e(a l)) (c el)) viaje de vuelta (p) y el precio .
+M6: ¿ Le consulto horarios ?
+U5: Sí , (p) (nw) (rs (m (rr (m en) (c en)) clase (lu Talgo te)) (c en el tipo de tren Talgo)) .
+M7: Le consulto horarios de trenes con salida en Pamplona destino Santander saliendo el martes , día 15 de junio de 2004 en Talgo . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: Sí , me gustaría saber el precio .
+M9: Le consulto precios . Un momento por favor .
+M10: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , me gustaría saber el precio de ida y vuelta .
+M11: Le consulto precios . Un momento por favor .
+M12: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc (lm gracias graces)) (nw) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

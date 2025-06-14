@@ -1,0 +1,45 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero información de trenes para Jaén .
+Quiero información de trenes para Jaén . (U:Pregunta:Nil:Destino) pal: 1 - 7
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U2: Quiero información de trenes con destino Jaén .
+Quiero información de trenes con destino Jaén . (U:Pregunta:Nil:Destino) pal: 1 - 8
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U3: No .
+No . (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U4: No .
+No . (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+M5: ¿ Le indico horarios ? .
+¿ Le indico horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U5: No .
+No . (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U6: El día seis o siete de junio .
+El día seis o siete de junio . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M7: ¿ Desea salir el jueves , día 17 de junio de 2004 ? .
+¿ Desea salir el jueves , día 17 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U7: No , quiero ir el día seis o el día siete de junio .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+quiero ir el día seis o el día siete de junio . (U:Respuesta:Nil:Dia) pal: 3 - 14
+M8: Quiere saber el precio a jaén , ¿ desde zaragoza ? .
+Quiere saber el precio a jaén , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U8: Sí , en intercity si es posible .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+en intercity si es posible . (U:Respuesta:Precio:Tipo_tren) pal: 3 - 8
+M9: Le consulto precios de zaragoza a jaén en tipo tren intercity . Un momento por favor .
+Le consulto precios de zaragoza a jaén en tipo tren intercity . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+M10: El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:14"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B104"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B104_BC1a1_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Me gustaría ir a Gijón <p/> desde Bilbao <a>e</a>l próximo día diez de enero . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B104_BC1a1_T02u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> <f tipo="m"/> Quier<a>o</a> viajar a Gijón <p/> desde Bilbao el próximo diez de enero <n fuente="hablante" tipo="aspiración"/> para volver desde Gijón a Bilbao <f tipo="e"/> al día siguiente , el día once de enero . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B104_BC1a1_T03u.ul">
+<t> A Gijón . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B104_BC1a1_T04u.ul">
+<t> El día diez de enero . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Gijón saliendo el sábado , día 10 de enero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B104_BC1a1_T05u.ul">
+<t> <f tipo="e"/> Sí , me gustaría saber los trenes que hay alrededor de las onc<a>e</a> de la mañana . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Gijón el sábado , día 10 de enero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B104_BC1a1_T06u.ul">
+<t> <f tipo="e"/> Sí , el viaje de vuelta de Gijón a Bilbao , <n fuente="hablante" tipo="aspiración"/> me gustaría salir de Gijón <a>a</a>lrededor de las cinco de la tarde . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B104_BC1a1_T07u.ul">
+<t> Sí , <d tipo="aceptar"> bueno </d> , quiero saber horarios para el viaje de vuelta de Gijón <p/> a Bilbao <p/> el día once de enero . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Gijón destino Bilbao saliendo el jueves , día 1 de enero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B104_BC1a1_T08u.ul">
+<t> <f tipo="e"/> Sí , quería el viaje de vuelta de Gijón a Bilbao para el día once , once de enero <p/> de dos mil cuatro . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Gijón a Bilbao el domingo , día 11 de enero de 2004 entre las 4 y 5 y las 6 y 5 de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B104_BC1a1_T09u.ul">
+<t> <f tipo="e"/> Sí , me gustaría saber <f tipo="e"/> si hay algún tren <f tipo="e"/> de Gijón a Bilbao <p/> para el viaje de vuelta <f tipo="e"/> ese domingo . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Gijón destino Bilbao saliendo el domingo , día 11 de enero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B104_BC1a1_T10u.ul">
+<t> Me gustaría saber el precio d<a>e</a>l billete de ida <f tipo="sin_identificar"/> del tren que sale d<a>e</a> Bilbao <a>a</a>lrededor de las onc<a>e</a> cincuenta y cinco , creo que era . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Gijón saliendo el domingo , día 11 de enero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B104_BC1a1_T11u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Sí <f tipo="e"/> , precios d<a>e</a> billete de ida y vuelta <p/> <a>e</a>ntre Bilbao y Gijón . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B104_BC1a1_T12u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> <r tipo="sustitución"> <m> Quería saber </m> <c> me gustaría saber </c> </r> el precio <f tipo="m"/> del billete de ida y vuelta <p/> entre Bilbao y Gijón . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B104_BC1a1_T13u.ul">
+<t> <f tipo="e"/> <r tipo="repetición"> <m> No </m> <c> no </c> </r> , ya me buscaré la vida para volver , <d tipo="cerrar"> gracias </d> <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

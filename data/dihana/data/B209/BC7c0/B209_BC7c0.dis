@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quería un viaje de ida y vuelta a Cuenca , el próximo fin de semana , saliendo el viernes y volviendo el domingo y si puede ser en Intercity .
+M2: ¿ Quiere saber horarios ?
+U2: No , el precio .
+M3: ¿ Quiere salir desde Cuenca ?
+U3: (nw) (na) No , quiero salir (p) desde Bilbao hasta Cuenca .
+M4: Le consulto precios de Bilbao a Cuenca saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (na) Sí , quiero saber el precio del viaje de ida y vuelta saliendo el viernes y volviendo el domingo del próximo fin de semana y en Intercity .
+M6: Le consulto precios de Bilbao a Cuenca en tipo tren Intercity . Un momento por favor .
+M7: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida y 64 con 79 euros el billete de ida y vuelta ¿ Desea algo más ?
+U5: (na) (fe) Sí ¿ es Intercity es(a e) tren ?
+M8: El primer y último tren es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) Sí , pero el billete de ida y vuelta que me ha dicho al principio ¿ ese es Intercity ? (na) .
+M9: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

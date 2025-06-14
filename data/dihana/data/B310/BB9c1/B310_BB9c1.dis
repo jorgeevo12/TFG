@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Necesit(a o) horarios (p) y (p) (fm) precios de trenes de Valencia a Castellón (na) por la mañana de manera que lleguen antes de las cuatro de la tarde .
+M2: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ?
+U2: (na) Sí , (dq por favor) .
+M3: ¿ Quiere llegar entre las 0 de la noche y las 4 de la tarde ?
+U3: (fe) Sí , (da claro) .
+M4: Quiere horarios de trenes a Valencia ¿ desde Bilbao ?
+U4: (rr (m No) (c no)) quiero (fm) trenes (p) a Castellón desde Valencia .
+M5: ¿ Qué día desea salir ?
+U5: Mañana martes , nueve (p) de marzo .
+M6: Le consulto horarios de Valencia a Castellón el martes , día 9 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 11 y 35 de la mañana ¿ Desea algo más ?
+U6: (na) Sí , (dq por favor) ¿ podría decirme (nw) si alguno de ellos es un Euromed ? (na) .
+M8: Le consulto horarios de Valencia a Castellón el martes , día 9 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde en Euromed . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 11 y 5 de la mañana ¿ Desea algo más ?
+U7: (fe) Sí , (dq por favor) (fe) (fa) (nw) ¿ el de las once y cinco llega antes de las cuatro a Valencia ?
+M10: Ese tren sale a las 11 y 5 de la mañana y llega a las 11 y 45 de la mañana ¿ Desea algo más ?
+U8: Sí , (dq por favor) ¿ me podía dar el precio del billete en primera ?
+M11: El precio de ese tren en clase preferente es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) , es suficiente (nw) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

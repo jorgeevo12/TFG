@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera (lm obtener obtenier) el horario y el precio (p) par(a a) un trayecto de ida desde Zaragoza hasta Castellón .
+M2: ¿ Qué día desea salir ?
+U2: Deseo llegar el sábado .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Deseo llegar el sábado .
+M4: Le consulto horarios de Zaragoza a Castellón llegando el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche y llega a las 6 y 49 de la mañana ¿ Desea algo más ?
+U4: Sí , quisiera saber cuál es el precio (p) de ese tren .
+M6: El precio de ese tren en clase turista es 24 con 14 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: ¿ Podría repetirme a qué hora llega ese tren ?
+M7: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche y llega a las 6 y 49 de la mañana ¿ Desea algo más ?
+U6: No . (da Ya) es todo , (p) (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

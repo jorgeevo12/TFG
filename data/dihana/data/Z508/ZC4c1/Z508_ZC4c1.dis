@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero obtener el horario (p) para el viaje de ida de Vitoria a Madrid , el día catorce de mayo (p) , para llegar antes de las trece horas (na) .
+M2: ¿ Quiere saber horarios ?
+U2: Para llegar antes de las trece horas .
+M3: ¿ Le indico horarios ?
+U3: (p) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quiero horario para llegar (p) entre las seis y las trece horas .
+M5: ¿ A qué ciudad desea viajar ?
+U5: A Madrid .
+M6: ¿ Qué día desea salir ?
+U6: (nl) El catorce de mayo (na) .
+M7: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U7: Desde Vitoria (na) .
+M8: Le consulto horarios de trenes con salida en Vitoria destino Madrid saliendo el viernes , día 14 de mayo de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 0 y 33 de la noche y el último a las 6 y 5 de la tarde ¿ Desea algo más ?
+U8: (nw) Quiero consultar precio del viaje de ida de Vitoria a Madrid (p) el día catorce de mayo .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 27 con 50 euros la ida y el más barato es un costa_vasca que cuesta 24 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Quiero obtener horarios del viaje de vuelta , entre Vitoria y Madrid , (p) el día catorce de mayo , (p) para llegar antes de las cinco de la tarde .
+M11: ¿ Quiere viajar a Madrid ?
+U10: Quiero viajar a Madrid (na) .
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: Madrid .
+M13: Quiere horarios de trenes a Madrid ¿ desde Madrid ?
+U12: (rr (m Desde) (s (fb) (p)) (c desde)) Vitoria .
+M14: Le consulto horarios de trenes con salida en Vitoria destino Madrid saliendo el viernes , día 14 de mayo de 2004 . Un momento por favor .
+M15: Hay varios trenes . El primero sale a las 0 y 33 de la noche y el último a las 6 y 5 de la tarde ¿ Desea algo más ?
+U13: (nw) Deseo obtener el precio del viaje de vuelta , (p) de Madrid a Vitoria el día catorce de mayo (p) a las cinco de la tarde .
+M16: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 27 con 50 euros la ida y el más barato es un costa_vasca que cuesta 24 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U14: No .
+M17: Gracias por utilizar este servicio . Feliz viaje .

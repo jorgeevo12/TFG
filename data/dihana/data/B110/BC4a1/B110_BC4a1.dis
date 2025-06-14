@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería preguntar horarios (a y) precios d(a e) un tren d(a e) Bilbao a Madrid .
+M2: Quiere horarios de trenes a Madrid ¿ desde Vigo ?
+U2: No , desde Bilbao .
+M3: ¿ Qué día desea salir ?
+U3: (fm) La primer(a a) semana de agosto , cualquier día por la mañana .
+M4: Le consulto horarios de Bilbao a Madrid el domingo , día 1 de agosto de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: Sí ¿ al día siguiente hay alguno ?
+M6: Le consulto horarios de Bilbao a Madrid el lunes , día 2 de agosto de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: ¿ Ya hay algún tren esa semana ? (nw) .
+M8: Le consulto horarios . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 50 de la tarde ¿ Desea algo más ?
+U6: Sí , quería . (p) Quería (fm) (p) (nw) (rr (m ese) (c ese)) tren .
+M10: Ese tren sale el lunes , día 2 de agosto de 2004 ¿ Desea algo más ?
+U7: ¿ Cuánto costaría un billete de ida y vuelta ?
+M11: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Cuánto costaría el de ida y vuelta .
+M12: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Cuánto me costaría un billete de ida y vuelta .
+M13: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (nl) ¿ Podría volver ese viernes (p) a Bilbao ?
+M14: ¿ Quiere saber horarios ?
+U11: Sí , e(a l) viernes para volver desde Madrid .
+M15: Le consulto horarios de trenes con salida en Madrid destino Bilbao saliendo el viernes , día 13 de agosto de 2004 . Un momento por favor .
+M16: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 35 de la tarde ¿ Desea algo más ?
+U12: Cuánto me costaría un billete de ida y vuelta .
+M17: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: No .
+M18: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , deseo el horario de un Talgo , si es posible , para ir de Valencia a Oviedo el sábado diecinueve de junio .
+M2: ¿ Qué día desea salir ?
+U2: El sábado (p) diecinueve de junio .
+M3: Le consulto horarios de trenes con salida en Valencia destino Bilbao saliendo el sábado , día 19 de junio de 2004 en Talgo . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: Sí , deseo salir de Palencia y llegar a Oviedo .
+M5: Le consulto horarios de trenes con salida en Palencia destino Oviedo saliendo el sábado , día 19 de junio de 2004 en Talgo . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí ¿ me puede dar el precio ?
+M7: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

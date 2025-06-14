@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:31"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z101"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T01u.ul">
+<t> Quisiera conocer horarios y precios d<a>e</a> u<a>n</a> viaje <f tipo="e"/> <r tipo="sustitución"> <m> <l tipo="cortada" palabra="destino"> desti </l> </m> <s> <f tipo="e"/> </s> <c> salida </c> </r> en Castellón y destino en Barcelona . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T02u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T03u.ul">
+<t> El sábado próximo . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> No , quiero <f tipo="sin_identificar"/> horarios <r tipo="sustitución"> <m> d<a>e</a> <l tipo="cortada" palabra="destino"> desti </l> </m> <s> <d tipo="exclamar"> ay </d> </s> <c> de salida </c> </r> en Castellón destino Barcelona . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Castellón destino Barcelona saliendo el sábado , día 13 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 6 y 39 de la mañana y el último a las 8 y 46 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T05u.ul">
+<t> Sí , quisiera saber si hay trenes Euromed disponibles . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Castellón destino Barcelona saliendo el sábado , día 13 de marzo de 2004 en Euromed . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 19 de la mañana y el último a las 8 y 46 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T06u.ul">
+<t> Sí , quisiera saber qué precio tienen . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Los trenes son Euromed y en clase turista , el billete cuesta 29 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z101_ZB5c4_T07u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

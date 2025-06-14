@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , quiero saber el horario de un tren que salga de $C_ORIGEN<Sevilla> y vaya a $C_DESTINO<Córdoba> para este $FECHA<viernes> .
+Hola , quiero saber el horario de un tren que salga de $C_ORIGEN<Sevilla> (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+y vaya a $C_DESTINO<Córdoba> (U:Pregunta:Hora_salida:Destino) pal: 14 - 17
+para este $FECHA<viernes> . (U:Pregunta:Hora_salida:Dia) pal: 18 - 21
+
+
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<córdoba> saliendo el $FECHA<viernes , día 19 de diciembre de 2003> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<córdoba> saliendo el $FECHA<viernes , día 19 de diciembre de 2003> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M3: Sólo hay dos trenes con salida el $FECHA<viernes , día 19 de diciembre de 2003> . El $NRORDEN<primero> sale a las $HSAL<0 y 27> y el otro a las $HORA<11 y 30> . Desea algo más ? .
+Sólo hay dos trenes con salida el $FECHA<viernes , día 19 de diciembre de 2003> . El $NRORDEN<primero> sale a las $HSAL<0 y 27> y el otro a las $HORA<11 y 30> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+U2: Qué tipo de tren hay en ese horario .
+Qué tipo de tren hay en ese horario . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 9
+
+
+M4: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+
+M5: Dispone de dos tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<trenhotel> y el otro es un $T_TREN<garcía_lorca> . Desea algo más ? .
+Dispone de dos tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<trenhotel> y el otro es un $T_TREN<garcía_lorca> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U3: No , ya está , muchas gracias .
+No , ya está , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

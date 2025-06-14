@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+M2: ¿ Puede repetir su consulta ?
+U1: (do Hola buenos días) . Me gustaría (fe) preguntar sobre horarios de trenes (p) con destino a Madrid .
+M3: ¿ Qué día desea salir ?
+U2: (fe) ¿ Mañana por la tarde ?
+M4: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el viernes , día 13 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 2 y 15 de la tarde y llega a las 5 y 50 de la tarde y el último sale a las 8 y 15 de la tarde y llega a las 11 y 50 de la noche ¿ Desea algo más ?
+U3: (na) Desearía saber el precio (p) y el tipo de tren (p) de esto(a s) dos horarios que me has dado .
+M6: Le consulto precios . Un momento por favor .
+M7: Los trenes son Alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí ¿ no hay otro tipo de tren que haga la misma ruta ?
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: ¡ (dx Ay) !
+M9: Perdón . No consigo entenderle .
+U6: (na) Pregunto (p) , (nl) que si hay otro tipo de tren que no sea Alaris que h(a a)ga (ri (m Madrid) (c el Valencia Madrid)) .
+M10: ¿ Me pregunta por tipos de trenes ?
+U7: Sí , que hagan (ri (m (rr (m e(a l)) (c el)) (lu Madrid Ma)) (c el Valencia Madrid)) .
+M11: Le consulto tipos de trenes para el trayecto Valencia a Madrid . Un momento por favor .
+M12: Hay un único tipo de tren , que es un Alaris ¿ Desea algo más ?
+U8: (fe) Que no , ya está , (dc muchas gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

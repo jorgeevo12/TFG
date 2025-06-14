@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero saber el precio para ir (rr (m (a a)) (c a)) Sevilla .
+M2: ¿ Qué día desea salir ?
+U2: (na) El catorce de agosto .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Catorce de agosto .
+M4: Quiere saber el precio a Sevilla ¿ desde Zaragoza ?
+U4: (na) No (p) , quiero ir desde Ciudad_Real .
+M5: Le consulto precios de Ciudad_Real a Sevilla saliendo el sábado , día 14 de agosto de 2004 . Un momento por favor .
+M6: Los trenes son Ave y en clase turista , el billete cuesta 41 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

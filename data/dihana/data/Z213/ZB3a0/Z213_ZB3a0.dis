@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera consultar trenes (p) co(a n) salida en Zaragoza y llegada en Barcelona (p) par(a a) viajar la semana que viene en día laborable .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: La semana que viene entr(a e) lunes y viernes .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el lunes , día 29 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: Sí , consultar los trenes rápidos que salen por la mañana .
+M6: Le consulto horarios de Zaragoza a Barcelona el lunes , día 29 de marzo de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El más rápido sale a las 12 y 4 de la mañana y el más lento a las 12 y 20 de la mañana ¿ Desea algo más ?
+U5: Sí , el precio del billete en el tren rápido .
+M8: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

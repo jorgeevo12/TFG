@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría (lm saber sabé) los horarios de los trenes a Sevilla .
+M2: ¿ Quiere viajar a Sevilla ?
+U2: Sí , (rs (m quiero (lm saber sabá)) (c quiero viajar)) a Sevill(a a) (rr (m par(a a)) (c para)) abril .
+M3: ¿ Qué día desea salir ?
+U3: Me gustaría sal(a i)r el miércoles siete (na) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Me gustaría salir entr(a e) el siete y el nueve de abril .
+M5: ¿ Desea salir el miércoles , día 7 de abril de 2004 ?
+U5: Sí , (da así es) .
+M6: Le consulto horarios de trenes con salida en Valencia destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un García_Lorca que sale a las 11 y 30 de la mañana ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

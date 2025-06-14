@@ -1,0 +1,100 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Me gustaría saber el precio del viaje a Sevilla en Ave desde Madrid para el próximo mes de marzo , saliendo el día uno y volviendo el día siete .
+Me gustaría saber el precio del viaje a Sevilla (U:Pregunta:Precio:Destino) pal: 1 - 9
+en Ave (U:Pregunta:Precio:Tipo_tren) pal: 10 - 11
+desde Madrid (U:Pregunta:Precio:Origen) pal: 12 - 13
+para el próximo mes de marzo , saliendo el día uno (U:Pregunta:Precio:Dia) pal: 14 - 24
+y volviendo (U:Pregunta:Precio:Tipo_viaje) pal: 25 - 26
+el día siete . (U:Pregunta:Precio:Dia) pal: 27 - 30
+
+
+M2: ¿ Desea hacer el viaje en un ave ? .
+¿ Desea hacer el viaje en un ave ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U3: No , solo el precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+solo el precio . (U:Pregunta:Precio:Nil) pal: 3 - 6
+
+
+M4: Quiere saber el precio a bilbao , ¿ desde madrid ? .
+Quiere saber el precio a bilbao , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde madrid ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U4: No , me gustaría saber el precio hasta Sevilla .
+No , (U:Negacion:Destino:Nil) pal: 1 - 2
+me gustaría saber el precio hasta Sevilla . (U:Pregunta:Precio:Destino) pal: 3 - 10
+
+
+M5: Quiere saber el precio a sevilla , ¿ desde madrid ? .
+Quiere saber el precio a sevilla , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde madrid ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U6: El día uno de marzo .
+El día uno de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+
+M7: Le consulto precios de madrid a sevilla saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+Le consulto precios de madrid a sevilla saliendo el lunes , día 1 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M8: Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+U7: El mismo precio , o sea , ¿ es el mismo precio volviendo el día siete ? .
+El mismo precio , o sea , ¿ es el mismo precio volviendo (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+el día siete ? . (U:Pregunta:Precio:Dia) pal: 14 - 18
+
+
+M9: Quiere saber el precio a madrid , ¿ desde sevilla ? .
+Quiere saber el precio a madrid , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde sevilla ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U8: Estoy interesado en saber el precio de ida y vuelta saliendo el día uno y volviendo el día siete .
+Estoy interesado en saber el precio de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+saliendo el día uno (U:Pregunta:Precio:Dia) pal: 11 - 14
+y volviendo (U:Pregunta:Precio:Tipo_viaje) pal: 15 - 16
+el día siete . (U:Pregunta:Precio:Dia) pal: 17 - 20
+
+
+M10: Le consulto precios de sevilla a madrid saliendo el domingo , día 7 de marzo de 2004 . Un momento por favor .
+Le consulto precios de sevilla a madrid saliendo el domingo , día 7 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M11: Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+U9: No , nada más gracias .
+No , nada más gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

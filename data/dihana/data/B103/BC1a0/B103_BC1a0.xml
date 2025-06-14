@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:14"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B103"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B103_BC1a0_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <d tipo="abrir"> Hola buenas </d> , <d tipo="rellenar"> mira </d> quería ir d<a>e</a> form<a>a</a> <p/> la más económica posible <p/> <n fuente="hablante" tipo="aspiración"/> <r tipo="sustitución"> <m> <l tipo="cortada" palabra="hasta"> has </l> </m> <c> a </c> </r> Logroño mañana . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B103_BC1a0_T02u.ul">
+<t> A Logroño . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B103_BC1a0_T03u.ul">
+<t> Quisiera ir a Logroño <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B103_BC1a0_T04u.ul">
+<t> Mañana <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B103_BC1a0_T05u.ul">
+<t> Quiero ir a Logroño mañana . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Logroño saliendo el viernes , día 19 de diciembre de 2003 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 10 y 5 de la mañana y el último a las 10 y 45 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B103_BC1a0_T06u.ul">
+<t> Sí ¿ cuál de ellos tiene el precio más barato ? </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B103_BC1a0_T07u.ul">
+<t> Sí ¿ cuál es el tren más barato ? </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> El tren más barato es un sol_de_levante que sale a las 7 de la tarde y llega a las 10 y 8 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B103_BC1a0_T08u.ul">
+<t> ¿ Qué precio tiene ? </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B103_BC1a0_T09u.ul">
+<t> ¿ Cuál es el precio de ese tren ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en preferente es 18 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B103_BC1a0_T10u.ul">
+<t> <f tipo="e"/> Sí , los horarios para volver <p/> desde Logroño <p/> la semana que viene , <p/> el viernes . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Logroño destino Bilbao saliendo el viernes , día 26 de diciembre de 2003 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 4 y 32 de la madrugada y el otro a las 7 y 10 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B103_BC1a0_T11u.ul">
+<t> No , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

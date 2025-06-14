@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero los horarios para un viaje a Madrid el próximo sábado .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (lm Madrid Madrit) .
+M4: ¿ Qué día desea salir ?
+U4: El próximo sábado .
+M5: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el sábado , día 8 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U6: (nl) Sí (p) , quiero el precio de un tren rápido para este viaje .
+M8: Hay varios trenes . En clase turista , el tren más rápido es un Triana que cuesta 26 con 50 euros la ida y el más lento es un Tren_Hotel que cuesta 26 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí (p) , (fb) quier(a o) el viaje de vuelta (p) (rr (m d(a e)) (s (p)) (c de)) Madrid a Zaragoza el mismo sábado por la noche .
+M9: ¿ Quiere saber horarios ?
+U8: Sí .
+M10: Le consulto horarios de Madrid a Zaragoza el sábado , día 8 de mayo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Costa_Brava que sale a las 10 de la noche ¿ Desea algo más ?
+U9: Sí (p) , quiero el precio .
+M12: El precio de ese tren en clase turista es 21 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

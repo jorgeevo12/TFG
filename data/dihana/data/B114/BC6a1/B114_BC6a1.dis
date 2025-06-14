@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quisiera saber el horario y el precio (p) de un viaje de ida y vuelta (p) (fe) desde Bilbao a Barcelona . (p) Quisier(a a) (fe) (rs (m un día de (lu septiembre setien)) (c el tres de setiembre)) y quisiera volver el mismo día .
+M2: ¿ Qué día desea salir ?
+U2: Sí , quisiera salir (a e)l tres de septiembre .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el viernes , día 3 de septiembre de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana y llega a las 6 y 50 de la tarde ¿ Desea algo más ?
+U3: (nl) Sí , quisiera saber (fe) para el viaje de vuelta , (p) (fe) pues a ver si tendría (rr (m u(a n)) (s (fe)) (c un)) tren de Barcelona a Bilbao (rr (m d(a e)) (s (p)) (c de)) las nueve o a diez de la noche .
+M5: Le consulto horarios de trenes con salida en Barcelona destino Bilbao saliendo el viernes , día 3 de septiembre de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a la una de la tarde y llega a las 9 y 55 de la noche ¿ Desea algo más ?
+U4: (fe) (df Bueno) sí , quisiera saber (rr (m s(a i)) (s (p)) (c si)) es posible algún tren (df pues) (fe) (p) que viaje a la noche d(a e)l tres de septiembre de Barcelona a Bilbao .
+M7: Le consulto horarios de Barcelona a Bilbao el sábado , día 4 de septiembre de 2004 entre las 0 de la noche y las 5 de la madrugada . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí , quisiera saber (fe) s(a i) hay un tren de Bilba(a o) a Vitoria (p) (fe) que me pueda llevar a una excursión el día tres de septiembre (p) . (fe) (rs (m Sería para ir) (s (fe) bueno (lu pues pos)) (c sería para (lu salir sal))) .
+M9: Quiere horarios de trenes a Vitoria ¿ desde Bilbao ?
+U6: (fe) Sí , (fb) para el tres de septiembre (dq por favor) .
+M10: Le consulto horarios de trenes con salida en Bilbao destino Vitoria saliendo el viernes , día 3 de septiembre de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: (na) (fe) Sí , quisiera saber (p) el precio que tien(a e) (rs (m el viaj(a e) que va) (s (p) (de o sea)) (c el tren)) (p) (fe) que va desde las siete de la mañana desd(a e) Bilbao a Vitoria y saber el tipo de tren que es .
+M12: Con salida el viernes , día 3 de septiembre de 2004 el primer tren es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí , quisiera saber cuánto me cuesta (rr (m (a e)l) (s (p)) (c el)) billete ida y vuelta (fe) de Bilbao (a a) Vitoria (p) (na) y (df bueno) (df pues) sería para el tres de septiembre y sería para salir (a a) (df pues) de las seis a las siete de la mañana (p) y volver (df pues) de las nueve a las .
+M13: El primer tren es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí , quisiera sab(a e)r (a e)l preci(a o) (rr (m de u(a n)) (c de un)) billete de ida y vuelta (p) de Bilbao (a a) Vitoria .
+M14: Le consulto precios de Bilbao a Vitoria . Un momento por favor .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí , quisiera saber el precio del billete (rr (m (a d)e) (c de)) ida y vuelta .
+M16: Un momento por favor .
+M17: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: Sí , quisiera saber (rr (m s(a i)) (c si)) hay un tren de estas características (p) (fe) tipo Regional (p) que vaya de Bilbao a Vitoria . (fm) Sería un viaje de ida y vuelta (p) , el tres de septiembre .
+M18: ¿ Desea hacer el viaje en un Regional ?
+U12: Sí .
+M19: Le consulto horarios de trenes con salida en Bilbao destino Vitoria saliendo el viernes , día 3 de septiembre de 2004 en Regional . Un momento por favor .
+M20: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U13: Sí , quisier(a a) (fe) salir de las seis o siete de la mañana (p) (rr (m (a y)) (c y)) volver el día (de o sea) (df pues) por la noche de nueve a diez (p) (fe) (df pues) en un tren de cualquier tipo .
+M21: Le consulto horarios de Bilbao a Vitoria el viernes , día 3 de septiembre de 2004 entre las 5 y 30 de la madrugada y las 6 y 30 de la mañana . Un momento por favor .
+M22: Un momento por favor .
+M23: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U14: Sí , (rr (m (lu quisiera quisra)) (c quisiera)) saber si hay algún tren (ri (m qu(a e)) (c de ida y vuelta (p) que)) vaya (rs (m ese (lu mismo mis)) (c ese día)) por la mañana (a y) vuelv(a a) ese día por la noche .
+M24: Le consulto horarios de Bilbao a Vitoria el viernes , día 3 de septiembre de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M25: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U15: Sí , quisier(a a) saber los trenes que vuelven (a a) noche (p) (fe) de Vitoria a Bilbao y saber cuánto cuesta (rr (m (a e)l) (c el)) billete (rr (m (lu de d)) (c de)) ida y vuelta .
+M26: Le consulto horarios de trenes con salida en Vitoria destino Bilbao saliendo el viernes , día 3 de septiembre de 2004 . Un momento por favor .
+M27: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U16: Sí , quisiera saber (a e)l precio del billete de ida vuelta .
+M28: Le consulto precios de Vitoria a Bilbao . Un momento por favor .
+M29: Sólo hay dos trenes . En clase turista , el tren más caro es un Tren_Hotel que cuesta 40 con 50 euros la ida y el otro es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U17: No , (dc (lm muchas mucha) gracias) .
+M30: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el precio de un viaje de sólo ida .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , quería obtener el precio .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Barcelona .
+M4: ¿ Quiere viajar a Barcelona ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El veinte de junio .
+M6: ¿ Desea salir el domingo , día 20 de junio de 2004 ?
+U6: Sí , quería salir (p) de Alicante .
+M7: Le consulto precios de Alicante a Barcelona . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 43 euros la ida y el más barato es un Arco que cuesta 37 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , quería llegar (p) antes de las veintidós treinta de la noche (nw) (p) y en Euromed .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Sí , quería llegar antes de las veintidós treinta y en Euromed .
+M10: Precios desde Alicante ¿ llegando entre las 0 y las 10 y 30 de la noche ?
+U9: Sí .
+M11: ¿ Desea hacer el viaje en un Euromed ?
+U10: Sí .
+M12: Le consulto precios . Un momento por favor .
+M13: Con llegada entre las 0 y las 10 y 30 de la noche los trenes son Euromed . En clase turista , el billete cuesta 43 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No .
+M14: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , (rs (m quisiera obtener) (s (p)) (c quisiera saber)) el horario y el precio de un viaje de ida desde Madrid a Córdoba (p) (fe) sería para el próximo fin de semana .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Sí , quisiera salir de Madrid (p) y quisier(a a) ir a Córdoba .
+M3: ¿ Qué día desea salir ?
+U3: (fe) (df Bueno) , yo quería llegar el sábado , lo más temprano posible (p) a Córdoba .
+M4: Horarios para llegar a Córdoba ¿ desea llegar el sábado , día 21 de febrero de 2004 ?
+U4: (fe) Sí (p) . Quisiera llegar (fe) lo más temprano posible .
+M5: Le consulto horarios de Madrid a Córdoba llegando el sábado , día 21 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 10 de la mañana y llega a las 9 y 10 de la mañana y el último sale a las 11 y 10 de la noche y llega a las 4 y 42 de la madrugada ¿ Desea algo más ?
+U5: (fe) Sí , quisiera obtener el preci(a o) del viaje .
+M7: Le consulto precios . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Ave que cuesta 47 euros la ida y el más barato es un estrecho que cuesta 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc muchas gracias) , (dc eso es todo) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

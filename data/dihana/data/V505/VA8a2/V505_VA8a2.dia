@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , quería obtener los horarios para ir desde La_Coruña a Murcia .
+Hola , quería obtener los horarios para ir desde La_Coruña (U:Pregunta:Hora_salida:Origen) pal: 1 - 10
+a Murcia . (U:Pregunta:Hora_salida:Destino) pal: 11 - 13
+
+M2: ¿ Quiere viajar a murcia ? .
+¿ Quiere viajar a murcia ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El quince de mayo .
+El quince de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: Le consulto horarios de trenes con salida en la_coruña destino murcia saliendo el sábado , día 15 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en la_coruña destino murcia saliendo el sábado , día 15 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Sí , quería saber si hay algún tren a las ocho de la mañana .
+Sí , quería saber si hay algún tren a las ocho de la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 15
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Quiero saber si hay algún tren a las ocho de la mañana .
+Quiero saber si hay algún tren a las ocho de la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 13
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: Sólo hay dos trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el otro sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el otro sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+
+U6: Sí , ¿ qué tipo de tren es el de las ocho y treinta ? .
+Sí , ¿ qué tipo de tren es el de las ocho y treinta ? . (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 16
+
+M9: Ese tren es un intercity . Desea algo más ? .
+Ese tren es un intercity . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+U7: No , eso es todo , muchas gracias .
+No , eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

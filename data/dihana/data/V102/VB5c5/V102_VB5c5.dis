@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do Hola) , quiero saber (p) el horario (p) (fe) de ida (p) de Palencia a Oviedo (p) (a e)l (p) viernes dieciocho de junio .
+M2: Horarios para llegar a Oviedo ¿ saliendo de Palencia ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El dieciocho de junio .
+M4: ¿ Desea salir el viernes , día 18 de junio de 2004 ?
+U4: Sí .
+M5: Le consulto horarios . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U5: (fe) Sí , quiero saber el precio .
+M7: Le consulto precios . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) (fe) Sí , quiero ver los horarios que hay (fe) (p) (rr (m por la tarde) (s (p)) (c por la tarde)) .
+M9: Le consulto horarios . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U7: El precio ese de Talgo .
+M11: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , ya está , (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

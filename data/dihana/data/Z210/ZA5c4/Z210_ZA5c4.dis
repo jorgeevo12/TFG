@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría obtener el horario de un tren que salga de Murcia para Albacete el sábado por la tarde .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Albacete .
+M3: Horarios de trenes con destino a Albacete ¿ desde Zaragoza ?
+U3: No .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: A Murcia (na) .
+M5: Le consulto horarios de Murcia a Albacete el sábado , día 21 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 49 de la tarde ¿ Desea algo más ?
+U5: (nw) (na) Sí , obtener el horario para el domingo a primera hora .
+M7: Le consulto horarios de Murcia a Albacete el domingo , día 22 de febrero de 2004 entre las 5 de la madrugada y las 7 de la mañana . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

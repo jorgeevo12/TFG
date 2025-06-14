@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero obtener horario para un viaje de ida desde Zaragoza hasta Lleida el próximo viernes , (p) antes de las seis de la tarde .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: Quiero obtener horario de un viaje de ida (ri (m de (lu Lérida Léri)) (c de Zaragoza a Lérida)) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Lleida .
+M4: ¿ Qué día desea salir ?
+U4: Próximo viernes .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Lérida saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 2 y 31 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U5: Sí , quiero saber qué tren (fe) llega a Lérida antes de las seis de la tarde .
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 2 y 31 de la madrugada y llega a las 4 y 58 de la madrugada y el último sale a las 2 y 33 de la tarde y llega a las 4 y 22 de la tarde ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

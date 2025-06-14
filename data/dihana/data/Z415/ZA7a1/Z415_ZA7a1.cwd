@@ -1,0 +1,46 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Deseo obtener horario para viajar de $C_ORIGEN<Sevilla> a $C_DESTINO<Cádiz> , el próximo día $FECHA<treinta> , en un tren $T_TREN<regional> .
+Deseo obtener horario para viajar de $C_ORIGEN<Sevilla> (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+a $C_DESTINO<Cádiz> , (U:Pregunta:Hora_salida:Destino) pal: 8 - 10
+el próximo día $FECHA<treinta> , (U:Pregunta:Hora_salida:Dia) pal: 11 - 15
+en un tren $T_TREN<regional> . (U:Pregunta:Hora_salida:Tipo_tren) pal: 16 - 20
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: El próximo día $FECHA<treinta de abril> .
+El próximo día $FECHA<treinta de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 7
+M3: Quiere horarios de trenes a $C_DESTINO<sevilla> , ¿ desde $C_ORIGEN<zaragoza> ? .
+Quiere horarios de trenes a $C_DESTINO<sevilla> , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN<zaragoza> ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: No , quiero a $C_DESTINO<Sevilla> desde $C_ORIGEN<Cádiz> .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero a $C_DESTINO<Sevilla> (U:Respuesta:Hora_salida:Destino) pal: 3 - 5
+desde $C_ORIGEN<Cádiz> . (U:Respuesta:Hora_salida:Origen) pal: 6 - 8
+M4: Le consulto horarios de trenes con salida en $C_ORIGEN<cádiz> destino $C_DESTINO<sevilla> saliendo el $FECHA<viernes , día 30 de abril de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<cádiz> destino $C_DESTINO<sevilla> saliendo el $FECHA<viernes , día 30 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<5 y 55 de la madrugada> y el $NRORDEN<último> a las $HORA<7 y 57 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<5 y 55 de la madrugada> y el $NRORDEN<último> a las $HORA<7 y 57 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U4: Sí , quiero horario desde $C_ORIGEN<Sevilla> a $C_DESTINO<Cádiz> para el próximo día $FECHA<treinta de abril> .
+Sí , quiero horario desde $C_ORIGEN<Sevilla> (U:Pregunta:Hora_salida:Origen) pal: 1 - 6
+a $C_DESTINO<Cádiz> (U:Pregunta:Hora_salida:Destino) pal: 7 - 8
+para el próximo día $FECHA<treinta de abril> . (U:Pregunta:Hora_salida:Dia) pal: 9 - 16
+M6: Le consulto horarios de trenes con salida en $C_ORIGEN<sevilla> destino $C_DESTINO<cádiz> saliendo el $FECHA<viernes , día 30 de abril de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<sevilla> destino $C_DESTINO<cádiz> saliendo el $FECHA<viernes , día 30 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M7: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<6 y 53 de la mañana> y el $NRORDEN<último> a las $HORA<9 y 35 de la noche> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<6 y 53 de la mañana> y el $NRORDEN<último> a las $HORA<9 y 35 de la noche> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: Que sea un tren $T_TREN<regional> .
+Que sea un tren $T_TREN<regional> . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 6
+M8: Le consulto horarios de trenes con salida en $C_ORIGEN<sevilla> destino $C_DESTINO<cádiz> saliendo el $FECHA<viernes , día 30 de abril de 2004> en $T_TREN<regional> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<sevilla> destino $C_DESTINO<cádiz> saliendo el $FECHA<viernes , día 30 de abril de 2004> en $T_TREN<regional> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

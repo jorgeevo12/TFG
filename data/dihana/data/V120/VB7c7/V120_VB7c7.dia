@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quería saber los precios de los trenes de Valencia a Teruel para el próximo sábado .
+Quería saber los precios de los trenes de Valencia (U:Pregunta:Precio:Origen) pal: 1 - 9
+a Teruel (U:Pregunta:Precio:Destino) pal: 10 - 11
+para el próximo sábado . (U:Pregunta:Precio:Dia) pal: 12 - 16
+
+
+
+M2: Le consulto precios de valencia a teruel saliendo el sábado , día 8 de mayo de 2004 . Un momento por favor .
+Le consulto precios de valencia a teruel saliendo el sábado , día 8 de mayo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+M3: Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+
+U2: Sí , quería saber son talgo . Quería viajar en talgo .
+Sí , quería saber son talgo . Quería viajar en talgo . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 12
+
+
+
+M4: Le consulto precios de valencia a teruel en tipo tren talgo . Un momento por favor .
+Le consulto precios de valencia a teruel en tipo tren talgo . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+
+M5: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U3: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

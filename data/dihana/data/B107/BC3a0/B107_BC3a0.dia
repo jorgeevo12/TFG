@@ -1,0 +1,119 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , me gustaría saber el horario de trenes para ir de Bilbao a Valencia el día diecinueve de marzo . En litera , si puede ser .
+Hola , me gustaría saber el horario de trenes para ir de Bilbao (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+a Valencia (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+el día diecinueve de marzo . (U:Pregunta:Hora_salida:Dia) pal: 16 - 21
+En litera , si puede ser . (U:Pregunta:Hora_salida:Clase_billete) pal: 22 - 28
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: Quisiera viajar a Valencia .
+Quisiera viajar a Valencia . (U:Respuesta:Destino:Destino) pal: 1 - 5
+
+
+M3: Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el viernes , día 19 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M4: El único tren que realiza el trayecto es un sol_de_levante que sale a las 7 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un sol_de_levante que sale a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+
+
+U3: ¿ Tiene como servicio litera ? .
+¿ Tiene como servicio litera ? . (U:Pregunta:Clase_billete:Clase_billete) pal: 1 - 7
+
+
+M5: Ese tren dispone de clase litera . Desea algo más ? .
+Ese tren dispone de clase litera . (M:Respuesta:Clase_billete:Clase_billete) pal: 1 - 7
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 8 - 12
+
+
+U4: Sí , me gustaría saber a qué hora llega a Valencia .
+Sí , me gustaría saber a qué hora llega a Valencia . (U:Pregunta:Hora_llegada:Destino) pal: 1 - 12
+
+
+M6: Ese tren sale a las 7 de la tarde y llega a las 7 y 50 de la mañana . Desea algo más ? .
+Ese tren sale a las 7 de la tarde y llega a las 7 y 50 de la mañana . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 20
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 21 - 25
+
+
+U5: Sí , me gustaría saber cuál es su precio de ida y vuelta .
+Sí , me gustaría saber cuál es su precio de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 14
+
+
+M7: El precio de ese tren en litera es 47 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en litera es 47 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+U6: Sí , me gustaría saber los horario de trenes para volver el día veintiuno de marzo .
+Sí , me gustaría saber los horario de trenes para volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 11
+el día veintiuno de marzo . (U:Pregunta:Hora_salida:Dia) pal: 12 - 17
+
+
+M8: Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el domingo , día 21 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el domingo , día 21 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U7: Sí , pues me gustaría volver el veinte de marzo .
+Sí , pues me gustaría volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 6
+el veinte de marzo . (U:Pregunta:Hora_salida:Dia) pal: 7 - 11
+
+
+M10: Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el sábado , día 20 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U8: Sí , pues algún día el veinte de marzo .
+Sí , pues algún día el veinte de marzo . (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+
+
+M12: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M13: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M14: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U9: Sí , me gustaría ir en algún tipo de tren . Me da igual qué tipo de tren sea .
+Sí , me gustaría ir en algún tipo de tren . Me da igual qué tipo de tren sea . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 20
+
+
+M15: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U10: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

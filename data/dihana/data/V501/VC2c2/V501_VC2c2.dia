@@ -1,0 +1,225 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+
+U1: Quería saber los horarios y el precio de un viaje de ida y vuelta a Granada el próximo fin de semana .
+Quería saber los horarios y el precio de un viaje de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 14
+a Granada (U:Pregunta:Hora_salida,Precio:Destino) pal: 15 - 16
+el próximo fin de semana . (U:Pregunta:Hora_salida,Precio:Dia) pal: 17 - 22
+
+
+
+
+
+M2: Quiere horarios de trenes a granada , ¿ saliendo de valencia ? .
+Quiere horarios de trenes a granada , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+
+
+
+M3: ¿ Desea salir el viernes , día 23 de abril de 2004 ? .
+¿ Desea salir el viernes , día 23 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+
+
+M4: Le consulto horarios de trenes con salida en valencia destino granada saliendo el viernes , día 23 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino granada saliendo el viernes , día 23 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+M5: Sólo hay dos trenes . El primero sale a las 0 y 27 de la noche y el otro a las 11 y 30 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 0 y 27 de la noche y el otro a las 11 y 30 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+
+
+
+
+U4: Que la vuelta sea el domingo por la noche .
+Que la vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 3
+sea el domingo (U:Pregunta:Nil:Dia) pal: 4 - 6
+por la noche . (U:Pregunta:Nil:Hora_salida) pal: 7 - 10
+
+
+
+
+
+M6: Le consulto horarios de granada a valencia el domingo , día 25 de abril de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+Le consulto horarios de granada a valencia el domingo , día 25 de abril de 2004 entre las 9 de la noche y las 5 de la madrugada . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+
+
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+
+U5: Sí , que la vuelta sea el día siguiente .
+Sí , que la vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 5
+sea el día siguiente . (U:Pregunta:Hora_salida:Dia) pal: 6 - 10
+
+
+
+
+
+M8: Le consulto horarios de trenes con salida en granada destino valencia saliendo el lunes , día 26 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en granada destino valencia saliendo el lunes , día 26 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+M9: El único tren que realiza el trayecto es un garcía_lorca que sale a las 8 y 30 de la mañana y llega a las 4 y 40 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un garcía_lorca que sale a las 8 y 30 de la mañana y llega a las 4 y 40 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+
+
+
+U6: Sí , que sea en litera .
+Sí , que sea en litera . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 7
+
+
+
+
+
+M10: Le consulto horarios de trenes con salida en granada destino valencia saliendo el lunes , día 26 de abril de 2004 en clase litera . Un momento por favor .
+Le consulto horarios de trenes con salida en granada destino valencia saliendo el lunes , día 26 de abril de 2004 en clase litera . (M:Confirmacion:Hora_salida:Clase_billete,Destino,Dia,Origen) pal: 1 - 25
+Un momento por favor . (M:Espera:Nil:Nil) pal: 26 - 30
+
+
+
+
+
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+
+U7: Que sea al día siguiente .
+Que sea al día siguiente . (U:Pregunta:Hora_salida:Dia) pal: 1 - 6
+
+
+
+
+
+M12: Le consulto horarios de trenes con salida en granada destino valencia saliendo el lunes , día 26 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en granada destino valencia saliendo el lunes , día 26 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+M13: El único tren que realiza el trayecto es un garcía_lorca que sale a las 8 y 30 de la mañana y llega a las 4 y 40 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un garcía_lorca que sale a las 8 y 30 de la mañana y llega a las 4 y 40 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+
+
+
+U8: Saber el precio del tren que sale a las cero veintisiete .
+Saber el precio del tren que sale a las cero veintisiete . (U:Pregunta:Precio:Hora_salida) pal: 1 - 12
+
+
+
+
+
+M14: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+
+M15: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+
+M16: El único tren que realiza el trayecto es un garcía_lorca y su precio en clase turista es 39 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un garcía_lorca y su precio en clase turista es 39 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+
+
+
+U9: Que el billete sea de ida y vuelta .
+Que el billete sea de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+
+
+
+
+M17: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+U10: Que el billete sea de ida y vuelta .
+Que el billete sea de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+
+
+
+
+M18: El precio de ese tren en clase turista es 39 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 39 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+
+
+
+U11: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+
+
+
+M19: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

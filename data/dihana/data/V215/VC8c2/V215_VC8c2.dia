@@ -1,0 +1,105 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quiero saber el precio de los viajes de tren Murcia a Córdoba para agosto .
+Quiero saber el precio de los viajes de tren Murcia (U:Pregunta:Precio:Origen) pal: 1 - 10
+a Córdoba (U:Pregunta:Precio:Destino) pal: 11 - 12
+para agosto . (U:Pregunta:Precio:Dia) pal: 13 - 15
+
+
+
+M2: Le consulto precios de murcia a córdoba saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+Le consulto precios de murcia a córdoba saliendo el domingo , día 1 de agosto de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+M3: Hay varios trenes . En turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 51
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 52 - 56
+
+
+
+U2: Sí , quería saber el precio viaje de vuelta de Córdoba a Murcia para los días dieciséis o diecisiete de agosto .
+Sí , quería saber el precio viaje de vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+de Córdoba (U:Pregunta:Precio:Origen) pal: 10 - 11
+a Murcia (U:Pregunta:Precio:Destino) pal: 12 - 13
+para los días dieciséis o diecisiete de agosto . (U:Pregunta:Precio:Dia) pal: 14 - 22
+
+
+
+M4: Le consulto precios de córdoba a murcia . Un momento por favor .
+Le consulto precios de córdoba a murcia . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+
+M5: Hay varios trenes . En turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 51
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 52 - 56
+
+
+
+U3: Sí , querría saber el precio total de viaje de ida y de vuelta .
+Sí , querría saber el precio total de viaje de ida y de vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 15
+
+
+
+M6: Usted debe calcular el descuento . El precio es el proporcionado anteriormente .
+Usted debe calcular el descuento . El precio es el proporcionado anteriormente . (M:Indefinida:Nil:Nil) pal: 1 - 13
+
+
+
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+
+M7: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+
+U5: Me pregunta algo .
+Me pregunta algo . (U:Indefinida:Nil:Nil) pal: 1 - 4
+
+
+
+M8: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+
+U6: ¿ Me puede decir el precio los trenes más baratos tanto para ir como para volver ? .
+¿ Me puede decir el precio los trenes más baratos (U:Pregunta:Precio:Precio) pal: 1 - 10
+tanto para ir como para volver ? . (U:Pregunta:Precio:Tipo_viaje) pal: 11 - 18
+
+
+
+M9: El tren más barato es un diurno y su precio en turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El tren más barato es un diurno y su precio en turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 39
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 40 - 44
+
+
+
+U7: Sí , quiero que me repitas el precio tren más barato para la vuelta .
+Sí , quiero que me repitas el precio tren más barato (U:Pregunta:Precio:Precio) pal: 1 - 11
+para la vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 12 - 15
+
+
+
+M10: El precio de ese tren en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 32
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 33 - 37
+
+
+
+U8: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

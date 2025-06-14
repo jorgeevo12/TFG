@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quiero saber el horario de los trenes de Zaragoza a Granada (p) el día diecinueve de febrero .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Granada (nw) .
+M3: ¿ Qué día desea salir ?
+U3: El diecinueve de febrero .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Granada saliendo el jueves , día 19 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:33"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z117"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Deseo los horarios y precios de los trenes de Almería a Sevilla en Regional , el siete <n fuente="exterior" tipo="genérico"/> de abril . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T02u.ul">
+<t> <N> Siete de abril </N> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T03u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> No , desde Almería <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 6 de la mañana y el último a las 6 y 5 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Que sea Regional . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 en Regional . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T05u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <N> Sí deseo el tren </N> más barato . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren sale a las 6 de la mañana y llega a las 11 y 12 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T06u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> El precio <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 27 con 19 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T07u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <N> Deseo saber si hay algún tren Regional el ocho de abril </N> . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el jueves , día 8 de abril de 2004 en Regional . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T08u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <N> Sí , salir el nueve de abril </N> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el viernes , día 9 de abril de 2004 en Regional . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="Z117_ZB5c0_T09u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

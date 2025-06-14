@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Sí (fe) querí(a a) obtener horario de trenes a Alicante (p) y también el precio para los viajes de ida .
+M2: ¿ Qué día desea salir ?
+U2: (fe) Este fin de semana el viernes .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Sí , este viernes .
+M4: Quiere horarios de trenes a Alicante ¿ desde Bilbao ?
+U4: Sí (p) , para viajar en preferente (dq por favor) (p) en el tren más rápido posible .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Alicante saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (df Pu(a e)s) sí , salir el jueves (df entonces) .
+M7: ¿ Desea salir el jueves , día 25 de marzo de 2004 ?
+U6: Sí , (da eso es) .
+M8: Le consulto horarios de trenes con salida en Bilbao destino Alicante saliendo el jueves , día 25 de marzo de 2004 . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: ¿ Y el sábado ?
+M10: Le consulto horarios de trenes con salida en Bilbao destino Alicante saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo que sale a las 9 y 50 de la mañana ¿ Desea algo más ?
+U8: No (dc gracias) (fe) (da sí bueno) (fe) , obtener el precio (dq por favor) .
+M12: El precio de ese tren en clase turista es 46 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (na) No , (dc muchas gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,65 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , sí , quería ir a Córdoba el próximo fin de semana , bueno saliendo el viernes , entonces bueno , quería saber los horarios de los trenes que hay para ir a Córdoba .
+Hola , sí , quería ir a Córdoba (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+el próximo fin de semana , bueno saliendo el viernes , (U:Pregunta:Hora_salida:Dia) pal: 9 - 19
+entonces bueno , quería saber los horarios de los trenes que hay para ir a Córdoba . (U:Pregunta:Hora_salida:Destino) pal: 20 - 36
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: A Córdoba .
+A Córdoba . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U3: Sí , quiero viajar a Córdoba .
+Sí , quiero viajar a Córdoba . (U:Respuesta:Destino:Destino) pal: 1 - 7
+
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U4: Este viernes .
+Este viernes . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+
+M5: Le consulto horarios de trenes con salida en oviedo destino córdoba saliendo el viernes , día 26 de diciembre de 2003 . Un momento por favor .
+Le consulto horarios de trenes con salida en oviedo destino córdoba saliendo el viernes , día 26 de diciembre de 2003 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U5: Sí creo que ha habido un error , la salida es desde Bilbao . Entonces , quiero ir desde Bilbao a Córdoba .
+Sí creo que ha habido un error , la salida es desde Bilbao . Entonces , quiero ir desde Bilbao (U:Pregunta:Hora_salida:Origen) pal: 1 - 20
+a Córdoba . (U:Pregunta:Hora_salida:Destino) pal: 21 - 23
+
+
+M7: Le consulto horarios de trenes con salida en bilbao destino córdoba saliendo el viernes , día 26 de diciembre de 2003 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino córdoba saliendo el viernes , día 26 de diciembre de 2003 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M8: El único tren que realiza el trayecto es un picasso que sale a las 8 y 35 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un picasso que sale a las 8 y 35 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U6: No , nada más . Vale , gracias .
+No , nada más . Vale , gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

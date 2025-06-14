@@ -1,0 +1,52 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Deseo obtener el horario y tipo de tren para realizar un viaje desde $C_ORIGEN<Barcelona> $CIUDAD<Lleida> .
+Deseo obtener el horario y tipo de tren para realizar un viaje desde $C_ORIGEN<Barcelona> (U:Pregunta:Hora_salida,Tipo_tren:Origen) pal: 1 - 15
+$CIUDAD<Lleida> . (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 14 - 16
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A $C_DESTINO<Lleida> .
+A $C_DESTINO<Lleida> . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Le consulto tipos de trenes para el trayecto $C_ORIGEN<barcelona> a $C_DESTINO<lérida> . Un momento por favor .
+Le consulto tipos de trenes para el trayecto $C_ORIGEN<barcelona> a $C_DESTINO<lérida> . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+M4: Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<talgo> y el $T_TREN<más lento> es un $T_TREN<regional> . Desea algo más ? .
+Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<talgo> y el $T_TREN<más lento> es un $T_TREN<regional> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U3: Sí , conocer el horario para salir el día $FECHA<catorce de abril> $HORA<por la mañana> en el $T_TREN<talgo> .
+Sí , conocer el horario para salir el día $FECHA<catorce de abril> (U:Pregunta:Hora_salida:Dia) pal: 1 - 12
+$HORA<por la mañana> (U:Pregunta:Hora_salida:Hora_salida) pal: 13 - 15
+en el $T_TREN<talgo> . (U:Pregunta:Hora_salida:Tipo_tren) pal: 16 - 19
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El $FECHA<catorce de abril> .
+El $FECHA<catorce de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M6: Le consulto horarios de $C_ORIGEN<barcelona> a $C_DESTINO<lérida> el $FECHA<miércoles , día 14 de abril de 2004> entre las $HORA<7 de la mañana> y la $HORA<una de la tarde> . Un momento por favor .
+Le consulto horarios de $C_ORIGEN<barcelona> a $C_DESTINO<lérida> el $FECHA<miércoles , día 14 de abril de 2004> entre las $HORA<7 de la mañana> y la $HORA<una de la tarde> . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M7: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 3 de la mañana> y el $NRORDEN<último> a la $HORA<una de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 3 de la mañana> y el $NRORDEN<último> a la $HORA<una de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: Sí , ¿ qué tipo de tren es el $NRORDEN<primero> ? .
+Sí , ¿ qué tipo de tren es el $NRORDEN<primero> ? . (U:Pregunta:Tipo_tren:Numero_relativo_orden) pal: 1 - 12
+
+M8: Ese tren es un $T_TREN<talgo> . Desea algo más ? .
+Ese tren es un $T_TREN<talgo> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

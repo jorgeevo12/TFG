@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola buenos días) , querría viajar a Burgo(a s) la semana del uno de marzo . Querría ir el uno de marzo y volver el tres o el cuatro de marzo .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (na) Querría viajar a Burgos saliendo el uno de marzo y volviendo el tres o el cuatro de marzo .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , me gustaría saber horarios y precios y si es posible me gustaría viajar e(a n) Intercity .
+M4: Quiere horarios de trenes a Burgos ¿ desde Zaragoza ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Burgos saliendo el lunes , día 1 de marzo de 2004 en Intercity . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (na) Sí , (df pues) ahora (fm) me da igual cualquier tipo de tren .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Burgos saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 2 y 30 de la madrugada y el último a las 11 y 10 de la noche ¿ Desea algo más ?
+U6: (na) (fm) Me gustaría saber el preci(a o) de los trenes .
+M9: Hay varios trenes . En clase turista , el tren más caro es un covadonga que cuesta 23 con 50 euros la ida y el más barato es un galicia que cuesta 19 con 60 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) (fm) Me gustaría saber (fe) qué horarios y precios tengo para volver (p) (fe) el tres o el cuatro de marzo .
+M10: Le consulto horarios de trenes con salida en Burgos destino Zaragoza saliendo el jueves , día 4 de marzo de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 2 y 17 de la madrugada y el último a las 11 y 43 de la noche ¿ Desea algo más ?
+U8: Sí , querría saber el precio de esos trenes .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Finisterre que cuesta 23 con 50 euros la ida y el más barato es un galicia que cuesta 19 con 60 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Nada más , (nw (dc muchas gracias)) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

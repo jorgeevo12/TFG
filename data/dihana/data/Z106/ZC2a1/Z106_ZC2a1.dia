@@ -1,0 +1,52 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenas , querría saber los horarios y precios de los trenes de Zaragoza a Madrid para mañana en el Ave .
+Buenas , querría saber los horarios y precios de los trenes de Zaragoza (U:Pregunta:Hora_salida,Precio:Origen) pal: 1 - 13
+a Madrid (U:Pregunta:Hora_salida,Precio:Destino) pal: 14 - 15
+para mañana (U:Pregunta:Hora_salida,Precio:Dia) pal: 16 - 17
+en el Ave . (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 18 - 21
+
+M2: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el miércoles , día 3 de marzo de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el miércoles , día 3 de marzo de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M3: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U2: Que sea cualquier día de esta semana .
+Que sea cualquier día de esta semana . (U:Pregunta:Hora_salida:Dia) pal: 1 - 8
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el martes , día 2 de marzo de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el martes , día 2 de marzo de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M5: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U3: Sí , que sea un tren para mañana de cualquier clase .
+Sí , que sea un tren para mañana (U:Pregunta:Hora_salida:Dia) pal: 1 - 8
+de cualquier clase . (U:Pregunta:Hora_salida:Tipo_tren) pal: 9 - 12
+
+M6: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el miércoles , día 3 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el miércoles , día 3 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Sí , querría saber el precio para los billetes de ida y vuelta .
+Sí , querría saber el precio para los billetes de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 14
+
+M8: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un costa_brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un costa_brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U5: No , eso es todo , gracias .
+No , eso es todo , gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

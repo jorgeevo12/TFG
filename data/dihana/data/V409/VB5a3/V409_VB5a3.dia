@@ -1,0 +1,77 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría saber los horarios de trenes de Cambrils a Lleida Pirineos .
+Me gustaría saber los horarios de trenes de Cambrils (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+a Lleida Pirineos . (U:Pregunta:Hora_salida:Destino) pal: 10 - 13
+
+M2: Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales . Desea realizar otra consulta ? .
+Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales . (M:Indefinida:Nil:Nil) pal: 1 - 15
+Desea realizar otra consulta ? . (M:Nueva_consulta:Nil:Nil) pal: 16 - 21
+
+U2: Sí , me gustaría saber los horarios de trenes de Tarragona a Barcelona .
+Sí , me gustaría saber los horarios de trenes de Tarragona (U:Pregunta:Hora_salida:Origen) pal: 1 - 11
+a Barcelona . (U:Pregunta:Hora_salida:Destino) pal: 12 - 14
+
+M3: Horarios para llegar a barcelona , ¿ saliendo de tarragona ? .
+Horarios para llegar a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ saliendo de tarragona ? . (M:Confirmacion:Origen:Origen) pal: 7 - 12
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El diez de abril .
+El diez de abril . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M5: ¿ Desea salir el sábado , día 10 de abril de 2004 ? .
+¿ Desea salir el sábado , día 10 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M6: Le consulto horarios de trenes con salida en tarragona destino barcelona saliendo el sábado , día 10 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en tarragona destino barcelona saliendo el sábado , día 10 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 5 y 15 de la madrugada y el último a las 10 y 21 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 15 de la madrugada y el último a las 10 y 21 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U6: Me gustaría saber el horario y el precio de un tren que salga a partir de las cuatro , a las cuatro .
+Me gustaría saber el horario y el precio de un tren que salga a partir de las cuatro , a las cuatro . (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 1 - 23
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U7: Me gustaría saber horarios de trenes a partir de las cuatro de la tarde .
+Me gustaría saber horarios de trenes a partir de las cuatro de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 15
+
+M9: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M10: Hay varios trenes . El primero sale a las 4 y 56 de la tarde y llega a las 6 de la tarde y el último sale a las 10 y 21 de la noche y llega a las 11 y 38 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 4 y 56 de la tarde y llega a las 6 de la tarde y el último sale a las 10 y 21 de la noche y llega a las 11 y 38 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+U8: Me gustaría saber el precio del tren que sale a las .
+Me gustaría saber el precio del tren que sale a las . (U:Pregunta:Precio:Nil) pal: 1 - 12
+
+M11: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U9: Me gustaría saber el precio del tren que sale a las cuatro y cincuenta cuatro .
+Me gustaría saber el precio del tren que sale a las cuatro y cincuenta cuatro . (U:Pregunta:Precio:Hora_salida) pal: 1 - 16
+
+M12: El precio de ese tren en clase turista es 14 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 14 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U10: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

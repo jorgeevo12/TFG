@@ -1,0 +1,46 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenos días . Desearía saber los horarios de trenes que hay desde Monzón a Barcelona el diez de noviembre de este año entre las diez y las once de la mañana .
+Buenos días . Desearía saber los horarios de trenes que hay desde Monzón (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+el diez de noviembre de este año (U:Pregunta:Hora_salida:Dia) pal: 16 - 22
+entre las diez y las once de la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 23 - 32
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El diez de noviembre .
+El diez de noviembre . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M3: Quiere horarios de trenes a barcelona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 5
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el miércoles , día 10 de noviembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el miércoles , día 10 de noviembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: Sí , ¿ hay algún tren entre las diez y las once de la mañana ? .
+Sí , ¿ hay algún tren entre las diez y las once de la mañana ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 17
+
+M6: Le consulto horarios de zaragoza a barcelona el miércoles , día 10 de noviembre de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+Le consulto horarios de zaragoza a barcelona el miércoles , día 10 de noviembre de 2004 entre las 10 y las 11 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+
+M7: El único tren que realiza el trayecto es un talgo que sale a las 10 de la mañana y llega a las 2 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 10 de la mañana y llega a las 2 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U5: No , nada más gracias .
+No , nada más gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

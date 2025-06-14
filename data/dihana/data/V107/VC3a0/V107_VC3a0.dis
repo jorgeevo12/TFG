@@ -1,0 +1,37 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , (df verá) querría (rr (m (lu viajar via)) (c viajar)) a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Me gustaría salir el día diez de marzo (p) a las diez de la mañana si (lm puede podie) ser .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Me gustaría salir (p) el diez de marzo .
+M5: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el miércoles , día 10 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U5: Sí , (df verá) me gustarí(a a) salir sobre las diez (na) .
+M7: Le consulto horarios de Valencia a Barcelona el miércoles , día 10 de marzo de 2004 +10:00 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Arco que sale a las 10 y 5 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U6: (na) ¿ Podría ser un Euromed ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (na) ¿ El tren podría ser un Euromed ?
+M10: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el miércoles , día 10 de marzo de 2004 en Euromed . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U8: (nl) Sí , me gustaría viajar de noche , durmiendo en litera .
+M12: Le consulto horarios de Valencia a Barcelona el miércoles , día 10 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: Sí .
+M14: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: (na) Me gustaría obtener el precio .
+M15: Le consulto precios de Valencia a Barcelona en tipo tren Euromed . Un momento por favor .
+M16: Un momento por favor .
+M17: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: (na) Sí , me gustaría volver el día de la cremá .
+M18: Lo siento . No he entendido bien ¿ puede repetir ?
+U12: Sí , me gustaría volver el día diecinueve de marzo .
+M19: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el viernes , día 19 de marzo de 2004 en Euromed . Un momento por favor .
+M20: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 8 y 30 de la tarde y llega a las 11 y 20 de la noche ¿ Desea algo más ?
+U13: Sí , me gustaría saber el precio .
+M21: Le consulto precios de Barcelona a Valencia en tipo tren Euromed . Un momento por favor .
+M22: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U14: Nada más .
+M23: Gracias por utilizar este servicio . Feliz viaje .

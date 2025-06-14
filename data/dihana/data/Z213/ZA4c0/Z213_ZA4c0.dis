@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera obten(a e)r (p) el horario para viaj(a a)r a Alicante .
+M2: ¿ Qué día desea salir ?
+U2: El próximo sábado .
+M3: Quiere horarios de trenes a Alicante ¿ desde Zaragoza ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Alicante saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche y llega a las 10 y 25 de la mañana ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

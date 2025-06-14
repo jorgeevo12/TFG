@@ -1,0 +1,65 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera ir el jueves que viene dieciocho a Gasteiz desde Hendaya .
+Quisiera ir el jueves que viene dieciocho (U:Pregunta:Nil:Dia) pal: 1 - 7
+a Gasteiz (U:Pregunta:Nil:Destino) pal: 8 - 9
+desde Hendaya . (U:Pregunta:Nil:Origen) pal: 10 - 12
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: A Gazteiz .
+A Gazteiz . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U4: Gazteiz .
+Gazteiz . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U5: El dieciocho de marzo , o el jueves que viene .
+El dieciocho de marzo , o el jueves que viene . (U:Respuesta:Dia:Dia) pal: 1 - 11
+
+M6: ¿ Desea salir el jueves , día 18 de marzo de 2004 ? .
+¿ Desea salir el jueves , día 18 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M7: Quiere horarios de trenes a vitoria , ¿ desde bilbao ? .
+Quiere horarios de trenes a vitoria , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U7: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M8: Le consulto horarios de trenes con salida en bilbao destino vitoria saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino vitoria saliendo el jueves , día 18 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U8: Sí , quisiera saber qué tipo de tren es el de las siete de la mañana .
+Sí , quisiera saber qué tipo de tren es el de las siete de la mañana . (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 17
+
+M10: Ese tren es un talgo . Desea algo más ? .
+Ese tren es un talgo . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería conseguir (rr (m l(a o)s) (c los)) horarios para ir a Alicante .
+M2: ¿ Quiere viajar desde Palencia ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: (na) (a E)l doce de abril .
+M4: Le consulto horarios de trenes con salida en Palencia destino Santander saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U4: Sí .
+M6: Sí ¿ Desea algo más ?
+U5: (na) Sí , quisier(a a) que fuera un tren Euromed (p) y viajar en un coche cama .
+M7: ¿ Desea hacer el viaje en un Euromed ?
+U6: Sí .
+M8: Le consulto horarios de trenes con salida en Palencia destino Santander saliendo el jueves , día 1 de julio de 2004 en Euromed . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas .
+U7: (nl) Sí , quisier(a a) que fuera en coche cama (nw) .
+M10: Horarios para llegar a Santander ¿ desea viajar en coche cama ?
+U8: (fe) No , pero quisiera obtener el precio .
+M11: Le consulto precios de Palencia a Santander en clase cama . Un momento por favor .
+M12: Sólo hay dos trenes . En clase cama , el tren más caro es un Tren_Hotel que cuesta 117 con 50 euros la ida y el otro es un Diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quier(a o) horarios y precios para ir de Logroño a Madrid (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quiero ir a Madrid .
+M4: ¿ Qué día desea salir ?
+U4: El uno de marzo .
+M5: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U5: No , (p) quiero desde Logroño .
+M6: Le consulto horarios de trenes con salida en Logroño destino Madrid saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Intercity que sale a las 7 y 20 de la mañana ¿ Desea algo más ?
+U6: Sí , quier(a o) (p) el precio de es(a e) tren .
+M8: El precio de ese tren en clase turista es 28 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , quiero saber (nw) (fe) para volver de Madrid a Logroño .
+M9: ¿ Quiere saber horarios ?
+U8: Quiero saber horarios de Madrid a Logroño el día uno de marzo .
+M10: Le consulto horarios de trenes con salida en Madrid destino Logroño saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Intercity que sale a las 5 de la tarde ¿ Desea algo más ?
+U9: Sí , quiero saber el precio d(a e) ese tren .
+M12: El precio de ese tren en clase turista es 28 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , nada más .
+M13: Gracias por utilizar este servicio . Feliz viaje .

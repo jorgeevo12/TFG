@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:39"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z506"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T01u.ul">
+<t> <d tipo="abrir"> Hola </d> me gustaría saber el horario de un viaje de ida <p/> a Cuenca <n fuente="hablante" tipo="labios"/> para salir <r tipo="repetición"> <m> <r tipo="repetición"> <m> el </m> <c> el </c> </r> viernes </m> <c> el viernes </c> </r> después de las cuatro de la tarde . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Cuenca ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T02u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Zaragoza destino Cuenca saliendo el viernes , día 30 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T03u.ul">
+<t> Sí <p/> , <d tipo="rellenar"> pues </d> que salga <a>e</a>l sábado para llegar antes de las tres <p/> de la tarde . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Zaragoza destino Cuenca saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 3 y 30 de la tarde y el otro a las 10 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí y me gustaría saber el horario del viaje de vuelta para ese mismo día <p/> o para el día siguiente . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T05u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí ¿ hay alguno de los trenes que sea Intercity ? </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el sábado , día 1 de mayo de 2004 en Intercity . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T06u.ul">
+<t> ¡ <d tipo="exclamar"> Puf </d> ! <d tipo="rellenar"> Pues </d> ese no me sirve <n fuente="hablante" tipo="aspiración"/> , sí <r tipo="repetición"> <m> <l tipo="cortada" palabra="necesitaría"> necesi </l> </m> <c> necesitaría </c> </r> el horario <p/> del viaje de vuelta <p/> <n fuente="hablante" tipo="labios"/> per<a>o</a> <f tipo="a"/> para el domingo . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el domingo , día 2 de mayo de 2004 en Intercity . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T07u.ul">
+<t> Sí me gustaría saber el precio d<a>e</a>l viaje de ida <n fuente="hablante" tipo="labios"/> <p/> <f tipo="m"/> de Zaragoza a Cuenca . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Zaragoza a Cuenca saliendo el domingo , día 2 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T08u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <r tipo="repetición"> <m> Sí </m> <c> sí </c> </r> es que el precio tiene que ser del que sale <p/> el viernes o <r tipo="inserción"> <m> <r tipo="repetición"> <m> el sábado </m> <s> <d tipo="editar"> perdón </d> </s> <c> el sábado </c> </r> </m> <s> <p/> </s> <c> el que sale el sábado </c> </r> . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Zaragoza a Cuenca saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el otro es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T09u.ul">
+<t> Sí , ahora quiero saber el precio del viaje de vuelta <p/> <n fuente="hablante" tipo="aspiración"/> del que vuelve el domingo . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Cuenca a Zaragoza saliendo el domingo , día 2 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="Z506_ZC3c3_T10u.ul">
+<t> No , es suficiente , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

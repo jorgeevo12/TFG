@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber los horarios de trenes que van desde Murcia a Córdoba el uno de agosto .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Córdoba .
+M3: ¿ Qué día desea salir ?
+U3: El uno de agosto .
+M4: Le consulto horarios de trenes con salida en Murcia destino Córdoba saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: Quería saber cuál es el más barato .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (nl) ¿ Cuál es el tren más barato ?
+M7: El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (nw) Sí , quería saber también (fe) (p) para ir desde Córdoba a Murcia .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (na) Para ir desde Córdoba a Murcia (p) el día dieciséis .
+M9: Le consulto horarios de trenes con salida en Córdoba destino Murcia saliendo el lunes , día 16 de agosto de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U8: Sí , quiero saber el tren más barato .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: ¿ Cuál es el tren más barato ?
+M12: El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

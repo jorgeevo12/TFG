@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: saber cuándo hay un tren a Madrid para el próximo miércoles en un tren alaris si es posible .
+saber cuándo hay un tren a Madrid (U:Pregunta:Nil:Destino) pal: 1 - 7
+para el próximo miércoles (U:Pregunta:Nil:Dia) pal: 8 - 11
+en un tren alaris si es posible . (U:Pregunta:Nil:Tipo_tren) pal: 12 - 19
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: Madrid .
+Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M4: Quiere horarios de trenes a madrid , ¿ desde bilbao ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M5: Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el miércoles , día 3 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el miércoles , día 3 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U5: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

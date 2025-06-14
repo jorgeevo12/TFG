@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Sí , (nw) (nw (do hola buenos días)) (df mira) quería información para ir a Málaga .
+M2: ¿ Quiere saber horarios ?
+U2: (nl)(nw) (fe) Sí , pero primero querría saber si todos los días (fe) son los mismos horarios .
+M3: ¿ Qué día desea salir ?
+U3: El treinta de agosto .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (na) Quisiera salir hacia Málaga el día treinta de agosto .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Málaga saliendo el lunes , día 30 de agosto de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (nw No) , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

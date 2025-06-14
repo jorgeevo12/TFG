@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , querría saber (fe) el horario (rr (m d(a e) un) (s (fe) (fb)) (c de un)) tren (rs (m del) (s (p)) (c de)) Madrid (a a) Barcelona el próxim(a o) miércoles (nw) .
+M2: ¿ Quiere viajar a Zaragoza ?
+U2: (na) No (fm) de Madrid a Barcelona .
+M3: ¿ Quiere llegar a Barcelona ?
+U3: Sí (na) .
+M4: Le consulto horarios de trenes con salida en Madrid destino Barcelona saliendo el miércoles , día 31 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 3 y 45 de la tarde ¿ Desea algo más ?
+U4: (na) No , (dc gracias) (na) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

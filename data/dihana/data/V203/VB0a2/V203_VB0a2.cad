@@ -1,0 +1,36 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera horario de trenes para $C_DESTINO el día $FECHA $HORA .
+Quisiera horario de trenes para $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 1 - 6
+el día $FECHA (U:Pregunta:Hora_salida:Dia) pal: 7 - 11
+$HORA . (U:Pregunta:Hora_salida:Hora_salida) pal: 12 - 15
+
+M2: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+U2: Quisiera horarios de trenes a $C_DESTINO el $FECHA $HORA .
+Quisiera horarios de trenes a $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 1 - 6
+el $FECHA (U:Pregunta:Hora_salida:Dia) pal: 7 - 10
+$HORA . (U:Pregunta:Hora_salida:Hora_salida) pal: 11 - 14
+
+M3: Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . Un momento por favor .
+Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 23
+Un momento por favor . (M:Espera:Nil:Nil) pal: 24 - 28
+
+M4: El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U3: Sí , por favor , ¿ el precio de ese $T_TREN ? .
+Sí , por favor , ¿ el precio de ese $T_TREN ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 13
+
+M5: El precio de ese tren en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 32
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 33 - 37
+
+U4: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

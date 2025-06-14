@@ -1,0 +1,60 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Buenos días , querría viajar hoy de Valencia a Alicante y quería saber los horarios bueno y tipo de tren que podría tener hoy .
+Buenos días , querría viajar hoy de Valencia (U:Pregunta:Hora_salida,Tipo_tren:Origen) pal: 1 - 8
+a Alicante (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 9 - 10
+y quería saber los horarios bueno y tipo de tren que podría tener hoy . (U:Pregunta:Hora_salida,Tipo_tren:Dia) pal: 11 - 24
+
+
+M2: Quiere horarios de trenes a alicante , ¿ desde valencia ? .
+Quiere horarios de trenes a alicante , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: Hoy mismo , hoy tiene que ser .
+Hoy mismo , hoy tiene que ser . (U:Respuesta:Dia:Dia) pal: 1 - 8
+
+
+M4: ¿ Desea salir el lunes , día 8 de marzo de 2004 ? .
+¿ Desea salir el lunes , día 8 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M5: Le consulto horarios de trenes con salida en valencia destino alicante saliendo el lunes , día 8 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino alicante saliendo el lunes , día 8 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U5: Sí , querría viajar en un tren rápido entonces me gustaría saber el horario de los trenes rápidos .
+Sí , querría viajar en un tren rápido entonces me gustaría saber el horario de los trenes rápidos . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 19
+
+
+M7: El tren más rápido es un euromed que sale a las 10 de la mañana y llega a las 11 y 35 de la mañana . Desea algo más ? .
+El tren más rápido es un euromed que sale a las 10 de la mañana y llega a las 11 y 35 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Tipo_tren) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+
+U6: No , eso es todo , muchas gracias .
+No , eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

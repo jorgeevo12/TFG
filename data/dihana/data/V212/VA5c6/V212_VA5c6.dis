@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quiero ir de Valencia a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , para el próximo sábado .
+M3: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el sábado , día 20 de diciembre de 2003 . Un momento por favor .
+M4: Hay varios trenes . El primero sale 05:45 y el último 20:05 ¿ Desea algo más ?
+U3: Quisiera lleg(a a)r sobre las siete de la tarde .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quisiera llegar a las siete de la tarde .
+M6: Le consulto horarios . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Arco que sale 15:05 y llega 18:42 ¿ Desea algo más ?
+U5: Nada más , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

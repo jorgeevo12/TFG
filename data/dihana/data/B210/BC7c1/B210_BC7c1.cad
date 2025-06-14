@@ -1,0 +1,120 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quería saber el precio de un viaje de $TVIAJE a $C_DESTINO el $FECHA .
+Quería saber el precio de un viaje de $TVIAJE (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 10 - 11
+el $FECHA . (U:Pregunta:Precio:Dia) pal: 12 - 16
+
+
+M2: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U2: No quiero salir el $FECHA .
+No (U:Negacion:Dia:Nil) pal: 1 - 1
+quiero salir el $FECHA . (U:Respuesta:Precio:Dia) pal: 2 - 8
+
+
+M3: ¿ A qué ciudad desea llegar ? .
+¿ A qué ciudad desea llegar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A $C_DESTINO .
+A $C_DESTINO . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: Quiere saber el precio a $C_DESTINO , ¿ desde $C_ORIGEN ? .
+Quiere saber el precio a $C_DESTINO , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M5: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M6: Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U5: Sí , quiero saber el precio del billete de $TVIAJE a $C_DESTINO , saliendo el $FECHA y regresando el día $FECHA .
+Sí , quiero saber el precio del billete de $TVIAJE (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 12
+a $C_DESTINO , (U:Pregunta:Precio:Destino) pal: 13 - 15
+saliendo el $FECHA (U:Pregunta:Precio:Dia) pal: 16 - 20
+y regresando (U:Pregunta:Precio:Tipo_viaje) pal: 21 - 22
+el día $FECHA . (U:Pregunta:Precio:Dia) pal: 23 - 26
+
+
+M7: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U6: Quiero salir el día $FECHA .
+Quiero salir el día $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 8
+
+
+M8: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M9: Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U7: Quiero saber si hay algún tren con $CLASE que vaya a $C_DESTINO ese día , el $FECHA .
+Quiero saber si hay algún tren con $CLASE (U:Pregunta:Precio:Clase_billete) pal: 1 - 8
+que vaya a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 9 - 12
+ese día , el $FECHA . (U:Pregunta:Precio:Dia) pal: 13 - 18
+
+
+M10: ¿ Desea viajar en clase $CLASE ? .
+¿ Desea viajar en clase $CLASE ? . (M:Confirmacion:Clase_billete:Clase_billete) pal: 1 - 8
+
+
+U8: Sí .
+Sí . (U:Afirmacion:Clase_billete:Nil) pal: 1 - 2
+
+
+M11: Le consulto precios de $C_ORIGEN a $C_DESTINO en clase $CLASE . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO en clase $CLASE . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+
+M12: El único tren que realiza el trayecto es un $T_TREN y su precio en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN y su precio en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+U9: Quería volver de día ocho de $C_ORIGEN a $C_DESTINO y si puede ser en $CLASE .
+Quería volver (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 2
+de día ocho (U:Pregunta:Nil:Dia) pal: 3 - 5
+de $C_ORIGEN (U:Pregunta:Nil:Origen) pal: 6 - 7
+a $C_DESTINO (U:Pregunta:Nil:Destino) pal: 8 - 9
+y si puede ser en $CLASE . (U:Pregunta:Nil:Clase_billete) pal: 10 - 17
+
+
+M13: Le consulto precios de $C_ORIGEN a $C_DESTINO en clase $CLASE . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO en clase $CLASE . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+
+M14: Sólo hay dos trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el otro es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el otro es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U10: Nada más .
+Nada más . (U:Cierre:Nil:Nil) pal: 1 - 3
+
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,106 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola mire quería realizar un viaje a Mérida en tren viaje de ida y vuelta y quería saber qué horario tengo para el puente ocho al once de abril , dentro de dos semanas y quisiera saber .
+Hola mire quería realizar un viaje a Mérida (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+en tren viaje de ida y vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 9 - 15
+y quería saber qué horario tengo para el puente ocho al once de abril , dentro de dos semanas y quisiera saber . (U:Pregunta:Hora_salida:Dia) pal: 16 - 38
+
+
+M2: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+U2: Sí mire quería realizar un viaje de ida vuelta en tren a Mérida durante el próximo puente ocho al once de abril . Quisiera saber qué horarios hay y qué me costaría .
+Sí mire quería realizar un viaje de ida vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 9
+en tren a Mérida (U:Pregunta:Hora_salida,Precio:Destino) pal: 10 - 13
+durante el próximo puente ocho al once de abril . Quisiera saber qué horarios hay y qué me costaría . (U:Pregunta:Hora_salida,Precio:Dia) pal: 14 - 33
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A Mérida .
+A Mérida . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U4: Pues quisiera salir el ocho de abril .
+Pues quisiera salir el ocho de abril . (U:Respuesta:Dia:Dia) pal: 1 - 8
+
+
+M5: Quiere horarios de trenes a mérida , ¿ desde bilbao ? .
+Quiere horarios de trenes a mérida , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U5: Sí desde Bilbao quería saber sí .
+Sí (U:Afirmacion:Origen:Nil) pal: 1 - 1
+desde Bilbao quería saber sí . (U:Respuesta:Hora_salida:Origen) pal: 2 - 7
+
+
+M6: Le consulto horarios de trenes con salida en bilbao destino mérida saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino mérida saliendo el jueves , día 8 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U6: Pues sí quería saber el precio del que sale a las siete la mañana .
+Pues sí quería saber el precio del que sale a las siete la mañana . (U:Pregunta:Precio:Hora_salida) pal: 1 - 15
+
+
+M8: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+U7: Sí quisiera saber qué trenes tengo para volver el siguiente domingo por la tarde .
+Sí quisiera saber qué trenes tengo para volver (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 8
+el siguiente domingo (U:Pregunta:Nil:Dia) pal: 9 - 11
+por la tarde . (U:Pregunta:Nil:Hora_salida) pal: 12 - 15
+
+
+M9: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ? .
+¿ Quiere salir entre la una de la tarde y las 9 de la noche ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+
+
+U8: Sí , cuanto antes mejor .
+Sí , cuanto antes mejor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+M10: Le consulto horarios de mérida a bilbao el domingo , día 4 de abril de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de mérida a bilbao el domingo , día 4 de abril de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M11: El único tren que realiza el trayecto es un talgo que sale a las 3 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U9: Sí , quisiera saber entonces cuánto me costaría volver en ese talgo y ir en el tren que sale a las siete de la mañana que me ha dicho antes .
+Sí , quisiera saber entonces cuánto me costaría volver (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+en ese talgo (U:Pregunta:Precio:Tipo_tren) pal: 10 - 12
+y ir en el tren que sale a las siete de la mañana que me ha dicho antes . (U:Pregunta:Precio:Hora_salida) pal: 13 - 31
+
+
+M12: El primer y último tren es un talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El primer y último tren es un talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 39
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 40 - 44
+
+
+U10: No gracias .
+No gracias . (U:Cierre:Nil:Nil) pal: 1 - 3
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

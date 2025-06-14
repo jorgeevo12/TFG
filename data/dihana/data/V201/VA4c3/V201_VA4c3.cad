@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola quería saber los trenes que van a $C_DESTINO el próximo $FECHA que sea antes de las $HORA , que llegue antes de las $HORA .
+Hola quería saber los trenes que van a $C_DESTINO (U:Pregunta:Nil:Destino) pal: 1 - 9
+el próximo $FECHA (U:Pregunta:Nil:Dia) pal: 10 - 12
+que sea antes de las $HORA , (U:Pregunta:Nil:Hora_salida) pal: 13 - 19
+que llegue antes de las $HORA . (U:Pregunta:Nil:Hora_llegada) pal: 20 - 29
+
+
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M3: Hay varios trenes . El $NRORDEN sale a las $HSAL y llega a las $HLLEG y el $NRORDEN sale a las $HSAL y llega a las $HLLEG . Desea algo más ? .
+Hay varios trenes . El $NRORDEN sale a las $HSAL y llega a las $HLLEG y el $NRORDEN sale a las $HSAL y llega a las $HLLEG . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+U2: Quería que el tren sea $T_TREN .
+Quería que el tren sea $T_TREN . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 7
+
+
+M4: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+
+M5: Hay varios trenes . El $T_TREN sale a las $HSAL y llega a las $HLLEG y el $T_TREN sale a las $HSAL y llega a las $HLLEG . Desea algo más ? .
+Hay varios trenes . El $T_TREN sale a las $HSAL y llega a las $HLLEG y el $T_TREN sale a las $HSAL y llega a las $HLLEG . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+U3: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

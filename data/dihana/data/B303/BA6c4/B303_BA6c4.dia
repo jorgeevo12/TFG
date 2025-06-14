@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenos días , quería obtener información para hacer un viaje de ida desde Valencia a Alicante . Y quiero salir el jueves de la semana que viene .
+Buenos días , quería obtener información para hacer un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 12
+desde Valencia (U:Pregunta:Nil:Origen) pal: 13 - 14
+a Alicante . (U:Pregunta:Nil:Destino) pal: 15 - 17
+Y quiero salir el jueves de la semana que viene . (U:Pregunta:Nil:Dia) pal: 18 - 28
+M2: ¿ Desea salir el lunes , día 8 de marzo de 2004 ? .
+¿ Desea salir el lunes , día 8 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U2: No , por favor , quería salir el jueves de la semana que viene .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+por favor , quería salir el jueves de la semana que viene . (U:Respuesta:Nil:Dia) pal: 3 - 15
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U3: Sí , por favor , si me puedes decir para el jueves de la semana que viene me interesa tenerlo .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+por favor , si me puedes decir para el jueves de la semana que viene me interesa tenerlo . (U:Respuesta:Hora_salida:Dia) pal: 3 - 21
+M4: Le consulto horarios de trenes con salida en valencia destino alicante saliendo el jueves , día 11 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino alicante saliendo el jueves , día 11 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U4: No , gracias , ya es suficiente . Gracias por tu atención .
+No , gracias , ya es suficiente . Gracias por tu atención . (U:Cierre:Nil:Nil) pal: 1 - 13
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,34 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas) quisiera saber (a e)l horario de trenes d(a e) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (rr (m A) (c (a a))) .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: París .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Ermua .
+M5: ¿ Quiere llegar a Cuenca ?
+U5: No .
+M6: ¿ A qué ciudad desea viajar ?
+U6: Durango .
+M7: ¿ Quiere llegar a Vitoria ?
+U7: Sí .
+M8: ¿ Qué día desea salir ?
+U8: El viernes .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Vitoria saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U9: Sí , (fe) que sean a partir de las ocho .
+M11: ¿ Quiere salir entre las 7 y 30 y las 8 y 30 de la tarde ?
+U10: No .
+M12: ¿ Quiere salir entre las 8 y 30 de la tarde y las 11 y 30 de la noche ?
+U11: Sí .
+M13: Le consulto horarios de Bilbao a Vitoria el viernes , día 19 de marzo de 2004 entre las 8 y 30 de la tarde y las 11 y 30 de la noche . Un momento por favor .
+M14: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U12: Sí .
+M15: Si ¿ Desea algo más ?
+U13: Quiero viajar de noche .
+M16: ¿ Quiere salir entre las 9 de la noche y las 5 de la madrugada ?
+U14: Sí .
+M17: Le consulto horarios de Bilbao a Vitoria el viernes , día 19 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M18: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U15: No .
+M19: Gracias por utilizar este servicio . Feliz viaje .

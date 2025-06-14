@@ -1,0 +1,46 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Desearía salir en $T_TREN el próximo $FECHA a $C_DESTINO .
+Desearía salir en $T_TREN (U:Pregunta:Nil:Tipo_tren) pal: 1 - 4
+el próximo $FECHA (U:Pregunta:Nil:Dia) pal: 5 - 7
+a $C_DESTINO . (U:Pregunta:Nil:Destino) pal: 8 - 10
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: No , deseo saber el precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+deseo saber el precio . (U:Pregunta:Precio:Nil) pal: 3 - 7
+
+M3: Quiere saber el precio a $C_DESTINO , ¿ desde $C_ORIGEN ? .
+Quiere saber el precio a $C_DESTINO , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: Le consulto precios de $C_ORIGEN a $C_DESTINO . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M5: Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U4: ¿ Alguno de estos trenes es un $T_TREN ? .
+¿ Alguno de estos trenes es un $T_TREN ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 10
+
+M6: Le consulto precios de $C_ORIGEN a $C_DESTINO en tipo tren $T_TREN . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO en tipo tren $T_TREN . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U5: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

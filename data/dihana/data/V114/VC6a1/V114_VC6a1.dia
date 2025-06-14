@@ -1,0 +1,124 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Hola , quería información sobre un viaje de Valencia a Barcelona para el tres de septiembre .
+Hola , quería información sobre un viaje de Valencia (U:Pregunta:Nil:Origen) pal: 1 - 9
+a Barcelona (U:Pregunta:Nil:Destino) pal: 10 - 11
+para el tres de septiembre . (U:Pregunta:Nil:Dia) pal: 12 - 17
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+U3: El tres de septiembre sobre las siete y las nueve de la mañana .
+El tres de septiembre (U:Respuesta:Dia:Dia) pal: 1 - 4
+sobre las siete y las nueve de la mañana . (U:Respuesta:Hora_salida:Hora_salida) pal: 5 - 14
+
+
+
+M4: ¿ Desea salir el viernes , día 3 de septiembre de 2004 ? .
+¿ Desea salir el viernes , día 3 de septiembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+M5: Le consulto horarios de valencia a barcelona el viernes , día 3 de septiembre de 2004 entre las 7 y las 9 de la mañana . Un momento por favor .
+Le consulto horarios de valencia a barcelona el viernes , día 3 de septiembre de 2004 entre las 7 y las 9 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+
+
+
+M6: El único tren que realiza el trayecto es un euromed que sale a las 8 y 35 de la mañana y llega a las 11 y 33 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un euromed que sale a las 8 y 35 de la mañana y llega a las 11 y 33 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+
+U5: Sí , quería los precios el viaje de vuelta también .
+Sí , quería los precios el viaje de vuelta también . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 11
+
+
+
+M7: Le consulto horarios de trenes con salida en barcelona destino valencia saliendo el viernes , día 3 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino valencia saliendo el viernes , día 3 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+
+U6: Quisiera que el tren de vuelta fuera un euromed .
+Quisiera que el tren de vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 6
+fuera un euromed . (U:Pregunta:Precio:Tipo_tren) pal: 7 - 10
+
+
+
+M9: ¿ Desea hacer el viaje en un euromed ? .
+¿ Desea hacer el viaje en un euromed ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+
+U7: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+
+M10: Le consulto horarios de trenes con salida en barcelona destino valencia saliendo el viernes , día 3 de septiembre de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino valencia saliendo el viernes , día 3 de septiembre de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+M11: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 8 y 30 de la tarde y llega a las 11 y 20 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 8 y 30 de la tarde y llega a las 11 y 20 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+
+
+U8: Quisiera obtener los precios .
+Quisiera obtener los precios . (U:Pregunta:Precio:Nil) pal: 1 - 5
+
+
+
+M12: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M13: Los trenes son euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

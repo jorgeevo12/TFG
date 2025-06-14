@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Yo quería saber el horario (p) de un viaje de ida desde La_Coruña (p) hasta Vigo .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Deseo viajar a Vigo .
+M3: ¿ Qué día desea salir ?
+U3: El próximo domingo (p) , en un tren rápido .
+M4: Horarios para llegar a Vigo ¿ saliendo el domingo , día 22 de febrero de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en La_Coruña destino Vigo saliendo el domingo , día 22 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El más rápido sale a las 8 y 25 de la mañana y el más lento a las 6 y 40 de la tarde ¿ Desea algo más ?
+U5: (fm) No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

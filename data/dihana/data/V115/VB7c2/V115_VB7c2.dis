@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero conocer el precio de los trenes hacia Ávila .
+M2: ¿ Quiere viajar a ávila ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El próximo fin de semana , sábado .
+M4: ¿ Desea salir el sábado , día 13 de marzo de 2004 ?
+U4: Sí .
+M5: Le consulto precios de Valencia a ávila saliendo el sábado , día 13 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí (p) , en tren Intercity .
+M7: Le consulto precios de Valencia a ávila en tipo tren Intercity . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

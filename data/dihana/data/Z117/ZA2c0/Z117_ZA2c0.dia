@@ -1,0 +1,82 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , quería saber los horarios y los tipos de trenes para ir a Castellón .
+Hola , quería saber los horarios y los tipos de trenes para ir a Castellón . (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 1 - 16
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El viernes o el sábado .
+El viernes o el sábado . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: viernes o sábado .
+viernes o sábado . (U:Respuesta:Dia:Dia) pal: 1 - 4
+
+M4: Quiere horarios de trenes a castellón , ¿ desde zaragoza ? .
+Quiere horarios de trenes a castellón , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino castellón saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino castellón saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U5: Sí , el día de salida que sea el sábado .
+Sí , el día de salida que sea el sábado . (U:Pregunta:Hora_salida:Dia) pal: 1 - 11
+
+M7: Le consulto horarios de trenes con salida en zaragoza destino castellón saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino castellón saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M8: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U6: Sí , deseo viajar en preferente .
+Sí , deseo viajar en preferente . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 7
+
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U7: Deseo saber si hay plazas en preferente .
+Deseo saber si hay plazas en preferente . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 8
+
+M10: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M11: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U8: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+M12: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U9: Quiero viajar en preferente .
+Quiero viajar en preferente . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 5
+
+M13: Le consulto horarios de trenes con salida en zaragoza destino castellón saliendo el sábado , día 28 de febrero de 2004 en clase preferente . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino castellón saliendo el sábado , día 28 de febrero de 2004 en clase preferente . (M:Confirmacion:Hora_salida:Clase_billete,Destino,Dia,Origen) pal: 1 - 25
+Un momento por favor . (M:Espera:Nil:Nil) pal: 26 - 30
+
+M14: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U10: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

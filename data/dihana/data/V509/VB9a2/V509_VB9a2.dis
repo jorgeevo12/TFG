@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber el precio de un viaje de ida (p) de A_Coruña a Alicante .
+M2: ¿ Quiere viajar desde La_Coruña ?
+U2: Sí .
+M3: ¿ Quiere viajar a Alicante ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: El uno de agosto .
+M5: El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el domingo , día 1 de agosto de 2004 .
+U5: Sí .
+M6: Le consulto precios de La_Coruña a Alicante . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: La fecha (p) , (a a)l (p) tres de agosto .
+M8: Le consulto precios de La_Coruña a Alicante . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: El tipo de tren .
+M10: Le consulto precios de La_Coruña a Alicante . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí (p) , cualquier tren .
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: La fecha (p) viernes .
+M13: Le consulto precios de La_Coruña a Alicante saliendo el viernes , día 6 de agosto de 2004 . Un momento por favor .
+M14: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

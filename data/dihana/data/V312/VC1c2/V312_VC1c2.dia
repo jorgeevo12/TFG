@@ -1,0 +1,91 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Buenos días , querría obtener los horarios y el precio de un viaje de Valencia a Barcelona para el doce de septiembre .
+Buenos días , querría obtener los horarios y el precio de un viaje de Valencia (U:Pregunta:Hora_salida,Precio:Origen) pal: 1 - 15
+a Barcelona (U:Pregunta:Hora_salida,Precio:Destino) pal: 16 - 17
+para el doce de septiembre . (U:Pregunta:Hora_salida,Precio:Dia) pal: 18 - 23
+
+
+M2: ¿ Quiere viajar a barcelona ? .
+¿ Quiere viajar a barcelona ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+
+M3: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el domingo , día 12 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M4: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U3: Sí , a ver ¿ hay alguno que salga a partir de las ocho de la mañana ? .
+Sí , a ver ¿ hay alguno que salga a partir de las ocho de la mañana ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 19
+
+
+M5: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M6: Hay varios trenes . El primero sale a las 8 y 35 de la mañana y el último a las 8 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 8 y 35 de la mañana y el último a las 8 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U4: Sí , ¿ los horarios para volver de Barcelona ? .
+Sí , ¿ los horarios para volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 7
+de Barcelona ? . (U:Pregunta:Hora_salida:Origen) pal: 8 - 11
+
+
+M7: Le consulto horarios de trenes con salida en barcelona destino valencia saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino valencia saliendo el domingo , día 12 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M8: Hay varios trenes . El primero sale a las 8 de la mañana y llega a las 11 y 23 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 8 de la mañana y llega a las 11 y 23 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+U5: Sí , ¿ algún tren que salga a partir de las tres de la tarde ? .
+Sí , ¿ algún tren que salga a partir de las tres de la tarde ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 17
+
+
+M9: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M10: Hay varios trenes . El primero sale a las 4 de la tarde y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 4 de la tarde y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+
+U6: Sí , ¿ el precio del billete de ida y vuelta ? .
+Sí , ¿ el precio del billete de ida y vuelta ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+
+
+M11: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M12: Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el más barato es un trenhotel que cuesta 28 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el más barato es un trenhotel que cuesta 28 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

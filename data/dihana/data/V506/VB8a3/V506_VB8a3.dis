@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Buenas) , me gustaría saber el precio (p) de un tren (rr (m desde (lm Pontevedra Pontevere)) (c desde Pontevedra)) a Guadalajara .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Me gustaría saber el precio de los trenes que van desde Pontevedra hasta Guadalajara .
+M3: ¿ Qué día desea salir ?
+U3: Me gustaría salir entre el ocho y el once de noviembre .
+M4: ¿ Desea salir el lunes , día 8 de noviembre de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Pontevedra destino Guadalajara saliendo el lunes , día 8 de noviembre de 2004 . Un momento por favor .
+M6: Hay varios trenes con salida el lunes , día 8 de noviembre de 2004 . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: Sí , me gustaría que el tren fuese un Alaris .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Quisiera viajar en un tren Alaris .
+M8: Le consulto horarios de trenes con salida en Pontevedra destino Guadalajara saliendo el lunes , día 8 de noviembre de 2004 en Alaris . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí , me gustaría sabe(a r) (p) el tip(a o) de tren que esta disponible .
+M10: Le consulto tipos de tren . Un momento por favor .
+M11: Un momento por favor .
+M12: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U8: (nw) .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: (nw) Cuál es el precio del Tren_Hotel .
+M14: Le consulto precios . Un momento por favor .
+M15: Un momento por favor .
+M16: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc gracias) .
+M17: Gracias por utilizar este servicio . Feliz viaje .

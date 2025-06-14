@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola buenos días , me gustaría obtener horarios para un viaje de ida a Castellón en euromed .
+Hola buenos días , me gustaría obtener horarios para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 13
+a Castellón (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+en euromed . (U:Pregunta:Hora_salida:Tipo_tren) pal: 16 - 18
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Me gustaría salir mañana .
+Me gustaría salir mañana . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M3: Quiere horarios de trenes a castellón , ¿ desde zaragoza ? .
+Quiere horarios de trenes a castellón , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: ¡ No ! , desde Barcelona .
+¡ No ! , (U:Negacion:Origen:Nil) pal: 1 - 4
+desde Barcelona . (U:Respuesta:Hora_salida:Origen) pal: 5 - 7
+M4: Le consulto horarios de trenes con salida en barcelona destino castellón saliendo el viernes , día 27 de febrero de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino castellón saliendo el viernes , día 27 de febrero de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 8 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 8 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U4: Sí , me gustaría saber el precio para el viaje en primera .
+Sí , me gustaría saber el precio para el viaje en primera . (U:Pregunta:Precio:Clase_billete) pal: 1 - 13
+M6: Los trenes son euromed y en clase preferente , el billete cuesta 45 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son euromed y en clase preferente , el billete cuesta 45 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+U5: No , gracias eso era todo , hasta luego .
+No , gracias eso era todo , hasta luego . (U:Cierre:Nil:Nil) pal: 1 - 10
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera obtener horarios así como precios para un viaje de ida y vuelta desde Logroño hasta Zaragoza .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Zaragoza .
+M3: ¿ Qué día desea salir ?
+U3: El diecinueve de marzo .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nl) El diecinueve de marzo .
+M5: Le consulto horarios de trenes con salida en Logroño destino Zaragoza saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 2 de la madrugada y el último a las 10 y 10 de la noche ¿ Desea algo más ?
+U5: Quisiera (nw) que me dijese (p) cuáles de ellos llegan antes de las diez de la mañana .
+M7: Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 2 de la madrugada y llega a las 4 y 3 de la madrugada y el último sale a las 10 y 10 de la noche y llega a las 0 y 28 de la noche ¿ Desea algo más ?
+U6: Sí , que me dijese (fm) (fe) los trenes que llegan antes de las diez de la mañana , todos .
+M9: Perdón . No consigo entenderle .
+U7: ¿ Hay algún tren para ese día que llegue antes de las diez de la mañana ?
+M10: Ese tren sale a las 2 de la madrugada y llega a las 4 y 3 de la madrugada ¿ Desea algo más ?
+U8: (nw) ¿ Hay algún otro tren (p) (ri (m más) (c que salga más)) tarde que llegue antes de las diez de la mañana ?
+M11: Ese tren sale a las 7 y 20 de la mañana y llega a las 8 y 58 de la mañana ¿ Desea algo más ?
+U9: Quisiera que me dijese el precio del billete de ida y vuelta para el último tren que me ha (p) citado .
+M12: El precio de ese tren en clase turista es 14 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc muchas gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

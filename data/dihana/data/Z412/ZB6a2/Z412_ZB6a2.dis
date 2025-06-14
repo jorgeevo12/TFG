@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) . (do Buenas tardes) . (df Mire) . Querría hacer un viaje a Sevilla para una excursión gastronómica (na) que fuera o bien el tres , cuatro o cinco de agosto (p) ¿ (dq eh) ? (na) Y (fe) (ri (m entre la(a s)) (c saliendo entre las)) siete y las nueve de la mañana de aquí de Zaragoza ¿ Me podría decir qué tipos de trenes hay y horarios y precios , (dq por favor) ?
+M2: ¿ A qué ciudad desea viajar ?
+U2: Sí , a Sevilla , (dq por favor) .
+M3: ¿ Qué día desea salir ?
+U3: O bien el tres , el cuatro o el cinco de agosto .
+M4: Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ?
+U4: Sí , (dq por favor) , saliend(a o) de entre las siete y las nueve de la mañana .
+M5: Le consulto horarios de Zaragoza a Sevilla el martes , día 3 de agosto de 2004 entre las 7 y las 9 de la mañana . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (nl) (da Bueno) , (df entonces) (fe) dígame el horario del primer tren que salga ese mismo día .
+M7: Un momento por favor .
+M8: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana y llega a las 7 y 25 de la tarde ¿ Desea algo más ?
+U6: (nl) Sí , (dq por favor) ¿ qué quiere decir ? (fe) ¿ qué tipo de tren es el Triana ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (nl) Sí ¿ qué tipo de tren es el Triana ?
+M10: Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ?
+U8: (nl) Sí ¿ qué precio tiene el tren este ?
+M11: El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

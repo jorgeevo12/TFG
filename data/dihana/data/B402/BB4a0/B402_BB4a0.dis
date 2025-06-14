@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenos días) (p) , (na) quería saber el horario (p) y el precio (p) d(a e) u(a n) tren Sevilla Madrid .
+M2: ¿ Qué día desea salir ?
+U2: El veintinueve (p) de marzo .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nl) El (p) veintinueve de marzo (na) .
+M4: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el lunes , día 29 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U4: (na) Sí , quiero los horarios (p) a las siete de la mañana .
+M6: ¿ Puede repetir su consulta ?
+U5: (na) Sí , (p) quiero el horario hacia las siete de la mañana .
+M7: Le consulto horarios de Sevilla a Madrid el lunes , día 29 de marzo de 2004 entre las 6 y 30 y las 7 y 30 de la mañana . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 7 y 30 de la mañana ¿ Desea algo más ?
+U6: (na) Sí .
+M9: Si ¿ Desea algo más ?
+U7: (na) Sí .
+M10: Si ¿ Desea algo más ?
+U8: (na) Sí , (p) quiero saber (p) todos los trenes de las seis treinta hasta las siete treinta .
+M11: Le consulto horarios . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 7 y 30 de la mañana ¿ Desea algo más ?
+U9: (na) No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

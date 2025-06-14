@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , me gustaría que m(a e) dijeran un horario (na) para salir en tren desde Alicante a Barcelona (p) . (na) Tengo que estar a la una de la mañana el día nueve de diciembre (p) por tanto me gustaría llegar con un cierto tiempo y viajar en un tren que sea rápido .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: (nl) (do Hola buenas tardes) , (fm) querría salir de Alicante a Barcelona (p) el día nueve de diciembre y y llegar antes de la una de la mañana en un tren rápido .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , (dq por favor) (na) .
+M4: ¿ Qué día desea salir ?
+U4: (na) O bien el día nueve pronto por la mañana (p) o el día ocho por la tarde .
+M5: Le consulto horarios de Alicante a Barcelona el jueves , día 9 de diciembre de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 8 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 11 de la mañana y llega a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: Sí , (dq por favor) (p) ¿ me podría decir (p) para el día anterior día ocho (nw) por la tarde ?
+M7: Le consulto horarios de Alicante a Barcelona el miércoles , día 8 de diciembre de 2004 entre las 7 de la tarde y las 9 de la noche . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (na) Sí , (dq por favor) , entonces buscar los horario(a s) para el día ocho a cualquier hora del día (nw) .
+M9: Le consulto horarios de trenes con salida en Alicante destino Barcelona saliendo el miércoles , día 8 de diciembre de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y llega a las 11 y 33 de la mañana y el último sale a las 6 y 25 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U7: (nw) No , (dc gracias) (na) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

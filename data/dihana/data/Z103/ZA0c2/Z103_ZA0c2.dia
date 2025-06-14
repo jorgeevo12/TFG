@@ -1,0 +1,70 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U1: Quería , saber horario de trenes para Málaga para el veintiuno de agosto .
+Quería , saber horario de trenes para Málaga (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+para el veintiuno de agosto . (U:Pregunta:Hora_salida:Dia) pal: 9 - 14
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: A Málaga .
+A Málaga . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: El veintinueve de agosto .
+El veintinueve de agosto . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M5: ¿ Desea salir el jueves , día 4 de marzo de 2004 ? .
+¿ Desea salir el jueves , día 4 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U4: No .
+No . (U:Negacion:Dia:Nil) pal: 1 - 2
+
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U5: El treinta de agosto .
+El treinta de agosto . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M7: Quiere horarios de trenes a málaga , ¿ desde zaragoza ? .
+Quiere horarios de trenes a málaga , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U6: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M8: Le consulto horarios de trenes con salida en zaragoza destino málaga saliendo el lunes , día 30 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino málaga saliendo el lunes , día 30 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

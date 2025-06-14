@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) (na) , me gustaría saber el precio (p) de un billete (p) de Bilbao Barcelona (p) ida y vuelta .
+M2: ¿ Qué día desea salir ?
+U2: Me gustaría salir el dieciocho de marzo en el primer tren .
+M3: Le consulto precios de Bilbao a Barcelona saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Miguel_de_Unamuno y su precio en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: Sí (p) , entonces me gustaría saber el precio del billete de ida y vuelta .
+M5: El precio de ese tren en clase turista es 34 euros el billete de ida y 54 con 39 euros el billete de ida y vuelta ¿ Desea algo más ?
+U4: Sí (p) , me gustaría saber los horarios (p) para salir el dieciocho de marzo por la mañana (nw) y volver el veintiocho de marzo (p) por la tarde .
+M6: Le consulto horarios de Bilbao a Barcelona el jueves , día 18 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana ¿ Desea algo más ?
+U5: (na) Sí , me gustaría saber (p) l(a o)s horarios (rs (m para (lu el l)) (c para la)) vuelta (nw) el veintiocho de marzo .
+M8: Le consulto horarios de trenes con salida en Barcelona destino Bilbao saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a la una de la tarde ¿ Desea algo más ?
+U6: ¿ No hay ningún tren que salga más tarde ?
+M10: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a la una de la tarde ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

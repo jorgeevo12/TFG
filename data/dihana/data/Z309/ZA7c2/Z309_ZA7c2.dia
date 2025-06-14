@@ -1,0 +1,44 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría obtener un horario .
+Me gustaría obtener un horario . (U:Pregunta:Hora_salida:Nil) pal: 1 - 6
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Burgos .
+A Burgos . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: A Valladolid .
+A Valladolid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El día veintinueve .
+El día veintinueve . (U:Respuesta:Dia:Dia) pal: 1 - 4
+
+M5: Quiere horarios de trenes a valladolid , ¿ desde zaragoza ? .
+Quiere horarios de trenes a valladolid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U5: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 5
+
+M6: Le consulto horarios de trenes con salida en zaragoza destino valladolid saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino valladolid saliendo el jueves , día 29 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 5 y 10 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 5 y 10 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U6: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do Hola buenas tardes) . (p) Que es que no sé lo que tengo que dec(a i)r . (na) Ya .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (fe) Quiero ir a Barcelona el sábado doce de noviembre .
+M3: ¿ Desea salir el viernes , día 12 de noviembre de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el viernes , día 12 de noviembre de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U4: (nl) Sí (fe) quiero volver al día siguiente y saber el precio del billete .
+M6: ¿ Me pregunta por precios ?
+U5: Precios y horarios .
+M7: ¿ Desea salir el sábado , día 13 de noviembre de 2004 ?
+U6: No , quiero salir el viernes doce de noviembre y volver al día siguiente .
+M8: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el sábado , día 13 de noviembre de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche ¿ Desea algo más ?
+U7: Quiero saber el precio del billete (p) . Ida y vuelta .
+M10: Le consulto precios . Un momento por favor .
+M11: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Cuánto cuesta un billete ida y vuelta .
+M12: Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí (p) , quiero saber el precio del billete de ida y vuelta .
+M14: Le consulto precios . Un momento por favor .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Ese es el precio del billete de ida y vuelta ¿ Desea algo más ?
+U10: (fe) (rr (m (df Pues)) (c (df pues))) no , nada más (dc (lu hasta ta) luego) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

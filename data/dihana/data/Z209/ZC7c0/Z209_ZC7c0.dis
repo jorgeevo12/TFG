@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría (fe) (rr (m un (lu viaje viaj)) (s (fe)) (c un viaje)) de ida y vuelta (p) a (p) Cuenca el próximo fin de semana .
+M2: ¿ Quiere saber horarios ?
+U2: (fe) Sí , (dq por favor) .
+M3: ¿ Qué día desea salir ?
+U3: El próximo fin de semana .
+M4: Quiere horarios de trenes a Cuenca ¿ desde Zaragoza ?
+U4: Sí (p) , en un Intercity (dq por favor) .
+M5: ¿ Desea hacer el viaje en un Intercity ?
+U5: Sí , (dq por favor) .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Cuenca saliendo el sábado , día 21 de febrero de 2004 en Intercity . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U6: (na) Sí , me gustarí(a a) saber (fe) (p) el horario del viaje de vuelta (p) de Cuenca a Zaragoza .
+M8: ¿ Desea hacer el viaje en un Intercity ?
+U7: Sí , (dq por favor) .
+M9: Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el sábado , día 21 de febrero de 2004 en Intercity . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U8: Sí , me gustarí(a a) .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: Me gustaría (p) ir de Cuenca a Zaragoza el domingo .
+M12: Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el domingo , día 22 de febrero de 2004 en Intercity . Un momento por favor .
+M13: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U10: (na) Sí , me gustaría saber el precio (p) de ida y vuelta .
+M14: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: Nada más , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría salir de Madrid hacia Santander el día treinta de mayo , en Talgo si es posible .
+M2: ¿ Quiere saber horarios ?
+U2: S(a í) y el precio .
+M3: ¿ Quiere salir desde Santander ?
+U3: No , desde Madrid (p) hasta Santander (nw) .
+M4: ¿ Qué día desea salir ?
+U4: El treinta de mayo .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: El treinta de mayo .
+M6: Le consulto horarios de trenes con salida en Madrid destino Santander saliendo el domingo , día 30 de mayo de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: ¿ El treinta y uno de mayo ?
+M8: ¿ Desea salir el lunes , día 31 de mayo de 2004 ?
+U7: Sí , (dq por favor) .
+M9: Le consulto horarios de trenes con salida en Madrid destino Santander saliendo el lunes , día 31 de mayo de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: Sí ¿ qué precio tiene el billete ?
+M11: Le consulto precios de Madrid a Santander saliendo el lunes , día 31 de mayo de 2004 . Un momento por favor .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

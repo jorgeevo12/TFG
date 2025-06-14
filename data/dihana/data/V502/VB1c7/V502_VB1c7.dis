@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisier(a a) (fe) un viaje de ida par(a a) Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: (nl) El próximo martes .
+M3: ¿ Desea salir el martes , día 4 de mayo de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el martes , día 4 de mayo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U4: (na) Sí , (lm quería quiría) saber (a e)l precio .
+M6: Le consulto precios . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

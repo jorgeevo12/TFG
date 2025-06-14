@@ -1,0 +1,33 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , desearía saber precios de $C_ORIGEN<Valladolid> a $C_DESTINO<Vigo> .
+Hola , desearía saber precios de $C_ORIGEN<Valladolid> (U:Pregunta:Precio:Origen) pal: 1 - 7
+a $C_DESTINO<Vigo> . (U:Pregunta:Precio:Destino) pal: 8 - 10
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El $FECHA<uno de julio> .
+El $FECHA<uno de julio> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M3: ¿ Desea salir el $FECHA<jueves , día 1 de julio de 2004> ? .
+¿ Desea salir el $FECHA<jueves , día 1 de julio de 2004> ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: Sí , y con un tren $T_TREN<rápido> si es posible .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+y con un tren $T_TREN<rápido> si es posible . (U:Respuesta:Precio:Tipo_tren) pal: 3 - 11
+
+M4: Le consulto precios de $C_ORIGEN<valladolid> a $C_DESTINO<vigo> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<valladolid> a $C_DESTINO<vigo> . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M5: Con llegada el $FECHA<jueves , día 1 de julio de 2004> hay varios trenes . En clase $CLASE<turista> , el tren $T_TREN<más rápido> es un $T_TREN<intercity> que cuesta $PRECIO<40 con 50 euros> la ida y el $T_TREN<más lento> es un $T_TREN<trenhotel> que cuesta $PRECIO<40 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Con llegada el $FECHA<jueves , día 1 de julio de 2004> hay varios trenes . En clase $CLASE<turista> , el tren $T_TREN<más rápido> es un $T_TREN<intercity> que cuesta $PRECIO<40 con 50 euros> la ida y el $T_TREN<más lento> es un $T_TREN<trenhotel> que cuesta $PRECIO<40 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Dia,Numero_trenes,Precio,Tipo_tren) pal: 1 - 65
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 66 - 70
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

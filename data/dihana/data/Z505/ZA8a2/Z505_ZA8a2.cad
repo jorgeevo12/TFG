@@ -1,0 +1,61 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: . Hola quería los horarios y tipos de tren para ir a $C_DESTINO el próximo $FECHA .
+. Hola quería los horarios y tipos de tren para ir a $C_DESTINO (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 1 - 13
+el próximo $FECHA . (U:Pregunta:Hora_salida,Tipo_tren:Dia) pal: 14 - 19
+
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U2: Quería los horarios y el tipo de tren para ir a $C_DESTINO el próximo $FECHA .
+Quería los horarios y el tipo de tren para ir a $C_DESTINO (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 1 - 12
+el próximo $FECHA . (U:Pregunta:Hora_salida,Tipo_tren:Dia) pal: 13 - 18
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A $C_DESTINO .
+A $C_DESTINO . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: Quiere horarios de trenes a $C_DESTINO , ¿ desde $C_ORIGEN ? .
+Quiere horarios de trenes a $C_DESTINO , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U4: No , desde $C_ORIGEN .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde $C_ORIGEN . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+
+
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Sólo hay dos trenes . El $NRORDEN sale a las $HSAL y el otro a las $HORA . Desea algo más ? .
+Sólo hay dos trenes . El $NRORDEN sale a las $HSAL y el otro a las $HORA . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+
+U5: Sí , quiero el tipo de tren .
+Sí , quiero el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 8
+
+
+M7: Hay un único tipo de tren , que es un $T_TREN . Desea algo más ? .
+Hay un único tipo de tren , que es un $T_TREN . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 12
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 13 - 17
+
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , (fe) me gustaría obtener (fb) (rs (m el) (c un)) horario para un viaje de ida para ir a Santander (na) (a y) es para la fecha del uno de julio antes d(a e) las tres .
+M2: Quiere horarios de trenes a Barcelona ¿ desde Valencia ?
+U2: N(a o) , le he dicho es para ir desde Palencia a Santander .
+M3: ¿ Qué día desea salir ?
+U3: (nl) El uno de julio .
+M4: Le consulto horarios de Valencia a Santander el jueves , día 1 de julio de 2004 entre las 0 de la noche y las 3 de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U4: (df Pues) , es que el viaje el punto de salida es Palencia (p) . De Palencia a Santander .
+M6: Le consulto horarios de trenes con salida en Palencia destino Santander saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U5: (na) Sí , me gustaría saber a que hora llega e(a l) de las siete de la mañana .
+M8: Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U6: (nl) No , (dc gracias) eso es todo .
+M9: Gracias por utilizar este servicio . Feliz viaje .

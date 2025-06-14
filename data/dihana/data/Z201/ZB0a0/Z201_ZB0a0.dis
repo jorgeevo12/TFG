@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría saber los horarios (a y) consultar el precio (p) para un viaje de id(a a) a Cádiz el próximo fin de semana .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Cádiz .
+M3: Quiere horarios de trenes a Cádiz ¿ desde Zaragoza ?
+U3: (nw) Sí , para el próximo fin de semana y además dese(a o) consultar el precio .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Cádiz saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U4: (na) Sí , deseo saber el precio (p) d(a e) este tren que sal(a e) el veintiocho de febrero (nw) .
+M6: El precio de ese tren en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

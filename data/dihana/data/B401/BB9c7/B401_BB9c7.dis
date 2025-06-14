@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , querría obtener el precio d(a e) los trenes de Oviedo a Santander (p) que llegan el próximo lunes a Santander .
+M2: ¿ Quiere saber horarios ?
+U2: No , (dc no es necesario) .
+M3: ¿ Desea salir el viernes , día 19 de marzo de 2004 ?
+U3: (fb) N(a o) , quiero llegar .
+M4: ¿ Qué día desea llegar ?
+U4: (fm) (dq Perdón) , no le he entendido ¿ puede repetir ? (nw) .
+M5: ¿ Qué día desea llegar ?
+U5: Quiero llegar e(a l) lunes día veintidós (p) sobre las diez y media .
+M6: ¿ Quiere llegar entre las 10 y las 11 de la mañana ?
+U6: Sí , (dq por favor) .
+M7: ¿ Le consulto precios ?
+U7: (p) .
+M8: Quiere saber el precio a Santander ¿ desde Oviedo ?
+U8: Sí , (dq por favor) .
+M9: Le consulto precios . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: (nl) (fm) Sí , (fm) (nl) quiero ir desde Oviedo a Santander (na) (p) e(a l) (fm) .
+M11: ¿ Puede repetir su consulta ?
+U10: (nl) Sí , quiero ir de Oviedo a Santander (fm) (p) para llegar el próximo lune(a s) .
+M12: Le consulto precios de Oviedo a Santander llegando el lunes , día 22 de marzo de 2004 . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: A qué hora llega el Talgo .
+M14: Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U12: Nada más , (dc muchas gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

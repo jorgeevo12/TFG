@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Querría saber los horarios (p) par(a a) un viaje de ida saliendo desde Teruel (p) para Madrid (p) el jueves veintidós de mayo , (dq por favor) .
+M2: ¿ Desea salir el viernes , día 28 de mayo de 2004 ?
+U2: No , prefiero salir (a e)l jueves veintidós de mayo .
+M3: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U3: (fe) Sí , (p) (da eso es) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (da Bueno) , (fm) mejor prefier(a o) salida desde Teruel (p) y llegada a Madrid .
+M5: Le consulto horarios de trenes con salida en Teruel destino Madrid saliendo el sábado , día 22 de mayo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: (fe) Sí ¿ me podía dar el preci(a o) del primero ?
+M7: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (fe) (df Pues) sí , también desearía saber (p) el horario de los trenes de vuelta .
+M8: ¿ Desea salir el sábado , día 22 de mayo de 2004 ?
+U7: Sí , (da perfecto) .
+M9: Le consulto horarios de trenes con salida en Madrid destino Teruel saliendo el sábado , día 22 de mayo de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U8: (fe) Sí , deme (rs (m el horari(a o)) (s (dx uy)) (c el precio)) del de vuelta , (p) del último .
+M11: El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias eso es todo) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

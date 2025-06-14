@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:38"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z412"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T01u.ul">
+<t> <d tipo="abrir"> Hola </d> . <d tipo="abrir"> Buenas tardes </d> . <d tipo="rellenar"> Mire </d> . Querría hacer un viaje a Sevilla para una excursión gastronómica <n fuente="hablante" tipo="aspiración"/> que fuera o bien el tres , cuatro o cinco de agosto <p/> ¿ <d tipo="pedir"> eh </d> ? <n fuente="hablante" tipo="aspiración"/> Y <f tipo="e"/> <r tipo="inserción"> <m> entre la<a>s</a> </m> <c> saliendo entre las </c> </r> siete y las nueve de la mañana de aquí de Zaragoza ¿ Me podría decir qué tipos de trenes hay y horarios y precios , <d tipo="pedir"> por favor </d> ? </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T02u.ul">
+<t> Sí , a Sevilla , <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T03u.ul">
+<t> O bien el tres , el cuatro o el cinco de agosto . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T04u.ul">
+<t> Sí , <d tipo="pedir"> por favor </d> , saliend<a>o</a> de entre las siete y las nueve de la mañana . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Zaragoza a Sevilla el martes , día 3 de agosto de 2004 entre las 7 y las 9 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T05u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <d tipo="aceptar"> Bueno </d> , <d tipo="rellenar"> entonces </d> <f tipo="e"/> dígame el horario del primer tren que salga ese mismo día . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana y llega a las 7 y 25 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T06u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí , <d tipo="pedir"> por favor </d> ¿ qué quiere decir ? <f tipo="e"/> ¿ qué tipo de tren es el Triana ? </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T07u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí ¿ qué tipo de tren es el Triana ? </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T08u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí ¿ qué precio tiene el tren este ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="Z412_ZB6a2_T09u.ul">
+<t> No , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

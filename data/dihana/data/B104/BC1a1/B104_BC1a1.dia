@@ -1,0 +1,107 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Me gustaría ir a Gijón desde Bilbao el próximo día diez de enero .
+Me gustaría ir a Gijón (U:Pregunta:Nil:Destino) pal: 1 - 5
+desde Bilbao (U:Pregunta:Nil:Origen) pal: 6 - 7
+el próximo día diez de enero . (U:Pregunta:Nil:Dia) pal: 8 - 14
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U2: Quiero viajar a Gijón desde Bilbao el próximo diez de enero para volver desde Gijón a Bilbao al día siguiente , el día once de enero .
+Quiero viajar a Gijón (U:Pregunta:Nil:Destino) pal: 1 - 4
+desde Bilbao (U:Pregunta:Nil:Origen) pal: 5 - 6
+el próximo diez de enero (U:Pregunta:Nil:Dia) pal: 7 - 11
+para volver (U:Pregunta:Nil:Tipo_viaje) pal: 12 - 13
+desde Gijón (U:Pregunta:Nil:Origen) pal: 14 - 15
+a Bilbao (U:Pregunta:Nil:Destino) pal: 16 - 17
+al día siguiente , el día once de enero . (U:Pregunta:Nil:Dia) pal: 18 - 27
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U3: A Gijón .
+A Gijón . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: El día diez de enero .
+El día diez de enero . (U:Respuesta:Dia:Dia) pal: 1 - 6
+M5: Le consulto horarios de trenes con salida en bilbao destino gijón saliendo el sábado , día 10 de enero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino gijón saliendo el sábado , día 10 de enero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: Sí , me gustaría saber los trenes que hay alrededor de las once de la mañana .
+Sí , me gustaría saber los trenes que hay alrededor de las once de la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 17
+M7: Le consulto horarios de bilbao a gijón el sábado , día 10 de enero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+Le consulto horarios de bilbao a gijón el sábado , día 10 de enero de 2004 entre las 7 de la mañana y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U6: Sí , el viaje de vuelta de Gijón a Bilbao , me gustaría salir de Gijón alrededor de las cinco de la tarde .
+Sí , el viaje de vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 6
+de Gijón (U:Pregunta:Nil:Origen) pal: 7 - 8
+a Bilbao , (U:Pregunta:Nil:Destino) pal: 9 - 11
+me gustaría salir de Gijón (U:Pregunta:Nil:Origen) pal: 12 - 16
+alrededor de las cinco de la tarde . (U:Pregunta:Nil:Hora_salida) pal: 17 - 24
+M9: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U7: Sí , bueno , quiero saber horarios para el viaje de vuelta de Gijón a Bilbao el día once de enero .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+bueno , quiero saber horarios para el viaje de vuelta (U:Respuesta:Hora_salida:Tipo_viaje) pal: 3 - 12
+de Gijón (U:Respuesta:Hora_salida:Origen) pal: 13 - 14
+a Bilbao (U:Respuesta:Hora_salida:Destino) pal: 15 - 16
+el día once de enero . (U:Respuesta:Hora_salida:Dia) pal: 17 - 22
+M10: Le consulto horarios de trenes con salida en gijón destino bilbao saliendo el jueves , día 1 de enero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en gijón destino bilbao saliendo el jueves , día 1 de enero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U8: Sí , quería el viaje de vuelta de Gijón a Bilbao para el día once , once de enero de dos mil cuatro .
+Sí , quería el viaje de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 7
+de Gijón (U:Pregunta:Hora_salida:Origen) pal: 8 - 9
+a Bilbao (U:Pregunta:Hora_salida:Destino) pal: 10 - 11
+para el día once , once de enero de dos mil cuatro . (U:Pregunta:Hora_salida:Dia) pal: 12 - 24
+M12: Le consulto horarios de gijón a bilbao el domingo , día 11 de enero de 2004 entre las 4 y 5 y las 6 y 5 de la tarde . Un momento por favor .
+Le consulto horarios de gijón a bilbao el domingo , día 11 de enero de 2004 entre las 4 y 5 y las 6 y 5 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+M13: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U9: Sí , me gustaría saber si hay algún tren de Gijón a Bilbao para el viaje de vuelta ese domingo .
+Sí , me gustaría saber si hay algún tren de Gijón (U:Pregunta:Hora_salida:Origen) pal: 1 - 11
+a Bilbao (U:Pregunta:Hora_salida:Destino) pal: 12 - 13
+para el viaje de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 14 - 18
+ese domingo . (U:Pregunta:Hora_salida:Dia) pal: 19 - 21
+M14: Le consulto horarios de trenes con salida en gijón destino bilbao saliendo el domingo , día 11 de enero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en gijón destino bilbao saliendo el domingo , día 11 de enero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M15: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U10: Me gustaría saber el precio del billete de ida del tren que sale de Bilbao alrededor de las once cincuenta y cinco , creo que era .
+Me gustaría saber el precio del billete de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+del tren que sale de Bilbao (U:Pregunta:Precio:Origen) pal: 10 - 15
+alrededor de las once cincuenta y cinco , creo que era . (U:Pregunta:Precio:Hora_salida) pal: 16 - 27
+M16: Le consulto precios de bilbao a gijón saliendo el domingo , día 11 de enero de 2004 . Un momento por favor .
+Le consulto precios de bilbao a gijón saliendo el domingo , día 11 de enero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M17: El único tren que realiza el trayecto es un talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 40
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 41 - 45
+U11: Sí , precios de billete de ida y vuelta entre Bilbao y Gijón .
+Sí , precios de billete de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+entre Bilbao (U:Pregunta:Precio:Origen) pal: 10 - 11
+y Gijón . (U:Pregunta:Precio:Destino) pal: 12 - 14
+M18: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U12: me gustaría saber el precio del billete de ida y vuelta entre Bilbao y Gijón .
+me gustaría saber el precio del billete de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 11
+entre Bilbao (U:Pregunta:Precio:Origen) pal: 12 - 13
+y Gijón . (U:Pregunta:Precio:Destino) pal: 14 - 16
+M19: El único tren que realiza el trayecto es un talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 40
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 41 - 45
+U13: no , ya me buscaré la vida para volver , gracias .
+no , ya me buscaré la vida para volver , gracias . (U:Cierre:Nil:Nil) pal: 1 - 12
+M20: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

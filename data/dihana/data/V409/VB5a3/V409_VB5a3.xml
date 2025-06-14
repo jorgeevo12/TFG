@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:29"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="V409"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="V409_VB5a3_T01u.ul">
+<t> Me gustaría saber los horarios de trenes de Cambrils a Lleida Pirineos . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="V409_VB5a3_T02u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> Sí , me gustaría saber los horarios d<a>e</a> trenes de Tarragona a Barcelona . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Horarios para llegar a Barcelona ¿ saliendo de Tarragona ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="V409_VB5a3_T03u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí <n fuente="hablante" tipo="tos"/> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="V409_VB5a3_T04u.ul">
+<t> El diez de abril . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el sábado , día 10 de abril de 2004 ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="V409_VB5a3_T05u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Tarragona destino Barcelona saliendo el sábado , día 10 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 5 y 15 de la madrugada y el último a las 10 y 21 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="V409_VB5a3_T06u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Me gustaría saber <n fuente="hablante" tipo="tos"/> el horario y el precio de un tren que salga a partir de las cuatro , <r tipo="repetición"> <m> a las <l tipo="cortada" palabra="cuatro"> cua </l> </m> <c> a las cuatro </c> </r> . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="V409_VB5a3_T07u.ul">
+<t> Me gustaría saber horarios de trenes <p/> a partir de las cuatro de la tarde . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 4 y 56 de la tarde y llega a las 6 de la tarde y el último sale a las 10 y 21 de la noche y llega a las 11 y 38 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="V409_VB5a3_T08u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Me gustaría saber el precio del tren que sale a la<a>s</a> . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="V409_VB5a3_T09u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Me gustaría saber el precio del tren que sale a las cuatro y cincuenta cuatro . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 14 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="V409_VB5a3_T10u.ul">
+<t> <n fuente="hablante" tipo="labios"/> No , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

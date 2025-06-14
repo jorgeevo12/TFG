@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , tenía que realizar un exame(a n) y querí(a a) saber el horario de trenes desde San_Sebastián a Madrid .
+M2: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U2: No , desde San_Sebastián .
+M3: ¿ Qué día desea salir ?
+U3: El dí(a a) veinte de marzo , sábado .
+M4: Le consulto horarios de trenes con salida en San_Sebastián destino Madrid saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U4: Sí , querría saber el preci(a o) del (lm primer primén) tren de la mañana .
+M6: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

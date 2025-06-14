@@ -1,0 +1,96 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería saber el horario y precio de un viaje de ida y un viaje de vuelta .
+Quería saber el horario y precio de un viaje de ida y un viaje de vuelta . (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 17
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: A Madrid , antes de las diez y media .
+A Madrid , (U:Respuesta:Destino:Destino) pal: 1 - 3
+antes de las diez y media . (U:Respuesta:Hora_salida:Hora_salida) pal: 4 - 10
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: El lunes antes de las diez y media de la noche .
+El lunes (U:Respuesta:Dia:Dia) pal: 1 - 2
+antes de las diez y media de la noche . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 12
+M5: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+Lo siento , no le he entendido . Por favor , hable claro y despacio . (M:No_entendido:Nil:Nil) pal: 1 - 16
+U5: El lunes , antes de las diez y media de la noche .
+El lunes , (U:Respuesta:Dia:Dia) pal: 1 - 3
+antes de las diez y media de la noche . (U:Respuesta:Hora_salida:Hora_salida) pal: 4 - 13
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U6: El jueves , no .
+El jueves , no . (U:Negacion:Dia:Dia) pal: 1 - 5
+M7: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+U7: El lunes .
+El lunes . (U:Respuesta:Dia:Dia) pal: 1 - 3
+M8: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el lunes , día 23 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M9: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y llega a las 10 y 17 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 45 de la mañana y llega a las 10 y 17 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+U8: Sí , saber el precio .
+Sí , saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 6
+M10: Le consulto precios de valencia a madrid . Un momento por favor .
+Le consulto precios de valencia a madrid . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+M11: Hay varios trenes . En clase turista , el tren más caro es un alaris que cuesta 36 con 50 euros la ida y el más barato es un regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un alaris que cuesta 36 con 50 euros la ida y el más barato es un regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U9: Sí , el horario de un tren que vuelva .
+Sí , el horario de un tren que vuelva . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 10
+M12: ¿ Desea salir el lunes , día 23 de febrero de 2004 ? .
+¿ Desea salir el lunes , día 23 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U10: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M13: ¿ Desea salir el lunes , día 23 de febrero de 2004 ? .
+¿ Desea salir el lunes , día 23 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U11: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 2 - 2
+M14: Le consulto horarios de trenes con salida en madrid destino valencia saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino valencia saliendo el lunes , día 23 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M15: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 10 y 30 de la mañana y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 10 y 30 de la mañana y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+U12: Sí , uno que vuelva el jueves después de las dos de la tarde .
+Sí , uno que vuelva (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 5
+el jueves (U:Pregunta:Hora_salida:Dia) pal: 6 - 7
+después de las dos de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 8 - 15
+M16: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+Lo siento , no le he entendido . Por favor , hable claro y despacio . (M:No_entendido:Nil:Nil) pal: 1 - 16
+U13: Que vuelva el jueves después de las dos de la tarde .
+Que vuelva (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 2
+el jueves (U:Pregunta:Hora_salida:Dia) pal: 3 - 4
+después de las dos de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 5 - 12
+M17: ¿ Desea salir el jueves , día 26 de febrero de 2004 ? .
+¿ Desea salir el jueves , día 26 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U14: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 2 - 2
+M18: Le consulto horarios de trenes con salida en madrid destino valencia saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino valencia saliendo el jueves , día 26 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M19: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M20: Hay varios trenes . El primero sale a las 2 de la tarde y llega a las 5 y 27 de la tarde y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 de la tarde y llega a las 5 y 27 de la tarde y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+U15: Sí , saber los precios .
+Sí , saber los precios . (U:Pregunta:Precio:Nil) pal: 1 - 6
+M21: Le consulto precios de madrid a valencia . Un momento por favor .
+Le consulto precios de madrid a valencia . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+M22: Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+U16: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M23: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

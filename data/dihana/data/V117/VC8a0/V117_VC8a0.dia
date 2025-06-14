@@ -1,0 +1,82 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenos días , quería información sobre trenes que sean rápidos de Valencia a Alicante .
+Buenos días , quería información sobre trenes que sean rápidos (U:Pregunta:Nil:Tipo_tren) pal: 1 - 10
+de Valencia (U:Pregunta:Nil:Origen) pal: 11 - 12
+a Alicante . (U:Pregunta:Nil:Destino) pal: 13 - 15
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: No , quiero saber precios en Semana_Santa , el ocho o el nueve de abril y quiero volver el lunes siguiente .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+quiero saber precios en Semana_Santa , el ocho o el nueve de abril (U:Pregunta:Precio:Dia) pal: 3 - 15
+y quiero volver (U:Pregunta:Precio:Tipo_viaje) pal: 16 - 18
+el lunes siguiente . (U:Pregunta:Precio:Dia) pal: 19 - 22
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: Veamos , quiero precios para el ocho o el nueve de abril y volver el lunes siguiente .
+Veamos , quiero precios para el ocho o el nueve de abril (U:Pregunta:Precio:Dia) pal: 1 - 12
+y volver (U:Pregunta:Precio:Tipo_viaje) pal: 13 - 14
+el lunes siguiente . (U:Pregunta:Precio:Dia) pal: 15 - 18
+
+M4: Precios desde valencia , ¿ llegando a alicante ? .
+Precios desde valencia , (M:Confirmacion:Precio:Origen) pal: 1 - 4
+¿ llegando a alicante ? . (M:Confirmacion:Destino:Destino) pal: 5 - 10
+
+U4: Exacto .
+Exacto . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M5: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M6: Hay varios trenes . En turista , el tren más rápido es un euromed que cuesta 22 con 50 euros la ida y el más lento es un regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En turista , el tren más rápido es un euromed que cuesta 22 con 50 euros la ida y el más lento es un regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 53
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 54 - 58
+
+U5: Sí , lo que le había dicho de la vuelta , en euromed por favor .
+Sí , lo que le había dicho de la vuelta , (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 11
+en euromed por favor . (U:Pregunta:Nil:Tipo_tren) pal: 12 - 16
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U6: Sí , que quiero volver en euromed el lunes siguiente .
+Sí , que quiero volver (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 5
+en euromed (U:Pregunta:Nil:Tipo_tren) pal: 6 - 7
+el lunes siguiente . (U:Pregunta:Nil:Dia) pal: 8 - 11
+
+M8: Le consulto precios de alicante a valencia saliendo el lunes , día 12 de abril de 2004 . Un momento por favor .
+Le consulto precios de alicante a valencia saliendo el lunes , día 12 de abril de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M9: Hay un único tipo de tren , que es euromed . En turista , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay un único tipo de tren , que es euromed . En turista , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U7: Pues sí , reconfirmar el precio de ida .
+Pues sí , reconfirmar el precio de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+M10: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U8: Sí , quería confirmar el precio de ida .
+Sí , quería confirmar el precio de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+M11: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M12: El tren más rápido es un euromed y su precio en turista es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El tren más rápido es un euromed y su precio en turista es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 39
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 40 - 44
+
+U9: No , muchas gracias eso es todo .
+No , muchas gracias eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

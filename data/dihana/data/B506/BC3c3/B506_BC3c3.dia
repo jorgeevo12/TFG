@@ -1,0 +1,91 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Deseo un viaje de ida y vuelta a Cuenca .
+Deseo un viaje de ida y vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+a Cuenca . (U:Pregunta:Nil:Destino) pal: 8 - 10
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: Sí , deseo salir el viernes a partir de las cuatro de la tarde o el sábado para llegar antes de las quince horas del sábado .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+deseo salir el viernes (U:Pregunta:Hora_salida:Dia) pal: 3 - 6
+a partir de las cuatro de la tarde (U:Pregunta:Hora_salida:Hora_salida) pal: 7 - 14
+o el sábado (U:Pregunta:Hora_salida:Dia) pal: 15 - 17
+para llegar antes de las quince horas (U:Pregunta:Hora_salida:Hora_llegada) pal: 18 - 24
+del sábado . (U:Pregunta:Hora_salida:Dia) pal: 25 - 27
+
+
+M3: ¿ Quiere llegar entre las 0 de la noche y las 3 de la tarde ? .
+¿ Quiere llegar entre las 0 de la noche y las 3 de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 17
+
+
+U3: Sí , quiero llegar entre las cero horas y las tres de la tarde del próximo sábado .
+Sí , (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+quiero llegar entre las cero horas y las tres de la tarde (U:Respuesta:Hora_salida:Hora_llegada) pal: 3 - 14
+del próximo sábado . (U:Respuesta:Hora_salida:Dia) pal: 15 - 18
+
+
+M4: Le consulto horarios de bilbao a cuenca llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 3 de la tarde . Un momento por favor .
+Le consulto horarios de bilbao a cuenca llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 3 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+
+M5: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+
+U4: Sí , me gustaría viajar en un intercity si es posible y me gustaría saber el precio .
+Sí , me gustaría viajar en un intercity si es posible y me gustaría saber el precio . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 18
+
+
+M6: Le consulto horarios de bilbao a cuenca llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 3 de la tarde en intercity . Un momento por favor .
+Le consulto horarios de bilbao a cuenca llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 3 de la tarde en intercity . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen,Tipo_tren) pal: 1 - 32
+Un momento por favor . (M:Espera:Nil:Nil) pal: 33 - 37
+
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U5: Sí , no me importa que sea en intercity quería el precio del billete de ida y vuelta .
+Sí , no me importa que sea en intercity (U:Pregunta:Precio:Tipo_tren) pal: 1 - 9
+quería el precio del billete de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 10 - 19
+
+
+M8: Le consulto precios de bilbao a cuenca saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+Le consulto precios de bilbao a cuenca saliendo el viernes , día 2 de abril de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M9: Sólo hay dos trenes . En clase turista , el tren más caro es un trenhotel que cuesta 40 con 50 euros la ida y el otro es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase turista , el tren más caro es un trenhotel que cuesta 40 con 50 euros la ida y el otro es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U6: Sí quería saber el precio completo del billete de ida y vuelta .
+Sí quería saber el precio completo del billete de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+
+
+M10: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M11: Sólo hay dos trenes . En clase turista , el tren más caro es un trenhotel que cuesta 40 con 50 euros la ida y el otro es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase turista , el tren más caro es un trenhotel que cuesta 40 con 50 euros la ida y el otro es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , me gustaría obtener un horario para viajar a Logroño , el doce de abril .
+M2: ¿ Quiere llegar a Orense ?
+U2: (fe) No querría llegar a Logroño .
+M3: ¿ Qué día desea salir ?
+U3: El doce de abril .
+M4: Quiere horarios de trenes a Logroño ¿ desde Zaragoza ?
+U4: (na) (fe) Sí , (rr (m si (lu podría po)) (c si podría)) ser de doce a dos .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (fe) Querría horarios a Logroño , el doce de abril (fe) , de doce a dos de la mañana .
+M6: Le consulto horarios de Zaragoza a Logroño el martes , día 12 de abril de 2005 entre las 12 de la mañana y las 2 de la tarde . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (nl) (fe) No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

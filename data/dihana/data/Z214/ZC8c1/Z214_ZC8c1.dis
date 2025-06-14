@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero viajar de León a Vigo (p) el viernes que viene .
+M2: ¿ Quiere saber horarios ?
+U2: No .
+M3: ¿ Quiere saber horarios ?
+U3: No (p) , quiero saber .
+M4: ¿ Quiere saber horarios ?
+U4: No , quiero saber el precio .
+M5: ¿ A qué ciudad desea viajar ?
+U5: A Vigo .
+M6: ¿ Qué día desea salir ?
+U6: El viernes .
+M7: Le consulto precios de León a Vigo saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un covadonga que cuesta 25 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Quier(a o) saber el viaje de vuelta .
+M9: ¿ Quiere saber horarios ?
+U8: Sí (p) , el lunes .
+M10: Le consulto horarios de trenes con salida en Vigo destino León saliendo el lunes , día 22 de marzo de 2004 . Un momento por favor .
+M11: Sólo hay dos trenes . El primero sale a las 6 y 40 de la mañana y el otro a las 9 y 10 de la mañana ¿ Desea algo más ?
+U9: Quiero saber el precio .
+M12: Sólo hay dos trenes . En clase turista , el tren más caro es un Diurno que cuesta 24 euros la ida y el otro es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

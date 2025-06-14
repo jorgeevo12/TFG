@@ -1,0 +1,55 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , quería saber el horario y precio de $TVIAJE<ida> de $C_ORIGEN<Albacete> a $C_DESTINO<Alicante> el $FECHA<domingo> .
+Hola , quería saber el horario y precio de $TVIAJE<ida> (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 10
+de $C_ORIGEN<Albacete> (U:Pregunta:Hora_salida,Precio:Origen) pal: 11 - 12
+a $C_DESTINO<Alicante> (U:Pregunta:Hora_salida,Precio:Destino) pal: 13 - 14
+el $FECHA<domingo> . (U:Pregunta:Hora_salida,Precio:Dia) pal: 15 - 17
+
+
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN<albacete> destino $C_DESTINO<alicante> saliendo el $FECHA<domingo , día 28 de marzo de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<albacete> destino $C_DESTINO<alicante> saliendo el $FECHA<domingo , día 28 de marzo de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M3: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<11 y 23 de la mañana> y el $NRORDEN<último> a las $HORA<10 y 2 de la noche> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<11 y 23 de la mañana> y el $NRORDEN<último> a las $HORA<10 y 2 de la noche> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U2: Sí , quiero llegar antes de las $HORA<cinco de la tarde> .
+Sí , quiero llegar antes de las $HORA<cinco de la tarde> . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 12
+
+
+M4: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M5: Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<12 y 50 de la mañana> y el $NRORDEN<último> a las $HORA<3 y 55 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<12 y 50 de la mañana> y el $NRORDEN<último> a las $HORA<3 y 55 de la tarde> . (M:Respuesta:Hora_llegada:Hora_llegada,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U3: Sí , quiero saber el precio .
+Sí , quiero saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+
+M6: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M7: Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<altaria> que cuesta $PRECIO<19 con 50 euros> la ida y el $PRECIO<más barato> es un $T_TREN<costa_de_la_mañana> que cuesta $PRECIO<9 con 25 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<altaria> que cuesta $PRECIO<19 con 50 euros> la ida y el $PRECIO<más barato> es un $T_TREN<costa_de_la_mañana> que cuesta $PRECIO<9 con 25 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

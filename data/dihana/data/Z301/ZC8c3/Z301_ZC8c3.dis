@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Desearía obtener el precio de viaje en tren par(a a) un viaje de ida y vuelta .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Deseo viajar a Santander .
+M3: ¿ Qué día desea salir ?
+U3: Deseo salir hoy (p) y volver pasado mañana .
+M4: Quiere saber el precio a Santander ¿ desde Zaragoza ?
+U4: No , desde (lm Madrid madrit) .
+M5: Le consulto precios de Madrid a Santander saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , deseo saber el precio del viaje de ida y vuelta (p) saliendo el dieciséis de marzo de (lm Madrid Madrit) y volviendo el dieciocho de marzo .
+M7: ¿ Quiere saber horarios ?
+U6: No (p) , deseo saber el precio .
+M8: Le consulto precios de Santander a Madrid saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , deseo saber (a e)l precio del viaje (a e)n primera .
+M10: Un momento por favor .
+M11: Hay varios trenes . En clase preferente , el tren más caro es un Talgo que cuesta 58 euros la ida y el más barato es un Diurno que cuesta 43 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , no deseo nada más .
+M12: Gracias por utilizar este servicio . Feliz viaje .

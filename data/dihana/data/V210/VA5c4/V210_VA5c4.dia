@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero saber horarios de trenes de Murcia a Albacete .
+Quiero saber horarios de trenes de Murcia (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+a Albacete . (U:Pregunta:Hora_salida:Destino) pal: 8 - 10
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U2: Quiero saber horarios de trenes de Murcia a Albacete .
+Quiero saber horarios de trenes de Murcia (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+a Albacete . (U:Pregunta:Hora_salida:Destino) pal: 8 - 10
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: Sí , salir el sábado por la tarde o el domingo a primera hora .
+Sí , salir el sábado (U:Respuesta:Dia:Dia) pal: 1 - 5
+por la tarde (U:Respuesta:Hora_salida:Hora_salida) pal: 6 - 8
+o el domingo (U:Respuesta:Dia:Dia) pal: 9 - 11
+a primera hora . (U:Respuesta:Hora_salida:Hora_salida) pal: 12 - 15
+M4: Le consulto horarios de murcia a albacete el sábado , día 14 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de murcia a albacete el sábado , día 14 de febrero de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M5: El único tren que realiza el trayecto es un talgo que sale a las 4 y 49 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 4 y 49 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U4: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

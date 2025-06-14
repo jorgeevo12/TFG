@@ -1,0 +1,86 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quiero saber el horario de un tren para San_Sebastián el seis de mayo .
+Quiero saber el horario de un tren para San_Sebastián (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+el seis de mayo . (U:Pregunta:Hora_salida:Dia) pal: 10 - 14
+
+
+
+M2: Horarios para llegar a san_sebastián , ¿ saliendo el jueves , día 6 de mayo de 2004 ? .
+Horarios para llegar a san_sebastián , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ saliendo el jueves , día 6 de mayo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 7 - 19
+
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+M3: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+
+U3: Sí , saber los horarios de vuelta para el diez de mayo , perdón .
+Sí , saber los horarios de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 7
+para el diez de mayo , perdón . (U:Pregunta:Hora_salida:Dia) pal: 8 - 15
+
+
+
+M5: ¿ Desea salir el lunes , día 10 de mayo de 2004 ? .
+¿ Desea salir el lunes , día 10 de mayo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+M6: Le consulto horarios de trenes con salida en san_sebastián destino valencia saliendo el lunes , día 10 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en san_sebastián destino valencia saliendo el lunes , día 10 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+
+U5: Quiero saber los precios .
+Quiero saber los precios . (U:Pregunta:Precio:Nil) pal: 1 - 5
+
+
+
+M8: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M9: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+
+U6: No , ya está , gracias .
+No , ya está , gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

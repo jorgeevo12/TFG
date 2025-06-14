@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:29"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="V410"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="V410_VA9c2_T01u.ul">
+<t> <d tipo="abrir"> Buenos días </d> , <f tipo="m"/> me gustaría obtener horario de trenes <n fuente="hablante" tipo="aspiración"/> <f tipo="m"/> <d tipo="rellenar"> verá </d> , es que tengo que viajar el próximo martes y tengo una reunión a las doce , <p/> a ver si me puede ayudar . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="V410_VA9c2_T02u.ul">
+<t> Necesito saber el horario de trenes <p/> par<a>a</a> ir desde Madrid a Sevilla . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="V410_VA9c2_T03u.ul">
+<t> El próximo martes . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Madrid destino Sevilla saliendo el martes , día 6 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 30 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="V410_VA9c2_T04u.ul">
+<t> Sí , dígame <d tipo="pedir"> por favor </d> , <n fuente="hablante" tipo="aspiración"/> <p/> si hay algún tren que salga a las diez de la mañana . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="V410_VA9c2_T05u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> ¿ Hay algún tren que salga a las diez de la mañana ? </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Madrid a Sevilla el martes , día 6 de abril de 2004 entre las 9 y las 11 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 9 de la mañana y llega a las 11 y 35 de la mañana y el último sale a las 11 de la mañana y llega a la una y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="V410_VA9c2_T06u.ul">
+<t> Quiero un tren a las diez de la mañana o alrededor de las diez de la mañana . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> El segundo tren es un Ave que sale a las 10 de la mañana y llega a las 12 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="V410_VA9c2_T07u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Deseo un tren que salga antes de las diez de la mañana , <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 5 de la madrugada y las 10 de la mañana ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="V410_VA9c2_T08u.ul">
+<t> No , dígame si hay un tren a las nueve y media de la mañana . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Madrid destino Sevilla saliendo el martes , día 6 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 8 y 30 de la mañana y llega a las 11 de la mañana y el último sale a las 10 y 5 de la mañana y llega a la una y 18 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="V410_VA9c2_T09u.ul">
+<t> Sí , quiero <p/> saber si hay un tren a las nueve de la mañana . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> El segundo tren es un Ave que sale a las 9 de la mañana y llega a las 11 y 35 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="V410_VA9c2_T10u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> , <d tipo="cerrar"> buenos días </d> . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

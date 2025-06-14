@@ -1,0 +1,213 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+
+U1: Quiero un tren de origen Madrid destino Alicante .
+Quiero un tren de origen Madrid (U:Pregunta:Nil:Origen) pal: 1 - 6
+destino Alicante . (U:Pregunta:Nil:Destino) pal: 7 - 9
+
+
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+
+
+U2: Sí , para aproximadamente alrededor del uno de agosto .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+para aproximadamente alrededor del uno de agosto . (U:Respuesta:Hora_salida:Dia) pal: 3 - 10
+
+
+
+
+
+M3: ¿ Quiere viajar a madrid ? .
+¿ Quiere viajar a madrid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+
+
+
+U3: No , a Alicante .
+No , (U:Negacion:Destino:Nil) pal: 1 - 2
+a Alicante . (U:Respuesta:Hora_salida:Destino) pal: 3 - 5
+
+
+
+
+
+M4: Quiere horarios de trenes a alicante , ¿ desde zaragoza ? .
+Quiere horarios de trenes a alicante , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+
+
+U4: No , desde Madrid .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Madrid . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+
+
+
+
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+U5: Madrid .
+Madrid . (U:Respuesta:Hora_salida:Origen) pal: 1 - 2
+
+
+
+
+
+M6: Le consulto horarios de trenes con salida en madrid destino alicante saliendo el lunes , día 9 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino alicante saliendo el lunes , día 9 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 10 de la mañana y el último a las 7 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 10 de la mañana y el último a las 7 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+
+U6: El horario del tren Madrid a Alicante pero el uno de agosto .
+El horario del tren Madrid (U:Pregunta:Hora_salida:Origen) pal: 1 - 5
+a Alicante (U:Pregunta:Hora_salida:Destino) pal: 6 - 7
+pero el uno de agosto . (U:Pregunta:Hora_salida:Dia) pal: 8 - 13
+
+
+
+
+
+M8: Le consulto horarios de trenes con salida en madrid destino alicante saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino alicante saliendo el domingo , día 1 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+M9: Hay varios trenes . El primero sale a las 9 y 5 de la mañana y el último a las 7 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 9 y 5 de la mañana y el último a las 7 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+
+U7: ¿ Qué tipo de tren es el de las siete y cuarto ? .
+¿ Qué tipo de tren es el de las siete y cuarto ? . (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 14
+
+
+
+
+
+M10: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+U8: Tipo de tren del primer tren .
+Tipo de tren del primer tren . (U:Pregunta:Tipo_tren:Numero_relativo_orden) pal: 1 - 7
+
+
+
+
+
+M11: Ese tren es un altaria . Desea algo más ? .
+Ese tren es un altaria . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+
+
+
+
+U9: ¿ Qué precio tiene la clase económica ? .
+¿ Qué precio tiene la clase económica ? . (U:Pregunta:Precio:Precio) pal: 1 - 9
+
+
+
+
+
+M12: Los trenes son altaria y en clase turista , el billete cuesta 35 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son altaria y en clase turista , el billete cuesta 35 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+
+
+
+U10: ¿ Qué tipo de tren es el segundo ? .
+¿ Qué tipo de tren es el segundo ? . (U:Pregunta:Tipo_tren:Numero_relativo_orden) pal: 1 - 10
+
+
+
+
+
+M13: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+U11: Tipo de tren del segundo tren .
+Tipo de tren del segundo tren . (U:Pregunta:Tipo_tren:Numero_relativo_orden) pal: 1 - 7
+
+
+
+
+
+M14: Ese tren es un altaria . Desea algo más ? .
+Ese tren es un altaria . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+
+
+
+
+U12: ¿ Hay otro tipo de trenes ? .
+¿ Hay otro tipo de trenes ? . (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 8
+
+
+
+
+
+M15: Hay un único tipo de tren , que es un altaria . Desea algo más ? .
+Hay un único tipo de tren , que es un altaria . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 12
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 13 - 17
+
+
+
+
+
+U13: Entonces no , gracias .
+Entonces no , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+
+
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,240 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Deseo obtener el horario y el precio para un tren de ida y vuelta saliendo desde Valencia el próximo martes y volviendo a Tarragona ese mismo martes , a ser posible que el tren sea .
+Deseo obtener el horario y el precio para un tren de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 14
+saliendo desde Valencia (U:Pregunta:Hora_salida,Precio:Origen) pal: 15 - 17
+el próximo martes (U:Pregunta:Hora_salida,Precio:Dia) pal: 18 - 20
+y volviendo (U:Pregunta:Nil:Tipo_viaje) pal: 21 - 22
+a Tarragona (U:Pregunta:Nil:Destino) pal: 23 - 24
+ese mismo martes , a ser posible que el tren sea . (U:Pregunta:Nil:Dia) pal: 25 - 36
+
+
+
+
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . (M:No_entendido:Nil:Nil) pal: 1 - 17
+
+
+
+
+U2: Deseo obtener el horario de un tren que salga el martes que viene desde Valencia y deseo también el viaje de vuelta .
+Deseo obtener el horario de un tren que salga el martes que viene (U:Pregunta:Hora_salida:Dia) pal: 1 - 13
+desde Valencia (U:Pregunta:Hora_salida:Origen) pal: 14 - 15
+y deseo también el viaje de vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 16 - 23
+
+
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+
+U3: A Valencia .
+A Valencia . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+
+
+M4: ¿ Quiere viajar desde valencia ? .
+¿ Quiere viajar desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+
+
+U4: No , desde Tarragona .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Tarragona . (U:Respuesta:Origen:Origen) pal: 3 - 5
+
+
+
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U5: ¿ Puedo volver al menú principal ? .
+¿ Puedo volver al menú principal ? . (U:Indefinida:Nil:Nil) pal: 1 - 8
+
+
+
+
+M6: Este servicio no está preparado para este tipo de consultas . Desea realizar otra consulta ? .
+Este servicio no está preparado para este tipo de consultas . (M:Indefinida:Nil:Nil) pal: 1 - 11
+Desea realizar otra consulta ? . (M:Nueva_consulta:Nil:Nil) pal: 12 - 17
+
+
+
+
+U6: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+
+
+M7: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U7: El martes que viene .
+El martes que viene . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+
+
+M8: Le consulto horarios de trenes con salida en tarragona destino valencia saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en tarragona destino valencia saliendo el martes , día 2 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M9: Hay varios trenes . El primero sale a las 7 y 48 de la mañana y el último a las 9 y 49 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 48 de la mañana y el último a las 9 y 49 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U8: Sí , deseo realizar otra consulta .
+Sí , deseo realizar otra consulta . (U:Indefinida:Nil:Nil) pal: 1 - 7
+
+
+
+
+M10: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U9: Sí , deseo obtener el horario de un tren saliendo desde Valencia con llegada en Tarragona .
+Sí , deseo obtener el horario de un tren saliendo desde Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 12
+con llegada en Tarragona . (U:Pregunta:Hora_salida:Destino) pal: 13 - 17
+
+
+
+
+M11: Le consulto horarios de trenes con salida en valencia destino tarragona saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino tarragona saliendo el martes , día 2 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M12: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U10: Sí , deseo saber cuál es el tren más barato y qué precio tiene .
+Sí , deseo saber cuál es el tren más barato y qué precio tiene . (U:Pregunta:Precio:Precio) pal: 1 - 15
+
+
+
+
+M13: Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 28 con 50 euros la ida y el más barato es un regional_expres que cuesta 14 con 40 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 28 con 50 euros la ida y el más barato es un regional_expres que cuesta 14 con 40 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+
+
+U11: Sí , deseo obtener un billete de ida y vuelta para el martes que viene .
+Sí , deseo obtener un billete de ida y vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 10
+para el martes que viene . (U:Pregunta:Nil:Dia) pal: 11 - 16
+
+
+
+
+M14: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U12: Deseo un billete de ida y vuelta .
+Deseo un billete de ida y vuelta . (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 8
+
+
+
+
+M15: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+
+U13: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+
+M16: Le consulto horarios de trenes con salida en tarragona destino valencia saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en tarragona destino valencia saliendo el martes , día 2 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M17: Hay varios trenes . El primero sale a las 7 y 48 de la mañana y el último a las 9 y 49 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 48 de la mañana y el último a las 9 y 49 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U14: Sí , deseo saber cuál es el tren más barato .
+Sí , deseo saber cuál es el tren más barato . (U:Pregunta:Hora_salida:Precio) pal: 1 - 11
+
+
+
+
+M18: Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 28 con 50 euros la ida y el más barato es un regional_expres que cuesta 13 con 34 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 28 con 50 euros la ida y el más barato es un regional_expres que cuesta 13 con 34 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+
+
+U15: Sí , ¿ puede repetirme los horarios de trenes con salida en Valencia , llegada en Tarragona ? .
+Sí , ¿ puede repetirme los horarios de trenes con salida en Valencia , (U:Pregunta:Hora_salida:Origen) pal: 1 - 14
+llegada en Tarragona ? . (U:Pregunta:Hora_salida:Destino) pal: 15 - 19
+
+
+
+
+M19: Le consulto horarios de trenes con salida en valencia destino tarragona saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino tarragona saliendo el martes , día 2 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M20: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U16: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+
+M21: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

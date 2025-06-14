@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero viajar a Huesca .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quiero viajar (p) a Huesca .
+M3: ¿ Quiere saber horarios ?
+U3: Sí (p) , por la tarde .
+M4: ¿ Qué día desea salir ?
+U4: El veintisiete de julio .
+M5: Quiere horarios de trenes a Huesca ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de Zaragoza a Huesca el martes , día 27 de julio de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 17 de la tarde y el último a las 6 y 25 de la tarde ¿ Desea algo más ?
+U6: Quiero saber el tipo de tren .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Quiero saber los tipos de tren .
+M9: Hay un único tipo de tren , que es un Regional ¿ Desea algo más ?
+U8: Quiero saber el precio .
+M10: El precio de ese tren en clase turista es 4 con 25 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

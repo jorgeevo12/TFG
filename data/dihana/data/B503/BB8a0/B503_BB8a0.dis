@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pues) sí quisier(a a) saber el precio de los trenes con destino (rr (m a) (c a)) Cádiz en viaje de ida .
+M2: ¿ A qué ciudad desea llegar ?
+U2: A Cádiz (fe) , (p) me gustaría que fuera un coche cama (p) si es posible .
+M3: Quiere saber el precio a Cádiz ¿ desde Bilbao ?
+U3: Sí (da eso es) , en coche cama .
+M4: ¿ Qué día desea salir ?
+U4: (df Pu(a e)s) a poder ser el ventiuno de junio .
+M5: Le consulto precios de Bilbao a Cádiz en clase cama . Un momento por favor .
+M6: Sólo hay dos trenes . En clase cama , el tren más caro es un Tren_Hotel que cuesta 117 con 50 euros la ida y el otro es un Diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

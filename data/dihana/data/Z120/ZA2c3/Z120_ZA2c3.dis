@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos días) , querría conocer (fe) los horarios de los trenes a Madrid para el veintitrés o el veinticuatro de diciembre .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Deseo viajar a Madrid .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el viernes , día 24 de diciembre de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 8 de la tarde ¿ Desea algo más ?
+U3: Sí , desearía conocer el tipo de tren .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Deseo conocer el tipo de tren .
+M6: Hay varios tipos de trenes . El tren más rápido es un Triana y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U5: (na) Deseo conocer los horarios a Madrid el día veintitrés de diciembre .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el jueves , día 23 de diciembre de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 8 de la tarde ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

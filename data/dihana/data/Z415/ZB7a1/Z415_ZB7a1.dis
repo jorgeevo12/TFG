@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , (df mire) , tengo que realizar un viaje de trabajo par(a a) ir a Logroño (p) (a e)l próximo treinta de junio en un tren rápido .
+M2: ¿ Quiere saber horarios ?
+U2: No , deseo conocer el precio (na) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Logroño .
+M4: ¿ Qué día desea salir ?
+U4: (a E)l treinta de junio .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Logroño .
+M6: ¿ Qué día desea salir ?
+U6: El treinta de junio .
+M7: Quiere saber el precio a Logroño ¿ desde Zaragoza ?
+U7: Sí .
+M8: Le consulto precios de Zaragoza a Logroño saliendo el miércoles , día 30 de junio de 2004 . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 15 euros la ida y el más barato es un Regional que cuesta 8 con 9 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Desearía viajar en un tren rápido .
+M10: Hay varios trenes . En clase turista , el tren más rápido es un Intercity que cuesta 14 con 50 euros la ida y el más lento es un Regional_expres que cuesta 9 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) (nw) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

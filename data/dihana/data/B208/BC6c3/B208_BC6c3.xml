@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:17"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B208"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B208_BC6c3_T01u.ul">
+<t> Quiero horarios . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B208_BC6c3_T02u.ul">
+<t> Horarios <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B208_BC6c3_T03u.ul">
+<t> A León . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a León ¿ desde Bilbao ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B208_BC6c3_T04u.ul">
+<t> No , desde Almería . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B208_BC6c3_T05u.ul">
+<t> Finales de junio <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B208_BC6c3_T06u.ul">
+<t> <n fuente="hablante" tipo="labios"/> A finales de junio . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el miércoles , día 30 de junio de 2004 ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B208_BC6c3_T07u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Almería destino León saliendo el miércoles , día 30 de junio de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B208_BC6c3_T08u.ul">
+<t> <f tipo="m"/> Viajar de noche . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 9 de la noche y las 5 de la madrugada ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B208_BC6c3_T09u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Almería a León el miércoles , día 30 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B208_BC6c3_T10u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Sí , salir veintinueve de junio . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B208_BC6c3_T11u.ul">
+<t> Sí <n fuente="hablante" tipo="aspiración"/> <p/> , salir veintinueve de junio . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Almería a León el martes , día 29 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B208_BC6c3_T12u.ul">
+<t> Sí , salir veintisiete de junio . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Almería a León el domingo , día 27 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B208_BC6c3_T13u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí , salir veintiséis de junio . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Almería a León el sábado , día 26 de junio de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Diurno que sale a las 10 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="B208_BC6c3_T14u.ul">
+<t> ¿ Cuánto cuesta ? </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 15 usuario -->
+<turno id="U_015" hablante="usuario" fichero_audio_ss="B208_BC6c3_T15u.ul">
+<t> Viaje de vuelta . </t>
+</turno>
+
+<!-- Turno 21 sistema -->
+<turno id="M_021" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 16 usuario -->
+<turno id="U_016" hablante="usuario" fichero_audio_ss="B208_BC6c3_T16u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 22 sistema -->
+<turno id="M_022" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en León destino Almería saliendo el sábado , día 26 de junio de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 23 sistema -->
+<turno id="M_023" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 17 usuario -->
+<turno id="U_017" hablante="usuario" fichero_audio_ss="B208_BC6c3_T17u.ul">
+<t> Cambiar la salida . </t>
+</turno>
+
+<!-- Turno 24 sistema -->
+<turno id="M_024" hablante="sistema" fichero_audio_ss="">
+<t> Si ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 18 usuario -->
+<turno id="U_018" hablante="usuario" fichero_audio_ss="B208_BC6c3_T18u.ul">
+<t> Cambiar el día . </t>
+</turno>
+
+<!-- Turno 25 sistema -->
+<turno id="M_025" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 19 usuario -->
+<turno id="U_019" hablante="usuario" fichero_audio_ss="B208_BC6c3_T19u.ul">
+<t> El veintiseís de julio . </t>
+</turno>
+
+<!-- Turno 26 sistema -->
+<turno id="M_026" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el martes , día 27 de julio de 2004 ? </t>
+</turno>
+
+<!-- Turno 20 usuario -->
+<turno id="U_020" hablante="usuario" fichero_audio_ss="B208_BC6c3_T20u.ul">
+<t> No , el veintiseís de julio . </t>
+</turno>
+
+<!-- Turno 27 sistema -->
+<turno id="M_027" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en León destino Almería saliendo el lunes , día 26 de julio de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 28 sistema -->
+<turno id="M_028" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 21 usuario -->
+<turno id="U_021" hablante="usuario" fichero_audio_ss="B208_BC6c3_T21u.ul">
+<t> ¿ Cuál es el más barato ? </t>
+</turno>
+
+<!-- Turno 29 sistema -->
+<turno id="M_029" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 22 usuario -->
+<turno id="U_022" hablante="usuario" fichero_audio_ss="B208_BC6c3_T22u.ul">
+<t> Saber el más barato <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 30 sistema -->
+<turno id="M_030" hablante="sistema" fichero_audio_ss="">
+<t> El tren más barato es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 23 usuario -->
+<turno id="U_023" hablante="usuario" fichero_audio_ss="B208_BC6c3_T23u.ul">
+<t> ¿ Cuánto cuesta ? </t>
+</turno>
+
+<!-- Turno 31 sistema -->
+<turno id="M_031" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 24 usuario -->
+<turno id="U_024" hablante="usuario" fichero_audio_ss="B208_BC6c3_T24u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 32 sistema -->
+<turno id="M_032" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

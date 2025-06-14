@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , me gustaría saber el precio de un viaje de ida y vuelta a Cádiz , (dq por favor) .
+M2: Quiere saber el precio a Zaragoza ¿ desde Madrid ?
+U2: (na) No , desde Bilbao a Cádiz .
+M3: ¿ Qué día desea salir ?
+U3: A principios de junio .
+M4: ¿ Desea salir el martes , día 1 de junio de 2004 ?
+U4: Sí , (da perfecto) .
+M5: Le consulto precios de Bilbao a Cádiz saliendo el martes , día 1 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (na) Sí , el viaje de vuelta me gustaría que fuese (a e)l día quince .
+M7: ¿ Quiere saber horarios ?
+U6: Sí , (dq por favor) , y me gustaría en coche cama .
+M8: Le consulto precios de Cádiz a Bilbao saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+M9: Sólo hay dos trenes . En clase cama , el tren más caro es un Tren_Hotel que cuesta 117 con 50 euros la ida y el otro es un Diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No . Eso es todo . (dc Muchas gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

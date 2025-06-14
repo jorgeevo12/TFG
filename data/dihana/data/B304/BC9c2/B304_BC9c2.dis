@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber cuánto cuesta (a e)l tren que sale de Barcelona y llega a Valencia .
+M2: Quiere saber el precio a Valencia ¿ saliendo de Barcelona ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: (lm Quería quiría) un viaje de ida y vuelta y deseo salir el sábado por la mañana y volver el domingo por la tarde .
+M4: ¿ Qué día desea llegar ?
+U4: (nl) .
+M5: ¿ Qué día desea salir ?
+U5: Deseo salir el sábado por la mañana .
+M6: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ?
+U6: Sí .
+M7: Le consulto precios de Barcelona a Valencia saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí ¿ me puede decir cuánto es exactamente el billete ida y vuelta en el Euromed ?
+M9: El precio de ese tren en clase turista es 33 con 50 euros el billete de ida y 53 con 60 euros el billete de ida y vuelta ¿ Desea algo más ?
+U8: No (dc (lu gracias gra)) (na) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

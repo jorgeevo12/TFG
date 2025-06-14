@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (df Pues a ver) , que quiero ir (fm) a un concierto a Madrid el día diecisiete de junio .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) , dime los trenes que salgan por la mañana .
+M3: Horarios para llegar a Madrid ¿ saliendo de Valencia ?
+U3: El jueves diecisiete de junio .
+M4: Le consulto horarios de Valencia a Madrid el jueves , día 17 de junio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 11 y 20 de la mañana ¿ Desea algo más ?
+U4: Sí , quiero saber los trenes de vuelta del día siguiente .
+M6: ¿ Desea salir el jueves , día 17 de junio de 2004 ?
+U5: No , pero es volver el viernes dieciocho de junio .
+M7: Le consulto horarios de trenes con salida en Madrid destino Valencia saliendo el viernes , día 18 de junio de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 10 y 30 de la mañana y el último sale a las 9 y 15 de la noche y llega a las 0 y 50 de la noche ¿ Desea algo más ?
+U6: (nl) Sí , dime el precio si salgo el jueves diecisiete a las once y veinte (na) y vuelvo el viernes a las nueve (a y) cuarto de la noche .
+M9: Lo siento , creo que no le he entendido bien . Por favor , utilice frases cortas .
+U7: (na) Quiero saber el precio de ida y vuelta .
+M10: Le consulto precios . Un momento por favor .
+M11: Hay varios trenes . En clase turista , el tren más caro es un Alaris que cuesta 36 con 50 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí , quiero saber el precio de ida y vuelta .
+M12: Le consulto precios . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Alaris que cuesta 36 con 50 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Nada , (df pues) eso es todo , (dc gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Sí , (do buenas) querí(a a) los horarios (p) par(a a) ir a Teruel .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (df Pu(a e)s) , quiero ir a Teruel , (p) un viaje de ida , (dq por favor) .
+M3: ¿ Qué día desea salir ?
+U3: (df Pu(a e)s) , me gustaría sab(a e)r (p) qué posibilidades hay tanto de fecha com(a o) (p) horarios pero prefiero viaj(a a)r de día .
+M4: ¿ Qué día desea salir ?
+U4: (fe) Preferiría sal(a i)r mañana o pasado (p) pero por el día .
+M5: Quiere horarios de trenes a Teruel ¿ desde Zaragoza ?
+U5: Sí , (da eso es) .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Teruel saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 8 y 10 de la mañana y el último a las 7 y 20 de la tarde ¿ Desea algo más ?
+U6: Sí , prefier(a o) los horario(a s) del tre(a n) de día (p) , (dq por favor) .
+M8: Le consulto horarios de Zaragoza a Teruel el viernes , día 2 de abril de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Regional que sale a las 8 y 10 de la mañana ¿ Desea algo más ?
+U7: (fe) No , (dc gracias eso es todo) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

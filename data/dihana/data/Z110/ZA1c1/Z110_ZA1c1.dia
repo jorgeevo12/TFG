@@ -1,0 +1,55 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero obtener horario para un viaje de ida desde Zaragoza hasta Lleida el próximo viernes , antes de las seis de la tarde .
+Quiero obtener horario para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+desde Zaragoza (U:Pregunta:Hora_salida:Origen) pal: 9 - 10
+hasta Lleida (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+el próximo viernes , (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+antes de las seis de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 17 - 24
+
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . (M:No_entendido:Nil:Nil) pal: 1 - 17
+
+U2: Quiero obtener horario de un viaje de ida de Zaragoza a Lérida .
+Quiero obtener horario de un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+de Zaragoza (U:Pregunta:Hora_salida:Origen) pal: 9 - 10
+a Lérida . (U:Pregunta:Hora_salida:Destino) pal: 11 - 13
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: Lleida .
+Lleida . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Próximo viernes .
+Próximo viernes . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino lérida saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino lérida saliendo el viernes , día 20 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: Hay varios trenes . El primero sale a las 2 y 31 de la madrugada y el último a las 7 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 31 de la madrugada y el último a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: Sí , quiero saber qué tren llega a Lérida antes de las seis de la tarde .
+Sí , quiero saber qué tren llega a Lérida (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+antes de las seis de la tarde . (U:Pregunta:Hora_salida:Hora_llegada) pal: 10 - 17
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: Hay varios trenes . El primero sale a las 2 y 31 de la madrugada y llega a las 4 y 58 de la madrugada y el último sale a las 2 y 33 de la tarde y llega a las 4 y 22 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 31 de la madrugada y llega a las 4 y 58 de la madrugada y el último sale a las 2 y 33 de la tarde y llega a las 4 y 22 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

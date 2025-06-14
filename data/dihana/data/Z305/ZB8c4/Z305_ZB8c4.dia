@@ -1,0 +1,51 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería obtener el precio de un billete de ida con salida de Madrid y llegada a Sevilla para los días doce de mayo o quince de mayo .
+Quería obtener el precio de un billete de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+con salida de Madrid (U:Pregunta:Precio:Origen) pal: 10 - 13
+y llegada a Sevilla (U:Pregunta:Precio:Destino) pal: 14 - 17
+para los días doce de mayo o quince de mayo . (U:Pregunta:Precio:Dia) pal: 18 - 28
+
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . (M:No_entendido:Nil:Nil) pal: 1 - 17
+
+U2: Quería obtener el precio de un billete de ida para ir a Sevilla saliendo de Madrid .
+Quería obtener el precio de un billete de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+para ir a Sevilla (U:Pregunta:Precio:Destino) pal: 10 - 13
+saliendo de Madrid . (U:Pregunta:Precio:Origen) pal: 14 - 17
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: Sevilla .
+Sevilla . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Entre el doce y el quince de mayo en Ave si es posible .
+Entre el doce y el quince de mayo (U:Respuesta:Dia:Dia) pal: 1 - 8
+en Ave si es posible . (U:Respuesta:Precio:Tipo_tren) pal: 9 - 14
+
+M5: Quiere saber el precio a sevilla , ¿ desde zaragoza ? .
+Quiere saber el precio a sevilla , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U5: No , desde Madrid .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Madrid . (U:Respuesta:Precio:Origen) pal: 3 - 5
+
+M6: Le consulto precios de madrid a sevilla en tipo tren ave . Un momento por favor .
+Le consulto precios de madrid a sevilla en tipo tren ave . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+M7: Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

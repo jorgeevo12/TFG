@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Quiero los precios para ir el dí(a a) (lm veinticinco venticinco) de marzo (p) desd(a e) Gerona hast(a a) (p) Salamanca .
+M2: ¿ Quiere viajar desde Barcelona ?
+U2: Sí (p) , (a y) hasta Salamanca .
+M3: Le consulto precios de Barcelona a Salamanca saliendo el viernes , día 25 de marzo de 2005 . Un momento por favor .
+M4: Sólo hay dos trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 39 euros la ida y el otro es un pío_baroja que cuesta 37 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: ¿ Y cuál es el precio del tren más rápido ?
+M5: Sólo hay dos trenes . En clase turista , el tren más rápido es un Miguel_de_Unamuno que cuesta 39 euros la ida y el otro es un pío_baroja que cuesta 37 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí , (a y) ¿ hay algún tren entre las diez y las doce de la mañana ?
+M6: Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

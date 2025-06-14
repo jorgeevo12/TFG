@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do (lm Buenas Buenaj)) , quería un viaje de ida desde Almería hasta León (p) para el veinticinco de junio .
+M2: Horarios para llegar a León ¿ saliendo de Almería ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: (nl) (fm) Veinticinco de junio .
+M4: ¿ Desea salir el viernes , día 25 de junio de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Almería destino León saliendo el viernes , día 25 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U5: Sí , horarios del viaje de vuelta para el veintiséis de julio .
+M7: Le consulto horarios de trenes con salida en León destino Almería saliendo el lunes , día 26 de julio de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U6: (na) Querría saber el precio y si es posible (p) el (lm más ma) barato .
+M9: Le consulto precios . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

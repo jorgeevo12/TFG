@@ -1,0 +1,53 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera saber el horario de tren para ir de Barcelona a Tarragona mañana por la mañana .
+Quisiera saber el horario de tren para ir de Barcelona (U:Pregunta:Hora_salida:Origen) pal: 1 - 10
+a Tarragona (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+mañana (U:Pregunta:Hora_salida:Dia) pal: 13 - 13
+por la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 14 - 17
+
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ Quiere viajar desde barcelona ? .
+¿ Quiere viajar desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de trenes con salida en barcelona destino tarragona saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino tarragona saliendo el jueves , día 1 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+M6: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+Lo siento , no le he entendido . Por favor , hable claro y despacio . (M:No_entendido:Nil:Nil) pal: 1 - 16
+
+U5: Quisiera saber el tipo de tren de las cinco y cincuenta y dos .
+Quisiera saber el tipo de tren de las cinco y cincuenta y dos . (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 14
+
+M7: ¿ Le consulto tipos de trenes ? .
+¿ Le consulto tipos de trenes ? . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 8
+
+U6: No .
+No . (U:Negacion:Tipo_tren:Nil) pal: 1 - 2
+
+M8: Ese tren es un regional . Desea algo más ? .
+Ese tren es un regional . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

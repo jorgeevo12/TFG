@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Quería (fb) realizar una consulta de horarios .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Quiero viajar (fe) a Madrid desde Santander .
+M3: ¿ Quiere llegar a Madrid ?
+U3: Sí , (da eso es) .
+M4: ¿ Qué día desea salir ?
+U4: (fe) Deseo salir el día veintitrés de marzo .
+M5: Le consulto horarios de trenes con salida en Santander destino Madrid saliendo el martes , día 23 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (na) (fe) Me puede repetir el horario primer tren , (dq por favor) .
+M7: Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: No , (dc eso es todo) , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

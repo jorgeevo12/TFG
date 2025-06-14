@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:26"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="V213"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="V213_VB3a0_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , <d tipo="abrir"> hola buenos días </d> , me gustaría saber los horarios de trenes d<a>e</a> Valencia con destino a Barcelona para la semana que viene en días laborables . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="V213_VB3a0_T02u.ul">
+<t> <a>E</a>l martes mismamente <p/> por la mañana si es posible . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el martes , día 30 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="V213_VB3a0_T03u.ul">
+<t> Sí , me gustaría que el viaje fuera por la mañana <p/> y a ser posible en un tre<a>n</a> rápido . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Valencia a Barcelona el martes , día 30 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El más rápido sale a las 6 y 40 de la mañana y llega a las 9 y 36 de la mañana y el más lento sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="V213_VB3a0_T04u.ul">
+<t> <n fuente="hablante" tipo="labios"/> S<a>i</a> fuera posible que se acercara más <f tipo="sin_identificar"/> la hora a mediodía <p/> en un tren rápido . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Valencia a Barcelona el martes , día 30 de marzo de 2004 entre las 12 de la mañana y las 2 de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un mare_nostrum que sale a la una y 8 de la tarde y llega a las 4 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="V213_VB3a0_T05u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> , ya está todo . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="V213_VB3a0_T06u.ul">
+<t> Que sí , me gustaría saber el precio de este último tren que me ha dicho . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 30 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="V213_VB3a0_T07u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> , ya está todo . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

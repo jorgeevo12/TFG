@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (rr (m (lu quisiera qui)) (c Quisiera)) saber precios de trenes para ir de Castellón a (p) Cádiz (p) el día cinco de diciembre .
+M2: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+U2: (fe) Necesito .
+M3: ¿ Puede repetir su consulta ?
+U3: Quisiera saber precios .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quisiera saber precios de trenes para ir de Castellón a Cádiz el día cinco de diciembre .
+M5: Precios desde Castellón ¿ llegando a Cádiz ?
+U5: S(a í) .
+M6: Le consulto precios . Un momento por favor .
+M7: El quinto tren es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: ¿ Tiene coche cama ?
+M8: Le consulto precios . Un momento por favor .
+M9: Hay dos trenes . El tren más rápido es un Diurno con reserva_telefónica y prensa y el otro es un Tren_Hotel con reserva_telefónica , prensa y restaurante ¿ Desea algo más ?
+U7: (nw El precio del segundo) .
+M10: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Nada más , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber (p) los trenes que salen desde Valencia a (lm Valladolid Valladolí) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí quiero (rr (m qu(a e)) (s (p)) (c que)) el tren llegue el sábado .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Valladolid .
+M4: Quiere horarios de trenes a Valladolid ¿ saliendo de Valencia ?
+U4: Sí , y que lleguen el sábado .
+M5: ¿ Desea llegar el sábado , día 8 de mayo de 2004 ?
+U5: Sí (p) , quiero llegar ese sábado .
+M6: Le consulto horarios de Valencia a Valladolid llegando el sábado , día 8 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U6: Sí , quería saber (p) el precio .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Quería saber .
+M9: Perdón . No consigo entenderle .
+U8: Quiero viajar (rr (m en) (c en)) un tren cómodo .
+M10: Le consulto precios . Un momento por favor .
+M11: Hay varios trenes . En clase turista , el tren más rápido es un Intercity que cuesta 40 con 50 euros la ida y el más lento es un Tren_Hotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí , quiero saber (p) el precio .
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Quiero saber el precio más barato .
+M13: Un momento por favor .
+M14: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

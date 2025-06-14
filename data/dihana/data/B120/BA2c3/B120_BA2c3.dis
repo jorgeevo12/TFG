@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , me gustaría llegar a Madrid el veintitrés o veinticuatro de diciembre (p) ¿ Qué horarios son posibles (p) y en qué tipo de tren ?
+M2: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: (fe) Me gustaría llegar a Madrid el veintitrés o el veinticuatro de diciembre .
+M4: Le consulto horarios de Bilbao a Madrid llegando el jueves , día 23 de diciembre de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U4: Y ¿ a qué hora llega ese tren ?
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Me gustaría saber la hora de llegada de ese tren .
+M7: Ese tren sale a las 4 y 30 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

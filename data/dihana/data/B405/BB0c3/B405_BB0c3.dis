@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , quería saber el horario y precio d(a e) trenes para Sevilla .
+M2: ¿ Qué día desea salir ?
+U2: (df Pues) es un curso de veran(a o) antes del veinticinco de julio .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quería sal(a i)r para llegar antes del veinticinco de julio .
+M4: ¿ Desea salir el domingo , día 25 de julio de 2004 ?
+U4: No , deseo salir (a e)l sábado veinticuatro de julio .
+M5: ¿ Desea llegar el domingo , día 25 de julio de 2004 ?
+U5: No , deseo llegar antes del veinticinco .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el sábado , día 24 de julio de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U6: Sí ¿ a qué hora llegarí(a a) (p) el de las siete de la mañana ?
+M8: Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U7: Sí ¿ cuál sería el precio de ese tren ?
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc (lm muchas muchaj) gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

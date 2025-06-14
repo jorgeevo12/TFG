@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero ir a la feria de muestras desde Alicante a Valencia .
+M2: ¿ Quiere saber horarios ?
+U2: (na) Sí , quiero ir (rr (m (a e)l) (c el)) lunes próximo (nw) y salir por la mañana (nw) .
+M3: ¿ Desea salir el viernes , día 20 de febrero de 2004 ?
+U3: N(a o) , quiero (fb) salir (a e)l (lm lunes lunex) .
+M4: Le consulto horarios de Alicante a Valencia el lunes , día 16 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 11 y 11 de la mañana ¿ Desea algo más ?
+U4: Sí , quiero viajar en Talgo .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero viajar en Talgo .
+M7: Le consulto horarios . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Quiero ir en Talgo .
+M9: Le consulto horarios de Alicante a Valencia el lunes , día 16 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde en Talgo . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (na) (df Pues) no quiero viajar en Talgo . (p) ¿ Me puede decir el precio ? (nw) .
+M11: Le consulto precios . Un momento por favor .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 22 con 50 euros la ida y el más barato es un Regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

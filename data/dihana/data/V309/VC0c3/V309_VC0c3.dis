@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , quería obtener (a e)l horario y el precio de un viaje de ida y vuelta .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Murcia .
+M3: ¿ Qué día desea salir ?
+U3: Sí , el viernes veinticinco de junio .
+M4: ¿ Quiere viajar a Murcia ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Murcia saliendo el viernes , día 25 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 8 y 22 de la tarde ¿ Desea algo más ?
+U5: Sí , también quiero la vuelta (nw) . (p) El seis de julio , martes seis de julio .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Quiero el horario de vuelta (p) para e(a l) martes seis de julio .
+M8: Le consulto horarios de trenes con salida en Murcia destino Valencia saliendo el martes , día 6 de julio de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y el último a las 5 y 40 de la tarde ¿ Desea algo más ?
+U7: Sí , quería la v(a u)elta de M(a u)rcia el martes seis de julio . (nw) Horarios .
+M10: Le consulto horarios de trenes con salida en Murcia destino Valencia saliendo el martes , día 6 de julio de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y el último a las 5 y 40 de la tarde ¿ Desea algo más ?
+U8: Sí , quería el precio .
+M12: Le consulto precios . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un mare_nostrum que cuesta 24 con 50 euros la ida y el más barato es un Regional_expres que cuesta 14 con 40 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí , quería el precio de ida y de vuelta .
+M14: Le consulto precios . Un momento por favor .
+M15: Hay varios trenes . En clase turista , el tren más caro es un mare_nostrum que cuesta 24 con 50 euros la ida y el más barato es un Regional_expres que cuesta 14 con 40 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M16: Gracias por utilizar este servicio . Feliz viaje .

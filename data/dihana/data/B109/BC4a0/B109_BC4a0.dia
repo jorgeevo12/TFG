@@ -1,0 +1,77 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero saber el precio del billete de ida y vuelta ir de Bilbao a Madrid .
+Quiero saber el precio del billete de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+ir de Bilbao (U:Pregunta:Precio:Origen) pal: 11 - 13
+a Madrid . (U:Pregunta:Precio:Destino) pal: 14 - 16
+M2: ¿ Desea salir el domingo , día 15 de febrero de 2004 ? .
+¿ Desea salir el domingo , día 15 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U2: No , quiero salir el veinte de marzo a las siete de la mañana .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+quiero salir el veinte de marzo (U:Respuesta:Precio:Dia) pal: 3 - 8
+a las siete de la mañana . (U:Respuesta:Precio:Hora_salida) pal: 9 - 15
+M3: Le consulto precios de bilbao a madrid saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+Le consulto precios de bilbao a madrid saliendo el sábado , día 20 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M4: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U3: Sí , el diecinueve de marzo .
+Sí , el diecinueve de marzo . (U:Pregunta:Precio:Dia) pal: 1 - 7
+M5: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U4: Sí , quiero ir de Barcelona a Alicante .
+Sí , quiero ir de Barcelona (U:Pregunta:Precio:Origen) pal: 1 - 6
+a Alicante . (U:Pregunta:Precio:Destino) pal: 7 - 9
+M7: ¿ Quiere salir entre las 6 y 30 y las 7 y 30 de la mañana ? .
+¿ Quiere salir entre las 6 y 30 y las 7 y 30 de la mañana ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 18
+U5: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M8: ¿ Desea salir el viernes , día 19 de marzo de 2004 ? .
+¿ Desea salir el viernes , día 19 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M9: Le consulto precios de barcelona a alicante saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+Le consulto precios de barcelona a alicante saliendo el viernes , día 19 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M10: El único tren que realiza el trayecto es un euromed y su precio en clase turista es 43 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un euromed y su precio en clase turista es 43 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+U7: Sí , quiero saber el precio del billete de ida y vuelta .
+Sí , quiero saber el precio del billete de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+M11: El precio de ese tren en clase turista es 43 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 43 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+U8: Sí , quiero saber el horario para salir de seis y media a siete y media de la mañana y el horario de vuelta sobre las siete de la tarde .
+Sí , quiero saber el horario para salir de seis y media a siete y media de la mañana (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 19
+y el horario de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 20 - 24
+sobre las siete de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 25 - 31
+M12: El único tren que realiza el trayecto es un euromed que sale a las 7 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un euromed que sale a las 7 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+U9: Sí , saber el horario de vuelta .
+Sí , saber el horario de vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+M13: Le consulto horarios de alicante a barcelona el viernes , día 19 de marzo de 2004 entre las 6 y 30 y las 7 y 30 de la tarde . Un momento por favor .
+Le consulto horarios de alicante a barcelona el viernes , día 19 de marzo de 2004 entre las 6 y 30 y las 7 y 30 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+M14: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U10: Sí , quiero saber trenes de Alicante a Barcelona por la tarde .
+Sí , quiero saber trenes de Alicante (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 8 - 9
+por la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 10 - 13
+M15: Le consulto horarios de alicante a barcelona el viernes , día 19 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de alicante a barcelona el viernes , día 19 de marzo de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M16: Hay varios trenes . El primero sale a las 2 y 20 de la tarde y el último a las 6 y 25 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 20 de la tarde y el último a las 6 y 25 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U11: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M17: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

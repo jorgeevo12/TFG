@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (fe) , (df pues) llamaba para pedir información sobr(a e) un viaje de ida (fm) salida Valencia destino Madrid par(a a) (p) llegar aproximadamente antes de la una .
+M2: Lo siento , creo que no le he entendido bien . Por favor , utilice frases cortas .
+U2: (fm) Quería información sobre los horarios (p) (fe) (p) (rr (m de salida) (s bueno) (c de salida)) de trenes (fe) de Valencia a Madrid (p) , (fm) para llegar a Madrid aproximadamente antes de l(a a) una .
+M3: ¿ Qué día desea salir ?
+U3: Mañana .
+M4: ¿ Quiere viajar a Madrid ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el jueves , día 11 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U5: Sí , (fe) ¿ los horarios par(a a) el viernes ?
+M7: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U6: Sí (fe) ¿ algún tr(a e)n (p) que llegue a Madrid sobre la una ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: ¿ Algún tren qu(a e) (fb) llegue a Madrid (fe) (p) a la una o a las doce ?
+M10: Le consulto horarios . Un momento por favor .
+M11: Sólo hay dos trenes . El primero llega a las 2 de la tarde y el otro a las 12 y 17 de la mañana ¿ Desea algo más ?
+U8: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quisiera saber los horarios a Sevilla , el día diecisiete de septiembre .
+M2: ¿ Desea salir el viernes , día 17 de diciembre de 2004 ?
+U2: (nl) El día diecisiete de septiembre .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Sevilla .
+M4: Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ?
+U4: (nl) Sí , el día diecisiete de septiembre .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Sevilla saliendo el viernes , día 17 de septiembre de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U5: (nl) Sí , me gustaría conocer los precios a Sevilla el diecisiete de diciembre .
+M7: El único tren que realiza el trayecto es un Triana y su precio en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (nl) (fe) Los horarios de Sevill(a a) a Zaragoza el día diecinueve de septiembre .
+M8: Le consulto horarios de trenes con salida en Sevilla destino Zaragoza saliendo el domingo , día 19 de septiembre de 2004 . Un momento por favor .
+M9: El único tren que realiza el trayecto es un extremadura que sale a las 9 y 44 de la mañana ¿ Desea algo más ?
+U7: (na) Sí , los precios d(a e) Sevilla a Zaragoza el diecinueve de septiembre .
+M10: El único tren que realiza el trayecto es un extremadura y su precio en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

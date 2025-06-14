@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , (fe) quería saber el horari(a o) (p) (rr (m d(a e)) (c de)) un tren de Barcelona (a a) Tarragona .
+M2: ¿ A qué ciudad desea llegar ?
+U2: Tarragona .
+M3: Quiere horarios de trenes a Tarragona ¿ desde Barcelona ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (p) .
+M5: ¿ Qué día desea salir ?
+U5: Mañana .
+M6: ¿ Desea salir el jueves , día 26 de febrero de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Barcelona destino Tarragona saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 11 de la noche ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

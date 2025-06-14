@@ -1,0 +1,29 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) me gustaría saber el horario de un viaje de ida (p) a Cuenca (nl) para salir (rr (m (rr (m el) (c el)) viernes) (c el viernes)) después de las cuatro de la tarde .
+M2: Quiere horarios de trenes a Cuenca ¿ desde Zaragoza ?
+U2: (na) Sí .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Cuenca saliendo el viernes , día 30 de abril de 2004 . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: Sí (p) , (df pues) que salga (a e)l sábado para llegar antes de las tres (p) de la tarde .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Cuenca saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+M6: Sólo hay dos trenes . El primero sale a las 3 y 30 de la tarde y el otro a las 10 y 3 de la noche ¿ Desea algo más ?
+U4: (na) Sí y me gustaría saber el horario del viaje de vuelta para ese mismo día (p) o para el día siguiente .
+M7: Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: (nl) Sí ¿ hay alguno de los trenes que sea Intercity ?
+M9: Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el sábado , día 1 de mayo de 2004 en Intercity . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ?
+U6: ¡ (dx Puf) ! (df Pues) ese no me sirve (na) , sí (rr (m (lu necesitaría necesi)) (c necesitaría)) el horario (p) del viaje de vuelta (p) (nl) per(a o) (fa) para el domingo .
+M11: Le consulto horarios de trenes con salida en Cuenca destino Zaragoza saliendo el domingo , día 2 de mayo de 2004 en Intercity . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ?
+U7: Sí me gustaría saber el precio d(a e)l viaje de ida (nl) (p) (fm) de Zaragoza a Cuenca .
+M13: Le consulto precios de Zaragoza a Cuenca saliendo el domingo , día 2 de mayo de 2004 . Un momento por favor .
+M14: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (nl) (rr (m Sí) (c sí)) es que el precio tiene que ser del que sale (p) el viernes o (ri (m (rr (m el sábado) (s (de perdón)) (c el sábado))) (s (p)) (c el que sale el sábado)) .
+M15: Le consulto precios de Zaragoza a Cuenca saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+M16: Sólo hay dos trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el otro es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí , ahora quiero saber el precio del viaje de vuelta (p) (na) del que vuelve el domingo .
+M17: Le consulto precios de Cuenca a Zaragoza saliendo el domingo , día 2 de mayo de 2004 . Un momento por favor .
+M18: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , es suficiente , (dc muchas gracias) .
+M19: Gracias por utilizar este servicio . Feliz viaje .

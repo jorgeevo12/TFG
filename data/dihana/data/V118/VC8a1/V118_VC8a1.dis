@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola buenas) , querría (rr (m (lu conseguir consel)) (c conseguir)) el precio d(a e) un viaje de ida y vuelta (p) de Madrid a Sevilla (p) saliendo el veinticuatro y volviendo el treinta si puede ser en Ave (nw) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (nl) Querría conseguir (rs (m el (lu viaje via)) (c el precio)) (p) de un viaje de ida y vuelta (p) de Madrid a Sevilla .
+M3: ¿ Qué día desea salir ?
+U3: Querría salir el veinticuatro (p) d(a e) marzo .
+M4: Le consulto precios de Madrid a Sevilla . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Ave que cuesta 64 euros la ida y el más barato es un Altaria que cuesta 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: ¿ Me podría decir el precio d(a e)l viaje de vuelta volviendo el día treinta ?
+M6: Le consulto precios de Sevilla a Madrid saliendo el martes , día 30 de marzo de 2004 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Ave que cuesta 64 euros la ida y el más barato es un extremadura que cuesta 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc (lu gracias gracia)) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

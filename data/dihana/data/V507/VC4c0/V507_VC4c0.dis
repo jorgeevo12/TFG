@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quisiera saber los horario(a s) de los trenes que salen de Burgos y llegan a Valladolid (p) , me interesaría un viaje de ida y vuelta .
+M2: ¿ Quiere viajar desde Burgos ?
+U2: (nl) Sí .
+M3: ¿ Quiere llegar a Valladolid ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (na) Querría llegar el domingo por la tarde .
+M5: ¿ Desea llegar el domingo , día 2 de mayo de 2004 ?
+U5: (nl) Sí .
+M6: Le consulto horarios de Burgos a Valladolid llegando el domingo , día 2 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 3 de la tarde y llega a las 4 y 20 de la tarde y el último sale a las 7 y 21 de la tarde y llega a las 8 y 40 de la tarde ¿ Desea algo más ?
+U6: (na) Sí (p) , (fe) saber el precio del que sale a las siete y veintiuno de la tarde .
+M8: El precio de ese tren en clase turista es 6 con 95 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) Sí , también me gustaría un viaje de vuelta , para regresar el martes , después de las dos de la tarde .
+M9: ¿ Quiere saber horarios ?
+U8: (nl) Sí .
+M10: Le consulto horarios de trenes con salida en Valladolid destino Burgos saliendo el martes , día 4 de mayo de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y llega a las 5 y 3 de la madrugada y el último sale a las 8 y 11 de la tarde y llega a las 9 y 35 de la noche ¿ Desea algo más ?
+U9: (nl) Sí , llegar antes de las catorce horas .
+M12: Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y llega a las 5 y 3 de la madrugada y el último sale a las 12 y 25 de la mañana y llega a la una y 25 de la tarde ¿ Desea algo más ?
+U10: Sí , me gustaría el que sale a las doce y veinticinco .
+M14: Ese tren sale a las 12 y 25 de la mañana y llega a la una y 25 de la tarde ¿ Desea algo más ?
+U11: (nl) Sí , quisiera saber el precio (na) .
+M15: ¿ Me pregunta por precios ?
+U12: Sí .
+M16: El precio de ese tren en clase turista es 12 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: (nl) No , (dc gracias) .
+M17: Gracias por utilizar este servicio . Feliz viaje .

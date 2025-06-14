@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (fe) Necesito ir a Lleida y quisiera saber los horarios par(a a) salir el domingo por la mañana .
+M2: ¿ Quiere viajar a Lérida ?
+U2: Sí .
+M3: Le consulto horarios de Valencia a Lérida el domingo , día 22 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M4: Le consulto horarios . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (na) ¿ Y saliendo por la tarde el domingo ? (nw) .
+M6: Le consulto horarios . Un momento por favor .
+M7: Le consulto horarios . Un momento por favor .
+M8: .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (fe) No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

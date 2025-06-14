@@ -1,0 +1,62 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera saber el precio del viaje de ida y vuelta para Cádiz .
+Quisiera saber el precio del viaje de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+para Cádiz . (U:Pregunta:Precio:Destino) pal: 11 - 13
+M2: ¿ Me pregunta por precios ? .
+¿ Me pregunta por precios ? . (M:Confirmacion:Precio:Nil) pal: 1 - 7
+U2: Sí .
+Sí . (U:Afirmacion:Precio:Nil) pal: 1 - 2
+M3: ¿ Quiere viajar a cádiz ? .
+¿ Quiere viajar a cádiz ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+U3: Sí , en coche cama .
+Sí , (U:Afirmacion:Destino:Nil) pal: 1 - 2
+en coche cama . (U:Respuesta:Precio:Clase_billete) pal: 3 - 6
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: A principios de junio .
+A principios de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U5: A principios de junio .
+A principios de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M6: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+U6: El dos de junio .
+El dos de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M7: ¿ Desea salir el miércoles , día 2 de junio de 2004 ? .
+¿ Desea salir el miércoles , día 2 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U7: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M8: Le consulto precios de valencia a cádiz . Un momento por favor .
+Le consulto precios de valencia a cádiz . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+M9: Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U8: Sí , quisiera confirmar la vuelta .
+Sí , quisiera confirmar la vuelta . (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+M10: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U9: No , precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+precio . (U:Pregunta:Precio:Nil) pal: 3 - 4
+M11: Le consulto precios de cádiz a valencia saliendo el miércoles , día 2 de junio de 2004 . Un momento por favor .
+Le consulto precios de cádiz a valencia saliendo el miércoles , día 2 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M12: Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U10: Sí , quisiera obtener el precio de la vuelta el día dieciséis de junio .
+Sí , quisiera obtener el precio de la vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+el día dieciséis de junio . (U:Pregunta:Precio:Dia) pal: 10 - 15
+M13: Le consulto precios de cádiz a valencia saliendo el miércoles , día 16 de junio de 2004 . Un momento por favor .
+Le consulto precios de cádiz a valencia saliendo el miércoles , día 16 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M14: Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U11: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

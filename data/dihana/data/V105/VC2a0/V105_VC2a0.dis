@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría saber el horario de un del tren que va desde Valencia a las ocho destino Bilbao saber precio .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (nl) A Málaga .
+M3: ¿ Quiere viajar a Málaga ?
+U3: Sí , quiero viajar a Málaga .
+M4: ¿ Desea salir el lunes , día 15 de marzo de 2004 ?
+U4: Sí , quiero viajar (a e)l día quince .
+M5: Le consulto horarios de trenes con salida en Valencia destino Málaga saliendo el lunes , día 15 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: Me gustaría (fe) saber el precio del billete de ida y vuelta .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Me gustaría saber el precio (p) del viaje de ida y vuelta (p) , si es posible en Talgo .
+M8: Le consulto precios de Valencia a Málaga en tipo tren Talgo . Un momento por favor .
+M9: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No (dc gracias) , ya está todo .
+M10: Gracias por utilizar este servicio . Feliz viaje .

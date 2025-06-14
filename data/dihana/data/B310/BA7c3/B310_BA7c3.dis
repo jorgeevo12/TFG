@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Verá) , (lu Tengo quengo) que hacer un viaje de La_Coruña a Vigo (p) (na) el domingo que viene (nw) (na) ¿ Podría darme los horarios (p) de trenes ?
+M2: ¿ Desea salir el domingo , día 14 de marzo de 2004 ?
+U2: Sí , (da desde luego) .
+M3: Le consulto horarios de trenes con salida en La_Coruña destino Vigo saliendo el domingo , día 14 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 6 y 20 de la mañana y el último a las 8 y 20 de la tarde ¿ Desea algo más ?
+U3: Sí , (dq por favor) podría decirme cuáles son los trenes más rápidos (fa) desde (nw) las seis y veinte de la mañana me dice el primero hasta las (p) diez y media de la mañana sólo , solamente por la mañana .
+M5: ¿ Quiere salir entre las 10 y las 11 de la noche ?
+U4: (rr (m No) (c no)) , quiero salir entre las seis y veinte de la mañana y las diez y media de la mañana (p) (nl) y quiero que el tren sea un tren rápido .
+M6: Le consulto horarios de Barcelona a Vigo el viernes , día 3 de diciembre de 2004 entre las 6 y 20 y las 10 y 30 de la mañana . Un momento por favor .
+M7: El único tren que realiza el trayecto es un covadonga que sale a las 7 y 30 de la mañana ¿ Desea algo más ?
+U5: Creo que sí , que era de La_Coruña a Vigo (na) no de Barcelona , (rr (m me) (c me)) parece que el primero era (rr (m (rr (m un) (c un))) (c un)) tren a las seis y veinte ¿ y no hay ninguno hasta las diez y media , (dq por favor) ?
+M8: Le consulto horarios de La_Coruña a Vigo el domingo , día 14 de marzo de 2004 entre las 6 y 20 y las 10 y 30 de la mañana . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 6 y 20 de la mañana y el último a las 9 y 25 de la mañana ¿ Desea algo más ?
+U6: Sí , (dq por favor) , (b cuáles son los) (fb) , cuál de estos dos trenes es el más rápido (p) (nl) y cuánto tardaría en llegar a Vigo (nw) .
+M10: El tren más rápido es un TRD que sale a las 8 y 25 de la mañana y llega a las 10 y 50 de la mañana ¿ Desea algo más ?
+U7: No (dc gracias) , (lm está ta) bien .
+M11: Gracias por utilizar este servicio . Feliz viaje .

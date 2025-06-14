@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) Quiero saber el horario y el precio de un viaje de ida y vuelta a Pamplona .
+M2: ¿ Quiere viajar a Pamplona ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El próximo jueves antes de las diez y media .
+M4: ¿ Desea salir el jueves , día 1 de abril de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Pamplona saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U5: Sí , quiero saber (p) el horario de vuelta .
+M7: Le consulto horarios de trenes con salida en Pamplona destino Valencia saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U6: Obtener el precio .
+M9: Le consulto precios . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

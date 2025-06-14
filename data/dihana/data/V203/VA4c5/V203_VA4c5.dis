@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera horarios para llegar a Valladolid el próximo viernes .
+M2: Le consulto horarios de trenes con salida en Valencia destino Valladolid saliendo el viernes , día 19 de diciembre de 2003 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la madrugada y el último a las 11 de la noche ¿ Desea algo más ?
+U2: Sí ¿ A qué hora llega el primer tren ?
+M4: Ese tren sale a las 7 y 3 de la madrugada y llega a la una y 35 del mediodía ¿ Desea algo más ?
+U3: Sí ¿ Existe algún tren que llegue antes de las doce ese día ?
+M5: Le consulto horarios . Un momento por favor .
+M6: Le consulto horarios . Un momento por favor .
+M7: Sólo hay dos trenes con llegada el sábado , día 20 de diciembre de 2003 . El primero llega a las 7 de la madrugada y el otro a las 8 de la mañana ¿ Desea algo más ?
+U4: (na) Sí . Yo quiero llegar el viernes antes de las doce (p) no el sábado .
+M8: Le consulto horarios . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí . Quisiera salir en un tren por la noche el jueves para llegar .
+M10: ¿ Puede repetir su consulta ?
+U6: Sí . Quisiera salir el próximo jueves por la noche para llegar el viernes .
+M11: Le consulto horarios de trenes con salida en Valencia destino Valladolid saliendo el jueves , día 18 de diciembre de 2003 . Un momento por favor .
+M12: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la madrugada y el otro sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U7: Sí ¿ Cuál de los dos es más rápido ?
+M13: Sólo hay dos trenes , El tren más rápido es un Diurno que tarda 8 horas y 57 minutos y el otro es un tipo Tren_Hotel que tarda 9 horas ¿ Desea algo más ?
+U8: (na) Sí . (p) El Tren_Hotel ¿ tiene literas ?
+M14: Ese tren sólo dispone de los siguientes servicios: reserva_telefónica , prensa y restaurante ¿ Desea algo más ?
+U9: No . Nada más . (dc Gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

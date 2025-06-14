@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Desearía obtener el preci(a o) de trenes con punto de salida a Segovia y llegada a Badajoz (p) (a y) .
+M2: ¿ Quiere viajar desde Segovia ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Mañana .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Mañana .
+M5: ¿ Desea salir el miércoles , día 31 de marzo de 2004 ?
+U5: (fb) (p) Sí .
+M6: Le consulto precios de Segovia a Badajoz saliendo el miércoles , día 31 de marzo de 2004 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , (fe) que sea horario de mediodía y si es posible un Intercity .
+M8: Le consulto precios de Segovia a Badajoz en tipo tren Intercity . Un momento por favor .
+M9: Un momento por favor .
+M10: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

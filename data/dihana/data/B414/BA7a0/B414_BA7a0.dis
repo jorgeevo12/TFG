@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber el horario de trenes de Bilbao a Madrid (nw) .
+M2: ¿ Qué día desea salir ?
+U2: El treinta y uno de marzo .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Treinta y uno de marzo .
+M4: ¿ Desea salir el miércoles , día 31 de marzo de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el miércoles , día 31 de marzo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,68 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría saber el horario del tren que sale de Valencia a Madrid pasado mañana a las diez de la mañana .
+Me gustaría saber el horario del tren que sale de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 11
+a Madrid (U:Pregunta:Hora_salida:Destino) pal: 12 - 13
+pasado mañana (U:Pregunta:Hora_salida:Dia) pal: 14 - 15
+a las diez de la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 16 - 22
+
+M2: ¿ Desea salir el jueves , día 1 de abril de 2004 ? .
+¿ Desea salir el jueves , día 1 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U2: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M3: ¿ Quiere viajar a madrid ? .
+¿ Quiere viajar a madrid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el jueves , día 1 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y llega a las 10 y 17 de la mañana y el último sale a las 8 y 15 de la tarde y llega a las 11 y 50 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 45 de la mañana y llega a las 10 y 17 de la mañana y el último sale a las 8 y 15 de la tarde y llega a las 11 y 50 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U4: Me gustaría saber el horario del viaje de vuelta .
+Me gustaría saber el horario del viaje de vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 10
+
+M6: Le consulto horarios de trenes con salida en madrid destino valencia saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino valencia saliendo el jueves , día 1 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 10 y 30 de la mañana y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 10 y 30 de la mañana y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+U5: Me gustaría saber el horario del viaje de vuelta que salga a partir de las tres .
+Me gustaría saber el horario del viaje de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+que salga a partir de las tres . (U:Pregunta:Hora_salida:Hora_salida) pal: 10 - 17
+
+M8: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M9: Hay varios trenes . El primero sale a las 3 y 20 de la tarde y llega a las 6 y 54 de la tarde y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 20 de la tarde y llega a las 6 y 54 de la tarde y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U6: Me gustaría saber el precio de este billete .
+Me gustaría saber el precio de este billete . (U:Pregunta:Precio:Nil) pal: 1 - 9
+
+M10: Le consulto precios de madrid a valencia . Un momento por favor .
+Le consulto precios de madrid a valencia . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M11: Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

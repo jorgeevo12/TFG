@@ -1,0 +1,9 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Me gustaría saber el horario (rs (m d(a e)) (c del)) tren (p) qu(a e) llega a Pamplona por la tarde a principios de semana .
+M2: Le consulto horarios de trenes con salida en Valencia destino Pamplona saliendo el lunes , día 15 de marzo de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U2: (nw) Sí , me gustaría saber el precio (rs (m d(a e)) (c del)) billete .
+M4: Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: (nl) No , (dc gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

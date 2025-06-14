@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (nw) Me gustaría hacer un viaje (nw) de (lm Bilbao Bilba(a u)) (p) a Barcelona (p) el viernes a la tarde .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Quiere salir desde Lugo ?
+U3: (nw) No , desde Bilbao .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U4: (nw) Sí ¿ no hay ningun(a o) (p) a primera hora de la tarde ?
+M6: ¿ Quiere salir entre la una y las 2 de la tarde ?
+U5: Sí .
+M7: Le consulto horarios de Bilbao a Barcelona el viernes , día 19 de marzo de 2004 entre la una y las 2 de la tarde . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí , (p) ¿ existe algún tren (nw) que salg(a a) entre las tres y las cinco de la tarde ?
+M9: Le consulto horarios de Bilbao a Barcelona el viernes , día 19 de marzo de 2004 entre las 3 y las 5 de la tarde . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

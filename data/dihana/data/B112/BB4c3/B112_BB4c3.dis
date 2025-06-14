@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustarí(a a) saber (a e)l horario y el precio (rr (m d(a e)) (s (nw)) (c de)) un viaje de ida d(a e) Pamplon(a a) haci(a a) Oviedo .
+M2: Quiere horarios de trenes a Oviedo ¿ desde Barcelona ?
+U2: (rr (m No) (c no)) , desde (p) Pamplona hacia Oviedo .
+M3: ¿ Qué día desea salir ?
+U3: (nw) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Me gustaría (p) saber (rr (m el) (s (fb)) (c e(a l))) horario de trenes desde Pamplona hacia Oviedo el día diecinueve de octubre .
+M5: Le consulto horarios de trenes con salida en Pamplona destino Oviedo saliendo el martes , día 19 de octubre de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (fe) Sí , me gustaría saber el precio .
+M7: Le consulto precios . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

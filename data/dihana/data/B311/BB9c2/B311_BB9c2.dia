@@ -1,0 +1,36 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Me gustaría saber el precio del viaje de ida que tiene del Ave saliendo desde Ciudad_Real para llegar a Madrid .
+Me gustaría saber el precio del viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+que tiene del Ave (U:Pregunta:Precio:Tipo_tren) pal: 10 - 13
+saliendo desde Ciudad_Real (U:Pregunta:Precio:Origen) pal: 14 - 16
+para llegar a Madrid . (U:Pregunta:Precio:Destino) pal: 17 - 21
+M2: ¿ Quiere salir desde bilbao ? .
+¿ Quiere salir desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: No , a Madrid .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+a Madrid . (U:Respuesta:Precio:Destino) pal: 3 - 5
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El treinta y uno de diciembre , con la llegada a Madrid antes de las cinco de la tarde .
+El treinta y uno de diciembre , (U:Respuesta:Precio:Dia) pal: 1 - 7
+con la llegada a Madrid (U:Respuesta:Precio:Destino) pal: 8 - 12
+antes de las cinco de la tarde . (U:Respuesta:Precio:Hora_salida) pal: 13 - 20
+M4: ¿ Desea salir el viernes , día 31 de diciembre de 2004 ? .
+¿ Desea salir el viernes , día 31 de diciembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Sí , eso es .
+Sí , eso es . (U:Afirmacion:Dia:Nil) pal: 1 - 5
+M5: ¿ Quiere llegar entre las 0 de la noche y las 5 de la tarde ? .
+¿ Quiere llegar entre las 0 de la noche y las 5 de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 17
+U5: Sí , eso es .
+Sí , eso es . (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 5
+M6: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M7: Hay varios trenes . En clase turista , el tren más caro es un extremadura que cuesta 27 con 50 euros la ida y el más barato es un lanzadera que cuesta 16 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un extremadura que cuesta 27 con 50 euros la ida y el más barato es un lanzadera que cuesta 16 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

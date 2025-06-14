@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pues) quería sab(a e)r a qué horas tengo tren (rs (m (a e)l) (c este)) domingo para ir a Soria .
+M2: ¿ Desea salir el domingo , día 29 de febrero de 2004 ?
+U2: Sí , (da eso es) , el domingo .
+M3: ¿ A qué ciudad desea llegar ?
+U3: (df Pues) quiero llegar a Soria .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Soria saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U4: Quería saber s(a i) podría ser en Talgo .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (fe) Quiero hacer el viaje a Soria per(a o) si puede ser en Talgo , quiero ir en Talgo .
+M7: Le consulto horarios de trenes con salida en Bilbao destino Soria saliendo el domingo , día 29 de febrero de 2004 en Talgo . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: No , (rr (m ya está) (c ya está)) (lm bien be) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

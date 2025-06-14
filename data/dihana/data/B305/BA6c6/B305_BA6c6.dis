@@ -1,0 +1,38 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , querría un billete (p) a Barcelona desd(a e) Zaragoza .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , quiero conocer el horario y el tipo de tren .
+M3: ¿ Qué día desea salir ?
+U3: (fe) No tengo ningún día preferente , lo que quiero es llegar antes del próximo lunes .
+M4: ¿ Desea llegar el viernes , día 5 de marzo de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de Zaragoza a Barcelona llegando el viernes , día 5 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U5: (fe) Sí , quier(a o) .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Deseo que el viaje sea sólo de ida y a ser posible a l(a a)s cuatro de la tarde (nw) .
+M8: ¿ Quiere salir entre las 3 y 30 y las 4 y 30 de la tarde ?
+U7: Sí .
+M9: Le consulto horarios de Zaragoza a Barcelona el viernes , día 5 de marzo de 2004 entre las 3 y 30 y las 4 y 30 de la tarde . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , quiero conocer los horario(a s) (p) de trenes .
+M11: ¿ Quiere salir entre las 3 y 30 y las 4 y 30 de la tarde ?
+U9: Sí .
+M12: Le consulto horarios . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: Sí .
+M14: ¿ Qué día desea salir ?
+U11: A partir de las tres de la tarde .
+M15: ¿ Quiere salir entre las 3 de la tarde y las 11 de la noche ?
+U12: Sí .
+M16: Le consulto horarios de Zaragoza a Barcelona el viernes , día 5 de marzo de 2004 entre las 3 de la tarde y las 11 de la noche . Un momento por favor .
+M17: Hay varios trenes . El primero sale a las 4 y 50 de la tarde y el último a las 7 de la tarde ¿ Desea algo más ?
+U13: Sí (p) , quiero conocer el tipo de tren .
+M18: Lo siento . No he entendido bien ¿ puede repetir ?
+U14: Sí , quiero obtener el tipo de tren .
+M19: Le consulto tipos de tren . Un momento por favor .
+M20: Hay varios tipos de trenes . El tren más rápido es un Talgo y el más lento es un Cataluña_Exprés ¿ Desea algo más ?
+U15: Sí , deseo saber cuál es el tipo de tren (p) que sale a las cuatro cincuenta .
+M21: Ese tren es un Cataluña_Exprés ¿ Desea algo más ?
+U16: No , (dc gracias) .
+M22: Gracias por utilizar este servicio . Feliz viaje .

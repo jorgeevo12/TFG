@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:22"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B505"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B505_BB2c2_T01u.ul">
+<t> <d tipo="abrir"> Buenos <l tipo="mal_pronunciada" palabra="días"> díes </l> </d> , <d tipo="rellenar"> mire </d> , necesit<a>o</a> un viaje de id<a>a</a> a La_Coruña <p/> <d tipo="editar"> entonces </d> tengo que salir <r tipo="repetición"> <m> de </m> <c> de </c> </r> Bilbao <n fuente="hablante" tipo="aspiración"/> y además lo necesito para el próximo jueves <l tipo="mal_pronunciada" palabra="además"> amás </l> me gustaría como es un asunto de trabajo <b> <r tipo="repetición"> <m> <l tipo="mal_pronunciada" palabra="poder"> poe </l> </m> <c> <l tipo="mal_pronunciada" palabra="poder"> poe </l> </c> </r> </b> si es posible me gustaría que fuera en un Talgo <p/> <d tipo="pedir"> por <l tipo="cortada" palabra="favor"> fa </l> </d> . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B505_BB2c2_T02u.ul">
+<t> Horarios y no sólo horarios <p/> , el precio también <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el jueves , día 1 de abril de 2004 ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B505_BB2c2_T03u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino La_Coruña saliendo el jueves , día 1 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Diurno que sale a las 9 y 25 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B505_BB2c2_T04u.ul">
+<t> Sí , quiero saber si ese Diurno es un Talgo o no , porque a mí me gustaría ir en Talgo . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea hacer el viaje en un Talgo ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B505_BB2c2_T05u.ul">
+<t> Sí , eso es lo que le estoy diciendo señora . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino La_Coruña saliendo el jueves , día 1 de abril de 2004 en Talgo . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B505_BB2c2_T06u.ul">
+<t> <d tipo="rellenar"> Bueno </d> , <d tipo="rellenar"> pues </d> dígame cuál es el otro tren qu<a>e</a> parte de Bilbao para La_Coruña . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Diurno ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B505_BB2c2_T07u.ul">
+<t> Quisiera saber cuál es el horario de ese Diurno , a qué hora sale de Bilbao y a qué hora llega a La_Coruña y cuál es el precio . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren sale a las 9 y 25 de la mañana y llega a las 9 y 18 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B505_BB2c2_T08u.ul">
+<t> Sí , deseo saber cuál es el precio del viaje de ida de ese tren . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 36 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B505_BB2c2_T09u.ul">
+<t> <r tipo="repetición"> <m> <l tipo="mal_pronunciada" palabra="Sí"> i </l> cuál es el <l tipo="cortada" palabra="precio"> pre </l> </m> <c> sí cuál es el precio </c> </r> en clase preferente . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren dispone de clase turista ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B505_BB2c2_T10u.ul">
+<t> <f tipo="sin_identificar"/> <f tipo="e"/> <b> Quisiera <l tipo="cortada" palabra="saber"> sabé </l> </b> , <d tipo="rellenar"> o sea </d> ¿ me está diciendo que no dispone de clase preferente ? </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Si ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B505_BB2c2_T11u.ul">
+<t> No me ha <l tipo="cortada" palabra="respondido"> respondi </l> ¡ <d tipo="exclamar"> Ah </d> ! Sí . <r tipo="repetición"> <m> <d tipo="cerrar"> Gracias </d> </m> <c> <d tipo="cerrar"> gracias </d> </c> </r> . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

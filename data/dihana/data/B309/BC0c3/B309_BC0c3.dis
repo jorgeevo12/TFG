@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , querría obtener el horario y el precio d(a e) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Murcia , (dq por favor) .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quiero viajar a Murcia .
+M4: ¿ Qué día desea salir ?
+U4: (a E)l viernes veinticinco de junio .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Murcia saliendo el viernes , día 25 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: Sí , e(a l) horario y el precio para el billete de vuelta .
+M7: Le consulto horarios de trenes con salida en Murcia destino Bilbao saliendo el viernes , día 25 de junio de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Quisiera saber (rs (m el (lu billete bille)) (c e(a l) (p) horario)) y el precio para la vuelta .
+M9: Le consulto precios de Murcia a Bilbao . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , cuánto cuesta el billete de ida , de Bilbao a Murcia .
+M11: Le consulto precios de Bilbao a Murcia . Un momento por favor .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc (lm muchas mucha) gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

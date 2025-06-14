@@ -1,0 +1,46 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería obtener el horario y tipo de tren .
+Quería obtener el horario y tipo de tren . (U:Pregunta:Hora_salida,Tipo_tren:Nil) pal: 1 - 9
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Barcelona .
+Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 2
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Quería ir a Barcelona .
+Quería ir a Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 5
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: El doce del dos del dos mil cuatro .
+El doce del dos del dos mil cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 9
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U5: El doce de febrero del dos mil cuatro .
+El doce de febrero del dos mil cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 9
+M6: ¿ Desea salir el jueves , día 12 de febrero de 2004 ? .
+¿ Desea salir el jueves , día 12 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M7: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el jueves , día 12 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el jueves , día 12 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M8: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U7: Quería saber el tipo de tren .
+Quería saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 7
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U8: Sí , quería además saber el tipo de tren .
+Sí , quería además saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 10
+M10: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+M11: Hay varios tipos de trenes . El tren más rápido es un euromed y el más lento es un regional_expres . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un euromed y el más lento es un regional_expres . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

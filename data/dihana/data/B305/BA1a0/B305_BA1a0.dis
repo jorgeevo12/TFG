@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola buenos días) , quería (p) u(a n) billete para Sevilla (p) (nl) (fe) para este viernes .
+M2: ¿ Quiere saber horarios ?
+U2: (fe) Sí , (rr (m quiero) (s (p)) (c quiero)) conocer el horario .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (nl) A Sevilla .
+M4: Quiere horarios de trenes a Sevilla ¿ desde Bilbao ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: Sí .
+M7: Si ¿ Desea algo más ?
+U6: Sí (p) , no quiero llegar más tarde de las siete de la tarde .
+M8: ¿ Quiere llegar entre las 0 de la noche y las 7 de la tarde ?
+U7: Sí .
+M9: Le consulto horarios de Bilbao a Sevilla llegando el viernes , día 5 de marzo de 2004 entre las 0 de la noche y las 7 de la tarde . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde ¿ Desea algo más ?
+U8: (nl) No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

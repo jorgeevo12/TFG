@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , (do buenos días) querría coger un tren para Ávila el próximo fin de semana .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (nl) Sí , (na) querría coger un tren para Ávila el próximo fin de semana .
+M3: ¿ Quiere saber horarios ?
+U3: (na) (fe) Sí , me gustaría saber lo(a s) horarios y precios d(a e)l Intercity .
+M4: Quiere horarios de trenes a ávila ¿ desde Zaragoza ?
+U4: Sí , y también los precios .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino ávila saliendo el sábado , día 28 de febrero de 2004 en Intercity . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ?
+U5: Sí , me gustaría saber qué precio tiene .
+M7: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Nada más , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

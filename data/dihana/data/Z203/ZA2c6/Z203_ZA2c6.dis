@@ -1,0 +1,8 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Bien) , me gustaría obten(a e)r el horario para salir este viernes para ir a Salamanca .
+M2: Quiere horarios de trenes a Salamanca ¿ desde Zaragoza ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Salamanca saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 5 y 10 de la tarde ¿ Desea algo más ?
+U3: N(a o) .
+M5: Gracias por utilizar este servicio . Feliz viaje .

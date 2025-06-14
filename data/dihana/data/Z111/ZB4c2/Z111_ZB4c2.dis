@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero ir de Castellón a Ciudad_Real .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (fe) quiero viajar el próximo fin de semana .
+M3: Quiere horarios de trenes a Ciudad_Real ¿ desde Zaragoza ?
+U3: (na) (dr N(a o)) . Quiero ir desde Castellón (nw) .
+M4: Le consulto horarios de trenes con salida en Castellón destino Ciudad_Real saliendo el sábado , día 21 de febrero de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un García_Lorca que sale a las 10 y 36 de la mañana ¿ Desea algo más ?
+U4: Sí , quiero saber a qué hora llega (p) y cuánto cuesta .
+M6: Ese tren sale a las 10 y 36 de la mañana y llega a las 4 y 24 de la tarde ¿ Desea algo más ?
+U5: Sí ¿ cuánto cuesta ?
+M7: El único tren que realiza el trayecto es un García_Lorca y su precio en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) (nw) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

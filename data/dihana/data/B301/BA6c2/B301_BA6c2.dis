@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería información sobre los trenes d(a e) Madrid a Pamplona (rr (m par(a a)) (c para)) ir a San_Fermines .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Desea salir el viernes , día 5 de marzo de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Madrid destino Pamplona saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: Sí , saber (a e)l tipo de tren .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Qué tipo de tren es .
+M7: Le consulto tipos de trenes para el trayecto Madrid a Pamplona . Un momento por favor .
+M8: Hay varios tipos de trenes con salida el viernes , día 5 de marzo de 2004 , El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U6: (fm) (a Y) (p) ¿ qué más trenes hay ?
+M9: ¿ Puede repetir su consulta ?
+U7: ¿ Hay más tipos de trenes ?
+M10: Le consulto tipos de tren . Un momento por favor .
+M11: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U8: No , (dr nada más) (p) (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

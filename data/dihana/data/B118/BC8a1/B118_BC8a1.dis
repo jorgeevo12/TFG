@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustarí(a a) saber el precio del viaj(a e) a Sevilla en Ave desde Madrid para el próximo mes de marzo (p) , saliendo el día uno y volviendo el día siete .
+M2: ¿ Desea hacer el viaje en un Ave ?
+U2: Sí .
+M3: ¿ Quiere saber horarios ?
+U3: No , solo el precio .
+M4: Quiere saber el precio a Bilbao ¿ desde Madrid ?
+U4: No , me gustaría saber (b l(a a)) el precio (fa) hasta Sevilla .
+M5: Quiere saber el precio a Sevilla ¿ desde Madrid ?
+U5: Sí .
+M6: ¿ Qué día desea salir ?
+U6: El día uno de marzo .
+M7: Le consulto precios de Madrid a Sevilla saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+M8: Los trenes son Ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: El mismo (fb) preci(a o) , (df o sea) ¿ es el mismo precio volviendo el día siete ?
+M9: Quiere saber el precio a Madrid ¿ desde Sevilla ?
+U8: (nl) Estoy interesado en saber el precio de ida y vuelta (p) saliendo el día uno y volviendo el día siete .
+M10: Le consulto precios de Sevilla a Madrid saliendo el domingo , día 7 de marzo de 2004 . Un momento por favor .
+M11: Los trenes son Ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , nada más (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

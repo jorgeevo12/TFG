@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber el precio (rr (m para) (s (fb)) (c para)) ir a San_Sebastián .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , quisiera saber el precio para ir (a a) San_Sebastián .
+M3: ¿ Qué día desea salir ?
+U3: El cuatro de julio .
+M4: ¿ Desea salir el domingo , día 4 de julio de 2004 ?
+U4: Sí .
+M5: Le consulto precios de Valencia a San_Sebastián . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

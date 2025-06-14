@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber si hay algún tren que vaya a Ávila (p) (na) (a e)l próximo viernes (p) (fb) después de las cuatro de la tarde .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Ávila .
+M4: Quiere horarios de trenes a ávila ¿ desde Bilbao ?
+U4: Sí .
+M5: ¿ Quiere salir +16:00 ?
+U5: (nw) .
+M6: ¿ Quiere salir +16:00 ?
+U6: (nw) .
+M7: Le consulto horarios de Bilbao a ávila el viernes , día 13 de febrero de 2004 entre las 4 de la tarde y las 11 de la noche . Un momento por favor .
+M8: El único tren que realiza el trayecto es un picasso que sale a las 8 y 35 de la tarde ¿ Desea algo más ?
+U7: Sí , (fe) ¿ me puede (nw decir) a qué hora llega ?
+M9: Ese tren sale a las 8 y 35 de la tarde y llega a la una y 32 de la madrugada ¿ Desea algo más ?
+U8: Sí , quería saber el precio .
+M10: El precio de ese tren en clase turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (na) ¿ Ese tren es (fe) coche cama o litera ?
+M11: Ese tren dispone de clase litera ¿ Desea algo más ?
+U10: No , nada más (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

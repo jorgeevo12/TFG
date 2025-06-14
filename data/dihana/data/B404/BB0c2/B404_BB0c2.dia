@@ -1,0 +1,81 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Mire quisiera saber los trenes que hay para viajar en primera hacia Madrid .
+Mire quisiera saber los trenes que hay para viajar en primera (U:Pregunta:Nil:Clase_billete) pal: 1 - 11
+hacia Madrid . (U:Pregunta:Nil:Destino) pal: 12 - 14
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Pues sí .
+Pues sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 3
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Pues el viernes diecinueve de marzo por la mañana si es posible .
+Pues el viernes diecinueve de marzo (U:Respuesta:Dia:Dia) pal: 1 - 6
+por la mañana si es posible . (U:Respuesta:Hora_salida:Hora_salida) pal: 7 - 13
+
+M4: ¿ Desea salir el sábado , día 13 de marzo de 2004 ? .
+¿ Desea salir el sábado , día 13 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: No , quiero salir el viernes por la mañana , el viernes diecinueve por la mañana o el jueves dieciocho por la tarde .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+quiero salir el viernes (U:Respuesta:Hora_salida:Dia) pal: 3 - 6
+por la mañana , (U:Respuesta:Hora_salida:Hora_salida) pal: 7 - 10
+el viernes diecinueve (U:Respuesta:Hora_salida:Dia) pal: 11 - 13
+por la mañana (U:Respuesta:Hora_salida:Hora_salida) pal: 14 - 16
+o el jueves dieciocho (U:Respuesta:Hora_salida:Dia) pal: 17 - 20
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 21 - 24
+
+M5: Le consulto horarios de bilbao a madrid el viernes , día 19 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de bilbao a madrid el viernes , día 19 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U5: Sí , si es posible pues el dieciocho a la tarde .
+Sí , si es posible pues el dieciocho (U:Pregunta:Hora_salida:Dia) pal: 1 - 8
+a la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 9 - 12
+
+M7: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ? .
+¿ Quiere salir entre la una de la tarde y las 9 de la noche ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+
+U6: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M8: Le consulto horarios de bilbao a madrid el jueves , día 18 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de bilbao a madrid el jueves , día 18 de marzo de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M9: El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U7: Sí , a ver cuánto cuesta .
+Sí , a ver cuánto cuesta . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+M10: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U8: Sí , ¿ es posible viajar en primera ? .
+Sí , ¿ es posible viajar en primera ? . (U:Pregunta:Precio:Clase_billete) pal: 1 - 10
+
+M11: Le consulto precios de bilbao a madrid en clase preferente . Un momento por favor .
+Le consulto precios de bilbao a madrid en clase preferente . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+M12: El único tren que realiza el trayecto es un talgo y su precio en clase preferente es 39 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo y su precio en clase preferente es 39 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

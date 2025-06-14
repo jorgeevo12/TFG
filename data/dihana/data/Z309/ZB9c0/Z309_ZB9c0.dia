@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola buenos días me gustaría obtener precios para un viaje de ida a Barcelona .
+Hola buenos días me gustaría obtener precios para un viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 12
+a Barcelona . (U:Pregunta:Precio:Destino) pal: 13 - 15
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Me gustaría ir a Barcelona .
+Me gustaría ir a Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 6
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: Me gustaría salir el día veinte de junio pero si es posible llegar a Barcelona antes de las diez y media porque tengo un concierto .
+Me gustaría salir el día veinte de junio (U:Respuesta:Dia:Dia) pal: 1 - 8
+pero si es posible llegar a Barcelona (U:Respuesta:Precio:Destino) pal: 9 - 15
+antes de las diez y media porque tengo un concierto . (U:Respuesta:Precio:Hora_llegada) pal: 16 - 26
+M4: Quiere saber el precio a barcelona , ¿ desde zaragoza ? .
+Quiere saber el precio a barcelona , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 5
+M5: Le consulto precios de zaragoza a barcelona saliendo el domingo , día 20 de junio de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a barcelona saliendo el domingo , día 20 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 29 euros la ida y el más barato es un cataluña_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 29 euros la ida y el más barato es un cataluña_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U5: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

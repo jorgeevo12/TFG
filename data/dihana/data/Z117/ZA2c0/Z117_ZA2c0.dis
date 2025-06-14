@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (do Hola) , quería saber los horarios y los tipos de trenes para ir a Castellón .
+M2: ¿ Qué día desea salir ?
+U2: El viernes o el sábado .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nw viernes o sábado) .
+M4: Quiere horarios de trenes a Castellón ¿ desde Zaragoza ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Castellón saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí (p) , (nw) (a e)l día de salida que sea el sábado .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Castellón saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche ¿ Desea algo más ?
+U6: (fe) (nw Sí , deseo viajar en preferente) .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (nw Deseo saber si hay plazas en preferente) .
+M10: Un momento por favor .
+M11: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche ¿ Desea algo más ?
+U8: (nw Sí) .
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: Quiero viajar en preferente (nw) .
+M13: Le consulto horarios de trenes con salida en Zaragoza destino Castellón saliendo el sábado , día 28 de febrero de 2004 en clase preferente . Un momento por favor .
+M14: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche ¿ Desea algo más ?
+U10: No (nw) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

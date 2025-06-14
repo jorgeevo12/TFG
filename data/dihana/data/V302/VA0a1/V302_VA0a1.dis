@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quiero un horario para un viaje de ida de Valencia a Teruel (nw) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Teruel .
+M3: ¿ Quiere viajar a Teruel ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (nl) El once de mayo .
+M5: ¿ Desea salir el martes , día 11 de mayo de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Valencia destino Teruel saliendo el martes , día 11 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 9 y 15 de la mañana y el último a las 6 y 47 de la tarde ¿ Desea algo más ?
+U6: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) Quiero ir a Pamplona (nw) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quiero ir a Pamplona .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , para el martes por la tarde (nw) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quiero ir el martes por la tarde .
+M5: Quiere horarios de trenes a Pamplona ¿ desde Zaragoza ?
+U5: Sí , (p) en Talgo .
+M6: Le consulto horarios de Zaragoza a Pamplona el martes , día 2 de marzo de 2004 entre la una de la tarde y las 9 de la noche en Talgo . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: (nw) Sí , el precio del viaje .
+M8: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

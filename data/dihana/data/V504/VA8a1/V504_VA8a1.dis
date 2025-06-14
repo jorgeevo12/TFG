@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , me gustaría saber (rs (m (a e)l) (c los)) horarios .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (do Hola buenas tardes) , me gustaría saber los horarios de los trenes que van de Zamora a Cádiz .
+M3: Quiere horarios de trenes a Cádiz ¿ desde Valencia ?
+U3: No (na) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nw) Quiero saber el horario de los trenes que van de Zamora a Cádiz .
+M5: ¿ Qué día desea salir ?
+U5: El tres de julio (na) .
+M6: ¿ Desea salir el sábado , día 3 de julio de 2004 ?
+M7: Le consulto horarios de trenes con salida en Zamora destino Cádiz saliendo el sábado , día 3 de julio de 2004 . Un momento por favor .
+U6: Sí (na) .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 3 de la noche y llega a las 7 de la mañana ¿ Desea algo más ?
+U7: Sí , quiero saber el tipo de tren (na) .
+M9: Le consulto tipos de trenes para el trayecto Zamora a Cádiz . Un momento por favor .
+M10: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Diurno ¿ Desea algo más ?
+U8: No (na) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

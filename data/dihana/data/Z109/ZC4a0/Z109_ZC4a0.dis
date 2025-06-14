@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera los horarios (p) para viajar desde Zaragoza a Bilbao (p) el veinte de marzo .
+M2: Le consulto horarios de trenes con salida en Zaragoza destino Bilbao saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M3: El único tren que realiza el trayecto es un pío_baroja que sale a las 2 y 30 de la madrugada ¿ Desea algo más ?
+U2: (nl) Quisiera los horarios para volver desde Bilbao .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (na) Quisiera los horarios de vuelta desde Bilbao .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Zaragoza saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana ¿ Desea algo más ?
+U4: (nl) Sí , quisiera saber el precio (na) .
+M7: El precio de ese tren en clase turista es 22 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

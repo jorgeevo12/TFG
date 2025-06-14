@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera obtener el precio de un viaje a Cádiz .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (nw) Quisiera obtener el precio de un viaje a Cádiz .
+M3: ¿ Qué día desea salir ?
+U3: A principios de junio .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: A principios de junio .
+M5: Quiere saber el precio a Cádiz ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto precios de Zaragoza a Cádiz saliendo el martes , día 1 de junio de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Triana y su precio en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Ir en coche cama .
+M8: Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (nw) Sí (p) viaje de vuelta .
+M10: ¿ Quiere saber horarios ?
+U8: Sí .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: No , quería saber precios .
+M12: Le consulto precios de Cádiz a Zaragoza saliendo el martes , día 1 de junio de 2004 . Un momento por favor .
+M13: El único tren que realiza el trayecto es un extremadura y su precio en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí , volver a mediados del mismo mes .
+M14: Le consulto precios de Cádiz a Zaragoza saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+M15: El único tren que realiza el trayecto es un extremadura y su precio en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No .
+M16: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pues) , querría saber el preci(a o) (p) par(a a) pasar un fin de semana en Galicia .
+M2: ¿ Quiere viajar desde Valencia ?
+U2: (rr (m No) (c no)) , (b desd(a e)) salida en Valladolid y llegada a Vigo .
+M3: ¿ Qué día desea salir ?
+U3: (df Pues) preferiría sal(a i)r la primera semana de julio del uno al cuatro .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Alrededor del uno al cuatro de julio (p) y en un tren rápido si fuese posible .
+M5: Le consulto precios de Valladolid a Vigo saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más rápido es un Intercity que cuesta 40 con 50 euros la ida y el más lento es un Tren_Hotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (df Pues) sí , porque se ha equivocado quiero (p) del uno al cuatro de julio .
+M7: Le consulto precios de Valladolid a Vigo saliendo el domingo , día 4 de julio de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más rápido es un Intercity que cuesta 40 con 50 euros la ida y el más lento es un Tren_Hotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (fe) Sí ¿ puede repetirme el precio del tren rápido ?
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

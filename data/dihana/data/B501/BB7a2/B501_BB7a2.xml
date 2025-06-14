@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:21"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B501"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B501_BB7a2_T01u.ul">
+<t> <d tipo="rellenar"> Pues </d> quería saber <r tipo="sustitución"> <m> <a>e</a>l precio entr<a>e</a> </m> <s> <p/> <f tipo="e"/> </s> <c> el precio de </c> </r> <a>u</a>n viaje de ida <r tipo="repetición"> <m> <a>a</a> </m> <s> <n fuente="hablante" tipo="aspiración"/> <p/> </s> <c> a </c> </r> Valencia . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere llegar a Valencia ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B501_BB7a2_T02u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Quiere saber el precio a Valencia ¿ desde Bilbao ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B501_BB7a2_T03u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B501_BB7a2_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Puede repetir su consulta ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B501_BB7a2_T05u.ul">
+<t> Sí , quería saber el precio <r tipo="sustitución"> <m> del viaje </m> <c> de un viaje </c> </r> a Valencia . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B501_BB7a2_T06u.ul">
+<t> El <l tipo="mal_pronunciada" palabra="treinta"> trenta </l> de marzo . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B501_BB7a2_T07u.ul">
+<t> <f tipo="e"/> Sí el <l tipo="mal_pronunciada" palabra="treinta"> trenta </l> de marzo . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Valencia saliendo el martes , día 30 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B501_BB7a2_T08u.ul">
+<t> <d tipo="rellenar"> Bueno </d> , <d tipo="rellenar"> pues </d> que salgan desd<a>e</a> el día . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B501_BB7a2_T09u.ul">
+<t> <f tipo="e"/> Sí , quisiera que el tren salga entre las fechas <p/> del día veintiséis al treinta y uno de marzo <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Valencia saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B501_BB7a2_T10u.ul">
+<t> <d tipo="rellenar"> Pues </d> que salga el veint<a>i</a>siete de marzo o el veintiocho de marzo <p/> o el veintinueve de marzo . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Valencia saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B501_BB7a2_T11u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <d tipo="rellenar"> Pues entonces </d> <f tipo="a"/> el veintiocho de marzo . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Valencia saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B501_BB7a2_T12u.ul">
+<t> <d tipo="rellenar"> Bueno pues </d> en vez de <a>a</a> Valencia me voy a ir a Palencia . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere llegar a Palencia ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B501_BB7a2_T13u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Bilbao a Palencia saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="B501_BB7a2_T14u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> ¿ Hay otros trenes que no sean Talgo o Intercity ? </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 21 sistema -->
+<turno id="M_021" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 15 usuario -->
+<turno id="U_015" hablante="usuario" fichero_audio_ss="B501_BB7a2_T15u.ul">
+<t> No , <d tipo="cerrar"> nada más </d> . </t>
+</turno>
+
+<!-- Turno 22 sistema -->
+<turno id="M_022" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

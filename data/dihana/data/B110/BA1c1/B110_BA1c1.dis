@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería preguntar el horari(a o) para un viaje de ida desde Lleida .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Lleida .
+M3: ¿ Qué día desea salir ?
+U3: (nl) Quiero ir el viernes y (fb) llegar antes de las seis de la tarde .
+M4: Le consulto horarios de Bilbao a Lérida llegando el viernes , día 6 de febrero de 2004 entre las 0 de la noche y las 6 de la tarde . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana ¿ Desea algo más ?
+U4: No , (dc muchas gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Quería saber (rr (m (a e)l) (c el)) horario del tren (p) a Sevilla (p) entre (a e)l dieciocho y el veinte de abril .
+M2: Le consulto horarios de trenes con salida en Valencia destino Sevilla saliendo el domingo , día 18 de abril de 2004 . Un momento por favor .
+M3: El único tren que realiza el trayecto es un García_Lorca que sale 11:30 ¿ Desea algo más ?
+U2: (a Y) (fe) los días diecinueve y veinte ¿ (rr (m qu(a é)) (s (p)) (c qué)) posibilidad hay de horarios ?
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Sí , quiero saber el horario (p) , para Sevilla también (p) , pero los días diecinueve y veinte de abril .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (fe) Quiero saber horarios (p) , con destino Sevilla , (rs (m para el día diecinueve) (c para los días diecinueve)) y veinte de abril .
+M6: Le consulto horarios de trenes con salida en Valencia destino Sevilla saliendo el lunes , día 19 de abril de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un García_Lorca que sale 11:30 ¿ Desea algo más ?
+U5: Quiero saber cuál de los dos trenes (rr (m es (lm más mal) (lu rápido ra)) (c es más rápido)) si el diecioch(a o) (fb) o el del diecinueve .
+M8: El primer y último tren es un García_Lorca con salida 11:30 , llegada 20:18 y tarda 8 horas y 48 minutos ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

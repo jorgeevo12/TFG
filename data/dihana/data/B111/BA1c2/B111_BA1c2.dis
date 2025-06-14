@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera un billete de ida (p) para Madrid .
+M2: ¿ Quiere viajar desde Madrid ?
+U2: Sí .
+M3: ¿ Quiere saber horarios ?
+U3: Sí .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Madrid .
+M5: Quiere horarios de trenes a Madrid ¿ desde Madrid ?
+U5: No .
+M6: ¿ Quiere viajar desde Bilbao ?
+U6: Sí , quiero viajar desde Bilbao .
+M7: ¿ Qué día desea salir ?
+U7: El día cinco de octubre del dos mil cuatro .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: El día cinco de octubre del dos mil cuatro .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 5 de octubre de 2004 . Un momento por favor .
+M10: Sólo hay dos trenes . El primero sale a las 4 y 30 de la tarde y el otro a las 11 y 5 de la noche ¿ Desea algo más ?
+U9: No , es suficiente , (p) (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

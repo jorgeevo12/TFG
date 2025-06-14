@@ -1,0 +1,32 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera obtener el horario y el precio para un viaje de ida y otro de vuelta (nl) (p) de Madrid a Sevilla . Sería el próximo lunes a (lm partir partí) de las dos la ida (p) y el próximo jueves a partir de las cinco (fb) .
+M2: ¿ Desea salir el jueves , día 4 de marzo de 2004 ?
+U2: No , (nw quiero) salir el lunes próximo .
+M3: ¿ Desea salir el lunes , día 1 de marzo de 2004 ?
+U3: Sí .
+M4: ¿ Quiere salir entre las 5 de la tarde y las 11 de la noche ?
+U4: Sí .
+M5: Le consulto horarios de Madrid a Sevilla el lunes , día 1 de marzo de 2004 entre las 5 de la tarde y las 11 de la noche . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 de la tarde y el último a las 10 de la noche ¿ Desea algo más ?
+U5: (nl) Sí , quiero un billete para la vuelta sería de Sevilla a Madrid (nl) (ri (m a partir) (s (fe)) (c el jueves a partir)) de la(a s) (nw) (fe) cinco de la tarde (nw) .
+M7: ¿ Me pregunta por horarios ?
+U6: Horarios y precios .
+M8: ¿ Desea salir el jueves , día 26 de febrero de 2004 ?
+U7: No , e(a l) jueve(a s) .
+M9: ¿ Desea salir el jueves , día 4 de marzo de 2004 ?
+U8: Sí .
+M10: ¿ Quiere salir entre las 7 de la tarde y las 11 de la noche ?
+U9: Sí (nw) .
+M11: Le consulto horarios de Sevilla a Madrid el jueves , día 4 de marzo de 2004 entre las 7 de la tarde y las 11 de la noche . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 de la tarde y el último a las 10 de la noche ¿ Desea algo más ?
+U10: Quisiera saber los precios (nw) .
+M13: Le consulto precios de Sevilla a Madrid . Un momento por favor .
+M14: Los trenes son Ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: ¿ Hay algú(a n) Ave disponible ?
+M15: Un momento por favor .
+M16: Los trenes son Ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: Quisiera saber (nw el precio) para el billete de ida de Madrid a Sevilla (p) el próximo lunes .
+M17: Le consulto precios de Madrid a Sevilla . Un momento por favor .
+M18: Los trenes son Ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: No , (dc gracias) .
+M19: Gracias por utilizar este servicio . Feliz viaje .

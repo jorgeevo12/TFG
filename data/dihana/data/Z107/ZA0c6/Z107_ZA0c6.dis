@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df A ver) , llamaba para obtener el horari(a o) d(a e) un tren para ir de Madrid Zaragoza para el próximo sábado día veintiocho de febrero .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: Desearía obtener un horario de trenes .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (nw) .
+M4: ¿ A qué ciudad desea viajar ?
+U4: (nw) Deseo ir a (lm Madrid Madrí) desde Zaragoza (p) el próximo sábado día veintiocho de febrero .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U5: No , nada más (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

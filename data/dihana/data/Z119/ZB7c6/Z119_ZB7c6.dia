@@ -1,0 +1,57 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , me gustaría saber precios para un viaje de ida a Toledo .
+Hola , me gustaría saber precios para un viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 11
+a Toledo . (U:Pregunta:Precio:Destino) pal: 12 - 14
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Sí , me gustaría saber precios para Toledo .
+Sí , me gustaría saber precios para Toledo . (U:Pregunta:Precio:Destino) pal: 1 - 9
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: A Toledo .
+A Toledo . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Salir el próximo sábado .
+Salir el próximo sábado . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M5: Quiere saber el precio a toledo , ¿ desde zaragoza ? .
+Quiere saber el precio a toledo , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U5: Sí , y me gustaría viajar en talgo si fuese posible .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+y me gustaría viajar en talgo si fuese posible . (U:Respuesta:Precio:Tipo_tren) pal: 3 - 12
+
+M6: Le consulto precios de zaragoza a toledo en tipo tren talgo . Un momento por favor .
+Le consulto precios de zaragoza a toledo en tipo tren talgo . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+M7: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U6: Sí , me gustaría saber el precio del coche cama .
+Sí , me gustaría saber el precio del coche cama . (U:Pregunta:Precio:Clase_billete) pal: 1 - 11
+
+M8: Le consulto precios de zaragoza a toledo en clase cama . Un momento por favor .
+Le consulto precios de zaragoza a toledo en clase cama . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U7: No , gracias eso es todo .
+No , gracias eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

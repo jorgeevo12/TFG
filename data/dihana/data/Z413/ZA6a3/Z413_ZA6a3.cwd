@@ -1,0 +1,86 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: , Mira , quería un billete para ir de $C_ORIGEN<Barcelona> a $C_DESTINO<La_Coruña> .
+, Mira , quería un billete para ir de $C_ORIGEN<Barcelona> (U:Pregunta:Nil:Origen) pal: 1 - 10
+a $C_DESTINO<La_Coruña> . (U:Pregunta:Nil:Destino) pal: 11 - 13
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: Sí , quería saber un tren para el $FECHA<veinte de septiembre> .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+quería saber un tren para el $FECHA<veinte de septiembre> . (U:Respuesta:Hora_salida:Dia) pal: 3 - 12
+
+
+M3: Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<la_coruña> saliendo el $FECHA<lunes , día 20 de septiembre de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<la_coruña> saliendo el $FECHA<lunes , día 20 de septiembre de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M4: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U3: Que el tren salga el $FECHA<diecinueve de septiembre> .
+Que el tren salga el $FECHA<diecinueve de septiembre> . (U:Pregunta:Hora_salida:Dia) pal: 1 - 9
+
+
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<la_coruña> saliendo el $FECHA<domingo , día 19 de septiembre de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<la_coruña> saliendo el $FECHA<domingo , día 19 de septiembre de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: El único tren que realiza el trayecto es un $T_TREN<covadonga> que sale a las $HSAL<7 y 30 de la mañana> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<covadonga> que sale a las $HSAL<7 y 30 de la mañana> . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U4: Sí , saber el tipo de tren .
+Sí , saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 8
+
+
+M7: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+
+M8: El único tren que realiza el trayecto es un $T_TREN<covadonga> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<covadonga> . (M:Respuesta:Tipo_tren:Numero_trenes,Tipo_tren) pal: 1 - 11
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 12 - 16
+
+
+U5: Sí , buscar otra fecha entre el $FECHA<diecisiete de septiembre> y el $FECHA<veintiuno de septiembre> , en $T_TREN<talgo> .
+Sí , buscar otra fecha entre el $FECHA<diecisiete de septiembre> y el $FECHA<veintiuno de septiembre> , (U:Pregunta:Hora_salida:Dia) pal: 1 - 16
+en $T_TREN<talgo> . (U:Pregunta:Hora_salida:Tipo_tren) pal: 17 - 19
+
+
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U6: Quiero un , un viaje en tren $T_TREN<talgo> en una fecha que esté comprendida entre el $FECHA<diecisiete> y el $FECHA<veintiuno de septiembre> .
+Quiero un , un viaje en tren $T_TREN<talgo> (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+en una fecha que esté comprendida entre el $FECHA<diecisiete> y el $FECHA<veintiuno de septiembre> . (U:Pregunta:Hora_salida:Dia) pal: 9 - 23
+
+
+M10: Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<la_coruña> saliendo el $FECHA<viernes , día 17 de septiembre de 2004> en $T_TREN<talgo> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<la_coruña> saliendo el $FECHA<viernes , día 17 de septiembre de 2004> en $T_TREN<talgo> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

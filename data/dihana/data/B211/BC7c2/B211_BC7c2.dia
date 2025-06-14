@@ -1,0 +1,44 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola buenas tardes , me gustaría saber el precio de un viaje de ida y vuelta a Cádiz , por favor .
+Hola buenas tardes , me gustaría saber el precio de un viaje de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 16
+a Cádiz , por favor . (U:Pregunta:Precio:Destino) pal: 17 - 22
+M2: Quiere saber el precio a zaragoza , ¿ desde madrid ? .
+Quiere saber el precio a zaragoza , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde madrid ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U2: No , desde Bilbao a Cádiz .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Bilbao (U:Respuesta:Precio:Origen) pal: 3 - 4
+a Cádiz . (U:Respuesta:Precio:Destino) pal: 5 - 7
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: A principios de junio .
+A principios de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M4: ¿ Desea salir el martes , día 1 de junio de 2004 ? .
+¿ Desea salir el martes , día 1 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Sí , perfecto .
+Sí , perfecto . (U:Afirmacion:Dia:Nil) pal: 1 - 4
+M5: Le consulto precios de bilbao a cádiz saliendo el martes , día 1 de junio de 2004 . Un momento por favor .
+Le consulto precios de bilbao a cádiz saliendo el martes , día 1 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U5: Sí , el viaje de vuelta me gustaría que fuese el día quince .
+Sí , el viaje de vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 6
+me gustaría que fuese el día quince . (U:Pregunta:Nil:Dia) pal: 7 - 14
+M7: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U6: Sí , por favor , y me gustaría en coche cama .
+Sí , por favor , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+y me gustaría en coche cama . (U:Respuesta:Hora_salida:Clase_billete) pal: 6 - 12
+M8: Le consulto precios de cádiz a bilbao saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+Le consulto precios de cádiz a bilbao saliendo el martes , día 15 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M9: Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U7: ¡ No ! , eso es todo , muchas gracias .
+¡ No ! , eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 11
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

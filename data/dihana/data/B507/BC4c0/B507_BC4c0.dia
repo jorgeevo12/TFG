@@ -1,0 +1,70 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera el horario y el precio de un viaje Burgos Valladolid para el domingo por la tarde .
+Quisiera el horario y el precio de un viaje Burgos (U:Pregunta:Hora_salida,Precio:Origen) pal: 1 - 10
+Valladolid (U:Pregunta:Hora_salida,Precio:Destino) pal: 11 - 11
+para el domingo (U:Pregunta:Hora_salida,Precio:Dia) pal: 12 - 14
+por la tarde . (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 15 - 18
+M2: ¿ A qué ciudad desea llegar ? .
+¿ A qué ciudad desea llegar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Valladolid .
+Valladolid . (U:Respuesta:Destino:Destino) pal: 1 - 2
+M3: Quiere horarios de trenes a valladolid , ¿ desde bilbao ? .
+Quiere horarios de trenes a valladolid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: No , de Burgos .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+de Burgos . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+M4: ¿ Quiere salir desde burgos ? .
+¿ Quiere salir desde burgos ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U5: El domingo por la tarde .
+El domingo (U:Respuesta:Dia:Dia) pal: 1 - 2
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 6
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: El domingo por la tarde .
+El domingo (U:Respuesta:Dia:Dia) pal: 1 - 2
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 6
+M7: Le consulto horarios de burgos a valladolid el domingo , día 4 de abril de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de burgos a valladolid el domingo , día 4 de abril de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M8: Hay varios trenes . El primero sale a las 3 de la tarde y el último a las 8 y 35 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 de la tarde y el último a las 8 y 35 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U7: Sí , el precio .
+Sí , el precio . (U:Pregunta:Precio:Nil) pal: 1 - 5
+M9: Le consulto precios de burgos a valladolid saliendo el domingo , día 4 de abril de 2004 . Un momento por favor .
+Le consulto precios de burgos a valladolid saliendo el domingo , día 4 de abril de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M10: Hay varios trenes . En clase turista , el tren más caro es un diurno que cuesta 12 euros la ida y el más barato es un regional que cuesta 6 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un diurno que cuesta 12 euros la ida y el más barato es un regional que cuesta 6 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 50
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 51 - 55
+U8: Sí , quisiera el horario de viaje de vuelta para el martes .
+Sí , quisiera el horario de viaje de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+para el martes . (U:Pregunta:Hora_salida:Dia) pal: 10 - 13
+M11: Le consulto horarios de trenes con salida en valladolid destino burgos saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valladolid destino burgos saliendo el martes , día 6 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M12: Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y el último a las 8 y 11 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y el último a las 8 y 11 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U9: Sí , el horario y el precio de las doce del mediodía .
+Sí , el horario y el precio de las doce del mediodía . (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 1 - 13
+M13: ¿ Quiere salir entre las 11 y 30 y las 12 y 30 de la mañana ? .
+¿ Quiere salir entre las 11 y 30 y las 12 y 30 de la mañana ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 18
+U10: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M14: Le consulto horarios de valladolid a burgos el martes , día 6 de abril de 2004 entre las 11 y 30 y las 12 y 30 de la mañana . Un momento por favor .
+Le consulto horarios de valladolid a burgos el martes , día 6 de abril de 2004 entre las 11 y 30 y las 12 y 30 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+M15: Sólo hay dos trenes . El primero sale a las 11 y 47 de la mañana y el otro a las 12 y 25 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 11 y 47 de la mañana y el otro a las 12 y 25 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+U11: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

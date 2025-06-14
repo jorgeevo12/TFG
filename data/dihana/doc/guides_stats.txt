@@ -1,0 +1,51 @@
+SIZE (#bytes)
+=============
+
+dihana1    33444367
+dihana2    33643742
+dihana3    27171974
+dihana4    31862563
+dihana5    29490534
+
+
+GENDER DISTRIBUTION
+===================
+
+                #men        #women
+
+dihana1          31          14
+dihana2          28          17
+dihana3          30          15
+dihana4          29          16
+dihana5          35          10
+
+            #bytes men  #bytes women
+
+dihana1       23938210       9506157
+dihana2       20382381      13261361
+dihana3       17490543       9681431
+dihana4       20352851      11509712
+dihana5       23405492       6085042
+
+
+SITE DISTRIBUTION
+=================
+                            #bytes
+
+             Bilbao        Valencia        Zaragoza
+
+dihana1    12709362         9805944        10929061
+dihana2    14408276         9851070         9384396
+dihana3     9952700         8537277         8681997
+dihana4    12457884         8150817        11253862
+dihana5    11044641         7611333        10834560
+
+                           gender
+							
+            Bilbao        Valencia        Zaragoza
+
+dihana1      9/6            11/4            11/4
+dihana2      8/7            10/5            10/5
+dihana3     11/4            10/5             9/6
+dihana4      4/11           10/5            15/0
+dihana5     11/4            13/2            11/4

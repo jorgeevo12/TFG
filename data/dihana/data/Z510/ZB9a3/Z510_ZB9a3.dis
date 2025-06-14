@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Buenas tardes) me gustarí(a a) saber el precio (rr (m d(a e)) (c de)) un viaje de ida (p) d(a e) Ciudad_Real a Sevilla (p) para el veinte de julio (p) al mediodía , si pudiera ser Talgo (p) y con litera (dq por favor) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Sevilla .
+M3: ¿ Qué día desea salir ?
+U3: El veinte de julio .
+M4: Quiere saber el precio a Sevilla ¿ desde Zaragoza ?
+U4: No (na) , desde Ciudad_Real (na) .
+M5: Le consulto precios de Ciudad_Real a Sevilla saliendo el martes , día 20 de julio de 2004 . Un momento por favor .
+M6: Los trenes son Ave y en clase turista , el billete cuesta 41 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: ¿ No hay trenes Talgo (p) o con litera ?
+M7: ¿ Desea hacer el viaje en un Talgo ?
+U6: Sí (na) .
+M8: Le consulto precios de Ciudad_Real a Sevilla en tipo tren Talgo . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (na) Me gustaría viajar en litera (na) (nw) .
+M10: Le consulto precios . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: No , (dc gracias) (na) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

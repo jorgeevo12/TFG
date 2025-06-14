@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el precio de un viaje de Santander a Bilbao .
+M2: ¿ Qué día desea salir ?
+U2: Quería salir un domingo de agosto (p) , un domingo cualquiera .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nt) Un domingo de agosto (p) por la tarde (p) en un Intercity .
+M4: Le consulto precios de Santander a Bilbao saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (fb) Quiero salir el día ocho de agosto .
+M6: Le consulto precios de Santander a Bilbao saliendo el domingo , día 8 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Quería salir por la tarde .
+M8: Un momento por favor .
+M9: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Quería saber los trenes (nw que hay (rr (m el) (s (fb)) (c el)) quince de agosto) .
+M10: Le consulto precios de Santander a Bilbao saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Quería saber los trenes que hay (p) (a e)l día veintidós de agosto por la tarde (p) y en Intercity .
+M12: Le consulto precios de Santander a Bilbao en tipo tren Intercity . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Quería ir el domingo veintidós de agosto .
+M14: Le consulto precios de Santander a Bilbao saliendo el domingo , día 22 de agosto de 2004 . Un momento por favor .
+M15: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: (nl) Querí(a a) buscar un tren para el veintinueve de agosto (p) por la tarde y Intercity .
+M16: Le consulto precios de Santander a Bilbao saliendo el domingo , día 29 de agosto de 2004 . Un momento por favor .
+M17: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: (fm) No .
+M18: Gracias por utilizar este servicio . Feliz viaje .

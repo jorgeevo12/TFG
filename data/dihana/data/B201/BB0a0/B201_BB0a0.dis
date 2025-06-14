@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , quería un billete de tren par(a a) ir a alguna ciudad que celebre carnavales .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (df Pues) no sé , por ejemplo Cádiz .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nl) A Cádiz .
+M4: Quiere horarios de trenes a Cádiz ¿ desde Bilbao ?
+U4: (nl) Sí , para algún fin de semana de febrero por ejemplo (b d(a e)l) el viernes veinte o el sábado veintiuno (na) .
+M5: ¿ Desea salir el viernes , día 20 de febrero de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Cádiz saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: (na) Sí , quisiera saber los precios d(a e) los trenes (dq por favor) .
+M8: Le consulto precios de Bilbao a Cádiz . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , eso es todo , (dc muchísimas gracias) (nw) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

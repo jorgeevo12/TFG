@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (do Hola buenos días) , llamaba par(a a) obtener el precio de un viaje de ida a Alicante .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Alicante .
+M3: ¿ Qué día desea salir ?
+U3: El próximo lunes .
+M4: ¿ Desea salir el viernes , día 23 de abril de 2004 ?
+U4: No (p) , deseo salir el lunes veintiséis de abril de dos mil cuatro .
+M5: Quiere saber el precio a Alicante ¿ desde Zaragoza ?
+U5: Sí , y también el horario .
+M6: Le consulto precios de Zaragoza a Alicante saliendo el lunes , día 26 de abril de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Horario de un tren para Alicante el martes veintisiete de abril de dos mil cuatro .
+M9: Le consulto horarios de trenes con salida en Zaragoza destino Alicante saliendo el martes , día 27 de abril de 2004 . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (nl) Horario de un tren que salga de Zaragoza para Alicante el domingo veinticinco de abril de dos mil cuatro .
+M11: Le consulto horarios de trenes con salida en Zaragoza destino Alicante saliendo el domingo , día 25 de abril de 2004 . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

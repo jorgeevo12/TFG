@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quisiera ir a Barcelona en agosto .
+M2: Puede repetir de manera clara lo último que ha dicho , por favor .
+U2: (do Hola) , quisiera ir a Barcelona (p) en agosto .
+M3: ¿ Me pregunta por horarios ?
+U3: Sí , horarios para el día quince .
+M4: Horarios para llegar a Barcelona ¿ saliendo el domingo , día 15 de agosto de 2004 ?
+U4: Sí .
+M5: Le consulto horarios . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 45 de la tarde ¿ Desea algo más ?
+U5: ¿ Qué precio tiene el primer Euromed ?
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: ¿ Qué precio tiene el primer Euromed ?
+M8: Le consulto precios de Valencia a Barcelona en tipo tren Euromed . Un momento por favor .
+M9: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: ¿ A qué hora sale el primer (p) Euromed ?
+M10: Ese tren sale a las 8 y 35 de la mañana y llega a las 11 y 33 de la mañana ¿ Desea algo más ?
+U8: Nada más , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

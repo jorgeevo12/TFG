@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero saber el precio para ir a Valencia (na) el sábado por la mañana en Euromed .
+M2: ¿ Qué día desea salir ?
+U2: (na) El sábado por la mañana .
+M3: Le consulto precios de Zaragoza a Valencia saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (na) Sí , quiero ir desde Barcelona .
+M5: Le consulto precios de Barcelona a Valencia saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M6: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (na) Sí , quiero saber el precio del viaje de vuelta .
+M7: Le consulto precios de Valencia a Barcelona saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M8: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , quiero saber el precio de vuelta para el domingo por la tarde .
+M9: Le consulto precios de Valencia a Barcelona saliendo el domingo , día 21 de marzo de 2004 . Un momento por favor .
+M10: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

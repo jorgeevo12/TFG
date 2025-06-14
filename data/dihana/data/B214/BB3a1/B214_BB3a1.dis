@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenas tardes) , me gustaría saber el horario y el precio (na) de los trenes con destin(a o) a Cáceres (p) para mañana sábado por la tarde .
+M2: Quiere horarios de trenes a Cáceres ¿ desde Zaragoza ?
+U2: (na) No , quiero horario de trenes a Cáceres desde Bilbao .
+M3: ¿ Qué día desea salir ?
+U3: Mañana sábado .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Mañana sábado .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Cáceres saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: Sí , quiero saber solamente los trenes que salen por la tarde .
+M7: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ?
+U6: Sí .
+M8: Le consulto horarios de Bilbao a Cáceres el sábado , día 28 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U7: (na) Sí , (dq por favor) ¿ me dice cuál es el precio del billete ? (na) .
+M10: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: (nl) No , (dc gracias) , eso es todo (na) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

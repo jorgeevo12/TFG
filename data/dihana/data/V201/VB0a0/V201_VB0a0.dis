@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola buenas tardes) , (rr (m (lu quería que)) (s (fe)) (c quería)) saber (p) los trenes que van a Cádiz los días (lm veinte vente) y (lm veintiuno ventiuno) de febrero , (dq por favor) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería saber los trenes que van a Cádiz los días (lm veinte vente) y (lm veintiuno ventiuno) de febrero , (dq por favor) .
+M3: ¿ Me pregunta por horarios ?
+U3: (nl) Sí .
+M4: ¿ Quiere viajar a Cádiz ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Cádiz saliendo el lunes , día 21 de febrero de 2005 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (fe) Quería saber el precio (b de l(a a))del tren de (lu las la) once de la noche , (dq por favor) .
+M7: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , quería saber (nw) .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Quería saber el precio (p) del tren de las siete (p) de la mañana .
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería conocer horarios de trenes a $C_DESTINO entre el $FECHA y el $FECHA .
+Quería conocer horarios de trenes a $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 1 - 7
+entre el $FECHA y el $FECHA . (U:Pregunta:Hora_salida:Dia) pal: 8 - 18
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: Entre el $FECHA y el $FECHA .
+Entre el $FECHA y el $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M3: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: No , el día $FECHA .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+el día $FECHA . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+M4: Quiere horarios de trenes a $C_DESTINO , ¿ desde $C_ORIGEN ? .
+Quiere horarios de trenes a $C_DESTINO , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí , el día $FECHA .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+el día $FECHA . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U5: ¿ Qué precio tiene el billete ? .
+¿ Qué precio tiene el billete ? . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+M7: El precio de ese tren en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U6: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

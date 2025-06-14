@@ -1,0 +1,41 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Pues sí quisiera saber el precio de los trenes con destino a Cádiz en viaje de ida .
+Pues sí quisiera saber el precio de los trenes con destino a Cádiz (U:Pregunta:Precio:Destino) pal: 1 - 13
+en viaje de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 14 - 18
+
+M2: ¿ A qué ciudad desea llegar ? .
+¿ A qué ciudad desea llegar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Cádiz , me gustaría que fuera un coche cama si es posible .
+A Cádiz , (U:Respuesta:Destino:Destino) pal: 1 - 3
+me gustaría que fuera un coche cama si es posible . (U:Respuesta:Precio:Clase_billete) pal: 4 - 14
+
+M3: Quiere saber el precio a cádiz , ¿ desde bilbao ? .
+Quiere saber el precio a cádiz , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí eso es , en coche cama .
+Sí eso es , (U:Afirmacion:Origen:Nil) pal: 1 - 4
+en coche cama . (U:Respuesta:Precio:Clase_billete) pal: 5 - 8
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Pues a poder ser el ventiuno de junio .
+Pues a poder ser el ventiuno de junio . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M5: Le consulto precios de bilbao a cádiz en clase cama . Un momento por favor .
+Le consulto precios de bilbao a cádiz en clase cama . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+M6: Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U5: No muchas gracias .
+No muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

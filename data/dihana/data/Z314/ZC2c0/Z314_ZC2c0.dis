@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Querría un tren para Santander el quince de agosto .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (p) para el quince de agosto .
+M3: Quiere horarios de trenes a Santander ¿ desde Zaragoza ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Santander saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: (nl) Querría saber horarios de vuelta (p) el veinte de agosto .
+M6: Le consulto horarios de trenes con salida en Santander destino Zaragoza saliendo el viernes , día 20 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (nl) Querría saber el precio del más barato .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Querría saber el horario del más barato .
+M9: Ese tren sale a las 10 y 3 de la noche y llega a las 7 de la mañana ¿ Desea algo más ?
+U7: Querría saber el horario (p) de .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Querría un tren que saliera (p) a partir de las cinco de la tarde .
+M11: Le consulto horarios de Santander a Zaragoza el viernes , día 20 de agosto de 2004 >=17:00 . Un momento por favor .
+M12: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U9: Nada más , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

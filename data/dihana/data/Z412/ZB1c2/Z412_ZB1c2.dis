@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , (na) (df mire) , querrí(a a) ir a Barcelona a (fa) la inaguración de una exposición fotográfica (fe) y tendría que estar allí el catorce de junio a las siete de la tarde ¿ Me podría decir (nw qué horarios hay que me permita llegar a esta hora y qué precios) ?
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (df por favor) , horarios y precios .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Barcelona , (dq por favor) .
+M4: ¿ Qué día desea salir ?
+U4: (nw) Sí , (fe) como le he dicho antes es el catorce de junio por la mañana pronto (na) .
+M5: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U5: Sí , (dq por favor) (na) .
+M6: Le consulto horarios de Zaragoza a Barcelona el lunes , día 14 de junio de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 10 de la mañana y llega a las 2 de la tarde y el último sale a las 12 y 20 de la mañana y llega a las 5 y 13 de la tarde ¿ Desea algo más ?
+U6: (nl) Sí , (dq por favor) ¿ me podría repetir los horarios (nw y decirme) el precio de ellos ? (na) (nw) .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc muchas gracias) (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

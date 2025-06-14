@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el precio de un billete de ida (p) a La_Coruña .
+M2: ¿ Qué día desea salir ?
+U2: El quince de junio .
+M3: ¿ Desea salir el martes , día 15 de junio de 2004 ?
+U3: Sí .
+M4: Le consulto precios de Valencia a La_Coruña saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí , (p) quería saber en qué tipos de tren puedo viajar .
+M6: Le consulto tipos de tren . Un momento por favor .
+M7: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U5: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

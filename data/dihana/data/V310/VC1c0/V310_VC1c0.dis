@@ -1,0 +1,39 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querí(a a) saber el horario y precio (p) (na) de (a u)n viaje de ida (p) y un viaje de vuelta .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (a A) Madrid (p) , antes de l(a a)s diez y media .
+M4: ¿ Qué día desea salir ?
+U4: El lunes antes de las diez y media de la noche .
+M5: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+U5: El lunes , (p) antes de las diez y media de la noche .
+M6: ¿ Qué día desea salir ?
+U6: (a E)l jueves , no (fe) .
+M7: Perdón . No consigo entenderle .
+U7: El lunes .
+M8: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y llega a las 10 y 17 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U8: S(a í) , saber el precio .
+M10: Le consulto precios de Valencia a Madrid . Un momento por favor .
+M11: Hay varios trenes . En clase turista , el tren más caro es un Alaris que cuesta 36 con 50 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí (p) , (a e)l horario d(a e) (p) un tren que vuelva .
+M12: ¿ Desea salir el lunes , día 23 de febrero de 2004 ?
+U10: Sí .
+M13: ¿ Desea salir el lunes , día 23 de febrero de 2004 ?
+U11: (a S)í .
+M14: Le consulto horarios de trenes con salida en Madrid destino Valencia saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M15: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 10 y 30 de la mañana y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche ¿ Desea algo más ?
+U12: Sí (p) , uno qu(a e) vuelva el jueves después de las dos de la tarde .
+M16: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+U13: Que vuelva el jueves (p) después de las dos de la tarde .
+M17: ¿ Desea salir el jueves , día 26 de febrero de 2004 ?
+U14: Sí .
+M18: Le consulto horarios de trenes con salida en Madrid destino Valencia saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+M19: Le consulto horarios . Un momento por favor .
+M20: Hay varios trenes . El primero sale a las 2 de la tarde y llega a las 5 y 27 de la tarde y el último sale a las 8 y 20 de la tarde y llega a las 11 y 45 de la noche ¿ Desea algo más ?
+U15: Sí , saber los precios .
+M21: Le consulto precios de Madrid a Valencia . Un momento por favor .
+M22: Los trenes son Alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U16: No .
+M23: Gracias por utilizar este servicio . Feliz viaje .

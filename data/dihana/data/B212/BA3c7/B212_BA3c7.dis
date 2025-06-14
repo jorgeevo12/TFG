@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (rr (m Quisiera) (s (p)) (c quisiera)) saber cuándo hay un tren a Madrid (p) para el próximo miércoles (fb) en un tren Alaris si es posible .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Madrid .
+M4: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el miércoles , día 3 de marzo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

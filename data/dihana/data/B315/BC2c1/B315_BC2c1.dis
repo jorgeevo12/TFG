@@ -1,0 +1,29 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero un viaje de ida y vuelta a Sevilla .
+M2: ¿ Quiere viajar desde Sevilla ?
+U2: No , (p) quiero viajar (p) a Sevilla .
+M3: ¿ Quiere saber horarios ?
+U3: (na) Sí .
+M4: Quiere horarios de trenes a Sevilla ¿ desde Bilbao ?
+U4: Sí (p) , el día uno de agosto .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (nl) Sí , que el tren sea Ave .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: El tren (p) sea un Ave .
+M8: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 en Ave . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (na) Sí (p) , salir (p) desde .
+M10: ¿ Quiere salir desde Bilbao ?
+U8: (nl) Sí .
+M11: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 en Ave . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: Sí , el billete que sea de vuelta el diez de agosto .
+M13: ¿ Desea salir el martes , día 10 de agosto de 2004 ?
+U10: Sí .
+M14: ¿ Quiere saber horarios ?
+U11: Sí .
+M15: Le consulto horarios de trenes con salida en Sevilla destino Bilbao saliendo el martes , día 10 de agosto de 2004 en Ave . Un momento por favor .
+M16: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U12: No , (dc gracias) .
+M17: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería saber cuánto cuesta el tren que sale de Barcelona y llega a Valencia .
+Quería saber cuánto cuesta el tren que sale de Barcelona (U:Pregunta:Precio:Origen) pal: 1 - 10
+y llega a Valencia . (U:Pregunta:Precio:Destino) pal: 11 - 15
+M2: Quiere saber el precio a valencia , ¿ saliendo de barcelona ? .
+Quiere saber el precio a valencia , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ saliendo de barcelona ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: Quería un viaje de ida y vuelta y deseo salir el sábado por la mañana y volver el domingo por la tarde .
+Quería un viaje de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 7
+y deseo salir el sábado (U:Pregunta:Precio:Dia) pal: 8 - 12
+por la mañana (U:Pregunta:Precio:Hora_salida) pal: 13 - 15
+y volver (U:Pregunta:Precio:Tipo_viaje) pal: 16 - 17
+el domingo (U:Pregunta:Precio:Dia) pal: 18 - 19
+por la tarde . (U:Pregunta:Precio:Hora_salida) pal: 20 - 23
+M4: ¿ Qué día desea llegar ? .
+¿ Qué día desea llegar ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U5: Deseo salir el sábado por la mañana .
+Deseo salir el sábado (U:Respuesta:Dia:Dia) pal: 1 - 4
+por la mañana . (U:Respuesta:Precio:Hora_salida) pal: 5 - 8
+M6: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? .
+¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+U6: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M7: Le consulto precios de barcelona a valencia saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+Le consulto precios de barcelona a valencia saliendo el sábado , día 6 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M8: Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el más barato es un regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el más barato es un regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U7: Sí , ¿ me puede decir cuánto es exactamente el billete ida y vuelta en el euromed ?
+Sí , ¿ me puede decir cuánto es exactamente el billete ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 14
+en el euromed ? (U:Pregunta:Precio:Tipo_tren) pal: 15 - 18
+M9: El precio de ese tren en clase turista es 33 con 50 euros el billete de ida y 53 con 60 euros el billete de ida y vuelta . Desea algo más ? .
+El precio de ese tren en clase turista es 33 con 50 euros el billete de ida y 53 con 60 euros el billete de ida y vuelta . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 29
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 30 - 34
+U8: No gracias .
+No gracias . (U:Cierre:Nil:Nil) pal: 1 - 3
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

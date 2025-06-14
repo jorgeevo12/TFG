@@ -1,0 +1,8 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (do Hola) , quería saber el horario y precio para ir a Salamanc(a a) el dí(a a) seis de marzo .
+M2: Le consulto horarios de trenes con salida en Bilbao destino Salamanca saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M3: El único tren que realiza el trayecto es un Diurno que sale a las 2 y 5 de la tarde ¿ Desea algo más ?
+U2: (nw) Sí , quiero saber el precio .
+M4: El precio de ese tren en clase turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: (nw No) , (dc gracias) .
+M5: Gracias por utilizar este servicio . Feliz viaje .

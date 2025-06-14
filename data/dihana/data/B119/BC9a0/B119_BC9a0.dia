@@ -1,0 +1,87 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , me gustaría saber cuánto cuesta un billete de ida y vuelta de Bilbao a Santander .
+Hola , me gustaría saber cuánto cuesta un billete de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+de Bilbao (U:Pregunta:Precio:Origen) pal: 14 - 15
+a Santander . (U:Pregunta:Precio:Destino) pal: 16 - 18
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: Santander .
+Santander . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Mañana .
+Mañana . (U:Respuesta:Dia:Dia) pal: 1 - 2
+
+M4: ¿ Desea salir el viernes , día 20 de febrero de 2004 ? .
+¿ Desea salir el viernes , día 20 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M5: Le consulto precios de bilbao a santander . Un momento por favor .
+Le consulto precios de bilbao a santander . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U5: Sí , me gustaría saber el viaje de vuelta , a ver qué horario de trenes hay y los precios .
+Sí , me gustaría saber el viaje de vuelta , a ver qué horario de trenes hay y los precios . (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 21
+
+M7: Le consulto horarios de trenes con salida en santander destino bilbao saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en santander destino bilbao saliendo el viernes , día 20 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U6: Sí , el domingo de Santander a Bilbao , ¿ qué horarios de trenes hay ? .
+Sí , el domingo (U:Pregunta:Hora_salida:Dia) pal: 1 - 4
+de Santander (U:Pregunta:Hora_salida:Origen) pal: 5 - 6
+a Bilbao , ¿ qué horarios de trenes hay ? . (U:Pregunta:Hora_salida:Destino) pal: 7 - 17
+
+M9: Quiere horarios saliendo el domingo , día 22 de febrero de 2004 , ¿ desde santander ? .
+Quiere horarios saliendo el domingo , día 22 de febrero de 2004 , (M:Confirmacion:Hora_salida:Dia) pal: 1 - 13
+¿ desde santander ? . (M:Confirmacion:Origen:Origen) pal: 14 - 18
+
+U7: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M10: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U8: Sí , ¿ qué precio tienen estos viajes ? .
+Sí , ¿ qué precio tienen estos viajes ? . (U:Pregunta:Precio:Nil) pal: 1 - 10
+
+M12: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U9: Que cuánto cuesta el billete .
+Que cuánto cuesta el billete . (U:Pregunta:Precio:Nil) pal: 1 - 6
+
+M13: Le consulto precios de santander a bilbao . Un momento por favor .
+Le consulto precios de santander a bilbao . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M14: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U10: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

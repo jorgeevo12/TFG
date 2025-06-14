@@ -1,0 +1,49 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Deseo consultar horarios de tren rápido a Sevilla para primeros de noviembre .
+Deseo consultar horarios de tren rápido (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 6
+a Sevilla (U:Pregunta:Hora_salida:Destino) pal: 7 - 8
+para primeros de noviembre . (U:Pregunta:Hora_salida:Dia) pal: 9 - 13
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El dos de noviembre .
+El dos de noviembre . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M3: Quiere horarios de trenes a sevilla , ¿ desde zaragoza ? .
+Quiere horarios de trenes a sevilla , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino sevilla saliendo el martes , día 2 de noviembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino sevilla saliendo el martes , día 2 de noviembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: El único tren que realiza el trayecto es un triana que sale a las 12 y 10 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un triana que sale a las 12 y 10 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U4: Sí , consultar precios .
+Sí , consultar precios . (U:Pregunta:Precio:Nil) pal: 1 - 5
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Deseo consultar precio del tren rápido a Sevilla para el día dos de noviembre .
+Deseo consultar precio del tren rápido (U:Pregunta:Precio:Tipo_tren) pal: 1 - 6
+a Sevilla (U:Pregunta:Precio:Destino) pal: 7 - 8
+para el día dos de noviembre . (U:Pregunta:Precio:Dia) pal: 9 - 15
+
+M7: El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

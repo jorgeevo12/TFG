@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Desearía saber el precio de u(a n) billete a Alicante con un tren Talgo el siete de agosto .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (nl) Desearía saber el precio de un billete a Alicante el día siete de agosto (p) en un tren (p) de tipo Talgo .
+M3: Quiere saber el precio a Alicante ¿ saliendo de Valencia ?
+U3: Sí .
+M4: Le consulto precios de Valencia a Alicante en tipo tren Talgo . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 20 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No (na) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

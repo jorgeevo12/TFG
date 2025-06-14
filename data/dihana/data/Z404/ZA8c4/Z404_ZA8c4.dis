@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Deseo conocer horarios y trenes para viajar mañana (p) de Barcelona a Tarragona .
+M2: Le consulto horarios de trenes con salida en Barcelona destino Tarragona saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 11 de la noche ¿ Desea algo más ?
+U2: (nl) Sí , deseo conocer el horario para viajar a primera hora mañana .
+M4: Le consulto horarios de Barcelona a Tarragona el jueves , día 1 de abril de 2004 entre las 5 de la madrugada y las 7 de la mañana . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 7 de la mañana ¿ Desea algo más ?
+U3: Sí , deseo saber qué tipo de tren es .
+M6: Hay varios tipos de trenes . El tren más rápido es un Euromed y el más lento es un Regional ¿ Desea algo más ?
+U4: Nada más , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

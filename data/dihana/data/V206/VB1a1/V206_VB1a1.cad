@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola buenas tardes , quisiera saber el horario de los trenes que van a $C_DESTINO a $HORA de la $FECHA , el próximo $FECHA .
+Hola buenas tardes , quisiera saber el horario de los trenes que van a $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 1 - 15
+a $HORA de la $FECHA , (U:Pregunta:Hora_salida:Hora_salida) pal: 16 - 22
+el próximo $FECHA . (U:Pregunta:Hora_salida:Dia) pal: 23 - 26
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M3: El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U2: Sí , quería saber cuál es el precio del billete .
+Sí , quería saber cuál es el precio del billete . (U:Pregunta:Precio:Nil) pal: 1 - 11
+M4: El precio de ese tren en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+U3: No , nada más , gracias .
+No , nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

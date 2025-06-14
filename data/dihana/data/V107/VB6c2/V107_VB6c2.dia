@@ -1,0 +1,50 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenos días , me gustaría tener información sobre trenes de Burgos a Salamanca .
+Buenos días , me gustaría tener información sobre trenes de Burgos (U:Pregunta:Nil:Origen) pal: 1 - 11
+a Salamanca . (U:Pregunta:Nil:Destino) pal: 12 - 14
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M3: ¿ Quiere viajar desde burgos ? .
+¿ Quiere viajar desde burgos ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U3: Sí , el próximo sábado .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+el próximo sábado . (U:Respuesta:Hora_salida:Dia) pal: 3 - 6
+M4: ¿ Quiere llegar a salamanca ? .
+¿ Quiere llegar a salamanca ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+U4: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+M5: Le consulto horarios de trenes con salida en burgos destino salamanca saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en burgos destino salamanca saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El primero sale a la una y 59 de la madrugada y el último a las 5 y 4 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 59 de la madrugada y el último a las 5 y 4 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: ¿ Me puede decir el precio , por favor ? .
+¿ Me puede decir el precio , por favor ? . (U:Pregunta:Precio:Nil) pal: 1 - 11
+M7: Le consulto precios de burgos a salamanca . Un momento por favor .
+Le consulto precios de burgos a salamanca . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+M8: Hay varios trenes . En clase turista , el tren más caro es un surex que cuesta 26 euros la ida y el más barato es un pío_baroja que cuesta 17 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un surex que cuesta 26 euros la ida y el más barato es un pío_baroja que cuesta 17 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 50
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 51 - 55
+U6: Sí , me gustaría saber si puedo viajar en tren estrella en primera clase .
+Sí , me gustaría saber si puedo viajar en tren estrella (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 11
+en primera clase . (U:Pregunta:Hora_salida:Clase_billete) pal: 12 - 15
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U7: Sí , me gustaría saber si puedo viajar en tren estrella en primera clase .
+Sí , me gustaría saber si puedo viajar en tren estrella (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 11
+en primera clase . (U:Pregunta:Hora_salida:Clase_billete) pal: 12 - 15
+M10: Le consulto horarios de trenes con salida en burgos destino salamanca saliendo el sábado , día 28 de febrero de 2004 en estrella . Un momento por favor .
+Le consulto horarios de trenes con salida en burgos destino salamanca saliendo el sábado , día 28 de febrero de 2004 en estrella . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

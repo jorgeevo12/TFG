@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fb) Me gustaría información sobre los (p) trenes (fa) desde Valencia a Teruel (p) para el próximo viernes .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería información (p) (fm) de trenes a Teruel , (p) con trenes Regionales , (p) para el próximo viernes .
+M3: ¿ Quiere saber horarios ?
+U3: No .
+M4: ¿ Le consulto horarios ?
+U4: No , quería obtener el precio .
+M5: ¿ Quiere viajar a Teruel ?
+U5: Sí .
+M6: Le consulto precios de Valencia a Teruel saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+M7: Los trenes son Regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (rr (m No) (c no)) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

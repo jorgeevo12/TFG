@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber (a u)n precio (fe) para un viaje de ida de Valencia a Castellón (p) par(a a) mañana y llegar antes de las (p) cuatro .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (a A) Castellón .
+M3: ¿ Qué día desea salir ?
+U3: (fe) Mañana .
+M4: Le consulto precios de Valencia a Castellón . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 14 con 50 euros la ida y el más barato es un Tren_Hotel que cuesta 12 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí , saber (a e)l precio de (a u)n tren qu(a e) llegase antes de las cuatro de la tarde .
+M6: Le consulto precios . Un momento por favor .
+M7: Hay varios trenes con llegada entre las 0 de la noche y las 4 de la tarde . En clase turista , el tren más caro es un Euromed que cuesta 14 con 50 euros la ida y el más barato es un Tren_Hotel que cuesta 12 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (fb) Sí , (fe) ¿ cuánto costarí(a a) (ri (m en (lu primera pri)) (c en un billete de primera)) ?
+M8: Le consulto precios de Valencia a Castellón en clase preferente . Un momento por favor .
+M9: Hay varios trenes . En clase preferente , el tren más caro es un Euromed que cuesta 22 con 50 euros la ida y el más barato es un Arco que cuesta 16 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (fe) No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,39 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Sí , hola buenos días mira quería información para ir a Málaga .
+Sí , hola buenos días mira quería información para ir a Málaga . (U:Pregunta:Nil:Destino) pal: 1 - 13
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , pero primero querría saber si todos los días son los mismos horarios .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+pero primero querría saber si todos los días son los mismos horarios . (U:Pregunta:Hora_salida:Dia) pal: 3 - 15
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El treinta de agosto .
+El treinta de agosto . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U4: Quisiera salir hacia Málaga el día treinta de agosto .
+Quisiera salir hacia Málaga (U:Respuesta:Hora_salida:Destino) pal: 1 - 4
+el día treinta de agosto . (U:Respuesta:Hora_salida:Dia) pal: 5 - 10
+
+M5: Le consulto horarios de trenes con salida en bilbao destino málaga saliendo el lunes , día 30 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino málaga saliendo el lunes , día 30 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

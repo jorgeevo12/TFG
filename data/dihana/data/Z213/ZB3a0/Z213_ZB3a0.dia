@@ -1,0 +1,52 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera consultar trenes con salida en Zaragoza y llegada en Barcelona para viajar la semana que viene en día laborable .
+Quisiera consultar trenes con salida en Zaragoza (U:Pregunta:Nil:Origen) pal: 1 - 7
+y llegada en Barcelona (U:Pregunta:Nil:Destino) pal: 8 - 11
+para viajar la semana que viene en día laborable . (U:Pregunta:Nil:Dia) pal: 12 - 21
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: La semana que viene entre lunes y viernes .
+La semana que viene entre lunes y viernes . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el lunes , día 29 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el lunes , día 29 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: Sí , consultar los trenes rápidos que salen por la mañana .
+Sí , consultar los trenes rápidos (U:Pregunta:Nil:Tipo_tren) pal: 1 - 6
+que salen por la mañana . (U:Pregunta:Nil:Hora_salida) pal: 7 - 12
+
+M6: Le consulto horarios de zaragoza a barcelona el lunes , día 29 de marzo de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+Le consulto horarios de zaragoza a barcelona el lunes , día 29 de marzo de 2004 entre las 7 de la mañana y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M7: Hay varios trenes . El más rápido sale a las 12 y 4 de la mañana y el más lento a las 12 y 20 de la mañana . Desea algo más ? .
+Hay varios trenes . El más rápido sale a las 12 y 4 de la mañana y el más lento a las 12 y 20 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 29
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 30 - 34
+
+U5: Sí , el precio del billete en el tren rápido .
+Sí , el precio del billete en el tren rápido . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 11
+
+M8: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nt) (do Hola buenos días) , quisiera obtener el horario (rs (m para ir) (c para hacer)) un viaje desde Sevilla a Córdoba el próximo viernes (dq por favor) .
+M2: Le consulto horarios de trenes con salida en Sevilla destino Córdoba saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche ¿ Desea algo más ?
+U2: Sí (dq por favor) ¿ qué tipo de trenes son ?
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (dq Por favor) , me podría decir ¿ qué tipo de trenes (lm realizan ralizan) ese trayecto ?
+M5: Le consulto tipos de trenes para el trayecto Sevilla a Córdoba . Un momento por favor .
+M6: Hay varios tipos de trenes . El tren más rápido es un Ave y el más lento es un andalucía_expres ¿ Desea algo más ?
+U4: (dc (lu gracias cias)) Eso es todo , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

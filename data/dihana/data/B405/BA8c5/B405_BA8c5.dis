@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , (df mire) querí(a a) saber el horario para un viaje de ida de Madrid a Palencia (p) (na) concretamente para el primer fin de semana de junio .
+M2: Quiere horarios de trenes a Valencia ¿ desde Madrid ?
+U2: No (p) a Palencia .
+M3: ¿ Qué día desea salir ?
+U3: El primer fin de semana de junio .
+M4: ¿ Desea salir el sábado , día 5 de junio de 2004 ?
+U4: No , el viernes día cuatro (p) por la tarde (nw) .
+M5: Le consulto horarios de Madrid a Palencia el viernes , día 4 de junio de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U5: No , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

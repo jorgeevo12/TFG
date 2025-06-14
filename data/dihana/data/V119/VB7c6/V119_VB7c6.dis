@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) ¿ Me podrí(a a) decir el preci(a o) (p) para ir a Toledo el próximo sábado ?
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería ir a Toledo el próximo sábado .
+M3: ¿ Quiere saber horarios ?
+U3: No , lo que quiero es (p) saber si se puede viajar en Talgo .
+M4: Le consulto tipos de trenes para el trayecto Valencia a Toledo . Un momento por favor .
+M5: Hay un único tipo de tren , que es un Talgo ¿ Desea algo más ?
+U4: Sí , quería saber el precio viajando en coche cama .
+M6: Le consulto precios . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Dígame el preci(a o) (p) billete normal .
+M8: Le consulto precios . Un momento por favor .
+M9: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc ya está) , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

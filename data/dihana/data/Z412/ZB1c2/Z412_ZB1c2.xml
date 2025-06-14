@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:38"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z412"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T01u.ul">
+<t> <d tipo="abrir"> Hola buenas tardes </d> , <n fuente="hablante" tipo="aspiración"/> <d tipo="rellenar"> mire </d> , querrí<a>a</a> ir a Barcelona a <f tipo="a"/> la inaguración de una exposición fotográfica <f tipo="e"/> y tendría que estar allí el catorce de junio a las siete de la tarde ¿ Me podría decir <N> qué horarios hay que me permita llegar a esta hora y qué precios </N> ? </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T02u.ul">
+<t> Sí , <d tipo="rellenar"> por favor </d> , horarios y precios . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T03u.ul">
+<t> A Barcelona , <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T04u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Sí , <f tipo="e"/> como le he dicho antes es el catorce de junio por la mañana pronto <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T05u.ul">
+<t> Sí , <d tipo="pedir"> por favor </d> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Zaragoza a Barcelona el lunes , día 14 de junio de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 10 de la mañana y llega a las 2 de la tarde y el último sale a las 12 y 20 de la mañana y llega a las 5 y 13 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T06u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí , <d tipo="pedir"> por favor </d> ¿ me podría repetir los horarios <N> y decirme </N> el precio de ellos ? <n fuente="hablante" tipo="aspiración"/> <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z412_ZB1c2_T07u.ul">
+<t> No , <d tipo="cerrar"> muchas gracias </d> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

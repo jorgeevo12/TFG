@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (ri (m (lu gustaría aría)) (c Me gustaría)) obtener un horario .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Burgos .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: A (lm Valladolid Valladoliz) .
+M4: ¿ Qué día desea salir ?
+U4: El día (lm veintinueve ventinueve) .
+M5: Quiere horarios de trenes a Valladolid ¿ desde Zaragoza ?
+U5: Sí , (dq por favor) .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Valladolid saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 5 y 10 de la tarde ¿ Desea algo más ?
+U6: No , (dc nada más) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

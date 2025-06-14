@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Querría obtener el precio de (a u)nos billetes (p) para viajar en tren .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Barcelona .
+M3: ¿ Quiere salir desde Barcelona ?
+U3: No , desde San_Sebastián .
+M4: ¿ Quiere llegar a Barcelona ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El tres de julio .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Tres de j(a u)lio .
+M7: Le consulto precios de San_Sebastián a Barcelona saliendo el sábado , día 3 de julio de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

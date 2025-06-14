@@ -1,0 +1,63 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera obtener horario y precio .
+Quisiera obtener horario y precio . (U:Pregunta:Hora_salida,Precio:Nil) pal: 1 - 6
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Madrid .
+Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 2
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El once de abril .
+El once de abril . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U4: El once de abril .
+El once de abril . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M5: Quiere saber el precio a madrid , ¿ desde zaragoza ? .
+Quiere saber el precio a madrid , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U5: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M6: Le consulto precios de zaragoza a madrid saliendo el domingo , día 11 de abril de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a madrid saliendo el domingo , día 11 de abril de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M7: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un costa_brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un costa_brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U6: Sí , obtener el horario .
+Sí , obtener el horario . (U:Pregunta:Hora_salida:Nil) pal: 1 - 6
+M8: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U7: Que el tipo de tren sea Ave .
+Que el tipo de tren sea Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U8: Sí , el tipo de tren sea Ave .
+Sí , el tipo de tren sea Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 9
+M10: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el domingo , día 11 de abril de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el domingo , día 11 de abril de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U9: Sí , el tipo de tren talgo .
+Sí , el tipo de tren talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+M12: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el domingo , día 11 de abril de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el domingo , día 11 de abril de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M13: Hay varios trenes . El primero sale a las 10 y 30 de la mañana y el último a las 8 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 10 y 30 de la mañana y el último a las 8 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U10: Sí , viajar en coche cama .
+Sí , viajar en coche cama . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 7
+M14: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+M15: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U11: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

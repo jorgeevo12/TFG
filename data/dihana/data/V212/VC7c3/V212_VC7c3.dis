@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quisiera ir a Toledo .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (do Hola) , quisiera ir a Toledo .
+M3: ¿ Quiere saber horarios ?
+U3: No , quiero saber precio .
+M4: ¿ Quiere viajar a Toledo ?
+U4: Sí , (nw) saliendo un sábado .
+M5: Le consulto precios de Valencia a Toledo saliendo el sábado , día 31 de enero de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Me gustaría viajar en un Talgo .
+M7: Le consulto precios de Valencia a Toledo en tipo tren Talgo . Un momento por favor .
+M8: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Quisiera volver a Valencia la semana siguiente .
+M9: ¿ Quiere saber horarios ?
+U7: No , quiero saber precio .
+M10: ¿ Qué día desea salir ?
+U8: La semana siguiente .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: Una semana después .
+M12: ¿ Desea salir el viernes , día 6 de febrero de 2004 ?
+U10: Sí .
+M13: Le consulto precios de Toledo a Valencia saliendo el viernes , día 6 de febrero de 2004 . Un momento por favor .
+M14: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: Nada más , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Me gustaría ir a Jaé(a n) el dí(a a) uno de agosto .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , quiero saber los horarios (na) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Jaén .
+M4: ¿ Qué día desea salir ?
+U4: El uno de agosto (na) .
+M5: Quiere horarios de trenes a Jaén ¿ desde Zaragoza ?
+U5: (rr (m Sí) (c sí)) , eso es lo que quiero .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Jaén saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , me gustaría sab(a e)r qué tipos de trenes son (na) .
+M8: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U7: No , (dc nada más) , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Mire pues) , necesit(a o) (p) ir de Lérida a Málaga (na) el día veintisiete de abril , (na) (fe) porque tengo un examen en Málaga ¿ (dq sabe) ? (df entonces) necesito un tren que llegue a Málaga antes de las cinco de la tarde , (p) y quiero saber el horario y el precio .
+M2: ¿ Qué día desea salir ?
+U2: (nw) Necesito estar allí el veintisiete de abril .
+M3: Quiere horarios de trenes a Málaga ¿ desde Zaragoza ?
+U3: No , necesito salir de Lérida .
+M4: Le consulto horarios de Lérida a Málaga llegando el martes , día 27 de abril de 2004 entre las 0 de la noche y las 5 de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U4: (nl) Sí , (dq por favor) , además quiero saber cuánto me costaría .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

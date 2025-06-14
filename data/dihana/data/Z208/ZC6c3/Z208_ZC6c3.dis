@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Sí (df mire) , que me quería hacer el camino de Santiago este año (df (lm entonces entoes)) quería ir a León .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , el horario y el precio .
+M3: ¿ Quiere viajar desde Valencia ?
+U3: No , desde Almería (na) (nw) .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A León .
+M5: ¿ Qué día desea salir ?
+U5: (df Pues) (fe) quería salir a finales de junio (na) .
+M6: Le consulto horarios de trenes con salida en Almería destino León saliendo el miércoles , día 30 de junio de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: (na) (df Pues) sí , querí(a a) el último tren para ir por la noche en coche cama . (p) (na) Además (fe) quería saber el precio .
+M8: Ese tren sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U7: ¿ (fb) No hay ningún tren más tarde ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: (na) ¿ Cuál es el tren que sale más tarde ?
+M10: Ese tren sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U9: Quería saber (fb) los horarios para el día siguiente .
+M11: Le consulto horarios de trenes con salida en Almería destino León saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U10: Sí , el precio del último (nw) .
+M13: Ese tren sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U11: Quiero saber también los horarios de la vuelta para el veintiséis de julio .
+M14: Le consulto horarios de trenes con salida en León destino Almería saliendo el lunes , día 26 de julio de 2004 . Un momento por favor .
+M15: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U12: (na) Sí , (df pues) el precio (rs (m d(a e)) (c del)) más barato que salg(a a) a las tres y media (na) .
+M16: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: No , nada más , (dc gracias) .
+M17: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,45 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola quería un viaje de ida en el Ave para Madrid Sevilla .
+Hola quería un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 6
+en el Ave (U:Pregunta:Nil:Tipo_tren) pal: 7 - 9
+para Madrid (U:Pregunta:Nil:Origen) pal: 10 - 11
+Sevilla . (U:Pregunta:Nil:Destino) pal: 12 - 13
+
+
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+
+
+U2: Sí , para el próximo dieciséis de abril .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+para el próximo dieciséis de abril . (U:Respuesta:Hora_salida:Dia) pal: 3 - 9
+
+
+M3: ¿ Desea salir el viernes , día 16 de abril de 2004 ? .
+¿ Desea salir el viernes , día 16 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U3: Sí , por la tarde .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 6
+
+
+M4: Le consulto horarios de madrid a sevilla el viernes , día 16 de abril de 2004 entre la una de la tarde y las 9 de la noche en ave . Un momento por favor .
+Le consulto horarios de madrid a sevilla el viernes , día 16 de abril de 2004 entre la una de la tarde y las 9 de la noche en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen,Tipo_tren) pal: 1 - 31
+Un momento por favor . (M:Espera:Nil:Nil) pal: 32 - 36
+
+
+M5: Hay varios trenes . El primero sale a la una de la tarde y llega a las 3 y 35 de la tarde y el último sale a las 9 de la noche y llega a las 11 y 30 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a la una de la tarde y llega a las 3 y 35 de la tarde y el último sale a las 9 de la noche y llega a las 11 y 30 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+U4: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenas , querría a ver si podía decirme el precio de un viaje Valencia Madrid el día seis de enero en alaris .
+Hola buenas , querría a ver si podía decirme el precio de un viaje Valencia (U:Pregunta:Precio:Origen) pal: 1 - 15
+Madrid (U:Pregunta:Precio:Destino) pal: 16 - 16
+el día seis de enero (U:Pregunta:Precio:Dia) pal: 17 - 21
+en alaris . (U:Pregunta:Precio:Tipo_tren) pal: 22 - 24
+
+M2: ¿ Me pregunta por precios ? .
+¿ Me pregunta por precios ? . (M:Confirmacion:Precio:Nil) pal: 1 - 7
+
+U2: Sí , así es .
+Sí , así es . (U:Afirmacion:Precio:Nil) pal: 1 - 5
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El seis de enero .
+El seis de enero . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: ¿ Desea salir el jueves , día 6 de enero de 2005 ? .
+¿ Desea salir el jueves , día 6 de enero de 2005 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: Sí , así es .
+Sí , así es . (U:Afirmacion:Dia:Nil) pal: 1 - 5
+
+M5: Le consulto precios de valencia a madrid en tipo tren alaris . Un momento por favor .
+Le consulto precios de valencia a madrid en tipo tren alaris . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+M6: Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U5: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

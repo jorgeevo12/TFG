@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:19"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B310"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B310_BB9c1_T01u.ul">
+<t> <f tipo="e"/> Necesit<a>o</a> horarios <p/> y <p/> <f tipo="m"/> precios de trenes de Valencia a Castellón <n fuente="hablante" tipo="aspiración"/> por la mañana de manera que lleguen antes de las cuatro de la tarde . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B310_BB9c1_T02u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere llegar entre las 0 de la noche y las 4 de la tarde ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B310_BB9c1_T03u.ul">
+<t> <f tipo="e"/> Sí , <d tipo="aceptar"> claro </d> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Valencia ¿ desde Bilbao ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B310_BB9c1_T04u.ul">
+<t> <r tipo="repetición"> <m> No </m> <c> no </c> </r> quiero <f tipo="m"/> trenes <p/> a Castellón desde Valencia . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B310_BB9c1_T05u.ul">
+<t> Mañana martes , nueve <p/> de marzo . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Valencia a Castellón el martes , día 9 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 11 y 35 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B310_BB9c1_T06u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , <d tipo="pedir"> por favor </d> ¿ podría decirme <n fuente="exterior" tipo="genérico"/> si alguno de ellos es un Euromed ? <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Valencia a Castellón el martes , día 9 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde en Euromed . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 11 y 5 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B310_BB9c1_T07u.ul">
+<t> <f tipo="e"/> Sí , <d tipo="pedir"> por favor </d> <f tipo="e"/> <f tipo="a"/> <n fuente="exterior" tipo="genérico"/> ¿ el de las once y cinco llega antes de las cuatro a Valencia ? </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren sale a las 11 y 5 de la mañana y llega a las 11 y 45 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B310_BB9c1_T08u.ul">
+<t> Sí , <d tipo="pedir"> por favor </d> ¿ me podía dar el precio del billete en primera ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase preferente es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B310_BB9c1_T09u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> , es suficiente <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

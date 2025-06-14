@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quiero saber los precios de los trenes de ida de Oviedo a Santander .
+M2: Quiere saber el precio a Santander ¿ desde Oviedo ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Quiero salir el próximo lunes sobre las diez y media .
+M4: Le consulto precios de Oviedo a Santander . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

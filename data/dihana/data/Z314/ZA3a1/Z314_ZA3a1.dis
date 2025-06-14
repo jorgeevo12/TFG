@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) querría viajar a Sevilla .
+M2: ¿ Quiere saber horarios ?
+U2: (nl) Sí , querría viajar la semana próxima .
+M3: ¿ Quiere viajar desde Sevilla ?
+U3: (nl) Quiero viajar desde Zaragoza hacia Sevilla .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Sevilla saliendo el lunes , día 5 de abril de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U4: (nl) Sí , desearía saber si hay un tren (p) el jueves ocho de abril .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (nl) (rr (m (lm Desearía Deseria)) (c desearía)) salir el jueves (p) día ocho .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Sevilla saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

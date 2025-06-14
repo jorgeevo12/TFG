@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero el horario para un tren para Vigo (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Vigo .
+M3: ¿ Qué día desea salir ?
+U3: (nl) El próximo viernes por la tarde .
+M4: Quiere horarios de trenes a Vigo ¿ desde Zaragoza ?
+U4: Sí .
+M5: Le consulto horarios de Zaragoza a Vigo el viernes , día 27 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (nl) Preferiría viajar de noche .
+M7: Le consulto horarios de Zaragoza a Vigo el viernes , día 27 de febrero de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

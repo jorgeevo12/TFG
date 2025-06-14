@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el horario (p) de los trenes (p) de Valencia (p) a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: (nw El catorce de octubre) .
+M3: ¿ Desea salir el jueves , día 14 de octubre de 2004 ?
+U3: Sí (p) , a las nueve de la mañana .
+M4: Le consulto horarios de Valencia a Barcelona el jueves , día 14 de octubre de 2004 entre las 9 y las 11 de la mañana . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Arco que sale a las 10 y 5 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U4: Sí , saber el precio .
+M6: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

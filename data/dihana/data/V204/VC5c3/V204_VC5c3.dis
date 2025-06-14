@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , quería saber horarios para ir de Tarragona a Barcelona mañana .
+M2: Le consulto horarios de trenes con salida en Tarragona destino Barcelona saliendo el miércoles , día 17 de diciembre de 2003 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 5 y 15 de la noche y el último a las 10 y 5 de la noche ¿ Desea algo más ?
+U2: Sí , el primer Euromed que tenga , (dq por favor) .
+M4: Le consulto horarios . Un momento por favor .
+M5: El primer tren es un Euromed que sale a las 8 y 36 de la mañana y llega a las 9 y 36 de la mañana ¿ Desea algo más ?
+U3: Sí , ahora quería saber los horarios de vuelta .
+M6: Le consulto horarios de trenes con salida en Barcelona destino Tarragona saliendo el miércoles , día 17 de diciembre de 2003 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 de la madrugada y el último a las 8 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí , el último Euromed que tenga .
+M8: El sexto y último tren es un Euromed que sale a las 8 y 30 de la tarde y llega a las 9 y 17 de la tarde ¿ Desea algo más ?
+U5: Sí , quería saber el precio del billete (p) , a ser posible en (rr (m (lm clase case)) (c clase)) turista .
+M9: El precio de ese tren en turista es 15 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U6: (nl) No , ya es suficiente , (dc adiós) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

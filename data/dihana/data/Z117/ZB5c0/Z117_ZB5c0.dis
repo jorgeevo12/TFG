@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Deseo los horarios y precios de los trenes de Almería a Sevilla en Regional , el siete(nw) de abril .
+M2: ¿ Qué día desea salir ?
+U2: (nw Siete de abril) (na) .
+M3: Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ?
+U3: (na) No , desde Almería (na) .
+M4: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 de la mañana y el último a las 6 y 5 de la tarde ¿ Desea algo más ?
+U4: (na) Que sea Regional .
+M6: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 en Regional . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (na) (nw Sí deseo el tren) más barato .
+M8: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M9: Ese tren sale a las 6 de la mañana y llega a las 11 y 12 de la mañana ¿ Desea algo más ?
+U6: (na) El precio (na) .
+M10: El precio de ese tren en clase turista es 27 con 19 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) (nw Deseo saber si hay algún tren Regional el ocho de abril) .
+M11: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el jueves , día 8 de abril de 2004 en Regional . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (na) (nw Sí , salir el nueve de abril) .
+M13: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el viernes , día 9 de abril de 2004 en Regional . Un momento por favor .
+M14: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: No .
+M15: Gracias por utilizar este servicio . Feliz viaje .

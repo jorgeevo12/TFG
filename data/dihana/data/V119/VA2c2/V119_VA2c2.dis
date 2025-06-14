@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , (df mire) , quería saber los horarios de los trenes a Barcelona .
+M2: ¿ Puede repetir su consulta ?
+U2: (fb) .
+M3: ¿ Puede repetir su consulta ?
+U3: (nl) Sí , quería saber los horarios de los trenes a Barcelona .
+M4: ¿ Quiere viajar a Barcelona ?
+U4: S(a í) .
+M5: ¿ Qué día desea salir ?
+U5: (df Pues) el jueves .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: (nl) El jueves .
+M7: ¿ Desea salir el jueves , día 5 de febrero de 2004 ?
+U7: S(a í) .
+M8: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el jueves , día 5 de febrero de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U8: Sí , quería saber el tipo de estos trenes .
+M10: Le consulto tipos de tren . Un momento por favor .
+M11: Hay varios tipos de trenes . El tren más rápido es un Euromed y el más lento es un Regional_expres ¿ Desea algo más ?
+U9: No , (dc ya está) , (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

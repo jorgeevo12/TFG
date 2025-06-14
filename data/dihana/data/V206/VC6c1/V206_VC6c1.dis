@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (dq Por favor) (fb) ¿ podría decirme los horarios de los trenes que van a Valencia (p) desde Castellón , (p) para los días diecis(a é)is (p) y diecisiete de marzo ?
+M2: Le consulto horarios de trenes con salida en Castellón destino Valencia saliendo el miércoles , día 17 de marzo de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 6 y 45 de la madrugada y el último a las 11 y 30 de la noche ¿ Desea algo más ?
+U2: (na) (fe) Sí (fe) quería saber (fe) de esos horarios (rs (m cuáles) (s (p)) (c cuál)) corresponde al Euromed (p) y un Euromed que llegue de día a Valencia (na) .
+M4: Le consulto horarios . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 9 y 6 de la mañana y el último a las 10 y 37 de la noche ¿ Desea algo más ?
+U3: (na) (fe) Sí , también quería saber (p) (fe) los horarios de vuelta para el día veinte (na) .
+M6: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el sábado , día 20 de diciembre de 2003 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 40 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U4: (fe) Sí , al igual que antes estaba interesado (rr (m en (a e)l) (s (p)) (c en el)) Euromed y (lm también danbien) de paso dígame cuál es el precio del billete (na) .
+M8: Le consulto horarios . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 6 y 40 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U5: (fe) Sí quería saber (fe) exactamente cuál es (rr (m el) (c el)) precio (rr (m del) (s (p)) (c del)) billete del Euromed .
+M10: El primer tren es un Euromed y su precio en turista es 14 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U6: (fe) Nada más , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,95 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenas tardes me gustaría .
+Hola buenas tardes me gustaría . (U:Indefinida:Nil:Nil) pal: 1 - 6
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , es que me gustaría ir a un concierto .
+Sí , es que me gustaría ir a un concierto . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 11
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: Pues querría ir a Madrid .
+Pues querría ir a Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 6
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Pues me gustaría salir mañana , mañana cinco .
+Pues me gustaría salir mañana , mañana cinco . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M5: Quiere horarios de trenes a madrid , ¿ desde zaragoza ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U5: Sí , eso es lo que quiero .
+Sí , eso es lo que quiero . (U:Afirmacion:Origen:Nil) pal: 1 - 8
+
+M6: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el viernes , día 5 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U6: sí me gustaría también saber el precio cuánto vale .
+sí me gustaría también saber el precio cuánto vale . (U:Pregunta:Precio:Nil) pal: 1 - 10
+
+M8: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un costa_brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un costa_brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U7: Sí , también me gustaría de Madrid el sábado .
+Sí , también me gustaría de Madrid (U:Pregunta:Nil:Origen) pal: 1 - 7
+el sábado . (U:Pregunta:Nil:Dia) pal: 8 - 10
+
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U8: Sí , querría saber el horario de trenes que salen de Madrid el sábado .
+Sí , querría saber el horario de trenes que salen de Madrid (U:Pregunta:Hora_salida:Origen) pal: 1 - 12
+el sábado . (U:Pregunta:Hora_salida:Dia) pal: 13 - 15
+
+M10: Le consulto horarios de trenes con salida en madrid destino zaragoza saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino zaragoza saliendo el sábado , día 6 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M11: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+U9: Sí , me gustaría también saber el precio .
+Sí , me gustaría también saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 9
+
+M12: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un intercity que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un intercity que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U10: Pues sí , querría cambiar la hora porque creo que será mejor .
+Pues sí , querría cambiar la hora porque creo que será mejor . (U:Pregunta:Hora_salida:Nil) pal: 1 - 13
+
+M13: Le consulto horarios de madrid a zaragoza el sábado , día 6 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de madrid a zaragoza el sábado , día 6 de marzo de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M14: Hay varios trenes . El primero sale a las 2 de la tarde y el último a las 6 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 de la tarde y el último a las 6 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+U11: Sí , me gustaría saber el precio de esos trenes por la tarde .
+Sí , me gustaría saber el precio de esos trenes por la tarde . (U:Pregunta:Precio:Hora_salida) pal: 1 - 14
+
+M15: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un intercity que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 28 con 50 euros la ida y el más barato es un intercity que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U12: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

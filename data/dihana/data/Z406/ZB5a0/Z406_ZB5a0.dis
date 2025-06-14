@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quería información de trenes para una competición deportiva que tengo que ir (na) .
+M2: ¿ Quiere saber horarios ?
+U2: (df Pu(a e)s) sí , horarios y precio .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Burgos .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Burgos .
+M5: ¿ Qué día desea salir ?
+U5: (a E)l (lu dieciséis dieciséi) de enero , el viernes .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Viernes , (p) dieciséis de enero .
+M7: Quiere horarios de trenes a Burgos ¿ desde Zaragoza ?
+U7: No , desde Zaragoza no , desde Sevilla .
+M8: Le consulto horarios de trenes con salida en Sevilla destino Burgos saliendo el domingo , día 16 de enero de 2005 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: (nw) Sí , yo quería (lm viajar vajar) en alta velocidad en Av(a e) o Altaria o alguna historia de (lm estas esta) .
+M10: Le consulto horarios de trenes con salida en Sevilla destino Burgos saliendo el domingo , día 16 de enero de 2005 en Ave . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: (da Bueno) , (df pues) si no puede ser Ave dígame en que no sea Ave pero dígame también el precio .
+M12: Le consulto precios de Sevilla a Burgos . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , está bien , (p) (dc (lm gracias gracia)) (na) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

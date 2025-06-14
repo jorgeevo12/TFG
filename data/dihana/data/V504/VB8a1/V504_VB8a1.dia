@@ -1,0 +1,92 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quiero obtener el precio de un viaje de ida .
+Quiero obtener el precio de un viaje de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U2: Quiero el precio de un viaje de ida .
+Quiero el precio de un viaje de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A Vitoria .
+A Vitoria . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: Precios desde valencia , ¿ quiere llegar a vitoria ? .
+Precios desde valencia , (M:Confirmacion:Precio:Origen) pal: 1 - 4
+¿ quiere llegar a vitoria ? . (M:Confirmacion:Destino:Destino) pal: 5 - 11
+
+
+U4: No .
+No . (U:Negacion:Destino:Nil) pal: 1 - 2
+
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U5: Quiero obtener el precio del viaje de ida .
+Quiero obtener el precio del viaje de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+
+M6: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+
+
+U6: Quiero el precio del viaje de ida con salida en Vigo y llegada en Vitoria .
+Quiero el precio del viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 7
+con salida en Vigo (U:Pregunta:Precio:Origen) pal: 8 - 11
+y llegada en Vitoria . (U:Pregunta:Precio:Destino) pal: 12 - 16
+
+
+M7: Quiere saber el precio a vitoria , ¿ saliendo de vigo ? .
+Quiere saber el precio a vitoria , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ saliendo de vigo ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+U7: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M8: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U8: Veintiocho de abril .
+Veintiocho de abril . (U:Respuesta:Dia:Dia) pal: 1 - 4
+
+
+M9: ¿ Desea salir el miércoles , día 28 de abril de 2004 ? .
+¿ Desea salir el miércoles , día 28 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U9: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M10: Le consulto precios de vigo a vitoria . Un momento por favor .
+Le consulto precios de vigo a vitoria . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+M11: El único tren que realiza el trayecto es un diurno y su precio en clase turista es 33 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno y su precio en clase turista es 33 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+U10: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

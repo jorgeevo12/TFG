@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el precio del viaje de ida (p) desde Ciudad_Real hasta Madrid el día treinta y uno de diciembre .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U3: Quiero saber el precio desde Ciudad_Real a (lm Madrid Mqdrí) .
+M4: ¿ Quiere viajar desde Ciudad_Real ?
+U4: Sí .
+M5: ¿ Quiere viajar a Madrid ?
+U5: Sí .
+M6: ¿ Qué día desea salir ?
+U6: El treinta y uno de diciembre .
+M7: ¿ Desea salir el viernes , día 31 de diciembre de 2004 ?
+U7: Sí .
+M8: Le consulto precios de Ciudad_Real a Madrid saliendo el viernes , día 31 de diciembre de 2004 . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un extremadura que cuesta 27 con 50 euros la ida y el más barato es un Regional que cuesta 12 con 55 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí , saber los precios en el Ave .
+M10: Le consulto precios de Ciudad_Real a Madrid en tipo tren Ave . Un momento por favor .
+M11: Los trenes son Ave y en clase turista , el billete cuesta 25 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

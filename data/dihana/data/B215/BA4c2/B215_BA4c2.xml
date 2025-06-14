@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:18"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B215"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B215_BA4c2_T01u.ul">
+<t> <d tipo="abrir"> Buenos días </d> , <n fuente="hablante" tipo="aspiración"/> me gustarí<a>a</a> <f tipo="e"/> <r tipo="sustitución"> <m> <l tipo="cortada" palabra="saber"> sa </l> </m> <c> obtener </c> </r> el horario , saber a que hora puedo ir a Sevilla <n fuente="hablante" tipo="aspiración"/> . Tendría que ser <f tipo="e"/> la fecha entre el <r tipo="sustitución"> <m> <l tipo="cortada" palabra="doce"> doz </l> </m> <c> dieciocho </c> </r> y veinte de abril y a primera hora de la mañana . <n fuente="hablante" tipo="aspiración"/> Y bueno si me gustaría si es posible <l tipo="cortada" palabra="viajar"> viaj </l> . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere viajar desde Barcelona ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B215_BA4c2_T02u.ul">
+<t> No , desde Bilbao <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el martes , día 9 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B215_BA4c2_T03u.ul">
+<t> No , <f tipo="e"/> la fecha tiene que ser <n fuente="hablante" tipo="aspiración"/> <a>e</a>ntre el dieciocho y el veinte de abril <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el domingo , día 18 de abril de 2004 ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B215_BA4c2_T04u.ul">
+<t> <d tipo="aceptar"> Bien </d> , <r tipo="sustitución"> <m> si sería </m> <c> si es </c> </r> a primera hora de la mañana sí . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 6 y las 7 de la mañana ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B215_BA4c2_T05u.ul">
+<t> <d tipo="aceptar"> Bien </d> , sí <p/> , me viene bien . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B215_BA4c2_T06u.ul">
+<t> A Sevilla <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Sevilla el domingo , día 18 de abril de 2004 entre las 6 y las 7 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B215_BA4c2_T07u.ul">
+<t> <d tipo="rellenar"> Pues </d> sí , podría se<a>r</a> <f tipo="e"/> <p/> quizá que salies<a>e</a> <p/> hasta media mañana <r tipo="repetición"> <m> o<a>o</a> </m> <c> o </c> </r> hasta el mediodía <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 7 y las 11 de la mañana ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B215_BA4c2_T08u.ul">
+<t> Sí , <d tipo="aceptar"> estaría bien </d> . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Sevilla el domingo , día 18 de abril de 2004 entre las 7 y las 11 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B215_BA4c2_T09u.ul">
+<t> ¿ Podría saber qué tipo de tren <p/> es cada uno de los dos ? </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto tipos de tren . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B215_BA4c2_T10u.ul">
+<t> <f tipo="e"/> Me gustaría saber si alguno de ellos es <f tipo="e"/> un tren rápido <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> El tren más rápido es un Intercity ¿ Desea algo más ? ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B215_BA4c2_T11u.ul">
+<t> ¿ A qué hora sale ese Intercity ? </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> El segundo tren es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B215_BA4c2_T12u.ul">
+<t> No , nada más <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber cuánto cuest(a a) el tren que sale de Ciudad_Real y llega a Sevilla .
+M2: ¿ Quiere salir desde Valencia ?
+U2: No , desde Ciudad_Real .
+M3: ¿ Qué día desea salir ?
+U3: El catorce de agosto .
+M4: ¿ Desea salir el sábado , día 14 de agosto de 2004 ?
+U4: Sí .
+M5: Le consulto precios de Ciudad_Real a Sevilla saliendo el sábado , día 14 de agosto de 2004 . Un momento por favor .
+M6: Los trenes son Ave y en clase turista , el billete cuesta 41 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) (na) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , quería saber el precio de un tren rápido que salga el viernes que viene desde León hasta Vigo .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Me gustaría saber el precio de un tren rápido (p) que saliera este viernes (p) desde León hasta Vigo .
+M3: ¿ Quiere viajar desde León ?
+U3: Sí .
+M4: ¿ Quiere viajar a Vigo ?
+U4: Sí .
+M5: Le consulto precios de León a Vigo . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un covadonga que cuesta 25 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí (p) , quiero saber el precio (p) de un billete (p) de Vigo a León (p) en un tren cómodo (p) para el lunes que viene .
+M7: ¿ Desea salir el lunes , día 15 de marzo de 2004 ?
+U6: Sí .
+M8: Le consulto precios . Un momento por favor .
+M9: Sólo hay dos trenes . En clase turista , el tren más rápido es un Diurno que cuesta 24 euros la ida y el otro es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc muchas gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

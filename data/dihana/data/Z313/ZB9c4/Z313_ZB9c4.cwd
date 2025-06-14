@@ -1,0 +1,76 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería saber el precio de un viaje de $C_ORIGEN<Santander> a $C_DESTINO<Bilbao> .
+Quería saber el precio de un viaje de $C_ORIGEN<Santander> (U:Pregunta:Precio:Origen) pal: 1 - 9
+a $C_DESTINO<Bilbao> . (U:Pregunta:Precio:Destino) pal: 10 - 12
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Quería salir un $FECHA<domingo de agosto> , un $FECHA<domingo> cualquiera .
+Quería salir un $FECHA<domingo de agosto> , un $FECHA<domingo> cualquiera . (U:Respuesta:Dia:Dia) pal: 1 - 11
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Un $FECHA<domingo de agosto> $HORA<por la tarde> en un $T_TREN<intercity> .
+Un $FECHA<domingo de agosto> (U:Respuesta:Dia:Dia) pal: 1 - 4
+$HORA<por la tarde> (U:Respuesta:Precio:Hora_salida) pal: 5 - 7
+en un $T_TREN<intercity> . (U:Respuesta:Precio:Tipo_tren) pal: 8 - 11
+M4: Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 1 de agosto de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 1 de agosto de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M5: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U4: Quiero salir el día $FECHA<ocho de agosto> .
+Quiero salir el día $FECHA<ocho de agosto> . (U:Pregunta:Precio:Dia) pal: 1 - 8
+M6: Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 8 de agosto de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 8 de agosto de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M7: Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U5: Quería salir $HORA<por la tarde> .
+Quería salir $HORA<por la tarde> . (U:Pregunta:Precio:Hora_salida) pal: 1 - 6
+M8: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+M9: El único tren que realiza el trayecto es un $T_TREN<talgo> y su precio en clase $CLASE<turista> es $PRECIO<44 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> y su precio en clase $CLASE<turista> es $PRECIO<44 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+U6: Quería saber los trenes que hay el $FECHA<quince de agosto> .
+Quería saber los trenes que hay el $FECHA<quince de agosto> . (U:Pregunta:Precio:Dia) pal: 1 - 11
+M10: Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 15 de agosto de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 15 de agosto de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M11: El único tren que realiza el trayecto es un $T_TREN<talgo> y su precio en clase $CLASE<turista> es $PRECIO<44 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> y su precio en clase $CLASE<turista> es $PRECIO<44 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+U7: Quería saber los trenes que hay el día $FECHA<veintidós de agosto> $HORA<por la tarde> y en $T_TREN<intercity> .
+Quería saber los trenes que hay el día $FECHA<veintidós de agosto> (U:Pregunta:Precio:Dia) pal: 1 - 11
+$HORA<por la tarde> (U:Pregunta:Precio:Hora_salida) pal: 12 - 14
+y en $T_TREN<intercity> . (U:Pregunta:Precio:Tipo_tren) pal: 15 - 18
+M12: Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> en tipo tren $T_TREN<intercity> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> en tipo tren $T_TREN<intercity> . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+M13: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U8: Quería ir el $FECHA<domingo veintidós de agosto> .
+Quería ir el $FECHA<domingo veintidós de agosto> . (U:Pregunta:Precio:Dia) pal: 1 - 8
+M14: Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 22 de agosto de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 22 de agosto de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M15: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U9: Quería buscar un tren para el $FECHA<veintinueve de agosto> $HORA<por la tarde> y $T_TREN<intercity> .
+Quería buscar un tren para el $FECHA<veintinueve de agosto> (U:Pregunta:Precio:Dia) pal: 1 - 9
+$HORA<por la tarde> (U:Pregunta:Precio:Hora_salida) pal: 10 - 12
+y $T_TREN<intercity> . (U:Pregunta:Precio:Tipo_tren) pal: 13 - 15
+M16: Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 29 de agosto de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<santander> a $C_DESTINO<bilbao> saliendo el $FECHA<domingo , día 29 de agosto de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M17: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U10: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M18: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,112 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Bueno me gustaría saber el precio de un viaje de ida y vuelta a Santander .
+Bueno me gustaría saber el precio de un viaje de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+a Santander . (U:Pregunta:Precio:Destino) pal: 14 - 16
+
+
+M2: ¿ Quiere viajar a santander ? .
+¿ Quiere viajar a santander ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+U2: Sí , quiero ir a Santander saliendo hoy y volviendo pasado mañana .
+Sí , (U:Afirmacion:Destino:Nil) pal: 1 - 2
+quiero ir a Santander (U:Respuesta:Precio:Destino) pal: 3 - 6
+saliendo hoy (U:Respuesta:Precio:Dia) pal: 7 - 8
+y volviendo (U:Respuesta:Precio:Tipo_viaje) pal: 9 - 10
+pasado mañana . (U:Respuesta:Precio:Dia) pal: 11 - 13
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: Deseo salir hoy de Madrid y volver pasado mañana .
+Deseo salir hoy (U:Respuesta:Dia:Dia) pal: 1 - 3
+de Madrid (U:Respuesta:Precio:Origen) pal: 4 - 5
+y volver (U:Respuesta:Precio:Tipo_viaje) pal: 6 - 7
+pasado mañana . (U:Respuesta:Precio:Dia) pal: 8 - 10
+
+
+M4: Precios desde madrid , ¿ saliendo el miércoles , día 16 de junio de 2004 ? .
+Precios desde madrid , (M:Confirmacion:Precio:Origen) pal: 1 - 4
+¿ saliendo el miércoles , día 16 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 5 - 17
+
+
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+M5: Le consulto precios de madrid a santander saliendo el miércoles , día 16 de junio de 2004 . Un momento por favor .
+Le consulto precios de madrid a santander saliendo el miércoles , día 16 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U5: Sí deseaba también conocer el precio de la vuelta .
+Sí deseaba también conocer el precio de la vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+
+
+M7: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U6: Pasado mañana .
+Pasado mañana . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+
+M8: ¿ Desea salir el viernes , día 18 de junio de 2004 ? .
+¿ Desea salir el viernes , día 18 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U7: no deseo salir hoy y regresar el viernes .
+no (U:Negacion:Dia:Nil) pal: 1 - 1
+deseo salir hoy (U:Respuesta:Precio:Dia) pal: 2 - 4
+y regresar (U:Respuesta:Precio:Tipo_viaje) pal: 5 - 6
+el viernes . (U:Respuesta:Precio:Dia) pal: 7 - 9
+
+
+M9: Le consulto precios de santander a madrid saliendo el viernes , día 18 de junio de 2004 . Un momento por favor .
+Le consulto precios de santander a madrid saliendo el viernes , día 18 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M10: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U8: Sí , me gustaría conocer los precios de estos trayectos en primera .
+Sí , me gustaría conocer los precios de estos trayectos en primera . (U:Pregunta:Precio:Clase_billete) pal: 1 - 13
+
+
+M11: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U9: Me gustaría conocer el precio de primera para viajar en primera .
+Me gustaría conocer el precio de primera para viajar en primera . (U:Pregunta:Precio:Clase_billete) pal: 1 - 12
+
+
+M12: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M13: Hay varios trenes . En clase preferente , el tren más caro es un talgo que cuesta 58 euros la ida y el más barato es un diurno que cuesta 43 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase preferente , el tren más caro es un talgo que cuesta 58 euros la ida y el más barato es un diurno que cuesta 43 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 50
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 51 - 55
+
+
+U10: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

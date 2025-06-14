@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:22"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B510"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B510_BB2c7_T01u.ul">
+<t> <f tipo="e"/> <d tipo="abrir"> Buenas tardes </d> <p/> me gustarí<a>a</a> saber el horario y el precio <p/> d<a>e</a> los trenes <p/> que van <r tipo="repetición"> <m> desd<a>e</a> <l tipo="cortada" palabra="Bilbao"> Bi </l> </m> <c> desde Bilbao </c> </r> a Valladolid <p/> solo viaje de ida . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Oviedo ¿ desde Bilbao ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B510_BB2c7_T02u.ul">
+<t> <f tipo="e"/> No , he preguntado p<a>o</a>r trenes a Valladolid . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere llegar a Valladolid ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B510_BB2c7_T03u.ul">
+<t> <f tipo="e"/> Sí <p/> , a poder ser el primer sábado de mayo . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el sábado , día 1 de mayo de 2004 ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B510_BB2c7_T04u.ul">
+<t> No <f tipo="sin_identificar"/> <p/> . <f tipo="e"/> Sí me gustaría llegar el sábado , salir y llegar el sábado . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Valladolid llegando el sábado , día 1 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Diurno que sale a las 2 y 5 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B510_BB2c7_T05u.ul">
+<t> <f tipo="sin_identificar"/> ¿ No tiene ningún <l tipo="mal_pronunciada" palabra="otro"> oto </l> tren ? </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B510_BB2c7_T06u.ul">
+<t> Si no hay ningún otro tren que salga el sábado . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Valladolid saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Diurno que sale a las 2 y 5 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B510_BB2c7_T07u.ul">
+<t> <f tipo="e"/> Me gustaría saber <a>e</a>l precio de ese tren . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 19 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B510_BB2c7_T08u.ul">
+<t> <f tipo="e"/> No , <d tipo="cerrar"> muchas gracias </d> <n fuente="exterior" tipo="genérico"/> . <p/> No , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

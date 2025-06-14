@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , (df (lm mire mie)) (fe) vivo en Vigo y querría ir a pasar unos días de vacaciones a Madrid (fe) (na) (lm entonces entoes) me gustaría ir entre el seis y el trece de junio ¿ Me podría decir qué horarios y qué trenes tiene ?
+M2: ¿ Qué día desea salir ?
+U2: Sí , me gustaría salir el seis de junio (na) .
+M3: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U3: No , (dq por favor) , desde Vigo , (p) aunque llamo en Zaragoza vivo en Vigo .
+M4: Le consulto horarios de trenes con salida en Vigo destino Madrid saliendo el domingo , día 6 de junio de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a la una y 25 de la tarde y el otro a las 10 y 20 de la noche ¿ Desea algo más ?
+U4: (nl) Sí , (dq por favor) , querría saber de estos dos trenes que me dijera , de qué tipo son cada uno de ellos .
+M6: Dispone de dos tipos de trenes . El tren más rápido es un Talgo y el otro es un Tren_Hotel ¿ Desea algo más ?
+U5: No , (dc muchas gracias) , es (fe) suficiente .
+M7: Gracias por utilizar este servicio . Feliz viaje .

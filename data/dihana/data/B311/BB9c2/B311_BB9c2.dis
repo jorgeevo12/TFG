@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría saber el precio del viaje de ida que tien(a e) del Ave (rs (m salir de) (c saliendo desde)) Ciudad_Real (fe) (rs (m a) (c para)) llegar a Madrid .
+M2: ¿ Quiere salir desde Bilbao ?
+U2: No , (rr (m desde Ciudad_Real) (s (p)) (c desde Ciudad_Real)) a Madrid .
+M3: ¿ Qué día desea salir ?
+U3: El treinta y uno de diciembre (p) , con la llegad(a a) a Madrid antes de las cinco de la tarde .
+M4: ¿ Desea salir el viernes , día 31 de diciembre de 2004 ?
+U4: Sí (p) , (da eso es) .
+M5: ¿ Quiere llegar entre las 0 de la noche y las 5 de la tarde ?
+U5: Sí , (da eso es) .
+M6: Le consulto precios . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un extremadura que cuesta 27 con 50 euros la ida y el más barato es un Lanzadera que cuesta 16 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

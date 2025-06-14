@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber el horario y el tipo de tren para i(a r) desde Salamanca a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: El trece de junio .
+M3: ¿ Desea salir el domingo , día 13 de junio de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Salamanca destino Barcelona saliendo el domingo , día 13 de junio de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 8 de la mañana y el otro a las 7 y 50 de la tarde ¿ Desea algo más ?
+U4: Querría saber qué tipo de tren es .
+M6: Le consulto tipos de trenes para el trayecto Salamanca a Barcelona . Un momento por favor .
+M7: Dispone de dos tipos de trenes . El tren más rápido es un Miguel_de_Unamuno y el otro es un pío_baroja ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

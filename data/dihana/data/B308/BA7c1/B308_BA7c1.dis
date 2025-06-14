@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenas tardes) , quería (rs (m un viaj(a e)) (c un billete)) de ida (p) desde Zaragoza a Madrid para el día seis de marzo (p) y si es posible viajar en el Ave .
+M2: ¿ Desea hacer el viaje en un Alaris ?
+U2: (na) No desearía hacer el viaje en el Ave .
+M3: ¿ Desea hacer el viaje en un Ave ?
+U3: Sí .
+M4: ¿ Quiere saber horarios ?
+U4: Sí , (dq por favor) (nw) .
+M5: ¿ Qué día desea salir ?
+U5: El día seis de marzo .
+M6: ¿ Desea salir el sábado , día 6 de marzo de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el sábado , día 6 de marzo de 2004 en Ave . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

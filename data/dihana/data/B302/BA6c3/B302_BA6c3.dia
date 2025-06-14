@@ -1,0 +1,53 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Me gustaría hacer un viaje de ida desde Granada a Madrid , y a ser posible , salir un día laborable de la próxima semana .
+Me gustaría hacer un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+desde Granada (U:Pregunta:Nil:Origen) pal: 8 - 9
+a Madrid , (U:Pregunta:Nil:Destino) pal: 10 - 12
+y a ser posible , salir un día laborable de la próxima semana . (U:Pregunta:Nil:Dia) pal: 13 - 26
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U2: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+M3: Horarios para llegar a madrid , ¿ quiere salir de tarragona ? .
+Horarios para llegar a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ quiere salir de tarragona ? . (M:Confirmacion:Origen:Origen) pal: 7 - 13
+U3: No , quiero salir de Granada hacia Madrid . Y quiero saber el tipo de tren y el horario .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero salir de Granada (U:Pregunta:Hora_salida,Tipo_tren:Origen) pal: 3 - 6
+hacia Madrid . Y quiero saber el tipo de tren y el horario . (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 7 - 20
+M4: Quiere horarios de trenes a madrid , ¿ desde granada ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde granada ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: Sí , sí , por favor .
+Sí , sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 7
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U5: Un día laborable de la próxima semana .
+Un día laborable de la próxima semana . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M6: ¿ Desea salir el lunes , día 8 de marzo de 2004 ? .
+¿ Desea salir el lunes , día 8 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M7: Le consulto horarios de trenes con salida en granada destino madrid saliendo el lunes , día 8 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en granada destino madrid saliendo el lunes , día 8 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M8: Sólo hay dos trenes . El primero sale a las 7 y 55 de la mañana y el otro a las 4 y 40 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 7 y 55 de la mañana y el otro a las 4 y 40 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+U7: Y ¿ qué tipo de tren es ? .
+Y ¿ qué tipo de tren es ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 9
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U8: El tipo de tren , por favor .
+El tipo de tren , por favor . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 8
+M10: Le consulto tipos de trenes para el trayecto granada a madrid . Un momento por favor .
+Le consulto tipos de trenes para el trayecto granada a madrid . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+M11: Hay un único tipo de tren , que es un talgo . Desea algo más ? .
+Hay un único tipo de tren , que es un talgo . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 12
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 13 - 17
+U9: No muchas gracias , hasta luego .
+No muchas gracias , hasta luego . (U:Cierre:Nil:Nil) pal: 1 - 7
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

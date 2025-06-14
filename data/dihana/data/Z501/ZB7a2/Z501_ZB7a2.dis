@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pu(a e)s) quier(a o) (a m)irar trenes para ir a Logroño (p) la semana que viene .
+M2: ¿ Quiere saber horarios ?
+U2: (fe) No .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: No , (dc gracias) , quiero saber precio .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Logroño .
+M5: Quiere saber el precio a Logroño ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto precios de Zaragoza a Logroño saliendo el lunes , día 3 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 15 euros la ida y el más barato es un Regional que cuesta 8 con 9 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , (da sí) , quería ir a Barcelona el próximo martes (na) .
+M2: ¿ Quiere saber horarios ?
+U2: (na) (df Pues) sí .
+M3: Horarios de trenes con destino a Barcelona ¿ desde Zaragoza ?
+U3: Sí , (dq (lm por po) favor) .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el martes , día 17 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: Quiero que salg(a a) por la mañana .
+M6: Le consulto horarios de Zaragoza a Barcelona el martes , día 17 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 12 y 20 de la mañana ¿ Desea algo más ?
+U5: Sí ¿ a qué hora llega el último ?
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Sí ¿ a qué hora llega el último ?
+M9: Ese tren sale a las 12 y 20 de la mañana y llega a las 5 y 13 de la tarde ¿ Desea algo más ?
+U7: No , nada más , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

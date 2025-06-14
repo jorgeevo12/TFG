@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fb) (rr (m Quier(a o)) (s (p)) (c quiero)) ir a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: (na) (rr (m (lu Quiero Quie)) (c quiero)) saber el horario de tren a Barcelona .
+M3: ¿ Qué día desea salir ?
+U3: (df Pues) , quiero ir el veintiuno de mayo a las cinco .
+M4: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U4: No , desd(a e) Logroño .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero el horario de trenes , con salida Logroño destino Barcelona , (p) el veintiuno de mayo a las cinco de la tarde .
+M6: Le consulto horarios de Logroño a Barcelona el viernes , día 21 de mayo de 2004 entre las 4 y 30 y las 5 y 30 de la tarde . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí , la hora .
+M8: Le consulto horarios de trenes con salida en Logroño destino Barcelona saliendo el viernes , día 21 de mayo de 2004 . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 2 de la madrugada y llega a las 9 y 5 de la mañana y el otro sale a las 12 y 38 de la mañana y llega a las 6 y 50 de la tarde ¿ Desea algo más ?
+U7: Sí ¿ cuánto val(a e) el último tren ?
+M10: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc nada más) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

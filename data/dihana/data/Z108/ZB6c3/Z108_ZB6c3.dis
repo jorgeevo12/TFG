@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería información sobre horario y precios (p) d(a e) un tren entre Lleida y Madrid sólo viaje de ida .
+M2: ¿ Qué día desea salir ?
+U2: (df Pues) salir mañana per(a o) a ver si es posible que sea en un Ave y que llegue a Madrid antes de las diez .
+M3: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U3: No . (p) Desde Lleida .
+M4: Le consulto horarios de trenes con salida en Lérida destino Madrid saliendo el miércoles , día 3 de marzo de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Tren_Hotel que sale a la una y 25 de la madrugada y llega a las 8 de la mañana ¿ Desea algo más ?
+U4: S(a í) .
+M6: Perdón . No consigo entenderle .
+U5: S(a í) ¿ me puede decir el precio de ese tren ?
+M7: El precio de ese tren en clase turista es 34 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (rr (m No) (c no)) , (dc gracias) , (lm eso eo) es todo .
+M8: Gracias por utilizar este servicio . Feliz viaje .

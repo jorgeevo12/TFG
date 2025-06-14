@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (lm Deseaba desaba) obtener información de horarios par(a a) realizar un viaje de ida y otro de vuelta desde Zaragoza a Sevilla .
+M2: ¿ Qué día desea salir ?
+U2: (nl) El día uno de agosto .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Sevilla saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U3: Sí ¿ cuál es su precio ?
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nl) ¿ Cuál es el precio de este tren ?
+M6: El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (na) Sí , conocer (b (a e)l) (p) los horarios del viaje de vuelta (na) .
+M7: Le consulto horarios de trenes con salida en Sevilla destino Zaragoza saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un extremadura que sale a las 9 y 44 de la mañana ¿ Desea algo más ?
+U6: (nl) Sí , el viaje de vuelta es el diez de agosto .
+M9: Le consulto horarios de trenes con salida en Sevilla destino Zaragoza saliendo el martes , día 10 de agosto de 2004 . Un momento por favor .
+M10: El único tren que realiza el trayecto es un extremadura que sale a las 9 y 44 de la mañana ¿ Desea algo más ?
+U7: Sí ¿ cuánto cuesta (p) el billete ?
+M11: El precio de ese tren en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , quería saber horarios para ir a Vigo el próximo viernes .
+M2: Le consulto horarios de trenes con salida en Valencia destino Vigo saliendo el viernes , día 19 de diciembre de 2003 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la madrugada y el último a las 11 de la noche ¿ Desea algo más ?
+U2: Quería (lm salir seir) por la tarde .
+M4: Le consulto horarios . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U3: ¿ No hay ninguno que sea más rápido ?
+M6: Le consulto horarios . Un momento por favor .
+M7: Hay varios trenes , El tren más rápido es un Intercity que tarda 6 horas y 31 minutos y el más lento es un tipo Tren_Hotel que tarda 9 horas ¿ Desea algo más ?
+U4: ¿ A qué hora sale el Intercity ?
+M8: Ese tren sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U5: Sí , repítame los horarios del Talgo , que me viene mejor .
+M9: Le consulto horarios . Un momento por favor .
+M10: Ese tren sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U6: No , nada más , (dc (lm muchas mucha) gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

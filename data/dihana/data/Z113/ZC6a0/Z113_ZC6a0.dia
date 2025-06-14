@@ -1,0 +1,110 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Querría consultar horarios y precios para un viaje de ida y vuelta de Madrid a Guadalajara .
+Querría consultar horarios y precios para un viaje de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 12
+de Madrid (U:Pregunta:Hora_salida,Precio:Origen) pal: 13 - 14
+a Guadalajara . (U:Pregunta:Hora_salida,Precio:Destino) pal: 15 - 17
+
+
+M2: ¿ Quiere llegar a zaragoza ? .
+¿ Quiere llegar a zaragoza ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+U2: No .
+No . (U:Negacion:Destino:Nil) pal: 1 - 2
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A Guadalajara .
+A Guadalajara . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U4: El lunes que viene .
+El lunes que viene . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M5: Le consulto horarios de trenes con salida en madrid destino guadalajara saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino guadalajara saliendo el lunes , día 1 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U5: Quiero consultar los precios de esos trenes .
+Quiero consultar los precios de esos trenes . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+
+M7: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U6: Quiero consultar también horarios y precios del viaje de vuelta .
+Quiero consultar también horarios y precios del viaje de vuelta . (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 11
+
+
+M8: Le consulto horarios de trenes con salida en guadalajara destino madrid saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en guadalajara destino madrid saliendo el lunes , día 1 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U7: Quiero consultar ese viaje , pero para el viernes .
+Quiero consultar ese viaje , pero para el viernes . (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+
+
+M10: Le consulto horarios de trenes con salida en guadalajara destino madrid saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en guadalajara destino madrid saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U8: Quiero consultar ese viaje , pero para el viernes siguiente .
+Quiero consultar ese viaje , pero para el viernes siguiente . (U:Pregunta:Hora_salida:Dia) pal: 1 - 11
+
+
+M12: Le consulto horarios de trenes con salida en guadalajara destino madrid saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en guadalajara destino madrid saliendo el viernes , día 5 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M13: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U9: Quiero saber sus precios .
+Quiero saber sus precios . (U:Pregunta:Precio:Nil) pal: 1 - 5
+
+
+M14: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U10: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,55 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría saber el horario y el precio un viaje de ida de Pamplona hacia Oviedo .
+Me gustaría saber el horario y el precio un viaje de ida (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 12
+de Pamplona (U:Pregunta:Hora_salida,Precio:Origen) pal: 13 - 14
+hacia Oviedo . (U:Pregunta:Hora_salida,Precio:Destino) pal: 15 - 17
+
+M2: Quiere horarios de trenes a oviedo , ¿ desde barcelona ? .
+Quiere horarios de trenes a oviedo , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U2: no , desde Pamplona hacia Oviedo .
+no , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Pamplona (U:Respuesta:Hora_salida:Origen) pal: 3 - 4
+hacia Oviedo . (U:Respuesta:Hora_salida:Destino) pal: 5 - 7
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U4: Me gustaría saber horario de trenes desde Pamplona hacia Oviedo el día diecinueve de octubre .
+Me gustaría saber horario de trenes desde Pamplona (U:Pregunta:Hora_salida:Origen) pal: 1 - 8
+hacia Oviedo (U:Pregunta:Hora_salida:Destino) pal: 9 - 10
+el día diecinueve de octubre . (U:Pregunta:Hora_salida:Dia) pal: 11 - 16
+
+M5: Le consulto horarios de trenes con salida en pamplona destino oviedo saliendo el martes , día 19 de octubre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en pamplona destino oviedo saliendo el martes , día 19 de octubre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: Sí , me gustaría saber el precio .
+Sí , me gustaría saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+M7: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

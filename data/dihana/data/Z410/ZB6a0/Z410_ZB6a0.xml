@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:38"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="Z410"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T01u.ul">
+<t> Quisiera horarios . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T02u.ul">
+<t> Vigo . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T03u.ul">
+<t> Vigo . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Entre <a>e</a>l veintinueve de abril y el cinco de mayo . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el miércoles , día 21 de abril de 2004 ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T05u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T06u.ul">
+<t> Entre el veintinueve de abril <p/> y el cinco de mayo . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Vigo ¿ desde Zaragoza ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T07u.ul">
+<t> No <p/> , desde Barcelona . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Barcelona destino Vigo saliendo el jueves , día 29 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T08u.ul">
+<t> Sí <p/> , que la llegada sea a Oviedo . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Barcelona destino Oviedo saliendo el jueves , día 29 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un covadonga que sale a las 7 y 30 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T09u.ul">
+<t> Sí , cambiar el destino , <d tipo="pedir"> por favor </d> <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T10u.ul">
+<t> Quería horario de trenes , de Barcelona a San_Sebastián <p/> el veintinueve de abril . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Barcelona destino San_Sebastián saliendo el jueves , día 29 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T11u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> ¿ Qué tipo de trenes <f tipo="e"/> cuento ? <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Talgo ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T12u.ul">
+<t> Sí , quisiera viajar en Talgo <p/> ¿ qué horario tienen ? <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Barcelona destino San_Sebastián saliendo el jueves , día 29 de abril de 2004 en Talgo . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T13u.ul">
+<t> ¿ Hay algún tren después de las siete treinta ? </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T14u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , quería el viaje de Barcelona a San_Sebastián , en Talgo <n fuente="hablante" tipo="aspiración"/> después de las ocho de la mañana . </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 21 sistema -->
+<turno id="M_021" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . El primero sale a las 10 y 30 de la mañana y el otro a las 11 y 55 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 15 usuario -->
+<turno id="U_015" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T15u.ul">
+<t> ¿ Qué precio tienen ? </t>
+</turno>
+
+<!-- Turno 22 sistema -->
+<turno id="M_022" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 16 usuario -->
+<turno id="U_016" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T16u.ul">
+<t> Me gustaría saber cuánto cuesta cada uno de los <n fuente="exterior" tipo="genérico"/> viajes . </t>
+</turno>
+
+<!-- Turno 23 sistema -->
+<turno id="M_023" hablante="sistema" fichero_audio_ss="">
+<t> Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 17 usuario -->
+<turno id="U_017" hablante="usuario" fichero_audio_ss="Z410_ZB6a0_T17u.ul">
+<t> No . </t>
+</turno>
+
+<!-- Turno 24 sistema -->
+<turno id="M_024" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

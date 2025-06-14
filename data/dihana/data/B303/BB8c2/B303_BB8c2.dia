@@ -1,0 +1,57 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , quiero saber el precio de un billete de ida para ir desde Alicante a Valencia y si es posible ir en euromed en clase turista , para salir el próximo fin de semana .
+Hola , quiero saber el precio de un billete de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 11
+para ir desde Alicante (U:Pregunta:Precio:Origen) pal: 12 - 15
+a Valencia (U:Pregunta:Precio:Destino) pal: 16 - 17
+y si es posible ir en euromed (U:Pregunta:Precio:Tipo_tren) pal: 18 - 24
+en clase turista , (U:Pregunta:Precio:Clase_billete) pal: 25 - 28
+para salir el próximo fin de semana . (U:Pregunta:Precio:Dia) pal: 29 - 36
+
+
+M2: ¿ Desea salir el sábado , día 6 de marzo de 2004 ? .
+¿ Desea salir el sábado , día 6 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U2: Sí , me viene bien .
+Sí , me viene bien . (U:Afirmacion:Dia:Nil) pal: 1 - 6
+
+
+M3: Quiere saber el precio a valencia , ¿ desde alicante ? .
+Quiere saber el precio a valencia , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde alicante ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U3: Sí , de billete de ida .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+de billete de ida . (U:Respuesta:Precio:Tipo_viaje) pal: 3 - 7
+
+
+M4: Le consulto precios de alicante a valencia saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+Le consulto precios de alicante a valencia saliendo el sábado , día 6 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M5: Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 22 con 50 euros la ida y el más barato es un regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 22 con 50 euros la ida y el más barato es un regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U4: Sí , por favor , si me puedes decir en clase turista en el euromed .
+Sí , por favor , si me puedes decir en clase turista (U:Pregunta:Precio:Clase_billete) pal: 1 - 12
+en el euromed . (U:Pregunta:Precio:Tipo_tren) pal: 13 - 16
+
+
+M6: El primer tren es un euromed y su precio en clase turista es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El primer tren es un euromed y su precio en clase turista es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_relativo_orden,Precio,Tipo_tren) pal: 1 - 39
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 40 - 44
+
+
+U5: No , gracias , ya está todo , adiós .
+No , gracias , ya está todo , adiós . (U:Cierre:Nil:Nil) pal: 1 - 10
+
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

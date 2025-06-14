@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (fe) Quería saber los horarios y precios (p) d(a e) un viaje de ida y vuelta de Zaragoza a Madrid .
+M2: ¿ Qué día desea salir ?
+U2: (fe) Pasado mañana .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Pasado mañana .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U4: Querí(a a) llegar a Madrid (p) sobre la una (p) d(a e)l mediodía .
+M6: Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Quería llegar (fe) a las doce .
+M8: Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 8 de la mañana y llega a las 11 y 48 de la mañana y el otro sale a las 9 de la mañana y llega a las 12 y 20 de la mañana ¿ Desea algo más ?
+U6: (fm) Quería saber el precio d(a e) los billetes .
+M10: Los trenes son Intercity y en clase turista , el billete cuesta 21 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Quería saber (fe) los horarios del viaje de vuelta de Madrid a Zaragoza .
+M11: Le consulto horarios de trenes con salida en Madrid destino Zaragoza saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

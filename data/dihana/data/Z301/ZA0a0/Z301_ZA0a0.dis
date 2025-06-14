@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría (nw obtener) información de horario de trenes .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Sevilla .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Sevilla .
+M4: ¿ Qué día desea salir ?
+U4: Entre el día siete y el nueve de abril .
+M5: Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ?
+U5: Sí , desde Zaragoza .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U6: No , no deseo nada más .
+M8: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , me gustaría obtener el horario de ida del Ave de Sevilla a Madrid para el día doce de noviembre a partir de las nueve de la mañana y llegar antes de las nueve de la noche .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: (na) Me gustaría obtener el horario de ida de Sevilla a Madrid para el doce de noviembre a partir de las nueve de la mañana .
+M3: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el viernes , día 12 de noviembre de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche ¿ Desea algo más ?
+U3: Sí , me gustarí(a a) si podría ser , salir (rs (m en el tren) (c con el tren)) Ave .
+M5: ¿ Desea hacer el viaje en un Ave ?
+U4: Sí .
+M6: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el viernes , día 12 de noviembre de 2004 en Ave . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche ¿ Desea algo más ?
+U5: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

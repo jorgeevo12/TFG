@@ -1,0 +1,58 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Pues , querría saber el precio para pasar un $FECHA en $T_TREN .
+Pues , querría saber el precio para pasar un $FECHA en $T_TREN . (U:Pregunta:Precio:Destino) pal: 1 - 15
+
+M2: ¿ Quiere viajar desde $C_ORIGEN ? .
+¿ Quiere viajar desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U2: no , salida en $C_ORIGEN y llegada a $C_DESTINO .
+no , (U:Negacion:Origen:Nil) pal: 1 - 2
+salida en $C_ORIGEN (U:Respuesta:Precio:Origen) pal: 3 - 5
+y llegada a $C_DESTINO . (U:Respuesta:Precio:Destino) pal: 6 - 10
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Pues preferiría salir la $FECHA del $FECHA al $FECHA .
+Pues preferiría salir la $FECHA del $FECHA al $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 13
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U4: Alrededor del $FECHA al $FECHA y en un tren $T_TREN si fuese posible .
+Alrededor del $FECHA al $FECHA (U:Respuesta:Dia:Dia) pal: 1 - 7
+y en un tren $T_TREN si fuese posible . (U:Respuesta:Precio:Tipo_tren) pal: 8 - 16
+
+M5: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes . En clase $CLASE , el tren $T_TREN es un $T_TREN que cuesta $PRECIO la ida y el $T_TREN es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE , el tren $T_TREN es un $T_TREN que cuesta $PRECIO la ida y el $T_TREN es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U5: Pues sí , porque se ha equivocado quiero del $FECHA al $FECHA .
+Pues sí , porque se ha equivocado quiero del $FECHA al $FECHA . (U:Pregunta:Precio:Dia) pal: 1 - 15
+
+M7: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M8: Hay varios trenes . En clase $CLASE , el tren $T_TREN es un $T_TREN que cuesta $PRECIO la ida y el $T_TREN es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE , el tren $T_TREN es un $T_TREN que cuesta $PRECIO la ida y el $T_TREN es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U6: Sí , ¿ puede repetirme el precio del tren $T_TREN ? .
+Sí , ¿ puede repetirme el precio del tren $T_TREN ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 12
+
+M9: El precio de ese tren en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

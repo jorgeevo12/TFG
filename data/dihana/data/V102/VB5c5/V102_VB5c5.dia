@@ -1,0 +1,89 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , quiero saber el horario de ida de Palencia a Oviedo el viernes dieciocho de junio .
+Hola , quiero saber el horario de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+de Palencia (U:Pregunta:Hora_salida:Origen) pal: 9 - 10
+a Oviedo (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+el viernes dieciocho de junio . (U:Pregunta:Hora_salida:Dia) pal: 13 - 18
+
+
+M2: Horarios para llegar a oviedo , ¿ saliendo de palencia ? .
+Horarios para llegar a oviedo , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ saliendo de palencia ? . (M:Confirmacion:Origen:Origen) pal: 7 - 12
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: El dieciocho de junio .
+El dieciocho de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M4: ¿ Desea salir el viernes , día 18 de junio de 2004 ? .
+¿ Desea salir el viernes , día 18 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M5: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+U5: Sí , quiero saber el precio .
+Sí , quiero saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+
+M7: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M8: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U6: Sí , quiero ver los horarios que hay .
+Sí , quiero ver los horarios que hay . (U:Pregunta:Hora_salida:Nil) pal: 1 - 9
+
+
+M9: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M10: El único tren que realiza el trayecto es un talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+U7: El precio ese de talgo .
+El precio ese de talgo . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 6
+
+
+M11: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+U8: No , ya está , gracias .
+No , ya está , gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería obtener el horario par(a a) (fe) (p) Granada (p) y el tipo de tren (p) para el próximo (nw fin) de semana .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Granada (na) (nw) .
+M3: Quiere horarios de trenes a Granada ¿ desde Zaragoza ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Granada saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U4: (fe) .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (fe) Quiero obtener el tipo de tren .
+M7: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Diurno ¿ Desea algo más ?
+U6: (nl) (fe) Quiero el horario para (a e)l Intercity .
+M8: Le consulto horarios de trenes con salida en Zaragoza destino Granada saliendo el sábado , día 28 de febrero de 2004 en Intercity . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

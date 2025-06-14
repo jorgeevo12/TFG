@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Mira) , (nw quiero) saber el horario y el precio (na) (nw de) un viaje para ir hacia Barcelona (p) (a y) para que sea el próximo sábado día doce de noviembre y volver al día siguiente (nw) .
+M2: ¿ Desea salir el martes , día 2 de noviembre de 2004 ?
+U2: No , el día doce de noviembre sábado .
+M3: Quiere horarios de trenes a Barcelona ¿ desde Madrid ?
+U3: No , quiero ir a Barcelona .
+M4: Quiere horarios de trenes a Barcelona ¿ saliendo de Bilbao ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el viernes , día 12 de noviembre de 2004 . Un momento por favor .
+M6: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U5: (df A ver) , quisiera saber (na) (a e)l horario y el precio del tren (p) hacia Barcelona para el día sábado doce de noviembre (na) y luego saber para volver al día siguiente también .
+M7: El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el viernes , día 12 de noviembre de 2004 .
+U6: Quiero salir el sábado (p) doce de noviembre .
+M8: ¿ Desea salir el sábado , día 13 de noviembre de 2004 ?
+U7: No , el sábado doce de noviembre .
+M9: El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el sábado , día 13 de noviembre de 2004 .
+U8: (nl) (da Vale) , (df pues) el día trece de noviembre .
+M10: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el sábado , día 13 de noviembre de 2004 . Un momento por favor .
+M11: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U9: Querría saber el precio de esos trenes y luego a qué hora y qué precio tendrían los trenes para volver al día siguiente .
+M12: Le consulto precios de Bilbao a Barcelona . Un momento por favor .
+M13: Sólo hay dos trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 34 euros la ida y el otro es un pío_baroja que cuesta 30 con 10 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Querría saber luego para volver al día siguiente el precio y el horario de un tren .
+M14: Le consulto horarios de trenes con salida en Barcelona destino Bilbao saliendo el domingo , día 14 de noviembre de 2004 . Un momento por favor .
+M15: Sólo hay dos trenes . El primero sale a la una de la tarde y el otro a las 10 y 30 de la noche ¿ Desea algo más ?
+U11: Quería saber el precio de los trenes (p) desde Barcelona a Bilbao el domingo día catorce de noviembre .
+M16: Le consulto precios . Un momento por favor .
+M17: Sólo hay dos trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 34 euros la ida y el otro es un pío_baroja que cuesta 30 con 10 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: No , (dc gracias) .
+M18: Gracias por utilizar este servicio . Feliz viaje .

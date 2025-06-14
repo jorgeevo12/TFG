@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) Me gustaría saber el horario de trenes (p) para ir el viernes de Murcia a Alicante .
+M2: ¿ Desea salir el viernes , día 19 de marzo de 2004 ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Alicante .
+M4: Quiere horarios de trenes a Alicante ¿ desde Bilbao ?
+U4: No , desde Murcia .
+M5: Le consulto horarios de trenes con salida en Murcia destino Alicante saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y el último a las 5 y 40 de la tarde ¿ Desea algo más ?
+U5: Sí , me gustaría saber (p) cuánto tarda el tren en llegar (a a) Alicante .
+M7: Le consulto la duración del trayecto . Un momento por favor .
+M8: Hay varios trenes , El tren más rápido es un Talgo que tarda 1 horas y 3 minutos y el más lento es un tipo Regional_expres que tarda 1 horas y 23 minutos ¿ Desea algo más ?
+U6: Sí , me gustaría saber (p) cuál de ellos sale a la(a s) , (p) a la tarde (nw) .
+M9: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ?
+U7: (na) Sí .
+M10: Le consulto horarios de Murcia a Alicante el viernes , día 19 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M11: Sólo hay dos trenes . El primero sale a las 2 de la tarde y llega a las 3 y 3 de la tarde y el otro sale a las 5 y 40 de la tarde y llega a las 6 y 57 de la tarde ¿ Desea algo más ?
+U8: (na) Sí ¿ qué tipo de tren es el de la(a s) cinco de la tarde ?
+M12: Ese tren es un Regional_expres ¿ Desea algo más ?
+U9: No , (dc gracias) (nw) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

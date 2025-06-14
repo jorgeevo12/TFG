@@ -1,0 +1,96 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero el precio de un viaje de ida y vuelta Huelva Madrid .
+Quiero el precio de un viaje de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+Huelva (U:Pregunta:Precio:Origen) pal: 11 - 11
+Madrid . (U:Pregunta:Precio:Destino) pal: 12 - 13
+
+M2: ¿ Quiere viajar desde huelva ? .
+¿ Quiere viajar desde huelva ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M3: ¿ Quiere llegar a madrid ? .
+¿ Quiere llegar a madrid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Mañana por la tarde .
+Mañana (U:Respuesta:Dia:Dia) pal: 1 - 1
+por la tarde . (U:Respuesta:Precio:Hora_salida) pal: 2 - 5
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Mañana por la tarde .
+Mañana (U:Respuesta:Dia:Dia) pal: 1 - 1
+por la tarde . (U:Respuesta:Precio:Hora_salida) pal: 2 - 5
+
+M6: ¿ Desea salir el miércoles , día 28 de abril de 2004 ? .
+¿ Desea salir el miércoles , día 28 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M7: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: El único tren que realiza el trayecto es un altaria y su precio en clase turista es 54 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un altaria y su precio en clase turista es 54 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U7: Quiero volver por la noche .
+Quiero volver (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 2
+por la noche . (U:Pregunta:Nil:Hora_salida) pal: 3 - 6
+
+M9: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U8: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M10: ¿ Me pregunta por precios ? .
+¿ Me pregunta por precios ? . (M:Confirmacion:Precio:Nil) pal: 1 - 7
+
+U9: Sí .
+Sí . (U:Afirmacion:Precio:Nil) pal: 1 - 2
+
+M11: Le consulto precios de madrid a huelva . Un momento por favor .
+Le consulto precios de madrid a huelva . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M12: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M13: El único tren que realiza el trayecto es un altaria y su precio en clase turista es 54 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un altaria y su precio en clase turista es 54 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U10: Que sea un tren rápido .
+Que sea un tren rápido . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 6
+
+M14: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M15: El único tren que realiza el trayecto es un altaria y su precio en clase preferente es 83 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un altaria y su precio en clase preferente es 83 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U11: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M16: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U12: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M17: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

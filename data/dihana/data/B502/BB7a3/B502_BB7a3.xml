@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:21"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B502"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B502_BB7a3_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <d tipo="abrir"> Hola buenas </d> <f tipo="e"/> querría saber el precio de <b> el </b> un billete de ida de Madrid <a>a</a> <p/> Sevilla en el Ave <f tipo="e"/> la primera quincen<a>a</a> d<a>e</a> abril . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B502_BB7a3_T02u.ul">
+<t> <f tipo="e"/> La primera semana , la del dos , tres , cuatro , cinco . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el jueves , día 1 de abril de 2004 ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B502_BB7a3_T03u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí <r tipo="repetición"> <m> <r tipo="repetición"> <m> es<a>e</a> </m> <s> <f tipo="m"/> </s> <c> es<a>e</a> </c> </r> </m> <c> ese </c> </r> día me viene bien . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Madrid a Sevilla saliendo el jueves , día 1 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En clase turista , el tren más caro es un Ave que cuesta 64 euros la ida y el más barato es un Altaria que cuesta 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B502_BB7a3_T04u.ul">
+<t> <f tipo="e"/> Elegir <r tipo="repetición"> <m> <r tipo="repetición"> <m> <a>e</a>l </m> <c> <a>e</a>l </c> </r> </m> <c> el </c> </r> Ave . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Puede repetir su consulta ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B502_BB7a3_T05u.ul">
+<t> <f tipo="e"/> <r tipo="repetición"> <m> <r tipo="repetición"> <m> <r tipo="repetición"> <m> No </m> <c> no </c> </r> </m> <c> no </c> </r> </m> <c> no </c> </r> deseo nada más <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

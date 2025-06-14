@@ -1,0 +1,29 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenos días , querría obtener el horario para realizar un viaje de $TVIAJE entre $C_ORIGEN y $C_DESTINO el próximo $FECHA , si es posible me gustaría viajar en $T_TREN .
+Buenos días , querría obtener el horario para realizar un viaje de $TVIAJE (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 13
+entre $C_ORIGEN (U:Pregunta:Hora_salida:Origen) pal: 14 - 15
+y $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 16 - 17
+el próximo $FECHA , (U:Pregunta:Hora_salida:Dia) pal: 18 - 21
+si es posible me gustaría viajar en $T_TREN . (U:Pregunta:Hora_salida:Tipo_tren) pal: 22 - 30
+
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA en $T_TREN . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA en $T_TREN . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M3: Hay varios trenes . El $NRORDEN sale a las $HSAL y llega a las $HLLEG y el $NRORDEN sale a las $HSAL y llega a las $HLLEG . Desea algo más ? .
+Hay varios trenes . El $NRORDEN sale a las $HSAL y llega a las $HLLEG y el $NRORDEN sale a las $HSAL y llega a las $HLLEG . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+U2: Sí , ¿ qué intervalo hay entre cada salida de tren ? .
+Sí , ¿ qué intervalo hay entre cada salida de tren ? . (U:Indefinida:Nil:Nil) pal: 1 - 13
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

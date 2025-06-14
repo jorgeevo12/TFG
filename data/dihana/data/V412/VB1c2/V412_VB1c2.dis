@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Obtener el horario de Valencia a Barcelona el catorce de junio .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Barcelona .
+M3: Quiere horarios de trenes a Barcelona ¿ saliendo de Valencia ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el lunes , día 14 de junio de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U4: Sí , llegar a las siete de la tarde (nw) .
+M6: ¿ Quiere llegar entre las 6 y las 8 de la tarde ?
+U5: Sí .
+M7: Le consulto horarios . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde y el otro sale a las 4 y 5 de la tarde y llega a las 7 y 3 de la tarde ¿ Desea algo más ?
+U6: Sí , obtener el precio .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Obtener el precio .
+M10: Le consulto precios . Un momento por favor .
+M11: Sólo hay dos trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el otro es un Arco que cuesta 29 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

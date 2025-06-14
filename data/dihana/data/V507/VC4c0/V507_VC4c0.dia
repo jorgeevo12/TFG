@@ -1,0 +1,73 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola , quisiera saber los horarios de los trenes que salen de Burgos y llegan a Valladolid , me interesaría un viaje de ida y vuelta .
+Hola , quisiera saber los horarios de los trenes que salen de Burgos (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+y llegan a Valladolid , (U:Pregunta:Hora_salida:Destino) pal: 14 - 18
+me interesaría un viaje de ida y vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 19 - 27
+M2: ¿ Quiere viajar desde burgos ? .
+¿ Quiere viajar desde burgos ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M3: ¿ Quiere llegar a valladolid ? .
+¿ Quiere llegar a valladolid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: Querría llegar el domingo por la tarde .
+Querría llegar el domingo (U:Respuesta:Dia:Dia) pal: 1 - 4
+por la tarde . (U:Respuesta:Hora_salida:Hora_llegada) pal: 5 - 8
+M5: ¿ Desea llegar el domingo , día 2 de mayo de 2004 ? .
+¿ Desea llegar el domingo , día 2 de mayo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M6: Le consulto horarios de burgos a valladolid llegando el domingo , día 2 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de burgos a valladolid llegando el domingo , día 2 de mayo de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+M7: Hay varios trenes . El primero sale a las 3 de la tarde y llega a las 4 y 20 de la tarde y el último sale a las 7 y 21 de la tarde y llega a las 8 y 40 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 de la tarde y llega a las 4 y 20 de la tarde y el último sale a las 7 y 21 de la tarde y llega a las 8 y 40 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+U6: Sí , saber el precio del que sale a las siete y veintiuno de la tarde .
+Sí , saber el precio del que sale a las siete y veintiuno de la tarde . (U:Pregunta:Precio:Hora_salida) pal: 1 - 17
+M8: El precio de ese tren en clase turista es 6 con 95 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 6 con 95 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+U7: Sí , también me gustaría un viaje de vuelta , para regresar el martes , después de las dos de la tarde .
+Sí , también me gustaría un viaje de vuelta , (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 10
+para regresar el martes , (U:Pregunta:Nil:Dia) pal: 11 - 15
+después de las dos de la tarde . (U:Pregunta:Nil:Hora_salida) pal: 16 - 23
+M9: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U8: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M10: Le consulto horarios de trenes con salida en valladolid destino burgos saliendo el martes , día 4 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valladolid destino burgos saliendo el martes , día 4 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M11: Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y llega a las 5 y 3 de la madrugada y el último sale a las 8 y 11 de la tarde y llega a las 9 y 35 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y llega a las 5 y 3 de la madrugada y el último sale a las 8 y 11 de la tarde y llega a las 9 y 35 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+U9: Sí , llegar antes de las catorce horas .
+Sí , llegar antes de las catorce horas . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 9
+M12: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+M13: Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y llega a las 5 y 3 de la madrugada y el último sale a las 12 y 25 de la mañana y llega a la una y 25 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 46 de la madrugada y llega a las 5 y 3 de la madrugada y el último sale a las 12 y 25 de la mañana y llega a la una y 25 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+U10: Sí , me gustaría el que sale a las doce y veinticinco .
+Sí , me gustaría el que sale a las doce y veinticinco . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 13
+M14: Ese tren sale a las 12 y 25 de la mañana y llega a la una y 25 de la tarde . Desea algo más ? .
+Ese tren sale a las 12 y 25 de la mañana y llega a la una y 25 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+U11: Sí , quisiera saber el precio .
+Sí , quisiera saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+M15: ¿ Me pregunta por precios ? .
+¿ Me pregunta por precios ? . (M:Confirmacion:Precio:Nil) pal: 1 - 7
+U12: Sí .
+Sí . (U:Afirmacion:Precio:Nil) pal: 1 - 2
+M16: El precio de ese tren en clase turista es 12 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 12 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+U13: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M17: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

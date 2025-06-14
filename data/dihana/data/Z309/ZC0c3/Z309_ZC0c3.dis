@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , me gustaría obtener horarios par(a a) viajar a Murcia (nw) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Me gustaría ir a Murcia (na) .
+M3: ¿ Qué día desea salir ?
+U3: (na) Pues me gustaría salir el viernes veinticinco de junio .
+M4: Quiere horarios de trenes a Murcia ¿ desde Zaragoza ?
+U4: Sí , (dq por favor) .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Murcia saliendo el viernes , día 25 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (na) Sí , me gustaría obtener los precios de estos viajes de ida .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , ahora me gustaría obtener (nw) los horarios para viaje de vuelta desde Murcia .
+M8: ¿ Desea salir el viernes , día 25 de junio de 2004 ?
+U7: No , me gustaría salir el seis de julio .
+M9: Le consulto horarios de trenes con salida en Murcia destino Zaragoza saliendo el martes , día 6 de julio de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U8: (na) Sí , ahora me gustaría obtener los precios de estos viajes de vuelta (nw) .
+M11: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

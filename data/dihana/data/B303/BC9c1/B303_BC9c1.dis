@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) (p) , quiero saber el precio (p) d(a e) el billete de ida para ir desde Oviedo a Orense el uno de agosto por la mañana .
+M2: Le consulto precios de Oviedo a Orense saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M3: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U2: Sí , (dq por favor) , también necesito (fe) el precio para volver (de o sea) de Orense a Oviedo (p) el día catorce por la tarde , pero quiero volver en coche cama .
+M4: ¿ Desea salir el domingo , día 14 de noviembre de 2004 ?
+U3: (nl) No , quiero salir el día catorce de agosto por la tarde .
+M5: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ?
+U4: Sí .
+M6: Le consulto precios de Orense a Oviedo saliendo el sábado , día 14 de agosto de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: No (dc gracias) , eso es todo .
+M8: Gracias por utilizar este servicio . Feliz viaje .

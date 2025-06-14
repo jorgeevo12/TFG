@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el precio de ida y vuelta a Barcelona (p) el diez de abril .
+M2: ¿ Me pregunta por horarios ?
+U2: Sí .
+M3: ¿ Quiere llegar a Jaén ?
+U3: Sí .
+M4: ¿ Desea salir el domingo , día 6 de junio de 2004 ?
+U4: (nl) Sí , quiero ir con Arco .
+M5: Le consulto precios de Valencia a Jaén saliendo el domingo , día 6 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: No .
+M8: Le consulto precios de Valencia a Jaén . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Intercity y su precio en clase preferente es 53 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No (nw) (na) .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

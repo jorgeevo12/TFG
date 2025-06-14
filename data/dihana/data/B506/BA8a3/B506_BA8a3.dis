@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero un viaje de ida a Madrid el jueves uno de marzo .
+M2: ¿ Quiere saber horarios ?
+U2: Sí (fe) quiero salir desde Bilbao (fe) a Madrid (fe) entre las siete y las ocho horas de la mañana .
+M3: ¿ Quiere salir entre las 7 y las 8 de la mañana ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: ¿ (de Perdone) ? No le he entendido .
+M5: ¿ Qué día desea salir ?
+U5: (fm) .
+M6: ¿ Desea salir el martes , día 30 de marzo de 2004 ?
+U6: No , deseo salir el jueves (na) uno de marzo (p) de dos mil cuatro .
+M7: El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el lunes , día 1 de marzo de 2004 .
+U7: Sí , quiero salir el lunes uno de marzo de dos mil cuatro .
+M8: Le consulto horarios de Bilbao a Madrid el lunes , día 1 de marzo de 2004 entre las 7 y las 8 de la mañana . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , deseo cambiar el día .
+M10: ¿ Qué día desea salir ?
+U9: (rs (m (a E)l) (c al)) día siguiente (fe) dos de marzo (p) (fe) martes (p) del año dos mil cuatro .
+M11: ¿ Desea salir el martes , día 2 de marzo de 2004 ?
+U10: Sí .
+M12: Le consulto horarios de Bilbao a Madrid el martes , día 2 de marzo de 2004 entre las 7 y las 8 de la mañana . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U11: Sí deseo cambiar el interval(a o) de las horas si podría ser desde l(a a)s (p) seis de la mañana a las nueve de la mañana .
+M14: Le consulto horarios de Bilbao a Madrid el martes , día 2 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M15: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U12: Sí , deseo cambiar el intervalo de hora .
+M16: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+M17: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 50 de la tarde ¿ Desea algo más ?
+U13: (nt) Sí me gustaría que m(a e) confirm(a e) el billete .
+M18: Lo siento . No he entendido bien ¿ puede repetir ?
+U14: Sí me gustarí(a a) (fe) comprar un billete par(a a) el Talgo (p) (na) (fe) de las cuatro de la tarde el marte(a s) (p) dos de marzo de dos mil cuatro .
+M19: Este servicio no está preparado para realizar reservas ¿ Desea realizar otra consulta ?
+U15: No , (dc gracias) .
+M20: Gracias por utilizar este servicio . Feliz viaje .

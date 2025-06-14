@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Deseo saber el primer tren que salga , para ir desde Valencia a Santiago_de_Compostela .
+M2: ¿ Me pregunta por horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (na) A Santiago_de_Compostela .
+M4: ¿ Quiere viajar a Santiago ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El veintitrés de julio .
+M6: ¿ Desea salir el viernes , día 23 de julio de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Valencia destino Santiago saliendo el viernes , día 23 de julio de 2004 . Un momento por favor .
+M8: El primer tren es un Talgo que sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U7: Sí (p) , dígame el precio del billete .
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc muchas gracias) (nw) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

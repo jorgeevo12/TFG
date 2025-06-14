@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber el horario par(a a) viajar (rr (m d(a e)) (c de)) Valencia a Barcelona el seis de marzo .
+M2: ¿ Qué día desea salir ?
+U2: El seis de marzo (p) de dos mil cuatro .
+M3: ¿ Desea salir el sábado , día 6 de marzo de 2004 ?
+U3: (lm Sí Tí) .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U4: (fe) No , (dc muchas gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

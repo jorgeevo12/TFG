@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Desearía obtener el precio para viajar el próximo $FECHA de $C_ORIGEN a $C_DESTINO .
+Desearía obtener el precio para viajar el próximo $FECHA (U:Pregunta:Precio:Dia) pal: 1 - 11
+de $C_ORIGEN (U:Pregunta:Precio:Origen) pal: 12 - 13
+a $C_DESTINO . (U:Pregunta:Precio:Destino) pal: 14 - 16
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El $FECHA $HORA .
+El $FECHA (U:Respuesta:Dia:Dia) pal: 1 - 2
+$HORA . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 6
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: El $FECHA $HORA .
+El $FECHA (U:Respuesta:Dia:Dia) pal: 1 - 2
+$HORA . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 6
+
+M4: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M5: Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

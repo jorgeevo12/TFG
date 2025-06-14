@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Deseo ir el lunes a Bilbao en un tren tipo Ave (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Bilbao .
+M3: ¿ Qué día desea salir ?
+U3: El próximo lunes (na) .
+M4: Quiere horarios de trenes a Bilbao ¿ desde Zaragoza ?
+U4: (na) Sí , desearía viajar por la mañana (p) y regresar por la tarde .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (na) Desearía viajar por la mañana y regresar por la tarde .
+M6: Le consulto horarios de Zaragoza a Bilbao el lunes , día 23 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (na) ¿ Existe algún tren por la mañana a Bilbao desde Zaragoza , (p) el lunes veintitrés ?
+M8: Le consulto horarios de Zaragoza a Bilbao el lunes , día 23 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: ¿ Existe algún tren desde Zaragoza a Bilbao el lunes veintitrés ?
+M10: Le consulto horarios de trenes con salida en Zaragoza destino Bilbao saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 2 y 30 de la madrugada y el último a las 5 y 10 de la tarde ¿ Desea algo más ?
+U8: (na) Desearía saber (a e)l precio de estos trenes .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 22 euros la ida y el más barato es un pío_baroja que cuesta 19 con 60 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (na) Deseo saber el horario de los (fb) trenes de vuelta para el martes veinticuatro (na) .
+M13: Le consulto horarios de trenes con salida en Bilbao destino Zaragoza saliendo el martes , día 24 de febrero de 2004 . Un momento por favor .
+M14: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U10: No , (dc gracias) (na) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

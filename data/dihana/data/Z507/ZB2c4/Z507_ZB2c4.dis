@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) querí(a a) saber (fe) qué horarios hay para los tren(a e)s que van a Huesca (p) el día uno (nw) o el día dos de julio .
+M2: ¿ Desea salir el miércoles , día 1 de diciembre de 2004 ?
+U2: No (p) , el uno o el dos de julio de dos mil cuatro .
+M3: Quiere horarios de trenes a Huesca ¿ desde Zaragoza ?
+U3: Sí , (da así es) .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Huesca saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 10 de la mañana y el último a las 9 y 25 de la noche ¿ Desea algo más ?
+U4: Sí me gustaría saber el precio (p) de los trenes .
+M6: Hay varios trenes . En clase turista , el tren más caro es un río_aragón que cuesta 10 euros la ida y el más barato es un Regional que cuesta 4 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , me gustaría sab(a e)r el horario y el precio del tren más rápido .
+M7: Hay varios trenes . El más rápido sale a las 2 y 17 de la tarde y el más lento a las 7 y 35 de la mañana ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

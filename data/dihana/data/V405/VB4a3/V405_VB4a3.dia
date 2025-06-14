@@ -1,0 +1,29 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero saber el horario de los trenes de Valencia a Barcelona .
+Quiero saber el horario de los trenes de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+a Barcelona . (U:Pregunta:Hora_salida:Destino) pal: 10 - 12
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: El catorce de octubre .
+El catorce de octubre . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M3: ¿ Desea salir el jueves , día 14 de octubre de 2004 ? .
+¿ Desea salir el jueves , día 14 de octubre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U3: Sí , a las nueve de la mañana .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+a las nueve de la mañana . (U:Respuesta:Hora_salida:Dia) pal: 3 - 9
+M4: Le consulto horarios de valencia a barcelona el jueves , día 14 de octubre de 2004 entre las 9 y las 11 de la mañana . Un momento por favor .
+Le consulto horarios de valencia a barcelona el jueves , día 14 de octubre de 2004 entre las 9 y las 11 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+M5: El único tren que realiza el trayecto es un arco que sale a las 10 y 5 de la mañana y llega a la una y 35 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un arco que sale a las 10 y 5 de la mañana y llega a la una y 35 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+U4: Sí , saber el precio .
+Sí , saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 6
+M6: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+U5: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

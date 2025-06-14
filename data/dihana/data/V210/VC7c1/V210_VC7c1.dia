@@ -1,0 +1,120 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Quisiera saber precios de trenes para ir de Castellón a Cádiz el día cinco de diciembre .
+Quisiera saber precios de trenes para ir de Castellón (U:Pregunta:Precio:Origen) pal: 1 - 9
+a Cádiz (U:Pregunta:Precio:Destino) pal: 10 - 11
+el día cinco de diciembre . (U:Pregunta:Precio:Dia) pal: 12 - 17
+
+
+
+
+M2: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+Lo siento , no le he entendido . Por favor , hable claro y despacio . (M:No_entendido:Nil:Nil) pal: 1 - 16
+
+
+
+
+U2: Necesito .
+Necesito . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+
+
+M3: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+
+
+U3: Quisiera saber precios .
+Quisiera saber precios . (U:Pregunta:Precio:Nil) pal: 1 - 4
+
+
+
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U4: Quisiera saber precios de trenes para ir de Castellón a Cádiz el día cinco de diciembre .
+Quisiera saber precios de trenes para ir de Castellón (U:Pregunta:Precio:Origen) pal: 1 - 9
+a Cádiz (U:Pregunta:Precio:Destino) pal: 10 - 11
+el día cinco de diciembre . (U:Pregunta:Precio:Dia) pal: 12 - 17
+
+
+
+
+M5: Precios desde castellón , ¿ llegando a cádiz ? .
+Precios desde castellón , (M:Confirmacion:Precio:Origen) pal: 1 - 4
+¿ llegando a cádiz ? . (M:Confirmacion:Destino:Destino) pal: 5 - 10
+
+
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+
+
+
+M6: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+M7: El quinto tren es un talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El quinto tren es un talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_relativo_orden,Precio,Tipo_tren) pal: 1 - 37
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 38 - 42
+
+
+
+
+U6: ¿ Tiene coche cama ? .
+¿ Tiene coche cama ? . (U:Pregunta:Precio:Clase_billete) pal: 1 - 6
+
+
+
+
+M8: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+M9: Hay dos trenes . El tren más rápido es un diurno con reserva_telefónica y prensa y el otro es un trenhotel con reserva_telefónica , prensa y restaurante . Desea algo más ? .
+Hay dos trenes . El tren más rápido es un diurno con reserva_telefónica y prensa y el otro es un trenhotel con reserva_telefónica , prensa y restaurante . (M:Respuesta:Servicio:Numero_trenes,Servicio,Tipo_tren) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+
+
+
+U7: El precio del segundo .
+El precio del segundo . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 5
+
+
+
+
+M10: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+
+
+U8: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

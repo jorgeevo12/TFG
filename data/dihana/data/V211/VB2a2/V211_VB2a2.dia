@@ -1,0 +1,45 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera saber horarios para ir de Valencia a Salamanca mañana .
+Quisiera saber horarios para ir de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+a Salamanca (U:Pregunta:Hora_salida:Destino) pal: 8 - 9
+mañana . (U:Pregunta:Hora_salida:Dia) pal: 10 - 11
+M2: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+Lo siento , no le he entendido . Por favor , hable claro y despacio . (M:No_entendido:Nil:Nil) pal: 1 - 16
+U2: Quisiera saber horarios para ir de Valencia a Salamanca mañana .
+Quisiera saber horarios para ir de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+a Salamanca (U:Pregunta:Hora_salida:Destino) pal: 8 - 9
+mañana . (U:Pregunta:Hora_salida:Dia) pal: 10 - 11
+M3: Le consulto horarios de trenes con salida en valencia destino salamanca saliendo el sábado , día 24 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino salamanca saliendo el sábado , día 24 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U3: ¿ Puedo viajar en cama ? .
+¿ Puedo viajar en cama ? . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 7
+M5: Le consulto horarios de trenes con salida en valencia destino salamanca saliendo el sábado , día 24 de abril de 2004 en clase cama . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino salamanca saliendo el sábado , día 24 de abril de 2004 en clase cama . (M:Confirmacion:Hora_salida:Clase_billete,Destino,Dia,Origen) pal: 1 - 25
+Un momento por favor . (M:Espera:Nil:Nil) pal: 26 - 30
+M6: El único tren que realiza el trayecto es un diurno que sale a las 10 y 3 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno que sale a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U4: Sí , quisiera saber a qué hora llega ese tren .
+Sí , quisiera saber a qué hora llega ese tren . (U:Pregunta:Hora_llegada:Nil) pal: 1 - 11
+M7: Ese tren llega el domingo , día 25 de abril de 2004 . Desea algo más ? .
+Ese tren llega el domingo , día 25 de abril de 2004 . (M:Respuesta:Hora_llegada:Dia) pal: 1 - 13
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 14 - 18
+U5: Sí , ¿ a qué hora llega ese tren ? .
+Sí , ¿ a qué hora llega ese tren ? . (U:Pregunta:Hora_llegada:Nil) pal: 1 - 11
+M8: Ese tren sale a las 10 y 3 de la noche y llega a las 7 de la mañana . Desea algo más ? .
+Ese tren sale a las 10 y 3 de la noche y llega a las 7 de la mañana . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 20
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 21 - 25
+U6: Sí , ¿ cuál es su precio ? .
+Sí , ¿ cuál es su precio ? . (U:Pregunta:Precio:Nil) pal: 1 - 9
+M9: El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+U7: No , eso es todo gracias .
+No , eso es todo gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

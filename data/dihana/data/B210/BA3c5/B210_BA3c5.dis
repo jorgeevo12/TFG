@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pues) , querí(a a) ir el veinte de abril (p) a Madrid (p) (a y) no sé a qué horas puede haber tren .
+M2: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U2: (rr (m Sí) (c sí)) , desde Bilbao a Madrid pero que sean el día veinte (p) (a y) a poder ser quiero viajar en el tren Alaris .
+M3: ¿ Desea salir el martes , día 20 de abril de 2004 ?
+U3: (rr (m Sí) (c sí)) .
+M4: ¿ Desea hacer el viaje en un Intercity ?
+U4: (fm) Eso me da igual , yo (b (lu solo so)) (rr (m lo) (c lo)) que sí quiero es ir en el tren Alaris si puede ser .
+M5: ¿ Desea hacer el viaje en un Alaris ?
+U5: (rr (m Sí) (s (da eso es)) (c sí)) .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 20 de abril de 2004 en Alaris . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (df Pues) , aunque no se(a a) desde Bilbao , que salg(a a) de Vitoria .
+M8: Le consulto horarios de trenes con salida en Vitoria destino Madrid saliendo el martes , día 20 de abril de 2004 en Alaris . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí , me da igual el punto de salida (p) , sólo quiero llegar a Madrid el día veinte (p) y en Alaris si (lm puede pue) ser .
+M10: Le consulto horarios de trenes con salida en Vitoria destino Madrid saliendo el martes , día 20 de abril de 2004 en Alaris . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (df Pu(a e)s) el tren Alaris , si no puede ser en tren Alaris (rr (m me) (c me)) da igual el tren que sea .
+M12: Le consulto horarios de trenes con salida en Vitoria destino Madrid saliendo el martes , día 20 de abril de 2004 . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 7 y 25 de la mañana y el último a las 6 y 5 de la tarde ¿ Desea algo más ?
+U9: Nada más .
+M14: Gracias por utilizar este servicio . Feliz viaje .

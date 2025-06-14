@@ -1,0 +1,49 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenas querría consultar horario de un tren Madrid Barcelona el veinticuatro de mayo .
+Hola buenas querría consultar horario de un tren Madrid (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+Barcelona (U:Pregunta:Hora_salida:Destino) pal: 10 - 10
+el veinticuatro de mayo . (U:Pregunta:Hora_salida:Dia) pal: 11 - 15
+
+M2: Le consulto horarios de trenes con salida en madrid destino barcelona saliendo el lunes , día 24 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino barcelona saliendo el lunes , día 24 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 2 de la tarde y el último sale a las 3 y 45 de la tarde y llega a las 10 y 30 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 2 de la tarde y el último sale a las 3 y 45 de la tarde y llega a las 10 y 30 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+U2: Sí , por favor , querría saber si podía viajar en talgo .
+Sí , por favor , querría saber si podía viajar en talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 13
+
+M4: ¿ Desea hacer el viaje en un talgo ? .
+¿ Desea hacer el viaje en un talgo ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+U3: Sí , si es posible .
+Sí , si es posible . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 6
+
+M5: Le consulto horarios de trenes con salida en madrid destino barcelona saliendo el lunes , día 24 de mayo de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino barcelona saliendo el lunes , día 24 de mayo de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M6: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 3 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 3 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: ¿ Me podría decir los precios de estos talgos ? .
+¿ Me podría decir los precios de estos talgos ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 11
+
+M7: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U5: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

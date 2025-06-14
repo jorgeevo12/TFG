@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , quería saber los horarios y los precios (rr (m d(a e)) (s (p)) (c de)) los viajes hasta Sevilla para el día diecisiete de septiembre y las vuelta el día diecinueve .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Sevilla .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (fm) Quería (p) horarios y precio de un viaje de ida y vuelta (p) hasta Sevilla el día diecisiete de septiembre y con vuelta el diecinueve de septiembre .
+M4: ¿ Desea salir el viernes , día 17 de diciembre de 2004 ?
+U4: (nl) No , el diecisiete de septiembre .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el viernes , día 17 de septiembre de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (na) Sí , quería saber también el precio (p) y los horarios de el viaje de vuelta el diecinueve de septiembre .
+M7: Le consulto precios de Bilbao a Sevilla saliendo el viernes , día 17 de septiembre de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) Sí , me gustaría saber también el billete de vuelta (p) cuánto me podría costar .
+M9: Le consulto precios de Sevilla a Bilbao . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) Desearía un billete de ida y vuelta (p) de Bilbao Sevilla (p) , para ir el día diecisiete de septiembre y regresar el diecinueve de septiembre . Querría saber precios y horarios .
+M11: Le consulto horarios de trenes con salida en Sevilla destino Bilbao saliendo el domingo , día 19 de septiembre de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: Cuánto me saldría el billete de ida y vuelta .
+M13: Le consulto precios de Sevilla a Bilbao . Un momento por favor .
+M14: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (nw No , (dc gracias)) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

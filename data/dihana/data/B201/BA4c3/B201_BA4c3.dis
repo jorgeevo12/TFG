@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola muy buenas tardes) , sí , (df mira) quería ir el próximo viernes a Madrid (a e)n un tren rápido par(a a) llegar allí antes de l(a a)s cinco de la tarde .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) (na) .
+M3: Le consulto horarios de Bilbao a Madrid llegando el viernes , día 27 de febrero de 2004 entre las 0 de la noche y las 5 de la tarde . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (rr (m Sí) (c sí)) , me estoy refiriendo al viernes veintisiete de febrero (na) .
+M5: Le consulto horarios de Bilbao a Madrid llegando el viernes , día 27 de febrero de 2004 entre las 0 de la noche y las 5 de la tarde . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (a N)o ¿ cómo no va a haber ningún tren que vaya de Bilbao a Madrid (p) el viernes veintisiete de febrero , para llegar antes de las cinco horas a Madrid ?
+M7: Le consulto horarios . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: No , (dc muchas gracias) . (dc Hasta luego) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

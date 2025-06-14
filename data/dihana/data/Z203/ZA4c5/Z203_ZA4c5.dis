@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría obtener los horarios de trenes para llegar a Valladolid el próximo viernes (p) antes de las doce (a y) viajar en Talgo .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Quiere viajar a Valencia ?
+U3: No , es a Valladolid .
+M4: ¿ Qué día desea salir ?
+U4: El viernes .
+M5: Horarios de trenes con destino a Valladolid ¿ desde Zaragoza ?
+U5: Sí , a ser posible antes de las doce (p) y viajar en Talgo .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Valladolid saliendo el viernes , día 20 de febrero de 2004 en Talgo . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí , n(a o) hace falta viajar en Talgo .
+M8: Le consulto horarios de trenes con salida en Zaragoza destino Valladolid saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí , no hace falta llegar antes de las doce .
+M10: Le consulto horarios . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 5 y 10 de la tarde y llega a las 10 y 33 de la noche ¿ Desea algo más ?
+U8: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

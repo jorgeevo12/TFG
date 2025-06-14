@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos días) , me gustarí(a a) viajar (p) a Oviedo (p) el doce de marzo .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) .
+M3: ¿ Quiere viajar desde Oviedo ?
+U3: (nw) No , (p) quiero viajar desde Zaragoza (p) a Oviedo .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Oviedo saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 2 y 30 de la madrugada y el otro a las 11 y 11 de la mañana ¿ Desea algo más ?
+U4: Sí , me gustaría saber a que hora llega (na) el de las once treinta de la mañana (nw) .
+M6: Ese tren sale a las 11 y 11 de la mañana y llega a las 7 y 25 de la tarde ¿ Desea algo más ?
+U5: Sí , me gustaría saber su precio .
+M7: El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería saber (fe) los horarios de ida a Málaga (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Málaga (na) .
+M3: ¿ Quiere viajar a Málaga ?
+U3: Sí , quiero viajar a Málaga .
+M4: ¿ Qué día desea salir ?
+U4: (nw) (fb) Quiero salir .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero llegar el viernes (na) .
+M6: ¿ Desea llegar el viernes , día 26 de marzo de 2004 ?
+U6: Sí , quiero (na) .
+M7: Le consulto horarios de Valencia a Málaga llegando el viernes , día 26 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: (na) Sí , quiero llegar (p) por la noche antes de las once (na) .
+M9: Le consulto horarios de Valencia a Málaga llegando el viernes , día 26 de marzo de 2004 entre las 9 y las 11 de la noche . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U8: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

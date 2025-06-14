@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero saber los horarios para un viaje de (lm ida da) y vuelta de Tarragona a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: Mañana en Euromed si es posible .
+M3: ¿ Qué día desea salir ?
+U3: Mañana .
+M4: Le consulto horarios de trenes con salida en Tarragona destino Barcelona saliendo el sábado , día 21 de febrero de 2004 en Euromed . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 8 y 36 de la mañana y el último a las 10 y 5 de la noche ¿ Desea algo más ?
+U4: Quiero saber el precio viajando en segunda (nw) .
+M6: Los trenes son Euromed y en clase turista , el billete cuesta 15 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (na) El horario de vuelta (rs (m de Tarragona a Barcelona) (c de Barcelona a Tarragona)) , (de perdón) .
+M7: Le consulto horarios de trenes con salida en Barcelona destino Tarragona saliendo el sábado , día 21 de febrero de 2004 en Euromed . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 6 de la tarde ¿ Desea algo más ?
+U6: Sí , el precio viajando en segunda .
+M9: Los trenes son Euromed y en clase turista , el billete cuesta 15 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Necesito un billete de ida a Córdoba para la segunda semana de junio porque tengo una oposición .
+Necesito un billete de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 5
+a Córdoba (U:Pregunta:Nil:Destino) pal: 6 - 7
+para la segunda semana de junio porque tengo una oposición . (U:Pregunta:Nil:Dia) pal: 8 - 18
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Quiero un billete de ida por la mañana , el día dieciséis de junio , en Ave si puede ser , no fumadores clase no preferente .
+Quiero un billete de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 5
+por la mañana , (U:Pregunta:Nil:Hora_salida) pal: 6 - 9
+el día dieciséis de junio , (U:Pregunta:Nil:Dia) pal: 10 - 15
+en Ave si puede ser , (U:Pregunta:Nil:Tipo_tren) pal: 16 - 21
+no fumadores (U:Pregunta:Nil:Servicio) pal: 22 - 23
+clase no preferente . (U:Pregunta:Nil:Clase_billete) pal: 24 - 27
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U3: Sí , me gustaría saber el horario de salida , pero sobre todo que fuera en un tren de alta velocidad .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+me gustaría saber el horario de salida , pero sobre todo que fuera en un tren de alta velocidad . (U:Pregunta:Hora_salida:Tipo_tren) pal: 3 - 22
+
+M4: Quiere horarios de trenes a córdoba , ¿ desde zaragoza ? .
+Quiere horarios de trenes a córdoba , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí , así es , para el día dieciséis de junio .
+Sí , así es , (U:Afirmacion:Origen:Nil) pal: 1 - 5
+para el día dieciséis de junio . (U:Respuesta:Hora_salida:Dia) pal: 6 - 12
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino córdoba saliendo el miércoles , día 16 de junio de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino córdoba saliendo el miércoles , día 16 de junio de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U5: No , gracias , .
+No , gracias , . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

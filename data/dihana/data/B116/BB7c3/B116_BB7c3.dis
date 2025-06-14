@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (fe) quería ir a Jaén saliend(a o) el día seis o el día siete de junio .
+M2: ¿ Desea salir el jueves , día 17 de junio de 2004 ?
+U2: No (p) , el día seis o siete de junio .
+M3: ¿ Quiere saber horarios ?
+U3: No , precio .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quiero saber precios .
+M5: ¿ A qué ciudad desea viajar ?
+U5: A Jaén .
+M6: Le consulto precios de Bilbao a Jaén saliendo el domingo , día 6 de junio de 2004 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , quisiera viajar en Intercity .
+M8: Le consulto precios de Bilbao a Jaén en tipo tren Intercity . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

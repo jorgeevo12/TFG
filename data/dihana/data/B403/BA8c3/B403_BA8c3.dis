@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , me gustaría saber (fb) (rs (m l(a e)) (c los)) horarios de los trenes que van de Granada a Sevilla .
+M2: Horarios de trenes con destino a Sevilla ¿ desde Córdoba ?
+U2: No .
+M3: ¿ Qué día desea salir ?
+U3: El dieciséis de enero del dos mil cinco (p) a partir de las dos y media .
+M4: ¿ Desea salir el domingo , día 16 de enero de 2005 ?
+U4: Sí .
+M5: ¿ Quiere salir entre las 2 y 30 de la tarde y las 11 de la noche ?
+U5: Sí .
+M6: Le consulto horarios de Córdoba a Sevilla el domingo , día 16 de enero de 2005 entre las 2 y 30 de la tarde y las 11 de la noche . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 52 de la tarde y el último a las 10 y 44 de la noche ¿ Desea algo más ?
+U6: Sí .
+M8: Si ¿ Desea algo más ?
+U7: Trenes que salen de Granada .
+M9: Le consulto horarios de Granada a Sevilla el domingo , día 16 de enero de 2005 entre las 2 y 30 de la tarde y las 11 de la noche . Un momento por favor .
+M10: Sólo hay dos trenes . El primero sale a las 4 y 29 de la tarde y el otro a las 8 y 43 de la tarde ¿ Desea algo más ?
+U8: Sí , saber cuál es el tipo de tren .
+M11: Le consulto tipos de tren . Un momento por favor .
+M12: Dispone de un único tipo de tren con salida el domingo , día 16 de enero de 2005 , que es un TRD ¿ Desea algo más ?
+U9: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

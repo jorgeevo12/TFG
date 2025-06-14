@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero saber información sobre los trenes que van a $C_DESTINO<Madrid> .
+Quiero saber información sobre los trenes que van a $C_DESTINO<Madrid> . (U:Pregunta:Nil:Destino) pal: 1 - 11
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M3: ¿ Quiere viajar a $C_DESTINO<madrid> ? .
+¿ Quiere viajar a $C_DESTINO<madrid> ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+U3: Sí , quería ir a $C_DESTINO<Madrid> .
+Sí , (U:Afirmacion:Destino:Nil) pal: 1 - 2
+quería ir a $C_DESTINO<Madrid> . (U:Respuesta:Hora_salida:Destino) pal: 3 - 7
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: Quería salir el $FECHA<viernes> .
+Quería salir el $FECHA<viernes> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<madrid> saliendo el $FECHA<viernes , día 2 de abril de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<madrid> saliendo el $FECHA<viernes , día 2 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<6 y 45 de la mañana> y el $NRORDEN<último> a las $HORA<8 y 15 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<6 y 45 de la mañana> y el $NRORDEN<último> a las $HORA<8 y 15 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

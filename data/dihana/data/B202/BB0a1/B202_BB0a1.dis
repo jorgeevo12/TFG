@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber el horario (p) d(a e) un tre(a n) para Gijón .
+M2: ¿ Quiere viajar a Gijón ?
+U2: (na) (p) Sí , (dq por favor) , la segunda quincena de junio .
+M3: ¿ Desea salir el martes , día 1 de junio de 2004 ?
+U3: No , la segunda quincena .
+M4: ¿ Desea salir el miércoles , día 16 de junio de 2004 ?
+U4: Sí , ese día está bien .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Gijón saliendo el miércoles , día 16 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: ¿ Cuánto vale el de las siete de la mañana ?
+M7: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí ¿ y en primera clase ?
+M8: El precio de ese tren en clase preferente es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , es todo , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

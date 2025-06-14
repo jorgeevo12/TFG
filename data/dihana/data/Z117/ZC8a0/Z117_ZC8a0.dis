@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Deseo los precios de (nw Zaragoza a Barcelona en Intercity el veintitrés de abril y volver el veinticinco de abril) .
+M2: ¿ Qué día desea salir ?
+U2: (nw veintitrés de abril) (na) .
+M3: Le consulto precios de Zaragoza a Barcelona saliendo el viernes , día 23 de abril de 2004 . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (nw) Sí , salir el veinticuatro de abril (na) .
+M5: Le consulto precios de Zaragoza a Barcelona en tipo tren Intercity . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (na) (nw Cualquier tipo de tren) (na) .
+M7: Le consulto precios de Zaragoza a Barcelona saliendo el sábado , día 24 de abril de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (na) (nw Deseo los precios de vuelta) el veinticinco de abril de Barcelona a Zaragoza (nw) .
+M9: Le consulto precios de Barcelona a Zaragoza saliendo el domingo , día 25 de abril de 2004 . Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No (na) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

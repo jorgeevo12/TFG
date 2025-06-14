@@ -1,0 +1,55 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Yo quiero saber el horario y el tipo de tren viaje de $TVIAJE<ida> a $C_DESTINO<Murcia> .
+Yo quiero saber el horario y el tipo de tren viaje de $TVIAJE<ida> (U:Pregunta:Hora_salida,Tipo_tren:Tipo_viaje) pal: 1 - 13
+a $C_DESTINO<Murcia> . (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 14 - 16
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A $C_DESTINO<Murcia> .
+A $C_DESTINO<Murcia> . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El $FECHA<dieciocho de febrero> .
+El $FECHA<dieciocho de febrero> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: ¿ Quiere viajar a $C_DESTINO<murcia> ? .
+¿ Quiere viajar a $C_DESTINO<murcia> ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U4: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<murcia> saliendo el $FECHA<miércoles , día 18 de febrero de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<murcia> saliendo el $FECHA<miércoles , día 18 de febrero de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 4 de la mañana> y llega a las $HLLEG<10 y 23 de la mañana> y el $NRORDEN<último> sale a las $HSAL<8 y 22 de la tarde> y llega a las $HLLEG<11 y 35 de la noche> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 4 de la mañana> y llega a las $HLLEG<10 y 23 de la mañana> y el $NRORDEN<último> sale a las $HSAL<8 y 22 de la tarde> y llega a las $HLLEG<11 y 35 de la noche> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U5: Sí , ¿ qué clase de trenes son ? .
+Sí , ¿ qué clase de trenes son ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 10
+
+M7: ¿ Me pregunta por tipos de trenes ? .
+¿ Me pregunta por tipos de trenes ? . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 9
+
+U6: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+M8: Le consulto tipos de trenes para el trayecto $C_ORIGEN<valencia> a $C_DESTINO<murcia> . Un momento por favor .
+Le consulto tipos de trenes para el trayecto $C_ORIGEN<valencia> a $C_DESTINO<murcia> . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 16
+
+M9: Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<talgo> y el $T_TREN<más lento> es un $T_TREN<mare_nostrum> . Desea algo más ? .
+Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<talgo> y el $T_TREN<más lento> es un $T_TREN<mare_nostrum> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

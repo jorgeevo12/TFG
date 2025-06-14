@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) me gustaría obten(a e)r precios par(a a) un viaje de id(a a) a Barcelona .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Me gustaría ir a Barcelona .
+M3: ¿ Qué día desea salir ?
+U3: (fe) Me gustaría salir el día (lm veinte vente) de junio (p) pero si es posible llegar a Barcelona antes de las (p) diez y media (p) porque tengo un concierto .
+M4: Quiere saber el precio a Barcelona ¿ desde Zaragoza ?
+U4: Sí , (dq por favor) .
+M5: Le consulto precios de Zaragoza a Barcelona saliendo el domingo , día 20 de junio de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

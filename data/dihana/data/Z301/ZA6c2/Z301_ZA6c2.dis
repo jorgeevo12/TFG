@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Querría obtener información de horarios .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Pamplona .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nl) A Pamplona .
+M4: ¿ Qué día desea salir ?
+U4: (fm) Desearía más (fe) el día de llegada que sería el seis de julio .
+M5: Quiere horarios de trenes a Pamplona ¿ desde Zaragoza ?
+U5: No (p) desde (lm Madrid Madrit) .
+M6: Le consulto horarios de Madrid a Pamplona llegando el martes , día 6 de julio de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , información acerca del tipo de tren .
+M8: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U7: No , no deseo nada más .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Buenas) quería saber los horarios y precios de los trenes a Granada (p) de (rr (m (lu entre en)) (c entre)) el veintiséis y el (lm treinta trenta) y uno de diciembre por la noche .
+M2: ¿ Qué día desea salir ?
+U2: Del veintiséis al treinta y uno de diciembre .
+M3: Le consulto horarios de Zaragoza a Granada el domingo , día 26 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (df Pues) que sea el día veintisiete de diciembre .
+M5: Le consulto horarios de Zaragoza a Granada el lunes , día 27 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: Que sea el veintiocho de diciembre .
+M7: Le consulto horarios de Zaragoza a Granada el martes , día 28 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Que sea el día veintinueve de diciembre (nw) y en Tren_Hotel si es posible .
+M9: Le consulto horarios de Zaragoza a Granada el miércoles , día 29 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Que sea el treinta de diciembre .
+M11: Le consulto horarios de Zaragoza a Granada el jueves , día 30 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (df Pues) que sea (p) (fb) (rd (m del día) (c del)) veintiséis al treinta y uno de de diciembre a cualquier hora .
+M13: Le consulto horarios de trenes con salida en Zaragoza destino Granada saliendo el domingo , día 26 de diciembre de 2004 . Un momento por favor .
+M14: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: Querría saber el precio (p) y si es posible que fuera un Tren_Hotel .
+M15: Le consulto horarios de trenes con salida en Zaragoza destino Granada saliendo el domingo , día 26 de diciembre de 2004 en Tren_Hotel . Un momento por favor .
+M16: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: (df Pues) , en cualquier tipo de tren .
+M17: Le consulto horarios de trenes con salida en Zaragoza destino Granada saliendo el domingo , día 26 de diciembre de 2004 . Un momento por favor .
+M18: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U10: Conocer los precios .
+M19: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No , (dc gracias) .
+M20: Gracias por utilizar este servicio . Feliz viaje .

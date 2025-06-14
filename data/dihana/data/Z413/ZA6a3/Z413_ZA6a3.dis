@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (b Tardes) , (na) (nw) (df Mira) , (fe) quería un billete (p) para ir de Barcelona a La_Coruña .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (na) quería saber (fe) un tren (p) par(a a) el (lm veinte vente) de septiembre (nw) .
+M3: Le consulto horarios de trenes con salida en Barcelona destino La_Coruña saliendo el lunes , día 20 de septiembre de 2004 . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (fe) Que el tren salg(a a) e(a l) diecinueve de septiembre .
+M5: Le consulto horarios de trenes con salida en Barcelona destino La_Coruña saliendo el domingo , día 19 de septiembre de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un covadonga que sale a las 7 y 30 de la mañana ¿ Desea algo más ?
+U4: (nl) Sí , saber el tipo de tren (na) .
+M7: Le consulto tipos de tren . Un momento por favor .
+M8: El único tren que realiza el trayecto es un covadonga ¿ Desea algo más ?
+U5: (fe) Sí , (fe) buscar otra fecha (p) entre el diecisiete de septiembre y e(a l) veintiuno de septiembre (p) , en Talgo (nw) .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Quiero u(a n) , (na) (nl) un viaje en tren Talgo (p) en una fecha que esté comprendida entre el diecisiete (rs (m o el) (c y el)) veintiuno de septiembre .
+M10: Le consulto horarios de trenes con salida en Barcelona destino La_Coruña saliendo el viernes , día 17 de septiembre de 2004 en Talgo . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (nw No) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

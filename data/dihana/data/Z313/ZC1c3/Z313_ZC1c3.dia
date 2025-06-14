@@ -1,0 +1,54 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería saber los horarios y precios de un viaje de ida y vuelta de Zaragoza a Madrid .
+Quería saber los horarios y precios de un viaje de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 13
+de Zaragoza (U:Pregunta:Hora_salida,Precio:Origen) pal: 14 - 15
+a Madrid . (U:Pregunta:Hora_salida,Precio:Destino) pal: 16 - 18
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Pasado mañana .
+Pasado mañana . (U:Respuesta:Dia:Dia) pal: 1 - 3
+M3: Lo siento . No he entendido bien . puede repetir ? .
+ Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Pasado mañana .
+Pasado mañana . (U:Respuesta:Dia:Dia) pal: 1 - 3
+M4: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el jueves , día 8 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U4: Quería llegar a Madrid sobre la una del mediodía .
+Quería llegar a Madrid (U:Pregunta:Hora_salida:Destino) pal: 1 - 4
+sobre la una del mediodía . (U:Pregunta:Hora_salida:Hora_llegada) pal: 5 - 10
+M6: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U5: Quería llegar a las doce .
+Quería llegar a las doce . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 6
+M8: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+M9: Sólo hay dos trenes . El primero sale a las 8 de la mañana y llega a las 11 y 48 de la mañana y el otro sale a las 9 de la mañana y llega a las 12 y 20 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 8 de la mañana y llega a las 11 y 48 de la mañana y el otro sale a las 9 de la mañana y llega a las 12 y 20 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 45
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 46 - 50
+U6: Quería saber el precio de los billetes .
+Quería saber el precio de los billetes . (U:Pregunta:Precio:Nil) pal: 1 - 8
+M10: Los trenes son intercity y en clase turista , el billete cuesta 21 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son intercity y en clase turista , el billete cuesta 21 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+U7: Quería saber los horarios del viaje de vuelta de Madrid a Zaragoza .
+Quería saber los horarios del viaje de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+de Madrid (U:Pregunta:Hora_salida:Origen) pal: 9 - 10
+a Zaragoza . (U:Pregunta:Hora_salida:Destino) pal: 11 - 13
+M11: Le consulto horarios de trenes con salida en madrid destino zaragoza saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino zaragoza saliendo el jueves , día 8 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M12: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

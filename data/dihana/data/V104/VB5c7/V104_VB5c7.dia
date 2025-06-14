@@ -1,0 +1,50 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , tengo que ir de Castellón a Barcelona el lunes que viene .
+Hola , tengo que ir de Castellón (U:Pregunta:Nil:Origen) pal: 1 - 7
+a Barcelona (U:Pregunta:Nil:Destino) pal: 8 - 9
+el lunes que viene . (U:Pregunta:Nil:Dia) pal: 10 - 14
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Que quiero ir de Castellón a Barcelona el lunes que viene . Y a ver si puede ser en el euromed .
+Que quiero ir de Castellón (U:Pregunta:Nil:Origen) pal: 1 - 5
+a Barcelona (U:Pregunta:Nil:Destino) pal: 6 - 7
+el lunes que viene . (U:Pregunta:Nil:Dia) pal: 8 - 12
+Y a ver si puede ser en el euromed . (U:Pregunta:Nil:Tipo_tren) pal: 13 - 22
+
+M3: ¿ Quiere viajar desde castellón ? .
+¿ Quiere viajar desde castellón ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U3: Sí , claro .
+Sí , claro . (U:Afirmacion:Origen:Nil) pal: 1 - 4
+
+M4: ¿ Desea salir el lunes , día 23 de febrero de 2004 ? .
+¿ Desea salir el lunes , día 23 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: Sí , y dame los horarios y el precio del euromed , ¿ vale ? .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+y dame los horarios y el precio del euromed , ¿ vale ? . (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 3 - 16
+
+M5: Le consulto horarios de trenes con salida en castellón destino barcelona saliendo el lunes , día 23 de febrero de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en castellón destino barcelona saliendo el lunes , día 23 de febrero de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M6: Hay varios trenes . El primero sale a las 7 y 19 de la mañana y llega a las 9 y 36 de la mañana y el último sale a las 8 y 46 de la tarde y llega a las 11 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 19 de la mañana y llega a las 9 y 36 de la mañana y el último sale a las 8 y 46 de la tarde y llega a las 11 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U5: Sí , dime el precio del de las siete y diecinueve de la mañana .
+Sí , dime el precio del de las siete y diecinueve de la mañana . (U:Pregunta:Precio:Hora_salida) pal: 1 - 15
+
+M7: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U6: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

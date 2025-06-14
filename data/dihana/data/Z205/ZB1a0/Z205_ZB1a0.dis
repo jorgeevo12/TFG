@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Obtener horario .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Barcelona .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Barcelona .
+M4: ¿ Qué día desea salir ?
+U4: Veinte de febrero (nw) .
+M5: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U6: (nl) Obtener el precio .
+M8: Le consulto precios . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

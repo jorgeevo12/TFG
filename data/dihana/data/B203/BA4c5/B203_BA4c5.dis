@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) quería saber el horario para ir a Valladolid el próximo viernes .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Valladolid .
+M3: Quiere horarios de trenes a Valladolid ¿ desde Bilbao ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Valladolid saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 2 y 5 de la tarde y el otro a las 8 y 35 de la tarde ¿ Desea algo más ?
+U4: (df Pues) , no .
+M6: Gracias por utilizar este servicio . Feliz viaje .

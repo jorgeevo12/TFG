@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:14"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B104"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B104_BB5c7_T01u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <d tipo="abrir"> Hola buenos días </d> <f tipo="e"/> querría ir d<a>e</a> Castellón <p/> <a>a</a> Barcelona <f tipo="e"/> , <f tipo="m"/> <p/> para estar allí el próximo lunes . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B104_BB5c7_T02u.ul">
+<t> Sí <f tipo="e"/> , me gustaría saber horarios par<a>a</a> igual salir el doming<a>o</a> por la tarde <n fuente="hablante" tipo="aspiración"/> o bien el lunes por la mañana a primera hora . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el domingo , día 28 de diciembre de 2003 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B104_BB5c7_T03u.ul">
+<t> <f tipo="e"/> Sí , <f tipo="e"/> me gustaría salir de Castellón <p/> , no de Bilbao . De Castellón . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Castellón destino Barcelona saliendo el domingo , día 28 de diciembre de 2003 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a la una y 52 de la tarde y el último a las 8 y 46 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B104_BB5c7_T04u.ul">
+<t> <f tipo="e"/> Sí , <d tipo="aceptar"> bueno </d> , me gustaría viajar en Euromed , <f tipo="e"/> si es posible , <f tipo="e"/> para llegar <r tipo="repetición"> <m> <a>a</a> </m> <c> a </c> </r> Barcelona , <d tipo="rellenar"> pues eso </d> , por la noch<a>e</a> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 4 y 46 de la tarde y llega a las 7 y 3 de la tarde y el último sale a las 8 y 46 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B104_BB5c7_T05u.ul">
+<t> Sí ¿ alguno de ellos es Euromed ? </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B104_BB5c7_T06u.ul">
+<t> <f tipo="e"/> Me gustaría saber si alguno de los trenes <p/> es Euromed . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto tipos de tren . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Hay un único tipo de tren , que es un Euromed ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B104_BB5c7_T07u.ul">
+<t> <f tipo="e"/> Sí , me gustaría saber el preci<a>o</a> del billet<a>e</a> <f tipo="e"/> del tren que sale alrededor de las ocho , el que llega a las onc<a>e</a> <r tipo="repetición"> <m> <a>a</a> </m> <c> a </c> </r> Barcelona . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El tercer y último tren es un Euromed y su precio en turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B104_BB5c7_T08u.ul">
+<t> <r tipo="repetición"> <m> No </m> <c> no </c> </r> , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos días) , (fm) me gustaría obtener horario de trenes (na) (fm) (df verá) , es que tengo que viajar el próximo martes y tengo una reunión a las doce , (p) a ver si me puede ayudar .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: Necesito saber el horario de trenes (p) par(a a) ir desde Madrid a Sevilla .
+M3: ¿ Qué día desea salir ?
+U3: El próximo martes .
+M4: Le consulto horarios de trenes con salida en Madrid destino Sevilla saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 30 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche ¿ Desea algo más ?
+U4: Sí , dígame (dq por favor) , (na) (p) si hay algún tren que salga a las diez de la mañana .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (na) ¿ Hay algún tren que salga a las diez de la mañana ?
+M7: Le consulto horarios de Madrid a Sevilla el martes , día 6 de abril de 2004 entre las 9 y las 11 de la mañana . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 9 de la mañana y llega a las 11 y 35 de la mañana y el último sale a las 11 de la mañana y llega a la una y 30 de la tarde ¿ Desea algo más ?
+U6: Quiero un tren a las diez de la mañana o alrededor de las diez de la mañana .
+M9: El segundo tren es un Ave que sale a las 10 de la mañana y llega a las 12 y 30 de la mañana ¿ Desea algo más ?
+U7: (na) Deseo un tren que salga antes de las diez de la mañana , (dq por favor) .
+M10: ¿ Quiere salir entre las 5 de la madrugada y las 10 de la mañana ?
+U8: No , dígame si hay un tren a las nueve y media de la mañana .
+M11: Le consulto horarios de trenes con salida en Madrid destino Sevilla saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 8 y 30 de la mañana y llega a las 11 de la mañana y el último sale a las 10 y 5 de la mañana y llega a la una y 18 de la tarde ¿ Desea algo más ?
+U9: Sí , quiero (p) saber si hay un tren a las nueve de la mañana .
+M13: El segundo tren es un Ave que sale a las 9 de la mañana y llega a las 11 y 35 de la mañana ¿ Desea algo más ?
+U10: No , (dc gracias) , (dc buenos días) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

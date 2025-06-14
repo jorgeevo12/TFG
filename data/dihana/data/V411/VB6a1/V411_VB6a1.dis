@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quiero hacer un viaje de San_Sebastián a Zaragoza (p) el día dieciocho de junio (p) y quiero salir entre las diez y las doce de la mañana .
+M2: Le consulto horarios de trenes con salida en San_Sebastián destino Zaragoza saliendo el viernes , día 18 de junio de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U2: Sí , quiero salir (p) entre las diez y las doce de la mañana .
+M4: ¿ Quiere salir entre las 10 y las 12 de la mañana ?
+U3: (lm sí t(a í)) .
+M5: Le consulto horarios . Un momento por favor .
+M6: Sólo hay dos trenes . El primero sale a las 10 y 30 de la mañana y el otro a las 11 y 55 de la mañana ¿ Desea algo más ?
+U4: Sí , respecto al primer tren (p) ¿ de qué tipo es ?
+M7: El primer tren es un Talgo ¿ Desea algo más ?
+U5: Sí , quiero saber el precio del viaje .
+M8: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

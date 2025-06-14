@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , necesito un viaje de ida (na) saber el horario para Madrid (p) para salir el próximo miércoles en un tren Alaris si es posible .
+M2: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U2: Sí , para el próximo miércoles .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el miércoles , día 31 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 8 de la tarde ¿ Desea algo más ?
+U3: (na) Sí , si puede ser un tren Alaris .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el miércoles , día 31 de marzo de 2004 en Alaris . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (na) Otro tren si es posible (p) para el próximo miércoles .
+M7: Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 8 de la tarde ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,34 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería obtener el horario para ir a Málaga el próximo viernes .
+Quería obtener el horario para ir a Málaga (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+el próximo viernes . (U:Pregunta:Hora_salida:Dia) pal: 9 - 12
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Málaga .
+A Málaga . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Quiere horarios de trenes a málaga , ¿ desde zaragoza ? .
+Quiere horarios de trenes a málaga , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí , para el próximo viernes .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+para el próximo viernes . (U:Respuesta:Hora_salida:Dia) pal: 3 - 7
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino málaga saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino málaga saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

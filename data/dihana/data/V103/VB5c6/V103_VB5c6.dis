@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber el horario de trenes Zamora (lm Valladolid Valladolí) (p) a ser posible Intercity .
+M2: ¿ Quiere viajar desde Zamora ?
+U2: Sí .
+M3: ¿ Quiere llegar a Valladolid ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (nl) El veintinueve de abril .
+M5: ¿ Desea salir el viernes , día 29 de abril de 2005 ?
+U5: (fm) No , el veintinueve de abril del dos mil cuatro .
+M6: Le consulto horarios de trenes con salida en Zamora destino Valladolid saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (na) Sí , dese(a o) salir de Zamora con destino Valladolid (a e)l veintinueve de abril .
+M9: Le consulto horarios de trenes con salida en Zaragoza destino Valladolid saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 5 y 10 de la tarde y llega a las 10 y 33 de la noche ¿ Desea algo más ?
+U8: Quería saber cuál es el precio de ese billete .
+M11: El precio de ese tren en clase turista es 27 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) (na) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

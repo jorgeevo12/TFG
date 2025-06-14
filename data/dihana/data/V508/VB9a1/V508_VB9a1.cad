@@ -1,0 +1,45 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quisiera saber el precio de un billete de $TVIAJE a $C_DESTINO para el día $FECHA a partir de las $HORA en el $T_TREN .
+Quisiera saber el precio de un billete de $TVIAJE (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 10 - 11
+para el día $FECHA (U:Pregunta:Precio:Dia) pal: 12 - 17
+a partir de las $HORA (U:Pregunta:Precio:Hora_salida) pal: 18 - 22
+en el $T_TREN . (U:Pregunta:Precio:Tipo_tren) pal: 23 - 26
+
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U2: El $FECHA .
+El $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M3: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U3: Sí , pero a partir de las $HORA .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+pero a partir de las $HORA . (U:Respuesta:Precio:Hora_salida) pal: 3 - 9
+
+
+M4: Le consulto precios de $C_ORIGEN a $C_DESTINO en tipo tren $T_TREN . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO en tipo tren $T_TREN . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M5: Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+U4: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

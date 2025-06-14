@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Buenos días , querría ir durante el $FECHA<quince> o $FECHA<dieciséis de mayo> de $C_ORIGEN<Zaragoza> a $C_DESTINO<Sevilla> en un tren $T_TREN<talgo> ¿ me podría decir los precios que llevan los trenes ? .
+Buenos días , querría ir durante el $FECHA<quince> o $FECHA<dieciséis de mayo> (U:Pregunta:Precio:Dia) pal: 1 - 12
+de $C_ORIGEN<Zaragoza> (U:Pregunta:Precio:Origen) pal: 13 - 14
+a $C_DESTINO<Sevilla> (U:Pregunta:Precio:Destino) pal: 15 - 16
+en un tren $T_TREN<talgo> ¿ me podría decir los precios que llevan los trenes ? . (U:Pregunta:Precio:Tipo_tren) pal: 17 - 32
+
+
+M2: Le consulto precios de $C_ORIGEN<zaragoza> a $C_DESTINO<sevilla> saliendo el $FECHA<sábado , día 15 de mayo de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<zaragoza> a $C_DESTINO<sevilla> saliendo el $FECHA<sábado , día 15 de mayo de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M3: El único tren que realiza el trayecto es un $T_TREN<triana> y su precio en clase $CLASE<turista> es $PRECIO<58 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<triana> y su precio en clase $CLASE<turista> es $PRECIO<58 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+
+U2: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M4: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

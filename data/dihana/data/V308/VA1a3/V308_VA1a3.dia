@@ -1,0 +1,33 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera saber el horario para viajar de Valencia a Barcelona el seis de marzo .
+Quisiera saber el horario para viajar de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 8
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 9 - 10
+el seis de marzo . (U:Pregunta:Hora_salida:Dia) pal: 11 - 15
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El seis de marzo de dos mil cuatro .
+El seis de marzo de dos mil cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M3: ¿ Desea salir el sábado , día 6 de marzo de 2004 ? .
+¿ Desea salir el sábado , día 6 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 6 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero ir a Segovia desde Valencia .
+M2: ¿ Me pregunta por horarios ?
+U2: Sí .
+M3: ¿ Quiere viajar a Segovia ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: El próximo sábado día trece , antes de las once .
+M5: Le consulto horarios de trenes con salida en Valencia destino Segovia saliendo el sábado , día 13 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde ¿ Desea algo más ?
+U5: Sí (fe) , quiero los horarios (p) antes de las once .
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

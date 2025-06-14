@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenos días) (p) . Mire quería saber horarios (rr (m de) (s (fm)) (c de)) Talgo , si hay Talgo (p) para Pamplona .
+M2: ¿ Qué día desea salir ?
+U2: (na) (df Pues) (fe) a principios de semana . Lunes o martes .
+M3: ¿ Qué día desea salir ?
+U3: A principios de semana .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el lunes , día 5 de enero de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí , yo quiero ir a Pamplona , no a Madrid .
+M6: Quiere horarios de trenes a Pamplona ¿ desde Bilbao ?
+U5: Sí (p) , en Talgo (na) .
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: Sí , dígame alguno que llegue a Pamplona por la tarde .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Sí , me gustaría (p) que llegara Pamplona por la tarde .
+M10: Le consulto horarios de Bilbao a Pamplona el lunes , día 5 de enero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: Sí ¿ cuánto cuesta ? (p) . Dígame el precio , (dq por favor) .
+M12: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+U9: Sí , quisiera saber el precio del billete , (dq por favor) .
+M13: El único tren que realiza el trayecto es un Talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

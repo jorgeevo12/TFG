@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Querí(a a) saber el horario y el precio (fm) de un viaje de ida a Granada (p) entre el veintiséis y treinta y uno de diciembre por la noche (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Granada (na) .
+M3: ¿ Quiere viajar a Granada ?
+U3: (na) Sí , en un Tren_Hotel (p) , si es posible (nw) .
+M4: ¿ Desea salir el domingo , día 26 de diciembre de 2004 ?
+U4: Sí , por la noche (na) .
+M5: Le consulto horarios de Valencia a Granada el domingo , día 26 de diciembre de 2004 entre las 9 de la noche y las 5 de la madrugada en Tren_Hotel . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (df Pues) en clase turista cualquier tren .
+M7: Le consulto horarios . Un momento por favor .
+M8: .
+M9: .
+M10: Sólo hay dos trenes . El primero sale a las 0 y 27 de la noche y llega a las 8 y 9 de la mañana y el otro sale a las 11 y 30 de la mañana y llega a las 8 y 8 de la tarde ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

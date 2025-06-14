@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , quería obtener el horario para un viaje de ida a Madrid (p) , para una visita cultural y quería salir mañana en un Alaris o un Intercity si es posible .
+M2: ¿ Quiere viajar desde Madrid ?
+U2: No , quiero salir desde Bilbao .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Madrid .
+M4: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el jueves , día 26 de febrero de 2004 en Intercity . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí , (fe) ¿ podría ser un tren Alaris ?
+M7: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el jueves , día 26 de febrero de 2004 en Alaris . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (df Pues) , en cualquier compañía (nw) .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

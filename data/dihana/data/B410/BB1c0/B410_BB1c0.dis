@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería un billete de ida a Santiago_de_Compostela el día veintitrés de julio .
+M2: ¿ Quiere saber horarios ?
+U2: (na) Sí , (dq por favor) , horarios de mañana .
+M3: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ?
+U3: Sí , (dc gracias) .
+M4: ¿ A qué ciudad desea viajar ?
+U4: (na) A Santiago_de_Compostela .
+M5: Quiere horarios de trenes a Santiago ¿ desde Bilbao ?
+U5: Sí , (dc gracias) .
+M6: Le consulto horarios de Bilbao a Santiago el viernes , día 23 de julio de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U6: (nw) ¿ Me puede decir el precio del primer tren ?
+M8: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (nw ese tren) esta bien , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

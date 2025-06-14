@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:22"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B506"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B506_BA8a3_T01u.ul">
+<t> Quiero un viaje de ida a Madrid el jueves uno de marzo . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B506_BA8a3_T02u.ul">
+<t> Sí <f tipo="e"/> quiero salir desde Bilbao <f tipo="e"/> a Madrid <f tipo="e"/> entre las siete y las ocho horas de la mañana . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 7 y las 8 de la mañana ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B506_BA8a3_T03u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B506_BA8a3_T04u.ul">
+<t> ¿ <d tipo="editar"> Perdone </d> ? No le he entendido . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B506_BA8a3_T05u.ul">
+<t> <f tipo="m"/> . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el martes , día 30 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B506_BA8a3_T06u.ul">
+<t> No , deseo salir el jueves <n fuente="hablante" tipo="aspiración"/> uno de marzo <p/> de dos mil cuatro . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> El día de la semana no se corresponde con la fecha indicada , confirme por favor si desea salir el lunes , día 1 de marzo de 2004 . </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B506_BA8a3_T07u.ul">
+<t> Sí , quiero salir el lunes uno de marzo de dos mil cuatro . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el lunes , día 1 de marzo de 2004 entre las 7 y las 8 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B506_BA8a3_T08u.ul">
+<t> Sí , deseo cambiar el día . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B506_BA8a3_T09u.ul">
+<t> <r tipo="sustitución"> <m> <a>E</a>l </m> <c> al </c> </r> día siguiente <f tipo="e"/> dos de marzo <p/> <f tipo="e"/> martes <p/> del año dos mil cuatro . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el martes , día 2 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B506_BA8a3_T10u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el martes , día 2 de marzo de 2004 entre las 7 y las 8 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B506_BA8a3_T11u.ul">
+<t> Sí deseo cambiar el interval<a>o</a> de las horas si podría ser desde l<a>a</a>s <p/> seis de la mañana a las nueve de la mañana . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el martes , día 2 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B506_BA8a3_T12u.ul">
+<t> Sí , deseo cambiar el intervalo de hora . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 2 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 4 y 50 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B506_BA8a3_T13u.ul">
+<t> <n fuente="hablante" tipo="tos"/> Sí me gustaría que m<a>e</a> confirm<a>e</a> el billete . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="B506_BA8a3_T14u.ul">
+<t> Sí me gustarí<a>a</a> <f tipo="e"/> comprar un billete par<a>a</a> el Talgo <p/> <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> de las cuatro de la tarde el marte<a>s</a> <p/> dos de marzo de dos mil cuatro . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para realizar reservas ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 15 usuario -->
+<turno id="U_015" hablante="usuario" fichero_audio_ss="B506_BA8a3_T15u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> . </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

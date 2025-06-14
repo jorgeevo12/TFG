@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pues) quiero el horario de un tren .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Logroño .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (fm) Quiero ir a Logroño .
+M4: ¿ Qué día desea salir ?
+U4: El miércoles .
+M5: Quiere horarios de trenes a Logroño ¿ desde Zaragoza ?
+U5: (rr (m Sí) (c sí)) .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Logroño saliendo el miércoles , día 31 de marzo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 30 de la madrugada y el último a las 8 y 14 de la tarde ¿ Desea algo más ?
+U6: No , (dr nada) , cojonudo .
+M8: Gracias por utilizar este servicio . Feliz viaje .

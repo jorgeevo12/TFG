@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería sab(a e)r horarios de trenes (a a) Barcelona .
+M2: ¿ Quiere viajar desde Barcelona ?
+U2: No , desde Zaragoza .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Barcelona .
+M4: ¿ Qué día desea salir ?
+U4: (nl) El miércoles .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el miércoles , día 21 de abril de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U5: (nt) ¿ Hay algún tre(a n) entre la(a s) tres y las cinco de la tarde ?
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: ¿ Sale algún tren entre las tres y las cinco de la tarde ?
+M8: Le consulto horarios de Zaragoza a Barcelona el miércoles , día 21 de abril de 2004 entre las 3 y las 5 de la tarde . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Cataluña_Exprés que sale a las 4 y 50 de la tarde ¿ Desea algo más ?
+U7: No , (dc nada más) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

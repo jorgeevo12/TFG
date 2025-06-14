@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , (do buenos días) querría ir a Segovia el próximo sábado (p) (lm y e) necesitaría salir antes de las once de la mañana .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Segovia .
+M4: Quiere horarios de trenes a Segovia ¿ desde Zaragoza ?
+U4: (na) Sí , pero deberían ser horarios que salgan antes de las once de la mañana .
+M5: Le consulto horarios de Zaragoza a Segovia el sábado , día 28 de febrero de 2004 entre las 0 de la noche y las 11 de la mañana . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 30 de la mañana ¿ Desea algo más ?
+U5: (fb) Nada más , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

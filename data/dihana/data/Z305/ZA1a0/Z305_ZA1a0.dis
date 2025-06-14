@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería información sobre horarios (nw) (p) con destino Tarragona de trenes (p) (na) para el día veintiuno de mayo (p) y como llegar muy tarde a (lu Tarragona Tarrago) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Tarragona (nw) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Tarragona .
+M5: Quiere horarios de trenes a Tarragona ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Tarragona saliendo el viernes , día 21 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a la una y 50 de la madrugada y llega a las 5 y 5 de la madrugada y el último sale a las 4 y 50 de la tarde y llega a las 8 y 15 de la tarde ¿ Desea algo más ?
+U6: (na) .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Cuales llegan antes de las doce del mediodía .
+M9: Un momento por favor .
+M10: Hay varios trenes . El primero sale a la una y 50 de la madrugada y llega a las 5 y 5 de la madrugada y el último sale a las 4 y 8 de la madrugada y llega a las 7 y 41 de la mañana ¿ Desea algo más ?
+U8: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

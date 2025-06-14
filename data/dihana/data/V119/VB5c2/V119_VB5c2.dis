@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber los horario(a s) (p) de los trenes de Barcelona a Castellón (nw) .
+M2: ¿ Qué día desea salir ?
+U2: Mañana .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Mañana .
+M4: ¿ Desea salir el miércoles , día 4 de febrero de 2004 ?
+U4: Sí .
+M5: Le consulto horarios . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U5: (fe) Sí , quería saber (fe) el precio del tren que sale a las siete de la mañana (na) (nt) (nw) .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: ¿ Hay algún Euromed (p) entre esos trenes ?
+M8: Le consulto horarios de trenes con salida en Barcelona destino Castellón saliendo el miércoles , día 4 de febrero de 2004 en Euromed . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 8 y 30 de la tarde ¿ Desea algo más ?
+U7: (lu Sí Sim) , quería saber el precio del tren (nw) de la siete de la mañana viajando en primera (nw) .
+M10: El precio de ese tren en clase preferente es 45 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Nada , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas) , desearía saber el horario y el precio de un viaje de id(a a) a Barcelona (p) para el sábado doce de noviembre .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Barcelona .
+M3: ¿ Qué día desea salir ?
+U3: El sábado doce de noviembre .
+M4: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el viernes , día 12 de noviembre de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U5: Sí , es que (p) es sábado (lm doce doz) de noviembre (p) . (nw) Quiero saber .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el viernes , día 12 de noviembre de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U6: Desearía conocer el viaje de vuelta (p) desde Barcelona a Zaragoza al día siguiente .
+M9: ¿ Quiere saber horarios ?
+U7: Sí , horarios y precios .
+M10: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el sábado , día 13 de noviembre de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 30 de la noche ¿ Desea algo más ?
+U8: Sí , deseo conocer el precio (p) (rs (m de estos (lu horarios horario)) (s (p)) (c de estos trenes)) .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (na) Sí , desearí(a a) saber e(a l) precio d(a e)sde Zaragoza a Barcelona que no me ha (lm quedado quedau) claro (p) para el sábado (lm doce doz) de noviembre .
+M13: Le consulto precios de Zaragoza a Barcelona saliendo el viernes , día 12 de noviembre de 2004 . Un momento por favor .
+M14: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , es suficiente , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

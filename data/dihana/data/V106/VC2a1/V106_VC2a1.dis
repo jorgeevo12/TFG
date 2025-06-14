@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber el horario y el precio (fe) de un viaje de ida y vuelta (a a) Huesca el catorce de febrero .
+M2: ¿ Quiere saber horarios ?
+U2: Horario y precio .
+M3: Le consulto horarios de trenes con salida en Valencia destino Huesca saliendo el sábado , día 14 de febrero de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 3 de la noche y llega a las 7 de la mañana ¿ Desea algo más ?
+U3: Saber el precio .
+M5: Le consulto precios de Valencia a Huesca . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

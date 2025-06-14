@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero obtener horarios de trenes con salida en Albacete y destino Alicante .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quiero información de trenes con salida en Albacete y destino Alicante .
+M3: ¿ Quiere saber horarios ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: Quiero salir el domingo y llegar antes de las cinco .
+M5: Le consulto horarios de trenes con salida en Albacete destino Alicante saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 11 y 23 de la mañana y llega a las 12 y 50 de la mañana y el último sale a las 2 y 24 de la tarde y llega a las 3 y 55 de la tarde ¿ Desea algo más ?
+U5: Sí , quiero saber el precio .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Altaria que cuesta 19 con 50 euros la ida y el más barato es un costa_de_la_mañana que cuesta 9 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (fb) (dc adiós) (nw) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

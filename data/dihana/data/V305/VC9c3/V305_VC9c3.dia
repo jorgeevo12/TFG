@@ -1,0 +1,92 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría conocer los precios para viajar desde Barcelona a Girona .
+Me gustaría conocer los precios para viajar desde Barcelona (U:Pregunta:Precio:Origen) pal: 1 - 9
+a Girona . (U:Pregunta:Precio:Destino) pal: 10 - 12
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: Me gustaría viajar a Girona .
+Me gustaría viajar a Girona . (U:Respuesta:Destino:Destino) pal: 1 - 6
+
+M3: ¿ Quiere viajar a gerona ? .
+¿ Quiere viajar a gerona ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U3: Sí , eso es .
+Sí , eso es . (U:Afirmacion:Destino:Nil) pal: 1 - 5
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Me gustaría salir mañana por la mañana .
+Me gustaría salir mañana (U:Respuesta:Dia:Dia) pal: 1 - 4
+por la mañana . (U:Respuesta:Precio:Hora_salida) pal: 5 - 8
+
+M5: Le consulto precios de barcelona a gerona saliendo el martes , día 27 de enero de 2004 . Un momento por favor .
+Le consulto precios de barcelona a gerona saliendo el martes , día 27 de enero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Sólo hay dos trenes . En turista , el tren más caro es un catalan_talgo que cuesta 20 con 50 euros la ida y el otro es un costa_brava que cuesta 11 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En turista , el tren más caro es un catalan_talgo que cuesta 20 con 50 euros la ida y el otro es un costa_brava que cuesta 11 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 53
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 54 - 58
+
+U5: Sí , verá , me gustaría viajar en primera , en un tren rápido y con servicio de bar . ¿ Me puede consultar el precio ? .
+Sí , verá , me gustaría viajar en primera , (U:Pregunta:Precio:Clase_billete) pal: 1 - 10
+en un tren rápido (U:Pregunta:Precio:Tipo_tren) pal: 11 - 14
+y con servicio de bar . ¿ Me puede consultar el precio ? . (U:Pregunta:Precio:Servicio) pal: 15 - 28
+
+M7: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . (M:No_entendido:Nil:Nil) pal: 1 - 17
+
+U6: Me gustaría viajar en un tren rápido , en primera y con servicio de bar .
+Me gustaría viajar en un tren rápido , (U:Pregunta:Precio:Tipo_tren) pal: 1 - 8
+en primera (U:Pregunta:Precio:Clase_billete) pal: 9 - 10
+y con servicio de bar . (U:Pregunta:Precio:Servicio) pal: 11 - 16
+
+M8: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M9: El tren más rápido es un catalan_talgo y su precio en preferente es 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El tren más rápido es un catalan_talgo y su precio en preferente es 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 37
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 38 - 42
+
+U7: Sí , me gustaría saber el precio para volver una semana después .
+Sí , me gustaría saber el precio para volver una semana después . (U:Pregunta:Precio:Dia) pal: 1 - 13
+
+M10: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U8: Sí , me gustaría saber el precio para el viaje de vuelta para el día tres de febrero del dos mil cuatro .
+Sí , me gustaría saber el precio para el viaje de vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 12
+para el día tres de febrero del dos mil cuatro . (U:Pregunta:Precio:Dia) pal: 13 - 23
+
+M11: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U9: No , precios .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+precios . (U:Pregunta:Precio:Nil) pal: 3 - 4
+
+M12: Le consulto precios de gerona a barcelona saliendo el martes , día 3 de febrero de 2004 . Un momento por favor .
+Le consulto precios de gerona a barcelona saliendo el martes , día 3 de febrero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M13: Hay varios trenes . En preferente , el tren más rápido es un mare_nostrum que cuesta 20 euros la ida y el más lento es un costa_brava que cuesta 15 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En preferente , el tren más rápido es un mare_nostrum que cuesta 20 euros la ida y el más lento es un costa_brava que cuesta 15 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+
+U10: Sí , ¿ me podría decir qué tipo de servicios tiene el Mare_Nostrum ? .
+Sí , ¿ me podría decir qué tipo de servicios tiene el Mare_Nostrum ? . (U:Pregunta:Servicio:Tipo_tren) pal: 1 - 15
+
+M14: Ese tren sólo dispone de los siguientes servicios : música , reserva_telefónica , vídeo y prensa . Desea algo más ? .
+Ese tren sólo dispone de los siguientes servicios : música , reserva_telefónica , vídeo y prensa . (M:Respuesta:Servicio:Servicio) pal: 1 - 17
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 18 - 22
+
+U11: No , nada más , muchas gracias .
+No , nada más , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

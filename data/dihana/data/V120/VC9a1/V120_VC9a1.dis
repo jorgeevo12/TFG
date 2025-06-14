@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber los precios de trenes (rs (m para el dí(a a)) (c salida)) diecisiete de agosto desde Cuenca (a y) (p) llegada a Segovia .
+M2: ¿ Quiere viajar a Segovia ?
+U2: Sí , quiero viajar a Segovia desde Cuenca el día diecisiete de agosto (p) y volver el día veintitrés (p) de agosto también .
+M3: Le consulto precios de Cuenca a Segovia saliendo el martes , día 17 de agosto de 2004 . Un momento por favor .
+M4: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: Sí , quería saber los precios para el viaje de vuelta (p) de Segovia a Cuenca el día veintitrés de agosto .
+M5: Le consulto precios de Sevilla a Cuenca saliendo el lunes , día 23 de agosto de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí (p) , el día diecisiete de agosto (rr (m (lu quisiera qui)) (c quisiera)) salir a las diez de la mañana .
+M7: Le consulto precios de Cuenca a Sevilla saliendo el martes , día 17 de agosto de 2004 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , ha habido un error , no quiero ir a Sevilla , quiero ir de Cuenca a Segovia el día diecisiete de agosto a las diez de la mañana en un tren rápido si es posible .
+M9: Le consulto precios de Cuenca a Segovia saliendo el martes , día 17 de agosto de 2004 . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , quería saber el precio para el viaje de vuelta (p) desde Segovia a Cuenca el día veintitrés de agosto a partir de las ocho la tarde en un tren rápido .
+M11: Le consulto precios . Un momento por favor .
+M12: Sólo hay dos trenes . En clase turista , el tren más caro es un Tren_Hotel que cuesta 40 con 50 euros la ida y el otro es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) (nw) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

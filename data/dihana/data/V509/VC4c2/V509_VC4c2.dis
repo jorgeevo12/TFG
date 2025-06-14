@@ -1,0 +1,32 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (a E)l horario de un viaje de ida .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: ¿ Me puede decir el horario de un viaje de ida (p) de Jaén a Madrid ? (nw) .
+M3: Quiere saber el precio a Madrid ¿ saliendo de Jaén ?
+U3: No .
+M4: Quiere saber el precio a Madrid ¿ saliendo de Jaén ?
+U4: No (p) , el horario .
+M5: ¿ Qué día desea salir ?
+U5: El veintitrés de octubre .
+M6: ¿ Desea salir el sábado , día 23 de octubre de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Jaén destino Madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y llega a la una y 31 de la tarde y el otro sale a las 3 y 40 de la tarde y llega a las 7 y 57 de la tarde ¿ Desea algo más ?
+U7: El precio del segundo .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: El precio del segundo .
+M10: El precio de ese tren en clase turista es 19 con 55 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (fe) Horario de vuelta .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Horario de vuelta .
+M12: Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M13: Sólo hay dos trenes . El primero sale a las 9 de la mañana y llega a la una y 5 de la tarde y el otro sale a las 6 y 25 de la tarde y llega a las 10 y 40 de la noche ¿ Desea algo más ?
+U11: Sí .
+M14: Lo siento . No he entendido bien ¿ puede repetir ?
+U12: Horario de vuelta (p) el veinticuatro de octubre .
+M15: Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el domingo , día 24 de octubre de 2004 . Un momento por favor .
+M16: Sólo hay dos trenes . El primero sale a las 9 de la mañana y llega a la una y 5 de la tarde y el otro sale a las 6 y 25 de la tarde y llega a las 10 y 40 de la noche ¿ Desea algo más ?
+U13: El precio del primero .
+M17: Lo siento . No he entendido bien ¿ puede repetir ?
+U14: No , (dc gracias) .
+M18: Gracias por utilizar este servicio . Feliz viaje .

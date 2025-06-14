@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , quisiera saber los (rr (m (rr (m (lu horarios horario)) (c (lu horarios ho)))) (c horarios)) y el precio para un viaje de ida y vuelta a Sevilla .
+M2: ¿ Quiere viajar a Sevilla ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Deseo salir el uno de agosto .
+M4: Le consulto horarios de trenes con salida en Valencia destino Sevilla saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un García_Lorca que sale a las 11 y 30 de la mañana y llega a las 8 y 18 de la tarde ¿ Desea algo más ?
+U4: Sí , quisiera que la vuelta fuera e(a l) diez de agosto .
+M6: ¿ Desea salir el martes , día 10 de agosto de 2004 ?
+U5: No , quisiera volver el diez de agosto .
+M7: Le consulto horarios de trenes con salida en Sevilla destino Valencia saliendo el martes , día 10 de agosto de 2004 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un García_Lorca que sale a las 8 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U6: Si , me gustaría que fuer(a a) , viajar en Ave (p) si es posible .
+M9: Le consulto horarios de trenes con salida en Sevilla destino Valencia saliendo el martes , día 10 de agosto de 2004 en Ave . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí , quiero que la salida sea el uno de agosto .
+M11: Le consulto horarios de trenes con salida en Sevilla destino Valencia saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M12: El único tren que realiza el trayecto es un García_Lorca que sale a las 8 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U8: Sí ¿ podría decirme el precio ?
+M13: Le consulto precios . Un momento por favor .
+M14: El único tren que realiza el trayecto es un García_Lorca y su precio en clase turista es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría conocer los precios para viajar desde Barcelona a Girona .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Me gustaría viajar a Girona .
+M3: ¿ Quiere viajar a Gerona ?
+U3: Sí , (da eso es) .
+M4: ¿ Qué día desea salir ?
+U4: Me gustaría salir mañana por la mañana .
+M5: Le consulto precios de Barcelona a Gerona saliendo el martes , día 27 de enero de 2004 . Un momento por favor .
+M6: Sólo hay dos trenes . En turista , el tren más caro es un catalan_Talgo que cuesta 20 con 50 euros la ida y el otro es un Costa_Brava que cuesta 11 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (nl) Sí , (df verá) , me gustaría viajar en primera , en un tren rápido y con servicio de bar ¿ Me puede consultar el precio ?
+M7: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U6: Me gustaría viajar en un tren rápido , en primera (p) y con servicio de bar .
+M8: Le consulto precios . Un momento por favor .
+M9: El tren más rápido es un catalan_Talgo y su precio en preferente es 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) Sí , me gustaría saber el precio para volver (p) (fe) una semana después .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: (nl) Sí , me gustaría saber el precio para el viaje de vuelta para el día tres de febrero del dos mil cuatro .
+M11: ¿ Quiere saber horarios ?
+U9: No , precios .
+M12: Le consulto precios de Gerona a Barcelona saliendo el martes , día 3 de febrero de 2004 . Un momento por favor .
+M13: Hay varios trenes . En preferente , el tren más rápido es un mare_nostrum que cuesta 20 euros la ida y el más lento es un Costa_Brava que cuesta 15 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (nl) Sí ¿ me podría decir qué tipo de servicios tiene el Mare Nostrum ? (nw) .
+M14: Ese tren sólo dispone de los siguientes servicios: música , reserva_telefónica , vídeo y prensa ¿ Desea algo más ?
+U11: No , nada más , (dc muchas gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

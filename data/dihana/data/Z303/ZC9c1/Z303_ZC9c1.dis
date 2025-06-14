@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Deseo obtener el precio para viajar desde Oviedo el día uno de agosto (p) hasta Orense .
+M2: Le consulto precios de Oviedo a Orense saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M3: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U2: Sí , también deseo saber el precio (p) de vuelta .
+M4: ¿ Desea salir el domingo , día 1 de agosto de 2004 ?
+U3: No , la vuelta sería el (p) catorce de agosto por la tarde (nw) .
+M5: Le consulto precios de Orense a Oviedo saliendo el sábado , día 14 de agosto de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (fe) Sí , me gustaría viajar en coche cama .
+M7: Un momento por favor .
+M8: El único tren que realiza el trayecto es un Diurno y su precio en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

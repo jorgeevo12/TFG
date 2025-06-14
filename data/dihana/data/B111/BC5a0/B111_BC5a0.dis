@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quiero un viaje d(a e) (p) (rr (m u(a n)) (s (p) (nl)) (c un)) billete de ida y vuelta (p) desde Bilbao a Madrid .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El día (p) veintinueve de febrero del dos mil cuatro .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: El veintinueve de febrero (rr (m (lu de d)) (c de)) dos mil cuatro .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: Quier(a o) (p) saber .
+M7: Si ¿ Desea algo más ?
+U6: Sí .
+M8: Si ¿ Desea algo más ?
+U7: Sí , quiero saber el precio .
+M9: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: (na) Cuánto me cuesta (p) (fe) ir el día veintinueve de febrero y volver el día (lm treinta trenta) .
+M10: ¿ Qué día desea salir ?
+U9: Veintinueve de febrero .
+M11: Le consulto precios de Madrid a Bilbao saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí , quiero billete de ida y vuelta para el día uno de marzo .
+M13: Le consulto precios de Madrid a Bilbao saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+M14: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida y 47 con 20 euros el billete de ida y vuelta ¿ Desea algo más ?
+U11: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

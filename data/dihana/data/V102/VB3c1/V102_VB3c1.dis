@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do Hola) , quería hacer un viaj(a e) (p) de ida nada más , (a a) Ávila (fe) para el próxim(a o) viernes (p) (fe) a partir de las cuatro de la tarde . (p) Y para ver si puedo llegar antes de las once de la mañana del sábado .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: Quiero (p) (fm) el horario (p) y el precio para un viaje de ida a Ávila (p) el próximo viernes .
+M3: ¿ Quiere viajar a ávila ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino ávila saliendo el viernes , día 13 de febrero de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U4: (na) (fe) Sí , quiero saber el precio .
+M6: Le consulto precios . Un momento por favor .
+M7: Sólo hay dos trenes . En clase turista , el tren más caro es un Tren_Hotel que cuesta 40 con 50 euros la ida y el otro es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (na) .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Quiero saber el horario , otra vez .
+M9: Le consulto horarios . Un momento por favor .
+M10: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U7: No , ya está .
+M11: Gracias por utilizar este servicio . Feliz viaje .

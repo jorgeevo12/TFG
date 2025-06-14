@@ -1,0 +1,33 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera saber cuál es el horario para ir a $C_DESTINO<Alicante> el próximo $FECHA<sábado> en $T_TREN<talgo> .
+Quisiera saber cuál es el horario para ir a $C_DESTINO<Alicante> (U:Pregunta:Hora_salida:Destino) pal: 1 - 10
+el próximo $FECHA<sábado> (U:Pregunta:Hora_salida:Dia) pal: 11 - 13
+en $T_TREN<talgo> . (U:Pregunta:Precio:Tipo_tren) pal: 14 - 16
+M2: Quiere horarios de trenes a $C_DESTINO<alicante> , ¿ desde $C_ORIGEN<bilbao> ? .
+Quiere horarios de trenes a $C_DESTINO<alicante> , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN<bilbao> ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M3: Le consulto horarios de trenes con salida en $C_ORIGEN<bilbao> destino $C_DESTINO<alicante> saliendo el $FECHA<sábado , día 28 de febrero de 2004> en $T_TREN<talgo> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<bilbao> destino $C_DESTINO<alicante> saliendo el $FECHA<sábado , día 28 de febrero de 2004> en $T_TREN<talgo> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M4: El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<9 y 50 de la mañana> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<9 y 50 de la mañana> . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U3: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+M5: Si . Desea algo más ? .
+Si . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+U4: También me gustaría saber los precios de un $T_TREN<talgo> de $C_ORIGEN<Bilbao> a $C_DESTINO<Alicante> para el próximo $FECHA<sábado> y horario también .
+También me gustaría saber los precios de un $T_TREN<talgo> (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 1 - 9
+de $C_ORIGEN<Bilbao> (U:Pregunta:Hora_salida,Precio:Origen) pal: 10 - 11
+a $C_DESTINO<Alicante> (U:Pregunta:Hora_salida,Precio:Destino) pal: 12 - 13
+para el próximo $FECHA<sábado> y horario también . (U:Pregunta:Hora_salida,Precio:Dia) pal: 14 - 21
+M6: El único tren que realiza el trayecto es un $T_TREN<talgo> y su precio en clase $CLASE<turista> es $PRECIO<46 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> y su precio en clase $CLASE<turista> es $PRECIO<46 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+U5: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

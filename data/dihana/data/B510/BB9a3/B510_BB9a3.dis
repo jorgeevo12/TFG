@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , m(a e) gustaría saber el precio (p) de un viaje de ida (p) desd(a e) (p) Irún a Algeciras en tren litera (p) , (dq por favor) .
+M2: ¿ Quiere salir desde Valencia ?
+U2: No (p) , quiero salir desd(a e) Irún .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Algeciras .
+M4: ¿ Qué día desea salir ?
+U4: Me gustaría salir (a e)l (p) tres de agosto .
+M5: ¿ Desea salir el martes , día 3 de agosto de 2004 ?
+U5: Sí (p) , en un tren litera (p) (dq por favor) .
+M6: Le consulto precios de Irún a Algeciras en clase litera . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Diurno y su precio en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

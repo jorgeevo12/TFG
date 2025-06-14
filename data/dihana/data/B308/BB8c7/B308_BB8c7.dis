@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , quería saber el precio d(a e) los viajes de ida (p) de San_Sebastián Gerona (na) , para el próximo fin de semana .
+M2: Quiere saber el precio a Barcelona ¿ desde San_Sebastián ?
+U2: No , de San_Sebastián Gerona , a Gerona .
+M3: Le consulto precios de San_Sebastián a Gerona saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: Desearía un billete de ida (na) y si es posible viajar en Intercity .
+M5: Le consulto precios de San_Sebastián a Gerona en tipo tren Intercity . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Querría saber los horarios (fe) para (a u)n viaje (rr (m a (lm Mérida Merri)) (c a Mérida)) (na) (fe) para el próximo jueves por la mañana .
+M2: ¿ Quiere llegar a benicássim ?
+U2: No , quiero ir a Mérida .
+M3: Quiere horarios de trenes a Mérida ¿ desde Zaragoza ?
+U3: Sí .
+M4: Le consulto horarios de Zaragoza a Mérida el jueves , día 6 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U4: Querría saber (rr (m el) (c el)) precio (p) y el horario del más barato .
+M6: El tren más caro es un Talgo que sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U5: (na) Querría el más barato , el tren más económico (p) (na) (fe) (rr (m para) (c para)) el jueves por la mañana .
+M7: El tren más barato es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U6: (na) Sí , querría saber (rr (m (a e)l) (s (p)) (c el)) horario para la vuelta que sería el siguiente domingo por la tarde .
+M8: Le consulto horarios de trenes con salida en Mérida destino Zaragoza saliendo el domingo , día 9 de mayo de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: Sí , saber cuál es el más barato .
+M10: El tren más barato es un Diurno que sale a las 10 y 3 de la noche y llega a las 7 de la mañana ¿ Desea algo más ?
+U8: ¿ Cuál es el precio conjunto del billete de ida y vuelta (p) en estas condiciones ?
+M11: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

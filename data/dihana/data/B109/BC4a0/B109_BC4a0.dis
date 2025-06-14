@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero saber el precio del billete de ida y vuelta (na) (rs (m (lu para pa)) (s (fe)) (c para)) ir de Bilbao a Madrid (na) .
+M2: ¿ Desea salir el domingo , día 15 de febrero de 2004 ?
+U2: (na) No , quiero salir (a e)l veinte de marzo (p) a l(a a)s siete de la mañana .
+M3: Le consulto precios de Bilbao a Madrid saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (na) Sí , (rs (m quiero saber) (s (fb)) (c quiero salir)) el diecinueve de marzo .
+M5: Le consulto precios . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (na) Sí , quiero ir d(a e) Barcelona (p) (a a) Alicante .
+M7: ¿ Quiere salir entre las 6 y 30 y las 7 y 30 de la mañana ?
+U5: Sí .
+M8: ¿ Desea salir el viernes , día 19 de marzo de 2004 ?
+U6: Sí .
+M9: Le consulto precios de Barcelona a Alicante saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Euromed y su precio en clase turista es 43 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , quiero saber el precio d(a e)l billete de id(a a) (p) y vuelta .
+M11: El precio de ese tren en clase turista es 43 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí , quiero sab(a e)r el horario (p) (rr (m par(a a)) (c par(a a))) (fb) salir (fb) de seis y media a siete y media de la mañana (p) y el horario de vuelta sobre l(a a)s siete de la tarde .
+M12: El único tren que realiza el trayecto es un Euromed que sale a las 7 de la mañana ¿ Desea algo más ?
+U9: Sí , saber el horario de vuelta .
+M13: Le consulto horarios de Alicante a Barcelona el viernes , día 19 de marzo de 2004 entre las 6 y 30 y las 7 y 30 de la tarde . Un momento por favor .
+M14: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: (na) Sí , quiero saber (rs (m a qué hora vuelven los) (s(p)) (c a qué hora van los)) trenes de Alicante a Barcelona por la tarde .
+M15: Le consulto horarios de Alicante a Barcelona el viernes , día 19 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M16: Hay varios trenes . El primero sale a las 2 y 20 de la tarde y el último a las 6 y 25 de la tarde ¿ Desea algo más ?
+U11: No .
+M17: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería (rr (m (lu saber sia)) (c saber)) si hay algún tren que vaya a Madrid el día veinticuatro de diciembre .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (na) ¿ Me podría decir los horarios de trenes que v(a a)yan a Madrid el día veinticuatro de diciembre por la tarde ?
+M4: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el mi ? rcoles , día 24 de diciembre de 2003 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí , saber el precio .
+M6: El precio de ese tren en turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U5: Sí ¿ me puede decir el horari(a o) de los tren(a e)s que salen de Madrid a Bilbao (p) el día veintiséis ?
+M7: Le consulto horarios . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 35 de la tarde ¿ Desea algo más ?
+U6: Sí ¿ me podría decir el precio ?
+M9: El precio de ese tren en turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U7: No , nada más .
+M10: Gracias por utilizar este servicio . Feliz viaje .

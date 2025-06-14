@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenas tardes quería saber el horario un tren para ir de Bilbao a Tarragona el próximo viernes dos de abril .
+Hola buenas tardes quería saber el horario un tren para ir de Bilbao (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+a Tarragona (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+el próximo viernes dos de abril . (U:Pregunta:Hora_salida:Dia) pal: 16 - 22
+
+M2: Quiere horarios de trenes a tarragona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a tarragona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U2: No .
+No . (U:Negacion:Origen:Nil) pal: 1 - 2
+
+M3: ¿ Quiere salir desde bilbao ? .
+¿ Quiere salir desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de trenes con salida en bilbao destino tarragona saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino tarragona saliendo el viernes , día 2 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U4: Sí quisiera también cuál sería el precio de ese tren .
+Sí quisiera también cuál sería el precio de ese tren . (U:Pregunta:Precio:Nil) pal: 1 - 11
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Sí quisiera también saber cuál es el precio del tren que me ha dicho .
+Sí quisiera también saber cuál es el precio del tren que me ha dicho . (U:Pregunta:Precio:Nil) pal: 1 - 15
+
+M7: El precio de ese tren en clase turista es 31 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 31 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

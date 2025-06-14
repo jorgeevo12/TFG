@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:18"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B214"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B214_BC8c1_T01u.ul">
+<t> <d tipo="abrir"> Hola buenos días </d> , me gustaría saber cuál es el precio de un viaje de ida y de vuelta <p/> <n fuente="hablante" tipo="aspiración"/> para el próximo fin de semana <p/> desde León hasta Vigo , saliendo el viernes y llegando el lunes a la mañana . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B214_BC8c1_T02u.ul">
+<t> A Vigo . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Vigo ¿ desde Bilbao ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B214_BC8c1_T03u.ul">
+<t> No , quiero horarios de trenes a Vigo desde León . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir desde León ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B214_BC8c1_T04u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B214_BC8c1_T05u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> El viernes . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el viernes , día 27 de febrero de 2004 ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B214_BC8c1_T06u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> No , quiero salir el viernes de la semana que viene . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el viernes , día 5 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B214_BC8c1_T07u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en León destino Vigo saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 2 y 7 de la tarde y el último a las 4 y 59 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B214_BC8c1_T08u.ul">
+<t> <d tipo="pedir"> Por favor </d> . Sí , <d tipo="pedir"> por favor </d> ¿ cuál es el tren más rápido ? </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B214_BC8c1_T09u.ul">
+<t> Sí , <d tipo="pedir"> por favor </d> ¿ cuál es el tren más rápido ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> El tren más rápido es un covadonga que sale a las 4 y 59 de la tarde y llega a las 10 y 50 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B214_BC8c1_T10u.ul">
+<t> Sí ¿ cuál es el precio <r tipo="inserción"> <m> de ese </m> <c> del billete de ese </c> </r> tren ? </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 25 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B214_BC8c1_T11u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , quiero saber el precio <p/> para un tren de <p/> <f tipo="m"/> salida en Vigo , llegada en León <n fuente="hablante" tipo="aspiración"/> <p/> el cinco de marzo lunes <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el viernes , día 5 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B214_BC8c1_T12u.ul">
+<t> No , deseo salir el lunes ocho de marzo del dos mil cuatro . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios de Vigo a León saliendo el lunes , día 8 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Sólo hay dos trenes . En clase turista , el tren más caro es un Diurno que cuesta 24 euros la ida y el otro es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B214_BC8c1_T13u.ul">
+<t> ¿ Cuál es el tren más cómodo de los dos últimos ? </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> El tren más rápido es un Diurno y su precio en clase turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="B214_BC8c1_T14u.ul">
+<t> Sí , quiero saber cuál es el tren más cómodo . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> El tren más rápido es un Diurno y su precio en clase turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 15 usuario -->
+<turno id="U_015" hablante="usuario" fichero_audio_ss="B214_BC8c1_T15u.ul">
+<t> Sí , deseo saber cuál es el tren más cómodo no el más rápido , <p/> el más cómodo <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 16 usuario -->
+<turno id="U_016" hablante="usuario" fichero_audio_ss="B214_BC8c1_T16u.ul">
+<t> No , <d tipo="cerrar"> muchas gracias </d> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

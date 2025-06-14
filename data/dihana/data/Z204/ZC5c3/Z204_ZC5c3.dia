@@ -1,0 +1,109 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Quiero saber los horarios para un viaje de ida y vuelta de Tarragona a Barcelona .
+Quiero saber los horarios para un viaje de ida y vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 11
+de Tarragona (U:Pregunta:Hora_salida:Origen) pal: 12 - 13
+a Barcelona . (U:Pregunta:Hora_salida:Destino) pal: 14 - 16
+
+
+
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U2: Mañana en euromed si es posible .
+Mañana (U:Respuesta:Dia:Dia) pal: 1 - 1
+en euromed si es posible . (U:Respuesta:Hora_salida:Tipo_tren) pal: 2 - 7
+
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U3: Mañana .
+Mañana . (U:Respuesta:Dia:Dia) pal: 1 - 2
+
+
+
+
+M4: Le consulto horarios de trenes con salida en tarragona destino barcelona saliendo el sábado , día 21 de febrero de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en tarragona destino barcelona saliendo el sábado , día 21 de febrero de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+M5: Hay varios trenes . El primero sale a las 8 y 36 de la mañana y el último a las 10 y 5 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 8 y 36 de la mañana y el último a las 10 y 5 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U4: Quiero saber el precio viajando en segunda .
+Quiero saber el precio viajando en segunda . (U:Pregunta:Precio:Clase_billete) pal: 1 - 8
+
+
+
+
+M6: Los trenes son euromed y en clase turista , el billete cuesta 15 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son euromed y en clase turista , el billete cuesta 15 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+
+
+U5: El horario de vuelta de Barcelona a Tarragona , perdón .
+El horario de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 4
+de Barcelona (U:Pregunta:Hora_salida:Origen) pal: 5 - 6
+a Tarragona , perdón . (U:Pregunta:Hora_salida:Destino) pal: 7 - 11
+
+
+
+
+M7: Le consulto horarios de trenes con salida en barcelona destino tarragona saliendo el sábado , día 21 de febrero de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino tarragona saliendo el sábado , día 21 de febrero de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 6 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 6 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+
+
+
+U6: Sí , el precio viajando en segunda .
+Sí , el precio viajando en segunda . (U:Pregunta:Precio:Clase_billete) pal: 1 - 8
+
+
+
+
+M9: Los trenes son euromed y en clase turista , el billete cuesta 15 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son euromed y en clase turista , el billete cuesta 15 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quiero que me des horarios para ir (rs (m d(a e)) (c a)) Barcelona sobre el veintidós de enero .
+M2: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el jueves , día 22 de enero de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale 05:45 y el último 20:05 ¿ Desea algo más ?
+U2: Sí , quiero que me digas horarios por la mañana . Dim(a e) algún horario sobre l(a a)s (p) nueve de la mañana .
+M4: Le consulto horarios . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Euromed que sale 08:35 ¿ Desea algo más ?
+U3: Sí , quería saber si puedo llevar el coche en el tren .
+M6: Le consulto servicios . Un momento por favor .
+M7: Ese tren sólo dispone de los siguientes servicios: música , reserva_telefónica , vídeo , teléfono , prensa y copa_bienvenida ¿ Desea algo más ?
+U4: Sí , quiero el precio de ese tren .
+M8: El precio de ese tren en turista es 33 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U5: No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,121 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Hola , quería el horario para ir de Castellón a Tarragona y llegar a Tarragona el viernes por la mañana .
+Hola , quería el horario para ir de Castellón (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+a Tarragona y llegar a Tarragona (U:Pregunta:Hora_salida:Destino) pal: 10 - 15
+el viernes (U:Pregunta:Hora_salida:Dia) pal: 16 - 17
+por la mañana . (U:Pregunta:Hora_salida:Hora_llegada) pal: 18 - 21
+
+
+
+
+M2: Le consulto horarios de barcelona a tarragona llegando el viernes , día 23 de enero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de barcelona a tarragona llegando el viernes , día 23 de enero de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+
+
+
+M3: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 12 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 12 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+
+U2: Sí , quería el horario de trenes de Castellón a Tarragona para llegar a Tarragona el viernes por la mañana .
+Sí , quería el horario de trenes de Castellón (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+a Tarragona para llegar a Tarragona (U:Pregunta:Hora_salida:Destino) pal: 10 - 15
+el viernes (U:Pregunta:Hora_salida:Dia) pal: 16 - 17
+por la mañana . (U:Pregunta:Hora_salida:Hora_llegada) pal: 18 - 21
+
+
+
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U3: Horario de trenes de Castellón a Tarragona , para llegar a Tarragona el viernes por la mañana .
+Horario de trenes de Castellón (U:Pregunta:Hora_salida:Origen) pal: 1 - 5
+a Tarragona , para llegar a Tarragona (U:Pregunta:Hora_salida:Destino) pal: 6 - 12
+el viernes (U:Pregunta:Hora_salida:Dia) pal: 13 - 14
+por la mañana . (U:Pregunta:Hora_salida:Hora_llegada) pal: 15 - 18
+
+
+
+
+M5: Le consulto horarios de castellón a tarragona llegando el viernes , día 23 de enero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de castellón a tarragona llegando el viernes , día 23 de enero de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+
+
+
+M6: Hay varios trenes . El primero llega a las 8 y 28 de la mañana y el último a las 12 y 32 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero llega a las 8 y 28 de la mañana y el último a las 12 y 32 de la mañana . (M:Respuesta:Hora_llegada:Hora_llegada,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U4: Sí , ¿ cuál es el precio del billete de ida y vuelta ? .
+Sí , ¿ cuál es el precio del billete de ida y vuelta ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 15
+
+
+
+
+M7: El primer tren es un trenhotel y su precio en turista es 19 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El primer tren es un trenhotel y su precio en turista es 19 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_relativo_orden,Precio,Tipo_tren) pal: 1 - 38
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 39 - 43
+
+
+
+
+U5: ¿ Alguno de los trenes es el euromed ? .
+¿ Alguno de los trenes es el euromed ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 10 - 10
+
+
+
+
+M8: Le consulto horarios de castellón a tarragona llegando el viernes , día 23 de enero de 2004 en euromed . Un momento por favor .
+Le consulto horarios de castellón a tarragona llegando el viernes , día 23 de enero de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 20
+Un momento por favor . (M:Espera:Nil:Nil) pal: 21 - 25
+
+
+
+
+M9: Sólo hay dos trenes . El primero sale a las 7 y 19 de la mañana y el otro a las 9 y 16 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 7 y 19 de la mañana y el otro a las 9 y 16 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+
+
+
+U6: Sí , ¿ cuál es el precio de billete de ida vuelta ? .
+Sí , ¿ cuál es el precio de billete de ida vuelta ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 14
+
+
+
+
+M10: El primer tren es un euromed y su precio en turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El primer tren es un euromed y su precio en turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_relativo_orden,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

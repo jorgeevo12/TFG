@@ -1,0 +1,62 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenos días llamaba para preguntar por los horarios de trenes con salida Albacete destino Barcelona para el próximo lunes .
+Buenos días llamaba para preguntar por los horarios de trenes con salida Albacete (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+destino Barcelona (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+para el próximo lunes . (U:Pregunta:Hora_salida:Dia) pal: 16 - 20
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U2: Sí , horarios de trenes que salgan el próximo lunes a las doce de Albacete a Barcelona .
+Sí , horarios de trenes que salgan el próximo lunes (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+a las doce (U:Pregunta:Hora_salida:Hora_salida) pal: 11 - 13
+de Albacete (U:Pregunta:Hora_salida:Origen) pal: 14 - 15
+a Barcelona . (U:Pregunta:Hora_salida:Destino) pal: 16 - 18
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El próximo lunes .
+El próximo lunes . (U:Respuesta:Dia:Dia) pal: 1 - 4
+M4: ¿ Desea salir el lunes , día 15 de marzo de 2004 ? .
+¿ Desea salir el lunes , día 15 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M5: Quiere horarios de trenes a barcelona , ¿ desde albacete ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde albacete ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U5: Sí , trenes que salgan a las doce .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+trenes que salgan a las doce . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 9
+M6: Le consulto horarios de albacete a barcelona el lunes , día 15 de marzo de 2004 entre las 11 de la mañana y la una de la tarde . Un momento por favor .
+Le consulto horarios de albacete a barcelona el lunes , día 15 de marzo de 2004 entre las 11 de la mañana y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U6: Sí , ¿ algún tren que salga antes de las once ? .
+Sí , ¿ algún tren que salga antes de las once ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 13
+M8: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M9: El único tren que realiza el trayecto es un trenhotel que sale a las 3 y 53 de la madrugada y llega a las 9 y 50 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un trenhotel que sale a las 3 y 53 de la madrugada y llega a las 9 y 50 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+U7: ¿ No hay otros trenes ? .
+¿ No hay otros trenes ? . (U:Pregunta:Hora_salida:Nil) pal: 1 - 7
+M10: No . Desea algo más ? .
+No . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+U8: Sí , pues dígame el precio de un billete ida y vuelta .
+Sí , pues dígame el precio de un billete ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+M11: El precio de ese tren en clase turista es 36 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 36 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+U9: Y ¿ qué días y qué horarios habría para volver ? .
+Y ¿ qué días y qué horarios habría para volver ? . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 12
+M12: Le consulto horarios de trenes con salida en barcelona destino albacete saliendo el lunes , día 15 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino albacete saliendo el lunes , día 15 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M13: Sólo hay dos trenes . El primero sale a las 8 de la mañana y llega a la una y 27 de la tarde y el otro sale a las 9 de la noche y llega a las 2 y 13 de la madrugada . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 8 de la mañana y llega a la una y 27 de la tarde y el otro sale a las 9 de la noche y llega a las 2 y 13 de la madrugada . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 45
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 46 - 50
+U10: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

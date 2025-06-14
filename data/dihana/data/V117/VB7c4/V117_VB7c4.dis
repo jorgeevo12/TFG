@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) (fe) , quería información sobre trenes a Segovia (p) para el dieciocho de agosto .
+M2: ¿ Quiere saber horarios ?
+U2: (rr (m No) (c no)) , (p) quiero saber precios y en Talgo .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Segovia .
+M4: Le consulto precios de Valencia a Segovia . Un momento por favor .
+M5: Hay varios trenes . En turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí , es que (fb) ya quería un Talgo , me interes(a a) el precio de ese Talgo .
+M6: El precio de ese tren en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (df Pues) no (dr nada más) , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

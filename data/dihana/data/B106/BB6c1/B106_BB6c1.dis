@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería el horari(a o) (ri (m d(a e)) (c para ir de)) Castellón a Tarragona y llegar a Tarragona el viernes por la mañana .
+M2: Le consulto horarios de Barcelona a Tarragona llegando el viernes , día 23 de enero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 12 de la mañana ¿ Desea algo más ?
+U2: Sí , quería el horario de trenes de Castellón a Tarragona para llegar a Tarragona el viernes por la mañana .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (na) Horario de trenes de Castellón a Tarragona , para llegar a Tarragona el viernes por la mañana .
+M5: Le consulto horarios de Castellón a Tarragona llegando el viernes , día 23 de enero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M6: Hay varios trenes . El primero llega a las 8 y 28 de la mañana y el último a las 12 y 32 de la mañana ¿ Desea algo más ?
+U4: Sí ¿ cuál es el precio del billete de ida y vuelta ?
+M7: El primer tren es un Tren_Hotel y su precio en turista es 19 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: ¿ Alguno de los trenes es el Euromed ?
+M8: Le consulto horarios de Castellón a Tarragona llegando el viernes , día 23 de enero de 2004 en Euromed . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 7 y 19 de la mañana y el otro a las 9 y 16 de la mañana ¿ Desea algo más ?
+U6: Sí ¿ cuál es el precio de billete de ida vuelta ?
+M10: El primer tren es un Euromed y su precio en turista es 24 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,38 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Querría obtener información de un viaje de ida a Pamplona para una reunión de trabajo el quince de mayo .
+Querría obtener información de un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 8
+a Pamplona (U:Pregunta:Nil:Destino) pal: 9 - 10
+para una reunión de trabajo el quince de mayo . (U:Pregunta:Nil:Dia) pal: 11 - 20
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U2: Sí , quiero saber horarios y precios .
+Sí , (U:Afirmacion:Hora_salida,Precio:Nil) pal: 1 - 2
+quiero saber horarios y precios . (U:Pregunta:Hora_salida,Precio:Nil) pal: 3 - 8
+M3: Quiere horarios de trenes a pamplona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a pamplona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M4: Le consulto horarios de trenes con salida en zaragoza destino pamplona saliendo el sábado , día 15 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino pamplona saliendo el sábado , día 15 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U4: Sí , saber horarios de intercitys .
+Sí , saber horarios de intercitys . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 7
+M6: Le consulto horarios de trenes con salida en zaragoza destino pamplona saliendo el sábado , día 15 de mayo de 2004 en intercity . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino pamplona saliendo el sábado , día 15 de mayo de 2004 en intercity . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M7: El único tren que realiza el trayecto es un intercity que sale a las 8 y 30 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un intercity que sale a las 8 y 30 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U5: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

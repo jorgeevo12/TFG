@@ -1,0 +1,105 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quiero saber el precio de los viajes de tren $CIUDAD a $C_DESTINO para agosto .
+Quiero saber el precio de los viajes de tren $CIUDAD (U:Pregunta:Precio:Origen) pal: 1 - 10
+a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 11 - 12
+para agosto . (U:Pregunta:Precio:Dia) pal: 13 - 15
+
+
+
+M2: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+M3: Hay varios trenes . En $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 51
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 52 - 56
+
+
+
+U2: Sí , quería saber el precio viaje de $TVIAJE de $C_ORIGEN a $C_DESTINO para los días dieciséis o $FECHA .
+Sí , quería saber el precio viaje de $TVIAJE (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+de $C_ORIGEN (U:Pregunta:Precio:Origen) pal: 10 - 11
+a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 12 - 13
+para los días dieciséis o $FECHA . (U:Pregunta:Precio:Dia) pal: 14 - 22
+
+
+
+M4: Le consulto precios de $C_ORIGEN a $C_DESTINO . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+
+M5: Hay varios trenes . En $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 51
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 52 - 56
+
+
+
+U3: Sí , querría saber el precio total de viaje de $TVIAJE y de $TVIAJE .
+Sí , querría saber el precio total de viaje de $TVIAJE y de $TVIAJE . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 15
+
+
+
+M6: Usted debe calcular el descuento . El precio es el proporcionado anteriormente .
+Usted debe calcular el descuento . El precio es el proporcionado anteriormente . (M:Indefinida:Nil:Nil) pal: 1 - 13
+
+
+
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+
+M7: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+
+U5: Me pregunta algo .
+Me pregunta algo . (U:Indefinida:Nil:Nil) pal: 1 - 4
+
+
+
+M8: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+
+U6: ¿ Me puede decir el precio los trenes más baratos tanto para ir como para volver ? .
+¿ Me puede decir el precio los trenes más baratos (U:Pregunta:Precio:Precio) pal: 1 - 10
+tanto para ir como para volver ? . (U:Pregunta:Precio:Tipo_viaje) pal: 11 - 18
+
+
+
+M9: El tren $PRECIO es un $T_TREN y su precio en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El tren $PRECIO es un $T_TREN y su precio en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 39
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 40 - 44
+
+
+
+U7: Sí , quiero que me repitas el precio tren más barato para la vuelta .
+Sí , quiero que me repitas el precio tren más barato (U:Pregunta:Precio:Precio) pal: 1 - 11
+para la vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 12 - 15
+
+
+
+M10: El precio de ese tren en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 32
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 33 - 37
+
+
+
+U8: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

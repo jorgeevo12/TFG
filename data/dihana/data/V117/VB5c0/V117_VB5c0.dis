@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , (fe) quería horarios de trenes a Sevilla (p) desde Almería .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Sevilla .
+M3: ¿ Qué día desea salir ?
+U3: Quiero salir el siet(a e) (p) u ocho de abril .
+M4: Perdón . No consigo entenderle .
+U4: Quiero salir el siete u el ocho (p) de abril .
+M5: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 de la mañana y el último a las 6 y 5 de la tarde ¿ Desea algo más ?
+U5: Sí , (fe) quería un Regional .
+M7: Le consulto horarios . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí (fe) , quisiera ver si el día ocho (p) tienen algún Regional .
+M9: Le consulto horarios de trenes con salida en Almería destino Sevilla saliendo el jueves , día 8 de abril de 2004 en Regional . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí (fe) , quisiera saber (fe) el día siete (p) (b si tien(a e)) cuál es el precio del tren más barato que tenga .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Sí , para el día siete .
+M12: Perdón . No consigo entenderle .
+U9: El día siete (p) , qué precio tiene el (lm tren tres) más barato .
+M13: Le consulto precios . Un momento por favor .
+M14: Hay un único tipo de tren , que es TRD . En turista , el billete cuesta 27 con 19 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc muchas gracias) , eso es todo .
+M15: Gracias por utilizar este servicio . Feliz viaje .

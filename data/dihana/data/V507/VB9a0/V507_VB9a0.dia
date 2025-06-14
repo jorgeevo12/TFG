@@ -1,0 +1,71 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera saber el precio del billete de un tren que vaya de Teruel a Salamanca .
+Quisiera saber el precio del billete de un tren que vaya de Teruel (U:Pregunta:Precio:Origen) pal: 1 - 13
+a Salamanca . (U:Pregunta:Precio:Destino) pal: 14 - 16
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: Del doce al trece de julio .
+Del doce al trece de julio . (U:Respuesta:Dia:Dia) pal: 1 - 7
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: Del doce al trece de julio .
+Del doce al trece de julio . (U:Respuesta:Dia:Dia) pal: 1 - 7
+
+M4: ¿ Desea salir el lunes , día 12 de julio de 2004 ? .
+¿ Desea salir el lunes , día 12 de julio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: Sí , gracias .
+Sí , gracias . (U:Afirmacion:Dia:Nil) pal: 1 - 4
+
+M5: Le consulto precios de teruel a salamanca saliendo el lunes , día 12 de julio de 2004 . Un momento por favor .
+Le consulto precios de teruel a salamanca saliendo el lunes , día 12 de julio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes con salida el lunes , día 12 de julio de 2004 . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes con salida el lunes , día 12 de julio de 2004 . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Dia,Numero_trenes,Precio,Tipo_tren) pal: 1 - 63
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 64 - 68
+
+U5: Sí , querría viajar con un alaris .
+Sí , querría viajar con un alaris . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 8
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U6: Me gustaría viajar en un alaris .
+Me gustaría viajar en un alaris . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 7
+
+M8: ¿ Desea hacer el viaje en un alaris ? .
+¿ Desea hacer el viaje en un alaris ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+U7: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+M9: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M10: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U8: Sí , me gustaría salir desde las cuatro de la tarde a las seis de la tarde .
+Sí , me gustaría salir desde las cuatro de la tarde a las seis de la tarde . (U:Pregunta:Precio:Hora_salida) pal: 1 - 18
+
+M11: Le consulto precios de teruel a salamanca . Un momento por favor .
+Le consulto precios de teruel a salamanca . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M12: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

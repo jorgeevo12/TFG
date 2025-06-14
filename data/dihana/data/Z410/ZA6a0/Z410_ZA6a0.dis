@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera (b (lm un u)) información sobre los horarios de trenes (p) para ir de Zaragoza a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: Quisiera llegar el próximo sábado veinticuatro de abril .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 24 de abril de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U3: Sí , quisiera saber (fb) los tipos de trenes qu(a e) van de Zaragoza a Barcelona ese día .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Me gustaría saber el tipo de tren que va de Zaragoza a Barcelona el día veinticuatro de abril .
+M6: Hay varios tipos de trenes . El tren más rápido es un Talgo y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

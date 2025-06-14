@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (nw Deseo) saber el precio del Talgo a Segovia el dieciocho de agosto .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (nw) (na) Quiero saber el precio del Talgo a Segovia (p) el dieciocho de agosto (nw) .
+M3: Quiere saber el precio a Segovia ¿ desde Zaragoza ?
+U3: Sí .
+M4: Le consulto precios de Zaragoza a Segovia en tipo tren Talgo . Un momento por favor .
+M5: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (nw Sí , que sea el dieciocho de agosto) .
+M6: Le consulto precios de Zaragoza a Segovia saliendo el miércoles , día 18 de agosto de 2004 . Un momento por favor .
+M7: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) (nw) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

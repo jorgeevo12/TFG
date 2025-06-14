@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Sí , querría ir (rr (m d(a e)) (c de)) Sevilla a Granada este fin de semana (p) . Me interesaría información (rr (m sobre) (c sobre)) los trenes que hay .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , quiero saber los horarios , pero también quiero saber los precios , para ver si me interesa ir o no .
+M3: ¿ Qué día desea salir ?
+U3: Quiero (fb) (fe) hacer el viaje este fin de semana . (df O sea) (fm) , salir el viernes .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quiero salir (fe) este viernes .
+M5: Le consulto horarios de trenes con salida en Sevilla destino Granada saliendo el viernes , día 23 de enero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 5 y 40 de la tarde ¿ Desea algo más ?
+U5: Sí , quiero saber los trenes que hay por la tarde .
+M7: Le consulto horarios . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 3 y 40 de la tarde y el otro a las 5 y 40 de la tarde ¿ Desea algo más ?
+U6: ¿ Puede repetirme a qué hora sale el primero ?
+M9: Ese tren sale a las 3 y 40 de la tarde y llega a las 6 y 30 de la tarde ¿ Desea algo más ?
+U7: Sí , quiero saber también los precios que tiene , este (rr (m y e(a l)) (c y el)) anterior que me habías dicho .
+M10: Hay un único tipo de tren , que es TRD . En turista , el billete cuesta 17 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: ¿ No hay nada más barato ?
+M11: El tren más barato es un TRD y su precio en turista es 17 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí , (b (lu quiero quie)) ¿ cuánt(a o) dura el viaje ?
+M12: Ese tren tarda 2 horas y 50 minutos ¿ Desea algo más ?
+U10: No , ya está todo .
+M13: Gracias por utilizar este servicio . Feliz viaje .

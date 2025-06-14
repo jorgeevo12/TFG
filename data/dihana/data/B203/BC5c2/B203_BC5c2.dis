@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quiero saber el horario y precio (rs (m (rr (m d(a e)) (c de)) (lu viaje via)) (c del viaje)) de ida y vuelta (fa) de Alicante a Valencia saliendo el nueve y volviendo el día doce .
+M2: Quiere horarios de trenes a Valencia ¿ desde Bilbao ?
+U2: No , (p) a Valencia desde Alicante .
+M3: ¿ Qué día desea salir ?
+U3: El nueve de septiembre .
+M4: ¿ Desea salir el jueves , día 9 de septiembre de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Alicante destino Valencia saliendo el jueves , día 9 de septiembre de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 7 de la tarde ¿ Desea algo más ?
+U5: (na) Sí , (p) quiero saber (fe) si puedo volver el día doce (nw) .
+M7: ¿ Quiere saber horarios ?
+U6: Sí .
+M8: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U7: (fe) Quiero saber si alguno es Euromed .
+M10: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el domingo , día 12 de septiembre de 2004 en Euromed . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 12 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U8: (nw) Sí , quiero saber el precio del viaje de (nw ida y vuelta) .
+M12: Le consulto precios de Alicante a Valencia . Un momento por favor .
+M13: Los trenes son Euromed y en clase turista , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Quiero un billete de ida y vuelta .
+M14: Le consulto precios . Un momento por favor .
+M15: El primer tren es un Euromed y su precio en clase turista es 22 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M16: Gracias por utilizar este servicio . Feliz viaje .

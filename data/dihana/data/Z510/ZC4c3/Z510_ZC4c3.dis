@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Buenas tardes) me gustaría (fe) saber los horarios y los precios para un viaje (rr (m de) (c de)) Barcelona a Valencia (rr (m de) (c de)) ida y vuelta (p) (na) es para ver las fallas (b sobre) es para llegar (rr (m el) (s (p)) (c el)) diecisiete de marzo entre .
+M2: ¿ Qué día desea salir ?
+U2: Sí , (fe) (rs (m me gustaría salir) (c me gustaría llegar)) a Valencia (p) el diecisiete de marzo (p) (na) entre las diez y las once (na) .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Sí , me gustaría llegar a Valencia el diecisiete de marzo (p) entre las diez y las once de la mañana (na) .
+M4: Le consulto horarios de Barcelona a Valencia llegando el jueves , día 17 de marzo de 2005 entre las 10 y las 11 de la mañana . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: Sí , me gustaría (nw) llegar por la mañana (na) .
+M6: Le consulto horarios de Barcelona a Valencia llegando el jueves , día 17 de marzo de 2005 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 9 de la mañana y llega a las 11 y 54 de la mañana ¿ Desea algo más ?
+U5: (na) Sí me gustaría (ri (m un tren) (s (p)) (c el horario (rr(m par(a a)) (s (p)) (c para)) un tren)) que vuelva (rr (m el (lu día di)) (c el día)) veinte (nl) por la tarde (dq por favor) .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Me gustaría saber los horarios (p) (na) para volver el veinte por la tarde (p) (na) el veinte de marzo .
+M9: Le consulto horarios de Valencia a Barcelona el domingo , día 20 de marzo de 2005 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M10: Hay varios trenes . El primero sale a la una y 8 de la tarde y el último a las 8 y 45 de la tarde ¿ Desea algo más ?
+U7: (nl) Sí , me gustaría saber los precios par(a a) (na) el trayecto de ida y de vuelta (na) .
+M11: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc gracias) (na) (nw) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

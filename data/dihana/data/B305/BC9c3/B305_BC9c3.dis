@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola buenos días) , quería hacer un viaje de ida y vuelta desde Barcelona a Girona .
+M2: ¿ Quiere saber horarios ?
+U2: Quiero saber los horarios de mañana por la mañana .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (nl) A Girona .
+M4: Le consulto horarios de Barcelona a Gerona el viernes , día 5 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 7 y 10 de la mañana y el otro a las 8 y 45 de la mañana ¿ Desea algo más ?
+U4: Sí , quiero viajar en primera y con servicio de bar .
+M6: Le consulto horarios de Barcelona a Gerona el viernes , día 5 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde en clase preferente . Un momento por favor .
+M7: Sólo hay dos trenes . El primero sale a las 7 y 10 de la mañana y el otro a las 8 y 45 de la mañana ¿ Desea algo más ?
+U5: Sí , quiero volver (rr (m (a a)) (s (p)) (c a)) Barcelona una semana más tarde .
+M8: ¿ Desea salir el viernes , día 12 de marzo de 2004 ?
+U6: Sí , ese día (nw) .
+M9: ¿ Quiere saber horarios ?
+U7: Sí , a partir de las cinco de la tarde .
+M10: Le consulto horarios de Gerona a Barcelona el viernes , día 12 de marzo de 2004 entre las 5 de la tarde y las 11 de la noche . Un momento por favor .
+M11: Sólo hay dos trenes . El primero sale a las 8 y 21 de la tarde y el otro a las 8 y 32 de la tarde ¿ Desea algo más ?
+U8: Sí , quiero que el tren en el que vuelva se(a a) en primera y con bar (p) y a ser posible rápido .
+M12: Le consulto horarios de Gerona a Barcelona el viernes , día 12 de marzo de 2004 entre las 5 de la tarde y las 11 de la noche en clase preferente . Un momento por favor .
+M13: Sólo hay dos trenes . El primero sale a las 8 y 21 de la tarde y el otro a las 8 y 32 de la tarde ¿ Desea algo más ?
+U9: (fe) Sí , quiero conocer el precio del billete de ida y vuelta .
+M14: Le consulto precios de Barcelona a Gerona . Un momento por favor .
+M15: Sólo hay dos trenes . En clase preferente , el tren más caro es un catalan_Talgo que cuesta 50 euros la ida y el otro es un Costa_Brava que cuesta 15 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí , quiero conocer el precio del billete (p) en viaje de ida vuelta .
+M16: El primer tren es un Costa_Brava y su precio en clase preferente es 15 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No , (dc gracias) .
+M17: Gracias por utilizar este servicio . Feliz viaje .

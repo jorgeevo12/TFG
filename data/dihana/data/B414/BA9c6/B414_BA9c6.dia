@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera saber el horario del tren Ave de Sevilla a Madrid .
+Quisiera saber el horario del tren Ave (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 7
+de Sevilla (U:Pregunta:Hora_salida:Origen) pal: 8 - 9
+a Madrid . (U:Pregunta:Hora_salida:Destino) pal: 10 - 12
+M2: ¿ Quiere viajar desde madrid ? .
+¿ Quiere viajar desde madrid ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: No , quiero salir de Sevilla .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero salir de Sevilla . (U:Respuesta:Hora_salida:Origen) pal: 3 - 7
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U3: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M4: Quiere horarios de trenes a madrid , ¿ desde sevilla ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde sevilla ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U5: El quince de junio .
+El quince de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: Quince de junio .
+Quince de junio . (U:Respuesta:Dia:Dia) pal: 1 - 4
+M7: Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M8: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U7: ¿ Hay posibilidad de viajar en el Ave ? .
+¿ Hay posibilidad de viajar en el Ave ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 10
+M9: ¿ Desea hacer el viaje en un ave ? .
+¿ Desea hacer el viaje en un ave ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+U8: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+M10: Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M11: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U9: El que sale a las seis treinta ¿ a qué hora llega a Madrid ? .
+El que sale a las seis treinta (U:Pregunta:Hora_llegada:Hora_salida) pal: 1 - 7
+¿ a qué hora llega a Madrid ? . (U:Pregunta:Hora_llegada:Destino) pal: 8 - 16
+M12: Ese tren sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana . Desea algo más ? .
+Ese tren sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+U10: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

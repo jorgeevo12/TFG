@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera viajar de Zaragoza a Madrid .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El día tres de marzo a poder ser por la noche para viaj(a a)r durmiendo en litera .
+M4: ¿ Qué día desea salir ?
+U4: El día tres de marzo (p) por la noche (nw) .
+M5: Le consulto horarios de Zaragoza a Madrid el miércoles , día 3 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Costa_Brava que sale a las 2 y 48 de la madrugada ¿ Desea algo más ?
+U5: (nl) Sí , me gustarí(a a) consultar un horario para volver de Madrid a Zaragoza .
+M7: Le consulto horarios de trenes con salida en Madrid destino Zaragoza saliendo el miércoles , día 3 de marzo de 2004 . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí , que la vuelta sea el día siete de marzo por la noche .
+M9: Le consulto horarios de Madrid a Zaragoza el domingo , día 7 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M10: Sólo hay dos trenes . El primero sale a las 10 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U7: Sí , saber si tengo la posibilidad de dormir en litera .
+M11: Le consulto horarios . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , que solo sea e(a l) siete de marzo por la noche .
+M13: Le consulto horarios de Madrid a Zaragoza el domingo , día 7 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M14: Sólo hay dos trenes . El primero sale a las 10 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U9: Sí , consultar precio del billete .
+M15: Sólo hay dos trenes . En clase turista , el tren más caro es un Tren_Hotel que cuesta 26 con 50 euros la ida y el otro es un Costa_Brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , nada más (dc gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

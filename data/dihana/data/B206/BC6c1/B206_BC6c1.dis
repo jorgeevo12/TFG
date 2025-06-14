@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quisiera consultar el horario (a y) el precio (p) (nw) d(a e) (p) billetes de tren (p) para ir de Castellón a Valencia (nw) saliend(a o) el dieciséis o el (lu dieciséis diecisi) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quisier(a a) consultar horarios (nw) d(a e) billetes de tren (nw) de Castellón (nw) a Valencia (nw) saliend(a o) el dieciséis o el diecisiete de marzo (nw) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Valencia .
+M4: Quiere horarios de trenes a Valencia ¿ desde Castellón ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Castellón destino Valencia saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 11 y 30 de la noche ¿ Desea algo más ?
+U5: Sí , quisiera sab(a e)r (p) cuáles de ellos son Euromed .
+M7: Le consulto horarios de trenes con salida en Castellón destino Valencia saliendo el martes , día 16 de marzo de 2004 en Euromed . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 9 y 6 de la mañana y el último a las 10 y 37 de la noche ¿ Desea algo más ?
+U6: Sí , (b por) (fe) me gustaría sab(a e)r el precio (nw) .
+M9: Le consulto precios de Castellón a Valencia en tipo tren Euromed . Un momento por favor .
+M10: Los trenes son Euromed y en clase turista , el billete cuesta 14 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (fe) Sí , quisiera saber (p) el horario de los viajes (p) de ida y vuelta (p) de Castell(a ó)n a Valencia .
+M11: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U8: Sí , quisiera saber (nw) (fe) (b las) los horarios para volver el día veinte de marzo (nw) .
+M13: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M14: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U9: Sí , (rs (m quisiera (lu saber sabé)) (s o sea) (c quisiera)) que el tren fuera Euromed .
+M15: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el sábado , día 20 de marzo de 2004 en Euromed . Un momento por favor .
+M16: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U10: (na) (fe) Quisiera saber el precio de los billetes .
+M17: Le consulto precios de Valencia a Castellón en tipo tren Euromed . Un momento por favor .
+M18: Los trenes son Euromed y en clase turista , el billete cuesta 14 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No .
+M19: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera (lm horario rorario) de trenes para Burgos el día diecinueve de marzo por la tarde .
+M2: ¿ Puede repetir su consulta ?
+U2: Quisiera (nw horarios) de trenes a Burgos el diecinueve de marzo por la tarde .
+M3: Le consulto horarios de Valencia a Burgos el viernes , día 19 de marzo de 2004 13 . 00-21 . 00 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U3: Sí , (dq por favor) ¿ el precio de ese Talgo ?
+M5: El precio de ese tren en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U4: No , (dc muchas gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

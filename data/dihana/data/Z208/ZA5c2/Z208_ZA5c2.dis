@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quería saber horarios para un billete de ida a Valencia .
+M2: ¿ Quiere viajar desde Valencia ?
+U2: No , (dr no) (nw) , quiero ir de Zaragoza a Valencia .
+M3: ¿ Qué día desea salir ?
+U3: (df Pues) el viernes , a partir de las tres de la tarde .
+M4: Le consulto horarios de Zaragoza a Valencia el viernes , día 20 de febrero de 2004 entre las 3 de la tarde y las 11 y 59 de la noche . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Regional que sale a las 3 y 45 de la tarde y llega a las 9 y 12 de la noche ¿ Desea algo más ?
+U4: No , nada más , (dc gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

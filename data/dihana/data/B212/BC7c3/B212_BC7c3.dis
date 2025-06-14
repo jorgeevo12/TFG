@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber el precio de un viaje de Bilbao (rs (m (rr (m a) (c a)) (lu Soria Sor)) (c a Toledo)) que salga un sábado y que vuelva una semana después en un Talgo .
+M2: ¿ Desea salir el sábado , día 28 de febrero de 2004 ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Toledo .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nw) Quisiera saber el precio (rs (m (rs (m de un (lu viaje via)) (c (rr (m de) (c de)) un (lu tren tre)))) (c de un viaje)) (rr (m a (lu Toledo To)) (c a Toledo)) y que sea salir este sábado y volver al sábado siguiente .
+M5: Le consulto precios de Bilbao a Toledo saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: Sí .
+M7: Si ¿ Desea algo más ?
+U6: (fm) Quisiera saber precios para ir a Toledo (p) saliendo un sábado volviendo un sábado después y viajando (rr (m en) (s (p)) (c en)) Talgo .
+M8: Le consulto precios de Bilbao a Toledo en tipo tren Talgo . Un momento por favor .
+M9: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (rr (m Sí) (c sí)) (nt) .
+M10: Si ¿ Desea algo más ?
+U8: Quisiera saber cuánto cuesta un billete ida y vuelta a Toledo en Talgo .
+M11: El precio de ese tren en clase turista es 44 euros el billete de ida y 70 con 40 euros el billete de ida y vuelta ¿ Desea algo más ?
+U9: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

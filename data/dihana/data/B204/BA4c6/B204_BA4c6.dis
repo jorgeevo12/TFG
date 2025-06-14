@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do Hola) , quiero saber qué trenes hay para ir a Vigo .
+M2: ¿ Quiere saber horarios ?
+U2: (fe) Sí , (fe) a ser posible por la tarde .
+M3: ¿ Quiere salir desde Barcelona ?
+U3: (fe) (nw No , desde Bilbao) (nw) .
+M4: ¿ A qué ciudad desea viajar ?
+U4: Quiero ir a Vigo .
+M5: Quiere horarios de trenes a Vigo ¿ desde Bilbao ?
+U5: Sí , así es .
+M6: ¿ Qué día desea salir ?
+U6: (na) Me gustaría salir el próximo viernes por la noche (p) en el tren más rápido posible , (dq por favor) .
+M7: Le consulto horarios de Bilbao a Vigo el viernes , día 27 de febrero de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U7: Nada más , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) quiero obtener (nw) (rr (m el) (c el)) horario y el precio par(a a) salir el próximo sábado (nw) (na) a Barcelona en viaje de ida y vuelta (p) en el día .
+M2: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U2: (nw Sí , de ida y vuelta para el sábado) .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U3: Sí .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nw (a E)l precio del billete) .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (nw Sí , quiero el billete de ida y vuelta) .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: (nw Quiero el billete de ida y vuelta (p) en Euromed) .
+M8: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 28 de febrero de 2004 en Euromed . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (nw Sí , dem(a e) el horario y el precio para el billete de ida y vuelta para Lezama) .
+M10: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U8: (nw) Sí (p) , (a e)l precio del billete de ida (nw) .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí ¿ a qué hor(a a) sale el Talgo ?
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Sí ¿ a qué hora sale el Talgo ?
+M14: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 28 de febrero de 2004 en Talgo . Un momento por favor .
+M15: Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde ¿ Desea algo más ?
+U11: (nw (fe) Sí , quiero el horario para el tren de vuelta y el precio) (na) .
+M16: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el sábado , día 28 de febrero de 2004 en Talgo . Un momento por favor .
+M17: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U12: (fe) No , nada más , (dc muchas gracias) .
+M18: Gracias por utilizar este servicio . Feliz viaje .

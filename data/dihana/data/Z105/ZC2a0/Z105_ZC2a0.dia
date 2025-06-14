@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero un billete de ida y vuelta a Barcelona .
+Quiero un billete de ida y vuelta (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+a Barcelona . (U:Pregunta:Nil:Destino) pal: 8 - 10
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El diez de marzo .
+El diez de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U4: El diez de marzo .
+El diez de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M5: Quiere horarios de trenes a barcelona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U5: Sí , en talgo .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+en talgo . (U:Respuesta:Hora_salida:Tipo_tren) pal: 3 - 5
+M6: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el miércoles , día 10 de marzo de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el miércoles , día 10 de marzo de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M7: Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U6: Sí , quiero volver a Zaragoza el once de marzo .
+Sí , quiero volver (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 4
+a Zaragoza (U:Pregunta:Nil:Destino) pal: 5 - 6
+el once de marzo . (U:Pregunta:Nil:Dia) pal: 7 - 11
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U7: Quiero hacer el viaje de vuelta .
+Quiero hacer el viaje de vuelta . (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+M9: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U8: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M10: Le consulto horarios de trenes con salida en barcelona destino zaragoza saliendo el miércoles , día 10 de marzo de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino zaragoza saliendo el miércoles , día 10 de marzo de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 5 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 5 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U9: Sí , quiero saber el precio .
+Sí , quiero saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+M12: Los trenes son talgo y en clase turista , el billete cuesta 29 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 29 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+U10: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

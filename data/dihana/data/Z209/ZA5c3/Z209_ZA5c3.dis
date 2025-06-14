@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría salir de Barcelona y llegar a Valencia mañana o pasado (nw) con u(a n) tren que llegu(a e) sobre las cuatro de la tarde , de cuatro a seis de la tarde .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: (na) (nw) Me gustaría (nw salir) (p) de (p) Barcelona a Valencia .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , (fm) me gustaría saber horarios de mañana (na) y llegar (rs (m sobre las seis de la (lu tarde tar)) (s (fb)) (c sobre las cuatro de la tarde)) .
+M4: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el martes , día 17 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U4: (na) Sí , me gustaría que llegaran a Valencia (p) (rs (m a las cuatro de la tarde) (c sobre las cuatro de la tarde)) .
+M6: Le consulto horarios . Un momento por favor .
+M7: El único tren que realiza el trayecto es un mare_nostrum que sale a las 12 de la mañana y llega a las 3 y 15 de la tarde ¿ Desea algo más ?
+U5: (na) (dr No) . (dc Gracias) . (p) (dc Muchas gracias) . (dc Hasta luego) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

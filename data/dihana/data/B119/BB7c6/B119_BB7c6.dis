@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , me gustaría saber el precio de (a u)n billete de Bilbao a Toledo .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Toledo .
+M3: ¿ Qué día desea salir ?
+U3: Este sábado no , el siguiente .
+M4: ¿ Desea salir el sábado , día 28 de febrero de 2004 ?
+U4: Sí .
+M5: Quiere saber el precio a Toledo ¿ desde Bilbao ?
+U5: (rr (m Sí) (c (rr (m sí) (c sí)))) .
+M6: Le consulto precios de Bilbao a Toledo . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , me gustaría saber si puedo ir en coche cama .
+M8: Le consulto precios de Bilbao a Toledo en clase cama . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Diurno y su precio en clase cama es 78 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

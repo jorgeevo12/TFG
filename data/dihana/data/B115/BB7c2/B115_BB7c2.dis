@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber (p) cuánto vale (p) un billete (p) de ida .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Ávila .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Ávila .
+M4: Quiere saber el precio a ávila ¿ desde Bilbao ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El próximo fin de semana .
+M6: ¿ Desea salir el sábado , día 21 de febrero de 2004 ?
+U6: Sí .
+M7: Le consulto precios de Bilbao a ávila saliendo el sábado , día 21 de febrero de 2004 . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: En vez de sábado el domingo .
+M9: Le consulto precios de Bilbao a ávila saliendo el domingo , día 22 de febrero de 2004 . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Quiero viajar en tren Intercity .
+M11: Le consulto precios de Bilbao a ávila en tipo tren Intercity . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quería saber los precios de los trenes de $C_ORIGEN<Valencia> a $C_DESTINO<Teruel> para el próximo $FECHA<sábado> .
+Quería saber los precios de los trenes de $C_ORIGEN<Valencia> (U:Pregunta:Precio:Origen) pal: 1 - 9
+a $C_DESTINO<Teruel> (U:Pregunta:Precio:Destino) pal: 10 - 11
+para el próximo $FECHA<sábado> . (U:Pregunta:Precio:Dia) pal: 12 - 16
+
+
+
+M2: Le consulto precios de $C_ORIGEN<valencia> a $C_DESTINO<teruel> saliendo el $FECHA<sábado , día 8 de mayo de 2004> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<valencia> a $C_DESTINO<teruel> saliendo el $FECHA<sábado , día 8 de mayo de 2004> . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+M3: Los trenes son $T_TREN<regional> y en clase $CLASE<turista> , el billete cuesta $PRECIO<8 con 9 euros> la ida . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son $T_TREN<regional> y en clase $CLASE<turista> , el billete cuesta $PRECIO<8 con 9 euros> la ida . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+
+U2: Sí , quería saber son $T_TREN<talgo> . Quería viajar en $T_TREN<talgo> .
+Sí , quería saber son $T_TREN<talgo> . Quería viajar en $T_TREN<talgo> . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 12
+
+
+
+M4: Le consulto precios de $C_ORIGEN<valencia> a $C_DESTINO<teruel> en tipo tren $T_TREN<talgo> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<valencia> a $C_DESTINO<teruel> en tipo tren $T_TREN<talgo> . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+
+M5: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U3: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

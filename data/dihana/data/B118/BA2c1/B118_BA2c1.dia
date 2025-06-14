@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Sí , me gustaría saber los horarios de trenes para Madrid para el próximo miércoles .
+Sí , me gustaría saber los horarios de trenes para Madrid (U:Pregunta:Hora_salida:Destino) pal: 1 - 11
+para el próximo miércoles . (U:Pregunta:Hora_salida:Dia) pal: 12 - 16
+M2: Quiere horarios de trenes a madrid , ¿ saliendo de bilbao ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+U2: Sí , saliendo de Bilbao .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+saliendo de Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 3 - 6
+M3: Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el miércoles , día 25 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el miércoles , día 25 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M4: El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U3: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

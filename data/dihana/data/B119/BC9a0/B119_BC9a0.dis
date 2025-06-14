@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , me gustaría sab(a e)r cuánto cuesta un billete de ida y vuelt(a a) de Bilbao a Santander .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Santander .
+M3: ¿ Qué día desea salir ?
+U3: Mañana .
+M4: ¿ Desea salir el viernes , día 20 de febrero de 2004 ?
+U4: Sí .
+M5: Le consulto precios de Bilbao a Santander . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , me gustaría saber (fe) el viaje de vuelta , a ver qu(a é) horario de trenes hay y los precios .
+M7: Le consulto horarios de trenes con salida en Santander destino Bilbao saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , el domingo de Santander a Bilbao ¿ qu(a é) horarios de trenes hay ?
+M9: Quiere horarios saliendo el domingo , día 22 de febrero de 2004 ¿ desde Santander ?
+U7: Sí .
+M10: Le consulto horarios . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: Sí ¿ qué precio tienen estos viajes ?
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: Qu(a e) cuánto cuesta el billete .
+M13: Le consulto precios de Santander a Bilbao . Un momento por favor .
+M14: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

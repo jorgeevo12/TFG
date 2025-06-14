@@ -1,0 +1,164 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , querría saber el horario y el precio para un viaje de ida y vuelta de Bilbao a Barcelona el doce de septiembre , a primera hora de la mañana .
+Hola , querría saber el horario y el precio para un viaje de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 16
+de Bilbao (U:Pregunta:Hora_salida,Precio:Origen) pal: 17 - 18
+a Barcelona (U:Pregunta:Hora_salida,Precio:Destino) pal: 19 - 20
+el doce de septiembre , (U:Pregunta:Hora_salida,Precio:Dia) pal: 21 - 25
+a primera hora de la mañana . (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 26 - 32
+
+
+M2: ¿ Desea salir el domingo , día 12 de diciembre de 2004 ? .
+¿ Desea salir el domingo , día 12 de diciembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U2: No , quiero salir el doce de septiembre .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+quiero salir el doce de septiembre . (U:Respuesta:Hora_salida:Dia) pal: 3 - 9
+
+
+M3: Le consulto horarios de bilbao a barcelona el domingo , día 12 de septiembre de 2004 entre las 5 de la madrugada y las 7 de la mañana . Un momento por favor .
+Le consulto horarios de bilbao a barcelona el domingo , día 12 de septiembre de 2004 entre las 5 de la madrugada y las 7 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M4: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U3: Sí , que el viaje sea el once de septiembre por la tarde .
+Sí , que el viaje sea el once de septiembre (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+por la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 11 - 14
+
+
+M5: ¿ Desea salir el sábado , día 11 de diciembre de 2004 ? .
+¿ Desea salir el sábado , día 11 de diciembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U4: No , deseo salir el once de septiembre .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+deseo salir el once de septiembre . (U:Respuesta:Hora_salida:Dia) pal: 3 - 9
+
+
+M6: Le consulto horarios de bilbao a barcelona el sábado , día 11 de septiembre de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de bilbao a barcelona el sábado , día 11 de septiembre de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U5: Sí , que el viaje de ida y vuelta sea de Madrid a Barcelona el doce de septiembre por la mañana .
+Sí , que el viaje de ida y vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+sea de Madrid (U:Pregunta:Hora_salida:Origen) pal: 10 - 12
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 13 - 14
+el doce de septiembre (U:Pregunta:Hora_salida:Dia) pal: 15 - 18
+por la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 19 - 22
+
+
+M8: Horarios saliendo el domingo , día 12 de septiembre de 2004 , ¿ quiere salir entre las 5 de la madrugada y la una de la tarde ? .
+Horarios saliendo el domingo , día 12 de septiembre de 2004 , (M:Confirmacion:Hora_salida:Dia) pal: 1 - 12
+¿ quiere salir entre las 5 de la madrugada y la una de la tarde ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 13 - 29
+
+
+U6: Entre las cinco de la madrugada y las ocho de la mañana .
+Entre las cinco de la madrugada y las ocho de la mañana . (U:Respuesta:Hora_salida:Hora_salida) pal: 1 - 13
+
+
+M9: Le consulto horarios de madrid a barcelona el domingo , día 12 de septiembre de 2004 entre las 5 de la madrugada y las 8 de la mañana . Un momento por favor .
+Le consulto horarios de madrid a barcelona el domingo , día 12 de septiembre de 2004 entre las 5 de la madrugada y las 8 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M10: El único tren que realiza el trayecto es un talgo que sale a las 7 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 7 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+
+
+U7: Sí , quisiera saber a qué hora llega a Barcelona y qué precio tiene .
+Sí , quisiera saber a qué hora llega a Barcelona y qué precio tiene . (U:Pregunta:Hora_llegada,Precio:Destino) pal: 1 - 15
+
+
+M11: Ese tren sale a las 7 de la mañana y llega a las 2 de la tarde . Desea algo más ? .
+Ese tren sale a las 7 de la mañana y llega a las 2 de la tarde . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 18
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 19 - 23
+
+
+U8: Sí , quiero saber los trenes de Madrid a Barcelona el once de septiembre por la tarde .
+Sí , quiero saber los trenes de Madrid (U:Pregunta:Hora_salida:Origen) pal: 1 - 8
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 9 - 10
+el once de septiembre (U:Pregunta:Hora_salida:Dia) pal: 11 - 14
+por la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 15 - 18
+
+
+M12: ¿ Desea salir el lunes , día 1 de noviembre de 2004 ? .
+¿ Desea salir el lunes , día 1 de noviembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U9: No , el once de septiembre .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+el once de septiembre . (U:Respuesta:Hora_salida:Dia) pal: 3 - 7
+
+
+M13: Le consulto horarios de madrid a barcelona el sábado , día 11 de septiembre de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de madrid a barcelona el sábado , día 11 de septiembre de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M14: Sólo hay dos trenes . El primero sale a las 2 de la tarde y llega a las 9 y 3 de la noche y el otro sale a las 3 y 45 de la tarde y llega a las 10 y 30 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 2 de la tarde y llega a las 9 y 3 de la noche y el otro sale a las 3 y 45 de la tarde y llega a las 10 y 30 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 47
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 48 - 52
+
+
+U10: Sí , quiero saber el precio de esos trenes .
+Sí , quiero saber el precio de esos trenes . (U:Pregunta:Precio:Nil) pal: 1 - 10
+
+
+M15: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M16: Sólo hay dos trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el otro es un extremadura que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el otro es un extremadura que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U11: Sí , quería saber los horarios para volver de Barcelona a Madrid el doce de septiembre a la tarde .
+Sí , quería saber los horarios para volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+de Barcelona (U:Pregunta:Hora_salida:Origen) pal: 9 - 10
+a Madrid (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+el doce de septiembre (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+a la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 17 - 20
+
+
+M17: Le consulto horarios de trenes con salida en barcelona destino madrid saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino madrid saliendo el domingo , día 12 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M18: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U12: Sí , quería saber qué precio tiene el de las once de la noche .
+Sí , quería saber qué precio tiene el de las once de la noche . (U:Pregunta:Precio:Hora_salida) pal: 1 - 15
+
+
+M19: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+U13: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M20: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

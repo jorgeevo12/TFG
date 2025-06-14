@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenos días) , (df mira) quería saber (p) (na) horarios de trenes para ir a Ciudad_Real .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Ciudad_Real .
+M3: ¿ Qué día desea salir ?
+U3: (df Pues) puedo salir este sábado .
+M4: ¿ Desea salir el sábado , día 31 de enero de 2004 ?
+U4: (nl) Sí , (dq por favor) (a y) la vuelta (a e)l siguiente sábado (na) .
+M5: Le consulto horarios de trenes con salida en Valencia destino Ciudad_Real saliendo el sábado , día 31 de enero de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un García_Lorca que sale a las 11 y 30 de la mañana y llega a las 4 y 24 de la tarde ¿ Desea algo más ?
+U5: (fe) Sí , ahora me gustaría saber horarios para la vuelta , para el sábado siguiente .
+M7: Horarios para llegar a Valencia ¿ saliendo el sábado , día 7 de febrero de 2004 ?
+U6: (nl) Sí , (dq por favor) .
+M8: Le consulto horarios . Un momento por favor .
+M9: El único tren que realiza el trayecto es un García_Lorca que sale a las 11 y 38 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U7: ¿ Me puedes decir el precio del viaje ? Del viaje de ida y vuelta .
+M10: Puede repetir de manera clara lo último que ha dicho , por favor .
+U8: Sí , que si me puedes decir (dq por favor) el precio del viaje de ida y vuelta .
+M11: El precio de ese tren en clase turista es 31 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (fe) (df Pues) no , (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

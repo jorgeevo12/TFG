@@ -1,0 +1,89 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Tardes , quería información para un viaje de Madrid a Valladolid .
+Tardes , quería información para un viaje de Madrid (U:Pregunta:Nil:Origen) pal: 1 - 9
+a Valladolid . (U:Pregunta:Nil:Destino) pal: 10 - 12
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: El viaje lo quiero para salir mañana por la tarde .
+El viaje lo quiero para salir mañana (U:Pregunta:Nil:Dia) pal: 1 - 7
+por la tarde . (U:Pregunta:Nil:Hora_salida) pal: 8 - 11
+
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U3: Sí , quiero un viaje para mañana por la tarde antes de las nueve de la noche .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+quiero un viaje para mañana (U:Respuesta:Hora_salida:Dia) pal: 3 - 7
+por la tarde antes de las nueve de la noche . (U:Respuesta:Hora_salida:Hora_salida) pal: 8 - 18
+
+
+M4: Le consulto horarios de madrid a valladolid el martes , día 6 de abril de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de madrid a valladolid el martes , día 6 de abril de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+M5: Hay varios trenes . El primero sale a la una y 30 de la tarde y llega a las 4 y 5 de la tarde y el último sale a las 8 y 30 de la tarde y llega a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 30 de la tarde y llega a las 4 y 5 de la tarde y el último sale a las 8 y 30 de la tarde y llega a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+
+U4: ¿ Que llegue antes de las nueve de la noche y que salga más tarde de la una ? .
+¿ Que llegue antes de las nueve de la noche (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 10
+y que salga más tarde de la una ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 11 - 20
+
+
+M6: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M7: Hay varios trenes . El primero sale a la una y 30 de la tarde y llega a las 4 y 5 de la tarde y el último sale a las 5 y 30 de la tarde y llega a las 8 y 10 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 30 de la tarde y llega a las 4 y 5 de la tarde y el último sale a las 5 y 30 de la tarde y llega a las 8 y 10 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+U5: Saber tipo de tren hay , si hay alguno que sea en talgo .
+Saber tipo de tren hay , si hay alguno que sea en talgo . (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 14
+
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U6: Saber el tipo de tren .
+Saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 6
+
+
+M9: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+
+M10: Hay varios tipos de trenes . El tren más rápido es un castilla_y_león_expres y el más lento es un talgo . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un castilla_y_león_expres y el más lento es un talgo . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U7: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+M11: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U8: No , no necesito nada más , gracias .
+No , no necesito nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

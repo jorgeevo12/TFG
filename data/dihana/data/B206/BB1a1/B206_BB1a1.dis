@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisier(a a) consultar (nw) el horario (rr (m d(a e) (lu billetes bie)) (c de billetes)) de tren (p) a Santander .
+M2: ¿ Qué día desea salir ?
+U2: El (lm veintisiete ventisiete) .
+M3: ¿ Desea salir el viernes , día 27 de febrero de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Santander saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: (fe) Quisiera lleg(a a)r antes de las ocho de la tarde .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: ¿ Qué tren llega entre las cinco y las ocho de la noche ?
+M7: ¿ Quiere llegar entre las 5 y las 8 de la tarde ?
+U6: Sí .
+M8: Le consulto horarios de Bilbao a Santander llegando el viernes , día 27 de febrero de 2004 entre las 5 y las 8 de la tarde . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde y el otro sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde ¿ Desea algo más ?
+U7: Sí , quisiera saber (nw) el precio de los billetes (nw) .
+M10: Le consulto precios de Bilbao a Santander . Un momento por favor .
+M11: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

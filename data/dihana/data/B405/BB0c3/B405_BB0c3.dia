@@ -1,0 +1,59 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenas , quería saber el horario y precio de trenes para Sevilla .
+Buenas , quería saber el horario y precio de trenes para Sevilla . (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 13
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: Pues es un curso de verano antes del veinticinco de julio .
+Pues es un curso de verano antes del veinticinco de julio . (U:Respuesta:Dia:Dia) pal: 1 - 12
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: Quería salir para llegar antes del veinticinco de julio .
+Quería salir para llegar antes del veinticinco de julio . (U:Respuesta:Dia:Dia) pal: 1 - 10
+
+M4: ¿ Desea salir el domingo , día 25 de julio de 2004 ? .
+¿ Desea salir el domingo , día 25 de julio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: No , deseo salir el sábado veinticuatro de julio .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+deseo salir el sábado veinticuatro de julio . (U:Respuesta:Dia:Dia) pal: 3 - 10
+
+M5: ¿ Desea llegar el domingo , día 25 de julio de 2004 ? .
+¿ Desea llegar el domingo , día 25 de julio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U5: No , deseo llegar antes del veinticinco .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+deseo llegar antes del veinticinco . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+M6: Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el sábado , día 24 de julio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el sábado , día 24 de julio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U6: Sí , ¿ a qué hora llegaría el de las siete de la mañana ? .
+Sí , ¿ a qué hora llegaría el de las siete de la mañana ? . (U:Pregunta:Hora_llegada:Hora_salida) pal: 1 - 16
+
+M8: Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . Desea algo más ? .
+Ese tren sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+U7: Sí , ¿ cuál sería el precio de ese tren ? .
+Sí , ¿ cuál sería el precio de ese tren ? . (U:Pregunta:Precio:Nil) pal: 1 - 12
+
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U8: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

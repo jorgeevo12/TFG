@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querí(a a) un tren a Santiago_de_Compostela para el día veintitrés de julio .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Santiago_de_Compostela .
+M4: ¿ Qué día desea salir ?
+U4: El día veintitrés de julio .
+M5: ¿ Desea salir el miércoles , día 23 de junio de 2004 ?
+U5: Sí .
+M6: Quiere horarios de trenes a Santiago ¿ desde Zaragoza ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino Santiago saliendo el miércoles , día 23 de junio de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: (fe) Me gustaría saber el precio de esos trenes .
+M9: Un momento por favor .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí , me gustaría saber (ri (m de los trenes) (s (p)) (c del horario de los trenes)) (na) cu(a á)les llegan de día .
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: De los trenes que va(a n) a Santiago_de_Compostela el día veintitrés de julio , cuáles llegan antes de las siete de la tarde .
+M12: Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U10: Saber cuál es el último tren que llega antes de las siete de la tarde .
+M14: Ese tren sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde ¿ Desea algo más ?
+U11: No .
+M15: Gracias por utilizar este servicio . Feliz viaje .

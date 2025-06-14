@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (nl) Quiero obtener el horario par(a a) (p) (fe) (nl) un viaje a Cáceres (na) para el próximo sábado .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Cáceres (na) (nw) .
+M3: ¿ Qué día desea salir ?
+U3: El próximo sábado .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: El próximo sábado .
+M5: Quiere horarios de trenes a Cáceres ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Cáceres saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana y llega a las 6 y 57 de la tarde ¿ Desea algo más ?
+U6: (fe) No (na) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

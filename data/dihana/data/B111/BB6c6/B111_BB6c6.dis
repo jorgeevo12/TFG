@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber (p) el horario (rs (m de un (lm billete bille)) (c de (a u)n viaje)) de ida de Alicante a Valencia para el próximo lunes .
+M2: ¿ Me pregunta por horarios ?
+U2: Sí .
+M3: Horarios desde Alicante ¿ llegando a Valencia ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Alicante destino Valencia saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: Sí , quiero (p) (na) saber el horario y el precio .
+M6: Le consulto precios de Alicante a Valencia . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 22 con 50 euros la ida y el más barato es un Regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí .
+M8: Desea algo más ?
+U6: Sí , quiero saber el horario (p) para llegar desde Alicante a Valencia el próximo lunes .
+M9: ¿ Desea llegar el próximo lunes ?
+U7: (p) .
+M10: Le consulto horarios . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 7 de la tarde ¿ Desea algo más ?
+U8: Sí , cuánto cuesta .
+M12: Le consulto horarios de Alicante a Valencia llegando el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M13: Le consulto precios . Un momento por favor .
+M14: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 22 con 50 euros la ida y el más barato es un Regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M15: Gracias por utilizar este servicio . Feliz viaje .

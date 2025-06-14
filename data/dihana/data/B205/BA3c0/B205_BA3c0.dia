@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Sí , quería obtener el horario para un viaje de ida a Madrid , para una visita cultural y quería salir mañana en un alaris o un intercity si es posible .
+Sí , quería obtener el horario para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 11
+a Madrid , (U:Pregunta:Hora_salida:Destino) pal: 12 - 14
+para una visita cultural y quería salir mañana (U:Pregunta:Hora_salida:Dia) pal: 15 - 22
+en un alaris o un intercity si es posible . (U:Pregunta:Hora_salida:Tipo_tren) pal: 23 - 32
+M2: ¿ Quiere viajar desde madrid ? .
+¿ Quiere viajar desde madrid ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: No , quiero salir desde Bilbao .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero salir desde Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 3 - 7
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U3: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M4: Quiere horarios de trenes a madrid , ¿ desde bilbao ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M5: Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 en intercity . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 en intercity . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U5: Sí , ¿ podría ser un tren alaris ? .
+Sí , ¿ podría ser un tren alaris ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 10
+M7: Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 en alaris . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 en alaris . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U6: Pues , en cualquier compañía .
+Pues , en cualquier compañía . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 6
+M9: Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino madrid saliendo el jueves , día 26 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M10: El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 4 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

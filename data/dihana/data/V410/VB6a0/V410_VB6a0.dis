@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero saber (p) (fe) los horarios de trenes desde Ávila a Granada .
+M2: Quiere horarios de trenes a Granada ¿ desde Valencia ?
+U2: No (p) , desde Ávila .
+M3: ¿ Quiere viajar desde ávila ?
+U3: Eso sí (na) .
+M4: ¿ Qué día desea salir ?
+U4: El cuatro de julio .
+M5: ¿ Desea salir el domingo , día 4 de julio de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en ávila destino Granada saliendo el domingo , día 4 de julio de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: (na) Sí ¿ hay algún tren a las diez y media ? (p) de la (lu mañana mañ) .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: ¿ Hay algún tren a las diez y media de la mañana ?
+M9: ¿ Quiere salir entre las 9 y 30 y las 11 y 30 de la mañana ?
+U8: Sí .
+M10: Le consulto horarios . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde ¿ Desea algo más ?
+U9: Sí , dígame el precio del billete .
+M12: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (nl) No , ya está , (dc muchas gracias adiós) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

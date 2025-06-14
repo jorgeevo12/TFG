@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Quiero ir (a a) Albacete .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (df Pues) quiero un viaj(a e) de ida a Albacete (p) , saliendo de Murcia .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , quiero saber el horario , per(a o) quiero salir el sábado por la tarde o el domingo a primera hora .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Albacete .
+M5: Quiere horarios saliendo el sábado , día 28 de febrero de 2004 ¿ desde Murcia ?
+U5: Sí , (da eso es) .
+M6: Le consulto horarios de trenes con salida en Murcia destino Albacete saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 10 de la mañana y el último a las 4 y 49 de la tarde ¿ Desea algo más ?
+U6: Y ¿ el domingo a primera hora ? ¿ el domingo veintinueve ?
+M8: Le consulto horarios de Murcia a Albacete el domingo , día 29 de febrero de 2004 entre las 5 de la madrugada y las 7 de la mañana . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Nada (df pu(a e)s) no , el sábado por la tard(a e) (rs (m a las cuatr(a o)) (s (p)) (c (fa) ¿ cerca de las cuatro)) me has dicho que había uno ?
+M10: Le consulto horarios de Murcia a Albacete el sábado , día 28 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 49 de la tarde ¿ Desea algo más ?
+U8: Nada más .
+M12: Gracias por utilizar este servicio . Feliz viaje .

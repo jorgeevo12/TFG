@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw (do Buenas) , quería saber el precio de un billete de Cuenca a León) (nw) .
+M2: ¿ Quiere viajar desde Cuenca ?
+U2: Sí .
+M3: ¿ Quiere llegar a León ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: Me (nw) gustaría salir el treinta de febrero .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero salir el treinta de febrero .
+M6: Le consulto precios de Cuenca a León saliendo el miércoles , día 30 de febrero de 2005 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , me gustaría ir en un tren Arco .
+M8: ¿ Desea hacer el viaje en un Arco ?
+U7: Sí , (dq por favor) .
+M9: Le consulto precios de Cuenca a León en tipo tren Arco . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (nw) Sí , que sea (a e)n cualquier tipo de tren .
+M11: Le consulto precios . Un momento por favor .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Sí , quiero viajar en clase preferente .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Quiero un billete en clase preferente .
+M14: Le consulto precios de Cuenca a León en clase preferente . Un momento por favor .
+M15: Hay varios trenes . En clase preferente , el tren más caro es un Talgo que cuesta 58 euros la ida y el más barato es un Diurno que cuesta 43 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No , (dc eso es todo) , (dc muchas gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

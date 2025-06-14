@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber horarios para ir a (lm Barcelona Bacelona) mañana .
+M2: ¿ Quiere viajar a Sevilla ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Diecisiete (rr (m d(a e)) (c de)) septiembre de dos mil cuatro .
+M4: ¿ Desea salir el viernes , día 17 de septiembre de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Sevilla saliendo el viernes , día 17 de septiembre de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un García_Lorca que sale a las 11 y 30 de la mañana ¿ Desea algo más ?
+U5: Sí (p) , el precio y (b el) (p) la vuelta el diecinueve de septiembre .
+M7: Le consulto precios de Sevilla a Valencia . Un momento por favor .
+M8: El único tren que realiza el trayecto es un García_Lorca y su precio en clase turista es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , el horario . (p) El horario (rr (m de(a l)) (s (p)) (c del)) tren de vuelta .
+M9: Ese tren sale a las 8 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U7: No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

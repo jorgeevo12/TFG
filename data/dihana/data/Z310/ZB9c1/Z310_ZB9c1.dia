@@ -1,0 +1,39 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Querría saber el precio de los trenes que salen de Valencia con destino Castellón para mañana martes día veintisiete , que llegan antes de las dieciséis horas a Castellón , viajando en euromed y en primera clase .
+Querría saber el precio de los trenes que salen de Valencia (U:Pregunta:Precio:Origen) pal: 1 - 11
+con destino Castellón (U:Pregunta:Precio:Destino) pal: 12 - 14
+para mañana martes día veintisiete , (U:Pregunta:Precio:Dia) pal: 15 - 20
+que llegan antes de las dieciséis horas (U:Pregunta:Precio:Hora_llegada) pal: 21 - 27
+a Castellón , (U:Pregunta:Precio:Destino) pal: 28 - 30
+viajando en euromed (U:Pregunta:Precio:Tipo_tren) pal: 31 - 33
+y en primera clase . (U:Pregunta:Precio:Clase_billete) pal: 34 - 38
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Castellón .
+A Castellón . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: ¿ Desea hacer el viaje en un estrella ? .
+¿ Desea hacer el viaje en un estrella ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+U3: No , deseo viajar en euromed y en primera clase .
+No , (U:Negacion:Tipo_tren:Nil) pal: 1 - 2
+deseo viajar en euromed (U:Respuesta:Precio:Tipo_tren) pal: 3 - 6
+y en primera clase . (U:Respuesta:Precio:Clase_billete) pal: 7 - 11
+
+M4: Le consulto precios de valencia a castellón saliendo el martes , día 27 de abril de 2004 . Un momento por favor .
+Le consulto precios de valencia a castellón saliendo el martes , día 27 de abril de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M5: Los trenes son euromed y en clase preferente , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son euromed y en clase preferente , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

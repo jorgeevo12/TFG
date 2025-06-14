@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Sí , quería saber (fe) los horarios (rr (m d(a e)) (c de)) los trenes (p) (fe) para Madrid .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: ¿ Qué día desea salir ?
+U3: El sábado (p) , (fe) por la tarde .
+M4: Le consulto horarios de Valencia a Madrid el sábado , día 24 de enero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 3 y 45 de la tarde y el último a las 6 y 45 de la tarde ¿ Desea algo más ?
+U4: ¿ A qué hora llega el de las dieciocho cuarenta y cinco ?
+M6: Ese tren sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U5: Es demasiado tarde , querría uno que llegara un poco más pronto .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Sí , (rr (m (lu querría que)) (s (fe)) (c querría)) llegar a Madrid (p) (rr (m sobre l(a a)s) (c sobre las)) diecinueve treinta .
+M8: Le consulto horarios . Un momento por favor .
+M9: Sólo hay dos trenes . El primero llega a las 7 y 14 de la tarde y el otro a las 8 y 14 de la tarde ¿ Desea algo más ?
+U7: ¿ A qué hora sal(a e) el de las diec(a i)nueve ?
+M10: Ese tren sale a las 3 y 45 de la tarde y llega a las 7 y 14 de la tarde ¿ Desea algo más ?
+U8: (lu esto to) es todo , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

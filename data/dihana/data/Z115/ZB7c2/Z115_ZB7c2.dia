@@ -1,0 +1,49 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , buenos días querría coger un tren para Ávila el próximo fin de semana .
+Hola , buenos días querría coger un tren para Ávila (U:Pregunta:Nil:Destino) pal: 1 - 10
+el próximo fin de semana . (U:Pregunta:Nil:Dia) pal: 11 - 16
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Sí , querría coger un tren para Ávila el próximo fin de semana .
+Sí , querría coger un tren para Ávila (U:Pregunta:Nil:Destino) pal: 1 - 8
+el próximo fin de semana . (U:Pregunta:Nil:Dia) pal: 9 - 14
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U3: Sí , me gustaría saber los horarios y precios del intercity .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+me gustaría saber los horarios y precios del intercity . (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 3 - 12
+
+M4: Quiere horarios de trenes a ávila , ¿ desde zaragoza ? .
+Quiere horarios de trenes a ávila , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí , y también los precios .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+y también los precios . (U:Pregunta:Precio:Nil) pal: 3 - 7
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino ávila saliendo el sábado , día 28 de febrero de 2004 en intercity . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino ávila saliendo el sábado , día 28 de febrero de 2004 en intercity . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M6: El único tren que realiza el trayecto es un intercity que sale a las 8 y 30 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un intercity que sale a las 8 y 30 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U5: Sí , me gustaría saber qué precio tiene .
+Sí , me gustaría saber qué precio tiene . (U:Pregunta:Precio:Nil) pal: 1 - 9
+
+M7: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U6: Nada más , muchas gracias .
+Nada más , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

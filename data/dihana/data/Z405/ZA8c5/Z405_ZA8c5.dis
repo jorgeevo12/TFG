@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quier(a o) saber horarios de trenes entre Córdoba y Zaragoza .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (nl) (df Pues) quiero viajar (rr (m a) (c a)) Córdoba y me gustaría hacerlo en el mes de mayo (p) en la primera semana (p) y si puede ser .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nl) Sí , (da así es) , pero sólo el viaje de ida , (dq por favor) .
+M4: ¿ Qué día desea salir ?
+U4: No , (dc gracias) .
+M5: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U5: (nl) No , yo quiero salir (rr (m (lm desde dede)) (c desde)) Palencia .
+M6: Le consulto horarios de Palencia a Madrid el viernes , día 4 de junio de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: (rs (m Sí) (c (rr (m (rr (m no) (c no))) (c no)))) (de perdone) (rr (m ya) (c ya)) he acabado , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

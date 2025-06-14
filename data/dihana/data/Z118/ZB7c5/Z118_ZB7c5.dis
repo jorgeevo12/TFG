@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas) , he (lm estado estau) las vacaciones d(a e) navidad en mi casa (p) y quiero regresar a Madrid (nw) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (na) (nw) (df A ver) , quiero regresar a Madrid (nw) después de pasar la(a s) navidades en mi casa .
+M3: ¿ Quiere saber horarios ?
+U3: No , quiero obtener el precio .
+M4: ¿ Qué día desea salir ?
+U4: El día seis de enero .
+M5: Quiere saber el precio a Madrid ¿ desde Zaragoza ?
+U5: Sí , para el viaje de ida .
+M6: Le consulto precios de Zaragoza a Madrid saliendo el jueves , día 6 de enero de 2005 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 28 con 50 euros la ida y el más barato es un Costa_Brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) Sí , quisiera (rr (m (lm viajar vajar)) (c viajar)) en (rr (m un (lu Alaris a)) (s (p)) (c un Alaris)) si fuera posible .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (na) Me gustaría viajar en un tren Alaris .
+M9: Le consulto precios de Zaragoza a Madrid en tipo tren Alaris . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: No , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

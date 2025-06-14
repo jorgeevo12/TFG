@@ -1,0 +1,75 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Quisiera conocer los horarios para viajar en talgo el veintitrés de abril por la tarde a Lérida .
+Quisiera conocer los horarios para viajar en talgo (U:Respuesta:Hora_salida:Tipo_tren) pal: 1 - 8
+el veintitrés de abril (U:Respuesta:Hora_salida:Dia) pal: 9 - 12
+por la tarde (U:Respuesta:Hora_salida:Hora_salida) pal: 13 - 15
+a Lérida . (U:Respuesta:Hora_salida:Destino) pal: 16 - 18
+
+
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+
+U2: Lérida .
+Lérida . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U3: El veintitrés de abril por la tarde .
+El veintitrés de abril (U:Respuesta:Dia:Dia) pal: 1 - 4
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 5 - 8
+
+
+
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U4: Sí , el veintitrés de abril por la tarde .
+Sí , el veintitrés de abril (U:Respuesta:Dia:Dia) pal: 1 - 6
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 7 - 10
+
+
+
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino lérida saliendo el viernes , día 23 de abril de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino lérida saliendo el viernes , día 23 de abril de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+M6: Sólo hay dos trenes . El primero sale a las 2 de la tarde y el otro a las 6 y 46 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 2 de la tarde y el otro a las 6 y 46 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+
+
+
+U5: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

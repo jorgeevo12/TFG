@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola quiero saber precios de trenes de Zaragoza a Teruel el próximo viernes .
+Hola quiero saber precios de trenes de Zaragoza (U:Pregunta:Precio:Origen) pal: 1 - 8
+a Teruel (U:Pregunta:Precio:Destino) pal: 9 - 10
+el próximo viernes . (U:Pregunta:Precio:Dia) pal: 11 - 14
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Teruel .
+A Teruel . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Le consulto precios de zaragoza a teruel . Un momento por favor .
+Le consulto precios de zaragoza a teruel . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M4: Los trenes son regional y en clase turista , el billete cuesta 8 con 93 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son regional y en clase turista , el billete cuesta 8 con 93 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U3: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

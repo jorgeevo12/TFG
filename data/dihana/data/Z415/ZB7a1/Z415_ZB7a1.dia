@@ -1,0 +1,66 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Sí , mire , tengo que realizar un viaje de trabajo para ir a Logroño el próximo treinta de junio en un tren rápido .
+Sí , mire , tengo que realizar un viaje de trabajo para ir a Logroño (U:Pregunta:Nil:Destino) pal: 1 - 15
+el próximo treinta de junio (U:Pregunta:Nil:Dia) pal: 16 - 20
+en un tren rápido . (U:Pregunta:Nil:Tipo_tren) pal: 21 - 25
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: No , deseo conocer el precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+deseo conocer el precio . (U:Pregunta:Precio:Nil) pal: 3 - 7
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: A Logroño .
+A Logroño . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El treinta de junio .
+El treinta de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Logroño .
+Logroño . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U6: El treinta de junio .
+El treinta de junio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M7: Quiere saber el precio a logroño , ¿ desde zaragoza ? .
+Quiere saber el precio a logroño , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U7: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M8: Le consulto precios de zaragoza a logroño saliendo el miércoles , día 30 de junio de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a logroño saliendo el miércoles , día 30 de junio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M9: Hay varios trenes . En clase turista , el tren más caro es un miguel_de_unamuno que cuesta 15 euros la ida y el más barato es un regional que cuesta 8 con 9 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un miguel_de_unamuno que cuesta 15 euros la ida y el más barato es un regional que cuesta 8 con 9 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U8: Desearía viajar en un tren rápido .
+Desearía viajar en un tren rápido . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 7
+
+M10: Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 14 con 50 euros la ida y el más lento es un regional_expres que cuesta 9 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 14 con 50 euros la ida y el más lento es un regional_expres que cuesta 9 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U9: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

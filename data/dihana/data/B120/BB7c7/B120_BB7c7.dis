@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría saber el precio (p) del billete a Teruel en Talgo (p) saliendo el próximo sábado .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Teruel .
+M3: Quiere saber el precio a Teruel ¿ desde Bilbao ?
+U3: Sí , y a ser posible (ri (m (lu en e)) (c viajando en)) Talgo .
+M4: Le consulto precios de Bilbao a Teruel en tipo tren Talgo . Un momento por favor .
+M5: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí .
+M6: ¿ Puede repetir su consulta ?
+U5: Sí ¿ es posible viajar el próximo sábado en Talgo ?
+M7: Le consulto precios de Bilbao a Teruel saliendo el sábado , día 21 de febrero de 2004 . Un momento por favor .
+M8: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

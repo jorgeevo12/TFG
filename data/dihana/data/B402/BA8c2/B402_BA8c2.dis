@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos día(a s)) (p) , quería saber información sobr(a e) los horario(a s) (p) de los trene(a s) Valencia a Madrid (na) para el día treinta y uno de diciembre .
+M2: ¿ Quiere llegar a Valencia ?
+U2: No , quiero salir de Valencia (p) y llegar a Madrid .
+M3: ¿ Qué día desea salir ?
+U3: (fb) Deseo salir el treinta y uno de diciembre .
+M4: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el viernes , día 31 de diciembre de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U4: (na) Sí (p) , quiero el horario detallado durante todo el día (p) (na) y qué tipos de trenes son .
+M6: Le consulto tipos de trenes para el trayecto Valencia a Madrid . Un momento por favor .
+M7: Hay varios tipos de trenes . El tren más rápido es un Alaris y el más lento es un Regional ¿ Desea algo más ?
+U5: (na) Sí , (p) (na) quería saber el horario de ese tren Regional (na) .
+M8: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el viernes , día 31 de diciembre de 2004 en Regional . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Regional que sale a las 8 y 18 de la mañana ¿ Desea algo más ?
+U6: (nl) No , (dc muchas gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

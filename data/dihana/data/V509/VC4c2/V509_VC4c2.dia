@@ -1,0 +1,170 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: El horario de un viaje de ida .
+El horario de un viaje de ida . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+
+
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U2: ¿ Me puede decir el horario de un viaje de ida de Jaén a Madrid ? .
+¿ Me puede decir el horario de un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 11
+de Jaén (U:Pregunta:Hora_salida:Origen) pal: 12 - 13
+a Madrid ? . (U:Pregunta:Hora_salida:Destino) pal: 14 - 17
+
+
+
+M3: Quiere saber el precio a madrid , ¿ saliendo de jaén ? .
+Quiere saber el precio a madrid , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ saliendo de jaén ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+
+U3: No .
+No . (U:Negacion:Origen:Nil) pal: 1 - 2
+
+
+
+M4: Quiere saber el precio a madrid , ¿ saliendo de jaén ? .
+Quiere saber el precio a madrid , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ saliendo de jaén ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+
+U4: No , el horario .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+el horario . (U:Pregunta:Hora_salida:Nil) pal: 3 - 5
+
+
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+U5: El veintitrés de octubre .
+El veintitrés de octubre . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+
+M6: ¿ Desea salir el sábado , día 23 de octubre de 2004 ? .
+¿ Desea salir el sábado , día 23 de octubre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+M7: Le consulto horarios de trenes con salida en jaén destino madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en jaén destino madrid saliendo el sábado , día 23 de octubre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M8: Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y llega a la una y 31 de la tarde y el otro sale a las 3 y 40 de la tarde y llega a las 7 y 57 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y llega a la una y 31 de la tarde y el otro sale a las 3 y 40 de la tarde y llega a las 7 y 57 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+
+
+
+U7: El precio del segundo .
+El precio del segundo . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 5
+
+
+
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U8: El precio del segundo .
+El precio del segundo . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 5
+
+
+
+M10: El precio de ese tren en clase turista es 19 con 55 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 19 con 55 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+
+U9: Horario de vuelta .
+Horario de vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 4
+
+
+
+M11: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U10: Horario de vuelta .
+Horario de vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 4
+
+
+
+M12: Le consulto horarios de trenes con salida en madrid destino jaén saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino jaén saliendo el sábado , día 23 de octubre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M13: Sólo hay dos trenes . El primero sale a las 9 de la mañana y llega a la una y 5 de la tarde y el otro sale a las 6 y 25 de la tarde y llega a las 10 y 40 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 9 de la mañana y llega a la una y 5 de la tarde y el otro sale a las 6 y 25 de la tarde y llega a las 10 y 40 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 47
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 48 - 52
+
+
+
+U11: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+
+M14: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U12: Horario de vuelta el veinticuatro de octubre .
+Horario de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 3
+el veinticuatro de octubre . (U:Pregunta:Hora_salida:Dia) pal: 4 - 8
+
+
+
+M15: Le consulto horarios de trenes con salida en madrid destino jaén saliendo el domingo , día 24 de octubre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino jaén saliendo el domingo , día 24 de octubre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M16: Sólo hay dos trenes . El primero sale a las 9 de la mañana y llega a la una y 5 de la tarde y el otro sale a las 6 y 25 de la tarde y llega a las 10 y 40 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 9 de la mañana y llega a la una y 5 de la tarde y el otro sale a las 6 y 25 de la tarde y llega a las 10 y 40 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 47
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 48 - 52
+
+
+
+U13: El precio del primero .
+El precio del primero . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 5
+
+
+
+M17: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U14: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M18: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

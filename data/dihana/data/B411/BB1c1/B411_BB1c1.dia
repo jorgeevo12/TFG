@@ -1,0 +1,83 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Me gustaría saber , o sea , obtener un billete para ir a Barcelona .
+Me gustaría saber , o sea , obtener un billete para ir a Barcelona . (U:Pregunta:Nil:Destino) pal: 1 - 15
+
+
+M2: ¿ Quiere viajar desde barcelona ? .
+¿ Quiere viajar desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U2: No , quiero ir a Barcelona .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero ir a Barcelona . (U:Respuesta:Nil:Destino) pal: 3 - 7
+
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+M4: Quiere horarios de trenes a barcelona , ¿ desde barcelona ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U4: No .
+No . (U:Negacion:Origen:Nil) pal: 1 - 2
+
+
+M5: ¿ Quiere salir desde bilbao ? .
+¿ Quiere salir desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U6: El veintiuno de mayo .
+El veintiuno de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U7: Sí , el viaje que sea el veintiuno de mayo .
+Sí , el viaje que sea el veintiuno de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 11
+
+
+M8: Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el viernes , día 21 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el viernes , día 21 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M9: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+
+U8: Sí , me gustaría saber cuál es el precio del que sale a las diez y cinco de la mañana .
+Sí , me gustaría saber cuál es el precio del que sale a las diez y cinco de la mañana . (U:Pregunta:Precio:Hora_salida) pal: 1 - 21
+
+
+M10: El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

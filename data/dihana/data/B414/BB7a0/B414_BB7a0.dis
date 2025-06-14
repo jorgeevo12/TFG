@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera saber el precio (p) del billete d(a e) tren a Santiago_de_Compostela .
+M2: ¿ Qué día desea salir ?
+U2: (na) El uno o el dos de febrero .
+M3: ¿ Desea salir el martes , día 1 de febrero de 2005 ?
+U3: Sí .
+M4: Le consulto precios de Bilbao a Santiago . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

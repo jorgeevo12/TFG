@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Obtener horario .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Pamplona .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Pamplona .
+M4: ¿ Qué día desea salir ?
+U4: Entre el doce de mayo (p) de este año y (a e)l quince de mayo .
+M5: Quiere horarios de trenes a Pamplona ¿ desde Zaragoza ?
+U5: No .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: No , (fe) desde Orense .
+M7: Le consulto horarios de trenes con salida en Orense destino Pamplona saliendo el miércoles , día 12 de mayo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: (fe) No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

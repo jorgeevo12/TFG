@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quiero un (p) horario (nw) de viaje de ida (p) con salida en Zaragoza llegada a Valencia .
+M2: ¿ Qué día desea salir ?
+U2: A partir del viernes a las tres (na) .
+M3: ¿ Desea salir el viernes , día 27 de febrero de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Valencia saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 8 y 10 de la mañana y el otro a las 3 y 45 de la tarde ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

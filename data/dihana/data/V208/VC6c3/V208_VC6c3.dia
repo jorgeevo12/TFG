@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenas , quería un viaje de ida desde Almería hasta León para el veinticinco de junio .
+Buenas , quería un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+desde Almería (U:Pregunta:Nil:Origen) pal: 8 - 9
+hasta León (U:Pregunta:Nil:Destino) pal: 10 - 11
+para el veinticinco de junio . (U:Pregunta:Nil:Dia) pal: 12 - 17
+M2: Horarios para llegar a león , ¿ saliendo de almería ? .
+Horarios para llegar a león , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ saliendo de almería ? . (M:Confirmacion:Origen:Origen) pal: 7 - 12
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: Veinticinco de junio .
+Veinticinco de junio . (U:Respuesta:Dia:Dia) pal: 1 - 4
+M4: ¿ Desea salir el viernes , día 25 de junio de 2004 ? .
+¿ Desea salir el viernes , día 25 de junio de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+M5: Le consulto horarios de trenes con salida en almería destino león saliendo el viernes , día 25 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en almería destino león saliendo el viernes , día 25 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+U5: Sí , horarios del viaje de vuelta para el veintiséis de julio .
+Sí , horarios del viaje de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 7
+para el veintiséis de julio . (U:Pregunta:Hora_salida:Dia) pal: 8 - 13
+M7: Le consulto horarios de trenes con salida en león destino almería saliendo el lunes , día 26 de julio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en león destino almería saliendo el lunes , día 26 de julio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+U6: Querría saber el precio y si es posible el más barato .
+Querría saber el precio y si es posible el más barato . (U:Pregunta:Precio:Precio) pal: 1 - 12
+M9: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M10: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,44 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría viajar a Madrid el próximo sábado o domingo .
+Me gustaría viajar a Madrid (U:Pregunta:Nil:Destino) pal: 1 - 5
+el próximo sábado o domingo . (U:Pregunta:Nil:Dia) pal: 6 - 11
+
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ Desea salir el sábado , día 28 de febrero de 2004 ? .
+¿ Desea salir el sábado , día 28 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M4: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U4: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M5: ¿ Quiere viajar a madrid ? .
+¿ Quiere viajar a madrid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U5: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M6: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U6: Ya está todo , gracias .
+Ya está todo , gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

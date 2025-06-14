@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Sí quería sab(a e)r los horarios (p) para ir (a a) Granada (p) (fe) saliendo el viern(a e)s por la noche .
+M2: ¿ Quiere viajar a Granada ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Granada saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U3: (na) (fm) ¿ Tienen litera ?
+M5: Le consulto horarios de trenes con salida en Bilbao destino Granada saliendo el viernes , día 26 de marzo de 2004 en clase litera . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Diurno que sale a las 10 y 3 de la noche ¿ Desea algo más ?
+U4: (na) ¿ Qué precio tien(a e) (p) (a e)l viaje ?
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Cuál es (a e)l precio del billete .
+M8: El precio de ese tren en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) (fa) Quería sab(a e)r (p) (fa) los horarios d(a e) vuelta para el domingo .
+M9: Le consulto horarios de trenes con salida en Granada destino Bilbao saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+M10: Le consulto horarios de trenes con salida en Granada destino Bilbao saliendo el domingo , día 28 de marzo de 2004 en clase litera . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (df Pues) en (rr (m clas(a e)) (s (p)) (c clase)) turista .
+M12: Le consulto horarios de trenes con salida en Granada destino Bilbao saliendo el domingo , día 28 de marzo de 2004 en clase turista . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: Sí , cuál es el precio .
+M14: Le consulto precios de Granada a Bilbao saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (df Pu(a e)s) no , nada más , (dc gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

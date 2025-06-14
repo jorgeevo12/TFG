@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenas tardes) querí(a a) (fe) saber el horario (rr (m d(a e)) (s (p)) (c de)) un tren para ir (rr (m d(a e)) (c de)) Bilbao (rr (m (a a)) (c a)) Tarragona (p) el próximo viernes (p) (fe) (ri (m dí(a a)) (s (p)) (c el día)) dos (p) de abril .
+M2: Quiere horarios de trenes a Tarragona ¿ desde Zaragoza ?
+U2: No .
+M3: ¿ Quiere salir desde Bilbao ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Tarragona saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana ¿ Desea algo más ?
+U4: (fe) Sí quisiera también (rr (m cuál) (c cuál)) sería el precio de ese tren .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Sí quisier(a a) también saber cuál es el precio del tren (p) que me ha dicho .
+M7: El precio de ese tren en clase turista es 31 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

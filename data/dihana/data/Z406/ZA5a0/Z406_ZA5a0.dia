@@ -1,0 +1,39 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Sí , quería saber horarios para hacer un viaje que tengo que ir a una reunión de negocio .
+Sí , quería saber horarios para hacer un viaje que tengo que ir a una reunión de negocio . (U:Pregunta:Hora_salida:Nil) pal: 1 - 19
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Quería ir a Vigo .
+Quería ir a Vigo . (U:Respuesta:Destino:Destino) pal: 1 - 5
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Sí , Vigo .
+Sí , Vigo . (U:Respuesta:Destino:Destino) pal: 1 - 4
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: Quería ir el miércoles catorce de abril .
+Quería ir el miércoles catorce de abril . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M5: Quiere horarios de trenes a vigo , ¿ desde zaragoza ? .
+Quiere horarios de trenes a vigo , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U5: No , desde Zaragoza no , voy a viajar desde Murcia .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Zaragoza no , voy a viajar desde Murcia . (U:Respuesta:Hora_salida:Origen) pal: 3 - 12
+M6: Le consulto horarios de trenes con salida en murcia destino vigo saliendo el miércoles , día 14 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en murcia destino vigo saliendo el miércoles , día 14 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U6: Pues no , son pocos trenes yo quería a partir de las cuatro de la tarde , pero , y a las once .
+Pues no , son pocos trenes yo quería a partir de las cuatro de la tarde , pero , y a las once . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 24
+M8: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+M9: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+U7: No , está bien , gracias , hasta luego .
+No , está bien , gracias , hasta luego . (U:Cierre:Nil:Nil) pal: 1 - 10
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,9 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quiero saber el horario de un tren que salga (rr (m de (lu Sevilla Se)) (c de Sevilla)) y vaya a Córdoba para este viernes .
+M2: Le consulto horarios de trenes con salida en Valencia destino Córdoba saliendo el viernes , día 19 de diciembre de 2003 . Un momento por favor .
+M3: Sólo hay dos trenes con salida el viernes , día 19 de diciembre de 2003 . El primero sale 00:27 y el otro 11:30 ¿ Desea algo más ?
+U2: Qué tipo de tren hay en ese horario .
+M4: Le consulto tipos de tren . Un momento por favor .
+M5: Dispone de dos tipos de trenes . El tren más rápido es un Tren_Hotel y el otro es un García_Lorca ¿ Desea algo más ?
+U3: No , ya está , (dc muchas gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

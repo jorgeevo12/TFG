@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Buenos días) , (df mire) , quería un billete de ida desde Zaragoz(a a) a Madrid (fe) para el próximo lunes seis de abril (p) de diez a once de la mañana (a y) (p) ¿ qué tipo de trenes tiene ?
+M2: ¿ Quiere saber horarios ?
+U2: (na) Sí , horario y precio .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Madrid .
+M4: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U4: (na) Sí (p) , horario y precio .
+M5: ¿ Qué día desea salir ?
+U5: (nl) El próximo lunes seis de abril .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el lunes , día 5 de abril de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U6: (nl) ¿ Qué precio tiene el Ave ? (p) , (rr (m s(a i)) (s (fb)) (c si)) puede ser .
+M8: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el lunes , día 5 de abril de 2004 en Ave . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (nl) Sí , (fe) (da bueno) ¿ qué precio tiene un tren que salg(a a) (df pues) (fe) (rs (m a las) (c sobre las)) diez de la mañana ? (p) ¿ a las diez o a las once (p) de la mañana ?
+M10: Le consulto horarios de Zaragoza a Madrid el lunes , día 5 de abril de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Talgo que sale a las 10 y 30 de la mañana y llega a la una y 35 de la tarde ¿ Desea algo más ?
+U8: Sí ¿ qué precio tiene este tren ?
+M12: El precio de ese tren en clase turista es 28 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

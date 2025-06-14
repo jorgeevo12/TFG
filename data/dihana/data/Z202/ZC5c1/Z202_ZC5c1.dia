@@ -1,0 +1,195 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Hola quiero obtener el horario y el precio para salir el próximo sábado a Barcelona en viaje de ida y vuelta en el día .
+Hola quiero obtener el horario y el precio para salir el próximo sábado (U:Pregunta:Hora_salida,Precio:Dia) pal: 1 - 13
+a Barcelona (U:Pregunta:Hora_salida,Precio:Destino) pal: 14 - 15
+en viaje de ida y vuelta en el día . (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 16 - 25
+
+
+
+
+M2: Quiere horarios de trenes a barcelona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+
+U2: Sí , de ida y vuelta para el sábado .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+de ida y vuelta (U:Respuesta:Hora_salida:Tipo_viaje) pal: 3 - 6
+para el sábado . (U:Respuesta:Hora_salida:Dia) pal: 7 - 10
+
+
+
+
+M3: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M4: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+
+U3: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U4: El precio del billete .
+El precio del billete . (U:Pregunta:Precio:Nil) pal: 1 - 5
+
+
+
+
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 29 euros la ida y el más barato es un cataluña_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 29 euros la ida y el más barato es un cataluña_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+
+
+U5: Sí , quiero el billete de ida y vuelta .
+Sí , quiero el billete de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+
+
+
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U6: Quiero el billete de ida y vuelta en euromed .
+Quiero el billete de ida y vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 7
+en euromed . (U:Pregunta:Precio:Tipo_tren) pal: 8 - 10
+
+
+
+
+M8: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+U7: Sí , deme el horario y el precio para el billete de ida y vuelta para Lezama .
+Sí , deme el horario y el precio para el billete de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 15
+para Lezama . (U:Pregunta:Hora_salida,Precio:Destino) pal: 16 - 18
+
+
+
+
+M10: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M11: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+
+U8: Sí , el precio del billete de ida .
+Sí , el precio del billete de ida . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+
+
+
+
+M12: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 29 euros la ida y el más barato es un cataluña_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 29 euros la ida y el más barato es un cataluña_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+
+
+U9: Sí , ¿ a qué hora sale el talgo ? .
+Sí , ¿ a qué hora sale el talgo ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 11
+
+
+
+
+M13: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U10: Sí , ¿ a qué hora sale el talgo ? .
+Sí , ¿ a qué hora sale el talgo ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 11
+
+
+
+
+M14: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el sábado , día 28 de febrero de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+M15: Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U11: Sí , quiero el horario para el tren de vuelta y el precio .
+Sí , quiero el horario para el tren de vuelta y el precio . (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 14
+
+
+
+
+M16: Le consulto horarios de trenes con salida en barcelona destino zaragoza saliendo el sábado , día 28 de febrero de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino zaragoza saliendo el sábado , día 28 de febrero de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+M17: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+U12: No , nada más , muchas gracias .
+No , nada más , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+
+
+
+M18: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

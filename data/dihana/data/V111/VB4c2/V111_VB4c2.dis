@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , quería (fb) (fe) informarme acerca del horario y del precio de los viajes de tren de Castellón a Ciudad_Real para el próximo viernes doce de marzo (na) (a y) me gustaría que la llegada fuer(a a) antes de este próximo sábad(a o) a las cinco .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: Desearía obtener el horario (p) para viajar de Castellón a Ciudad_Real el próximo doce de marzo .
+M3: ¿ Quiere viajar desde Castellón ?
+U3: Sí (na) .
+M4: ¿ Quiere viajar a Ciudad_Real ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Castellón destino Ciudad_Real saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un García_Lorca que sale a las 10 y 36 de la mañana y llega a las 4 y 24 de la tarde ¿ Desea algo más ?
+U5: Sí (p) (na) .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Sí (p) , me gustaría que la llegada fuera antes de las diecisiete horas de este próximo sábado .
+M8: Le consulto horarios . Un momento por favor .
+M9: El único tren que realiza el trayecto es un García_Lorca que sale a las 10 y 36 de la mañana y llega a las 4 y 24 de la tarde ¿ Desea algo más ?
+U7: Sí , me gustaría consultar el precio de este billete .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Me gustaría conocer (p) el precio de este billete .
+M11: El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

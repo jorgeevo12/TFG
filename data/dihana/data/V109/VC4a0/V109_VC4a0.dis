@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos días) (fe) llamaba par(a a) preguntar por los horarios de trenes (fe) (p) con salida Albacete destin(a o) Barcelona para el próximo lunes (nw) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , (fe) horarios (p) de trenes que salgan el próximo lunes a las doce de Albacete a Barcelona .
+M3: ¿ Qué día desea salir ?
+U3: El próximo lunes .
+M4: ¿ Desea salir el lunes , día 15 de marzo de 2004 ?
+U4: Sí .
+M5: Quiere horarios de trenes a Barcelona ¿ desde Albacete ?
+U5: Sí (fe) , trenes que salgan a las doce .
+M6: Le consulto horarios de Albacete a Barcelona el lunes , día 15 de marzo de 2004 entre las 11 de la mañana y la una de la tarde . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Sí , (fe) ¿ algún tren que salg(a a) antes de las once ?
+M8: Le consulto horarios . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Tren_Hotel que sale a las 3 y 53 de la madrugada y llega a las 9 y 50 de la mañana ¿ Desea algo más ?
+U7: ¿ No hay otros (lu trenes trene) ?
+M10: No ¿ Desea algo más ?
+U8: Sí , (df pues) dígam(a e) e(a l) precio de un billete (rr (m d(a e)) (s (p)) (c de)) ida y vuelta .
+M11: El precio de ese tren en clase turista es 36 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Y ¿ qué días y qué horarios habría (p) (nw) para volver (na) ?
+M12: Le consulto horarios de trenes con salida en Barcelona destino Albacete saliendo el lunes , día 15 de marzo de 2004 . Un momento por favor .
+M13: Sólo hay dos trenes . El primero sale a las 8 de la mañana y llega a la una y 27 de la tarde y el otro sale a las 9 de la noche y llega a las 2 y 13 de la madrugada ¿ Desea algo más ?
+U10: No .
+M14: Gracias por utilizar este servicio . Feliz viaje .

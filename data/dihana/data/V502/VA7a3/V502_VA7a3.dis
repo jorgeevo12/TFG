@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fb) Quisiera un viaje de ida par(a a) la ciudad de León desde Guadalajara .
+M2: ¿ Quiere viajar desde León ?
+U2: Sí .
+M3: ¿ Quiere viajar a Guadalajara ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (nl) El dos de mayo .
+M5: ¿ Desea salir el domingo , día 2 de mayo de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en León destino Guadalajara saliendo el domingo , día 2 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U6: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

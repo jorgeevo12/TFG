@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera conocer el horario y el precio (p) de un viaje a Huesca (p) para el uno o dos .
+M2: ¿ Qué día desea salir ?
+U2: El uno o dos de julio .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nl) El día uno (p) o dos de julio (na) .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Huesca saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: Sí , que sea en un tren (p) (nt) rápido .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: En (lm tren tran) rápido (nt) .
+M7: El tren más rápido es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U6: Sí , el precio .
+M8: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

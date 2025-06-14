@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Qu(a i)siera horarios de trenes para Madrid (p) el próximo viernes (na) .
+M2: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U3: (nl) Sí , quisiera los horarios que llegan antes de la una (na) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nl) Quiero los horarios (fe) de trenes que llegan antes de la una de la tarde (na) .
+M6: Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y llega a las 7 de la mañana y el último sale a las 9 de la mañana y llega a las 12 y 20 de la mañana ¿ Desea algo más ?
+U5: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

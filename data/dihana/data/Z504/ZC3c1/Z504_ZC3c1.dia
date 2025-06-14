@@ -1,0 +1,78 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Querría saber los horarios para un viaje a Mérida para el próximo jueves por la mañana .
+Querría saber los horarios para un viaje a Mérida (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+para el próximo jueves (U:Pregunta:Hora_salida:Dia) pal: 10 - 13
+por la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 14 - 17
+
+M2: ¿ Quiere llegar a benicássim ? .
+¿ Quiere llegar a benicássim ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U2: No , quiero ir a Mérida .
+No , (U:Negacion:Destino:Nil) pal: 1 - 2
+quiero ir a Mérida . (U:Respuesta:Hora_salida:Destino) pal: 3 - 7
+
+M3: Quiere horarios de trenes a mérida , ¿ desde zaragoza ? .
+Quiere horarios de trenes a mérida , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de zaragoza a mérida el jueves , día 6 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de zaragoza a mérida el jueves , día 6 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Querría saber el precio y el horario del más barato .
+Querría saber el precio y el horario del más barato . (U:Pregunta:Hora_salida,Precio:Precio) pal: 1 - 11
+
+M6: El tren más caro es un talgo que sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . Desea algo más ? .
+El tren más caro es un talgo que sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Precio,Tipo_tren) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+U5: Querría el más barato , el tren más económico para el jueves por la mañana .
+Querría el más barato , el tren más económico (U:Pregunta:Hora_salida:Precio) pal: 1 - 9
+para el jueves (U:Pregunta:Hora_salida:Dia) pal: 10 - 12
+por la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 13 - 16
+
+M7: El tren más barato es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . Desea algo más ? .
+El tren más barato es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Precio,Tipo_tren) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+U6: Sí , querría saber horario para la vuelta que sería el siguiente domingo por la tarde .
+Sí , querría saber horario para la vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+que sería el siguiente domingo (U:Pregunta:Hora_salida:Dia) pal: 9 - 13
+por la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 14 - 17
+
+M8: Le consulto horarios de trenes con salida en mérida destino zaragoza saliendo el domingo , día 9 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en mérida destino zaragoza saliendo el domingo , día 9 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U7: Sí , saber cuál es el más barato .
+Sí , saber cuál es el más barato . (U:Pregunta:Hora_salida:Precio) pal: 1 - 9
+
+M10: El tren más barato es un diurno que sale a las 10 y 3 de la noche y llega a las 7 de la mañana . Desea algo más ? .
+El tren más barato es un diurno que sale a las 10 y 3 de la noche y llega a las 7 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Precio,Tipo_tren) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+U8: ¿ Cuál es el precio conjunto del billete de ida y vuelta en estas condiciones ? .
+¿ Cuál es el precio conjunto del billete de ida y vuelta en estas condiciones ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 17
+
+M11: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U9: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

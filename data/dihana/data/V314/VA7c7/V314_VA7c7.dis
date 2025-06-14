@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Desearí(a a) obtener el horario (rs (m d(a e)) (c del)) tren de salida a San_Sebastián y llegada a Bilbao .
+M2: ¿ Quiere viajar desde San_Sebastián ?
+U2: Sí , y si puede ser el viernes .
+M3: Le consulto horarios de trenes con salida en San_Sebastián destino Bilbao saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U3: Sí , desearía viajar en un tren cómodo .
+M5: Un momento por favor .
+M6: Le consulto horarios . Un momento por favor .
+M7: Hay varios trenes . El más rápido sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde y el más lento sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U4: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

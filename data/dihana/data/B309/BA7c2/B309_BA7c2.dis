@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (p) , quisier(a a) saber el horario d(a e) los trenes de Burgos a Valladolid (p) , (dq por favor) .
+M2: Quiere horarios de trenes a Zaragoza ¿ desde Madrid ?
+U2: No (p) , desde Burgos a Valladolid .
+M3: ¿ Qué día desea salir ?
+U3: El día veintinueve o treinta de junio .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: El día veintinueve de junio o el día treinta de junio .
+M5: ¿ Desea salir el martes , día 29 de junio de 2004 ?
+U5: Sí , en (a u)n tren rápido .
+M6: Le consulto horarios de trenes con salida en Burgos destino Valladolid saliendo el martes , día 29 de junio de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a la una y 59 de la madrugada y el último a las 9 y 20 de la noche ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

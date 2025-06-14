@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola muy buenas tardes) , sí , quería saber el horari(a o) de trenes par(a a) Cáceres para (a e)l próximo fin de semana saliendo el viern(a e)s o el sábado .
+M2: ¿ Desea salir el viernes , día 27 de febrero de 2004 ?
+U2: (nl) Sí , el viernes por la noche o el sábado por la mañana .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (nl) Sí , a Cáceres capital .
+M4: Quiere horarios de trenes a Cáceres ¿ desde Bilbao ?
+U4: (df Pues) sí .
+M5: Le consulto horarios de Bilbao a Cáceres el viernes , día 27 de febrero de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M6: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U5: (nt) Sí , quiero saber a qué hora llegan a Cáceres .
+M7: Le consulto horarios . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U6: Sí ¿ qué tipo de tren son ? ¿ So(a n) coche cama ? ¿ Tienen literas ?
+M9: Le consulto tipos de tren . Un momento por favor .
+M10: Dispone de dos tipos de trenes . El tren más rápido es un Diurno y el otro es un Tren_Hotel ¿ Desea algo más ?
+U7: (fe) Sí , el Tren_Hotel ¿ es el de las nueve o el de las diez ?
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: (nl) Sí , hay dos trenes en horario de viernes por la noche (p) y uno de ellos es un Tren_Hotel (p) ¿ Cuál es ? ¿ El primero o el último ?
+M12: El segundo y último tren es un Tren_Hotel que sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U9: No , (dc muchísimas gracias) eso es todo .
+M13: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero un billete de ida y vuelta (p) a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: (fe) Sí .
+M3: ¿ Qué día desea salir ?
+U3: El diez de marzo .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nl) El diez de marzo .
+M5: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U5: Sí , en Talgo .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el miércoles , día 10 de marzo de 2004 en Talgo . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde ¿ Desea algo más ?
+U6: Sí , (p) quiero volver (p) a Zaragoza el once de marzo .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Quiero hacer el viaje de vuelta .
+M9: ¿ Quiere saber horarios ?
+U8: Sí .
+M10: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el miércoles , día 10 de marzo de 2004 en Talgo . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 5 y 30 de la tarde ¿ Desea algo más ?
+U9: Sí , quiero saber el precio .
+M12: Los trenes son Talgo y en clase turista , el billete cuesta 29 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber (p) los horarios de trenes Valencia Barcelona (nt) .
+M2: ¿ Qué día desea salir ?
+U2: El once de agosto .
+M3: ¿ Desea salir el miércoles , día 11 de agosto de 2004 ?
+U3: Sí , (da claro) .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el miércoles , día 11 de agosto de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U4: (na) Sí ¿ hay algún tren que salga antes de la(a s) dos de la mañana ?
+M6: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el miércoles , día 11 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a la una y 8 de la tarde y llega a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: (na) Quería saber los horarios (p) de trenes Barcelona Valencia .
+M8: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el miércoles , día 11 de agosto de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche ¿ Desea algo más ?
+U6: (na) (a E)l tren que sea d(a e)l quince de agosto .
+M10: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 8 de la mañana y llega a las 11 y 23 de la mañana y el último sale a las 9 de la noche y llega a las 0 y 25 de la noche ¿ Desea algo más ?
+U7: (nl) ¿ Cuál es el precio de ese billete ?
+M12: Le consulto precios de Barcelona a Valencia . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc muchas gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

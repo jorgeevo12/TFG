@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí me gustaría viajar (p) a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Sí me gustaría saber horarios (p) (a e)n coche cama .
+M3: ¿ Quiere llegar a Barcelona ?
+U3: Sí (fe) deseo un viaje de ida (p) por la noche (p) (fe) d(a e)l próximo jueves de Semana_Santa .
+M4: ¿ Desea salir el jueves , día 1 de abril de 2004 ?
+U4: (nt) No , deseo salir (rr (m el) (c (a e)l)) jueves ocho de abril de dos mil cuatro .
+M5: Le consulto horarios de Bilbao a Barcelona el jueves , día 8 de abril de 2004 entre las 9 de la noche y las 5 de la madrugada en clase cama . Un momento por favor .
+M6: El único tren que realiza el trayecto es un pío_baroja que sale a las 10 y 45 de la noche ¿ Desea algo más ?
+U5: Sí , deseo saber el precio (dq por favor) .
+M7: El precio de ese tren en clase cama es 78 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) (nw) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

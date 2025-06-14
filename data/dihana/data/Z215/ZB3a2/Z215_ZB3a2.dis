@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber los horarios para ir a Lugo (na) el día cinco de noviembre .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Lugo .
+M3: Quiere horarios de trenes a Lugo ¿ desde Zaragoza ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Lugo saliendo el viernes , día 5 de noviembre de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: ¿ Al mediodía hay algún tren ?
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: ¿ Sale algún tren a mediodía ?
+M7: Le consulto horarios de Zaragoza a Lugo el viernes , día 5 de noviembre de 2004 entre las 12 de la mañana y las 2 de la tarde . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: ¿ Hay algún Talgo ?
+M9: Le consulto horarios de trenes con salida en Zaragoza destino Lugo saliendo el viernes , día 5 de noviembre de 2004 en Talgo . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U7: ¿ Cuál es el precio del tren que sale a las tres y treinta ?
+M11: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Quería saber el precio (p) del tren que sale a las tres y treinta .
+M12: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) (nw) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber los trenes que tienen litera (p) y que salen de Granada (p) y llegan a Guadalajara .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: Quiere horarios de trenes a Guadalajara ¿ saliendo de Valencia ?
+U3: No , saliendo de Granada .
+M4: ¿ Qué día desea salir ?
+U4: El veinte de mayo del dos mil cuatro .
+M5: ¿ Desea salir el jueves , día 20 de mayo de 2004 ?
+U5: Sí (p) , por la tarde .
+M6: Le consulto horarios de Granada a Guadalajara el jueves , día 20 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U6: Sí , quiero saber s(a i) tiene litera .
+M8: No ¿ Desea algo más ?
+U7: Sí , quería saber el precio .
+M9: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,68 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenos días , quería saber los horarios y el precio para ir hasta Madrid .
+Buenos días , quería saber los horarios y el precio para ir hasta Madrid . (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 15
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El próximo sábado .
+El próximo sábado . (U:Respuesta:Dia:Dia) pal: 1 - 4
+
+M3: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el sábado , día 1 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M4: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y el último a las 6 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 45 de la mañana y el último a las 6 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U3: Sí , quiero llegar antes de las diez de la mañana .
+Sí , quiero llegar antes de las diez de la mañana . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 12
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U4: Quiero llegar a Madrid antes de las diez de la mañana .
+Quiero llegar a Madrid (U:Pregunta:Hora_salida:Destino) pal: 1 - 4
+antes de las diez de la mañana . (U:Pregunta:Hora_salida:Hora_llegada) pal: 5 - 12
+
+M6: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U5: Sí , quiero que el billete sea de ida y vuelta para el mismo día .
+Sí , quiero que el billete sea de ida y vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 11
+para el mismo día . (U:Pregunta:Hora_salida:Dia) pal: 12 - 16
+
+M8: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M9: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U6: ¿ Me puede decir el precio del primer tren de la mañana ? .
+¿ Me puede decir el precio del primer tren (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 9
+de la mañana ? . (U:Pregunta:Precio:Hora_salida) pal: 10 - 14
+
+M10: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U7: ¿ Cuánto vale el billete , por favor ? .
+¿ Cuánto vale el billete , por favor ? . (U:Pregunta:Precio:Nil) pal: 1 - 10
+
+M11: El precio de ese tren en clase turista es 36 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 36 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U8: No , eso es todo , muchas gracias .
+No , eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Obtener el horario de Valencia a Sevilla el sábado .
+Obtener el horario de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 5
+a Sevilla (U:Pregunta:Hora_salida:Destino) pal: 6 - 7
+el sábado . (U:Pregunta:Hora_salida:Dia) pal: 8 - 10
+
+
+M2: Le consulto horarios de trenes con salida en valencia destino sevilla saliendo el sábado , día 10 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino sevilla saliendo el sábado , día 10 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M3: El único tren que realiza el trayecto es un garcía_lorca que sale a las 11 y 30 de la mañana y llega a las 8 y 18 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un garcía_lorca que sale a las 11 y 30 de la mañana y llega a las 8 y 18 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+U2: Sí , obtener el precio .
+Sí , obtener el precio . (U:Pregunta:Precio:Nil) pal: 1 - 6
+
+
+M4: El precio de ese tren en clase turista es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+U3: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

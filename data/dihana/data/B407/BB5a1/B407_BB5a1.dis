@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría hacer un viaje de Bilbao a Málaga (p) el viernes a la tarde .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Quiere salir entre las 10 y las 11 de la mañana ?
+U3: No (p) prefiero salir a la tarde .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Málaga .
+M5: Quiere horarios de trenes a Málaga ¿ desde Bilbao ?
+U5: Sí .
+M6: Le consulto horarios de Bilbao a Málaga el viernes , día 19 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: Sí , me gustaría saber el precio del billete de ida .
+M8: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (na) Sí , me gustaría saber a qué hora llega el tren a Málaga .
+M9: Ese tren sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

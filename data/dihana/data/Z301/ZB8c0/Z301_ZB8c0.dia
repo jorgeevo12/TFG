@@ -1,0 +1,43 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera obtener el precio de un viaje de tren .
+Quisiera obtener el precio de un viaje de tren . (U:Pregunta:Precio:Nil) pal: 1 - 10
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: Quiero viajar a la ciudad de Santander .
+Quiero viajar a la ciudad de Santander . (U:Respuesta:Destino:Destino) pal: 1 - 8
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Quiero salir el jueves o el viernes de la semana que viene a poder ser en viaje en intercity .
+Quiero salir el jueves o el viernes de la semana que viene (U:Respuesta:Dia:Dia) pal: 1 - 12
+a poder ser en viaje en intercity . (U:Respuesta:Precio:Tipo_tren) pal: 13 - 20
+
+M4: Quiere saber el precio a santander , ¿ desde zaragoza ? .
+Quiere saber el precio a santander , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí , quiero saber el precio a Santander desde Zaragoza el jueves o el viernes de la semana que viene a poder ser en viaje en intercity .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+quiero saber el precio a Santander (U:Pregunta:Precio:Destino) pal: 3 - 8
+desde Zaragoza (U:Pregunta:Precio:Origen) pal: 9 - 10
+el jueves o el viernes de la semana que viene (U:Pregunta:Precio:Dia) pal: 11 - 20
+a poder ser en viaje en intercity . (U:Pregunta:Precio:Tipo_tren) pal: 21 - 28
+
+M5: Le consulto precios de zaragoza a santander saliendo el jueves , día 25 de marzo de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a santander saliendo el jueves , día 25 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U5: No , no deseo nada más .
+No , no deseo nada más . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

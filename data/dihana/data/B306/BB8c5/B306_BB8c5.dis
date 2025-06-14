@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería sab(a e)r qué valdría el viaje de id(a a) (p) par(a a) Galicia .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (a A) Vigo .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Vigo .
+M4: Quiere saber el precio a Vigo ¿ desde Bilbao ?
+U4: No , desd(a e) Valladolid .
+M5: ¿ Quiere salir desde Valladolid ?
+U5: Sí .
+M6: ¿ Qué día desea salir ?
+U6: D(a e) la (fe) la primera semana d(a e) julio .
+M7: Le consulto precios de Valladolid a Vigo saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , quiero saber (a e)l precio (ri (m del más) (c del tren más)) rápido .
+M9: El tren más rápido es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: (fe) No , (dr nada más) (dc (lu gracias gra)) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

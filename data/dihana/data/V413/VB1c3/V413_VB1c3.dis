@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería obtener los horarios .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería obtener los horarios de Valencia a (lm Madrid Madrit) .
+M3: ¿ Qué día desea salir ?
+U3: Entre el doce y el catorce de mayo (p) por la tarde .
+M4: Lo siento , no le he entendido . Por favor , hable claro y despacio .
+U4: Entre el doce y el catorce de mayo .
+M5: ¿ Desea salir el miércoles , día 12 de mayo de 2004 ?
+U5: Sí (p) , por la tarde .
+M6: Le consulto horarios de Valencia a Madrid el miércoles , día 12 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 15 de la tarde y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U6: (nl) Obtener el precio del último tren .
+M8: El precio de ese tren en clase turista es 36 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

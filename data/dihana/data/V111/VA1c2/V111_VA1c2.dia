@@ -1,0 +1,50 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenos días , quería conocer los horarios para viajar el cuatro o el cinco de octubre a Madrid y el tren que saliera a partir de las seis .
+Hola buenos días , quería conocer los horarios para viajar el cuatro o el cinco de octubre (U:Pregunta:Hora_salida:Dia) pal: 1 - 17
+a Madrid (U:Pregunta:Hora_salida:Destino) pal: 18 - 19
+y el tren que saliera a partir de las seis . (U:Pregunta:Hora_salida:Hora_salida) pal: 20 - 30
+
+
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+M3: ¿ Quiere viajar a madrid ? .
+¿ Quiere viajar a madrid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+
+M4: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el lunes , día 4 de octubre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el lunes , día 4 de octubre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M5: El único tren que realiza el trayecto es un alaris que sale a las 2 y 15 de la tarde y llega a las 5 y 50 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un alaris que sale a las 2 y 15 de la tarde y llega a las 5 y 50 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U5: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

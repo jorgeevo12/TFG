@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería obtener el horario en un viaje de ida a Barcelona el próximo sábado .
+Quería obtener el horario en un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 10 - 11
+el próximo sábado . (U:Pregunta:Hora_salida:Dia) pal: 12 - 15
+M2: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 14 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 14 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M3: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U2: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M4: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

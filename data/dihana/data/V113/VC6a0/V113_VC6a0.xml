@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:24"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="V113"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="V113_VC6a0_T01u.ul">
+<t> <d tipo="abrir"> Hola </d> , quiero saber los horarios <p/> para ir de Barcelona a Huesca . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="V113_VC6a0_T02u.ul">
+<t> <d tipo="editar"> Vamos a ver </d> <f tipo="e"/> , lunes o martes para ir . <p/> Y me gustaría volver el jueves o el viernes . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Barcelona destino Huesca saliendo el lunes , día 26 de enero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="V113_VC6a0_T03u.ul">
+<t> Sí , <d tipo="editar"> vamos a ver </d> ¿ <r tipo="repetición"> <m> qué </m> <c> qué </c> </r> precio tienen ? </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto precios . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="V113_VC6a0_T04u.ul">
+<t> Sí , <f tipo="e"/> ¿ puedes repetirm<a>e</a> los precios ? </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . En turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="V113_VC6a0_T05u.ul">
+<t> ¿ Qué posibilidades tengo <N> para </N> volver el jueves ? </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Huesca destino Barcelona saliendo el jueves , día 29 de enero de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="V113_VC6a0_T06u.ul">
+<t> ¿ Hay alguno que salga por la noche ? </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="V113_VC6a0_T07u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí , que quería aprovechar el viaje de vuelta para dormir ¿ Hay alguno que salg<a>a</a> por la noche ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Huesca a Barcelona el jueves , día 29 de enero de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="V113_VC6a0_T08u.ul">
+<t> El viernes . Podía hacer el viaje el viernes ¿ <d tipo="pedir"> no </d> ? </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Huesca a Barcelona el viernes , día 30 de enero de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="V113_VC6a0_T09u.ul">
+<t> Sí , <d tipo="rellenar"> mira vamos a ver </d> , que salg<a>a</a> <p/> <n fuente="hablante" tipo="aspiración"/> sobre las nueve de la noche , un poco antes . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Huesca a Barcelona el viernes , día 30 de enero de 2004 entre las 8 de la tarde y las 10 de la noche . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="V113_VC6a0_T10u.ul">
+<t> Sí , <d tipo="rellenar"> vamos a ver </d> <p/> , <f tipo="e"/> alguno que salga por la tarde , por lo menos . </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Huesca a Barcelona el viernes , día 30 de enero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="V113_VC6a0_T11u.ul">
+<t> Sí ¿ qué precio tiene este Talgo ? </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="V113_VC6a0_T12u.ul">
+<t> Sí , que me digas el <N> precio </N> <r tipo="sustitución"> <m> d<a>e</a> </m> <c> del </c> </r> Talgo para la vuelta . </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="V113_VC6a0_T13u.ul">
+<t> Sí una cosita , <r tipo="repetición"> <m> dim<a>e</a> </m> <c> dime </c> </r> cuándo podrí<a>a</a> salir . </t>
+</turno>
+
+<!-- Turno 21 sistema -->
+<turno id="M_021" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 14 usuario -->
+<turno id="U_014" hablante="usuario" fichero_audio_ss="V113_VC6a0_T14u.ul">
+<t> Sí , que me digas a ver ese Talgo <p/> cuando podría salir el lunes <p/> , par<a>a</a> viaje de ida . </t>
+</turno>
+
+<!-- Turno 22 sistema -->
+<turno id="M_022" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Barcelona a Huesca el lunes , día 26 de enero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 23 sistema -->
+<turno id="M_023" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 15 usuario -->
+<turno id="U_015" hablante="usuario" fichero_audio_ss="V113_VC6a0_T15u.ul">
+<t> No , <d tipo="aceptar"> ya es suficiente con esto </d> , <d tipo="cerrar"> muchas gracias </d> . </t>
+</turno>
+
+<!-- Turno 24 sistema -->
+<turno id="M_024" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero conocer el precio para ir a Salamanca .
+M2: ¿ Qué día desea salir ?
+U2: Viernes por la tarde .
+M3: ¿ Desea salir el viernes , día 12 de marzo de 2004 ?
+U3: Sí .
+M4: Le consulto precios de Valencia a Salamanca . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (nw) Sí (p) , quiero salir desde Barcelona .
+M6: Le consulto precios de Barcelona a Salamanca . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Miguel_de_Unamuno y su precio en clase turista es 39 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

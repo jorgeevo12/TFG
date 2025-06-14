@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría saber los precios de los trenes Talgo (na) desde Zaragoza a Toledo para el próximo sábado .
+M2: ¿ Desea hacer el viaje en un Talgo ?
+U2: Sí , para el próximo sábado .
+M3: Le consulto precios de Zaragoza a Toledo saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+M4: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: Sí , obtener el precio de la vuelta una semana después (p) saliendo también un (lu sábado saba) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (na) El precio del viaje de vuelta (rr (m desde) (s (p) (nw)) (c desde)) Zaragoza a Toledo (p) viajando en un Talgo (p) una semana después .
+M6: ¿ Desea hacer el viaje en un Talgo ?
+U5: Sí , una semana después .
+M7: Le consulto precios de Toledo a Zaragoza saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+M8: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: (na) Sí (p) , los precios (p) desde Toledo a Zaragoza en Talgo .
+M9: Le consulto precios de Toledo a Zaragoza saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+M10: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

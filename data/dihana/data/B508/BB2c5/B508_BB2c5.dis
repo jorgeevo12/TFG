@@ -1,0 +1,34 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) , me gustarí(a a) (fe) hacer una consult(a a) (rr (m sobre u(a n)) (s (p)) (c sobre un)) horario y precios de trenes , (dq por favor) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Sevilla .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: A Sevilla .
+M4: Quiere horarios de trenes a Sevilla ¿ desde Bilbao ?
+U4: Sí , (dq por favor) .
+M5: ¿ Qué día desea salir ?
+U5: (fe) (df Pues) a primeros de noviembre .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el lunes , día 1 de noviembre de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , (fe) quiero saber (fe) (p) con qué frecuencia salen los trenes , (dq por favor) .
+M8: ¿ Puede repetir su consulta ?
+U7: Con qué frecuencia salen los trenes (nw) .
+M9: Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ?
+U8: Sí (fe) ¿ hay alg(a ú)n (p) tren (p) cercano a las doce del mediodía ?
+M10: ¿ Quiere salir entre las 12 de la mañana y las 2 de la tarde ?
+U9: (rr (m Sí) (c sí)) , eso sería perfecto (da sí) .
+M11: Le consulto horarios de Bilbao a Sevilla el lunes , día 1 de noviembre de 2004 entre las 12 de la mañana y las 2 de la tarde . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: (fe) (df Pues) sí que se(a a) (p) antes de las doce de la mañana , (fe) entre las diez y las doce , (dq por favor) .
+M13: ¿ Quiere salir entre las 10 y las 12 de la mañana ?
+U11: Sí .
+M14: Le consulto horarios de Bilbao a Sevilla el lunes , día 1 de noviembre de 2004 entre las 10 y las 12 de la mañana . Un momento por favor .
+M15: Sólo hay dos trenes . El primero sale a las 10 y 30 de la mañana y el otro a las 11 y 55 de la mañana ¿ Desea algo más ?
+U12: Sí , me gustaría saber el precio (ri (m de esos (lu trenes tre)) (c de esos dos trenes)) .
+M16: Le consulto precios . Un momento por favor .
+M17: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: Sí ¿ me puede repetir los precios (dq por favor) ?
+M18: Un momento por favor .
+M19: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U14: (fe) No , (dc muchas gracias) .
+M20: Gracias por utilizar este servicio . Feliz viaje .

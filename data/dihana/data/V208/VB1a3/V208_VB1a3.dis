@@ -1,0 +1,9 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do (lm Buenas buena)) quería obtener un horario de un viaje de ida (p) de Valencia a Madrid para el próximo sábado por la mañana .
+M2: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 11 y 20 de la mañana y llega a las 2 y 55 de la tarde ¿ Desea algo más ?
+U2: (a E)l precio d(a e) los billetes , (dq por favor) .
+M4: Le consulto precios de Valencia a Madrid . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Alaris que cuesta 36 con 50 euros la ida y el más barato es un Regional que cuesta 18 con 80 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: No , (dc (lm gracias gracia)) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

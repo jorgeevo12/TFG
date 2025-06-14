@@ -1,0 +1,84 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Me gustaría conocer el horario de un tren de viaje de ida de Vitoria a Madrid para el tres de abril .
+Me gustaría conocer el horario de un tren de viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 12
+de Vitoria (U:Pregunta:Hora_salida:Origen) pal: 13 - 14
+a Madrid (U:Pregunta:Hora_salida:Destino) pal: 15 - 16
+para el tres de abril . (U:Pregunta:Hora_salida:Dia) pal: 17 - 22
+
+
+M2: ¿ A qué ciudad desea llegar ? .
+¿ A qué ciudad desea llegar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M3: Quiere horarios de trenes a madrid , ¿ desde vitoria ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde vitoria ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M4: ¿ Desea salir el martes , día 6 de abril de 2004 ? .
+¿ Desea salir el martes , día 6 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U4: No , el día tres de abril .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+el día tres de abril . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+
+M5: ¿ Desea salir el sábado , día 3 de abril de 2004 ? .
+¿ Desea salir el sábado , día 3 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M6: Le consulto horarios de trenes con salida en vitoria destino madrid saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en vitoria destino madrid saliendo el sábado , día 3 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 25 de la mañana y el último a las 6 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 25 de la mañana y el último a las 6 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U6: Sí , los trenes que lleguen antes de las ocho de la tarde .
+Sí , los trenes que lleguen antes de las ocho de la tarde . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 14
+
+
+M8: ¿ Quiere llegar entre las 0 de la noche y las 8 de la tarde ? .
+¿ Quiere llegar entre las 0 de la noche y las 8 de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 17
+
+
+U7: No , entre las siete y las ocho .
+No , (U:Negacion:Hora_llegada:Nil) pal: 1 - 2
+entre las siete y las ocho . (U:Respuesta:Hora_salida:Hora_llegada) pal: 3 - 9
+
+
+M9: Le consulto horarios de vitoria a madrid llegando el sábado , día 3 de abril de 2004 entre las 7 y las 8 de la tarde . Un momento por favor .
+Le consulto horarios de vitoria a madrid llegando el sábado , día 3 de abril de 2004 entre las 7 y las 8 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 27
+Un momento por favor . (M:Espera:Nil:Nil) pal: 28 - 32
+
+
+M10: El único tren que realiza el trayecto es un castilla_y_león_expres que sale a la una y 40 de la tarde y llega a las 7 y 12 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un castilla_y_león_expres que sale a la una y 40 de la tarde y llega a las 7 y 12 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+
+U8: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

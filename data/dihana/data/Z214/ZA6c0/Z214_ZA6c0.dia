@@ -1,0 +1,81 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Quiero viajar de Sevilla a Córdoba .
+Quiero viajar de Sevilla (U:Pregunta:Nil:Origen) pal: 1 - 4
+a Córdoba . (U:Pregunta:Nil:Destino) pal: 5 - 7
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+U3: El viernes .
+El viernes . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U4: El viernes .
+El viernes . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+
+
+M5: Le consulto horarios de trenes con salida en sevilla destino córdoba saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino córdoba saliendo el viernes , día 19 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M6: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 y 20 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 y 20 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+U5: Saber el tipo de tren .
+Saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 6
+
+
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U6: Tipo de tren .
+Tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 4
+
+
+
+M8: Hay varios tipos de trenes . El tren más rápido es un ave y el más lento es un andalucía_expres . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un ave y el más lento es un andalucía_expres . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

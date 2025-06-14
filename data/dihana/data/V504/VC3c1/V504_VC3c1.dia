@@ -1,0 +1,52 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Quiero el horario de los viajes de ida y vuelta a Mérida .
+Quiero el horario de los viajes de ida y vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 10
+a Mérida . (U:Pregunta:Hora_salida:Destino) pal: 11 - 13
+
+M3: ¿ Quiere viajar a mérida ? .
+¿ Quiere viajar a mérida ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El próximo jueves por la mañana .
+El próximo jueves (U:Respuesta:Dia:Dia) pal: 1 - 3
+por la mañana . (U:Respuesta:Hora_salida:Hora_salida) pal: 4 - 7
+
+M5: ¿ Desea salir el jueves , día 29 de abril de 2004 ? .
+¿ Desea salir el jueves , día 29 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M6: Le consulto horarios de trenes con salida en valencia destino mérida saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino mérida saliendo el jueves , día 29 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U6: Quiero saber el precio del primer tren .
+Quiero saber el precio del primer tren . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 8
+
+M8: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

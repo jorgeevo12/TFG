@@ -1,0 +1,74 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , quería saber los horarios de los trenes que salen de Albacete a Valencia el quince de agosto del dos mil cuatro .
+Hola , quería saber los horarios de los trenes que salen de Albacete (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+a Valencia (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+el quince de agosto del dos mil cuatro . (U:Pregunta:Hora_salida:Dia) pal: 16 - 24
+
+M2: ¿ Quiere viajar desde albacete ? .
+¿ Quiere viajar desde albacete ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Quince de agosto dos mil cuatro .
+Quince de agosto dos mil cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 7
+
+M4: ¿ Desea salir el domingo , día 15 de agosto de 2004 ? .
+¿ Desea salir el domingo , día 15 de agosto de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M5: Le consulto horarios de trenes con salida en albacete destino valencia saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en albacete destino valencia saliendo el domingo , día 15 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: Hay varios trenes . El primero sale a las 3 y 53 de la madrugada y llega a las 5 y 38 de la madrugada y el último sale a las 10 y 19 de la noche y llega a las 11 y 45 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 53 de la madrugada y llega a las 5 y 38 de la madrugada y el último sale a las 10 y 19 de la noche y llega a las 11 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U5: Sí , el tipo de tren que sea talgo .
+Sí , el tipo de tren que sea talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 10
+
+M7: ¿ Desea hacer el viaje en un talgo ? .
+¿ Desea hacer el viaje en un talgo ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+U6: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+M8: Le consulto horarios de trenes con salida en albacete destino valencia saliendo el domingo , día 15 de agosto de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en albacete destino valencia saliendo el domingo , día 15 de agosto de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U7: , viajar en cualquier tren .
+, viajar en cualquier tren . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 6
+
+M10: Le consulto horarios de trenes con salida en albacete destino valencia saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en albacete destino valencia saliendo el domingo , día 15 de agosto de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M11: Hay varios trenes . El primero sale a las 3 y 53 de la madrugada y llega a las 5 y 38 de la madrugada y el último sale a las 10 y 19 de la noche y llega a las 11 y 45 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 53 de la madrugada y llega a las 5 y 38 de la madrugada y el último sale a las 10 y 19 de la noche y llega a las 11 y 45 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U8: Sí , quisiera saber el precio del tren que sale a las diez y diecinueve .
+Sí , quisiera saber el precio del tren que sale a las diez y diecinueve . (U:Pregunta:Precio:Hora_salida) pal: 1 - 16
+
+M12: El precio de ese tren en clase turista es 21 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 21 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

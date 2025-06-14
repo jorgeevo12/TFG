@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fm) (do Buenas) , me gustaría conocer los horarios de trenes que van d(a e) Bilbao a Valencia .
+M2: ¿ Qué día desea salir ?
+U2: Dieciocho de marzo a partir de l(a a)s seis de la tarde .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Dieciocho de marzo .
+M4: ¿ Desea salir el jueves , día 18 de marzo de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Valencia saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí .
+M7: ¿ Quiere llegar a Valencia ?
+U6: Sí .
+M8: ¿ Desea salir el jueves , día 18 de marzo de 2004 ?
+U7: Sí .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Valencia saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí .
+M11: Un momento por favor .
+M12: Si ¿ Desea algo más ?
+U9: Quiero saber el horario de trenes d(a e) Bilbao a Barcelona (p) el dieciocho de marzo .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Horario de trenes de Bilbao a Barcelona .
+M14: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+M15: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U11: Sí ¿ cuál es el precio ?
+M16: Le consulto precios . Un momento por favor .
+M17: Sólo hay dos trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 34 euros la ida y el otro es un pío_baroja que cuesta 30 con 10 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: No .
+M18: Gracias por utilizar este servicio . Feliz viaje .

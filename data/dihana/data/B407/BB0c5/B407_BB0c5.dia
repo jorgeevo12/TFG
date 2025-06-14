@@ -1,0 +1,79 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría hacer un viaje de Bilbao a Madrid el quince de mayo .
+Me gustaría hacer un viaje de Bilbao (U:Pregunta:Nil:Origen) pal: 1 - 7
+a Madrid (U:Pregunta:Nil:Destino) pal: 8 - 9
+el quince de mayo . (U:Pregunta:Nil:Dia) pal: 10 - 14
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ Quiere salir desde vigo ? .
+¿ Quiere salir desde vigo ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U3: No , desde Bilbao .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Me gustaría salir el quince de mayo a primera hora de la mañana .
+Me gustaría salir el quince de mayo (U:Respuesta:Dia:Dia) pal: 1 - 7
+a primera hora de la mañana . (U:Respuesta:Hora_salida:Hora_salida) pal: 8 - 14
+
+M6: ¿ Quiere salir entre las 7 y las 8 de la mañana ? .
+¿ Quiere salir entre las 7 y las 8 de la mañana ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 14
+
+U6: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M7: Le consulto horarios de bilbao a madrid el sábado , día 15 de mayo de 2004 entre las 7 y las 8 de la mañana . Un momento por favor .
+Le consulto horarios de bilbao a madrid el sábado , día 15 de mayo de 2004 entre las 7 y las 8 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U7: Sí , ¿ hay algún tren que salga el día catorce a la noche ? .
+Sí , ¿ hay algún tren que salga el día catorce (U:Pregunta:Hora_salida:Dia) pal: 1 - 11
+a la noche ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 12 - 16
+
+M9: Le consulto horarios de bilbao a madrid el viernes , día 14 de mayo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+Le consulto horarios de bilbao a madrid el viernes , día 14 de mayo de 2004 entre las 9 de la noche y las 5 de la madrugada . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M10: El único tren que realiza el trayecto es un costa_vasca que sale a las 11 y 5 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un costa_vasca que sale a las 11 y 5 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U8: Sí , ¿ cuál es el precio del billete de ida ? .
+Sí , ¿ cuál es el precio del billete de ida ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+
+M11: El único tren que realiza el trayecto es un costa_vasca y su precio en clase turista es 26 con 25 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un costa_vasca y su precio en clase turista es 26 con 25 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U9: Sí , me gustaría saber a qué hora llega a Madrid este tren .
+Sí , me gustaría saber a qué hora llega a Madrid este tren . (U:Pregunta:Hora_llegada:Destino) pal: 1 - 14
+
+M12: Ese tren sale a las 11 y 5 de la noche y llega a las 7 y 35 de la mañana . Desea algo más ? .
+Ese tren sale a las 11 y 5 de la noche y llega a las 7 y 35 de la mañana . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+U10: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

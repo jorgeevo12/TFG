@@ -1,0 +1,52 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Buenos días , desearía pasar este fin de semana en Alicante salir desde Zaragoza querría ir en un tren rápido y cómodo , viajar en clase preferente , y querría saber tanto los precios como los horarios .
+Buenos días , desearía pasar este fin de semana en Alicante (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 11
+salir desde Zaragoza (U:Pregunta:Hora_salida,Precio:Origen) pal: 12 - 14
+querría ir en un tren rápido y cómodo , (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 15 - 23
+viajar en clase preferente , y querría saber tanto los precios como los horarios . (U:Pregunta:Hora_salida,Precio:Clase_billete) pal: 24 - 38
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: Quiero ir a Alicante .
+Quiero ir a Alicante . (U:Respuesta:Destino:Destino) pal: 1 - 5
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: El próximo fin de semana .
+El próximo fin de semana . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino alicante saliendo el sábado , día 8 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino alicante saliendo el sábado , día 8 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M5: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U4: Sí , quisiera saber cuál es el precio en clase preferente .
+Sí , quisiera saber cuál es el precio en clase preferente . (U:Pregunta:Precio:Clase_billete) pal: 1 - 12
+
+
+M6: El precio de ese tren en clase preferente es 44 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase preferente es 44 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+U5: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

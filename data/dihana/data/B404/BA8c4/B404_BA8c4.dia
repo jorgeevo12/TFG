@@ -1,0 +1,170 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+
+U1: Quisiera coger un tren por mañana a la mañana hacia Tarragona desde Barcelona y quisiera saber , pues a que horarios puedo acceder o qué tipo de tren .
+Quisiera coger un tren por mañana (U:Pregunta:Hora_salida,Tipo_tren:Dia) pal: 1 - 6
+a la mañana (U:Pregunta:Hora_salida,Tipo_tren:Hora_salida) pal: 7 - 9
+hacia Tarragona (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 10 - 11
+desde Barcelona y quisiera saber , pues a que horarios puedo acceder o qué tipo de tren . (U:Pregunta:Hora_salida,Tipo_tren:Origen) pal: 12 - 29
+
+
+
+
+
+M2: ¿ Desea salir el sábado , día 13 de marzo de 2004 ? .
+¿ Desea salir el sábado , día 13 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+
+
+U2: Sí , por la mañana .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+por la mañana . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 6
+
+
+
+
+
+M3: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? .
+¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+
+
+
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+
+
+M4: Le consulto horarios de barcelona a tarragona el sábado , día 13 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de barcelona a tarragona el sábado , día 13 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+
+
+
+M5: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 12 y 46 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 12 y 46 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+
+
+U4: Sí , el tipo de tren en el que tengo que ir .
+Sí , el tipo de tren en el que tengo que ir . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 13
+
+
+
+
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+U5: El tipo de tren .
+El tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 5
+
+
+
+
+
+M7: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+
+
+
+
+M8: Hay varios tipos de trenes . El tren más rápido es un euromed y el más lento es un regional . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un euromed y el más lento es un regional . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+
+
+U6: Sí , ¿ cómo ha dicho los tipos de trenes , regional y ? .
+Sí , ¿ cómo ha dicho los tipos de trenes , regional y ? . (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 15
+
+
+
+
+
+M9: Le consulto tipos de trenes para el trayecto barcelona a tarragona . Un momento por favor .
+Le consulto tipos de trenes para el trayecto barcelona a tarragona . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+
+
+
+M10: Hay varios tipos de trenes . El tren más rápido es un euromed y el más lento es un regional . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un euromed y el más lento es un regional . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+
+
+U7: Sí , ¿ el de las doce y cuarenta que es un rápido ? .
+Sí , ¿ el de las doce y cuarenta (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 9
+que es un rápido ? . (U:Pregunta:Tipo_tren:Tipo_tren) pal: 10 - 15
+
+
+
+
+
+M11: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+
+
+
+U8: Quiero saber , a ver si el tren rápido el euromedia es el del mediodía , el de las doce y cuarenta .
+Quiero saber , a ver si el tren rápido el euromedia (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 11
+es el del mediodía , el de las doce y cuarenta . (U:Pregunta:Tipo_tren:Hora_salida) pal: 12 - 23
+
+
+
+
+
+M12: Le consulto horarios de barcelona a tarragona el sábado , día 13 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde en euromed . Un momento por favor .
+Le consulto horarios de barcelona a tarragona el sábado , día 13 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 31
+Un momento por favor . (M:Espera:Nil:Nil) pal: 32 - 36
+
+
+
+
+
+M13: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+
+
+
+
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+
+
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

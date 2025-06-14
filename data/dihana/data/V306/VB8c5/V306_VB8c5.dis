@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , desearía saber precios (p) de (lm Valladolid Valladolit) a Vigo .
+M2: ¿ Qué día desea salir ?
+U2: (nl) El uno de julio .
+M3: ¿ Desea salir el jueves , día 1 de julio de 2004 ?
+U3: (nl) Sí , y con un tren rápido si es posible .
+M4: Le consulto precios de Valladolid a Vigo . Un momento por favor .
+M5: Con llegada el jueves , día 1 de julio de 2004 hay varios trenes . En clase turista , el tren más rápido es un Intercity que cuesta 40 con 50 euros la ida y el más lento es un Tren_Hotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

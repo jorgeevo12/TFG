@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero obtener (p) los horarios y los precios (p) (fe) de los trenes que (p) salen de Murcia (p) y llegan a Valencia .
+M2: Quiere horarios de trenes a Valencia ¿ desde Murcia ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El próximo sábado (p) (nw) por la mañana .
+M4: ¿ Desea salir el sábado , día 21 de febrero de 2004 ?
+U4: Por la mañana .
+M5: Le consulto horarios de Murcia a Valencia el sábado , día 21 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y el último a las 9 y 45 de la mañana ¿ Desea algo más ?
+U5: Sí (p) , el precio .
+M7: Le consulto precios de Murcia a Valencia . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un mare_nostrum que cuesta 24 con 50 euros la ida y el más barato es un Regional_expres que cuesta 14 con 40 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

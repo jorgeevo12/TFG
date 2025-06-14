@@ -1,0 +1,67 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Me gustaría saber el precio del billete a Teruel en talgo saliendo el próximo sábado .
+Me gustaría saber el precio del billete a Teruel (U:Pregunta:Precio:Destino) pal: 1 - 9
+en talgo (U:Pregunta:Precio:Tipo_tren) pal: 10 - 11
+saliendo el próximo sábado . (U:Pregunta:Precio:Dia) pal: 12 - 16
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: A Teruel .
+A Teruel . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M3: Quiere saber el precio a teruel , ¿ desde bilbao ? .
+Quiere saber el precio a teruel , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U3: Sí , y a ser posible viajando en talgo .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+y a ser posible viajando en talgo . (U:Respuesta:Precio:Tipo_tren) pal: 3 - 10
+
+
+M4: Le consulto precios de bilbao a teruel en tipo tren talgo . Un momento por favor .
+Le consulto precios de bilbao a teruel en tipo tren talgo . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M5: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+U4: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+M6: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+U5: Sí , ¿ es posible viajar el próximo sábado en talgo ? .
+Sí , ¿ es posible viajar el próximo sábado (U:Pregunta:Precio:Dia) pal: 1 - 9
+en talgo ? . (U:Pregunta:Precio:Tipo_tren) pal: 10 - 13
+
+
+M7: Le consulto precios de bilbao a teruel saliendo el sábado , día 21 de febrero de 2004 . Un momento por favor .
+Le consulto precios de bilbao a teruel saliendo el sábado , día 21 de febrero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M8: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

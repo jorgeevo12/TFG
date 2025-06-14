@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería saber los horarios (p) para trenes a Barcelona .
+M3: ¿ Quiere viajar a Barcelona ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: Veintidós de febrero .
+M5: ¿ Desea salir el domingo , día 22 de febrero de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el domingo , día 22 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 45 de la tarde ¿ Desea algo más ?
+U6: Sí (p) , quería saber (p) los que llegaban antes de las diecinueve horas .
+M8: Perdón . No consigo entenderle .
+U7: (nw) Quería saber los que llegaban antes de las diecinueve horas .
+M9: Le consulto horarios . Un momento por favor .
+M10: Hay varios trenes . El primero llega a las 9 y 50 de la mañana y el último a las 6 y 42 de la tarde ¿ Desea algo más ?
+U8: Sí , quería saber el precio del segundo (nw) .
+M11: Puede repetir de manera clara lo último que ha dicho , por favor .
+U9: Quería saber el precio del segundo .
+M12: El precio de ese tren en clase turista es 33 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: No , (dc gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría obtener el precio (p) de billetes de tren y el horario (p) para un viaje de ida y vuelta (p) desde Barcelona a Valencia (nw) .
+M2: ¿ Qué día desea salir ?
+U2: Me gustarí(a a) llegar a Valencia (p) el diecisiete de marzo entr(a e) las diez y las once (p) de la mañana .
+M3: ¿ Desea llegar el jueves , día 17 de marzo de 2005 ?
+U3: Sí .
+M4: Le consulto horarios de Barcelona a Valencia llegando el jueves , día 17 de marzo de 2005 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 8 y 30 de la tarde y llega a las 11 y 20 de la noche ¿ Desea algo más ?
+U4: (na) (fe) Sí (p) me gustaría saber si hay algún tren que llegu(a e) (p) entre las diez y las once la mañana .
+M6: Le consulto horarios de Barcelona a Valencia llegando el jueves , día 17 de marzo de 2005 entre las 10 y las 11 de la mañana . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (fe) Quisiera un viaje de ida y vuelta .
+M8: ¿ Puede repetir su consulta ?
+U6: Me gustaría preguntar (nw) por un viaje de ida y (rr (m de (lu vuelta vuel)) (s (a y)) (c de vuelta)) .
+M9: ¿ Quiere saber horarios ?
+U7: Sí , horarios y precio .
+M10: Le consulto horarios de Valencia a Barcelona llegando el jueves , día 17 de marzo de 2005 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U8: Me gustarí(a a) saber el precio de ese viaje (nw) .
+M12: Le consulto precios de Valencia a Barcelona . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 33 con 50 euros la ida y el más barato es un Regional_expres que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: (fe) No , (dc muchas gracias) (na) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

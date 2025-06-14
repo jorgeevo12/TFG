@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera saber el preci(a o) del billete (p) (na) de un tren que vaya de Teruel a Salamanca .
+M2: ¿ Qué día desea salir ?
+U2: Del doce al trece de julio .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (nl) Del doce al trece de julio .
+M4: ¿ Desea salir el lunes , día 12 de julio de 2004 ?
+U4: (nl) Sí , (dc gracias) .
+M5: Le consulto precios de Teruel a Salamanca saliendo el lunes , día 12 de julio de 2004 . Un momento por favor .
+M6: Hay varios trenes con salida el lunes , día 12 de julio de 2004 . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (na) Sí , querría viajar con un Alaris .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: (nl) Me gustaría viajar en un Alaris .
+M8: ¿ Desea hacer el viaje en un Alaris ?
+U7: (nl) Sí (nw) .
+M9: Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , me gustarí(a a) salir (rs (m de las) (c desde las)) cuatro de la tarde a las seis de la tarde .
+M11: Le consulto precios de Teruel a Salamanca . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: (nl) No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

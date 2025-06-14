@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera (fb) (fe) saber el horario y el precio para un viaje de ida a Barcelona (p) , para ver un(a a) obra de teatro , (nw) y quisiera ir el doce (nw) de agosto de dos mil cuatro y llegar antes de las ocho de la tarde .
+M2: ¿ Quiere salir desde Barcelona ?
+U2: No , (nw quiero salir desde) Bilbao .
+M3: ¿ Quiere salir entre las 7 de la tarde y las 9 de la noche ?
+U3: (fe) No , si es posible antes .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Barcelona .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el jueves , día 12 de agosto de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana y llega a las 6 y 50 de la tarde ¿ Desea algo más ?
+U5: Sí , quería saber el precio .
+M7: El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

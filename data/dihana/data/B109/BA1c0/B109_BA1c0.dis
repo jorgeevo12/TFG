@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el horario para ir al aeropuerto de Madrid (p) el dí(a a) (p) diecinueve de febrero (nw) .
+M2: ¿ Quiere saber horarios ?
+U2: (a S)í .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el jueves , día 19 de febrero de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U3: (na) (fe) Sí , quier(a o) saber el horario de los trenes el viernes (na) .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U4: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

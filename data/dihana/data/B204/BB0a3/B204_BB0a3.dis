@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , me gustaría saber los horarios y los precios para ir (rs (m (a a) (lm Valencia Vade)) (c a Valencia)) .
+M2: ¿ Quiere salir desde Valencia ?
+U2: No , quiero ir a Valencia desde Bilbao .
+M3: ¿ Qué día desea salir ?
+U3: (fe) A finales de este mes .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: A finales de este mes .
+M5: ¿ Desea salir el domingo , día 29 de febrero de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Valencia saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (nl) Sí ¿ el viernes veintisiete hay alguno ?
+M8: Le consulto horarios de trenes con salida en Bilbao destino Valencia saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí , (df mira) a ver el uno de marzo (na) .
+M10: Le consulto horarios de trenes con salida en Bilbao destino Valencia saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: ¿ La semana que viene hay algún tren ? (nw) .
+M12: Le consulto horarios . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: No .
+M14: Gracias por utilizar este servicio . Feliz viaje .

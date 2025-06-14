@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quiero viajar el seis de noviembre de Zaragoza a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Desea salir el domingo , día 7 de noviembre de 2004 ?
+U3: (na) No , quiero estar en Barcelona el seis de noviembre .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 6 de noviembre de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: (na) Sí , me gustaría viajar en Talgo .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el sábado , día 6 de noviembre de 2004 en Talgo . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 50 de la mañana y el último a las 6 y 46 de la tarde ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

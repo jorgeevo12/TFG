@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) (df mira) , querría saber el horario del tren (p) para ir desde Cáceres a Badajoz el próximo jueves (p) (a y) que se(a a) para ir (p) (a y) (p) para viajar en un tren .
+M2: ¿ Quiere salir desde Zaragoza ?
+U2: No , quiero salir desde Cáceres .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Badajoz .
+M4: Quiere horarios de trenes a Badajoz ¿ desde Cáceres ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El próximo jueves .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: El próximo jueves .
+M7: Le consulto horarios de trenes con salida en Cáceres destino Badajoz saliendo el jueves , día 11 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 11 y 55 de la mañana y el último a las 6 y 59 de la tarde ¿ Desea algo más ?
+U7: A poder ser que sea .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Quisiera (rr (m (lm viajar vaja)) (c viajar)) en un tren Regional .
+M10: ¿ Desea hacer el viaje en un Regional ?
+U9: Sí .
+M11: Le consulto horarios de trenes con salida en Cáceres destino Badajoz saliendo el jueves , día 11 de marzo de 2004 en Regional . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Regional que sale a la una y 44 de la tarde ¿ Desea algo más ?
+U10: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

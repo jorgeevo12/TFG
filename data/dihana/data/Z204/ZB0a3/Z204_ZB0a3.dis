@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el horario para ir a Salamanca .
+M2: ¿ Quiere viajar desde Salamanca ?
+U2: No , quiero viajar desde Zaragoza a Salamanca .
+M3: ¿ Qué día desea salir ?
+U3: (na) La última semana del (nw mes) de febrero .
+M4: ¿ Desea salir el viernes , día 20 de febrero de 2004 ?
+U4: (nw) No , e(a l) veintiocho de febrero (nw) .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Salamanca saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un pío_baroja que sale a las 2 y 30 de la madrugada ¿ Desea algo más ?
+U5: Quiero saber el precio .
+M7: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

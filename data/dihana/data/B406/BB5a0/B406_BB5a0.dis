@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (df Mire) , querí(a a) (p) (fe) información de horari(a o) y precio (p) para viajar de Málaga a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: El día veintiséis de marzo .
+M3: ¿ Desea salir el sábado , día 27 de marzo de 2004 ?
+U3: (fe) No , el día veintiséis de marzo .
+M4: Le consulto horarios de trenes con salida en Málaga destino Barcelona saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: (na) (fe) Sí , querría saber (fe) qué tipo de tren es cada uno de ellos .
+M6: Le consulto tipos de tren . Un momento por favor .
+M7: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U5: (fe) Sí , cuál es (rr (m e(a l)) (c el)) horario del Intercity .
+M8: El segundo tren es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U6: (fe) No , nada más , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

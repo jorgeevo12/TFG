@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do Buenas tardes) (p) me gustarí(a a) saber el horario y el precio (p) d(a e) los trenes (p) que van (rr (m desd(a e) (lu Bilbao Bi)) (c desde Bilbao)) a Valladolid (p) solo viaje de ida .
+M2: Quiere horarios de trenes a Oviedo ¿ desde Bilbao ?
+U2: (fe) No , he preguntado p(a o)r trenes a Valladolid .
+M3: ¿ Quiere llegar a Valladolid ?
+U3: (fe) Sí (p) , a poder ser el primer sábado de mayo .
+M4: ¿ Desea salir el sábado , día 1 de mayo de 2004 ?
+U4: No (fb) (p) . (fe) Sí me gustaría llegar el sábado , salir y llegar el sábado .
+M5: Le consulto horarios de Bilbao a Valladolid llegando el sábado , día 1 de mayo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Diurno que sale a las 2 y 5 de la tarde ¿ Desea algo más ?
+U5: (fb) ¿ No tiene ningún (lm otro oto) tren ?
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Si no hay ningún otro tren que salga el sábado .
+M8: Le consulto horarios de trenes con salida en Bilbao destino Valladolid saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Diurno que sale a las 2 y 5 de la tarde ¿ Desea algo más ?
+U7: (fe) Me gustaría saber (a e)l precio de ese tren .
+M10: El precio de ese tren en clase turista es 19 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: (fe) No , (dc muchas gracias) (nw) . (p) No , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

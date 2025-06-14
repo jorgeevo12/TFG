@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Obtener el horario de Valencia a Madrid el siete de junio .
+Obtener el horario de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 5
+a Madrid (U:Pregunta:Hora_salida:Destino) pal: 6 - 7
+el siete de junio . (U:Pregunta:Hora_salida:Dia) pal: 8 - 12
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M3: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el lunes , día 7 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el lunes , día 7 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M4: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U3: Sí , ¿ el primero qué tipo de tren es ? .
+Sí , ¿ el primero qué tipo de tren es ? . (U:Pregunta:Tipo_tren:Numero_relativo_orden) pal: 1 - 12
+M5: El primer tren es un alaris . Desea algo más ? .
+El primer tren es un alaris . (M:Respuesta:Tipo_tren:Numero_relativo_orden,Tipo_tren) pal: 1 - 7
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 8 - 12
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

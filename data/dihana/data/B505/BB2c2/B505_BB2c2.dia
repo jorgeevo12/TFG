@@ -1,0 +1,193 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+
+U1: Buenos días , mire , necesito un viaje de ida a La_Coruña entonces tengo que salir de Bilbao y además lo necesito para el próximo jueves además me gustaría como es un asunto de trabajo si es posible me gustaría que fuera en un talgo por favor .
+Buenos días , mire , necesito un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 10
+a La_Coruña (U:Pregunta:Nil:Destino) pal: 11 - 12
+entonces tengo que salir de Bilbao (U:Pregunta:Nil:Origen) pal: 13 - 18
+y además lo necesito para el próximo jueves (U:Pregunta:Nil:Dia) pal: 19 - 26
+además me gustaría como es un asunto de trabajo si es posible me gustaría que fuera en un talgo por favor . (U:Pregunta:Nil:Tipo_tren) pal: 27 - 48
+
+
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+
+
+U2: Horarios y no sólo horarios , el precio también por favor .
+Horarios y no sólo horarios , el precio también por favor . (U:Pregunta:Hora_salida,Precio:Nil) pal: 1 - 12
+
+
+
+
+
+M3: ¿ Desea salir el jueves , día 1 de abril de 2004 ? .
+¿ Desea salir el jueves , día 1 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+
+
+M4: Le consulto horarios de trenes con salida en bilbao destino la_coruña saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino la_coruña saliendo el jueves , día 1 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+M5: El único tren que realiza el trayecto es un diurno que sale a las 9 y 25 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno que sale a las 9 y 25 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+
+
+U4: Sí , quiero saber si ese diurno es un talgo o no , porque a mí me gustaría ir en talgo .
+Sí , quiero saber si ese diurno es un talgo o no , porque a mí me gustaría ir en talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 22
+
+
+
+
+
+M6: ¿ Desea hacer el viaje en un talgo ? .
+¿ Desea hacer el viaje en un talgo ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+
+
+
+U5: Sí , eso es lo que le estoy diciendo señora .
+Sí , eso es lo que le estoy diciendo señora . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 11
+
+
+
+
+
+M7: Le consulto horarios de trenes con salida en bilbao destino la_coruña saliendo el jueves , día 1 de abril de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino la_coruña saliendo el jueves , día 1 de abril de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+
+U6: Bueno , pues dígame cuál es el otro tren que parte de Bilbao para La_Coruña .
+Bueno , pues dígame cuál es el otro tren que parte de Bilbao (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+para La_Coruña . (U:Pregunta:Hora_salida:Destino) pal: 14 - 16
+
+
+
+
+
+M9: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+
+
+
+
+M10: El único tren que realiza el trayecto es un diurno . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno . (M:Respuesta:Hora_salida:Numero_trenes,Tipo_tren) pal: 1 - 11
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 12 - 16
+
+
+
+
+
+U7: Quisiera saber cuál es el horario de ese diurno , a qué hora sale de Bilbao y a qué hora llega a La_Coruña y cuál es el precio .
+Quisiera saber cuál es el horario de ese diurno (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 1 - 9
+, a qué hora sale de Bilbao (U:Pregunta:Hora_salida,Precio:Origen) pal: 10 - 16
+y a qué hora llega a La_Coruña y cuál es el precio . (U:Pregunta:Hora_salida,Precio:Destino) pal: 17 - 28
+
+
+
+
+
+M11: Ese tren sale a las 9 y 25 de la mañana y llega a las 9 y 18 de la noche . Desea algo más ? .
+Ese tren sale a las 9 y 25 de la mañana y llega a las 9 y 18 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+U8: Sí , deseo saber cuál es el precio del viaje de ida de ese tren .
+Sí , deseo saber cuál es el precio del viaje de ida de ese tren . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 16
+
+
+
+
+
+M12: El precio de ese tren en clase turista es 36 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 36 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+
+
+
+U9: sí cuál es el precio en clase preferente .
+sí cuál es el precio en clase preferente . (U:Pregunta:Precio:Clase_billete) pal: 1 - 9
+
+
+
+
+
+M13: Ese tren dispone de clase turista . Desea algo más ? .
+Ese tren dispone de clase turista . (M:Respuesta:Clase_billete:Clase_billete) pal: 1 - 7
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 8 - 12
+
+
+
+
+
+U10: , o sea , ¿ me está diciendo que no dispone de clase preferente ? .
+, o sea , ¿ me está diciendo que no dispone de clase preferente ? . (U:Pregunta:Precio:Clase_billete) pal: 1 - 16
+
+
+
+
+
+M14: Si . Desea algo más ? .
+Si . (M:Respuesta:Clase_billete:Nil) pal: 1 - 2
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 3 - 7
+
+
+
+
+
+U11: No me ha respondido , ¡ ah ! sí , gracias .
+No me ha respondido , ¡ ah ! sí , gracias . (U:Cierre:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

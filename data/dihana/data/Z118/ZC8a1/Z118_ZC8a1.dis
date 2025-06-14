@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw (do Buenas tardes) , quisiera hacer un viaje de Logroño a Salamanca (p) ida y vuelta) .
+M2: Perdón . No consigo entenderle .
+U2: (nw) .
+M3: ¿ Quiere saber horarios ?
+U3: Quiero obtener el precio .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A Salamanca .
+M5: ¿ Qué día desea salir ?
+U5: Quisiera salir el siete de marzo .
+M6: Quiere saber el precio a Salamanca ¿ desde Zaragoza ?
+U6: No , desde Logroño .
+M7: Le consulto precios de Logroño a Salamanca saliendo el domingo , día 7 de marzo de 2004 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Miguel_de_Unamuno y su precio en clase turista es 25 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: El regreso sería el catorce de marzo .
+M9: ¿ Quiere saber horarios ?
+U8: No quiero saber el precio (p) de ida vuelta .
+M10: Le consulto precios de Salamanca a Logroño saliendo el domingo , día 14 de marzo de 2004 . Un momento por favor .
+M11: Sólo hay dos trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 25 euros la ida y el otro es un pío_baroja que cuesta 24 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Me gustaría viajar en u(a n) (p) Regional .
+M12: Le consulto precios de Salamanca a Logroño en tipo tren Regional . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: Sí , quisiera cambiar el tipo de tren .
+M14: Un momento por favor .
+M15: Sólo hay dos trenes . En clase turista , el tren más caro es un Miguel_de_Unamuno que cuesta 25 euros la ida y el otro es un pío_baroja que cuesta 24 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: (df Pues) yo creo que ya está , (dc muchas gracias) (nw) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

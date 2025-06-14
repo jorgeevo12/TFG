@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el horario d(a e) un tren , (na) (ri (m destino) (s (de perdón)) (c salida en Zaragoza destino)) Barcelona (na) (p) que quiero llegar el próximo jueves .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (na) A Barcelona .
+M3: ¿ Qué día desea salir ?
+U3: (na) El próximo jueves .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (na) El próximo jueves .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el jueves , día 22 de abril de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U5: (nl) ¿ Qué horario hay próximo a las diez de la mañana ? (p) entre las diez y las doce .
+M7: Le consulto horarios de Zaragoza a Barcelona el jueves , día 22 de abril de 2004 entre las 10 y las 12 de la mañana . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Talgo que sale a las 10 de la mañana ¿ Desea algo más ?
+U6: (nl) ¿ Me puedes dar el precio ?
+M9: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: N(a o) , (dc muchas gracias) (nw) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

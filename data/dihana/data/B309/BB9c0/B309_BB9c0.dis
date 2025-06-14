@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , qu(a i)siera saber el precio (p) para ir de Alicante a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: (df Pues) yo querría llegar el día veinte de junio antes de las veintidós treinta (p) y además (rr (m en (a e)l) (c en el)) Euromed si es posible .
+M3: ¿ Quiere llegar entre las 0 y las 10 de la noche ?
+U3: No , después .
+M4: ¿ Quiere llegar entre las 10 y las 11 de la noche ?
+U4: No , quiero llegar antes de las diez y media de la noche .
+M5: ¿ Quiere llegar entre las 0 y las 10 y 30 de la noche ?
+U5: Sí , en un Euromed .
+M6: ¿ Qué día desea llegar ?
+U6: Deseo llegar el día veinte de junio .
+M7: Le consulto precios de Alicante a Barcelona en tipo tren Euromed . Un momento por favor .
+M8: Los trenes son Euromed y en clase turista , el billete cuesta 43 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (fm) No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

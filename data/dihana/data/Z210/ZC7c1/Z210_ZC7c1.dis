@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera obtener el precio de un viaje a Cádiz .
+M2: ¿ Quiere saber horarios ?
+U2: (na) No , el precio (na) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Cádiz .
+M4: ¿ Qué día desea salir ?
+U4: El cinco de diciembre .
+M5: ¿ Desea salir el miércoles , día 18 de febrero de 2004 ?
+U5: No , el cinco de diciembre .
+M6: Quiere saber el precio a Cádiz ¿ desde Zaragoza ?
+U6: Sí (na) .
+M7: Le consulto precios . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Triana y su precio en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , obtener el precio del viaje de vuelta .
+M9: ¿ Desea salir el domingo , día 5 de diciembre de 2004 ?
+U8: No , el ocho de diciembre .
+M10: Le consulto precios de Cádiz a Zaragoza saliendo el miércoles , día 8 de diciembre de 2004 . Un momento por favor .
+M11: El único tren que realiza el trayecto es un extremadura y su precio en clase turista es 60 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

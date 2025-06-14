@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do (lm Hola hala) buenos días) , quisiera obtener el horario .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A (lm Madrid Madrí) .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quiero viajar a (lm Madrid Madrí) .
+M4: ¿ Qué día desea salir ?
+U4: El día dieciséis de marzo .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: (dc (lu Muchas mucha) gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

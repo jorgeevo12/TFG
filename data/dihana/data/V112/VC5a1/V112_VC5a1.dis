@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) Quiero saber el horario de (a u)n viaje de ida y vuelta de Valencia a La_Coruña .
+M2: ¿ Qué día desea salir ?
+U2: El viernes .
+M3: ¿ Desea salir el viernes , día 12 de marzo de 2004 ?
+U3: Sí , (dq por favor) .
+M4: Le consulto horarios de trenes con salida en Valencia destino La_Coruña saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U4: Quiero salir a las once de la noche .
+M6: Le consulto horarios de Valencia a La_Coruña el viernes , día 12 de marzo de 2004 entre las 10 y las 0 de la noche . Un momento por favor .
+M7: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la mañana y el otro sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U5: Sí , quiero saber el precio .
+M8: Le consulto precios de Valencia a La_Coruña . Un momento por favor .
+M9: Sólo hay dos trenes . En clase turista , el tren más caro es un Tren_Hotel que cuesta 40 con 50 euros la ida y el otro es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , quiero billete de ida y vuelta .
+M10: ¿ Me pregunta por horarios ?
+U7: No , le pregunto por precios .
+M11: Le consulto precios de La_Coruña a Valencia . Un momento por favor .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Quiero (p) ida y vuelta .
+M13: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Quiero horarios de ida y vuelta (nw) .
+M14: Perdón . No consigo entenderle .
+U10: (nw No sé qué me ha dicho) .
+M15: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: Al día siguiente .
+M16: Le consulto precios de La_Coruña a Valencia saliendo el sábado , día 13 de marzo de 2004 . Un momento por favor .
+M17: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Este es el precio de ida y vuelta ¿ Desea algo más ?
+U12: No , (dc gracias) .
+M18: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,98 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenos días . Me gustaría preguntar sobre horarios de trenes con destino a $C_DESTINO .
+Hola buenos días . Me gustaría preguntar sobre horarios de trenes con destino a $C_DESTINO . (U:Pregunta:Hora_salida:Destino) pal: 1 - 16
+
+
+M2: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+U2: ¿ $FECHA $HORA ? .
+¿ $FECHA (U:Pregunta:Hora_salida:Dia) pal: 1 - 2
+$HORA ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 3 - 7
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U2: ¿ $FECHA $HORA ? .
+¿ $FECHA (U:Respuesta:Hora_salida:Dia) pal: 1 - 2
+$HORA ? . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 7
+
+
+M4: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M5: Hay varios trenes . El $NRORDEN sale a las $HSAL y llega a las $HLLEG y el $NRORDEN sale a las $HSAL y llega a las $HLLEG . Desea algo más ? .
+Hay varios trenes . El $NRORDEN sale a las $HSAL y llega a las $HLLEG y el $NRORDEN sale a las $HSAL y llega a las $HLLEG . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+U3: Desearía saber el precio y el tipo de tren de estos dos horarios que me has dado .
+Desearía saber el precio y el tipo de tren de estos dos horarios que me has dado . (U:Pregunta:Precio,Tipo_tren:Nil) pal: 1 - 18
+
+
+M6: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M7: Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+U4: Sí , ¿ no hay otro tipo de tren que haga la misma ruta ? .
+Sí , ¿ no hay otro tipo de tren que haga la misma ruta ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 16
+
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U5: ¡ Ay ! .
+¡ Ay ! . (U:Indefinida:Nil:Nil) pal: 1 - 4
+
+
+M9: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+
+
+U6: Pregunto , que si hay otro tipo de tren que no sea $T_TREN que haga el $CIUDAD $CIUDAD .
+Pregunto , que si hay otro tipo de tren que no sea $T_TREN (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 13
+que haga el $CIUDAD (U:Pregunta:Tipo_tren:Origen) pal: 14 - 17
+$CIUDAD . (U:Pregunta:Tipo_tren:Destino) pal: 18 - 19
+
+
+M10: ¿ Me pregunta por tipos de trenes ? .
+¿ Me pregunta por tipos de trenes ? . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 9
+
+
+U7: Sí , que hagan el $CIUDAD $CIUDAD .
+Sí , (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+que hagan el $CIUDAD (U:Respuesta:Tipo_tren:Origen) pal: 3 - 6
+$CIUDAD . (U:Respuesta:Tipo_tren:Destino) pal: 7 - 8
+
+
+M11: Le consulto tipos de trenes para el trayecto $C_ORIGEN a $C_DESTINO . Un momento por favor .
+Le consulto tipos de trenes para el trayecto $C_ORIGEN a $C_DESTINO . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 16
+
+
+M12: Hay un único tipo de tren , que es un $T_TREN . Desea algo más ? .
+Hay un único tipo de tren , que es un $T_TREN . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 12
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 13 - 17
+
+
+U8: Que no , ya está , muchas gracias .
+Que no , ya está , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

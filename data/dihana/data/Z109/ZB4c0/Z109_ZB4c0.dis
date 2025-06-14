@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quisiera información (fe) para viajar desde Cuenca a Valencia el día quince de marzo (na) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , horarios y precios .
+M3: ¿ Qué día desea salir ?
+U3: El día quince de marzo .
+M4: Le consulto horarios de trenes con salida en Cuenca destino Valencia saliendo el lunes , día 15 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: (nl) Sí , quiero horarios y precios de trenes que lleguen antes de las ocho .
+M6: Le consulto horarios . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 10 y 57 de la mañana y el último sale a las 2 y 52 de la tarde y llega a las 6 de la tarde ¿ Desea algo más ?
+U5: (nl) Sí , quisiera saber precios .
+M8: Los trenes son Regional y en clase turista , el billete cuesta 9 con 84 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

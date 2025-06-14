@@ -1,0 +1,87 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenos días , querría ir de Madrid a Sevilla a ser posible en el Ave y salir entre el doce y el quince de mayo .
+Hola buenos días , querría ir de Madrid (U:Pregunta:Nil:Origen) pal: 1 - 8
+a Sevilla (U:Pregunta:Nil:Destino) pal: 9 - 10
+a ser posible en el Ave (U:Pregunta:Nil:Tipo_tren) pal: 11 - 16
+y salir entre el doce y el quince de mayo . (U:Pregunta:Nil:Dia) pal: 17 - 27
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: Entre el doce y el quince de mayo .
+Entre el doce y el quince de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+
+M4: ¿ Desea salir el miércoles , día 12 de mayo de 2004 ? .
+¿ Desea salir el miércoles , día 12 de mayo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+M5: Le consulto horarios de trenes con salida en madrid destino sevilla saliendo el miércoles , día 12 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino sevilla saliendo el miércoles , día 12 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+
+U5: Sí , quiero que el tren sea un Ave .
+Sí , quiero que el tren sea un Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 10
+
+
+M7: Le consulto horarios de trenes con salida en madrid destino sevilla saliendo el miércoles , día 12 de mayo de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino sevilla saliendo el miércoles , día 12 de mayo de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 10 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+
+
+U6: Sí , quiero conocer el precio del viaje .
+Sí , quiero conocer el precio del viaje . (U:Pregunta:Precio:Nil) pal: 1 - 9
+
+
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U7: Quiero conocer el precio del viaje .
+Quiero conocer el precio del viaje . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+
+M10: Le consulto precios de madrid a sevilla en tipo tren ave . Un momento por favor .
+Le consulto precios de madrid a sevilla en tipo tren ave . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M11: Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

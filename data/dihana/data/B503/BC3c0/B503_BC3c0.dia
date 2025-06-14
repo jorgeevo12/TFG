@@ -1,0 +1,102 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , sí , quería saber qué horarios y qué precio tienen los viajes de ida y vuelta a Barcelona este jueves .
+Hola , sí , quería saber qué horarios y qué precio tienen los viajes de ida y vuelta (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 18
+a Barcelona (U:Pregunta:Hora_salida,Precio:Destino) pal: 19 - 20
+este jueves . (U:Pregunta:Hora_salida,Precio:Dia) pal: 21 - 23
+
+M2: ¿ Quiere llegar a barcelona ? .
+¿ Quiere llegar a barcelona ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U2: Sí eso es , este mismo jueves .
+Sí eso es , (U:Afirmacion:Destino:Nil) pal: 1 - 4
+este mismo jueves . (U:Respuesta:Hora_salida:Dia) pal: 5 - 8
+
+M3: ¿ Desea salir el lunes , día 29 de marzo de 2004 ? .
+¿ Desea salir el lunes , día 29 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: no el jueves y llegar el viernes de ida y vuelta .
+no (U:Negacion:Dia:Nil) pal: 1 - 1
+el jueves y llegar el viernes (U:Respuesta:Dia:Dia) pal: 2 - 7
+de ida y vuelta . (U:Respuesta:Hora_salida:Tipo_viaje) pal: 8 - 12
+
+M4: Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el jueves , día 1 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U4: Sí ¿ a qué hora llegaría ? .
+Sí ¿ a qué hora llegaría ? . (U:Pregunta:Hora_llegada:Nil) pal: 1 - 8
+
+M6: Ese tren sale a las 10 y 5 de la mañana y llega a las 6 y 50 de la tarde . Desea algo más ? .
+Ese tren sale a las 10 y 5 de la mañana y llega a las 6 y 50 de la tarde . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+U5: Sí ¿ para volver el viernes qué horarios tendría ? .
+Sí ¿ para volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 4
+el viernes qué horarios tendría ? . (U:Pregunta:Hora_salida:Dia) pal: 5 - 11
+
+M7: Le consulto horarios de trenes con salida en barcelona destino bilbao saliendo el viernes , día 30 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino bilbao saliendo el viernes , día 30 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M8: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+
+U6: no , a ver ¿ el día treinta de abril ? no , tiene que ser el siguiente viernes .
+no , a ver ¿ el día treinta de abril ? no , tiene que ser el siguiente viernes . (U:Pregunta:Nil:Dia) pal: 1 - 20
+
+M9: ¿ Desea salir el viernes , día 2 de abril de 2004 ? .
+¿ Desea salir el viernes , día 2 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U7: Sí , eso es .
+Sí , eso es . (U:Afirmacion:Dia:Nil) pal: 1 - 5
+
+M10: Le consulto horarios de trenes con salida en barcelona destino bilbao saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino bilbao saliendo el viernes , día 2 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M11: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+
+U8: Y ¿ no hay ninguno que salga antes ? .
+Y ¿ no hay ninguno que salga antes ? . (U:Pregunta:Nil:Hora_salida) pal: 1 - 10
+
+M12: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+
+U9: ¿ Y el día anterior , el jueves ? .
+¿ Y el día anterior , el jueves ? . (U:Pregunta:Nil:Dia) pal: 1 - 10
+
+M13: ¿ Desea salir el jueves , día 1 de abril de 2004 ? .
+¿ Desea salir el jueves , día 1 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U10: Sí , eso es .
+Sí , eso es . (U:Afirmacion:Dia:Nil) pal: 1 - 5
+
+M14: Le consulto horarios de trenes con salida en barcelona destino bilbao saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino bilbao saliendo el jueves , día 1 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M15: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a la una de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 19
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 20 - 24
+
+U11: No gracias , no me interesa .
+No gracias , no me interesa . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M16: No . Desea algo más ? .
+No . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+
+U12: no me interesa ese horario .
+no me interesa ese horario . (U:Indefinida:Nil:Nil) pal: 1 - 6
+
+M17: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

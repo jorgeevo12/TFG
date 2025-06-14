@@ -1,0 +1,65 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola , deseo el horario de un viaje de ida a Ávila el próximo viernes veintitrés de abril , después de las cuatro de la tarde .
+Hola , deseo el horario de un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 10
+a Ávila (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+el próximo viernes veintitrés de abril , (U:Pregunta:Hora_salida:Dia) pal: 13 - 19
+después de las cuatro de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 20 - 27
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: A Ávila .
+A Ávila . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M3: Le consulto horarios de trenes con salida en zaragoza destino ávila saliendo el viernes , día 23 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino ávila saliendo el viernes , día 23 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M4: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+
+U3: ¿ El tren es de litera ? .
+¿ El tren es de litera ? . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 8
+
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U4: Desearía viajar en litera o en cama .
+Desearía viajar en litera o en cama . (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 8
+
+
+M6: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+
+M7: El único tren que realiza el trayecto es un diurno que sale a las 10 y 3 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno que sale a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+U5: ¿ Me puede dar el precio ? .
+¿ Me puede dar el precio ? . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+
+M8: El precio de ese tren en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber el horario de trenes d(a e) la semana que viene , el martes día dieciséis (p) (fe) (lm para pa) ir a (lm Bilbao Bilbo) (p) (fe) desde Hendaya ¿ es posible ?
+M2: Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ?
+U2: Sí .
+M3: ¿ Puede repetir su consulta ?
+U3: (lu necesito sito) horarios de trene(a s) e(a l) martes día dieciséis .
+M4: ¿ Desea salir el martes , día 16 de marzo de 2004 ?
+U4: Sí , (p) por la tarde , (dq por favor) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Por la tarde , (p) (dq por favor) .
+M6: ¿ A qué ciudad desea viajar ?
+U6: A (lm Bilbao Bilbo) .
+M7: Quiere horarios de trenes a Bilbao ¿ desde Bilbao ?
+U7: (na) (rr (m (rr (m No) (c no))) (c no)) , (fe) quisiera salir desde Hendaya .
+M8: Quiere horarios de trenes a Bilbao ¿ desde el_Ferrol ?
+U8: No (nw) , desde El Ferrol no , desde Hendaya .
+M9: Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ?
+U9: (na) Sí (p) , (df pues) desde Iruñea .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Sí , desde Iruñea .
+M11: Le consulto horarios de Pamplona a Bilbao el martes , día 16 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U11: Sí ¿ cuánto vale (dq por favor) ? en turista m(a e) vendría bien .
+M13: El precio de ese tren en clase turista es 44 euros el billete de ida y 70 con 40 euros el billete de ida y vuelta ¿ Desea algo más ?
+U12: No , (dc gracias) (p) , (lu hasta ta) luego .
+M14: Gracias por utilizar este servicio . Feliz viaje .

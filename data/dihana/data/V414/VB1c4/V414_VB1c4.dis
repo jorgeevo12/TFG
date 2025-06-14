@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el horario (p) para ir a La_Coruña .
+M2: ¿ Qué día desea salir ?
+U2: El once de marzo (p) por la tarde .
+M3: ¿ Desea salir el viernes , día 11 de marzo de 2005 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino La_Coruña saliendo el viernes , día 11 de marzo de 2005 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U4: Sí , quería saber el precio del billete .
+M6: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

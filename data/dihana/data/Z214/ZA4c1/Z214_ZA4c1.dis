@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fm) Buscarí(a a) u(a n) viaje (a a) Castellón .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El dieciséis de octubre .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Dieciséis de octubre .
+M5: Quiere horarios de trenes a Castellón ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Castellón saliendo el sábado , día 16 de octubre de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un sol_de_levante que sale a las 0 y 31 de la noche ¿ Desea algo más ?
+U6: No (na) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

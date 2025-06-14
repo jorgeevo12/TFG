@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero obtener el horario .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Oviedo .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Oviedo .
+M4: ¿ Qué día desea salir ?
+U4: Hoy .
+M5: Quiere horarios de trenes a Oviedo ¿ desde Zaragoza ?
+U5: (na) Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Oviedo saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M7: Sólo hay dos trenes . El primero sale a las 2 y 30 de la madrugada y el otro a las 11 y 11 de la mañana ¿ Desea algo más ?
+U6: (na) Sí , quiero saber el precio (na) .
+M8: Sólo hay dos trenes . En clase turista , el tren más caro es un covadonga que cuesta 34 euros la ida y el otro es un pío_baroja que cuesta 32 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc nada más) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

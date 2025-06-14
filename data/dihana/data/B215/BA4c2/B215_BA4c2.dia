@@ -1,0 +1,69 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenos días , me gustaría obtener el horario , saber a que hora puedo ir a Sevilla . Tendría que ser la fecha entre el dieciocho y veinte de abril y a primera hora de la mañana . Y bueno si me gustaría si es posible viajar .
+Buenos días , me gustaría obtener el horario , saber a que hora puedo ir a Sevilla . (U:Pregunta:Hora_salida:Destino) pal: 1 - 18
+Tendría que ser la fecha entre el dieciocho y veinte de abril (U:Pregunta:Hora_salida:Dia) pal: 19 - 30
+y a primera hora de la mañana . Y bueno si me gustaría si es posible viajar . (U:Pregunta:Hora_salida:Hora_salida) pal: 31 - 48
+M2: ¿ Quiere viajar desde barcelona ? .
+¿ Quiere viajar desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: No , desde Bilbao .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+M3: ¿ Desea salir el martes , día 9 de marzo de 2004 ? .
+¿ Desea salir el martes , día 9 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U3: No , la fecha tiene que ser entre el dieciocho y el veinte de abril .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+la fecha tiene que ser entre el dieciocho y el veinte de abril . (U:Respuesta:Hora_salida:Dia) pal: 3 - 16
+M4: ¿ Desea salir el domingo , día 18 de abril de 2004 ? .
+¿ Desea salir el domingo , día 18 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Bien , si es a primera hora de la mañana sí .
+Bien , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+si es a primera hora de la mañana sí . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 12
+M5: ¿ Quiere salir entre las 6 y las 7 de la mañana ? .
+¿ Quiere salir entre las 6 y las 7 de la mañana ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 14
+U5: Bien , sí , me viene bien .
+Bien , sí , me viene bien . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 8
+M6: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U6: A Sevilla .
+A Sevilla . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M7: Le consulto horarios de bilbao a sevilla el domingo , día 18 de abril de 2004 entre las 6 y las 7 de la mañana . Un momento por favor .
+Le consulto horarios de bilbao a sevilla el domingo , día 18 de abril de 2004 entre las 6 y las 7 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U7: Pues sí , podría ser quizá que saliese hasta media mañana o hasta el mediodía .
+Pues sí , podría ser quizá que saliese hasta media mañana o hasta el mediodía . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 16
+M9: ¿ Quiere salir entre las 7 y las 11 de la mañana ? .
+¿ Quiere salir entre las 7 y las 11 de la mañana ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 14
+U8: Sí , estaría bien .
+Sí , estaría bien . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+M10: Le consulto horarios de bilbao a sevilla el domingo , día 18 de abril de 2004 entre las 7 y las 11 de la mañana . Un momento por favor .
+Le consulto horarios de bilbao a sevilla el domingo , día 18 de abril de 2004 entre las 7 y las 11 de la mañana . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 26
+Un momento por favor . (M:Espera:Nil:Nil) pal: 27 - 31
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 30 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 30 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U9: ¿ Podría saber qué tipo de tren es cada uno de los dos ? .
+¿ Podría saber qué tipo de tren es cada uno de los dos ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 15
+M12: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+M13: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U10: Me gustaría saber si alguno de ellos es un tren rápido .
+Me gustaría saber si alguno de ellos es un tren rápido . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 12
+M14: El tren más rápido es un intercity . Desea algo más ? .
+El tren más rápido es un intercity . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 8
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 9 - 13
+U11: ¿ A qué hora sale ese intercity ? .
+¿ A qué hora sale ese intercity ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 9
+M15: El segundo tren es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . Desea algo más ? .
+El segundo tren es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Tipo_tren) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U12: No , nada más muchas gracias .
+No , nada más muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

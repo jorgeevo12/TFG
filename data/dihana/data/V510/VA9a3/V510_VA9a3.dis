@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber (p) los trenes .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería (fb) saber el horario de los trenes (rr (m qu(a e)) (c que)) van (rr (m d(a e)) (s (p)) (c de)) Gerona a Logroño .
+M3: ¿ Quiere viajar desde Gerona ?
+U3: Sí (p) , quiero (b que)viajar por la mañana .
+M4: ¿ Quiere viajar a La_Coruña ?
+U4: No , quiero viajar a Logroño .
+M5: ¿ Qué día desea salir ?
+U5: Quiero salir mañana .
+M6: Le consulto horarios de Gerona a Logroño el miércoles , día 5 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U6: Quiero saber (rr (m s(a i)) (c si)) sale algún tren (p) (lu para pa) las diecisiete (lm treinta trenta) .
+M8: Le consulto horarios . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí (p) , quería saber si hay algún tren que salga .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Quiero saber (p) si sale algún tren alrededor de las cinco y media .
+M11: Le consulto horarios . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

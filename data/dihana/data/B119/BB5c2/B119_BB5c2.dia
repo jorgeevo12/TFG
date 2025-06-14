@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola , me gustaría saber el horario de un tren Barcelona Castellón .
+Hola , me gustaría saber el horario de un tren Barcelona (U:Pregunta:Hora_salida:Origen) pal: 1 - 11
+Castellón . (U:Pregunta:Hora_salida:Destino) pal: 12 - 13
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Mañana .
+Mañana . (U:Respuesta:Dia:Dia) pal: 1 - 2
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Quiero salir mañana .
+Quiero salir mañana . (U:Respuesta:Dia:Dia) pal: 1 - 4
+M4: Le consulto horarios de trenes con salida en barcelona destino castellón saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en barcelona destino castellón saliendo el viernes , día 20 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+U4: Sí , si me puedes concretar el horario de los trenes por la mañana .
+Sí , si me puedes concretar el horario de los trenes por la mañana . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 15
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U5: Mañana por la mañana qué horario de trenes hay .
+Mañana (U:Pregunta:Hora_salida:Dia) pal: 1 - 1
+por la mañana qué horario de trenes hay . (U:Pregunta:Hora_salida:Hora_salida) pal: 2 - 10
+M7: Le consulto horarios de barcelona a castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+Le consulto horarios de barcelona a castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M8: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 4 de la mañana y el último sale a las 12 de la mañana y llega a las 2 y 25 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 4 de la mañana y el último sale a las 12 de la mañana y llega a las 2 y 25 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+U6: Sí , ¿ alguno de esos trenes es euromed ? .
+Sí , ¿ alguno de esos trenes es euromed ? . (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 11
+M9: ¿ Desea hacer el viaje en un euromed ? .
+¿ Desea hacer el viaje en un euromed ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+U7: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+M10: Le consulto horarios de barcelona a castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde en euromed . Un momento por favor .
+Le consulto horarios de barcelona a castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen,Tipo_tren) pal: 1 - 31
+Un momento por favor . (M:Espera:Nil:Nil) pal: 32 - 36
+M11: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+U8: Sí , ¿ puedo ir en primera clase ? .
+Sí , ¿ puedo ir en primera clase ? . (U:Pregunta:Clase_billete:Clase_billete) pal: 1 - 10
+M12: Le consulto horarios de barcelona a castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde en clase preferente . Un momento por favor .
+Le consulto horarios de barcelona a castellón el viernes , día 20 de febrero de 2004 entre las 7 de la mañana y la una de la tarde en clase preferente . (M:Confirmacion:Hora_salida:Clase_billete,Destino,Dia,Hora_salida,Origen) pal: 1 - 32
+Un momento por favor . (M:Espera:Nil:Nil) pal: 33 - 37
+M13: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 11 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 23
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 24 - 28
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

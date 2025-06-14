@@ -1,0 +1,44 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría saber el horario de un tren de Valencia a Alicante para llegar el viernes sobre las cuatro .
+Me gustaría saber el horario de un tren de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 10
+a Alicante (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+para llegar el viernes (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+sobre las cuatro . (U:Pregunta:Hora_salida:Hora_llegada) pal: 17 - 20
+
+M2: ¿ Quiere salir entre las 3 y 30 y las 4 y 30 de la tarde ? .
+¿ Quiere salir entre las 3 y 30 y las 4 y 30 de la tarde ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 18
+
+U2: No , es demasiado tarde ¿ hay un tren anterior ? .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+es demasiado tarde ¿ hay un tren anterior ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 3 - 12
+
+M3: Quiere horarios de trenes a alicante , ¿ desde barcelona ? .
+Quiere horarios de trenes a alicante , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: No , desde Valencia .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Valencia . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+
+M4: Le consulto horarios de trenes con salida en valencia destino alicante saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino alicante saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: Sí , ¿ cada cuánto salen los trenes ? .
+Sí , ¿ cada cuánto salen los trenes ? . (U:Indefinida:Nil:Nil) pal: 1 - 10
+
+M6: Este servicio no está preparado para este tipo de consultas . Desea realizar otra consulta ? .
+Este servicio no está preparado para este tipo de consultas . (M:Indefinida:Nil:Nil) pal: 1 - 11
+Desea realizar otra consulta ? . (M:Nueva_consulta:Nil:Nil) pal: 12 - 17
+
+U5: No , gracias es todo .
+No , gracias es todo . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

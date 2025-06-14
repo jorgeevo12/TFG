@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenos días) , (na) (fe) quería saber horarios para ir a Barcelona (na) .
+M2: ¿ Qué día desea salir ?
+U2: Pues quiero salir el (lm treinta trenta) de julio .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (df Pues) que quiero ir el (lm treinta trenta) de julio .
+M4: ¿ Desea salir el viernes , día 30 de julio de 2004 ?
+U4: (na) Sí (da efectivamente) , (na) y quisiera ir en un tren que fuese rápido . Tengo que (b (lu ir i)) estar allí antes (rs (m de las (lu veinte vein)) (c de las ocho)) de la tarde , (de vamos) (na) .
+M5: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el viernes , día 30 de julio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El más rápido sale a las 6 y 40 de la mañana y llega a las 9 y 36 de la mañana y el más lento sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana ¿ Desea algo más ?
+U5: (na) Quisiera saber (fe) el horario de un tren que llegue allí antes de las ocho (na) .
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero llega a las 9 y 50 de la mañana y el último a las 7 y 3 de la tarde ¿ Desea algo más ?
+U6: (na) Sí ¿ me podrías (rr (m (lu decir di)) (c decir)) el precio del primero ? (p) (rr (m Del último) (s (de perdon)) (c del último)) .
+M9: El precio de ese tren en clase turista es 33 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (fe) No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

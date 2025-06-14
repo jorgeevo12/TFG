@@ -1,0 +1,8 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quería obtener (nw) el horario (rs (m par(a a) ir (a a) (lu Barcelona Barce)) (c para ir a Valencia)) desde Barcelona para viajar mañana o pasado mañana .
+M2: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U2: (na) Sí , quería saber a qué hora llega (p) el tren de las siete de la mañana .
+M4: Ese tren sale a las 7 de la mañana y llega a las 9 y 50 de la mañana ¿ Desea algo más ?
+U3: No , (dc gracias) .
+M5: Gracias por utilizar este servicio . Feliz viaje .

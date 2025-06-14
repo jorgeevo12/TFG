@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:19"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B310"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B310_BA2a1_T01u.ul">
+<t> <n fuente="hablante" tipo="labios"/> <d tipo="abrir"> Buenos días </d> quisiera <p/> <n fuente="exterior" tipo="genérico"/> saber horarios de trenes de Bilbao a Madrid <p/> para llegar a Madrid antes de las diez y media de la mañana <p/> la salida podría ser el día <n fuente="exterior" tipo="genérico"/> dieciséis o el día diecisiete . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B310_BA2a1_T02u.ul">
+<t> <n fuente="hablante" tipo="labios"/> El dieciséis <p/> o el diecisiete de marzo . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el martes , día 16 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B310_BA2a1_T03u.ul">
+<t> Sí , <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 16 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B310_BA2a1_T04u.ul">
+<t> <f tipo="m"/> Sí , <d tipo="pedir"> por favor </d> ¿ <r tipo="repetición"> <m> y </m> <c> y </c> </r> saliendo el diecisiete de marzo ? </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el miércoles , día 17 de marzo de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B310_BA2a1_T05u.ul">
+<t> <n fuente="exterior" tipo="genérico"/> Sí , <n fuente="exterior" tipo="genérico"/> <f tipo="e"/> ¿ No hay ningún tren nocturno qué pueda llevarme <a>a</a> Madrid desde Bilbao ? <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 9 de la noche y las 5 de la madrugada ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B310_BA2a1_T06u.ul">
+<t> S<a>í</a> , <n fuente="exterior" tipo="genérico"/> <d tipo="aceptar"> perfecto </d> . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el miércoles , día 17 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B310_BA2a1_T07u.ul">
+<t> <f tipo="m"/> <f tipo="sin_identificar"/> No ¿ saliendo el dieciséis habría alguno ? </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el martes , día 16 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B310_BA2a1_T08u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> , está bien <n fuente="exterior" tipo="genérico"/> <n fuente="hablante" tipo="aspiración"/> . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

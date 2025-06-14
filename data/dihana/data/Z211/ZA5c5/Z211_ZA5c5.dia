@@ -1,0 +1,51 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería un horario de tren para un viaje de ida de Palencia a Santander .
+Quería un horario de tren para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 10
+de Palencia (U:Pregunta:Hora_salida:Origen) pal: 11 - 12
+a Santander . (U:Pregunta:Hora_salida:Destino) pal: 13 - 15
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: Santander .
+Santander . (U:Respuesta:Destino:Destino) pal: 1 - 2
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El uno de julio .
+El uno de julio . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: Quiere horarios de trenes a santander , ¿ desde zaragoza ? .
+Quiere horarios de trenes a santander , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: No , desde Palencia .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Palencia . (U:Respuesta:Origen:Origen) pal: 3 - 5
+
+M5: Le consulto horarios de trenes con salida en palencia destino santander saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en palencia destino santander saliendo el jueves , día 1 de julio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: Sí , llegar antes de las tres .
+Sí , llegar antes de las tres . (U:Pregunta:Nil:Hora_llegada) pal: 1 - 8
+
+M7: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

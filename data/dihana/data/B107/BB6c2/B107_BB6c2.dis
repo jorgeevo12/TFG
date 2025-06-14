@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) . Quisiera saber (rr (m los (lu horarios horario) de (lu trenes tre)) (c los horarios de trenes)) para ir de Burgos a Salamanca el treinta y uno d(a e) enero .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Quisiera viajar a Salamanca .
+M3: ¿ Qué día desea salir ?
+U3: El treinta y uno de enero .
+M4: Quiere horarios de trenes a Salamanca ¿ desde Bilbao ?
+U4: No , (rr (m desde) (s (fb)) (c desde)) Burgos .
+M5: Le consulto horarios de trenes con salida en Burgos destino Salamanca saliendo el sábado , día 31 de enero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a la una y 59 de la madrugada y el último a las 5 y 4 de la tarde ¿ Desea algo más ?
+U5: Sí , me gustaría (fe) saber si hay algún (ri (m (lu estrella es)) (c tren estrella)) y s(a i) llega antes de las cinco de la tarde .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Me gustaría viajar en tren estrella , si es posible .
+M8: Le consulto horarios de trenes con salida en Burgos destino Salamanca saliendo el sábado , día 31 de enero de 2004 en surex . Un momento por favor .
+M9: El único tren que realiza el trayecto es un surex que sale a la una y 59 de la madrugada ¿ Desea algo más ?
+U7: Sí , me gustaría saber el precio de este tren en preferente .
+M10: El precio de ese tren en preferente es 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , nada más . (dc Gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

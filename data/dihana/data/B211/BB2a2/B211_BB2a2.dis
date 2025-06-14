@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , me gustaría saber que horarios de trenes hay y que precio tiene (fe) para ir (rs (m (a a) (lu Londres Lon)) (c a París)) (p) (a e)l uno de agosto (p) (rr (m (a y)) (c y)) los horarios que tiene .
+M2: Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ?
+U2: (df Pu(a e)s) (p) sí , me gustaría que me dirí(a a) el horario para (a i)r (p) (rr (m (a a)) (c a)) Francia , (ri (m en) (c (ri (m a (lu París Pa)) (c a la ciudad de París)) en)) .
+M3: ¿ Quiere viajar a Valencia ?
+U3: No , quiero ir a París .
+M4: Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ?
+U4: (na) (fe) Sí , me gustaría que me diría el horario para un tr(a e)n a Sevilla .
+M5: ¿ Quiere llegar a Sevilla ?
+U5: (na) Sí , (fe) la fecha entre el uno de agosto y el tres .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , me gustaría saber si hay alguno qu(a e) sea coche cama .
+M8: Le consulto horarios de trenes con salida en Bilbao destino Sevilla saliendo el domingo , día 1 de agosto de 2004 en clase cama . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U7: Sí , me gustaría saber el precio del billete del coche cama .
+M10: Le consulto precios de Bilbao a Sevilla en clase cama . Un momento por favor .
+M11: Sólo hay dos trenes . En clase cama , el tren más caro es un Tren_Hotel que cuesta 117 con 50 euros la ida y el otro es un Diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , eso es todo , (dc muchas gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

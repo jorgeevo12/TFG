@@ -1,0 +1,66 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días , quería saber los horarios para ir a La_Coruña .
+Hola buenos días , quería saber los horarios para ir a La_Coruña . (U:Pregunta:Hora_salida:Destino) pal: 1 - 13
+
+M2: Quiere horarios de trenes a la_coruña , ¿ saliendo de valencia ? .
+Quiere horarios de trenes a la_coruña , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+U2: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 5
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Me gustaría salir el próximo jueves .
+Me gustaría salir el próximo jueves . (U:Respuesta:Dia:Dia) pal: 1 - 7
+
+M4: Le consulto horarios de trenes con salida en valencia destino la_coruña saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino la_coruña saliendo el jueves , día 29 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Sí , me gustaría que fuera en talgo , si es posible .
+Sí , me gustaría que fuera en talgo , si es posible . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 13
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Quiero ir en talgo .
+Quiero ir en talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 5
+
+M7: ¿ Desea hacer el viaje en un talgo ? .
+¿ Desea hacer el viaje en un talgo ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+U6: Sí , si es posible .
+Sí , si es posible . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 6
+
+M8: Le consulto horarios de trenes con salida en valencia destino la_coruña saliendo el jueves , día 29 de abril de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino la_coruña saliendo el jueves , día 29 de abril de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U7: Sí , ¿ cuál es el precio del billete ? .
+Sí , ¿ cuál es el precio del billete ? . (U:Pregunta:Precio:Nil) pal: 1 - 11
+
+M10: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M11: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U8: No , eso es todo , muchas gracias .
+No , eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

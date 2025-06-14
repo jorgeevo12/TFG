@@ -1,0 +1,91 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera horarios para llegar a Valladolid el próximo viernes .
+Quisiera horarios para llegar a Valladolid (U:Pregunta:Hora_salida:Destino) pal: 1 - 6
+el próximo viernes . (U:Pregunta:Hora_salida:Dia) pal: 7 - 10
+
+M2: Le consulto horarios de trenes con salida en valencia destino valladolid saliendo el viernes , día 19 de diciembre de 2003 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino valladolid saliendo el viernes , día 19 de diciembre de 2003 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la madrugada y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la madrugada y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U2: Sí . ¿ A qué hora llega el primer tren ?
+Sí . ¿ A qué hora llega el primer tren ? (U:Pregunta:Hora_llegada:Numero_relativo_orden) pal: 1 - 11
+
+M4: Ese tren sale a las 7 y 3 de la madrugada y llega a la una y 35 del mediodía . Desea algo más ? .
+Ese tren sale a las 7 y 3 de la madrugada y llega a la una y 35 del mediodía . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U3: Sí . ¿ Existe algún tren que llegue antes de las doce ese día ?
+Sí . ¿ Existe algún tren que llegue antes de las doce (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 12
+ese día ? (U:Pregunta:Hora_salida:Dia) pal: 13 - 15
+
+M5: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M6: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M7: Sólo hay dos trenes con llegada el sábado , día 20 de diciembre de 2003 . El primero llega a las 7 de la madrugada y el otro a las 8 de la mañana . Desea algo más ? .
+Sólo hay dos trenes con llegada el sábado , día 20 de diciembre de 2003 . El primero llega a las 7 de la madrugada y el otro a las 8 de la mañana . (M:Respuesta:Hora_llegada:Dia,Hora_llegada,Numero_relativo_orden,Numero_trenes) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U4: Sí . Yo quiero llegar el viernes antes de las doce no el sábado .
+Sí . Yo quiero llegar el viernes (U:Pregunta:Hora_salida:Dia) pal: 1 - 7
+antes de las doce (U:Pregunta:Hora_salida:Hora_llegada) pal: 8 - 11
+no el sábado . (U:Pregunta:Hora_salida:Dia) pal: 12 - 15
+
+M8: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U5: Sí . Quisiera salir en un tren por la noche el jueves para llegar .
+Sí . Quisiera salir en un tren por la noche (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 10
+el jueves para llegar . (U:Pregunta:Hora_salida:Dia) pal: 11 - 15
+
+M10: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+U6: Sí . Quisiera salir el próximo jueves por la noche para llegar el viernes .
+Sí . Quisiera salir el próximo jueves (U:Pregunta:Hora_salida:Dia) pal: 1 - 7
+por la noche (U:Pregunta:Hora_salida:Hora_salida) pal: 8 - 10
+para llegar el viernes . (U:Pregunta:Hora_salida:Dia) pal: 11 - 15
+
+M11: Le consulto horarios de trenes con salida en valencia destino valladolid saliendo el jueves , día 18 de diciembre de 2003 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino valladolid saliendo el jueves , día 18 de diciembre de 2003 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M12: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la madrugada y el otro sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y llega a las 7 de la madrugada y el otro sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U7: Sí . ¿ Cuál de los dos es más rápido ?
+Sí . ¿ Cuál de los dos es más rápido ? (U:Pregunta:Tiempo_recorrido:Tipo_tren) pal: 1 - 11
+
+M13: Sólo hay dos trenes , El tren más rápido es un diurno que tarda 8 horas y 57 minutos y el otro es un tipo trenhotel que tarda 9 horas . Desea algo más ? .
+Sólo hay dos trenes , El tren más rápido es un diurno que tarda 8 horas y 57 minutos y el otro es un tipo trenhotel que tarda 9 horas . (M:Respuesta:Tiempo_recorrido:Numero_trenes,Tiempo_recorrido,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+U8: Sí . El tren hotel ¿ tiene literas ? .
+Sí . El tren hotel (U:Pregunta:Clase_billete:Tipo_tren) pal: 1 - 5
+¿ tiene literas ? . (U:Pregunta:Clase_billete:Clase_billete) pal: 6 - 10
+
+M14: Ese tren sólo dispone de los siguientes servicios : reserva_telefónica , prensa y restaurante . Desea algo más ? .
+Ese tren sólo dispone de los siguientes servicios : reserva_telefónica , prensa y restaurante . (M:Respuesta:Servicio:Servicio) pal: 1 - 15
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 16 - 20
+
+U9: No . Nada más . Gracias .
+No . Nada más . Gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

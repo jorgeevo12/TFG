@@ -1,0 +1,206 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+
+
+U1: Hola buenos días , quería horarios de trenes a Sevilla desde Almería .
+Hola buenos días , quería horarios de trenes a Sevilla (U:Pregunta:Hora_salida:Destino) pal: 1 - 10
+desde Almería . (U:Pregunta:Hora_salida:Origen) pal: 11 - 13
+
+
+
+
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+
+
+
+U2: A Sevilla .
+A Sevilla . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+
+
+U3: Quiero salir el siete u ocho de abril .
+Quiero salir el siete u ocho de abril . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+
+
+
+
+
+M4: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+
+
+
+
+
+
+U4: Quiero salir el siete u el ocho de abril .
+Quiero salir el siete u el ocho de abril . (U:Respuesta:Dia:Dia) pal: 1 - 10
+
+
+
+
+
+
+M5: Le consulto horarios de trenes con salida en almería destino sevilla saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en almería destino sevilla saliendo el miércoles , día 7 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+
+
+M6: Hay varios trenes . El primero sale a las 6 de la mañana y el último a las 6 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 de la mañana y el último a las 6 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+
+
+
+U5: Sí , quería un regional .
+Sí , quería un regional . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 6
+
+
+
+
+
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+
+
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+
+
+U6: Sí , quisiera ver si el día ocho tienen algún regional .
+Sí , quisiera ver si el día ocho (U:Pregunta:Hora_salida:Dia) pal: 1 - 8
+tienen algún regional . (U:Pregunta:Hora_salida:Tipo_tren) pal: 9 - 12
+
+
+
+
+
+
+M9: Le consulto horarios de trenes con salida en almería destino sevilla saliendo el jueves , día 8 de abril de 2004 en regional . Un momento por favor .
+Le consulto horarios de trenes con salida en almería destino sevilla saliendo el jueves , día 8 de abril de 2004 en regional . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+
+
+
+M10: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+
+
+U7: Sí , quisiera saber el día siete cuál es el precio del tren más barato que tenga .
+Sí , quisiera saber el día siete cuál es el precio (U:Pregunta:Precio:Dia) pal: 1 - 11
+del tren más barato que tenga . (U:Pregunta:Precio:Precio) pal: 12 - 18
+
+
+
+
+
+
+M11: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+
+
+U8: Sí , para el día siete .
+Sí , para el día siete . (U:Pregunta:Precio:Dia) pal: 1 - 7
+
+
+
+
+
+
+M12: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+
+
+
+
+
+
+U9: El día siete , qué precio tiene el tren más barato .
+El día siete (U:Pregunta:Precio:Dia) pal: 1 - 3
+, qué precio tiene el tren más barato . (U:Pregunta:Precio:Precio) pal: 4 - 12
+
+
+
+
+
+
+M13: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+
+
+M14: Hay un único tipo de tren , que es trd . En turista , el billete cuesta 27 con 19 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay un único tipo de tren , que es trd . En turista , el billete cuesta 27 con 19 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+
+
+
+
+
+U10: No , muchas gracias , eso es todo .
+No , muchas gracias , eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+
+
+
+
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

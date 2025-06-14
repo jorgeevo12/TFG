@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenas) , (fe) me gustaría obtener (fe) los horarios y el precio de u(a n) viaje de ida y vuelta (p) desde San_Sebastián hast(a a) Soria (p) . Me gustaría ir (a e)l lunes o el martes (p) de día y volver el (lu jueves ju) .
+M2: Quiere horarios de trenes a Sevilla ¿ desde Barcelona ?
+U2: (rr (m No) (c no)) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Soria .
+M4: Horarios para llegar a Soria ¿ saliendo de Barcelona ?
+U4: No .
+M5: Quiere horarios de trenes a Soria ¿ desde Bilbao ?
+U5: No (p) , desde San_Sebastián .
+M6: Le consulto horarios de trenes con salida en San_Sebastián destino Soria saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , dese(a o) también informarm(a e) del precio (a y) del viaje de vuelta .
+M8: ¿ Quiere saber horarios ?
+U7: (fm) Para la vuelta (p) , sí .
+M9: Le consulto horarios de trenes con salida en Soria destino San_Sebastián saliendo el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U8: (fe) Sí (p) (fe) no quiero volver el lunes , quiero volver el jueves o el viernes .
+M11: Le consulto horarios de trenes con salida en Soria destino San_Sebastián saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U9: Sí , me gustaría saber el precio .
+M13: Le consulto precios de Soria a San_Sebastián . Un momento por favor .
+M14: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí , entonces ¿ cuánto me cuesta el viaje de ida y vuelta desde San_Sebastián a Soria ?
+M15: Le consulto precios . Un momento por favor .
+M16: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No , (dc muchas gracias) .
+M17: Gracias por utilizar este servicio . Feliz viaje .

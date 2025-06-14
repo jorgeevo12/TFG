@@ -1,0 +1,58 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero visitar a mi novio el uno de mayo a Ciudad_Real .
+Quiero visitar a mi novio el uno de mayo (U:Pregunta:Nil:Dia) pal: 1 - 9
+a Ciudad_Real . (U:Pregunta:Nil:Destino) pal: 10 - 12
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U2: Quiero viajar de Madrid a Ciudad_Real el uno de mayo .
+Quiero viajar de Madrid (U:Pregunta:Nil:Origen) pal: 1 - 4
+a Ciudad_Real (U:Pregunta:Nil:Destino) pal: 5 - 6
+el uno de mayo . (U:Pregunta:Nil:Dia) pal: 7 - 11
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U3: Horarios y precios , por favor .
+Horarios y precios , por favor . (U:Pregunta:Hora_salida,Precio:Nil) pal: 1 - 7
+M4: Le consulto horarios de trenes con salida en madrid destino ciudad_real saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino ciudad_real saliendo el sábado , día 1 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 10 y 25 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 10 y 25 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U4: Me gustaría saber los horarios para el trayecto de vuelta .
+Me gustaría saber los horarios para el trayecto de vuelta . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 11
+M6: Le consulto horarios de trenes con salida en ciudad_real destino madrid saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en ciudad_real destino madrid saliendo el sábado , día 1 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M7: Hay varios trenes . El primero sale a las 7 y 18 de la mañana y el último a las 11 y 41 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 18 de la mañana y el último a las 11 y 41 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: ¿ Es posible viajar en Intercity ? .
+¿ Es posible viajar en Intercity ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+M8: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U6: Me gustaría viajar en primera o en un tren con servicio de bar .
+Me gustaría viajar en primera (U:Pregunta:Hora_salida:Clase_billete) pal: 1 - 5
+o en un tren con servicio de bar . (U:Pregunta:Hora_salida:Servicio) pal: 6 - 14
+M10: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U7: No , pero quisiera saber precios .
+No , pero quisiera saber precios . (U:Pregunta:Precio:Nil) pal: 1 - 7
+M12: Le consulto precios de ciudad_real a madrid . Un momento por favor .
+Le consulto precios de ciudad_real a madrid . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+M13: Hay varios trenes . En clase preferente , el tren más caro es un extremadura que cuesta 42 con 50 euros la ida y el más barato es un lanzadera que cuesta 16 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase preferente , el tren más caro es un extremadura que cuesta 42 con 50 euros la ida y el más barato es un lanzadera que cuesta 16 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

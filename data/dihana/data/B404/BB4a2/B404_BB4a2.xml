@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:20"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B404"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B404_BB4a2_T01u.ul">
+<t> Quisiera saber el horario de trenes d<a>e</a> la semana que viene , el martes día dieciséis <p/> <f tipo="e"/> <l tipo="mal_pronunciada" palabra="para"> pa </l> ir a <l tipo="mal_pronunciada" palabra="Bilbao"> Bilbo </l> <p/> <f tipo="e"/> desde Hendaya ¿ es posible ? </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B404_BB4a2_T02u.ul">
+<t> Sí . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Puede repetir su consulta ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B404_BB4a2_T03u.ul">
+<t> <l tipo="cortada" palabra="necesito"> sito </l> horarios de trene<a>s</a> e<a>l</a> martes día dieciséis . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el martes , día 16 de marzo de 2004 ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B404_BB4a2_T04u.ul">
+<t> Sí , <p/> por la tarde , <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B404_BB4a2_T05u.ul">
+<t> Por la tarde , <p/> <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> ¿ A qué ciudad desea viajar ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B404_BB4a2_T06u.ul">
+<t> A <l tipo="mal_pronunciada" palabra="Bilbao"> Bilbo </l> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Bilbao ¿ desde Bilbao ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B404_BB4a2_T07u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <r tipo="repetición"> <m> <r tipo="repetición"> <m> No </m> <c> no </c> </r> </m> <c> no </c> </r> , <f tipo="e"/> quisiera salir desde Hendaya . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> Quiere horarios de trenes a Bilbao ¿ desde el_Ferrol ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B404_BB4a2_T08u.ul">
+<t> No <n fuente="exterior" tipo="genérico"/> , desde El Ferrol no , desde Hendaya . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales ¿ Desea realizar otra consulta ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B404_BB4a2_T09u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí <p/> , <d tipo="rellenar"> pues </d> desde Iruñea . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> Lo siento . No he entendido bien ¿ puede repetir ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B404_BB4a2_T10u.ul">
+<t> Sí , desde Iruñea . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Pamplona a Bilbao el martes , día 16 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B404_BB4a2_T11u.ul">
+<t> Sí ¿ cuánto vale <d tipo="pedir"> por favor </d> ? en turista m<a>e</a> vendría bien . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 44 euros el billete de ida y 70 con 40 euros el billete de ida y vuelta ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B404_BB4a2_T12u.ul">
+<t> No , <d tipo="cerrar"> gracias </d> <p/> , <l tipo="cortada" palabra="hasta"> ta </l> luego . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

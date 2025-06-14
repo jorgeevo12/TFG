@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenos días) , quería saber el horario (p) y los precios (na) d(a e) los viajes (ri (m a (lu Oviedo O)) (c en tren a Oviedo)) (p) (na) (fe) saliendo el un(a o) o el dos de agosto .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Oviedo .
+M3: Quiere horarios de trenes a Oviedo ¿ desde Bilbao ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (na) El un(a o) o el dos de agosto (na) .
+M5: ¿ Desea salir el domingo , día 1 de agosto de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Oviedo saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: (na) Sí , (p) (na) quiero saber (fe) (p) que tren sale hacia la(a s) doce del mediodía (na) .
+M8: ¿ Quiere salir entre las 11 y 30 y las 12 y 30 de la mañana ?
+U7: Sí .
+M9: Le consulto horarios de Bilbao a Oviedo el domingo , día 1 de agosto de 2004 entre las 11 y 30 y las 12 y 30 de la mañana . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 11 y 55 de la mañana ¿ Desea algo más ?
+U8: Sí (p) , quiero saber el precio (p) de ese tren .
+M11: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) , (dc eso es todo) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

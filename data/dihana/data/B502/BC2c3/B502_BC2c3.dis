@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , querría informarme (fe) para un viaje de ida y vuelta (fe) salir el dos de agosto (p) (fe) y volver (rr (m (a e)l) (s (p)) (c el)) cuatro de agosto (p) (fe) e ir a San_Sebastián .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) .
+M3: ¿ Quiere salir desde San_Sebastián ?
+U3: (fe) No (fe) salgo de Bilbao quiero llegar a San_Sebastián .
+M4: ¿ Qué día desea salir ?
+U4: (df Pues) el día dos de agosto por la mañana .
+M5: Le consulto horarios de Bilbao a San_Sebastián el lunes , día 2 de agosto de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U5: (fe) Sí , para volver (a e)l cuatro de agosto (p) (b saber) es u(a n) billete de ida y vuelta .
+M7: ¿ Quiere saber horarios ?
+U6: (na) (fe) Sí , (dq por favor) .
+M8: Le consulto horarios de trenes con salida en San_Sebastián destino Bilbao saliendo el miércoles , día 4 de agosto de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: (fe) Sí (fe) ¿ qué tipo (rr (m d(a e)) (c de)) trenes hay ?
+M10: Le consulto tipos de trenes para el trayecto San_Sebastián a Bilbao . Un momento por favor .
+M11: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U8: (na) (fe) Saber los precios .
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: (fb) El billete de vuelta y (rr (m (a e)l) (c el)) del billete de ida .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Querría saber (ri (m el billete) (c el precio del billete)) d(a e) vuelta desde San_Sebastián (p) y (ri (m el (lu billete bi)) (c el precio del billete)) de ida de Bilbao a San_Sebastián el día dos de agosto (nw) .
+M14: Le consulto precios de San_Sebastián a Bilbao . Un momento por favor .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: (a E)l precio del billete de ida (rs (m de (lu Madrid Madri)) (c de Bilbao)) (nw) (a a) San_Sebastián (nw) el dos de agosto (p) en Talgo si es posible .
+M16: Le consulto precios de Bilbao a San_Sebastián . Un momento por favor .
+M17: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: (na) No (dc muchas gracias) .
+M18: Gracias por utilizar este servicio . Feliz viaje .

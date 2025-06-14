@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenas) , (df mira) quería ir d(a e) form(a a) (p) la más económica posible (p) (na) (rs (m (lu hasta has)) (c a)) Logroño mañana .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Logroño .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quisiera ir a Logroño (nw) .
+M4: ¿ Qué día desea salir ?
+U4: Mañana (nw) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero ir a Logroño mañana .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Logroño saliendo el viernes , día 19 de diciembre de 2003 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 10 y 5 de la mañana y el último a las 10 y 45 de la noche ¿ Desea algo más ?
+U6: Sí ¿ cuál de ellos tiene el precio más barato ?
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Sí ¿ cuál es el tren más barato ?
+M9: El tren más barato es un sol_de_levante que sale a las 7 de la tarde y llega a las 10 y 8 de la noche ¿ Desea algo más ?
+U8: ¿ Qué precio tiene ?
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: ¿ Cuál es el precio de ese tren ?
+M11: El precio de ese tren en preferente es 18 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (fe) Sí , los horarios para volver (p) desde Logroño (p) la semana que viene , (p) el viernes .
+M12: Le consulto horarios de trenes con salida en Logroño destino Bilbao saliendo el viernes , día 26 de diciembre de 2003 . Un momento por favor .
+M13: Sólo hay dos trenes . El primero sale a las 4 y 32 de la madrugada y el otro a las 7 y 10 de la tarde ¿ Desea algo más ?
+U11: No , (dc muchas gracias) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

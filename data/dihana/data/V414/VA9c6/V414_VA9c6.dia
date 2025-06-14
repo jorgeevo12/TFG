@@ -1,0 +1,41 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola , quería saber el horario de ida .
+Hola , quería saber el horario de ida . (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U2: Sí , de Sevilla a Madrid .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+de Sevilla (U:Respuesta:Hora_salida:Origen) pal: 3 - 4
+a Madrid . (U:Respuesta:Hora_salida:Destino) pal: 5 - 7
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: De Sevilla a Madrid .
+De Sevilla (U:Respuesta:Hora_salida:Origen) pal: 1 - 2
+a Madrid . (U:Respuesta:Hora_salida:Destino) pal: 3 - 5
+M4: ¿ Quiere viajar desde sevilla ? .
+¿ Quiere viajar desde sevilla ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U5: El día quince de junio .
+El día quince de junio . (U:Respuesta:Dia:Dia) pal: 1 - 6
+M6: Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M7: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+U6: Deseo viajar en Ave si es posible .
+Deseo viajar en Ave si es posible . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+M8: Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino madrid saliendo el martes , día 15 de junio de 2004 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M9: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 30 de la mañana y llega a las 9 y 5 de la mañana y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

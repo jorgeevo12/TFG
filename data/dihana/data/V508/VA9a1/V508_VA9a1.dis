@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (nw) , quisiera un billete de ida a Madrid para el día siete de febrero a las nueve y media (nw) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (da por supuesto) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Madrid .
+M4: Quiere horarios de trenes a Madrid ¿ saliendo de Valencia ?
+U4: (rr (m Sí) (c sí)) .
+M5: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el lunes , día 7 de febrero de 2005 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

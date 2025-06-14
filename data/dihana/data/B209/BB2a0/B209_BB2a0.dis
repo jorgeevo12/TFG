@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , quería un viaje de ida a Madrid el cinco de abril .
+M2: ¿ Quiere salir desde Madrid ?
+U2: No , desde Bilbao hasta Madrid .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el lunes , día 5 de abril de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U3: Sí , quería saber cuánto cuesta .
+M5: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , ya está (dc gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

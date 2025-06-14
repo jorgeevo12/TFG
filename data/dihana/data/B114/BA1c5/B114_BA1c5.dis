@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) , (fe) quisier(a a) saber el horario de un tren de ida (p) a Granada .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Quería ir a Granada .
+M3: ¿ Qué día desea salir ?
+U3: (fe) Sí (df bueno) , quisiera llegar el dí(a a) diecinueve de febrero sobre las doc(a e) (p) del mediodía .
+M4: Quiere horarios de trenes a Granada ¿ desde Bilbao ?
+U4: (fe) Sí , (p) (na) quisiera llegar (a e)l diecinueve de febrero sobre las doce del mediodía .
+M5: Le consulto horarios de Bilbao a Granada llegando el jueves , día 19 de febrero de 2004 entre las 11 y 30 y las 12 y 30 de la mañana . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí , (fe) la llegada podría ser el diecinueve de febrero durante toda la mañana .
+M7: ¿ Quiere llegar entre las 7 de la mañana y la una de la tarde ?
+U6: Sí . (p) Perfecto .
+M8: Le consulto horarios de Bilbao a Granada llegando el jueves , día 19 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí , quisiera llegar , (df pues) , el dí(a a) dieciocho de febrero (p) durant(a e) cualquier hora del día .
+M10: Le consulto horarios de Bilbao a Granada llegando el miércoles , día 18 de febrero de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: (da Bueno) , (df pues) quisiera coger (a e)l que llega a las tres y treinta de la tard(a e) a Granada .
+M12: Si ¿ Desea algo más ?
+U9: Sí , quisiera saber (fe) los tren(a e)s del día dieciocho de febrero (p) (fe) (da bueno) (df pues) cuál es (rr (m (a e)l) (s (p)) (c el)) horario d(a e) salida y el horario de llegada .
+M13: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U10: No (dc muchas gracias) (p) . Está todo . (p) (da Perfecto) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

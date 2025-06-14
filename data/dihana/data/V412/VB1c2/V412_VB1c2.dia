@@ -1,0 +1,49 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Obtener el horario de Valencia a Barcelona el catorce de junio .
+Obtener el horario de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 5
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 6 - 7
+el catorce de junio . (U:Pregunta:Hora_salida:Dia) pal: 8 - 12
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Barcelona .
+Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 2
+M3: Quiere horarios de trenes a barcelona , ¿ saliendo de valencia ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M4: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el lunes , día 14 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el lunes , día 14 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+U4: Sí , llegar a las siete de la tarde .
+Sí , llegar a las siete de la tarde . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 9
+M6: ¿ Quiere llegar entre las 6 y las 8 de la tarde ? .
+¿ Quiere llegar entre las 6 y las 8 de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 14
+U5: Sí .
+Sí . (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M8: Sólo hay dos trenes . El primero sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde y el otro sale a las 4 y 5 de la tarde y llega a las 7 y 3 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde y el otro sale a las 4 y 5 de la tarde y llega a las 7 y 3 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+U6: Sí , obtener el precio .
+Sí , obtener el precio . (U:Pregunta:Precio:Nil) pal: 1 - 6
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U7: Obtener el precio .
+Obtener el precio . (U:Pregunta:Precio:Nil) pal: 1 - 4
+M10: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M11: Sólo hay dos trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el otro es un arco que cuesta 29 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase turista , el tren más caro es un euromed que cuesta 33 con 50 euros la ida y el otro es un arco que cuesta 29 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U8: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

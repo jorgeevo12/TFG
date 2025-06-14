@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos días) , (fe) quería saber el horario , del viaje de id(a a) , (p) (fe) desde Alicante a Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: El nueve de diciembre .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (fe) Querría saber el horario .
+M4: ¿ Qué día desea salir ?
+U4: El nueve de diciembre .
+M5: ¿ Desea salir el jueves , día 9 de diciembre de 2004 ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Alicante destino Barcelona saliendo el jueves , día 9 de diciembre de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 6 y 25 de la tarde ¿ Desea algo más ?
+U6: (nl) A poder ser querría viajar en un tren rápido .
+M8: El tren más rápido es un Euromed que sale a las 6 y 55 de la mañana y llega a las 11 y 33 de la mañana ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

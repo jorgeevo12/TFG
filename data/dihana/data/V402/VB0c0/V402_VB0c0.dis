@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Sí , (fe) quisiera saber el horario (p) (fm) (ri (m d(a e) un (lm tren te)) (c de cualquier tren)) que salga de Valencia hasta Oviedo .
+M2: ¿ Quiere viajar a Oviedo ?
+U2: Sí , exacto .
+M3: ¿ Qué día desea salir ?
+U3: (df Pues) , desearía salir el uno de agosto .
+M4: Le consulto horarios de trenes con salida en Valencia destino Oviedo saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: (nl) Sí , (fm) quisiera saber el precio del tren que sale a las once de la noche .
+M6: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) , no deseaba nada más .
+M7: Gracias por utilizar este servicio . Feliz viaje .

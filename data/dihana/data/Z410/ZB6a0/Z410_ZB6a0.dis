@@ -1,0 +1,41 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera horarios .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Vigo .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Vigo .
+M4: ¿ Qué día desea salir ?
+U4: (na) Entre (a e)l veintinueve de abril y el cinco de mayo .
+M5: ¿ Desea salir el miércoles , día 21 de abril de 2004 ?
+U5: No .
+M6: ¿ Qué día desea salir ?
+U6: Entre el veintinueve de abril (p) y el cinco de mayo .
+M7: Quiere horarios de trenes a Vigo ¿ desde Zaragoza ?
+U7: No (p) , desde Barcelona .
+M8: Le consulto horarios de trenes con salida en Barcelona destino Vigo saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí (p) , que la llegada sea a Oviedo .
+M10: Le consulto horarios de trenes con salida en Barcelona destino Oviedo saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M11: El único tren que realiza el trayecto es un covadonga que sale a las 7 y 30 de la mañana ¿ Desea algo más ?
+U9: Sí , cambiar el destino , (dq por favor) (nw) .
+M12: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Quería horario de trenes , de Barcelona a San_Sebastián (p) el veintinueve de abril .
+M13: Le consulto horarios de trenes con salida en Barcelona destino San_Sebastián saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M14: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U11: (nw) ¿ Qué tipo de trenes (fe) cuento ? (nw) .
+M15: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Talgo ¿ Desea algo más ?
+U12: Sí , quisiera viajar en Talgo (p) ¿ qué horario tienen ? (nw) .
+M16: Le consulto horarios de trenes con salida en Barcelona destino San_Sebastián saliendo el jueves , día 29 de abril de 2004 en Talgo . Un momento por favor .
+M17: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U13: ¿ Hay algún tren después de las siete treinta ?
+M18: Un momento por favor .
+M19: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U14: (na) Sí , quería el viaje de Barcelona a San_Sebastián , en Talgo (na) después de las ocho de la mañana .
+M20: Un momento por favor .
+M21: Sólo hay dos trenes . El primero sale a las 10 y 30 de la mañana y el otro a las 11 y 55 de la mañana ¿ Desea algo más ?
+U15: ¿ Qué precio tienen ?
+M22: Lo siento . No he entendido bien ¿ puede repetir ?
+U16: Me gustaría saber cuánto cuesta cada uno de los (nw) viajes .
+M23: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U17: No .
+M24: Gracias por utilizar este servicio . Feliz viaje .

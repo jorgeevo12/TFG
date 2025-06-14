@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera ir a Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , quiero saber el horario (p) , sí .
+M3: ¿ Quiere salir desde Barcelona ?
+U3: Quiero llegar a Barcelona .
+M4: Quiere horarios de trenes a Barcelona ¿ desde Bilbao ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El próximo martes .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana ¿ Desea algo más ?
+U6: Quisiera ir en Euromed y en fumadores (na) .
+M8: ¿ Desea hacer el viaje en un Euromed ?
+U7: Sí .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el martes , día 2 de marzo de 2004 en Euromed . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

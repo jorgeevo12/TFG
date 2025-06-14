@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do (lm Hola Hala)) Sí , quería ir a La_Coruña .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (fb) A La_Coruña , para visitar a unos amigos .
+M3: ¿ Quiere saber horarios ?
+U3: (df Pues) sí , los horarios y los precios también .
+M4: ¿ Qué día desea salir ?
+U4: (df Pues) (a e)l fin de mes (nw) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Antes del mes que viene .
+M6: ¿ Desea salir el viernes , día 20 de febrero de 2004 ?
+U6: (da Bien) , (da está bien) .
+M7: Le consulto horarios de trenes con salida en Zaragoza destino La_Coruña saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Sí ¿ (lu para pa) que te (lm lleve llene) a alguna ciudad cercana ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: ¿ Y los trenes (fa) para Vigo ?
+M10: Le consulto horarios de trenes con salida en Zaragoza destino Vigo saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M11: El único tren que realiza el trayecto es un covadonga que sale a las 11 y 11 de la mañana y llega a las 10 y 50 de la noche ¿ Desea algo más ?
+U9: Sí , (a e)l precio .
+M12: El precio de ese tren en clase turista es 40 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Sí ¿ cuánto vale en preferente ?
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: ¿ Cuál es el precio del billete (ri (m en (lu preferente pre)) (c (a e)n clase prefente)) ?
+M14: El precio de ese tren en clase preferente es 53 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: No , nada más por el momento .
+M15: Gracias por utilizar este servicio . Feliz viaje .

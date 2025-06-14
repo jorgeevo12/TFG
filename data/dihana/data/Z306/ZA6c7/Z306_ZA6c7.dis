@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , querí(a a) (p) un viaje para ir de Cáceres a Mérida .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , quiero un billete de tren (p) para ir de Cáceres (rr (m a (lm Mérida Médi)) (c a Mérida)) .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , me gustaría saber los horarios .
+M4: ¿ Qué día desea salir ?
+U4: (df Pues) desearía salir o bien el lunes o el martes de la próxima semana .
+M5: Le consulto horarios de trenes con salida en Cáceres destino Mérida saliendo el lunes , día 5 de abril de 2004 . Un momento por favor .
+M6: Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: Sí , también querría saber (p) el horari(a o) (p) para el martes .
+M8: Le consulto horarios de trenes con salida en Cáceres destino Mérida saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , también quiero sab(a e)r el tipo de tren .
+M10: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U7: (fm) No , (dc gracias eso es todo) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

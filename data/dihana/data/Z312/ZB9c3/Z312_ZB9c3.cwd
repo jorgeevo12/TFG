@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería saber el precio de un viaje de $C_ORIGEN<Zaragoza> a $C_DESTINO<Bilbao> para el $FECHA<viernes> $HORA<por la tarde> o el $FECHA<sábado> $HORA<por la mañana> si es posible en un tren $T_TREN<Miguel_de_Unamuno> .
+Quería saber el precio de un viaje de $C_ORIGEN<Zaragoza> (U:Pregunta:Precio:Origen) pal: 1 - 9
+a $C_DESTINO<Bilbao> (U:Pregunta:Precio:Destino) pal: 10 - 11
+para el $FECHA<viernes> (U:Pregunta:Precio:Dia) pal: 12 - 14
+$HORA<por la tarde> (U:Pregunta:Precio:Hora_salida) pal: 15 - 17
+o el $FECHA<sábado> (U:Pregunta:Precio:Dia) pal: 18 - 20
+$HORA<por la mañana> (U:Pregunta:Precio:Hora_salida) pal: 21 - 23
+si es posible en un tren $T_TREN<Miguel_de_Unamuno> . (U:Pregunta:Precio:Tipo_tren) pal: 24 - 31
+
+M2: Le consulto precios de $C_ORIGEN<zaragoza> a $C_DESTINO<bilbao> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<zaragoza> a $C_DESTINO<bilbao> . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M3: El único tren que realiza el trayecto es un $T_TREN<miguel_de_unamuno> y su precio en clase $CLASE<turista> es $PRECIO<22 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<miguel_de_unamuno> y su precio en clase $CLASE<turista> es $PRECIO<22 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U2: Sí quería saber el precio del mismo trayecto en $CLASE<primera> clase o clase $CLASE<preferente> .
+Sí quería saber el precio del mismo trayecto en $CLASE<primera> clase o clase $CLASE<preferente> . (U:Pregunta:Precio:Clase_billete) pal: 1 - 15
+
+M4: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M5: El precio de ese tren en clase $CLASE<preferente> es $PRECIO<29 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase $CLASE<preferente> es $PRECIO<29 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U3: No , no deseo nada más .
+No , no deseo nada más . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

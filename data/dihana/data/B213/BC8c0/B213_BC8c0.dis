@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría saber el precio del viaje de ida y de vuelta (fe) (p) de un tren que vaya de Valencia a Teruel el próximo viernes .
+M2: ¿ Quiere saber horarios ?
+U2: No , sólo precios .
+M3: Le consulto precios de Valencia a Teruel saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M4: Los trenes son Regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: (na) Sí ¿ cuánto costaría el viaje de vuelta si vuelvo el domingo ?
+M5: ¿ Quiere saber horarios ?
+U4: No , sólo el precio .
+M6: Le consulto precios de Teruel a Valencia saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+M7: Los trenes son Regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (nl) No , (dc gracias) es todo .
+M8: Gracias por utilizar este servicio . Feliz viaje .

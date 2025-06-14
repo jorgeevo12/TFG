@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas tardes) . Me gustaría ir a Madrid .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quisiera ir a Madrid .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , quisiera saber horarios para ir a Madr(a i)d el próximo sábado o domingo .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el sábado , día 31 de enero de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 9 y 50 de la mañana ¿ Desea algo más ?
+U4: Sí , me gustaría saber a qué hor(a a) llega a (lm Madrid Madrit) .
+M6: Puede repetir de manera clara lo último que ha dicho , por favor .
+U5: Me gustaría saber a qué hora llega a Madrid .
+M7: Ese tren sale a las 9 y 50 de la mañana y llega a las 4 y 53 de la tarde ¿ Desea algo más ?
+U6: No , eso es todo , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

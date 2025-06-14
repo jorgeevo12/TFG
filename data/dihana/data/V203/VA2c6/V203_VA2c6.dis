@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera horarios de trenes para Salamanca .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Salamanca .
+M3: ¿ Qué día desea salir ?
+U3: El viernes próximo .
+M4: Le consulto horarios de trenes con salida en Valencia destino Salamanca saliendo el viernes , día 30 de enero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí ¿ me podría decir qué tipos de tren hay ?
+M6: Le consulto tipos de trenes para el trayecto Valencia a Salamanca . Un momento por favor .
+M7: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Talgo ¿ Desea algo más ?
+U5: Sí ¿ me podría decir el horario del Intercity ?
+M8: Le consulto horarios de trenes con salida en Valencia destino Salamanca saliendo el viernes , día 30 de enero de 2004 en Intercity . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Intercity que sale a las 8 y 30 de la mañana ¿ Desea algo más ?
+U6: No , nada más (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

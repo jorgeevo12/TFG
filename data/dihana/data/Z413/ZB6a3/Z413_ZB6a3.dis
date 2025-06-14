@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (lu Viaje je) de ida (p) par(a a) (fe) Valencia desde Zaragoza (na) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (lu información ción) de horarios par(a a) un viaje de ida (nl) entre Zaragoza y Valencia (na) en el mes de mayo .
+M3: ¿ Qué día desea salir ?
+U3: Entre el quince y el diecisiete de mayo (nw) .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Valencia saliendo el lunes , día 17 de mayo de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 8 y 10 de la mañana y el otro a las 3 y 45 de la tarde ¿ Desea algo más ?
+U4: ¿ (lu informar formar) del tipo de tren ?
+M6: Hay un único tipo de tren , que es un Regional ¿ Desea algo más ?
+U5: (na) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

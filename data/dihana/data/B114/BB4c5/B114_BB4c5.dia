@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días , el horario y el precio de un viaje de ida desde Madrid a Córdoba sería para el próximo fin de semana .
+Hola buenos días , el horario y el precio de un viaje de ida (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 14
+desde Madrid (U:Pregunta:Hora_salida,Precio:Origen) pal: 15 - 16
+a Córdoba (U:Pregunta:Hora_salida,Precio:Destino) pal: 17 - 18
+sería para el próximo fin de semana . (U:Pregunta:Hora_salida,Precio:Dia) pal: 19 - 26
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: Sí , quisiera salir de Madrid y quisiera ir a Córdoba .
+Sí , quisiera salir de Madrid (U:Respuesta:Hora_salida:Origen) pal: 1 - 6
+y quisiera ir a Córdoba . (U:Respuesta:Destino:Destino) pal: 7 - 12
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: Bueno , yo quería llegar el sábado , lo más temprano posible a Córdoba .
+Bueno , yo quería llegar el sábado , (U:Respuesta:Dia:Dia) pal: 1 - 8
+lo más temprano posible (U:Respuesta:Hora_salida:Hora_llegada) pal: 9 - 12
+a Córdoba . (U:Respuesta:Hora_salida:Destino) pal: 13 - 15
+
+M4: Horarios para llegar a córdoba , ¿ desea llegar el sábado , día 21 de febrero de 2004 ? .
+Horarios para llegar a córdoba , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ desea llegar el sábado , día 21 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 7 - 20
+
+U4: Sí . Quisiera llegar lo más temprano posible .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+Quisiera llegar lo más temprano posible . (U:Respuesta:Hora_salida:Hora_llegada) pal: 3 - 9
+
+M5: Le consulto horarios de madrid a córdoba llegando el sábado , día 21 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de madrid a córdoba llegando el sábado , día 21 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes . El primero sale a las 7 y 10 de la mañana y llega a las 9 y 10 de la mañana y el último sale a las 11 y 10 de la noche y llega a las 4 y 42 de la madrugada . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 10 de la mañana y llega a las 9 y 10 de la mañana y el último sale a las 11 y 10 de la noche y llega a las 4 y 42 de la madrugada . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U5: Sí , quisiera obtener el precio del viaje .
+Sí , quisiera obtener el precio del viaje . (U:Pregunta:Precio:Nil) pal: 1 - 9
+
+M7: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: Hay varios trenes . En clase turista , el tren más caro es un ave que cuesta 47 euros la ida y el más barato es un estrecho que cuesta 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un ave que cuesta 47 euros la ida y el más barato es un estrecho que cuesta 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 50
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 51 - 55
+
+U6: No , muchas gracias , eso es todo .
+No , muchas gracias , eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

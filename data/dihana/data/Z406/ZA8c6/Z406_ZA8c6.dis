@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería información para ir a Port_Aventura (na) .
+M2: ¿ Quiere saber horarios ?
+U2: Horarios y tipo de trenes .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Tarragona .
+M4: ¿ Qué día desea salir ?
+U4: (df (lm Pues Pue)) quería salir el viernes que viene por la mañana .
+M5: Quiere horarios de trenes a Tarragona ¿ desde Zaragoza ?
+U5: No , desde Cáceres (a y) no sólo quiero horarios también quiero tipo de tren .
+M6: Le consulto horarios de trenes con salida en Cáceres destino Tarragona saliendo el viernes , día 9 de abril de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , quería saber qué tipo de tren son .
+M8: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U7: Creo que nada más , (dc muchas gracias (p) hasta luego) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

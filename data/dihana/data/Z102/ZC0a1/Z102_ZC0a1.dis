@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , dese(a o) saber el horario (p) de un tren a San_Sebastián (p) el veintiuno de abril .
+M2: Quiere horarios de trenes a San_Sebastián ¿ desde Zaragoza ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino San_Sebastián saliendo el miércoles , día 21 de abril de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U3: ¿ Me puede dar el precio ?
+M5: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (nl) Sí , deseo (lm también tamien) el viaje de vuelta .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (na) Deseo el horario del viaje de vuelta (p) el veinticuatro de abril .
+M7: Le consulto horarios de trenes con salida en San_Sebastián destino Zaragoza saliendo el sábado , día 24 de abril de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U6: ¿ Me puede dar el precio ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Nada , (dc muchas gracias) (na) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

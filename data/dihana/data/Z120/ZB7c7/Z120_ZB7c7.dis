@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Desearía salir en Talgo el próximo sábado a Teruel .
+M2: ¿ Quiere saber horarios ?
+U2: No , deseo saber el precio .
+M3: Quiere saber el precio a Teruel ¿ desde Zaragoza ?
+U3: (na) Sí .
+M4: Le consulto precios de Zaragoza a Teruel . Un momento por favor .
+M5: Los trenes son Regional y en clase turista , el billete cuesta 8 con 93 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: (na) ¿ Alguno de estos trenes es un Talgo ?
+M6: Le consulto precios de Zaragoza a Teruel en tipo tren Talgo . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

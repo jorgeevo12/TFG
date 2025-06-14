@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Quisiera saber el precio de un billete de ida a (lm Barcelona Bagselona) (p) para el día (lm catorce catogse) de febrero a partir de las (lm diez dies) (p) en el (lm Euromed euromet) .
+M2: ¿ Qué día desea salir ?
+U2: El (lm catorce catogse) de febrero .
+M3: ¿ Desea salir el lunes , día 14 de febrero de 2005 ?
+U3: Sí , pero a partir de las (lm diez dies) .
+M4: Le consulto precios de Valencia a Barcelona en tipo tren Euromed . Un momento por favor .
+M5: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , (dc gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

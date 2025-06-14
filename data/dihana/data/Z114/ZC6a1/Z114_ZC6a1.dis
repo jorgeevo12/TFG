@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) quiero saber el horario (p) de los trenes de Barcelona a Zaragoza la primera semana de septiembre .
+M2: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el miércoles , día 1 de septiembre de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U2: Sí , quiero saber el horario de los trenes de Barcelona a Zaragoza el día cinco de septiembre .
+M4: ¿ Desea salir el domingo , día 5 de diciembre de 2004 ?
+U3: No , quiero salir el día cinco de septiembre .
+M5: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el domingo , día 5 de septiembre de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U4: (nl) Sí , quiero saber el precio de esos trenes .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , quiero saber el horario de los trenes d(a e) Zaragoza a Barcelona el día cinco de septiembre .
+M8: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el domingo , día 5 de septiembre de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U6: Sí , quisiera saber el horario (fb) el precio de esos trenes .
+M10: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría saber el horario y el precio de un billete en el Ave , de Sevilla a Madrid .
+M2: ¿ Qué día desea salir ?
+U2: Me gustaría salir entre el doce y el catorce de abril .
+M3: ¿ Desea salir el lunes , día 12 de abril de 2004 ?
+U3: (rr (m Sí) (c sí)) . Está bien .
+M4: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el lunes , día 12 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche ¿ Desea algo más ?
+U4: Sí , me gustarí(a a) (p) viajar en el Ave (p) (na) y saber el precio del billete .
+M6: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el lunes , día 12 de abril de 2004 en Ave . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche ¿ Desea algo más ?
+U5: (nl) S(a í) , me gustaría saber cuál es el precio más económico .
+M8: El tren más barato es un Ave que sale a la una de la tarde y llega a las 3 y 35 de la tarde ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

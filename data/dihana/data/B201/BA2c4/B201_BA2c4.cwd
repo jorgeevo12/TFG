@@ -1,0 +1,124 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Hola muy buenas tardes , sí , quería saber el horario de trenes para $C_DESTINO<Cáceres> para el próximo $FECHA<fin de semana> saliendo el $FECHA<viernes> o el $FECHA<sábado> .
+Hola muy buenas tardes , sí , quería saber el horario de trenes para $C_DESTINO<Cáceres> (U:Pregunta:Hora_salida:Destino) pal: 1 - 15
+para el próximo $FECHA<fin de semana> saliendo el $FECHA<viernes> o el $FECHA<sábado> . (U:Pregunta:Hora_salida:Dia) pal: 16 - 28
+
+
+
+M2: ¿ Desea salir el $FECHA<viernes , día 27 de febrero de 2004> ? .
+¿ Desea salir el $FECHA<viernes , día 27 de febrero de 2004> ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U2: Sí , el $FECHA<viernes> $HORA<por la noche> o el $FECHA<sábado> $HORA<por la mañana> .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+el $FECHA<viernes> (U:Respuesta:Hora_salida:Dia) pal: 3 - 4
+$HORA<por la noche> (U:Respuesta:Hora_salida:Hora_salida) pal: 5 - 7
+o el $FECHA<sábado> (U:Respuesta:Hora_salida:Dia) pal: 8 - 10
+$HORA<por la mañana> . (U:Respuesta:Hora_salida:Hora_salida) pal: 11 - 14
+
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+U3: Sí , a $C_DESTINO<Cáceres> capital .
+Sí , a $C_DESTINO<Cáceres> capital . (U:Respuesta:Destino:Destino) pal: 1 - 6
+
+
+
+M4: Quiere horarios de trenes a $C_DESTINO<cáceres> , ¿ desde $C_ORIGEN<bilbao> ? .
+Quiere horarios de trenes a $C_DESTINO<cáceres> , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN<bilbao> ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+U4: Pues sí .
+Pues sí . (U:Afirmacion:Origen:Nil) pal: 1 - 3
+
+
+
+M5: Le consulto horarios de $C_ORIGEN<bilbao> a $C_DESTINO<cáceres> el $FECHA<viernes , día 27 de febrero de 2004> entre las $HORA<9 de la noche> y las $HORA<5 de la madrugada> . Un momento por favor .
+Le consulto horarios de $C_ORIGEN<bilbao> a $C_DESTINO<cáceres> el $FECHA<viernes , día 27 de febrero de 2004> entre las $HORA<9 de la noche> y las $HORA<5 de la madrugada> . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+
+M6: Sólo hay dos trenes . El $NRORDEN<primero> sale a las $HSAL<10 y 3 de la noche> y el otro a las $HORA<11 de la noche> . Desea algo más ? .
+Sólo hay dos trenes . El $NRORDEN<primero> sale a las $HSAL<10 y 3 de la noche> y el otro a las $HORA<11 de la noche> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+
+
+U5: Sí , quiero saber a qué hora llegan a $C_DESTINO<Cáceres> .
+Sí , quiero saber a qué hora llegan a $C_DESTINO<Cáceres> . (U:Pregunta:Hora_llegada:Destino) pal: 1 - 11
+
+
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_llegada:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M8: Sólo hay dos trenes . El $NRORDEN<primero> sale a las $HSAL<10 y 3 de la noche> y llega a las $HLLEG<7 de la mañana> y el otro sale a las $HSAL<11 de la noche> y llega a las $HLLEG<8 de la mañana> . Desea algo más ? .
+Sólo hay dos trenes . El $NRORDEN<primero> sale a las $HSAL<10 y 3 de la noche> y llega a las $HLLEG<7 de la mañana> y el otro sale a las $HSAL<11 de la noche> y llega a las $HLLEG<8 de la mañana> . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+
+U6: Sí , ¿ qué tipo de tren son ? ¿ Son $CLASE<coche cama> ? ¿ Tienen $CLASE<literas> ? .
+Sí , ¿ qué tipo de tren son ? ¿ Son $CLASE<coche cama> ? ¿ Tienen $CLASE<literas> ? . (U:Pregunta:Tipo_tren:Clase_billete) pal: 1 - 19
+
+
+
+M9: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+
+
+M10: Dispone de dos tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<diurno> y el otro es un $T_TREN<trenhotel> . Desea algo más ? .
+Dispone de dos tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<diurno> y el otro es un $T_TREN<trenhotel> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U7: Sí , el tren hotel ¿ es el de las $HORA<nueve> o el de las $HORA<diez> ? .
+Sí , el tren hotel (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 5
+¿ es el de las $HORA<nueve> o el de las $HORA<diez> ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 6 - 18
+
+
+
+M11: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U8: Sí , hay dos trenes en horario de $FECHA<viernes> $HORA<por la noche> y uno de ellos es un tren hotel . ¿ Cuál es ? ¿ El $NRORDEN<primero> o el $NRORDEN<último> ? .
+Sí , hay dos trenes en horario de $FECHA<viernes> (U:Pregunta:Hora_salida:Dia) pal: 1 - 9
+$HORA<por la noche> (U:Pregunta:Hora_salida:Hora_salida) pal: 10 - 12
+y uno de ellos es un tren hotel . (U:Pregunta:Hora_salida:Tipo_tren) pal: 13 - 21
+¿ Cuál es ? ¿ El $NRORDEN<primero> o el $NRORDEN<último> ? . (U:Pregunta:Hora_salida:Numero_relativo_orden) pal: 22 - 33
+
+
+
+M12: El $NRORDEN<segundo y último> tren es un $T_TREN<trenhotel> que sale a las $HSAL<11 de la noche> y llega a las $HLLEG<8 de la mañana> . Desea algo más ? .
+El $NRORDEN<segundo y último> tren es un $T_TREN<trenhotel> que sale a las $HSAL<11 de la noche> y llega a las $HLLEG<8 de la mañana> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Tipo_tren) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+U9: No , muchísimas gracias eso es todo .
+No , muchísimas gracias eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría saber el precio (rr (m del) (c del)) billete a Madrid el próximo día seis de enero .
+M2: ¿ Quiere viajar desde Madrid ?
+U2: No , quiero bajar desde Bilbao a Madrid .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Sí , me gustaría (rr (m (lu saber sa)) (s (fe)) (c saber)) el precio del ticket desde Bilbao a Madrid para el próximo día seis de enero .
+M4: Le consulto precios de Bilbao a Madrid saliendo el jueves , día 6 de enero de 2005 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: ¿ Me podía repetir el precio otra vez (dq por favor) ?
+M6: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida y 47 con 20 euros el billete de ida y vuelta ¿ Desea algo más ?
+U5: (rr (m No) (s (fm)) (c no)) (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

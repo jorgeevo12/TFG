@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:22"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B504"
+sexo="mujer"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B504_BA8a1_T01u.ul">
+<t> <d tipo="abrir"> Hola <f tipo="e"/> buenas tardes </d> <d tipo="rellenar"> mire </d> quería saber <f tipo="e"/> el horario de trenes que hay <r tipo="repetición"> <m> par<a>a</a> </m> <s> <p/> </s> <c> para </c> </r> ir de Bilbao a Madrid . Quería ir <r tipo="repetición"> <m> e<a>l</a> </m> <s> <p/> </s> <c> el </c> </r> ocho <r tipo="repetición"> <m> d<a>e</a> </m> <c> de </c> </r> abril . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere saber horarios ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B504_BA8a1_T02u.ul">
+<t> <f tipo="e"/> Sí quisiera saber <f tipo="e"/> <p/> qué horarios hay por la mañana <f tipo="e"/> sobr<a>e</a> las ocho o así hasta las diez . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere salir entre las 8 y las 10 de la mañana ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B504_BA8a1_T03u.ul">
+<t> <r tipo="repetición"> <m> Sí </m> <c> sí </c> </r> <r tipo="sustitución"> <m> en es<a>e</a> </m> <c> en esa </c> </r> franja horaria . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Qué día desea salir ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B504_BA8a1_T04u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <d tipo="rellenar"> Pues </d> quisiera salir el ocho de abril . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el jueves , día 8 de abril de 2004 entre las 8 y las 10 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B504_BA8a1_T05u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> Sí <d tipo="rellenar"> pues </d> entonces <f tipo="e"/> deme <r tipo="repetición"> <m> cualqui<a>e</a>r </m> <c> cualquier </c> </r> tren que sea por la mañana <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el jueves , día 8 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B504_BA8a1_T06u.ul">
+<t> No <d tipo="cerrar"> gracias </d> <r tipo="repetición"> <m> es </m> <c> es </c> </r> <n fuente="exterior" tipo="genérico"/> suficiente <n fuente="exterior" tipo="genérico"/> <p/> , <d tipo="cerrar"> adiós </d> . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

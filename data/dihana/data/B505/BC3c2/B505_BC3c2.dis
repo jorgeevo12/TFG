@@ -1,0 +1,36 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenos (lm días díes)) , (df mire) , necesito ir a Madrid a ver una exposición al museo Thyssen (p) , además la exposición abre a las diez de la mañana (lm entonces etoes) me gustaría (fb) ir este mismo sábado (p) y me gustarí(a a) ir a la mañana y volver a la noche .
+M2: ¿ Quiere viajar a Madrid ?
+U2: Sí , así es .
+M3: Le consulto horarios de Bilbao a Madrid el sábado , día 3 de abril de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Talgo que sale a las 9 y 50 de la mañana ¿ Desea algo más ?
+U3: (fe) Quisiera saber a qué hora (p) (fe) llega a Madrid (p) y al mismo tiempo su precio .
+M5: Ese tren sale a las 9 y 50 de la mañana y llega a las 4 y 53 de la tarde ¿ Desea algo más ?
+U4: (fe) (rr (m No me sirve) (c no me sirve)) ese tren porqu(a e) la exposición cierra (rr (m a la una) (s (p)) (c a la una)) (lm del d(a e)) mediodía y (df entonces) , (df claro) , (df pues) (df (lm entonces entoes)) no puedo estar en la exposición ¿ No existe otro tren que llegue antes de las diez de la mañana o antes de las doce , (de vamos a decir) ?
+M6: Le consulto horarios de Bilbao a Madrid llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 10 de la mañana . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (fe) (do Bueno) (df pues) (fe) aunque sea si puede ser que sin salir el sábado (rr (m (rr (m (lu salga sal)) (c (lu salga sal)))) (c salga)) el viernes (p) al atardecer y me dé la posibilidad de estar el sábado a la mañana (p) en Madrid (dq por favor) .
+M8: ¿ Desea salir el viernes , día 2 de abril de 2004 ?
+U6: (nl) Sí , el viernes (a a)l atardecer .
+M9: Le consulto horarios de Bilbao a Madrid llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 10 de la mañana . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: No entiendo ¿ Cómo no es posible que haya un tren que llegue (na) antes de las diez de la mañana a Madrid ? Eso es imposible (p) , usted está totalmente confundida señorita , (fe) (dq por favor) (fe) , (na) (fe) mire las instrucciones como es debido .
+M11: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U8: (na) Sí (fb) dígame a qué hora llega a Madrid (p) y cuánto cuesta el viaje .
+M13: Ese tren sale a las 4 y 30 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U9: (fe) (b Dígame (lm también tamien))yo quería un viaje de ida y vuelta (de o sea) que el sábado a qué hora puede salir (na) de Madrid después de la una (p) del mediodía y dígame cuál es el precio de la ida y vuelta .
+M14: Le consulto horarios de trenes con salida en Madrid destino Bilbao saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+M15: Un momento por favor .
+M16: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: ¿ Me está diciendo que no existe ningún tren que salga de Madrid (p) (rs (m el sábado tres de) (s (p)) (c el sábado día tres)) a partir de la (p) una del mediodía (p) , con dirección a Bilbao ?
+M17: Le consulto horarios de trenes con salida en Madrid destino Bilbao saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+M18: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U11: (fe) (fb) No (dc gracias) (ri (m (lu suficiente sufici)) (c es suficiente)) . Aunque si me diera (rr (m el precio) (c el precio)) del Talgo (p) d(a e) Bilbao a Madrid , le agradecería (nw) .
+M19: Un momento por favor .
+M20: Un momento por favor .
+M21: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida y 47 con 20 euros el billete de ida y vuelta ¿ Desea algo más ?
+U12: Y dígame cuál es el precio en clase preferente .
+M22: El precio de ese tren en clase preferente es 39 euros el billete de ida y 62 con 39 euros el billete de ida y vuelta ¿ Desea algo más ?
+U13: No , (dc gracias , adiós) .
+M23: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,34 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenos días) quería saber horarios (a y) precios de trenes desde Bilbao (rr (m (a a)) (s (nl)) (c a)) Santander (p) (na) , para el próximo día seis de abril .
+M2: ¿ Qué día desea salir ?
+U2: El dí(a a) seis de abril .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M4: Sólo hay dos trenes . El primero sale a las 10 y 5 de la mañana y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U3: (na) Sí , (rr (m pero) (c pero)) no quería ir a Barcelona . Quería ir de Bilbao a Santander .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (nl) (fe) Quería hacer un viaje de Bilbao (p) a Santander el día seis de abril .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Santander saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (fe) Sí , en realidad me gustaría llegar (fe) (fm) a primera hora (rr (m de la) (c de la)) noche o última hora de la tarde (p) . (na) Y me gustaría en trenes que salieran por la tarde , a última hora .
+M8: Le consulto horarios de Bilbao a Santander el martes , día 6 de abril de 2004 entre las 8 y 40 de la tarde y las 10 y 40 de la noche . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Diurno que sale a las 10 y 3 de la noche ¿ Desea algo más ?
+U6: (fe) Sí , quizá sea un poco tard(a e) ¿ Me puedes deci(a r) trenes que salg(a a)n alrededor de las seis de la tarde ?
+M10: Le consulto horarios de Bilbao a Santander el martes , día 6 de abril de 2004 entre la una y las 3 de la tarde . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (fe) (fm) Realmente quería un tren que saliera entre l(a a)s cinco y l(a a)s ocho de la tarde .
+M12: Le consulto horarios . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (na) Sí , (df a ver) ¿ me puedes enumerar (p) los trenes (p) que salen de Bilbao y llegan a Santander (p) el dí(a a) seis de abril (nw) ?
+M14: Le consulto horarios de trenes con salida en Bilbao destino Santander saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M15: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U9: (nl) (nw) (df A ver) ¿ me puede decir qué trenes salen por la mañana , (dq por favor) (nw) ?
+M16: Le consulto horarios . Un momento por favor .
+M17: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U10: (fe) Sí ¿ me puedes decir (a e)l que sale a las once y cincuenta y cinco (p) qué tipo de tren es y cuál es su precio ? El precio del billete de ida .
+M18: El cuarto y último tren es un Talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: (fe) Sí , me gustaría saber si aparte de la clase turista , hay alguna otr(a a) clas(a e) más cómoda , mej(a o)r (fm) equipada .
+M19: Lo siento . No he entendido bien ¿ puede repetir ?
+U12: Me ha dado el precio en clase turista . Me gustaría saber el precio (a e)n primera clase o clase especial (p) (na) ¿ Me lo puede dar , (dq por favor) ?
+M20: El cuarto y último tren es un Talgo y su precio en preferente es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: (fe) (rr (m No) (c no)) , (da vale ya) . Es todo , (dc gracias) (nt) .
+M21: Gracias por utilizar este servicio . Feliz viaje .

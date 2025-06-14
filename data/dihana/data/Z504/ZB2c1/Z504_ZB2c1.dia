@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Querría los horarios para un viaje de ida a Tarragona el próximo viernes en un tren rápido .
+Querría los horarios para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 8
+a Tarragona (U:Pregunta:Hora_salida:Destino) pal: 9 - 10
+el próximo viernes (U:Pregunta:Hora_salida:Dia) pal: 11 - 13
+en un tren rápido . (U:Pregunta:Hora_salida:Tipo_tren) pal: 14 - 18
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Tarragona .
+A Tarragona . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Le consulto horarios de trenes con salida en zaragoza destino tarragona saliendo el viernes , día 30 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino tarragona saliendo el viernes , día 30 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M4: Hay varios trenes . El más rápido sale a las 10 de la mañana y el más lento a las 2 y 31 de la madrugada . Desea algo más ? .
+Hay varios trenes . El más rápido sale a las 10 de la mañana y el más lento a las 2 y 31 de la madrugada . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U3: Sí , querría saber el precio .
+Sí , querría saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+M5: Hay varios trenes . En clase turista , el tren más rápido es un talgo que cuesta 24 con 50 euros la ida y el más lento es un trenhotel que cuesta 22 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más rápido es un talgo que cuesta 24 con 50 euros la ida y el más lento es un trenhotel que cuesta 22 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U4: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

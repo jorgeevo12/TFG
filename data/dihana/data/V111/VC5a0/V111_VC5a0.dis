@@ -1,0 +1,29 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría viajar de Valencia a Barcelona (p) , saliendo el martes dieciséis de marzo y volviendo el lunes veintidós .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Martes dieciséis .
+M4: ¿ Desea salir el martes , día 16 de marzo de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U5: (na) Sí , quería conocer también los horarios (p) d(a e) vuelta el lunes veintidós (p) Barcelona Valencia .
+M7: ¿ Desea salir el lunes , día 22 de marzo de 2004 ?
+U6: No , deseo regresar el lunes veintidós de marzo de dos mil cuatro .
+M8: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el lunes , día 22 de marzo de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U7: Sí , me gustaría realizar este viaje en Euromed .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Me gustaría realizar el viaje (p) en tipo de tren Euromed .
+M11: ¿ Desea hacer el viaje en un Euromed ?
+U9: Sí .
+M12: Le consulto horarios de trenes con salida en Barcelona destino Valencia saliendo el lunes , día 22 de marzo de 2004 en Euromed . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 7 de la mañana y llega a las 9 y 50 de la mañana y el último sale a las 8 y 30 de la tarde y llega a las 11 y 20 de la noche ¿ Desea algo más ?
+U10: Sí , obtener el precio del billete en viaje de ida y vuelta .
+M14: Le consulto precios de Barcelona a Valencia en tipo tren Euromed . Un momento por favor .
+M15: Los trenes son Euromed y en clase turista , el billete cuesta 33 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No .
+M16: Lo siento . No he entendido bien ¿ puede repetir ?
+U12: No .
+M17: Gracias por utilizar este servicio . Feliz viaje .

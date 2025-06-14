@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querí(a a) consultar los horarios de trenes .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (fe) A Madrid .
+M3: ¿ Quiere salir desde Madrid ?
+U3: (fe) No , querría salir desde Bilbao .
+M4: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El día siete .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: El día siete de marzo .
+M7: ¿ Desea salir el jueves , día 17 de marzo de 2005 ?
+U7: (fm) No , del dos mil cuatro .
+M8: ¿ Desea salir el miércoles , día 17 de marzo de 2004 ?
+U8: Sí .
+M9: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el miércoles , día 17 de marzo de 2004 . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U9: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

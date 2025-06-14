@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Yo quiero saber (fe) el horario y (a e)l tipo de tren (rs (m de (a u)n) (s (p)) (c para un)) viaje de ida (p) (a a) Murcia .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (a A) Murcia .
+M3: ¿ Qué día desea salir ?
+U3: El dieciocho d(a e) febrero .
+M4: ¿ Quiere viajar a Murcia ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Murcia saliendo el miércoles , día 18 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y llega a las 10 y 23 de la mañana y el último sale a las 8 y 22 de la tarde y llega a las 11 y 35 de la noche ¿ Desea algo más ?
+U5: (fe) Sí (p) , (fe) ¿ qué clase d(a e) trenes son ?
+M7: ¿ Me pregunta por tipos de trenes ?
+U6: Sí .
+M8: Le consulto tipos de trenes para el trayecto Valencia a Murcia . Un momento por favor .
+M9: Hay varios tipos de trenes . El tren más rápido es un Talgo y el más lento es un mare_nostrum ¿ Desea algo más ?
+U7: (a N)o .
+M10: Gracias por utilizar este servicio . Feliz viaje .

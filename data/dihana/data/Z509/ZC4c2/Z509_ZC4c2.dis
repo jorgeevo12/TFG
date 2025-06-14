@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero l(a o)s horarios para ir de Jaén a (lm Madrid Madrit) (p) el día (lm veintitrés ventitrés) de octubre a las diez de la noche .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid (p) el (lm veintitrés ventitrés) de octubre a las diez de la noche .
+M3: ¿ Quiere salir desde Madrid ?
+U3: No , quiero salir desde Jaén .
+M4: Le consulto horarios de Jaén a Madrid el martes , día 27 de abril de 2004 entre las 9 y 30 y las 10 y 30 de la noche . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: Sí , la fecha en la que quier(a o) viajar es el (lm veintitrés ventitrés) de octubre (p) y a las diez de la noche .
+M6: Le consulto horarios de trenes con salida en Jaén destino Madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (a Y) (p) (fb) ¿ a partir de las doce de la noche ?
+M8: Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y el otro a las 3 y 40 de la tarde ¿ Desea algo más ?
+U6: ¿ Cuáles son los precios (p) para el viaje ?
+M10: Los trenes son Regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Quiero los horarios (rs (m para (lu volver vol)) (c para el viaje de vuelta)) a partir de las dos de la mañana .
+M11: Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M12: Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde ¿ Desea algo más ?
+U8: Sí , (a e)l horario del viaje de vuelta para el día (lm veinticuatro venticuatro) de octubre .
+M13: Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el domingo , día 24 de octubre de 2004 . Un momento por favor .
+M14: Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde ¿ Desea algo más ?
+U9: Sí y cuáles son los precios d(a e)l tren .
+M15: Los trenes son Regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M16: Gracias por utilizar este servicio . Feliz viaje .

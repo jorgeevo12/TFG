@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería saber (fe) a qué horas hay trenes para ir de Burgos a Valladolid el domingo por la tarde .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Valladolid .
+M3: Quiere horarios de trenes a Valladolid ¿ desde Zaragoza ?
+U3: No , quiero horarios de trenes de Burgos (p) hasta Valladolid .
+M4: Le consulto horarios de trenes con salida en Burgos destino Valladolid saliendo el domingo , día 2 de mayo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 59 de la madrugada y el último a las 9 y 20 de la noche ¿ Desea algo más ?
+U4: Sí , me gustaría saber los precios de esos trenes .
+M6: Hay varios trenes . En clase turista , el tren más caro es un surex que cuesta 21 euros la ida y el más barato es un Regional que cuesta 6 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: (nw) Sí , quisiera regresar desde Valladolid hasta Burgos a partir d(a e) el martes a las dos de la tarde (p) ¿ Qué horarios h(a a)y para el martes a las dos de la tarde ?
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 4 y 6 de la tarde y el último a las 8 y 11 de la tarde ¿ Desea algo más ?
+U6: ¿ Qué precios tienen esos trenes ?
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: ¿ Qué precios tienen esos trenes ?
+M10: Los trenes son castilla_y_León_expres y en clase turista , el billete cuesta 6 con 95 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

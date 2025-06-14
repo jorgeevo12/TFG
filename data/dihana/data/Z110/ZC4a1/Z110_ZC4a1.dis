@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Obtener horarios .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (nl) Barcelona .
+M3: Perdón . No consigo entenderle .
+U3: Barcelona .
+M4: ¿ Qué día desea salir ?
+U4: (na) Dos de agosto .
+M5: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el lunes , día 2 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U6: Sí , quiero horarios de mañana .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Sí , quiero horario por la mañana .
+M9: Le consulto horarios de Zaragoza a Barcelona el lunes , día 2 de agosto de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 6 y 2 de la mañana y el último a las 12 y 20 de la mañana ¿ Desea algo más ?
+U8: Sí , quiero consultar viaje de vuelta .
+M11: ¿ Quiere saber horarios ?
+U9: (na) Sí , para el día ocho de agosto (nw) .
+M12: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el domingo , día 8 de agosto de 2004 . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U10: Sí , quiero horarios por la mañana .
+M14: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: Sí , quiero consultar horario de vuelta por la mañana (na) .
+M15: Le consulto horarios de Barcelona a Zaragoza el domingo , día 8 de agosto de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M16: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a la una de la tarde ¿ Desea algo más ?
+U12: Sí , quiero obtener precio .
+M17: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 euros la ida y el más barato es un Cataluña_Exprés que cuesta 18 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: No .
+M18: Gracias por utilizar este servicio . Feliz viaje .

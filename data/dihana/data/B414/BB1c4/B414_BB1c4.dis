@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisiera saber el horario y el precio de los trenes a La_Coruña .
+M2: ¿ Quiere llegar a La_Coruña ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: (na) El once de marzo .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (na) Once de marzo .
+M5: ¿ Desea salir el viernes , día 11 de marzo de 2005 ?
+U5: Sí .
+M6: Quiere horarios de trenes a La_Coruña ¿ desde Bilbao ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Bilbao destino La_Coruña saliendo el viernes , día 11 de marzo de 2005 . Un momento por favor .
+M8: El único tren que realiza el trayecto es un Diurno que sale a las 9 y 25 de la mañana ¿ Desea algo más ?
+U7: (na) ¿ A qué hora llega a La_Coruña ?
+M9: Ese tren sale a las 9 y 25 de la mañana y llega a las 9 y 18 de la noche ¿ Desea algo más ?
+U8: ¿ Cuál es el precio del viaje ?
+M10: El precio de ese tren en clase turista es 36 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

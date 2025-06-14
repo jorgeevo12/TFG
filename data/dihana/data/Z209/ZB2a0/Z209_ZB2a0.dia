@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Buenos días , me gustaría viajar a Oviedo el doce de marzo .
+Buenos días , me gustaría viajar a Oviedo (U:Pregunta:Nil:Destino) pal: 1 - 8
+el doce de marzo . (U:Pregunta:Nil:Dia) pal: 9 - 13
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+
+M3: ¿ Quiere viajar desde oviedo ? .
+¿ Quiere viajar desde oviedo ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U3: No , quiero viajar desde Zaragoza a Oviedo .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero viajar desde Zaragoza (U:Respuesta:Hora_salida:Origen) pal: 3 - 6
+a Oviedo . (U:Respuesta:Hora_salida:Destino) pal: 7 - 9
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino oviedo saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino oviedo saliendo el viernes , día 12 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Sólo hay dos trenes . El primero sale a las 2 y 30 de la madrugada y el otro a las 11 y 11 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 2 y 30 de la madrugada y el otro a las 11 y 11 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+U4: Sí , me gustaría saber a que hora llega el de las once treinta de la mañana .
+Sí , me gustaría saber a que hora llega el de las once treinta de la mañana . (U:Pregunta:Hora_llegada:Hora_salida) pal: 1 - 18
+
+M6: Ese tren sale a las 11 y 11 de la mañana y llega a las 7 y 25 de la tarde . Desea algo más ? .
+Ese tren sale a las 11 y 11 de la mañana y llega a las 7 y 25 de la tarde . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+U5: Sí , me gustaría saber su precio .
+Sí , me gustaría saber su precio . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+M7: El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 34 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+U6: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

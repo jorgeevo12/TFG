@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el horario desde Valencia hasta Barcelona (nw) (p) el (nw nueve) d(a e) (p) abril .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Barcelona .
+M3: ¿ Quiere viajar a Barcelona ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el viernes , día 9 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U4: Que el intervalo de hor(a a) sea desde las tres hasta las siete .
+M6: ¿ Quiere salir entre las 3 y las 7 de la tarde ?
+U5: Sí .
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde y el último sale a las 6 y 5 de la tarde y llega a las 9 y 5 de la noche ¿ Desea algo más ?
+U6: Sí , que el tren sea un Arco .
+M9: ¿ Desea hacer el viaje en un Arco ?
+U7: Sí .
+M10: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el viernes , día 9 de abril de 2004 en Arco . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Arco que sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde ¿ Desea algo más ?
+U8: Sí , el precio de ese tren .
+M12: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

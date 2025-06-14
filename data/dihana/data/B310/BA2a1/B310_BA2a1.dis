@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Buenos días) quisiera (p) (nw) saber horarios de trenes de Bilbao a Madrid (p) para llegar a Madrid antes de las diez y media de la mañana (p) la salida podría ser el día (nw) dieciséis o el día diecisiete .
+M2: ¿ Qué día desea salir ?
+U2: (nl) El dieciséis (p) o el diecisiete de marzo .
+M3: ¿ Desea salir el martes , día 16 de marzo de 2004 ?
+U3: Sí , (nw) .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M5: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U4: (fm) Sí , (dq por favor) ¿ (rr (m y) (c y)) saliendo el diecisiete de marzo ?
+M6: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el miércoles , día 17 de marzo de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: (nw) Sí , (nw) (fe) ¿ No hay ningún tren nocturno qué pueda llevarme (a a) Madrid desde Bilbao ? (nw) .
+M8: ¿ Quiere salir entre las 9 de la noche y las 5 de la madrugada ?
+U6: S(a í) , (nw) (da perfecto) .
+M9: Le consulto horarios de Bilbao a Madrid el miércoles , día 17 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (fm) (fb) No ¿ saliendo el dieciséis habría alguno ?
+M11: Le consulto horarios de Bilbao a Madrid el martes , día 16 de marzo de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: No , (dc gracias) , está bien (nw) (na) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

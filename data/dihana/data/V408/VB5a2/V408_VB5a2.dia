@@ -1,0 +1,146 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Me gustaría obtener el horario y el precio para un viaje de ida de Málaga a Palencia a partir de las once de la mañana .
+Me gustaría obtener el horario y el precio para un viaje de ida (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 13
+de Málaga (U:Pregunta:Hora_salida,Precio:Origen) pal: 14 - 15
+a Palencia (U:Pregunta:Hora_salida,Precio:Destino) pal: 16 - 17
+a partir de las once de la mañana . (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 18 - 26
+
+
+
+M2: ¿ Me pregunta por horarios ? .
+¿ Me pregunta por horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 7
+
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+
+
+M3: ¿ Quiere viajar desde málaga ? .
+¿ Quiere viajar desde málaga ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+
+U3: Sí , de Málaga a Palencia .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+de Málaga (U:Respuesta:Hora_salida:Origen) pal: 3 - 4
+a Palencia . (U:Respuesta:Hora_salida:Destino) pal: 5 - 7
+
+
+
+M4: Quiere horarios de trenes a palencia , ¿ saliendo de málaga ? .
+Quiere horarios de trenes a palencia , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de málaga ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+
+M5: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+U5: mañana .
+mañana . (U:Respuesta:Dia:Dia) pal: 1 - 2
+
+
+
+M7: Le consulto horarios de trenes con salida en málaga destino palencia saliendo el sábado , día 3 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en málaga destino palencia saliendo el sábado , día 3 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M8: Hay varios trenes . El primero sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde y el último sale a las 10 y 3 de la noche y llega a las 7 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde y el último sale a las 10 y 3 de la noche y llega a las 7 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+
+
+U6: Me gustaría saber el precio del primer tren .
+Me gustaría saber el precio del primer tren . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 9
+
+
+
+M9: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U7: Me gustaría saber el precio del primer tren .
+Me gustaría saber el precio del primer tren . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 9
+
+
+
+M10: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+
+U8: Me gustaría viajar con un talgo .
+Me gustaría viajar con un talgo . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 7
+
+
+
+M11: Le consulto horarios de trenes con salida en málaga destino palencia saliendo el sábado , día 3 de abril de 2004 en talgo . Un momento por favor .
+Le consulto horarios de trenes con salida en málaga destino palencia saliendo el sábado , día 3 de abril de 2004 en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+
+M12: Sólo hay dos trenes . El primero sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde y el otro sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde y el otro sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+
+
+
+U9: Me gustaría saber el precio del último tren .
+Me gustaría saber el precio del último tren . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 9
+
+
+
+M13: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+
+U10: ¿ Cuál sería el precio si viajara en clase económica ? .
+¿ Cuál sería el precio si viajara en clase económica ? . (U:Pregunta:Precio:Clase_billete) pal: 1 - 12
+
+
+
+M14: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+
+
+M15: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+
+U11: No , .
+No , . (U:Cierre:Nil:Nil) pal: 1 - 3
+
+
+
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

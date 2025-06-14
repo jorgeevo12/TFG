@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero saber precios para ir a Santander la última semana de julio .
+Quiero saber precios para ir a Santander (U:Pregunta:Precio:Destino) pal: 1 - 7
+la última semana de julio . (U:Pregunta:Precio:Dia) pal: 8 - 13
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Quiero consultar precios para ir a Santander la última semana de julio .
+Quiero consultar precios para ir a Santander (U:Pregunta:Precio:Destino) pal: 1 - 7
+la última semana de julio . (U:Pregunta:Precio:Dia) pal: 8 - 13
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: La última semana de julio .
+La última semana de julio . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+M4: Quiere saber el precio a santander , ¿ desde zaragoza ? .
+Quiere saber el precio a santander , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M5: Le consulto precios de zaragoza a santander saliendo el lunes , día 26 de julio de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a santander saliendo el lunes , día 26 de julio de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U5: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

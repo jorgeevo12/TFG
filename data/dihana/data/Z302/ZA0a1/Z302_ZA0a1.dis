@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber horarios (fe) (p) de trenes hacia Cuenca .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Cuenca (na) .
+M3: ¿ Qué día desea salir ?
+U3: Cualquier día de la próxima semana (na) .
+M4: Quiere horarios de trenes a Cuenca ¿ desde Zaragoza ?
+U4: Sí , (dq por favor) .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Cuenca saliendo el lunes , día 10 de mayo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (fb) No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

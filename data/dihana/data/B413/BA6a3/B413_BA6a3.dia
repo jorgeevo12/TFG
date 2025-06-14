@@ -1,0 +1,60 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería obtener horarios para viajes que salgan de Valencia a Bilbao .
+Quería obtener horarios para viajes que salgan de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+a Bilbao . (U:Pregunta:Hora_salida:Destino) pal: 10 - 12
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El quince de septiembre .
+El quince de septiembre . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M3: Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el miércoles , día 15 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el miércoles , día 15 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M4: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U3: Pues que salga el catorce de septiembre .
+Pues que salga el catorce de septiembre . (U:Pregunta:Hora_salida:Dia) pal: 1 - 8
+
+M5: Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el martes , día 14 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino bilbao saliendo el martes , día 14 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U4: Que salga de Burgos a Bilbao .
+Que salga de Burgos (U:Pregunta:Hora_salida:Origen) pal: 1 - 4
+a Bilbao . (U:Pregunta:Hora_salida:Destino) pal: 5 - 7
+
+M7: Le consulto horarios de trenes con salida en burgos destino bilbao saliendo el martes , día 14 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en burgos destino bilbao saliendo el martes , día 14 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M8: Hay varios trenes . El primero sale a las 3 y 17 de la madrugada y el último a las 6 y 34 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 3 y 17 de la madrugada y el último a las 6 y 34 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U5: Saber el tipo tren que es .
+Saber el tipo tren que es . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 7
+
+M9: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+M10: Hay varios tipos de trenes . El tren más rápido es un talgo y el más lento es un costa_vasca . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un talgo y el más lento es un costa_vasca . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

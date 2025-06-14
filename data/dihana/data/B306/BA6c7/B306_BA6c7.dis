@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querí(a a) saber el horari(a o) par(a a) ir (ri (m (a a)) (c de Cáceres a)) Mérida .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Desde Cáceres a Mérida .
+M3: ¿ Quiere viajar a Mérida ?
+U3: Sí , sólo viaje d(a e) ida .
+M4: Quiere horarios de trenes a Mérida ¿ desde Bilbao ?
+U4: No , desd(a e) Cáceres (a a) Mérida .
+M5: Quiere horarios de trenes a Mérida ¿ desde Cáceres ?
+U5: Sí para ir (a e)l lunes o el martes de la semana que viene .
+M6: Le consulto horarios de trenes con salida en Cáceres destino Mérida saliendo el lunes , día 8 de marzo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí , quiero saber qué tip(a o) de tren es .
+M8: Le consulto tipos de trenes para el trayecto Cáceres a Mérida . Un momento por favor .
+M9: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un Tren_Hotel ¿ Desea algo más ?
+U7: No , (dr nada más) (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

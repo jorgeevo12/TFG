@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U1: (do Hola buenos días) (p) , quisiera saber el preci(a o) para un viaje de ida (p) a Teruel para el próximo viernes .
+M3: ¿ Quiere saber horarios ?
+U2: (fm) No , solo quisiera saber el precio . (a Y) (p) y (df bueno) sería para salir el próximo viernes hacia Teruel en tren Regional . Ida (nw) .
+M4: ¿ Desea hacer el viaje en un Regional ?
+U3: (fe) Sí .
+M5: Le consulto precios de Bilbao a Teruel en tipo tren Regional . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (fm) .
+M7: Le consulto precios de Bilbao a Teruel . Un momento por favor .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , quisiera saber (rr (m s(a i)) (s (p)) (c si)) (rr (m hay u(a n)) (c hay un)) tren (p) que salg(a a) de Bilbao a Teruel el próximo viernes (b e(a n)) un tren Regional .
+M9: Le consulto precios de Bilbao a Teruel en tipo tren Regional . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: (nl) (fm) Sí , (df bueno) quisier(a a) saber (fe) (fb) si un tre(a n) Ave (fe) .
+M11: ¿ Desea hacer el viaje en un Ave ?
+U7: (fe) Sí .
+M12: Le consulto precios de Bilbao a Teruel en tipo tren Ave . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , quisier(a a) saber (fe) si algún tren de cualquier tipo (p) (fe) puede hacer este viaje (p) (rs (m para llegar) (s (fe)) (c para salir)) el próximo viernes a (lm Teruel Turuel) .
+M14: Le consulto precios de Bilbao a Teruel . Un momento por favor .
+M15: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

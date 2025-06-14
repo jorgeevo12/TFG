@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quisier(a a) (fm) obtener el horario (fm) para hacer un viaje de ida de Granada a (lm Madrid Madrí) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (na) Quisiera un horario par(a a) un viaje de ida de Granada a Madrid .
+M3: Quiere horarios de trenes a Madrid ¿ saliendo de Granada ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: En un día laborable de la (p) próxima semana .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (na) Quiero salir en un día laborable de la semana que viene .
+M6: ¿ Desea salir el lunes , día 3 de mayo de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Granada destino Madrid saliendo el lunes , día 3 de mayo de 2004 . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 7 y 55 de la mañana y llega a las 2 y 1 de la tarde y el otro sale a las 4 y 40 de la tarde y llega a las 10 y 36 de la noche ¿ Desea algo más ?
+U7: El primero ¿ qué tipo de tren es ?
+M9: Ese tren es un Talgo ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

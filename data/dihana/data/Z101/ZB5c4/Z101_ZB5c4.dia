@@ -1,0 +1,43 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera conocer horarios y precios de un viaje en Castellón y destino en Barcelona .
+Quisiera conocer horarios y precios de un viaje en Castellón (U:Pregunta:Hora_salida,Precio:Origen) pal: 1 - 10
+y destino en Barcelona . (U:Pregunta:Hora_salida,Precio:Destino) pal: 11 - 15
+M2: ¿ Quiere salir desde zaragoza ? .
+¿ Quiere salir desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: No .
+No . (U:Negacion:Origen:Nil) pal: 1 - 2
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: El sábado próximo .
+El sábado próximo . (U:Respuesta:Dia:Dia) pal: 1 - 4
+M4: Quiere horarios de trenes a barcelona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: No , quiero horarios de salida en Castellón destino Barcelona .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero horarios de salida en Castellón (U:Pregunta:Hora_salida:Origen) pal: 3 - 8
+destino Barcelona . (U:Pregunta:Hora_salida:Destino) pal: 9 - 11
+M5: Le consulto horarios de trenes con salida en castellón destino barcelona saliendo el sábado , día 13 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en castellón destino barcelona saliendo el sábado , día 13 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El primero sale a las 6 y 39 de la mañana y el último a las 8 y 46 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 39 de la mañana y el último a las 8 y 46 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: Sí , quisiera saber si hay trenes euromed disponibles .
+Sí , quisiera saber si hay trenes euromed disponibles . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 10
+M7: Le consulto horarios de trenes con salida en castellón destino barcelona saliendo el sábado , día 13 de marzo de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en castellón destino barcelona saliendo el sábado , día 13 de marzo de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+M8: Hay varios trenes . El primero sale a las 7 y 19 de la mañana y el último a las 8 y 46 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 19 de la mañana y el último a las 8 y 46 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U6: Sí , quisiera saber qué precio tienen .
+Sí , quisiera saber qué precio tienen . (U:Pregunta:Precio:Nil) pal: 1 - 8
+M9: Los trenes son euromed y en clase turista , el billete cuesta 29 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son euromed y en clase turista , el billete cuesta 29 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

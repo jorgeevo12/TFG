@@ -1,0 +1,123 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Pues quería saber un viaje de ida Valencia .
+Pues quería saber un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 7
+Valencia . (U:Pregunta:Nil:Destino) pal: 8 - 9
+
+M2: ¿ Quiere llegar a valencia ? .
+¿ Quiere llegar a valencia ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U2: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M3: Quiere saber el precio a valencia , ¿ desde bilbao ? .
+Quiere saber el precio a valencia , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+M5: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+U5: Sí , quería saber el precio de un viaje a Valencia .
+Sí , quería saber el precio de un viaje a Valencia . (U:Pregunta:Precio:Destino) pal: 1 - 12
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U6: El treinta de marzo .
+El treinta de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U7: Sí el treinta de marzo .
+Sí el treinta de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+M8: Le consulto precios de bilbao a valencia saliendo el martes , día 30 de marzo de 2004 . Un momento por favor .
+Le consulto precios de bilbao a valencia saliendo el martes , día 30 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U8: Bueno , pues que salgan desde el día .
+Bueno , pues que salgan desde el día . (U:Indefinida:Nil:Nil) pal: 1 - 9
+
+M10: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U9: Sí , quisiera que el tren salga entre las fechas del día veintiséis al treinta y uno de marzo .
+Sí , quisiera que el tren salga entre las fechas del día veintiséis al treinta y uno de marzo . (U:Pregunta:Nil:Dia) pal: 1 - 20
+
+M11: Le consulto precios de bilbao a valencia saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor .
+Le consulto precios de bilbao a valencia saliendo el viernes , día 26 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M12: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U10: Pues que salga el veintisiete de marzo o el veintiocho de marzo o el veintinueve de marzo .
+Pues que salga el veintisiete de marzo o el veintiocho de marzo o el veintinueve de marzo . (U:Pregunta:Precio:Dia) pal: 1 - 18
+
+M13: Le consulto precios de bilbao a valencia saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+Le consulto precios de bilbao a valencia saliendo el sábado , día 27 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M14: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U11: Pues entonces el veintiocho de marzo .
+Pues entonces el veintiocho de marzo . (U:Pregunta:Precio:Dia) pal: 1 - 7
+
+M15: Le consulto precios de bilbao a valencia saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+Le consulto precios de bilbao a valencia saliendo el domingo , día 28 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M16: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U12: Bueno pues en vez de a Valencia me voy a ir a Palencia .
+Bueno pues en vez de a Valencia me voy a ir a Palencia . (U:Pregunta:Nil:Destino) pal: 1 - 14
+
+M17: ¿ Quiere llegar a palencia ? .
+¿ Quiere llegar a palencia ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U13: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M18: Le consulto precios de bilbao a palencia saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+Le consulto precios de bilbao a palencia saliendo el domingo , día 28 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M19: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U14: ¿ Hay otros trenes que no sean talgo o intercity ? .
+¿ Hay otros trenes que no sean talgo o intercity ? . (U:Pregunta:Nil:Tipo_tren) pal: 1 - 12
+
+M20: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M21: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U15: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M22: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

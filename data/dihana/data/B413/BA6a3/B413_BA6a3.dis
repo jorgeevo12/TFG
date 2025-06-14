@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería obten(a e)r horarios (fe) para viaje(a s) (fe) que salgan de Valencia (a a) Bilbao .
+M2: ¿ Qué día desea salir ?
+U2: (a E)l quince de septiembre .
+M3: Le consulto horarios de trenes con salida en Valencia destino Bilbao saliendo el miércoles , día 15 de septiembre de 2004 . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: (df Pues) que salga e(a l) (p) catorce de septiembre .
+M5: Le consulto horarios de trenes con salida en Valencia destino Bilbao saliendo el martes , día 14 de septiembre de 2004 . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: (fe) Que salga de Burgos a Bilbao .
+M7: Le consulto horarios de trenes con salida en Burgos destino Bilbao saliendo el martes , día 14 de septiembre de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 3 y 17 de la madrugada y el último a las 6 y 34 de la tarde ¿ Desea algo más ?
+U5: (fe) Saber e(a l) tipo tren (p) que es .
+M9: Le consulto tipos de tren . Un momento por favor .
+M10: Hay varios tipos de trenes . El tren más rápido es un Talgo y el más lento es un costa_vasca ¿ Desea algo más ?
+U6: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

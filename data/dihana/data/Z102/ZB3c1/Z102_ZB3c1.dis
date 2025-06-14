@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , deseo el horario de un viaje de ida a Ávila el próximo viernes veintitrés de abril , (p) después de las cuatro de la tarde .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (nl) A Ávila .
+M3: Le consulto horarios de trenes con salida en Zaragoza destino ávila saliendo el viernes , día 23 de abril de 2004 . Un momento por favor .
+M4: Sólo hay dos trenes . El primero sale a las 10 y 3 de la noche y el otro a las 11 de la noche ¿ Desea algo más ?
+U3: ¿ El tren es de litera ?
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Desearía (rr (m (lm viajar vaj)) (c viajar)) en litera o en cama .
+M6: Un momento por favor .
+M7: El único tren que realiza el trayecto es un Diurno que sale a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: ¿ Me puede dar el precio ?
+M8: El precio de ese tren en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , querría consultar horarios de viajes de ida a Barcelona para llegar el sábado y que sea rápido .
+Hola , querría consultar horarios de viajes de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 10 - 11
+para llegar el sábado (U:Pregunta:Hora_salida:Dia) pal: 12 - 15
+y que sea rápido . (U:Pregunta:Hora_salida:Tipo_tren) pal: 16 - 20
+
+M2: ¿ Desea salir el sábado , día 28 de febrero de 2004 ? .
+¿ Desea salir el sábado , día 28 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U2: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M3: Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M4: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U3: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

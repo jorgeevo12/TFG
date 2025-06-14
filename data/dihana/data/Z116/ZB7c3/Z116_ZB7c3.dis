@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero información de trenes (nw) para Jaén (nw) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quiero información de trenes (p) con destino Jaén .
+M3: ¿ Quiere saber horarios ?
+U3: No .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: No .
+M5: ¿ Le indico horarios ?
+U5: No .
+M6: ¿ Qué día desea salir ?
+U6: (nw) El día seis o siete de junio .
+M7: ¿ Desea salir el jueves , día 17 de junio de 2004 ?
+U7: (nl) No , quiero ir el día seis o el día (nw) siete de junio .
+M8: Quiere saber el precio a Jaén ¿ desde Zaragoza ?
+U8: Sí , (nw) en Intercity si es posible .
+M9: Le consulto precios de Zaragoza a Jaén en tipo tren Intercity . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M11: Gracias por utilizar este servicio . Feliz viaje .

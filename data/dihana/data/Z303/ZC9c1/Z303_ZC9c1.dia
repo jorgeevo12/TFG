@@ -1,0 +1,51 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Deseo obtener el precio para viajar desde Oviedo el día uno de agosto hasta Orense .
+Deseo obtener el precio para viajar desde Oviedo (U:Pregunta:Precio:Origen) pal: 1 - 8
+el día uno de agosto (U:Pregunta:Precio:Dia) pal: 9 - 13
+hasta Orense . (U:Pregunta:Precio:Destino) pal: 14 - 16
+
+M2: Le consulto precios de oviedo a orense saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+Le consulto precios de oviedo a orense saliendo el domingo , día 1 de agosto de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M3: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U2: Sí , también deseo saber el precio de vuelta .
+Sí , también deseo saber el precio de vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+
+M4: ¿ Desea salir el domingo , día 1 de agosto de 2004 ? .
+¿ Desea salir el domingo , día 1 de agosto de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: No , la vuelta sería el catorce de agosto por la tarde .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+la vuelta (U:Respuesta:Precio:Tipo_viaje) pal: 3 - 4
+sería el catorce de agosto (U:Respuesta:Precio:Dia) pal: 5 - 9
+por la tarde . (U:Respuesta:Precio:Hora_salida) pal: 10 - 13
+
+M5: Le consulto precios de orense a oviedo saliendo el sábado , día 14 de agosto de 2004 . Un momento por favor .
+Le consulto precios de orense a oviedo saliendo el sábado , día 14 de agosto de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U4: Sí , me gustaría viajar en coche cama .
+Sí , me gustaría viajar en coche cama . (U:Pregunta:Precio:Clase_billete) pal: 1 - 9
+
+M7: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M8: El único tren que realiza el trayecto es un diurno y su precio en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno y su precio en clase turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U5: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

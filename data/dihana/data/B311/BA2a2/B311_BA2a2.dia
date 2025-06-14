@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría que me diera horarios y tipo de trenes para realizar un viaje de ida a París .
+Me gustaría que me diera horarios y tipo de trenes para realizar un viaje de ida (U:Pregunta:Hora_salida,Tipo_tren:Tipo_viaje) pal: 1 - 16
+a París . (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 17 - 18
+
+M2: Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales . Desea realizar otra consulta ? .
+Este servicio no está preparado para atender consultas sobre trenes de cercanías o internacionales . (M:Indefinida:Nil:Nil) pal: 1 - 15
+Desea realizar otra consulta ? . (M:Nueva_consulta:Nil:Nil) pal: 16 - 21
+
+U2: Sí , pues me gustaría obtener horarios y tipo de tren para realizar un viaje de ida a Barcelona .
+Sí , pues me gustaría obtener horarios y tipo de tren para realizar un viaje de ida (U:Pregunta:Hora_salida,Tipo_tren:Tipo_viaje) pal: 1 - 17
+a Barcelona . (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 18 - 20
+
+M3: Quiere horarios de trenes a barcelona , ¿ desde bilbao ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El día cuatro de mayo .
+El día cuatro de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: El día cuatro de mayo .
+El día cuatro de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+M6: Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el martes , día 4 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino barcelona saliendo el martes , día 4 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un miguel_de_unamuno que sale a las 10 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,31 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quisiera saber los horarios de los trenes para Barcelona el próximo sábado .
+Quisiera saber los horarios de los trenes para Barcelona (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+el próximo sábado . (U:Pregunta:Hora_salida:Dia) pal: 10 - 13
+
+M2: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 20 de diciembre de 2003 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 20 de diciembre de 2003 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El primero sale a las 5 y 45 de la noche y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la noche y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U2: Sí , quisiera ir en un tren que fuera rápido .
+Sí , quisiera ir en un tren que fuera rápido . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 11
+
+M4: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M5: El tren más rápido es un euromed con salida a las 6 y 40 de la madrugada y tarda 2 horas y 56 minutos . Desea algo más ? .
+El tren más rápido es un euromed con salida a las 6 y 40 de la madrugada y tarda 2 horas y 56 minutos . (M:Respuesta:Hora_salida:Hora_salida,Tiempo_recorrido,Tipo_tren) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U3: nada más , muchas gracias .
+nada más , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

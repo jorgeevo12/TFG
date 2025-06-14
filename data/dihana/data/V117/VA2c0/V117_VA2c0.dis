@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do (lm Buenos buenas) días) , me gustaría sab(a e)r trenes a Castellón este viernes .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Castellón .
+M4: Quiere horarios de trenes a Castellón ¿ desde Valencia ?
+U4: Sí , (dq por favor) .
+M5: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el viernes , día 23 de enero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 9 y 35 de la noche ¿ Desea algo más ?
+U5: Sí , (fe) me gustaría saber (rr (m (a e)l) (c el)) más rápido , qué tipo de tren es el más rápido .
+M7: El tren más rápido es un Euromed y tarda y 37 minutos ¿ Desea algo más ?
+U6: Sí , me gustaría saber (p) el horario (p) del Euromed .
+M8: Ese tren sale a las 6 y 40 de la mañana y llega a las 7 y 17 de la mañana ¿ Desea algo más ?
+U7: (df Pues) sí , me gustaría ir en preferente . (p) ¿ Tiene preferente ?
+M9: Ese tren dispone de clase preferente ¿ Desea algo más ?
+U8: No , (dc muchas gracias) eso es todo .
+M10: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,83 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Hola buenas me gustaría obtener información sobre un viaje de ida a Madrid para el sábado .
+Hola buenas me gustaría obtener información sobre un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 11
+a Madrid (U:Pregunta:Nil:Destino) pal: 12 - 13
+para el sábado . (U:Pregunta:Nil:Dia) pal: 14 - 17
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+U2: Sí , por favor verá , tengo que llegar para las siete y media de la tarde .
+Sí , por favor (U:Afirmacion:Hora_salida:Nil) pal: 1 - 4
+verá , tengo que llegar para las siete y media de la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 5 - 18
+
+
+
+M3: ¿ Quiere llegar entre las 0 de la noche y las 7 y 30 de la tarde ? .
+¿ Quiere llegar entre las 0 de la noche y las 7 y 30 de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 19
+
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+
+
+
+M4: ¿ Quiere viajar desde madrid ? .
+¿ Quiere viajar desde madrid ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+
+U4: No .
+No . (U:Negacion:Origen:Nil) pal: 1 - 2
+
+
+
+M5: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+U5: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+
+M6: Quiere horarios de trenes a madrid , ¿ desde bilbao ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+U6: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Origen:Nil) pal: 1 - 5
+
+
+
+M7: Le consulto horarios de bilbao a madrid llegando el sábado , día 21 de febrero de 2004 entre las 0 de la noche y las 7 y 30 de la tarde . Un momento por favor .
+Le consulto horarios de bilbao a madrid llegando el sábado , día 21 de febrero de 2004 entre las 0 de la noche y las 7 y 30 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 32
+Un momento por favor . (M:Espera:Nil:Nil) pal: 33 - 37
+
+
+
+M8: El único tren que realiza el trayecto es un talgo que sale a las 9 y 50 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 9 y 50 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

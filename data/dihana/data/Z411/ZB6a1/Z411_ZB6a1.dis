@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df A ver) , quiero ir en el Talgo (p) a las cinco de la tarde (p) el próximo jueves (p) desd(a e) Zaragoza a Teruel .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: Le consulto horarios de Zaragoza a Teruel el jueves , día 1 de abril de 2004 entre las 4 y 30 y las 5 y 30 de la tarde . Un momento por favor .
+M4: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: La hora .
+M5: Le consulto horarios de trenes con salida en Zaragoza destino Teruel saliendo el jueves , día 1 de abril de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 8 y 10 de la mañana y el último a las 7 y 20 de la tarde ¿ Desea algo más ?
+U4: (fm) ¿ Cuánto vale ?
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: ¿ Cuánto vale ?
+M8: Los trenes son Regional y en clase turista , el billete cuesta 8 con 93 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc nada más) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

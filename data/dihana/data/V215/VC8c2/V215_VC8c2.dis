@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el precio d(a e) (p) los viajes de tren (fm) Murci(a a) a Córdoba para agosto .
+M2: Le consulto precios de Murcia a Córdoba saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M3: Hay varios trenes . En turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U2: Sí , quería saber (fe) el precio (rs (m d(a e)) (s (p))(c del)) viaje de vuelta de Córdoba a Murcia (p) par(a a) los días dieciséis o diecisiete de agosto (nw) .
+M4: Le consulto precios de Córdoba a Murcia . Un momento por favor .
+M5: Hay varios trenes . En turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U3: Sí , querría saber el precio total d(a e) viaje de id(a a) y de vuelta .
+M6: Usted debe calcular el descuento . El precio es el proporcionado anteriormente .
+U4: (nw) .
+M7: ¿ Puede repetir su consulta ?
+U5: Me pregunta (nw algo) .
+M8: ¿ Puede repetir su consulta ?
+U6: ¿ (nw Me puede decir) el precio (rs (m d(a e)l el tren) (c los trenes)) más baratos (nw tanto para ir) como para volver ?
+M9: El tren más barato es un Diurno y su precio en turista es 32 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U7: Sí , quiero que me repitas el precio (rs (m d(a e)l)(s (p)) (c el)) tren más barato (p) para la vuelta .
+M10: El precio de ese tren en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U8: Nada más , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

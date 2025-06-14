@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , quería horarios para viajar a Madrid el (p) próximo viernes día (lm treinta trenta) de enero (nw) .
+M2: Quiere horarios de trenes a Madrid ¿ desde Valencia ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el viernes , día 30 de enero de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U3: (na) Sí , me gustaría saber si hay alguno que llegue antes de las seis de la tarde .
+M5: Le consulto horarios . Un momento por favor .
+M6: Hay varios trenes . El primero llega a las 10 y 17 de la mañana y el último a las 5 y 50 de la tarde ¿ Desea algo más ?
+U4: (na) Sí , (nw me gustaría saber a qué hora sale ese último) .
+M7: El sexto y último tren es un Alaris que sale a las 2 y 15 de la tarde y llega a las 5 y 50 de la tarde ¿ Desea algo más ?
+U5: No , nada más , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

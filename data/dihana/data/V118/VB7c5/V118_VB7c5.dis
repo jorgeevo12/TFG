@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (do Hola buenas) , querría a ver si podí(a a) (p) decirme (b los) (p) el precio de un viaje (p) Valencia Madrid (na) el día seis de enero en Alaris .
+M2: ¿ Me pregunta por precios ?
+U2: Sí , así es .
+M3: ¿ Qué día desea salir ?
+U3: El seis de enero .
+M4: ¿ Desea salir el jueves , día 6 de enero de 2005 ?
+U4: Sí , así es .
+M5: Le consulto precios de Valencia a Madrid en tipo tren Alaris . Un momento por favor .
+M6: Los trenes son Alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

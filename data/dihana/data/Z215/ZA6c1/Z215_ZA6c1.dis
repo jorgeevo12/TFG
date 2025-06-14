@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber (fe) (b qu(a e)) el horario para ir desde Valencia a Alicante .
+M2: ¿ Quiere salir desde Zaragoza ?
+U2: No , quiero salir desde Valencia .
+M3: ¿ Qué día desea salir ?
+U3: Hoy .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Quería salir hoy (p) , es que teng(a o) unos amigos en Alicante (p) y(a y) solo tengo un día para visitarlos .
+M5: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el miércoles , día 10 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U5: ¿ Cuál es el tren más rápido ?
+M7: Hay varios trenes . El más rápido sale a las 10 de la mañana y llega a las 11 y 35 de la mañana y el más lento sale a las 4 y 15 de la tarde y llega a las 6 y 19 de la tarde ¿ Desea algo más ?
+U6: ¿ Qué tipo de tren es el que sale a las diez de la mañana ?
+M8: Ese tren es un Euromed ¿ Desea algo más ?
+U7: ¿ Puede repetirme el tipo de tren ?
+M9: Ese tren es un Euromed ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

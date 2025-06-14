@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría saber el precio del viaje de ida y de vuelta de un tren que vaya de Valencia a Teruel el próximo viernes .
+Me gustaría saber el precio del viaje de ida y de vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 12
+de un tren que vaya de Valencia (U:Pregunta:Precio:Origen) pal: 13 - 19
+a Teruel (U:Pregunta:Precio:Destino) pal: 20 - 21
+el próximo viernes . (U:Pregunta:Precio:Dia) pal: 22 - 25
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: No , sólo precios .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+sólo precios . (U:Pregunta:Precio:Nil) pal: 3 - 5
+
+M3: Le consulto precios de valencia a teruel saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto precios de valencia a teruel saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M4: Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U3: Sí , ¿ cuánto costaría el viaje de vuelta si vuelvo el domingo ? .
+Sí , ¿ cuánto costaría el viaje de vuelta (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+si vuelvo el domingo ? . (U:Pregunta:Precio:Dia) pal: 10 - 15
+
+M5: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U4: No , sólo el precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+sólo el precio . (U:Pregunta:Precio:Nil) pal: 3 - 6
+
+M6: Le consulto precios de teruel a valencia saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+Le consulto precios de teruel a valencia saliendo el domingo , día 29 de febrero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M7: Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U5: No , gracias es todo .
+No , gracias es todo . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

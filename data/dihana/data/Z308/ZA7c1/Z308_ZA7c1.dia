@@ -1,0 +1,46 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , me gustaría saber el horario de un tren de Zaragoza a Madrid para el seis de marzo .
+Hola , me gustaría saber el horario de un tren de Zaragoza (U:Pregunta:Hora_salida:Origen) pal: 1 - 12
+a Madrid (U:Pregunta:Hora_salida:Destino) pal: 13 - 14
+para el seis de marzo . (U:Pregunta:Hora_salida:Dia) pal: 15 - 20
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: El seis de marzo .
+El seis de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M3: Quiere horarios de trenes a madrid , ¿ desde zaragoza ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí , y si podría ser de Ave .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+y si podría ser de Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 3 - 9
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el domingo , día 6 de marzo de 2005 en ave . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el domingo , día 6 de marzo de 2005 en ave . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+M5: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U4: Sí , que no sea en Ave .
+Sí , que no sea en Ave . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 8
+
+M6: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

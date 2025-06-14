@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , quería comprar un viaje de ida a Sevilla para llegar el viernes nueve de abril con el tren más rápido .
+Hola , quería comprar un viaje de ida (U:Pregunta:Nil:Tipo_viaje) pal: 1 - 8
+a Sevilla (U:Pregunta:Nil:Destino) pal: 9 - 10
+para llegar el viernes nueve de abril (U:Pregunta:Nil:Dia) pal: 11 - 17
+con el tren más rápido . (U:Pregunta:Nil:Tipo_tren) pal: 18 - 23
+
+M2: ¿ Quiere salir desde sevilla ? .
+¿ Quiere salir desde sevilla ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U2: No , quiero llegar a Sevilla .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero llegar a Sevilla . (U:Respuesta:Nil:Destino) pal: 3 - 7
+
+M3: Quiere horarios de trenes a sevilla , ¿ desde sevilla ? .
+Quiere horarios de trenes a sevilla , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde sevilla ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: No , quiero obtener el horario para un viaje de ida a Sevilla para llegar el viernes nueve de abril con el tren más rápido .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero obtener el horario para un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 3 - 11
+a Sevilla (U:Pregunta:Hora_salida:Destino) pal: 12 - 13
+para llegar el viernes nueve de abril (U:Pregunta:Hora_salida:Dia) pal: 14 - 20
+con el tren más rápido . (U:Pregunta:Hora_salida:Tipo_tren) pal: 21 - 26
+
+M4: ¿ Desea salir el viernes , día 27 de febrero de 2004 ? .
+¿ Desea salir el viernes , día 27 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U4: No quiero llegar a Sevilla el viernes nueve de abril .
+No (U:Negacion:Dia:Nil) pal: 1 - 1
+quiero llegar a Sevilla (U:Respuesta:Hora_salida:Destino) pal: 2 - 5
+el viernes nueve de abril . (U:Respuesta:Dia:Dia) pal: 6 - 11
+
+M5: Le consulto horarios de bilbao a sevilla llegando el viernes , día 9 de abril de 2004 . Un momento por favor .
+Le consulto horarios de bilbao a sevilla llegando el viernes , día 9 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U5: No , ya está , gracias .
+No , ya está , gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (fe) me gustarí(a a) obtener (rr (m algún) (c algún)) billete (p) y obtener (fa) horarios para (rs (m un viaje de id(a a)) (c una visit(a a))) a una ciudad monumental .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (fe) Me gustaría viajar (a a) Sevilla .
+M3: ¿ Qué día desea salir ?
+U3: (fe) Me gustaría sal(a i)r por ejemplo el dí(a a) (lm veintinueve ventinueve) de febrero (p) (fe) pues si puede ser mejor (lm veintueve ventinueve) (a o) el treinta viernes (a o) sábado .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Me gustarí(a a) salir el día (lm veintinueve ventinueve) de febrero .
+M5: Quiere horarios de trenes a Sevilla ¿ desde Zaragoza ?
+U5: Sí , (dq por favor) .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Sevilla saliendo el viernes , día 29 de febrero de 2008 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Triana que sale a las 12 y 10 de la mañana ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

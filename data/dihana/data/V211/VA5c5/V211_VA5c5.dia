@@ -1,0 +1,95 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quería conseguir los horarios para ir a Alicante .
+Quería conseguir los horarios para ir a Alicante . (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+
+
+M2: ¿ Quiere viajar desde palencia ? .
+¿ Quiere viajar desde palencia ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: El doce de abril .
+El doce de abril . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+
+M4: Le consulto horarios de trenes con salida en palencia destino santander saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en palencia destino santander saliendo el jueves , día 1 de julio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+U4: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+M6: Si . Desea algo más ? .
+Si . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+
+
+U5: Sí , quisiera que fuera un tren euromed y viajar en un coche cama .
+Sí , quisiera que fuera un tren euromed (U:Pregunta:Nil:Tipo_tren) pal: 1 - 8
+y viajar en un coche cama . (U:Pregunta:Nil:Clase_billete) pal: 9 - 15
+
+
+M7: ¿ Desea hacer el viaje en un euromed ? .
+¿ Desea hacer el viaje en un euromed ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+U6: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+M8: Le consulto horarios de trenes con salida en Palencia destino Santander saliendo el jueves , día 1 de julio de 2004 en euromed . Un momento por favor .
+Le consulto horarios de trenes con salida en Palencia destino Santander saliendo el jueves , día 1 de julio de 2004 en euromed . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 24
+Un momento por favor . (M:Espera:Nil:Nil) pal: 25 - 29
+
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U7: Sí , quisiera que fuera en coche cama .
+Sí , quisiera que fuera en coche cama . (U:Pregunta:Nil:Clase_billete) pal: 1 - 9
+
+
+M10: Horarios para llegar a santander , ¿ desea viajar en coche cama ? .
+Horarios para llegar a santander , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ desea viajar en coche cama ? . (M:Confirmacion:Clase_billete:Clase_billete) pal: 7 - 14
+
+
+U8: No , pero quisiera obtener el precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+pero quisiera obtener el precio . (U:Pregunta:Precio:Nil) pal: 3 - 8
+
+
+M11: Le consulto precios de Palencia a Santander en clase cama . Un momento por favor .
+Le consulto precios de Palencia a Santander en clase cama . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+
+M12: Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase cama , el tren más caro es un trenhotel que cuesta 117 con 50 euros la ida y el otro es un diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

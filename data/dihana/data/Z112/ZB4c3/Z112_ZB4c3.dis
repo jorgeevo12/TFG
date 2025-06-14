@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Deseo horarios y precios .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Pamplona .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: (na) A Oviedo (nw) .
+M4: ¿ Qué día desea salir ?
+U4: (a E)l diecinueve o el veinte (nw) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Diecinueve o veinte de octubre .
+M6: Quiere horarios de trenes a Oviedo ¿ desde Zaragoza ?
+U6: No .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (na) Horarios y precios de trenes de Pamplona .
+M8: Le consulto horarios de trenes con salida en Pamplona destino Oviedo saliendo el martes , día 19 de octubre de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U8: (fe) No .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: (na) Necesito precios (p) (na) de los trenes con salida Pamplona a Oviedo (p) el diecinueve de octubre .
+M11: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M12: Gracias por utilizar este servicio . Feliz viaje .

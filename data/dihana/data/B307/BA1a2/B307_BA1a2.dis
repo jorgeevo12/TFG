@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería irm(a e) a Vitoria (na) (fe) .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (do Hola buenas) , quería saber a ver (rs (m cuánd(a o)) (c a qué hora)) tendría el tren (rs (m d(a e)) (c para irme a)) Vitoria (p) e(a l) ocho de marzo a las siete de la tarde .
+M3: ¿ Qué día desea salir ?
+U3: Ocho de marzo .
+M4: ¿ Quiere salir entre las 6 y 30 y las 7 y 30 de la tarde ?
+U4: (nl) Sí .
+M5: Le consulto horarios de Bilbao a Vitoria el lunes , día 8 de marzo de 2004 entre las 6 y 30 y las 7 y 30 de la tarde . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: No , (dc gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

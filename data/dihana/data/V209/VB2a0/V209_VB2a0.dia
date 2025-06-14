@@ -1,0 +1,98 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenos días . Me gustaría preguntar sobre horarios de trenes con destino a Madrid .
+Hola buenos días . Me gustaría preguntar sobre horarios de trenes con destino a Madrid . (U:Pregunta:Hora_salida:Destino) pal: 1 - 16
+
+
+M2: ¿ Puede repetir su consulta ? .
+¿ Puede repetir su consulta ? . (M:No_entendido:Nil:Nil) pal: 1 - 7
+
+
+U2: ¿ Mañana por la tarde ? .
+¿ Mañana (U:Pregunta:Hora_salida:Dia) pal: 1 - 2
+por la tarde ? . (U:Pregunta:Hora_salida:Hora_salida) pal: 3 - 7
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U2: ¿ Mañana por la tarde ? .
+¿ Mañana (U:Respuesta:Hora_salida:Dia) pal: 1 - 2
+por la tarde ? . (U:Respuesta:Hora_salida:Hora_salida) pal: 3 - 7
+
+
+M4: Le consulto horarios de trenes con salida en valencia destino madrid saliendo el viernes , día 13 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino madrid saliendo el viernes , día 13 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M5: Hay varios trenes . El primero sale a las 2 y 15 de la tarde y llega a las 5 y 50 de la tarde y el último sale a las 8 y 15 de la tarde y llega a las 11 y 50 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 15 de la tarde y llega a las 5 y 50 de la tarde y el último sale a las 8 y 15 de la tarde y llega a las 11 y 50 de la noche . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+U3: Desearía saber el precio y el tipo de tren de estos dos horarios que me has dado .
+Desearía saber el precio y el tipo de tren de estos dos horarios que me has dado . (U:Pregunta:Precio,Tipo_tren:Nil) pal: 1 - 18
+
+
+M6: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M7: Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son alaris y en clase turista , el billete cuesta 36 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+
+U4: Sí , ¿ no hay otro tipo de tren que haga la misma ruta ? .
+Sí , ¿ no hay otro tipo de tren que haga la misma ruta ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 16
+
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U5: ¡ Ay ! .
+¡ Ay ! . (U:Indefinida:Nil:Nil) pal: 1 - 4
+
+
+M9: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+
+
+U6: Pregunto , que si hay otro tipo de tren que no sea alaris que haga el Valencia Madrid .
+Pregunto , que si hay otro tipo de tren que no sea alaris (U:Pregunta:Tipo_tren:Tipo_tren) pal: 1 - 13
+que haga el Valencia (U:Pregunta:Tipo_tren:Origen) pal: 14 - 17
+Madrid . (U:Pregunta:Tipo_tren:Destino) pal: 18 - 19
+
+
+M10: ¿ Me pregunta por tipos de trenes ? .
+¿ Me pregunta por tipos de trenes ? . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 9
+
+
+U7: Sí , que hagan el Valencia Madrid .
+Sí , (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+que hagan el Valencia (U:Respuesta:Tipo_tren:Origen) pal: 3 - 6
+Madrid . (U:Respuesta:Tipo_tren:Destino) pal: 7 - 8
+
+
+M11: Le consulto tipos de trenes para el trayecto valencia a madrid . Un momento por favor .
+Le consulto tipos de trenes para el trayecto valencia a madrid . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 16
+
+
+M12: Hay un único tipo de tren , que es un alaris . Desea algo más ? .
+Hay un único tipo de tren , que es un alaris . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 12
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 13 - 17
+
+
+U8: Que no , ya está , muchas gracias .
+Que no , ya está , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

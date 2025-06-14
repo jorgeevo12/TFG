@@ -1,0 +1,113 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Buenos días , mire , necesito un viaje de ida para ir desde San_Sebastián a Vigo que vaya por toda la costa porque quiero conocer un poquito el norte que no lo conozco . Entonces me gustaría salir el tres de mayo y a poder ser a la mañana . Me gustaría conocer los horarios que tienen .
+Buenos días , mire , necesito un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 10
+para ir desde San_Sebastián (U:Pregunta:Hora_salida:Origen) pal: 11 - 14
+a Vigo que vaya por toda la costa porque quiero conocer un poquito el norte que no lo conozco . (U:Pregunta:Hora_salida:Destino) pal: 15 - 34
+Entonces me gustaría salir el tres de mayo (U:Pregunta:Hora_salida:Dia) pal: 35 - 42
+y a poder ser a la mañana . Me gustaría conocer los horarios que tienen . (U:Pregunta:Hora_salida:Hora_salida) pal: 43 - 58
+
+
+
+M2: Le consulto horarios de san_sebastián a vigo el lunes , día 3 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de san_sebastián a vigo el lunes , día 3 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+
+
+M3: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+
+U2: Sí , quisiera saber qué tipos de trenes son , si son rápidos , si son lentos y cada uno de ellos a qué hora llega a Vigo .
+Sí , quisiera saber qué tipos de trenes son , si son rápidos , si son lentos (U:Pregunta:Hora_llegada,Tipo_tren:Tipo_tren) pal: 1 - 17
+y cada uno de ellos a qué hora llega a Vigo . (U:Pregunta:Hora_llegada,Tipo_tren:Destino) pal: 18 - 29
+
+
+
+M4: Le consulto tipos de trenes para el trayecto san_sebastián a vigo . Un momento por favor .
+Le consulto tipos de trenes para el trayecto san_sebastián a vigo . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 16
+
+
+
+M5: Hay varios tipos de trenes con salida el lunes , día 3 de mayo de 2004 , El tren más rápido es un intercity y el más lento es un talgo . Desea algo más ? .
+Hay varios tipos de trenes con salida el lunes , día 3 de mayo de 2004 , El tren más rápido es un intercity y el más lento es un talgo . (M:Respuesta:Tipo_tren:Dia,Tipo_tren) pal: 1 - 32
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 33 - 37
+
+
+
+U3: Sí , no quiero saber únicamente cuál es el más rápidos quiero saber los otros también cuáles son y cuánto tiempo tardan hasta Vigo .
+Sí , no quiero saber únicamente cuál es el más rápidos quiero saber los otros también cuáles son y cuánto tiempo tardan (U:Pregunta:Tipo_tren,Tiempo_recorrido:Tipo_tren) pal: 1 - 22
+hasta Vigo . (U:Pregunta:Tipo_tren,Tiempo_recorrido:Destino) pal: 23 - 25
+
+
+
+M6: Le consulto tipos de tren . Un momento por favor .
+Le consulto tipos de tren . (M:Confirmacion:Tipo_tren:Nil) pal: 1 - 6
+Un momento por favor . (M:Espera:Nil:Nil) pal: 7 - 11
+
+
+
+M7: Hay varios tipos de trenes . El tren más rápido es un intercity y el más lento es un talgo . Desea algo más ? .
+Hay varios tipos de trenes . El tren más rápido es un intercity y el más lento es un talgo . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+U4: Sí , quiero saber esos dos trenes a qué hora llegan a Vigo .
+Sí , quiero saber esos dos trenes a qué hora llegan a Vigo . (U:Pregunta:Hora_llegada:Destino) pal: 1 - 14
+
+
+
+M8: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+
+
+M9: Hay varios trenes con salida entre las 5 de la madrugada y la una de la tarde , El tren más rápido es un intercity que tarda 6 horas y 31 minutos y el más lento es un tipo talgo que tarda 7 horas y 10 minutos . Desea algo más ? .
+Hay varios trenes con salida entre las 5 de la madrugada y la una de la tarde , El tren más rápido es un intercity que tarda 6 horas y 31 minutos y el más lento es un tipo talgo que tarda 7 horas y 10 minutos . (M:Respuesta:Tiempo_recorrido:Hora_salida,Numero_trenes,Tiempo_recorrido,Tipo_tren) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+
+U5: Sí , quiero saber a qué hora llegan a Vigo , por favor .
+Sí , quiero saber a qué hora llegan a Vigo , por favor . (U:Pregunta:Hora_llegada:Destino) pal: 1 - 14
+
+
+
+M10: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M12: No . Desea algo más ? .
+No . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 2
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 3 - 7
+
+
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

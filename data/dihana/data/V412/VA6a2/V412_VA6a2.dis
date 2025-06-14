@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Obtener el horario de Valencia a Madrid el siete de junio (na) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el lunes , día 7 de junio de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 6 y 45 de la mañana y el último a las 8 y 15 de la tarde ¿ Desea algo más ?
+U3: Sí , (na) ¿ el primero qué tipo de tren es ?
+M5: El primer tren es un Alaris ¿ Desea algo más ?
+U4: No .
+M6: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,21 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (do Hola buenas tardes) me gustaría saber los horario(a s) (p) de llegada a Huesca (p) y el precio del billete , (dq por favor) .
+M2: Quiere horarios de trenes a Huesca ¿ saliendo de Valencia ?
+U2: Sí (nw) .
+M3: ¿ Qué día desea salir ?
+U3: (nl) El uno u el dos de julio .
+M4: ¿ Desea salir el jueves , día 1 de julio de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Huesca saliendo el jueves , día 1 de julio de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U5: (na) Sí , querría viajar en un tren rápido (nw) .
+M7: Un momento por favor .
+M8: Hay varios trenes . El más rápido sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde y el más lento sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U6: (nl) .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: Me gustaría viajar en un tren rápido .
+M10: El tren más rápido es un Intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde ¿ Desea algo más ?
+U8: Sí , saber el precio del billete del Intercity que sale a las ocho y treinta de la mañana .
+M11: El precio de ese tren en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc muchas gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

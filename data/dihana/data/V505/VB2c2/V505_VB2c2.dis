@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (fe) (do Hola buenos días) , querí(a a) saber los horarios para ir a La_Coruña (nw) .
+M2: Quiere horarios de trenes a La_Coruña ¿ saliendo de Valencia ?
+U2: Sí , (dq por favor) .
+M3: ¿ Qué día desea salir ?
+U3: (fe) Me gustaría salir el próximo jueves .
+M4: Le consulto horarios de trenes con salida en Valencia destino La_Coruña saliendo el jueves , día 29 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U4: Sí , me gustarí(a a) (p) qu(a e) fuera en Talgo , si es posible .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Quiero ir en Talgo .
+M7: ¿ Desea hacer el viaje en un Talgo ?
+U6: Sí , si es posible .
+M8: Le consulto horarios de trenes con salida en Valencia destino La_Coruña saliendo el jueves , día 29 de abril de 2004 en Talgo . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde ¿ Desea algo más ?
+U7: Sí ¿ cuál es el precio del billete ?
+M10: Le consulto precios . Un momento por favor .
+M11: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: No , (dc eso es todo) , (dc muchas gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

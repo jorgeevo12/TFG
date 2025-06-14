@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería saber el precio (na) de un viaje de ida y vuelta d(a e) Valencia a Murcia (nl) (p) el sábado tres de abril por la mañana (a y) si puede ser en un tren Talgo (na) (p) mejor .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , quería saber (a e)l precio de un viaje de ida y vuelta (p) de Valencia a Murcia .
+M3: ¿ Quiere viajar a Murcia ?
+U3: (rr (m (rr (m Sí) (s (na)) (c sí))) (c sí)) (na) .
+M4: ¿ Qué día desea salir ?
+U4: El sábado tres de abril (na) .
+M5: ¿ Desea salir el sábado , día 3 de abril de 2004 ?
+U5: Sí (na) , por la mañana (na) .
+M6: Le consulto precios de Valencia a Murcia . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Regional_expres y su precio en clase turista es 14 con 40 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc ya está gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,36 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quisiera saber el horario de un tren para ir a $C_DESTINO<Madrid> .
+Quisiera saber el horario de un tren para ir a $C_DESTINO<Madrid> . (U:Pregunta:Hora_salida:Destino) pal: 1 - 12
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Quiero llegar el día $FECHA<veinte de abril> .
+Quiero llegar el día $FECHA<veinte de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Quisiera llegar el día $FECHA<veinte de abril> .
+Quisiera llegar el día $FECHA<veinte de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M4: Quiere horarios de trenes a $C_DESTINO<madrid> , ¿ desde $C_ORIGEN<zaragoza> ? .
+Quiere horarios de trenes a $C_DESTINO<madrid> , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN<zaragoza> ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M5: Le consulto horarios de $C_ORIGEN<zaragoza> a $C_DESTINO<madrid> llegando el $FECHA<martes , día 20 de abril de 2004> . Un momento por favor .
+Le consulto horarios de $C_ORIGEN<zaragoza> a $C_DESTINO<madrid> llegando el $FECHA<martes , día 20 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M6: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<2 y 48 de la madrugada> y el $NRORDEN<último> a las $HORA<8 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<2 y 48 de la madrugada> y el $NRORDEN<último> a las $HORA<8 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U5: Sí , quiero saber el tipo de tren .
+Sí , quiero saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 9
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: Quiero saber el tipo de tren .
+Quiero saber el tipo de tren . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 7
+M8: Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<triana> y el $T_TREN<más lento> es un $T_TREN<trenhotel> . Desea algo más ? .
+Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<triana> y el $T_TREN<más lento> es un $T_TREN<trenhotel> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U7: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

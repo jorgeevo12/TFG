@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería saber .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quería conocer el horario (p) de trenes .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Barcelona .
+M4: Quiere horarios de trenes a Barcelona ¿ saliendo de Valencia ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El doce de abril .
+M6: ¿ Desea salir el lunes , día 12 de abril de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el lunes , día 12 de abril de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U7: Quería ir en el Euromed .
+M9: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: Quiero saber el tipo de tren que hay .
+M10: ¿ Desea hacer el viaje en un Euromed ?
+U9: Sí , quiero hacerlo en un (p) Euromed .
+M11: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el lunes , día 12 de abril de 2004 en Euromed . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 6 y 40 de la mañana y llega a las 9 y 36 de la mañana y el último sale a las 8 y 5 de la tarde y llega a las 11 y 3 de la noche ¿ Desea algo más ?
+U10: No .
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: No , no deseo nada más .
+M14: Gracias por utilizar este servicio . Feliz viaje .

@@ -1,0 +1,51 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería un billete de tren desde Zaragoza hasta Santander .
+Quería un billete de tren desde Zaragoza (U:Pregunta:Nil:Origen) pal: 1 - 7
+hasta Santander . (U:Pregunta:Nil:Destino) pal: 8 - 10
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: No .
+No . (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U3: No .
+No . (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+
+M4: ¿ Le consulto precios ? .
+¿ Le consulto precios ? . (M:Confirmacion:Precio:Nil) pal: 1 - 6
+
+U4: Bien .
+Bien . (U:Afirmacion:Precio:Nil) pal: 1 - 2
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U5: Jueves o viernes de la semana que viene en el intercity .
+Jueves o viernes de la semana que viene (U:Respuesta:Dia:Dia) pal: 1 - 8
+en el intercity . (U:Respuesta:Precio:Tipo_tren) pal: 9 - 12
+
+M6: ¿ Desea salir el viernes , día 12 de marzo de 2004 ? .
+¿ Desea salir el viernes , día 12 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U6: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M7: Le consulto precios de zaragoza a santander en tipo tren intercity . Un momento por favor .
+Le consulto precios de zaragoza a santander en tipo tren intercity . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+M8: El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un intercity y su precio en clase turista es 40 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+U7: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

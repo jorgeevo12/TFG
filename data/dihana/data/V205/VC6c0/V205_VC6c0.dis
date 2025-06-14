@@ -1,0 +1,37 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) Quería saber los horarios (p) de trenes de (lm Madrid Madrit) a Sevilla (p) el próximo lunes (p) a partir de las catorce horas .
+M2: ¿ Desea llegar el lunes , día 23 de febrero de 2004 ?
+U2: Sí .
+M3: Le consulto horarios de Madrid a Sevilla llegando el lunes , día 23 de febrero de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 2 de la tarde y llega a las 4 y 30 de la tarde y el último sale a las 10 de la noche y llega a las 0 y 35 de la noche ¿ Desea algo más ?
+U3: Sí , me gustaría que fuera un Ave .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: Me gustaría que fuera un Ave .
+M6: ¿ Desea hacer el viaje en un Ave ?
+U5: Sí .
+M7: Le consulto horarios de trenes con salida en Madrid destino Sevilla saliendo el lunes , día 23 de febrero de 2004 en Ave . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 2 de la tarde y llega a las 4 y 30 de la tarde y el último sale a las 9 de la noche y llega a las 11 y 30 de la noche ¿ Desea algo más ?
+U6: Sí , me gustaría saber los trenes de vuelta (p) que sale(a n) el jueves a partir de las diecisiete horas .
+M9: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Me gustaría qu(a e) (p) me enseñara los horarios de cualquier tipo de tren .
+M11: Le consulto horarios . Un momento por favor .
+M12: Le consulto horarios de trenes con salida en Sevilla destino Madrid saliendo el jueves , día 26 de febrero de 2004 . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 de la noche ¿ Desea algo más ?
+U8: (nw) .
+M14: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: Me gustaría saber los horarios (p) de (lm trenes trens) que salen a cualquier hora .
+M15: Perdón . No consigo entenderle .
+U10: Quería saber los trenes que salen a partir de las cinco de la tarde .
+M16: Un momento por favor .
+M17: Un momento por favor .
+M18: Hay varios trenes . El primero sale a las 5 de la tarde y el último a las 10 de la noche ¿ Desea algo más ?
+U11: Me gustaría saber el precio de ida y vuelta .
+M19: Le consulto precios de Sevilla a Madrid . Un momento por favor .
+M20: Los trenes son Ave y en clase turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: (nw) .
+M21: Lo siento . No he entendido bien ¿ puede repetir ?
+U13: (nw) .
+M22: Lo siento . No he entendido bien ¿ puede repetir ?
+U14: No , (dc gracias) .
+M23: Gracias por utilizar este servicio . Feliz viaje .

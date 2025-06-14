@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quería saber el horario (p) , par(a a) trenes a Málaga .
+M2: ¿ Quiere viajar a Málaga ?
+U2: Sí (na) .
+M3: ¿ Qué día desea salir ?
+U3: El treinta y uno de agosto .
+M4: ¿ Desea salir el martes , día 31 de agosto de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Valencia destino Málaga saliendo el martes , día 31 de agosto de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U5: (a S)í .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Quiero saber (rr (m el (lu horario ho)) (c el horario)) para el uno de septiembre .
+M8: ¿ Desea salir el miércoles , día 1 de septiembre de 2004 ?
+U7: Sí .
+M9: Le consulto horarios de trenes con salida en Valencia destino Málaga saliendo el miércoles , día 1 de septiembre de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

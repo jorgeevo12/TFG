@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hol(a a)) , (fe) quisiera ir a Cáceres el próximo jueves .
+M2: ¿ Quiere saber horarios ?
+U2: (rr (m Sí) (s (p)) (c sí)) , quiero saber horarios .
+M3: ¿ A qué ciudad desea viajar ?
+U3: (fb) Quiero ir a Badajoz .
+M4: ¿ Quiere viajar a Badajoz ?
+U4: (de Perdone) ¿ dónde quiero ir ? Quiero ir a Badajoz .
+M5: Le consulto horarios de trenes con salida en Valencia destino Badajoz saliendo el jueves , día 19 de febrero de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un García_Lorca que sale a las 11 y 30 de la mañana ¿ Desea algo más ?
+U5: Sí , es que quiero salir de Cáceres .
+M7: Horarios para llegar a Badajoz ¿ saliendo de Cáceres ?
+U6: Exactamente , sí , el próximo jueves .
+M8: Le consulto horarios de trenes con salida en Cáceres destino Badajoz saliendo el jueves , día 19 de febrero de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 11 y 55 de la mañana y llega a la una y 50 de la tarde y el último sale a las 6 y 59 de la tarde y llega a las 8 y 52 de la tarde ¿ Desea algo más ?
+U7: ¿ Hay trenes Regionales ?
+M10: Le consulto horarios de trenes con salida en Cáceres destino Badajoz saliendo el jueves , día 19 de febrero de 2004 en Regional . Un momento por favor .
+M11: El único tren que realiza el trayecto es un Regional que sale a la una y 44 de la tarde y llega a las 3 y 53 de la tarde ¿ Desea algo más ?
+U8: No , (dc gracias) .
+M12: Gracias por utilizar este servicio . Feliz viaje .

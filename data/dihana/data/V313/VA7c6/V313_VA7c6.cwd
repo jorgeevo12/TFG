@@ -1,0 +1,28 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Sí , me gustaría saber el horario del tren que sale de $C_ORIGEN<Barcelona> a $C_DESTINO<Zaragoza> el $FECHA<miércoles> y en un $T_TREN<cataluña_expres> si es posible .
+Sí , me gustaría saber el horario del tren que sale de $C_ORIGEN<Barcelona> (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+a $C_DESTINO<Zaragoza> (U:Pregunta:Hora_salida:Destino) pal: 14 - 15
+el $FECHA<miércoles> (U:Pregunta:Hora_salida:Dia) pal: 16 - 17
+y en un $T_TREN<cataluña_expres> si es posible . (U:Pregunta:Hora_salida:Tipo_tren) pal: 18 - 25
+
+M2: ¿ Desea hacer el viaje en un $T_TREN<cataluña_expres> ? .
+¿ Desea hacer el viaje en un $T_TREN<cataluña_expres> ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+U2: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+M3: Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<zaragoza> saliendo el $FECHA<miércoles , día 31 de marzo de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<barcelona> destino $C_DESTINO<zaragoza> saliendo el $FECHA<miércoles , día 31 de marzo de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M4: Sólo hay dos trenes . El $NRORDEN<primero> sale a las $HSAL<8 y 47 de la mañana> y llega a las $HLLEG<2 y 11 de la tarde> y el otro sale a las $HSAL<3 y 47 de la tarde> y llega a las $HLLEG<8 y 40 de la tarde> . Desea algo más ? .
+Sólo hay dos trenes . El $NRORDEN<primero> sale a las $HSAL<8 y 47 de la mañana> y llega a las $HLLEG<2 y 11 de la tarde> y el otro sale a las $HSAL<3 y 47 de la tarde> y llega a las $HLLEG<8 y 40 de la tarde> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+
+U3: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

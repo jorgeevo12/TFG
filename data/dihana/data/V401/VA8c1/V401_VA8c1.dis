@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (b Querías ir) , (p) quería ir (ri (m de Barcelon(a a)) (c de Valencia a Barcelona)) (p) un viaje de ida .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Quiero ir un viaje de ida (rr (m de (lu Valencia Va)) (c de Valencia)) a Barcelona .
+M3: ¿ Quiere saber horarios ?
+U3: Sí (p) , (fe) trenes que lleguen (rs (m (rs (m a) (c hasta)) las) (c (rr (m a) (c a)) las)) once de la noche .
+M4: ¿ Qué día desea salir ?
+U4: Quería salir mañana .
+M5: ¿ Desea salir el miércoles , día 31 de marzo de 2004 ?
+U5: Sí .
+M6: Quiere horarios de trenes a Barcelona ¿ desde Valencia ?
+U6: Sí , viajes de ida .
+M7: Le consulto horarios . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U7: Sí , quiero saber el tipo de tren (p) (rr (m del) (c del)) último que me has dicho .
+M9: El último tren es un Euromed ¿ Desea algo más ?
+U8: No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

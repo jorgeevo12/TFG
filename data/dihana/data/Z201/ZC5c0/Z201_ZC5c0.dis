@@ -1,0 +1,37 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Deseo obtener el horario y el precio (p) par(a a) un tren de ida y vuelta saliendo desde Valencia el (lm próximo prócimo) martes (na) y volviendo a Tarragona ese mismo martes , (p) a ser posible que el tren sea .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: Deseo obtener (a e)l horario (rs (m (lu para pa)) (c de)) un tren que salga el martes que viene desde Valencia (p) (rr (m (a y)) (c y)) deseo también el viaje de vuelta .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Valencia .
+M4: ¿ Quiere viajar desde Valencia ?
+U4: (na) No , desde Tarragona (na) .
+M5: ¿ Qué día desea salir ?
+U5: ¿ Puedo volver al menú principal ? (na) .
+M6: Este servicio no está preparado para este tipo de consultas ¿ Desea realizar otra consulta ?
+U6: Sí (na) .
+M7: ¿ Qué día desea salir ?
+U7: (na) El martes que viene (na) .
+M8: Le consulto horarios de trenes con salida en Tarragona destino Valencia saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 48 de la mañana y el último a las 9 y 49 de la noche ¿ Desea algo más ?
+U8: Sí , deseo realizar otra consulta .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: (na) Sí , deseo obtener el horario de un tren saliendo desde Valencia con llegada en Tarragona .
+M11: Le consulto horarios de trenes con salida en Valencia destino Tarragona saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+M12: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U10: Sí , deseo saber (na) cuál es el tren más barato (p) y qué precio tiene (na) .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 28 con 50 euros la ida y el más barato es un Regional_expres que cuesta 14 con 40 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: (na) Sí , deseo obtener un billete de ida y vuelta para (a e)l martes que viene (na) .
+M14: Lo siento . No he entendido bien ¿ puede repetir ?
+U12: (nw) Deseo un billete de ida y vuelta .
+M15: ¿ Quiere saber horarios ?
+U13: Sí .
+M16: Le consulto horarios de trenes con salida en Tarragona destino Valencia saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+M17: Hay varios trenes . El primero sale a las 7 y 48 de la mañana y el último a las 9 y 49 de la noche ¿ Desea algo más ?
+U14: (na) Sí , deseo saber cuál es (a e)l tren más barato .
+M18: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 28 con 50 euros la ida y el más barato es un Regional_expres que cuesta 13 con 34 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U15: Sí ¿ puede repetirme los horarios de trenes (p) con salida en Valencia , llegada en Tarragona ? (nw) .
+M19: Le consulto horarios de trenes con salida en Valencia destino Tarragona saliendo el martes , día 2 de marzo de 2004 . Un momento por favor .
+M20: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U16: No , (dc gracias) (na) .
+M21: Gracias por utilizar este servicio . Feliz viaje .

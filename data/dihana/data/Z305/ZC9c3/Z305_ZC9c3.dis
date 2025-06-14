@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería información sobre precios para billete de primera (p) con salida en Barcelona y llegada a Girona (p) para mañana por la mañana .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: (fe) Quiero información sobr(a e) precios para viajes (a a) (p) Girona (rs (m con (lm salida salido) (lu Barcelona Bar)) (s (fe)) (c con salida en Barcelona)) (p) en tren (p) rápido (a y) billete de primera .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Gerona .
+M4: ¿ Qué día desea salir ?
+U4: Mañana por la mañana .
+M5: Le consulto precios de Barcelona a Gerona saliendo el jueves , día 18 de marzo de 2004 . Un momento por favor .
+M6: Sólo hay dos trenes . En clase turista , el tren más caro es un catalan_Talgo que cuesta 20 con 50 euros la ida y el otro es un Costa_Brava que cuesta 11 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , (fe) quería el precio (p) (ri (m en) (s (p)) (c viajando en)) primera y con servicio de bar (na) y a ser posible en un tren rápido .
+M7: Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No .
+M9: Le consulto precios . Un momento por favor .
+M10: Sólo hay dos trenes . En clase preferente , el tren más caro es un catalan_Talgo que cuesta 50 euros la ida y el otro es un Costa_Brava que cuesta 15 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí , (fe) quiero saber el preci(a o) para el viaje de vuelta .
+M11: ¿ Desea salir el jueves , día 18 de marzo de 2004 ?
+U8: No (p) (na) dentro d(a e) una semana , el jueves que viene por la tarde .
+M12: Le consulto precios de Gerona a Barcelona saliendo el jueves , día 25 de marzo de 2004 . Un momento por favor .
+M13: Sólo hay dos trenes . En clase preferente , el tren más caro es un catalan_Talgo que cuesta 17 con 50 euros la ida y el otro es un Costa_Brava que cuesta 15 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M14: Gracias por utilizar este servicio . Feliz viaje .

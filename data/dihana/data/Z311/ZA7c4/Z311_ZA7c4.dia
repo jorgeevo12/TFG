@@ -1,0 +1,51 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Me gustaría conocer los horarios ir a Ávila en un tren rápido durante la segunda semana de febrero .
+Me gustaría conocer los horarios ir a Ávila (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+en un tren rápido (U:Pregunta:Hora_salida:Tipo_tren) pal: 9 - 12
+durante la segunda semana de febrero . (U:Pregunta:Hora_salida:Dia) pal: 13 - 19
+
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U2: A Ávila .
+A Ávila . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U3: Durante la segunda semana de febrero preferentemente el día nueve .
+Durante la segunda semana de febrero preferentemente el día nueve . (U:Respuesta:Dia:Dia) pal: 1 - 11
+
+
+M4: Quiere horarios de trenes a ávila , ¿ desde zaragoza ? .
+Quiere horarios de trenes a ávila , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+U4: Sí , eso es lo que quiero exactamente .
+Sí , eso es lo que quiero exactamente . (U:Afirmacion:Origen:Nil) pal: 1 - 9
+
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino ávila saliendo el miércoles , día 9 de febrero de 2005 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino ávila saliendo el miércoles , día 9 de febrero de 2005 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M6: Hay varios trenes . El más rápido sale a las 8 y 30 de la mañana y el más lento a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El más rápido sale a las 8 y 30 de la mañana y el más lento a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U5: No , nada más gracias .
+No , nada más gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

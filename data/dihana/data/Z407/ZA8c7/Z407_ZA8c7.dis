@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber horarios de trenes de Murcia a Alicante (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (nl) A Alicante .
+M3: ¿ Qué día desea salir ?
+U3: El viernes (na) .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: El viernes (na) .
+M5: Quiere horarios de trenes a Alicante ¿ desde Zaragoza ?
+U5: No , desde Murcia .
+M6: Le consulto horarios de trenes con salida en Murcia destino Alicante saliendo el viernes , día 23 de abril de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 5 y 55 de la madrugada y el último a las 5 y 40 de la tarde ¿ Desea algo más ?
+U6: (na) Sí , (fe) ¿ qué tipo de tren es el que sale último ? (na) .
+M8: Ese tren es un Regional_expres ¿ Desea algo más ?
+U7: (dc (lu gracias cias)) No , (dc gracias nada más) (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

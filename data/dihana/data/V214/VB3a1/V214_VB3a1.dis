@@ -1,0 +1,9 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero ir de (lm Madrid Madrí) a Barcelona el martes que viene por la mañana .
+M2: Le consulto horarios de trenes con salida en Madrid destino Barcelona saliendo el martes , día 23 de diciembre de 2003 . Un momento por favor .
+M3: Hay varios trenes . El primero sale 07:00 y el último 23:00 ¿ Desea algo más ?
+U2: ¿ Cuánto me costaría ese viaje ?
+M4: Le consulto precios . Un momento por favor .
+M5: Hay varios trenes con salida el martes , día 23 de diciembre de 2003 . En turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Costa_Brava que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 % ¿ Desea algo más ?
+U3: Ya está , (dc muchas gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

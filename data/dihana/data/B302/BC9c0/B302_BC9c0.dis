@@ -1,0 +1,33 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do Buenos días) , quería saber los horarios de trenes de Bilbao (fb) (nw) .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , pero para viajar e(a n) trenes rápidos si es posible .
+M3: ¿ Desea salir el jueves , día 4 de marzo de 2004 ?
+U3: Sí , por la tarde (p) (a y) viaje de vuelta por la noche .
+M4: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ?
+U4: Sí , volver a las nueve de la noche .
+M5: Quiere horarios de trenes a Madrid ¿ desde Bilbao ?
+U5: No , desde Huelva .
+M6: Le consulto horarios de Huelva a Madrid el jueves , día 4 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Altaria que sale a las 4 y 50 de la tarde ¿ Desea algo más ?
+U6: Sí , quiero viaje de ida y vuelta .
+M8: ¿ Quiere saber horarios ?
+U7: Quiero saber el precio para salir mañana por la tarde y volver por la noche .
+M9: ¿ Quiere salir entre las 9 de la noche y las 5 de la madrugada ?
+U8: Quiero salir por la tarde y volver por la noche .
+M10: Le consulto precios de Madrid a Huelva saliendo el jueves , día 4 de marzo de 2004 . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: Sí , salir de Huelva destino Madrid (na) .
+M12: ¿ Le consulto precios ?
+U10: (p) .
+M13: ¿ Me pregunta por precios ?
+U11: Me gustaría el precio para salir de Huelva mañana por la tarde (p) , con destino Madrid (p) y volver (a a) Huelva (rr (m por la noche) (s (p)) (c por la noche)) .
+M14: Le consulto precios de Huelva a Madrid saliendo el jueves , día 4 de marzo de 2004 . Un momento por favor .
+M15: El único tren que realiza el trayecto es un Altaria y su precio en clase turista es 54 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: Sí , me gustaría un viaje de ida y vuelta .
+M16: El precio de ese tren en clase turista es 54 euros el billete de ida y 86 con 40 euros el billete de ida y vuelta ¿ Desea algo más ?
+U13: Sí ¿ es un tren rápido ?
+M17: Le consulto la duración del trayecto . Un momento por favor .
+M18: El único tren que realiza el trayecto tarda 4 horas y 51 minutos y es un Altaria ¿ Desea algo más ?
+U14: No , (dc muchas gracias) (na) .
+M19: Gracias por utilizar este servicio . Feliz viaje .

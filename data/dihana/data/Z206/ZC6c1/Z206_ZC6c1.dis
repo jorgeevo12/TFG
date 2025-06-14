@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Sí , quería viajar (fe) para Fallas para el dieciséis de (nw Marzo) de Castellón (a a) (nw) Valencia y quería saber los horarios del Euromed .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: (na) Sí , quería saber horarios de trenes de Castellón a Valencia para el dieciséis d(a e) marzo en (a e)l Euromed .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Valencia .
+M4: ¿ Quiere viajar desde Zaragoza ?
+U4: No , desde Castellón .
+M5: Le consulto horarios de trenes con salida en Castellón destino Valencia saliendo el martes , día 16 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 9 y 6 de la mañana y el último a las 10 y 37 de la noche ¿ Desea algo más ?
+U5: Sí ¿ me puede decir el precio del primer tren ?
+M7: El precio de ese tren en clase turista es 14 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , quería volver el día (lm veinte vente) por la tarde ¿ Me puede decir l(a o)s horarios ?
+M8: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 6 y 5 de la tarde y el otro a las 8 y 5 de la tarde ¿ Desea algo más ?
+U7: (fe) No , (dc muchas gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

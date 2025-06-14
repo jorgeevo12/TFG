@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Obtener horario .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: ¿ Qué día desea salir ?
+U3: Dieciocho de febrero de dos mil cuatro .
+M4: ¿ Desea salir el martes , día 8 de febrero de 2000 ?
+U4: N(a o) .
+M5: ¿ Qué día desea salir ?
+U5: Dieciocho de febrero de dos mil cuatro .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el miércoles , día 18 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 8 de la tarde ¿ Desea algo más ?
+U6: Viajar en un Alaris o un Intercity si es posible .
+M8: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el miércoles , día 18 de febrero de 2004 en Intercity . Un momento por favor .
+M9: Sólo hay dos trenes . El primero sale a las 8 de la mañana y el otro a las 9 de la mañana ¿ Desea algo más ?
+U7: No .
+M10: Gracias por utilizar este servicio . Feliz viaje .

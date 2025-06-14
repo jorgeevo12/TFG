@@ -1,0 +1,33 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría saber el horario de un tren de Valencia a Barcelona para el próximo sábado y llegar antes de las ocho y media de la tarde .
+Me gustaría saber el horario de un tren de Valencia (U:Pregunta:Hora_salida:Origen) pal: 1 - 10
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+para el próximo sábado (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+y llegar antes de las ocho y media de la tarde . (U:Pregunta:Hora_salida:Hora_llegada) pal: 17 - 28
+
+M2: Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino barcelona saliendo el sábado , día 27 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U2: Para llegar antes de las ocho y media de la tarde y salir el sábado .
+Para llegar antes de las ocho y media de la tarde (U:Pregunta:Nil:Hora_llegada) pal: 1 - 11
+y salir el sábado . (U:Pregunta:Nil:Dia) pal: 12 - 16
+
+M4: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 3 y 5 de la tarde y llega a las 6 y 42 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+U3: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Quería saber los horarios a Madrid por la mañana (p) . (na) Si es posible que sea un Alaris o un (lm Intercity intersity) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Madrid .
+M4: ¿ Quiere viajar a Madrid ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: Mañana .
+M6: ¿ Puede repetir su consulta ?
+U6: Mañana .
+M7: ¿ Desea salir el sábado , día 21 de febrero de 2004 ?
+U7: Sí .
+M8: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el sábado , día 21 de febrero de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y el último a las 6 y 45 de la tarde ¿ Desea algo más ?
+U8: No .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: (na) (lm Desearía deseaí) ir en (a u)n Alaris o un Intercity .
+M11: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el sábado , día 21 de febrero de 2004 en Intercity . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: Sí .
+M13: Perdón . No consigo entenderle .
+U11: Sí , me gustaría que fuera un Alaris .
+M14: ¿ Desea hacer el viaje en un Alaris ?
+U12: Sí .
+M15: Le consulto horarios de trenes con salida en Valencia destino Madrid saliendo el sábado , día 21 de febrero de 2004 en Alaris . Un momento por favor .
+M16: Hay varios trenes . El primero sale a las 7 y 45 de la mañana y llega a las 11 y 14 de la mañana y el último sale a las 6 y 45 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ?
+U13: No .
+M17: Gracias por utilizar este servicio . Feliz viaje .

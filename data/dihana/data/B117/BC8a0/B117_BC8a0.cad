@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola sí , ¿ me podría decir el precio los trenes de $C_ORIGEN a $C_DESTINO para ida y vuelta ? .
+Hola sí , ¿ me podría decir el precio los trenes de $C_ORIGEN (U:Pregunta:Precio:Origen) pal: 1 - 13
+a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 14 - 15
+para ida y vuelta ? . (U:Pregunta:Precio:Tipo_viaje) pal: 16 - 21
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Entre el $FECHA y el $FECHA .
+Entre el $FECHA y el $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 9
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Entre el $FECHA y el $FECHA .
+Entre el $FECHA y el $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 9
+M4: Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M5: Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE , el tren $PRECIO es un $T_TREN que cuesta $PRECIO la ida y el $PRECIO es un $T_TREN que cuesta $PRECIO . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+U4: No , muchas gracias ¡ eh ! .
+No , muchas gracias ¡ eh ! . (U:Cierre:Nil:Nil) pal: 1 - 8
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

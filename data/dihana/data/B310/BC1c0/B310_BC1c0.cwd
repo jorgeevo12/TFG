@@ -1,0 +1,77 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Buenos días , quisiera saber horarios de trenes de $C_ORIGEN<Bilbao> a $C_DESTINO<Madrid> para llegar el $FECHA<lunes> antes de las $HORA<diez treinta de la noche> y volver el $FECHA<jueves> después de las $HORA<dos de la tarde> .
+Buenos días , quisiera saber horarios de trenes de $C_ORIGEN<Bilbao> (U:Pregunta:Hora_salida:Origen) pal: 1 - 10
+a $C_DESTINO<Madrid> (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+para llegar el $FECHA<lunes> (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+antes de las $HORA<diez treinta de la noche> (U:Pregunta:Hora_salida:Hora_llegada) pal: 17 - 24
+y volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 25 - 26
+el $FECHA<jueves> (U:Pregunta:Hora_salida:Dia) pal: 27 - 28
+después de las $HORA<dos de la tarde> . (U:Pregunta:Hora_salida:Hora_llegada) pal: 29 - 36
+M2: ¿ Quiere salir entre las $HORA<9 de la noche> y las $HORA<5 de la madrugada> ? .
+¿ Quiere salir entre las $HORA<9 de la noche> y las $HORA<5 de la madrugada> ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+U2: Pues , no se , quiero llegar antes de las $HORA<diez y media de la noche> .
+Pues , no se , quiero llegar antes de las $HORA<diez y media de la noche> . (U:Respuesta:Hora_salida:Hora_llegada) pal: 1 - 17
+M3: ¿ Quiere llegar entre las $HORA<0> y las $HORA<10 y 30 de la noche> ? .
+¿ Quiere llegar entre las $HORA<0> y las $HORA<10 y 30 de la noche> ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 16
+U3: Sí , exactamente , antes de las $HORA<diez y treinta> .
+Sí , (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+exactamente , antes de las $HORA<diez y treinta> . (U:Respuesta:Hora_salida:Hora_llegada) pal: 3 - 11
+M4: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U4: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U5: El $FECHA<quince de marzo> .
+El $FECHA<quince de marzo> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: $FECHA<Lunes quince de marzo> .
+$FECHA<Lunes quince de marzo> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M7: Quiere horarios de trenes a $C_DESTINO<madrid> , ¿ desde $C_ORIGEN<barcelona> ? .
+Quiere horarios de trenes a $C_DESTINO<madrid> , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN<barcelona> ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U7: No , desde $C_ORIGEN<Bilbao> .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde $C_ORIGEN<Bilbao> . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+M8: Le consulto horarios de $C_ORIGEN<bilbao> a $C_DESTINO<madrid> llegando el $FECHA<lunes , día 15 de marzo de 2004> entre las $HORA<0> y las $HORA<10 y 30 de la noche> . Un momento por favor .
+Le consulto horarios de $C_ORIGEN<bilbao> a $C_DESTINO<madrid> llegando el $FECHA<lunes , día 15 de marzo de 2004> entre las $HORA<0> y las $HORA<10 y 30 de la noche> . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M9: El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<4 y 30 de la tarde> y llega a las $HLLEG<10 y 18 de la noche> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<4 y 30 de la tarde> y llega a las $HLLEG<10 y 18 de la noche> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+U8: Sí , por favor quisiera volver el $FECHA<jueves> después de las $HORA<dos de la tarde> de $C_ORIGEN<Madrid> a $C_DESTINO<Bilbao> .
+Sí , por favor quisiera volver (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 6
+el $FECHA<jueves> (U:Pregunta:Hora_salida:Dia) pal: 7 - 8
+después de las $HORA<dos de la tarde> (U:Pregunta:Hora_salida:Hora_salida) pal: 9 - 15
+de $C_ORIGEN<Madrid> (U:Pregunta:Hora_salida:Origen) pal: 16 - 17
+a $C_DESTINO<Bilbao> . (U:Pregunta:Hora_salida:Destino) pal: 18 - 20
+M10: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+U9: Sí , por favor .
+Sí , por favor . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 5
+M11: Le consulto horarios de trenes con salida en $C_ORIGEN<madrid> destino $C_DESTINO<bilbao> saliendo el $FECHA<jueves , día 18 de marzo de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<madrid> destino $C_DESTINO<bilbao> saliendo el $FECHA<jueves , día 18 de marzo de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M12: El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<3 y 35 de la tarde> y llega a las $HLLEG<9 y 25 de la noche> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<3 y 35 de la tarde> y llega a las $HLLEG<9 y 25 de la noche> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+U10: Sí , por favor , ¿ podría darme el precio del billete de $TVIAJE<ida> vuelta ? .
+Sí , por favor , ¿ podría darme el precio del billete de $TVIAJE<ida> vuelta ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 18
+M13: El precio de ese tren en clase $CLASE<turista> es $PRECIO<29 con 50 euros> el billete de $TVIAJE<ida> y $PRECIO<47 con 20 euros> el billete de $TVIAJE<ida y vuelta> . Desea algo más ? .
+El precio de ese tren en clase $CLASE<turista> es $PRECIO<29 con 50 euros> el billete de $TVIAJE<ida> y $PRECIO<47 con 20 euros> el billete de $TVIAJE<ida y vuelta> . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 29
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 30 - 34
+U11: Sí , por favor , ¿ y si es en clase $CLASE<preferente> ? .
+Sí , por favor , ¿ y si es en clase $CLASE<preferente> ? . (U:Pregunta:Precio:Clase_billete) pal: 1 - 14
+M14: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U12: ¿ Podía darme el precio en clase $CLASE<preferente> , por favor ? .
+¿ Podía darme el precio en clase $CLASE<preferente> , por favor ? . (U:Pregunta:Precio:Clase_billete) pal: 1 - 13
+M15: El precio de ese tren en clase $CLASE<preferente> es $PRECIO<39 euros> el billete de $TVIAJE<ida> y $PRECIO<62 con 39 euros> el billete de $TVIAJE<ida y vuelta> . Desea algo más ? .
+El precio de ese tren en clase $CLASE<preferente> es $PRECIO<39 euros> el billete de $TVIAJE<ida> y $PRECIO<62 con 39 euros> el billete de $TVIAJE<ida y vuelta> . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U13: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

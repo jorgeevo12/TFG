@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Deseo obtener el horario y tipo de tren (nw) para realizar un viaje desde Barcelona (rr (m (a a)) (s (fb)) (c a)) Lleida .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Lleida .
+M3: Le consulto tipos de trenes para el trayecto Barcelona a Lérida . Un momento por favor .
+M4: Hay varios tipos de trenes . El tren más rápido es un Talgo y el más lento es un Regional ¿ Desea algo más ?
+U3: Sí , conocer el horario para salir el día catorce de abril por la mañana en el Talgo (na) .
+M5: ¿ Qué día desea salir ?
+U4: (nl) El catorce de abril .
+M6: Le consulto horarios de Barcelona a Lérida el miércoles , día 14 de abril de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a la una de la tarde ¿ Desea algo más ?
+U5: (na) Sí ¿ qué tipo de tren es el primero ? (na) .
+M8: Ese tren es un Talgo ¿ Desea algo más ?
+U6: (na) No , (dc gracias) (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

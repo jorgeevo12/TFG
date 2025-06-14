@@ -1,0 +1,37 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (df Pues) quería saber (rs (m (a e)l precio entr(a e)) (s(p) (fe)) (c el precio de)) (a u)n viaje de ida (rr (m (a a)) (s (na) (p)) (c a)) Valencia .
+M2: ¿ Quiere llegar a Valencia ?
+U2: Sí .
+M3: Quiere saber el precio a Valencia ¿ desde Bilbao ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: (na) .
+M5: ¿ Puede repetir su consulta ?
+U5: Sí , quería saber el precio (rs (m del viaje) (c de un viaje)) a Valencia .
+M6: ¿ Qué día desea salir ?
+U6: El (lm treinta trenta) de marzo .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U7: (fe) Sí el (lm treinta trenta) de marzo .
+M8: Le consulto precios de Bilbao a Valencia saliendo el martes , día 30 de marzo de 2004 . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (df Bueno) , (df pues) que salgan desd(a e) el día .
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U9: (fe) Sí , quisiera que el tren salga entre las fechas (p) del día veintiséis al treinta y uno de marzo (nw) .
+M11: Le consulto precios de Bilbao a Valencia saliendo el viernes , día 26 de marzo de 2004 . Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: (df Pues) que salga el veint(a i)siete de marzo o el veintiocho de marzo (p) o el veintinueve de marzo .
+M13: Le consulto precios de Bilbao a Valencia saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+M14: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U11: (nl) (df Pues entonces) (fa) el veintiocho de marzo .
+M15: Le consulto precios de Bilbao a Valencia saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+M16: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U12: (df Bueno pues) en vez de (a a) Valencia me voy a ir a Palencia .
+M17: ¿ Quiere llegar a Palencia ?
+U13: Sí .
+M18: Le consulto precios de Bilbao a Palencia saliendo el domingo , día 28 de marzo de 2004 . Un momento por favor .
+M19: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U14: (na) ¿ Hay otros trenes que no sean Talgo o Intercity ?
+M20: Un momento por favor .
+M21: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U15: No , (dc nada más) .
+M22: Gracias por utilizar este servicio . Feliz viaje .

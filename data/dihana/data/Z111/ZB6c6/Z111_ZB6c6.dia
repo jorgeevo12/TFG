@@ -1,0 +1,74 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero ir a la feria de muestras desde Alicante a Valencia .
+Quiero ir a la feria de muestras desde Alicante (U:Pregunta:Nil:Origen) pal: 1 - 9
+a Valencia . (U:Pregunta:Nil:Destino) pal: 10 - 12
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , quiero ir el lunes próximo y salir por la mañana .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+quiero ir el lunes próximo (U:Respuesta:Hora_salida:Dia) pal: 3 - 7
+y salir por la mañana . (U:Respuesta:Hora_salida:Hora_salida) pal: 8 - 13
+
+M3: ¿ Desea salir el viernes , día 20 de febrero de 2004 ? .
+¿ Desea salir el viernes , día 20 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U3: No , quiero salir el lunes .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+quiero salir el lunes . (U:Respuesta:Hora_salida:Dia) pal: 3 - 7
+
+M4: Le consulto horarios de alicante a valencia el lunes , día 16 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+Le consulto horarios de alicante a valencia el lunes , día 16 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M5: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 11 y 11 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 11 y 11 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Sí , quiero viajar en talgo .
+Sí , quiero viajar en talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 7
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: Quiero viajar en talgo .
+Quiero viajar en talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 5
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U6: Quiero ir en talgo .
+Quiero ir en talgo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 5
+
+M9: Le consulto horarios de alicante a valencia el lunes , día 16 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde en talgo . Un momento por favor .
+Le consulto horarios de alicante a valencia el lunes , día 16 de febrero de 2004 entre las 5 de la madrugada y la una de la tarde en talgo . (M:Confirmacion:Hora_salida:Destino,Dia,Origen,Tipo_tren) pal: 1 - 31
+Un momento por favor . (M:Espera:Nil:Nil) pal: 32 - 36
+
+M10: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U7: Pues no quiero viajar en talgo . ¿ Me puede decir el precio ? .
+Pues no quiero viajar en talgo . ¿ Me puede decir el precio ? . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 15
+
+M11: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M12: Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 22 con 50 euros la ida y el más barato es un regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un euromed que cuesta 22 con 50 euros la ida y el más barato es un regional_expres que cuesta 10 con 30 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U8: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M13: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

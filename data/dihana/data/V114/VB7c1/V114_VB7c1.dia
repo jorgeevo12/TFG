@@ -1,0 +1,54 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Me gustaría información sobre los trenes desde Valencia a Teruel para el próximo viernes .
+Me gustaría información sobre los trenes desde Valencia (U:Pregunta:Nil:Origen) pal: 1 - 8
+a Teruel (U:Pregunta:Nil:Destino) pal: 9 - 10
+para el próximo viernes . (U:Pregunta:Nil:Dia) pal: 11 - 15
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U2: Quería información de trenes a Teruel , con trenes regionales , para el próximo viernes .
+Quería información de trenes a Teruel , (U:Pregunta:Nil:Destino) pal: 1 - 7
+con trenes regionales , (U:Pregunta:Nil:Tipo_tren) pal: 8 - 11
+para el próximo viernes . (U:Pregunta:Nil:Dia) pal: 12 - 16
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U3: No .
+No . (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+
+M4: ¿ Le consulto horarios ? .
+¿ Le consulto horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U4: No , quería obtener el precio .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+quería obtener el precio . (U:Pregunta:Precio:Nil) pal: 3 - 7
+
+M5: ¿ Quiere viajar a teruel ? .
+¿ Quiere viajar a teruel ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U5: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M6: Le consulto precios de valencia a teruel saliendo el viernes , día 12 de marzo de 2004 . Un momento por favor .
+Le consulto precios de valencia a teruel saliendo el viernes , día 12 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M7: Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son regional y en clase turista , el billete cuesta 8 con 9 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U6: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U7: no .
+no . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

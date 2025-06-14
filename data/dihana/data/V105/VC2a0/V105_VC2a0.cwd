@@ -1,0 +1,44 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Me gustaría saber el horario de un del tren que va desde $C_ORIGEN<Valencia> a las $HORA<ocho> destino $C_DESTINO<Bilbao> saber precio .
+Me gustaría saber el horario de un del tren que va desde $C_ORIGEN<Valencia> (U:Pregunta:Hora_salida:Origen) pal: 1 - 13
+a las $HORA<ocho> (U:Pregunta:Hora_salida:Hora_salida) pal: 14 - 16
+destino $C_DESTINO<Bilbao> (U:Pregunta:Hora_salida:Destino) pal: 17 - 18
+saber precio . (U:Pregunta:Precio:Nil) pal: 19 - 21
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: A $C_DESTINO<Málaga> .
+A $C_DESTINO<Málaga> . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M3: ¿ Quiere viajar a $C_DESTINO<málaga> ? .
+¿ Quiere viajar a $C_DESTINO<málaga> ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+U3: Sí , quiero viajar a $C_DESTINO<Málaga> .
+Sí , (U:Afirmacion:Destino:Nil) pal: 1 - 2
+quiero viajar a $C_DESTINO<Málaga> . (U:Respuesta:Hora_salida:Destino) pal: 3 - 7
+M4: ¿ Desea salir el $FECHA<lunes , día 15 de marzo de 2004> ? .
+¿ Desea salir el $FECHA<lunes , día 15 de marzo de 2004> ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U4: Sí , quiero viajar el día $FECHA<quince> .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+quiero viajar el día $FECHA<quince> . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<málaga> saliendo el $FECHA<lunes , día 15 de marzo de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<valencia> destino $C_DESTINO<málaga> saliendo el $FECHA<lunes , día 15 de marzo de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 3 de la mañana> y el $NRORDEN<último> a las $HORA<11 de la noche> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<7 y 3 de la mañana> y el $NRORDEN<último> a las $HORA<11 de la noche> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U5: Me gustaría saber el precio del billete de $TVIAJE<ida y vuelta> .
+Me gustaría saber el precio del billete de $TVIAJE<ida y vuelta> . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 12
+M7: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U6: Me gustaría saber el precio del viaje de $TVIAJE<ida y vuelta> , si es posible en $T_TREN<talgo> .
+Me gustaría saber el precio del viaje de $TVIAJE<ida y vuelta> , (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 12
+si es posible en $T_TREN<talgo> . (U:Pregunta:Precio:Tipo_tren) pal: 13 - 18
+M8: Le consulto precios de $C_ORIGEN<valencia> a $C_DESTINO<málaga> en tipo tren $T_TREN<talgo> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<valencia> a $C_DESTINO<málaga> en tipo tren $T_TREN<talgo> . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+M9: Los trenes son $T_TREN<talgo> y en clase $CLASE<turista> , el billete cuesta $PRECIO<44 euros> la ida . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son $T_TREN<talgo> y en clase $CLASE<turista> , el billete cuesta $PRECIO<44 euros> la ida . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+U7: No gracias , ya está todo .
+No gracias , ya está todo . (U:Cierre:Nil:Nil) pal: 1 - 7
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,70 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , quisiera saber los horarios a Sevilla , el día diecisiete de septiembre .
+Hola , quisiera saber los horarios a Sevilla , (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+el día diecisiete de septiembre . (U:Pregunta:Hora_salida:Dia) pal: 10 - 15
+
+M2: ¿ Desea salir el viernes , día 17 de diciembre de 2004 ? .
+¿ Desea salir el viernes , día 17 de diciembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U2: El día diecisiete de septiembre .
+El día diecisiete de septiembre . (U:Respuesta:Hora_salida:Dia) pal: 1 - 6
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U3: A Sevilla .
+A Sevilla . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: Quiere horarios de trenes a sevilla , ¿ desde zaragoza ? .
+Quiere horarios de trenes a sevilla , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: Sí , el día diecisiete de septiembre .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+el día diecisiete de septiembre . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+M5: Le consulto horarios de trenes con salida en zaragoza destino sevilla saliendo el viernes , día 17 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino sevilla saliendo el viernes , día 17 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M6: El único tren que realiza el trayecto es un triana que sale a las 12 y 10 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un triana que sale a las 12 y 10 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U5: Sí , me gustaría conocer los precios a Sevilla el diecisiete de diciembre .
+Sí , me gustaría conocer los precios a Sevilla (U:Pregunta:Precio:Destino) pal: 1 - 9
+el diecisiete de diciembre . (U:Pregunta:Precio:Dia) pal: 10 - 14
+
+M7: El único tren que realiza el trayecto es un triana y su precio en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un triana y su precio en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U6: Los horarios de Sevilla a Zaragoza el día diecinueve de septiembre .
+Los horarios de Sevilla (U:Pregunta:Hora_salida:Origen) pal: 1 - 4
+a Zaragoza (U:Pregunta:Hora_salida:Destino) pal: 5 - 6
+el día diecinueve de septiembre . (U:Pregunta:Hora_salida:Dia) pal: 7 - 12
+
+M8: Le consulto horarios de trenes con salida en sevilla destino zaragoza saliendo el domingo , día 19 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en sevilla destino zaragoza saliendo el domingo , día 19 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M9: El único tren que realiza el trayecto es un extremadura que sale a las 9 y 44 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un extremadura que sale a las 9 y 44 de la mañana . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U7: Sí , los precios de Sevilla a Zaragoza el diecinueve de septiembre .
+Sí , los precios de Sevilla (U:Pregunta:Precio:Origen) pal: 1 - 6
+a Zaragoza (U:Pregunta:Precio:Destino) pal: 7 - 8
+el diecinueve de septiembre . (U:Pregunta:Precio:Dia) pal: 9 - 13
+
+M10: El único tren que realiza el trayecto es un extremadura y su precio en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un extremadura y su precio en clase turista es 58 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 41
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 42 - 46
+
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola , quería saber los horarios para ir a $C_DESTINO<Madrid> .
+Hola , quería saber los horarios para ir a $C_DESTINO<Madrid> . (U:Pregunta:Hora_salida:Destino) pal: 1 - 11
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Quiero llegar el día $FECHA<veinte de abril> .
+Quiero llegar el día $FECHA<veinte de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Sí , para el $FECHA<veinte de abril> .
+Sí , para el $FECHA<veinte de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M4: Le consulto horarios de $C_ORIGEN<valencia> a $C_DESTINO<madrid> llegando el $FECHA<martes , día 20 de abril de 2004> . Un momento por favor .
+Le consulto horarios de $C_ORIGEN<valencia> a $C_DESTINO<madrid> llegando el $FECHA<martes , día 20 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M5: Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<10 y 17 de la mañana> y el $NRORDEN<último> a las $HORA<11 y 50 de la noche> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<10 y 17 de la mañana> y el $NRORDEN<último> a las $HORA<11 y 50 de la noche> . (M:Respuesta:Hora_llegada:Hora_llegada,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U4: Quiero saber alguno que llegue antes de las $HORA<seis> .
+Quiero saber alguno que llegue antes de las $HORA<seis> . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 10
+M6: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M7: Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<10 y 17 de la mañana> y el $NRORDEN<último> a las $HORA<5 y 50 de la tarde> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> llega a las $HLLEG<10 y 17 de la mañana> y el $NRORDEN<último> a las $HORA<5 y 50 de la tarde> . (M:Respuesta:Hora_llegada:Hora_llegada,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: ¿ A qué hora sale ese último ? .
+¿ A qué hora sale ese último ? . (U:Pregunta:Hora_salida:Numero_relativo_orden) pal: 1 - 9
+M8: Ese tren sale a las $HSAL<2 y 15 del mediodía> y llega a las $HLLEG<5 y 50 de la tarde> . Desea algo más ? .
+Ese tren sale a las $HSAL<2 y 15 del mediodía> y llega a las $HLLEG<5 y 50 de la tarde> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U6: Sí , quería saber ese tipo de tren cuál es .
+Sí , quería saber ese tipo de tren cuál es . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 11
+M9: Ese tren es un $T_TREN<alaris> . Desea algo más ? .
+Ese tren es un $T_TREN<alaris> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 6
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 7 - 11
+U7: No , nada más , muchas gracias .
+No , nada más , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

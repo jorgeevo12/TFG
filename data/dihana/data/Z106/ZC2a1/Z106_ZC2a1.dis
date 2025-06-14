@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nw) (do Buenas) , querría saber los horarios y precios de los trenes de Zaragoza a Madrid para mañana (p) en el Ave .
+M2: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el miércoles , día 3 de marzo de 2004 en Ave . Un momento por favor .
+M3: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U2: (na) Que sea cualquier día de esta semana (na) .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el martes , día 2 de marzo de 2004 en Ave . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U3: Sí , que sea un tren (p) para mañana (p) de cualquier clase .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el miércoles , día 3 de marzo de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 7 y 10 de la tarde ¿ Desea algo más ?
+U4: Sí , querría saber el precio (p) para los billetes de ida y vuelta .
+M8: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 28 con 50 euros la ida y el más barato es un Costa_Brava que cuesta 21 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , eso es todo , (dc gracias) (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

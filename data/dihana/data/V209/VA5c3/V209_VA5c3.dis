@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola buenas) , me gustaría (p) consultar los horarios para viajar a Barcelona (p) desde Valencia .
+M2: ¿ Qué día desea salir ?
+U2: Mañana o pasado .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Me gustaría viajar mañana (p) , (ri (m dí(a a)) (c viernes día)) trece o el sábado día catorce .
+M4: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el viernes , día 13 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U4: (fm) Desearía saber horarios para el sábado día catorce también .
+M6: Le consulto horarios de trenes con salida en Valencia destino Barcelona saliendo el sábado , día 14 de febrero de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U5: Desearía saber qué tren llega antes de las cuatro de la tarde .
+M8: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Me gustaría saber un horario (p) de tren que llegue antes de las cuatro de la tarde .
+M9: Le consulto horarios . Un momento por favor .
+M10: Le consulto horarios . Un momento por favor .
+M11: Hay varios trenes . El primero llega a las 9 y 50 de la mañana y el último a las 2 y 3 de la tarde ¿ Desea algo más ?
+U7: (fe) Deseo saber a qué hora salen dichos trenes .
+M12: Le consulto horarios . Un momento por favor .
+M13: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y llega a las 9 y 50 de la mañana y el último sale a las 11 y 5 de la mañana y llega a las 2 y 3 de la tarde ¿ Desea algo más ?
+U8: (fe) Esos horarios son del sábado día catorce ¿ (dq verdad) ?
+M14: si , .
+M15: Desea algo más ?
+U9: No , ya está , (dc muchas gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

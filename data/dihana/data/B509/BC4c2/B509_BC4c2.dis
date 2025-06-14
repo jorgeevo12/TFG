@@ -1,0 +1,32 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería consultar los horarios y el precio de unos viajes .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: ¿ Qué día desea salir ?
+U3: El veintitrés de octubre .
+M4: ¿ Desea salir el miércoles , día 27 de octubre de 2004 ?
+U4: No .
+M5: ¿ Qué día desea salir ?
+U5: Veintitrés de octubre .
+M6: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 9 y 50 de la mañana ¿ Desea algo más ?
+U6: Sí .
+M8: Si ¿ Desea algo más ?
+U7: Querría saber (p) (lm trenes tranes) que salen de Jaén (p) para Madrid .
+M9: Quiere horarios de trenes a Madrid ¿ desde Jaén ?
+U8: Sí .
+M10: Le consulto horarios de trenes con salida en Jaén destino Madrid saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M11: Sólo hay dos trenes . El primero sale a las 9 y 20 de la mañana y el otro a las 3 y 40 de la tarde ¿ Desea algo más ?
+U9: Querría saber el precio .
+M12: Le consulto precios . Un momento por favor .
+M13: Los trenes son Regional_expres y en clase turista , el billete cuesta 19 con 55 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Querría saber también horarios de Madrid a Jaén .
+M14: Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el sábado , día 23 de octubre de 2004 . Un momento por favor .
+M15: Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde ¿ Desea algo más ?
+U11: Trenes Madrid Jaén para el veinticuatro de octubre .
+M16: ¿ Desea salir el domingo , día 24 de octubre de 2004 ?
+U12: Sí .
+M17: Le consulto horarios de trenes con salida en Madrid destino Jaén saliendo el domingo , día 24 de octubre de 2004 . Un momento por favor .
+M18: Sólo hay dos trenes . El primero sale a las 9 de la mañana y el otro a las 6 y 25 de la tarde ¿ Desea algo más ?
+U13: No .
+M19: Gracias por utilizar este servicio . Feliz viaje .

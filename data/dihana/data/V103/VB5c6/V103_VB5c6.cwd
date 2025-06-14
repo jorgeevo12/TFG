@@ -1,0 +1,52 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quería saber el horario de trenes $CIUDAD<Zamora> $CIUDAD<Valladolid> a ser posible $T_TREN<intercity> .
+Quería saber el horario de trenes $CIUDAD<Zamora> (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+$CIUDAD<Valladolid> (U:Pregunta:Hora_salida:Destino) pal: 8 - 8
+a ser posible $T_TREN<intercity> . (U:Pregunta:Hora_salida:Tipo_tren) pal: 9 - 13
+M2: ¿ Quiere viajar desde $C_ORIGEN<zamora> ? .
+¿ Quiere viajar desde $C_ORIGEN<zamora> ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M3: ¿ Quiere llegar a $C_DESTINO<valladolid> ? .
+¿ Quiere llegar a $C_DESTINO<valladolid> ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: El $FECHA<veintinueve de abril> .
+El $FECHA<veintinueve de abril> . (U:Respuesta:Dia:Dia) pal: 1 - 5
+M5: ¿ Desea salir el $FECHA<viernes , día 29 de abril de 2005> ? .
+¿ Desea salir el $FECHA<viernes , día 29 de abril de 2005> ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+U5: No , el $FECHA<veintinueve de abril del dos mil cuatro> .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+el $FECHA<veintinueve de abril del dos mil cuatro> . (U:Respuesta:Hora_salida:Dia) pal: 3 - 11
+M6: Le consulto horarios de trenes con salida en $C_ORIGEN<zamora> destino $C_DESTINO<valladolid> saliendo el $FECHA<jueves , día 29 de abril de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<zamora> destino $C_DESTINO<valladolid> saliendo el $FECHA<jueves , día 29 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U6: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U7: Sí , deseo salir de $C_ORIGEN<Zamora> con destino $C_DESTINO<Valladolid> el $FECHA<veintinueve de abril> .
+Sí , deseo salir de $C_ORIGEN<Zamora> (U:Pregunta:Hora_salida:Origen) pal: 1 - 6
+con destino $C_DESTINO<Valladolid> (U:Pregunta:Hora_salida:Destino) pal: 7 - 9
+el $FECHA<veintinueve de abril> . (U:Pregunta:Hora_salida:Dia) pal: 10 - 14
+M9: Le consulto horarios de trenes con salida en $C_ORIGEN<zaragoza> destino $C_DESTINO<valladolid> saliendo el $FECHA<jueves , día 29 de abril de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<zaragoza> destino $C_DESTINO<valladolid> saliendo el $FECHA<jueves , día 29 de abril de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M10: El único tren que realiza el trayecto es un $T_TREN<miguel_de_unamuno> que sale a las $HSAL<5 y 10 de la tarde> y llega a las $HLLEG<10 y 33 de la noche> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<miguel_de_unamuno> que sale a las $HSAL<5 y 10 de la tarde> y llega a las $HLLEG<10 y 33 de la noche> . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+U8: Quería saber cuál es el precio de ese billete .
+Quería saber cuál es el precio de ese billete . (U:Pregunta:Precio:Nil) pal: 1 - 10
+M11: El precio de ese tren en clase $CLASE<turista> es $PRECIO<27 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase $CLASE<turista> es $PRECIO<27 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+U9: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

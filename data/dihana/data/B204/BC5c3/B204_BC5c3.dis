@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Sí , (df mira) es que (lm tengo tego) que ir mañan(a a) a un congreso (a a) Barcelona .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , precios también , (dq por favor) .
+M3: Quiere horarios de trenes a Barcelona ¿ desde Bilbao ?
+U3: (rr (m No) (c no)) , desde Tarragona .
+M4: ¿ Quiere salir desde Tarragona ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Tarragona destino Barcelona saliendo el martes , día 24 de febrero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 5 y 15 de la madrugada y el último a las 10 y 5 de la noche ¿ Desea algo más ?
+U5: ¿ Qué valen esos trenes ?
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Que , qué valen .
+M8: Le consulto precios de Tarragona a Barcelona . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 15 con 50 euros la ida y el más barato es un Delta que cuesta 4 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Sí ¿ para volver ese mismo día (p) qué horarios hay ?
+M10: Le consulto horarios de trenes con salida en Barcelona destino Tarragona saliendo el martes , día 24 de febrero de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 5 y 52 de la madrugada y el último a las 11 de la noche ¿ Desea algo más ?
+U8: (fe) Sí , los precios de estos últimos .
+M12: Le consulto precios de Barcelona a Tarragona . Un momento por favor .
+M13: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 15 con 50 euros la ida y el más barato es un Regional que cuesta 4 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Nada más .
+M14: Gracias por utilizar este servicio . Feliz viaje .

@@ -3,11 +3,11 @@
 **/.venv/
 
 # Ignorar la carpeta MultiWOZ dentro de data
-data/multiwoz/
+#data/multiwoz/
 
 # Ignorar todo dentro de data/dihana excepto dihana_dialogues
-data/dihana/*
-!data/dihana/dihana_dialogues/
+#data/dihana/*
+#!data/dihana/dihana_dialogues/
 
 # Ignorar todo dentro de la carpeta updates
 updates/

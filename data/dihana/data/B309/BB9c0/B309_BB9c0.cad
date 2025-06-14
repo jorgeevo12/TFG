@@ -1,0 +1,40 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola , quisiera saber el precio para ir de $C_ORIGEN a $C_DESTINO .
+Hola , quisiera saber el precio para ir de $C_ORIGEN (U:Pregunta:Precio:Origen) pal: 1 - 10
+a $C_DESTINO . (U:Pregunta:Precio:Destino) pal: 11 - 13
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U2: Pues yo querría llegar el día $FECHA antes de las $HORA y además en el $T_TREN si es posible .
+Pues yo querría llegar el día $FECHA (U:Respuesta:Dia:Dia) pal: 1 - 9
+antes de las $HORA (U:Respuesta:Precio:Hora_llegada) pal: 10 - 14
+y además en el $T_TREN si es posible . (U:Respuesta:Precio:Tipo_tren) pal: 15 - 23
+M3: ¿ Quiere llegar entre las $HORA y las $HORA ? .
+¿ Quiere llegar entre las $HORA y las $HORA ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 14
+U3: No , después .
+No , (U:Negacion:Hora_llegada:Nil) pal: 1 - 2
+después . (U:Respuesta:Precio:Hora_llegada) pal: 3 - 4
+M4: ¿ Quiere llegar entre las $HORA y las $HORA ? .
+¿ Quiere llegar entre las $HORA y las $HORA ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 14
+U4: No , quiero llegar antes de las $HORA .
+No , (U:Negacion:Hora_llegada:Nil) pal: 1 - 2
+quiero llegar antes de las $HORA . (U:Respuesta:Precio:Hora_llegada) pal: 3 - 14
+M5: ¿ Quiere llegar entre las $HORA y las $HORA ? .
+¿ Quiere llegar entre las $HORA y las $HORA ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 16
+U5: Sí , en un $T_TREN .
+Sí , (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+en un $T_TREN . (U:Respuesta:Precio:Tipo_tren) pal: 3 - 6
+M6: ¿ Qué día desea llegar ? .
+¿ Qué día desea llegar ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U6: Deseo llegar el día $FECHA .
+Deseo llegar el día $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M7: Le consulto precios de $C_ORIGEN a $C_DESTINO en tipo tren $T_TREN . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO en tipo tren $T_TREN . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+M8: Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son $T_TREN y en clase $CLASE , el billete cuesta $PRECIO la ida . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+U7: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

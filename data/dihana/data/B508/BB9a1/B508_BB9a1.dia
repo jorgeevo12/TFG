@@ -1,0 +1,68 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenas tardes , me gustaría saber el precio de .
+Hola buenas tardes , me gustaría saber el precio de . (U:Pregunta:Precio:Nil) pal: 1 - 11
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Barcelona por favor .
+A Barcelona por favor . (U:Respuesta:Destino:Destino) pal: 1 - 5
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: A Barcelona .
+A Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M4: Quiere saber el precio a barcelona , ¿ desde bilbao ? .
+Quiere saber el precio a barcelona , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U4: No , desde Guadalajara .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Guadalajara . (U:Respuesta:Precio:Origen) pal: 3 - 5
+
+M5: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U5: El primer fin de semana de septiembre , por favor .
+El primer fin de semana de septiembre , por favor . (U:Respuesta:Dia:Dia) pal: 1 - 11
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U6: El primer fin de semana de septiembre , por favor .
+El primer fin de semana de septiembre , por favor . (U:Respuesta:Dia:Dia) pal: 1 - 11
+
+M7: ¿ Desea salir el sábado , día 4 de septiembre de 2004 ? .
+¿ Desea salir el sábado , día 4 de septiembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U7: Sí , de acuerdo .
+Sí , de acuerdo . (U:Afirmacion:Dia:Nil) pal: 1 - 5
+
+M8: Le consulto precios de guadalajara a barcelona saliendo el sábado , día 4 de septiembre de 2004 . Un momento por favor .
+Le consulto precios de guadalajara a barcelona saliendo el sábado , día 4 de septiembre de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M9: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U8: ¿ Y los precios del domingo , por favor ? .
+¿ Y los precios del domingo , por favor ? . (U:Pregunta:Precio:Dia) pal: 1 - 11
+
+M10: Le consulto precios de guadalajara a barcelona saliendo el domingo , día 5 de septiembre de 2004 . Un momento por favor .
+Le consulto precios de guadalajara a barcelona saliendo el domingo , día 5 de septiembre de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M11: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U9: No , eso es todo , muchas gracias .
+No , eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 9
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

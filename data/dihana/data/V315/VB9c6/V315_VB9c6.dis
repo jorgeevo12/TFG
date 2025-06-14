@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , quisiera saber el precio par(a a) un tren con destino Madrid .
+M2: ¿ Qué día desea salir ?
+U2: Deseo salir el próximo jueves por la mañana a primera hora .
+M3: Quiere precios saliendo el jueves , día 1 de abril de 2004 ¿ desde Valencia ?
+U3: No , quiero salir desde Barcelona .
+M4: Le consulto precios de Barcelona a Madrid . Un momento por favor .
+M5: Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Triana que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: Sí ¿ podría volver a decirme el precio del Talgo ?
+M7: Le consulto precios de Barcelona a Madrid en tipo tren Talgo . Un momento por favor .
+M8: Los trenes son Talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

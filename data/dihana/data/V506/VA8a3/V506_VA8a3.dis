@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas) , me gustaría obtener los horarios (b d(a e))(p) (b los) de un tren que vaya de Ávila a La_Coruña .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Me gustaría saber los horarios de los trenes que van de Ávila a La_Coruña .
+M3: ¿ Quiere viajar desde ávila ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: El diecinueve de diciembre .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Diecinueve (p) de diciembre .
+M6: Le consulto horarios de trenes con salida en ávila destino La_Coruña saliendo el domingo , día 19 de diciembre de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 21 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U6: No , (dc muchas gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

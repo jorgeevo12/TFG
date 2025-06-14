@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quisiera información sobre precios (rr (m d(a e)) (c de)) trenes .
+M2: ¿ A qué ciudad desea viajar ?
+U2: (na) (fe) A León .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Lugo .
+M4: ¿ Qué día desea salir ?
+U4: (na) (a E)l uno o el dos de mayo (nw) .
+M5: Quiere saber el precio a Lugo ¿ desde Zaragoza ?
+U5: Sí .
+M6: Le consulto precios de Zaragoza a Lugo saliendo el sábado , día 1 de mayo de 2004 . Un momento por favor .
+M7: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No , (dc gracias) (na) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

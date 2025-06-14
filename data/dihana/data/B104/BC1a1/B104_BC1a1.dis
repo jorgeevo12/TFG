@@ -1,0 +1,33 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría ir a Gijón (p) desde Bilbao (a e)l próximo día diez de enero .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: (nw) (fm) Quier(a o) viajar a Gijón (p) desde Bilbao el próximo diez de enero (na) para volver desde Gijón a Bilbao (fe) al día siguiente , el día once de enero .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Gijón .
+M4: ¿ Qué día desea salir ?
+U4: El día diez de enero .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Gijón saliendo el sábado , día 10 de enero de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U5: (fe) Sí , me gustaría saber los trenes que hay alrededor de las onc(a e) de la mañana .
+M7: Le consulto horarios de Bilbao a Gijón el sábado , día 10 de enero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 y 55 de la mañana ¿ Desea algo más ?
+U6: (fe) Sí , el viaje de vuelta de Gijón a Bilbao , (na) me gustaría salir de Gijón (a a)lrededor de las cinco de la tarde .
+M9: ¿ Quiere saber horarios ?
+U7: Sí , (da bueno) , quiero saber horarios para el viaje de vuelta de Gijón (p) a Bilbao (p) el día once de enero .
+M10: Le consulto horarios de trenes con salida en Gijón destino Bilbao saliendo el jueves , día 1 de enero de 2004 . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (fe) Sí , quería el viaje de vuelta de Gijón a Bilbao para el día once , once de enero (p) de dos mil cuatro .
+M12: Le consulto horarios de Gijón a Bilbao el domingo , día 11 de enero de 2004 entre las 4 y 5 y las 6 y 5 de la tarde . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: (fe) Sí , me gustaría saber (fe) si hay algún tren (fe) de Gijón a Bilbao (p) para el viaje de vuelta (fe) ese domingo .
+M14: Le consulto horarios de trenes con salida en Gijón destino Bilbao saliendo el domingo , día 11 de enero de 2004 . Un momento por favor .
+M15: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: Me gustaría saber el precio d(a e)l billete de ida (fb) del tren que sale d(a e) Bilbao (a a)lrededor de las onc(a e) cincuenta y cinco , creo que era .
+M16: Le consulto precios de Bilbao a Gijón saliendo el domingo , día 11 de enero de 2004 . Un momento por favor .
+M17: El único tren que realiza el trayecto es un Talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: (nw) Sí (fe) , precios d(a e) billete de ida y vuelta (p) (a e)ntre Bilbao y Gijón .
+M18: Lo siento . No he entendido bien ¿ puede repetir ?
+U12: (na) (fe) (rs (m Quería saber) (c me gustaría saber)) el precio (fm) del billete de ida y vuelta (p) entre Bilbao y Gijón .
+M19: El único tren que realiza el trayecto es un Talgo y su precio en turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U13: (fe) (rr (m No) (c no)) , ya me buscaré la vida para volver , (dc gracias) (nw) .
+M20: Gracias por utilizar este servicio . Feliz viaje .

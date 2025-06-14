@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) Quería ir a Tarragona (a y) (fb) (p) quería saber los horarios de los (lu trenes trene) .
+M2: ¿ Quiere viajar desde Zaragoza ?
+U2: (fe) No , desde Bilbao .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Tarragona .
+M4: ¿ Qué día desea salir ?
+U4: El viernes por la tarde o el sábado por la mañana .
+M5: Le consulto horarios de Bilbao a Tarragona el viernes , día 20 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (fe) Sí (fe) ¿ me podría decir los horarios (p) del sábado por la mañana ?
+M7: Horarios saliendo el sábado , día 21 de febrero de 2004 ¿ saliendo entre las 7 de la mañana y la una de la tarde ?
+U6: (fe) (nw) (a s)í .
+M8: Le consulto horarios de Bilbao a Tarragona el sábado , día 21 de febrero de 2004 entre las 7 de la mañana y la una de la tarde . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a las 10 y 5 de la mañana ¿ Desea algo más ?
+U7: (fe) Sí , quería volver el (lm miércoles mercoles) siguiente (p) y quería saber (na) los horarios de los trenes , si es que los hay (lm claro cla) .
+M10: ¿ Desea salir el miércoles , día 25 de febrero de 2004 ?
+U8: (fe) Sí .
+M11: Le consulto horarios de trenes con salida en Tarragona destino Bilbao saliendo el miércoles , día 25 de febrero de 2004 . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Miguel_de_Unamuno que sale a la una y 56 de la tarde ¿ Desea algo más ?
+U9: (fe) Sí ¿ me podría decir el precio del billete ? (p) No sé si el de ida o ida vuelta juntos , no sé .
+M13: El precio de ese tren en clase turista es 31 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (fe) No , (dc muchas (lu gracias gracia)) .
+M14: Gracias por utilizar este servicio . Feliz viaje .

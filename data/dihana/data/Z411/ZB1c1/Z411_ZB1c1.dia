@@ -1,0 +1,121 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: ir a Barcelona .
+ir a Barcelona . (U:Pregunta:Nil:Destino) pal: 1 - 4
+
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+
+U2: quiero saber el horario de tren a Barcelona .
+quiero saber el horario de tren a Barcelona . (U:Pregunta:Hora_salida:Destino) pal: 1 - 9
+
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U3: Pues , quiero ir el veintiuno de mayo a las cinco .
+Pues , quiero ir el veintiuno de mayo (U:Respuesta:Dia:Dia) pal: 1 - 8
+a las cinco . (U:Respuesta:Hora_salida:Hora_salida) pal: 9 - 12
+
+
+
+
+M4: Quiere horarios de trenes a barcelona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+
+U4: No , desde Logroño .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Logroño . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+
+
+
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U5: Quiero el horario de trenes , con salida Logroño destino Barcelona , el veintiuno de mayo a las cinco de la tarde .
+Quiero el horario de trenes , con salida Logroño (U:Pregunta:Hora_salida:Origen) pal: 1 - 9
+destino Barcelona , (U:Pregunta:Hora_salida:Destino) pal: 10 - 12
+el veintiuno de mayo (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+a las cinco de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 17 - 23
+
+
+
+
+M6: Le consulto horarios de logroño a barcelona el viernes , día 21 de mayo de 2004 entre las 4 y 30 y las 5 y 30 de la tarde . Un momento por favor .
+Le consulto horarios de logroño a barcelona el viernes , día 21 de mayo de 2004 entre las 4 y 30 y las 5 y 30 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+
+
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+
+U6: Sí , la hora .
+Sí , la hora . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 5
+
+
+
+
+M8: Le consulto horarios de trenes con salida en logroño destino barcelona saliendo el viernes , día 21 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en logroño destino barcelona saliendo el viernes , día 21 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+
+M9: Sólo hay dos trenes . El primero sale a las 2 de la madrugada y llega a las 9 y 5 de la mañana y el otro sale a las 12 y 38 de la mañana y llega a las 6 y 50 de la tarde . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 2 de la madrugada y llega a las 9 y 5 de la mañana y el otro sale a las 12 y 38 de la mañana y llega a las 6 y 50 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 47
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 48 - 52
+
+
+
+
+U7: Sí , ¿ cuánto vale el último tren ? .
+Sí , ¿ cuánto vale el último tren ? . (U:Pregunta:Precio:Numero_relativo_orden) pal: 1 - 10
+
+
+
+
+M10: El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 29 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+
+
+
+
+U8: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

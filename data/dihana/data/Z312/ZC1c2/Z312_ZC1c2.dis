@@ -1,0 +1,17 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el horario para ir (rs (m d(a e)) (c hasta)) Barcelona (p) el día doce de septiembre por la mañana .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Barcelona .
+M3: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U3: Sí (p) , quiero horario de trenes a Barcelona desde Zaragoza .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y llega a las 7 de la mañana y el último sale a las 7 de la tarde y llega a las 10 y 55 de la noche ¿ Desea algo más ?
+U4: Sí , quiero el precio del primer tren .
+M6: El precio de ese tren en clase turista es 21 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , quiero saber los posibles horarios de vuelta ese mismo día .
+M7: Le consulto horarios de trenes con salida en Barcelona destino Zaragoza saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U6: Sí (p) , quiero saber el precio del último tren .
+M9: El precio de ese tren en clase turista es 27 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , no deseo nada más .
+M10: Gracias por utilizar este servicio . Feliz viaje .

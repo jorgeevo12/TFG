@@ -1,0 +1,78 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+
+U1: Hola , quiero horarios para ir a Barcelona y llegar el seis de noviembre .
+Hola , quiero horarios para ir a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+y llegar el seis de noviembre . (U:Pregunta:Hora_salida:Dia) pal: 9 - 15
+
+
+
+
+
+M2: Le consulto horarios de valencia a barcelona llegando el sábado , día 6 de noviembre de 2004 . Un momento por favor .
+Le consulto horarios de valencia a barcelona llegando el sábado , día 6 de noviembre de 2004 . (M:Confirmacion:Hora_llegada:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+
+
+M3: Hay varios trenes . El primero llega a las 9 y 50 y el último a las 23 y 3 . Desea algo más ? .
+Hay varios trenes . El primero llega a las 9 y 50 y el último a las 23 y 3 . (M:Respuesta:Hora_llegada:Hora_llegada,Numero_relativo_orden,Numero_trenes) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+
+
+
+
+U2: Sí , a ver , ¿ me puedes decir si hay algún talgo ? .
+Sí , a ver , ¿ me puedes decir si hay algún talgo ? . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 15
+
+
+
+
+
+M4: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+
+
+M5: El único tren que realiza el trayecto es un talgo que sale a las 17 y 10 . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 17 y 10 . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 18
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 19 - 23
+
+
+
+
+
+U3: Sí , ¿ me puedes decir la hora de llegada de ese tren ? .
+Sí , ¿ me puedes decir la hora de llegada de ese tren ? . (U:Pregunta:Hora_llegada:Nil) pal: 1 - 15
+
+
+
+
+
+M6: Ese tren sale a las 17 y 10 y llega a las 20 y 59 . Desea algo más ? .
+Ese tren sale a las 17 y 10 y llega a las 20 y 59 . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 16
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 17 - 21
+
+
+
+
+
+U4: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+
+
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

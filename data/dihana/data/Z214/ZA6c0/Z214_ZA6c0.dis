@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero viajar de Sevilla a Córdoba .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: El viernes .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: El viernes (na) .
+M5: Le consulto horarios de trenes con salida en Sevilla destino Córdoba saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 y 30 de la mañana y el último a las 10 y 20 de la noche ¿ Desea algo más ?
+U5: Saber el tipo de tren .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Tipo de tren (na) .
+M8: Hay varios tipos de trenes . El tren más rápido es un Ave y el más lento es un andalucía_expres ¿ Desea algo más ?
+U7: No .
+M9: Gracias por utilizar este servicio . Feliz viaje .

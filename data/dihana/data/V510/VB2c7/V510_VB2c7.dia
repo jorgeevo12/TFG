@@ -1,0 +1,112 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Quería saber los trenes que salen desde Valencia a Valladolid .
+Quería saber los trenes que salen desde Valencia (U:Pregunta:Nil:Origen) pal: 1 - 8
+a Valladolid . (U:Pregunta:Nil:Destino) pal: 9 - 11
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: Sí quiero el tren llegue el sábado .
+Sí (U:Afirmacion:Hora_salida:Nil) pal: 1 - 1
+quiero el tren llegue el sábado . (U:Respuesta:Hora_salida:Dia) pal: 2 - 8
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A Valladolid .
+A Valladolid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: Quiere horarios de trenes a valladolid , ¿ saliendo de valencia ? .
+Quiere horarios de trenes a valladolid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ saliendo de valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 13
+
+
+U4: Sí , y que lleguen el sábado .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+y que lleguen el sábado . (U:Respuesta:Hora_salida:Dia) pal: 3 - 8
+
+
+M5: ¿ Desea llegar el sábado , día 8 de mayo de 2004 ? .
+¿ Desea llegar el sábado , día 8 de mayo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U5: Sí , quiero llegar ese sábado .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+quiero llegar ese sábado . (U:Respuesta:Hora_salida:Dia) pal: 3 - 7
+
+
+M6: Le consulto horarios de valencia a valladolid llegando el sábado , día 8 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de valencia a valladolid llegando el sábado , día 8 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 44
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 45 - 49
+
+
+U6: Sí , quería saber el precio .
+Sí , quería saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U7: Quería saber .
+Quería saber . (U:Indefinida:Nil:Nil) pal: 1 - 3
+
+
+M9: Perdón . No consigo entenderle .
+Perdón . No consigo entenderle . (M:No_entendido:Nil:Nil) pal: 1 - 6
+
+
+U8: Quiero viajar en un tren cómodo .
+Quiero viajar en un tren cómodo . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 7
+
+
+M10: Le consulto precios . Un momento por favor .
+Le consulto precios . (M:Confirmacion:Precio:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+M11: Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 40 con 50 euros la ida y el más lento es un trenhotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más rápido es un intercity que cuesta 40 con 50 euros la ida y el más lento es un trenhotel que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+
+U9: Sí , quiero saber el precio .
+Sí , quiero saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 7
+
+
+M12: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U10: Quiero saber el precio más barato .
+Quiero saber el precio más barato . (U:Pregunta:Precio:Precio) pal: 1 - 7
+
+
+M13: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+
+M14: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U11: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+M15: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

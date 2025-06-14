@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) me gustaría preguntar por precios (p) (rr (m d(a e)) (c d(a e))) viajes de Valencia a Cuenca .
+M2: ¿ Qué día desea salir ?
+U2: (df Pues) mañana .
+M3: Le consulto precios de Valencia a Cuenca . Un momento por favor .
+M4: Los trenes son Regional y en clase turista , el billete cuesta 9 con 84 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U3: (df Pues) me gustaría que me dieras un precio de un billete (ri (m (lu ida id)) (c de ida))y vuelta .
+M5: El precio de ese tren en clase turista es 9 con 84 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: ¿ Si compro un billete de ida y vuelta (p) cuántos días tengo para volver ? ¿ O tiene que ser la vuelta en el mismo día ?
+M6: Este servicio no puede informarle sobre esa consulta .
+U5: (da (rr (m Vale) (c vale))) , (df pues) nada , entonces ya está . (nw) (dc Muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

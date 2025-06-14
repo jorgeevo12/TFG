@@ -1,0 +1,37 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola buenas tardes , me gustaría obtener información sobre el horario de trenes .
+Hola buenas tardes , me gustaría obtener información sobre el horario de trenes . (U:Pregunta:Hora_salida:Nil) pal: 1 - 13
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: me gustaría viajar desde Gijón a San_Sebastián .
+me gustaría viajar desde Gijón (U:Respuesta:Hora_salida:Origen) pal: 1 - 5
+a San_Sebastián . (U:Respuesta:Destino:Destino) pal: 6 - 8
+M3: Quiere horarios de trenes a san_sebastián , ¿ desde barcelona ? .
+Quiere horarios de trenes a san_sebastián , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: No , me gustaría desde Gijón .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+me gustaría desde Gijón . (U:Respuesta:Hora_salida:Origen) pal: 3 - 7
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: Me gustaría salir el siete de junio .
+Me gustaría salir el siete de junio . (U:Respuesta:Dia:Dia) pal: 1 - 8
+M5: Le consulto horarios de trenes con salida en gijón destino san_sebastián saliendo el lunes , día 7 de junio de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en gijón destino san_sebastián saliendo el lunes , día 7 de junio de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U5: ¿ Habría algún otro tipo de tren que saliese al mediodía ? .
+¿ Habría algún otro tipo de tren que saliese al mediodía ? . (U:Pregunta:Tipo_tren:Hora_salida) pal: 1 - 13
+M7: Le consulto horarios de gijón a san_sebastián el lunes , día 7 de junio de 2004 entre las 12 de la mañana y las 2 de la tarde . Un momento por favor .
+Le consulto horarios de gijón a san_sebastián el lunes , día 7 de junio de 2004 entre las 12 de la mañana y las 2 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M8: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U6: No , gracias muchas gracias .
+No , gracias muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,90 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+
+U1: Hola , quería saber el precio de un viaje de $TVIAJE de $C_ORIGEN a $C_DESTINO el $FECHA $HORA y si puede ser en un tren $T_TREN mejor .
+Hola , quería saber el precio de un viaje de $TVIAJE (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+de $C_ORIGEN (U:Pregunta:Precio:Origen) pal: 14 - 15
+a $C_DESTINO (U:Pregunta:Precio:Destino) pal: 16 - 17
+el $FECHA (U:Pregunta:Precio:Dia) pal: 18 - 22
+$HORA (U:Pregunta:Precio:Hora_salida) pal: 23 - 25
+y si puede ser en un tren $T_TREN mejor . (U:Pregunta:Precio:Tipo_tren) pal: 26 - 35
+
+
+
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+
+U2: Sí , quería saber el precio de un viaje de $TVIAJE de $C_ORIGEN a $C_DESTINO .
+Sí , quería saber el precio de un viaje de $TVIAJE (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+de $C_ORIGEN (U:Pregunta:Precio:Origen) pal: 14 - 15
+a $C_DESTINO . (U:Pregunta:Precio:Destino) pal: 16 - 18
+
+
+
+
+M3: ¿ Quiere viajar a $C_DESTINO ? .
+¿ Quiere viajar a $C_DESTINO ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+
+
+
+U3: Sí sí .
+Sí sí . (U:Afirmacion:Destino:Nil) pal: 1 - 3
+
+
+
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+
+U4: El $FECHA .
+El $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+
+
+
+M5: ¿ Desea salir el $FECHA ? .
+¿ Desea salir el $FECHA ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+
+U5: Sí , $HORA .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+$HORA . (U:Respuesta:Precio:Hora_salida) pal: 3 - 6
+
+
+
+
+M6: Le consulto precios de $C_ORIGEN a $C_DESTINO . Un momento por favor .
+Le consulto precios de $C_ORIGEN a $C_DESTINO . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+
+
+M7: El único tren que realiza el trayecto es un $T_TREN y su precio en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN y su precio en clase $CLASE es $PRECIO el billete de $TVIAJE . Recuerde que el billete de $TVIAJE siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+
+
+U6: No , ya está gracias .
+No , ya está gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

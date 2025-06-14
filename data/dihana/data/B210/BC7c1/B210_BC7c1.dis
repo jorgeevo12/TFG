@@ -1,0 +1,25 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería saber el precio de un viaje de id(a a) a Cádiz el cinco de diciembre .
+M2: ¿ Desea salir el viernes , día 17 de diciembre de 2004 ?
+U2: (fe) No quiero salir el cinco de diciembre .
+M3: ¿ A qué ciudad desea llegar ?
+U3: A Cádiz .
+M4: Quiere saber el precio a Cádiz ¿ desde Bilbao ?
+U4: Sí .
+M5: Le consulto precios de Bilbao a Cádiz saliendo el domingo , día 5 de diciembre de 2004 . Un momento por favor .
+M6: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , quiero saber (a e)l precio del billete de ida y vuelta a Cádiz (p) , saliendo el cinco de diciembre y regresando el día ocho .
+M7: ¿ Desea salir el miércoles , día 8 de diciembre de 2004 ?
+U6: Quiero salir el día cinco de diciembre .
+M8: Le consulto precios de Bilbao a Cádiz saliendo el domingo , día 5 de diciembre de 2004 . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: Quiero saber si (lu hay a) algú(a n) tren con literas que vaya a Cádiz ese día , el cinco .
+M10: ¿ Desea viajar en clase litera ?
+U8: Sí .
+M11: Le consulto precios de Bilbao a Cádiz en clase litera . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Diurno y su precio en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Querí(a a) volver d(a e) día ocho de Cádiz a Bilbao (p) y si puede ser (a e)n coche cama .
+M13: Le consulto precios de Cádiz a Bilbao en clase cama . Un momento por favor .
+M14: Sólo hay dos trenes . En clase cama , el tren más caro es un Tren_Hotel que cuesta 117 con 50 euros la ida y el otro es un Diurno que cuesta 78 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: Nada más .
+M15: Gracias por utilizar este servicio . Feliz viaje .

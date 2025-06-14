@@ -1,0 +1,70 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero saber el precio del viaje de ida desde Ciudad_Real hasta Madrid el día treinta y uno de diciembre .
+Quiero saber el precio del viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 8
+desde Ciudad_Real (U:Pregunta:Precio:Origen) pal: 9 - 10
+hasta Madrid (U:Pregunta:Precio:Destino) pal: 11 - 12
+el día treinta y uno de diciembre . (U:Pregunta:Precio:Dia) pal: 13 - 20
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M3: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas . (M:No_entendido:Nil:Nil) pal: 1 - 17
+
+U3: Quiero saber el precio desde Ciudad_Real a Madrid .
+Quiero saber el precio desde Ciudad_Real (U:Pregunta:Precio:Origen) pal: 1 - 6
+a Madrid . (U:Pregunta:Precio:Destino) pal: 7 - 9
+
+M4: ¿ Quiere viajar desde ciudad_real ? .
+¿ Quiere viajar desde ciudad_real ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M5: ¿ Quiere viajar a madrid ? .
+¿ Quiere viajar a madrid ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U5: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M6: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U6: El treinta y uno de diciembre .
+El treinta y uno de diciembre . (U:Respuesta:Dia:Dia) pal: 1 - 7
+
+M7: ¿ Desea salir el viernes , día 31 de diciembre de 2004 ? .
+¿ Desea salir el viernes , día 31 de diciembre de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U7: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M8: Le consulto precios de ciudad_real a madrid saliendo el viernes , día 31 de diciembre de 2004 . Un momento por favor .
+Le consulto precios de ciudad_real a madrid saliendo el viernes , día 31 de diciembre de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M9: Hay varios trenes . En clase turista , el tren más caro es un extremadura que cuesta 27 con 50 euros la ida y el más barato es un regional que cuesta 12 con 55 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un extremadura que cuesta 27 con 50 euros la ida y el más barato es un regional que cuesta 12 con 55 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U8: Sí , saber los precios en el Ave .
+Sí , saber los precios en el Ave . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 9
+
+M10: Le consulto precios de ciudad_real a madrid en tipo tren ave . Un momento por favor .
+Le consulto precios de ciudad_real a madrid en tipo tren ave . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+M11: Los trenes son ave y en clase turista , el billete cuesta 25 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son ave y en clase turista , el billete cuesta 25 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M12: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

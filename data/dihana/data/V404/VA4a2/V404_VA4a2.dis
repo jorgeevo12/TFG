@@ -1,0 +1,27 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber los horarios de trenes para ir a Santander .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Horarios de trenes para ir a Santander .
+M3: ¿ Quiere saber horarios ?
+U3: Sí .
+M4: ¿ Quiere viajar a Santander ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: El siete de abril .
+M6: Horarios desde Valencia ¿ saliendo el miércoles , día 7 de abril de 2004 ?
+U6: Sí (nw) .
+M7: Le consulto horarios de trenes con salida en Valencia destino Santander saliendo el miércoles , día 7 de abril de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U7: (nl) Sí , (p) (nl) (fe) que el tipo de tren fuera Euromed .
+M9: ¿ Desea hacer el viaje en un Euromed ?
+U8: Sí .
+M10: Le consulto horarios de trenes con salida en Valencia destino Santander saliendo el miércoles , día 7 de abril de 2004 en Euromed . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: Sí (p) , que el tipo de tren sea Alaris .
+M12: Le consulto horarios de trenes con salida en Valencia destino Santander saliendo el miércoles , día 7 de abril de 2004 en Alaris . Un momento por favor .
+M13: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: Salir (a e)l ocho de abril .
+M14: Le consulto horarios de trenes con salida en Valencia destino Santander saliendo el jueves , día 8 de abril de 2004 . Un momento por favor .
+M15: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 de la noche y llega a las 8 de la mañana ¿ Desea algo más ?
+U11: No .
+M16: Gracias por utilizar este servicio . Feliz viaje .

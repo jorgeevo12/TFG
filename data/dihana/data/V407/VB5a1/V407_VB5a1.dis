@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do (lm Hola hoa)) , quería saber los horarios (nw) de los trenes que salen de Albacete a Valencia el quince de agosto (lm del el) dos mil cuatro (nw) .
+M2: ¿ Quiere viajar desde Albacete ?
+U2: Sí .
+M3: ¿ Qué día desea salir ?
+U3: Quince de agosto dos mil cuatro .
+M4: ¿ Desea salir el domingo , día 15 de agosto de 2004 ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Albacete destino Valencia saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 3 y 53 de la madrugada y llega a las 5 y 38 de la madrugada y el último sale a las 10 y 19 de la noche y llega a las 11 y 45 de la noche ¿ Desea algo más ?
+U5: Sí , el tipo de tren que sea Talgo (na) .
+M7: ¿ Desea hacer el viaje en un Talgo ?
+U6: (na) Sí (na) .
+M8: Le consulto horarios de trenes con salida en Albacete destino Valencia saliendo el domingo , día 15 de agosto de 2004 en Talgo . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (na) (fb) , viajar en cualquier tren .
+M10: Le consulto horarios de trenes con salida en Albacete destino Valencia saliendo el domingo , día 15 de agosto de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 3 y 53 de la madrugada y llega a las 5 y 38 de la madrugada y el último sale a las 10 y 19 de la noche y llega a las 11 y 45 de la noche ¿ Desea algo más ?
+U8: Sí , quisiera saber el precio del tren que sale a las diez (rr (m y (lm diecinueve ci)) (c y diecinueve)) (rs (m de la (p) (lu tarde tard)) (c de la noche)) .
+M12: El precio de ese tren en clase turista es 21 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) (na) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

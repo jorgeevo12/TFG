@@ -1,0 +1,103 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A Madrid .
+A Madrid . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Quiere horarios de trenes a madrid , ¿ desde bilbao ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: No , desde Vitoria .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+desde Vitoria . (U:Respuesta:Hora_salida:Origen) pal: 3 - 5
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El catorce de mayo .
+El catorce de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M5: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U5: El catorce de mayo .
+El catorce de mayo . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M6: Le consulto horarios de trenes con salida en vitoria destino madrid saliendo el viernes , día 14 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en vitoria destino madrid saliendo el viernes , día 14 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 7 y 25 de la mañana y el último a las 6 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 25 de la mañana y el último a las 6 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U6: Sí , me gustaría llegar antes de la una del mediodía por favor .
+Sí , me gustaría llegar antes de la una del mediodía por favor . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 14
+
+M8: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U7: Me gustaría llegar antes de la una del mediodía .
+Me gustaría llegar antes de la una del mediodía . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 10
+
+M9: ¿ Quiere llegar entre las 0 de la noche y la una de la tarde ? .
+¿ Quiere llegar entre las 0 de la noche y la una de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 17
+
+U8: Sí .
+Sí . (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+
+M10: Le consulto horarios de vitoria a madrid llegando el viernes , día 14 de mayo de 2004 entre las 0 de la noche y la una de la tarde . Un momento por favor .
+Le consulto horarios de vitoria a madrid llegando el viernes , día 14 de mayo de 2004 entre las 0 de la noche y la una de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+M11: El único tren que realiza el trayecto es un castilla_y_león_expres que sale a las 7 y 25 de la mañana y llega a las 12 y 55 de la mañana . Desea algo más ? .
+El único tren que realiza el trayecto es un castilla_y_león_expres que sale a las 7 y 25 de la mañana y llega a las 12 y 55 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 31
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 32 - 36
+
+U9: Sí , dígame el precio de ese tren por favor .
+Sí , dígame el precio de ese tren por favor . (U:Pregunta:Precio:Nil) pal: 1 - 11
+
+M12: El precio de ese tren en clase turista es 25 con 69 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 25 con 69 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U10: Sí , el horario y precio de los trenes de vuelta por favor .
+Sí , el horario y precio de los trenes de vuelta por favor . (U:Pregunta:Hora_salida,Precio:Tipo_viaje) pal: 1 - 14
+
+M13: Le consulto horarios de trenes con salida en madrid destino vitoria saliendo el viernes , día 14 de mayo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino vitoria saliendo el viernes , día 14 de mayo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M14: Hay varios trenes . El primero sale a las 8 y 30 de la mañana y el último a las 5 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 8 y 30 de la mañana y el último a las 5 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U11: Sí , el precio de ese tren .
+Sí , el precio de ese tren . (U:Pregunta:Precio:Nil) pal: 1 - 8
+
+M15: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U12: Dígame el precio del tren de vuelta por favor .
+Dígame el precio del tren de vuelta por favor . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 10
+
+M16: Le consulto precios de madrid a vitoria saliendo el viernes , día 14 de mayo de 2004 . Un momento por favor .
+Le consulto precios de madrid a vitoria saliendo el viernes , día 14 de mayo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M17: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 27 con 50 euros la ida y el más barato es un castilla_y_león_expres que cuesta 25 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 27 con 50 euros la ida y el más barato es un castilla_y_león_expres que cuesta 25 con 69 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 54
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 55 - 59
+
+U13: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M18: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

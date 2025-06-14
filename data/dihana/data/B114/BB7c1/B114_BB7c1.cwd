@@ -1,0 +1,119 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+U1: Hola buenos días , quisiera saber el precio para un viaje de $TVIAJE<ida> a $C_DESTINO<Teruel> para el próximo $FECHA<viernes> .
+Hola buenos días , quisiera saber el precio para un viaje de $TVIAJE<ida> (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 13
+a $C_DESTINO<Teruel> (U:Pregunta:Precio:Destino) pal: 14 - 15
+para el próximo $FECHA<viernes> . (U:Pregunta:Precio:Dia) pal: 16 - 20
+
+
+M3: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: No , solo quisiera saber el precio . Y y bueno sería para salir el próximo $FECHA<viernes> hacia $C_DESTINO<Teruel> en tren $T_TREN<regional> . Ida .
+No , (U:Negacion:Hora_salida:Nil) pal: 1 - 2
+solo quisiera saber el precio . Y y bueno sería para salir el próximo $FECHA<viernes> (U:Pregunta:Precio:Dia) pal: 3 - 17
+hacia $C_DESTINO<Teruel> (U:Pregunta:Precio:Destino) pal: 18 - 19
+en tren $T_TREN<regional> . (U:Pregunta:Precio:Tipo_tren) pal: 20 - 23
+Ida . (U:Pregunta:Precio:Tipo_viaje) pal: 24 - 25
+
+
+M4: ¿ Desea hacer el viaje en un $T_TREN<regional> ? .
+¿ Desea hacer el viaje en un $T_TREN<regional> ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+U3: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+M5: Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> en tipo tren $T_TREN<regional> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> en tipo tren $T_TREN<regional> . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M6: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U4: .
+. (U:Indefinida:Nil:Nil) pal: 1 - 1
+
+
+M7: Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+M8: Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U5: Sí , quisiera saber hay un tren que salga de $C_ORIGEN<Bilbao> a $C_DESTINO<Teruel> el próximo $FECHA<viernes> un tren $T_TREN<regional> .
+Sí , quisiera saber hay un tren que salga de $C_ORIGEN<Bilbao> (U:Pregunta:Precio:Origen) pal: 1 - 11
+a $C_DESTINO<Teruel> (U:Pregunta:Precio:Destino) pal: 12 - 13
+el próximo $FECHA<viernes> (U:Pregunta:Precio:Dia) pal: 14 - 16
+un tren $T_TREN<regional> . (U:Pregunta:Precio:Tipo_tren) pal: 17 - 20
+
+
+M9: Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> en tipo tren $T_TREN<regional> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> en tipo tren $T_TREN<regional> . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M10: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U6: Sí , bueno quisiera saber si un tren $T_TREN<Ave> .
+Sí , bueno quisiera saber si un tren $T_TREN<Ave> . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 10
+
+
+M11: ¿ Desea hacer el viaje en un $T_TREN<ave> ? .
+¿ Desea hacer el viaje en un $T_TREN<ave> ? . (M:Confirmacion:Tipo_tren:Tipo_tren) pal: 1 - 10
+
+
+U7: Sí .
+Sí . (U:Afirmacion:Tipo_tren:Nil) pal: 1 - 2
+
+
+M12: Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> en tipo tren $T_TREN<ave> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> en tipo tren $T_TREN<ave> . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+
+
+M13: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+U8: Sí , quisiera saber si algún tren de cualquier tipo puede hacer este viaje el próximo $FECHA<viernes> a $C_DESTINO<Teruel> .
+Sí , quisiera saber si algún tren de cualquier tipo puede hacer este viaje (U:Pregunta:Precio:Tipo_tren) pal: 1 - 14
+el próximo $FECHA<viernes> (U:Pregunta:Precio:Dia) pal: 15 - 17
+a $C_DESTINO<Teruel> . (U:Pregunta:Precio:Destino) pal: 18 - 20
+
+
+M14: Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> . Un momento por favor .
+Le consulto precios de $C_ORIGEN<bilbao> a $C_DESTINO<teruel> . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+
+M15: Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase $CLASE<turista> , el tren $PRECIO<más caro> es un $T_TREN<talgo> que cuesta $PRECIO<44 euros> la ida y el $PRECIO<más barato> es un $T_TREN<diurno> que cuesta $PRECIO<32 con 50 euros> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+
+U9: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

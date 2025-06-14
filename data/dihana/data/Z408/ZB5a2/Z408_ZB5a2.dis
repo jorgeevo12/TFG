@@ -1,0 +1,29 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fb) Quiero un tren (rs (m (lm cuyo cu)) (c de)) origen Madrid destino Alicante .
+M2: ¿ Quiere saber horarios ?
+U2: (nw) Sí , par(a a) aproximadamente alrededor del uno de agosto .
+M3: ¿ Quiere viajar a Madrid ?
+U3: No , (rr (m (a a)) (c a)) Alicante .
+M4: Quiere horarios de trenes a Alicante ¿ desde Zaragoza ?
+U4: (fe) No , desde Madrid (na) .
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: Madrid .
+M6: Le consulto horarios de trenes con salida en Madrid destino Alicante saliendo el lunes , día 9 de agosto de 2004 . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 7 y 10 de la mañana y el último a las 7 y 45 de la tarde ¿ Desea algo más ?
+U6: (na) El horario del tren (fa) Madrid a Alicante (p) (df pero) el uno de agosto .
+M8: Le consulto horarios de trenes con salida en Madrid destino Alicante saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 9 y 5 de la mañana y el último a las 7 y 45 de la tarde ¿ Desea algo más ?
+U7: ¿ Qué tip(a o) de tren es el de las siete y cuarto ?
+M10: Lo siento . No he entendido bien ¿ puede repetir ?
+U8: (na) Tipo de tren (p) del primer tren .
+M11: Ese tren es un Altaria ¿ Desea algo más ?
+U9: (nw) ¿ Qué precio tiene (na) (p) la clase económica ?
+M12: Los trenes son Altaria y en clase turista , el billete cuesta 35 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: (na) ¿ Qué tipo de tren es el segundo ?
+M13: Lo siento . No he entendido bien ¿ puede repetir ?
+U11: (na) Tipo de tren del segundo tren .
+M14: Ese tren es un Altaria ¿ Desea algo más ?
+U12: (na) ¿ Hay otro tipo de trenes ? (na) .
+M15: Hay un único tipo de tren , que es un Altaria ¿ Desea algo más ?
+U13: (fm) (df Entonces) no , (dc gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

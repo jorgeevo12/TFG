@@ -1,0 +1,59 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenos días , quería ir este fin de semana a Málaga y quería salir el viernes .
+Hola buenos días , quería ir este fin de semana (U:Pregunta:Nil:Dia) pal: 1 - 10
+a Málaga (U:Pregunta:Nil:Destino) pal: 11 - 12
+y quería salir el viernes . (U:Pregunta:Nil:Dia) pal: 13 - 18
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+U2: Sí , horarios .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+horarios . (U:Pregunta:Hora_salida:Nil) pal: 3 - 4
+
+
+M3: Horarios para llegar a málaga , ¿ saliendo de barcelona ? .
+Horarios para llegar a málaga , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 6
+¿ saliendo de barcelona ? . (M:Confirmacion:Origen:Origen) pal: 7 - 12
+
+
+U3: No , saliendo de Bilbao .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+saliendo de Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 3 - 6
+
+
+M4: Le consulto horarios de trenes con salida en bilbao destino málaga saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino málaga saliendo el viernes , día 20 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+U4: Sí , que llegue antes de las once de la noche .
+Sí , que llegue antes de las once de la noche . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 12
+
+
+M6: Le consulto horarios de bilbao a málaga llegando el viernes , día 20 de febrero de 2004 entre las 0 y las 11 de la noche . Un momento por favor .
+Le consulto horarios de bilbao a málaga llegando el viernes , día 20 de febrero de 2004 entre las 0 y las 11 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 27
+Un momento por favor . (M:Espera:Nil:Nil) pal: 28 - 32
+
+
+M7: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+
+U5: Nada más , gracias .
+Nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

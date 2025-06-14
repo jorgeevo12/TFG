@@ -1,0 +1,64 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Por favor ¿ podría decirme los horarios de los trenes que van a Valencia desde Castellón , para los días dieciséis y diecisiete de marzo ? .
+Por favor ¿ podría decirme los horarios de los trenes que van a Valencia (U:Pregunta:Hora_salida:Destino) pal: 1 - 14
+desde Castellón , (U:Pregunta:Hora_salida:Origen) pal: 15 - 17
+para los días dieciséis y diecisiete de marzo ? . (U:Pregunta:Hora_salida:Dia) pal: 18 - 27
+
+M2: Le consulto horarios de trenes con salida en castellón destino valencia saliendo el miércoles , día 17 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en castellón destino valencia saliendo el miércoles , día 17 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El primero sale a las 6 y 45 de la madrugada y el último a las 11 y 30 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 45 de la madrugada y el último a las 11 y 30 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U2: Sí quería saber de esos horarios corresponde al euromed y un euromed que llegue de día a Valencia .
+Sí quería saber de esos horarios corresponde al euromed y un euromed (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 12
+que llegue de día (U:Pregunta:Hora_salida:Hora_llegada) pal: 13 - 16
+a Valencia . (U:Pregunta:Hora_salida:Destino) pal: 17 - 19
+
+M4: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M5: Hay varios trenes . El primero sale a las 9 y 6 de la mañana y el último a las 10 y 37 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 9 y 6 de la mañana y el último a las 10 y 37 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:No_entendido:Nil:Nil) pal: 28 - 32
+
+U3: Sí , también quería saber los horarios de vuelta para el día veinte .
+Sí , también quería saber los horarios de vuelta (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+para el día veinte . (U:Pregunta:Hora_salida:Dia) pal: 10 - 14
+
+M6: Le consulto horarios de trenes con salida en valencia destino castellón saliendo el sábado , día 20 de diciembre de 2003 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino castellón saliendo el sábado , día 20 de diciembre de 2003 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El primero sale a las 6 y 40 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 40 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Sí , al igual que antes estaba interesado euromed y también de paso dígame cuál es el precio del billete .
+Sí , al igual que antes estaba interesado euromed y también de paso dígame cuál es el precio del billete . (U:Pregunta:Hora_salida,Precio:Tipo_tren) pal: 1 - 21
+
+M8: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M9: Hay varios trenes . El primero sale a las 6 y 40 de la madrugada y el último a las 8 y 5 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 6 y 40 de la madrugada y el último a las 8 y 5 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U5: Sí quería saber exactamente cuál es el precio billete del euromed .
+Sí quería saber exactamente cuál es el precio billete del euromed . (U:Pregunta:Precio:Tipo_tren) pal: 1 - 12
+
+M10: El primer tren es un euromed y su precio en turista es 14 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El primer tren es un euromed y su precio en turista es 14 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_relativo_orden,Precio,Tipo_tren) pal: 1 - 38
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 39 - 43
+
+U6: Nada más , muchas gracias .
+Nada más , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 6
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

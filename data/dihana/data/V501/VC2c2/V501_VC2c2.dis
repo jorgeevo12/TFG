@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quería saber los horarios y el precio de un viaje de ida y vuelta a Granada (nw) el próximo fin de semana .
+M2: Quiere horarios de trenes a Granada ¿ saliendo de Valencia ?
+U2: Sí (na) .
+M3: ¿ Desea salir el viernes , día 23 de abril de 2004 ?
+U3: Sí .
+M4: Le consulto horarios de trenes con salida en Valencia destino Granada saliendo el viernes , día 23 de abril de 2004 . Un momento por favor .
+M5: Sólo hay dos trenes . El primero sale a las 0 y 27 de la noche y el otro a las 11 y 30 de la mañana ¿ Desea algo más ?
+U4: (nl) Que la vuelta sea el domingo por la noche .
+M6: Le consulto horarios de Granada a Valencia el domingo , día 25 de abril de 2004 entre las 9 de la noche y las 5 de la madrugada . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (nl) Sí , que la vuelta sea el día siguiente (nw) .
+M8: Le consulto horarios de trenes con salida en Granada destino Valencia saliendo el lunes , día 26 de abril de 2004 . Un momento por favor .
+M9: El único tren que realiza el trayecto es un García_Lorca que sale a las 8 y 30 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U6: Sí , que sea en litera .
+M10: Le consulto horarios de trenes con salida en Granada destino Valencia saliendo el lunes , día 26 de abril de 2004 en clase litera . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (nl) Que sea al día siguiente .
+M12: Le consulto horarios de trenes con salida en Granada destino Valencia saliendo el lunes , día 26 de abril de 2004 . Un momento por favor .
+M13: El único tren que realiza el trayecto es un García_Lorca que sale a las 8 y 30 de la mañana y llega a las 4 y 40 de la tarde ¿ Desea algo más ?
+U8: (nl) Saber el precio del tren que sale (p) a las cero veintisiete .
+M14: Le consulto precios . Un momento por favor .
+M15: Le consulto precios . Un momento por favor .
+M16: El único tren que realiza el trayecto es un García_Lorca y su precio en clase turista es 39 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Que el billete sea de ida y vuelta .
+M17: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: Que el billete sea de ida y vuelta .
+M18: El precio de ese tren en clase turista es 39 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No (na) .
+M19: Gracias por utilizar este servicio . Feliz viaje .

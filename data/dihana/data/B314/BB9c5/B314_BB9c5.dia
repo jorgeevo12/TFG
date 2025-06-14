@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: me gustaría obtener el precio del viaje de ida de Segovia a Badajoz saliendo por la mañana al mediodía en un intercity , si es posible .
+me gustaría obtener el precio del viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 9
+de Segovia (U:Pregunta:Precio:Origen) pal: 10 - 11
+a Badajoz (U:Pregunta:Precio:Destino) pal: 12 - 13
+saliendo por la mañana al mediodía (U:Pregunta:Precio:Hora_salida) pal: 14 - 19
+en un intercity , si es posible . (U:Pregunta:Precio:Tipo_tren) pal: 20 - 27
+
+M2: ¿ Quiere salir desde barcelona ? .
+¿ Quiere salir desde barcelona ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+U2: No , quiero salir desde Segovia a Badajoz .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero salir desde Segovia (U:Respuesta:Hora_salida:Origen) pal: 3 - 6
+a Badajoz . (U:Respuesta:Hora_salida:Destino) pal: 7 - 9
+
+M3: Quiere saber el precio a badajoz , ¿ desde segovia ? .
+Quiere saber el precio a badajoz , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde segovia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Si .
+Si . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: El día catorce de marzo .
+El día catorce de marzo . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+M5: ¿ Desea salir el domingo , día 14 de marzo de 2004 ? .
+¿ Desea salir el domingo , día 14 de marzo de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M6: ¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? .
+¿ Quiere salir entre las 5 de la madrugada y la una de la tarde ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+
+U6: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+
+M7: Le consulto precios de segovia a badajoz saliendo el domingo , día 14 de marzo de 2004 . Un momento por favor .
+Le consulto precios de segovia a badajoz saliendo el domingo , día 14 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+M8: Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Hay varios trenes . En clase turista , el tren más caro es un talgo que cuesta 44 euros la ida y el más barato es un intercity que cuesta 40 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 52
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 53 - 57
+
+U7: No , nada más , gracias .
+No , nada más , gracias . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

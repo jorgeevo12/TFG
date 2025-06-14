@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber los precios de los trenes con salida en Madrid y destino Santander (rr (m el) (s (nl)) (c el)) día treinta de mayo en un Talgo , si es posible .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Santander (na) .
+M3: ¿ Qué día desea salir ?
+U3: El treinta de mayo .
+M4: Le consulto precios de Madrid a Santander saliendo el domingo , día 30 de mayo de 2004 . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: ¿ Tampoco h(a a)y un Talgo ? (na) .
+M6: Le consulto precios de Madrid a Santander en tipo tren Talgo . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: (fe) Utilizar cualquier tipo de tren .
+M8: Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

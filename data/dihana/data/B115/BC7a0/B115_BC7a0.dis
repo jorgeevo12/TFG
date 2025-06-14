@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero ir (p) a Valencia (p) (nw) (fe) el próximo martes .
+M2: ¿ Quiere saber horarios ?
+U2: No (p) , (fe) los precios .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Valencia .
+M4: Quiere saber el precio a Valencia ¿ desde Bilbao ?
+U4: Sí .
+M5: Le consulto precios de Bilbao a Valencia saliendo el martes , día 24 de febrero de 2004 . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: En vez de Valencia (p) quiero ir a Ávila .
+M7: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: Quiero ir a Ávila .
+M8: Le consulto precios de Bilbao a ávila . Un momento por favor .
+M9: Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: Quiero ir a Madrid .
+M11: Quiere saber el precio a Madrid ¿ desde Bilbao ?
+U8: Sí .
+M12: Le consulto precios de Bilbao a Madrid saliendo el martes , día 24 de febrero de 2004 . Un momento por favor .
+M13: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: Quiero (p) (fe) , sí , quier(a o) .
+M14: ¿ Puede repetir su consulta ?
+U10: Quiero ir de Madrid a Bilbao (p) (fb) el mismo día .
+M15: ¿ Quiere saber horarios ?
+U11: No , el precio .
+M16: Le consulto precios de Madrid a Bilbao . Un momento por favor .
+M17: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U12: No , (dc gracias) .
+M18: Gracias por utilizar este servicio . Feliz viaje .

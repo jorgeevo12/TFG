@@ -1,0 +1,47 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería saber el horario de trenes para Madrid para salir el próximo viernes .
+Quería saber el horario de trenes para Madrid (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+para salir el próximo viernes . (U:Pregunta:Hora_salida:Dia) pal: 9 - 14
+
+M2: Quiere horarios de trenes a madrid , ¿ desde zaragoza ? .
+Quiere horarios de trenes a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U2: Sí , y además los horarios de los trenes que salen el viernes antes de las cinco .
+Sí , (U:Afirmacion:Origen:Nil) pal: 1 - 2
+y además los horarios de los trenes que salen el viernes (U:Pregunta:Hora_salida:Dia) pal: 3 - 13
+antes de las cinco . (U:Pregunta:Hora_salida:Hora_salida) pal: 14 - 18
+
+M3: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M4: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 4 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 4 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U3: Sí , me gustaría saber cuál de esos trenes es un tren rápido .
+Sí , me gustaría saber cuál de esos trenes es un tren rápido . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 14
+
+M5: Hay varios trenes . El más rápido sale a las 12 y 10 de la mañana y el más lento a las 3 y 36 de la madrugada . Desea algo más ? .
+Hay varios trenes . El más rápido sale a las 12 y 10 de la mañana y el más lento a las 3 y 36 de la madrugada . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 29
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 30 - 34
+
+U4: Sí , me gustaría saber cuál de esos trenes llega antes de las cinco de la tarde a Madrid .
+Sí , me gustaría saber cuál de esos trenes llega antes de las cinco de la tarde (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 17
+a Madrid . (U:Pregunta:Hora_salida:Destino) pal: 18 - 20
+
+M6: Un momento por favor .
+Un momento por favor . (M:Espera:Nil:Nil) pal: 1 - 5
+
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y llega a las 7 de la mañana y el último sale a las 12 y 10 de la mañana y llega a las 3 y 1 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y llega a las 7 de la mañana y el último sale a las 12 y 10 de la mañana y llega a las 3 y 1 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 46
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 47 - 51
+
+U5: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber el precio (p) del billete de tren de un viaje de ida desde Barcelona (p) a Valencia el día uno o dos de agosto (p) en un Talgo .
+M2: Le consulto precios de Barcelona a Valencia saliendo el domingo , día 1 de agosto de 2004 . Un momento por favor .
+M3: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 30 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U2: Querría saber si el día dos de agosto hay algún otro Talgo .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: El precio de algún Talgo para el día dos de agosto .
+M5: Le consulto precios de Barcelona a Valencia saliendo el lunes , día 2 de agosto de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 30 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , (dc muchas gracias) .
+M7: Gracias por utilizar este servicio . Feliz viaje .

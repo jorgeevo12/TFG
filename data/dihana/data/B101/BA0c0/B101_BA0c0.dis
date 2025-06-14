@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (fe) (do hola) (df mira) qu(a e) quería ir (fe) a Málaga desde aquí desde Bilbao y (lm quería quiria) saber los horarios de los trenes .
+M2: ¿ Quiere viajar a Madrid ?
+U2: (fe) No .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Málaga .
+M4: ¿ Qué día desea salir ?
+U4: ¿ (a E)l sábado por la tarde ?
+M5: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: El sábado por la tarde .
+M6: Le consulto horarios de Bilbao a Málaga el sábado , día 14 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U6: (fe) ¿ Me podría decir la duración del trayecto aproximado , más o menos ?
+M8: El único tren que realiza el trayecto tarda 6 horas y 50 minutos y es un Talgo ¿ Desea algo más ?
+U7: (fe) No (dc muchas (lu gracias gracia)) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

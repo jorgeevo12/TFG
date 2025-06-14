@@ -1,0 +1,99 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Hola buenos días , me gustaría saber precios para viajar a Vigo .
+Hola buenos días , me gustaría saber precios para viajar a Vigo . (U:Pregunta:Precio:Destino) pal: 1 - 13
+
+
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+U2: Me gustaría salir el día veintiocho de febrero .
+Me gustaría salir el día veintiocho de febrero . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+
+
+M3: Quiere saber el precio a vigo , ¿ desde zaragoza ? .
+Quiere saber el precio a vigo , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+U3: Sí , claro .
+Sí , claro . (U:Afirmacion:Origen:Nil) pal: 1 - 4
+
+
+
+M4: Le consulto precios de zaragoza a vigo saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a vigo saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+M5: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Precio:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U4: Sí , por favor .
+Sí , por favor . (U:Indefinida:Nil:Nil) pal: 1 - 5
+
+
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U5: Sí , me gustaría cambiar la fecha .
+Sí , me gustaría cambiar la fecha . (U:Pregunta:Precio:Dia) pal: 1 - 8
+
+
+
+M7: ¿ Desea salir el jueves , día 26 de febrero de 2004 ? .
+¿ Desea salir el jueves , día 26 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U6: No , mejor el lunes uno de marzo .
+No , (U:Negacion:Dia:Nil) pal: 1 - 2
+mejor el lunes uno de marzo . (U:Respuesta:Precio:Dia) pal: 3 - 9
+
+
+
+M8: Le consulto precios de zaragoza a vigo saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a vigo saliendo el lunes , día 1 de marzo de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+
+
+
+M9: Sólo hay dos trenes . En clase turista , el tren más caro es un covadonga que cuesta 40 euros la ida y el otro es un galicia que cuesta 35 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Sólo hay dos trenes . En clase turista , el tren más caro es un covadonga que cuesta 40 euros la ida y el otro es un galicia que cuesta 35 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 50
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 51 - 55
+
+
+
+U7: Sí , me gustaría saber la hora .
+Sí , me gustaría saber la hora . (U:Pregunta:Hora_salida:Nil) pal: 1 - 8
+
+
+
+M10: Sólo hay dos trenes . El primero sale a las 11 y 11 de la mañana y llega a las 10 y 50 de la noche y el otro sale a las 11 y 10 de la noche y llega a las 11 y 5 de la mañana . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 11 y 11 de la mañana y llega a las 10 y 50 de la noche y el otro sale a las 11 y 10 de la noche y llega a las 11 y 5 de la mañana . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 49
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 50 - 54
+
+
+
+U8: No , gracias eso era todo .
+No , gracias eso era todo . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

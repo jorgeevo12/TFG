@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quiero saber el horario de (fe) los trenes (nw que salen hacia) Alicante .
+M2: ¿ Qué día desea salir ?
+U2: (nw) Quiero salir el próximo fin de semana .
+M3: ¿ Desea salir el viernes , día 30 de abril de 2004 ?
+U3: Sí (nw) .
+M4: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el viernes , día 30 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y llega a las 9 de la mañana y el último sale a las 9 de la noche y llega a las 10 y 35 de la noche ¿ Desea algo más ?
+U4: (nl) Sí , me gustaría viajar (rr (m (lm en (a a)n)) (s (p)) (c en)) clase preferente .
+M6: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el viernes , día 30 de abril de 2004 en clase preferente . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 10 de la mañana y llega a las 11 y 35 de la mañana y el último sale a las 9 de la noche y llega a las 10 y 35 de la noche ¿ Desea algo más ?
+U5: Sí , me gustaría (rr (m ir) (s (fe)) (c ir)) en un tren rápido y cómodo .
+M8: Le consulto horarios . Un momento por favor .
+M9: Hay varios trenes . El más rápido sale a las 10 de la mañana y llega a las 11 y 35 de la mañana y el más lento sale a las 3 y 20 de la tarde y llega a las 5 y 24 de la tarde ¿ Desea algo más ?
+U6: (na) (nw) Sí , me gustaría saber el preci(a o) del que sale a las diez de la mañana .
+M10: El precio de ese tren en clase preferente es 34 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: (nl) No , (dc muchas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

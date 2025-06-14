@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería un billete (p) de ida .
+M2: ¿ Quiere saber horarios ?
+U2: Sí , (dq por favor) .
+M3: ¿ A qué ciudad desea viajar ?
+U3: A Santander .
+M4: Lo siento . No he entendido bien ¿ puede repetir ?
+U4: (na) A Santander .
+M5: ¿ Qué día desea salir ?
+U5: El viernes , a ser (nw posible) .
+M6: Quiere horarios de trenes a Santander ¿ desde Bilbao ?
+U6: (nl) Sí , (dq por favor) y conocer el tipo de tren .
+M7: Le consulto horarios de trenes con salida en Bilbao destino Santander saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M8: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche ¿ Desea algo más ?
+U7: Sí , me gustaría que el tren saliera por la tarde .
+M9: Le consulto horarios de Bilbao a Santander el viernes , día 19 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M10: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U8: No , está bien ese tren , (nw) (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

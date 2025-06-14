@@ -1,0 +1,61 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería saber si hay algún tren que vaya a $C_DESTINO<Madrid> el día $FECHA<veinticuatro de diciembre> .
+Quería saber si hay algún tren que vaya a $C_DESTINO<Madrid> (U:Pregunta:Nil:Destino) pal: 1 - 10
+el día $FECHA<veinticuatro de diciembre> . (U:Pregunta:Nil:Dia) pal: 11 - 16
+
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+U2: A $C_DESTINO<Madrid> .
+A $C_DESTINO<Madrid> . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: ¿ Me podría decir los horarios de trenes que vayan a $C_DESTINO<Madrid> el día $FECHA<veinticuatro de diciembre> $HORA<por la tarde> ?
+¿ Me podría decir los horarios de trenes que vayan a $C_DESTINO<Madrid> (U:Pregunta:Hora_salida:Destino) pal: 1 - 12
+el día $FECHA<veinticuatro de diciembre> (U:Pregunta:Hora_salida:Dia) pal: 13 - 17
+$HORA<por la tarde> ? (U:Pregunta:Hora_salida:Hora_salida) pal: 18 - 21
+
+M4: Le consulto horarios de trenes con salida en $C_ORIGEN<bilbao> destino $C_DESTINO<madrid> saliendo el $FECHA<miércoles , día 24 de diciembre de 2003> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<bilbao> destino $C_DESTINO<madrid> saliendo el $FECHA<miércoles , día 24 de diciembre de 2003> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<4 y 30 de la tarde> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<4 y 30 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U4: Sí , saber el precio .
+Sí , saber el precio . (U:Pregunta:Precio:Nil) pal: 1 - 6
+
+M6: El precio de ese tren en $CLASE<turista> es $PRECIO<29 con 50 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en $CLASE<turista> es $PRECIO<29 con 50 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U5: Sí , ¿ me puede decir el horario de los trenes que salen de $C_ORIGEN<Madrid> a $C_DESTINO<Bilbao> el día $FECHA<veintiséis> ? .
+Sí , ¿ me puede decir el horario de los trenes que salen de $C_ORIGEN<Madrid> (U:Pregunta:Hora_salida:Origen) pal: 1 - 15
+a $C_DESTINO<Bilbao> (U:Pregunta:Hora_salida:Destino) pal: 16 - 17
+el día $FECHA<veintiséis> ? . (U:Pregunta:Hora_salida:Dia) pal: 18 - 22
+
+M7: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M8: El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<3 y 35 de la tarde> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<talgo> que sale a las $HSAL<3 y 35 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U6: Sí , ¿ me podría decir el precio ? .
+Sí , ¿ me podría decir el precio ? . (U:Pregunta:Precio:Nil) pal: 1 - 10
+
+M9: El precio de ese tren en $CLASE<turista> es $PRECIO<29 con 50 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en $CLASE<turista> es $PRECIO<29 con 50 euros> el billete de $TVIAJE<ida> . Recuerde que el billete de $TVIAJE<ida y vuelta> siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+
+U7: No , nada más .
+No , nada más . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

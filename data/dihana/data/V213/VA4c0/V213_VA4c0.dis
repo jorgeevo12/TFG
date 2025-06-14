@@ -1,0 +1,11 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenos días) (fe) me gustaría obtener el horario (rs (m para (lu visitar visi)) (c para ir)) de Valencia a Alicante el próximo sábado .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Me gustaría viajar a Alicante .
+M3: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el sábado , día 27 de marzo de 2004 . Un momento por favor .
+M4: Hay varios trenes . El primero sale a las 7 y 4 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U3: Sí , me gustarí(a a) que par(a a) llegar a Alicante (rs (m a (lu las la)) (c antes)) de las siete de la tarde y si es posible viajar en clase preferente .
+M5: Le consulto horarios . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 7 y 55 de la mañana y llega a las 10 y 25 de la mañana y el último sale a las 3 y 20 de la tarde y llega a las 5 y 24 de la tarde ¿ Desea algo más ?
+U4: No , (dc (lu muchas mucha) gracias) , ya está todo .
+M7: Gracias por utilizar este servicio . Feliz viaje .

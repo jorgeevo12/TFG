@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera saber cuál es el horario (p) para ir (p) (a a) Alicante (b desd(a e))(p) el próximo sábado (p) en Talgo .
+M2: Quiere horarios de trenes a Alicante ¿ desde Bilbao ?
+U2: Sí .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Alicante saliendo el sábado , día 28 de febrero de 2004 en Talgo . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Talgo que sale a las 9 y 50 de la mañana ¿ Desea algo más ?
+U3: Sí .
+M5: Si ¿ Desea algo más ?
+U4: (fm) También me gustaría saber los precios (p) (rs (m d(a e) los (lu trenes tren)) (c de un Talgo)) de Bilbao a Alicante para el(rr (m (lu próximo pró)) (c próximo)) sábado y horario también .
+M6: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 46 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

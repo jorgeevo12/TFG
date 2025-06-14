@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Me gustaría el precio de un tren (rs (m a (lu Jaén Ja)) (c de Jaén)) a Huelva .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Me gustaría el precio de un tren de Jaén a Huelva .
+M3: ¿ Qué día desea salir ?
+U3: (b (a E)l) mañana .
+M4: Le consulto precios de Jaén a Huelva saliendo el martes , día 4 de mayo de 2004 . Un momento por favor .
+M5: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 44 euros la ida y el más barato es un Diurno que cuesta 32 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , (dc gracias) (na) (nw) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

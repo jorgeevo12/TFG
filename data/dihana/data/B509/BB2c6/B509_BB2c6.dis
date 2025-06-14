@@ -1,0 +1,14 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quería obtener e(a l) horario y el precio de un viaje de tren .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: A (lm Madrid Madriz) .
+M4: ¿ Qué día desea salir ?
+U4: El veintiocho de febrero .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el lunes , día 28 de febrero de 2005 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U5: Querría saber también el precio .
+M7: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: No .
+M8: Gracias por utilizar este servicio . Feliz viaje .

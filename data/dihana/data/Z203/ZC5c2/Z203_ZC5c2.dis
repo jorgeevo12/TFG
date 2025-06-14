@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) Quiero los horarios (p) de trenes par(a a) viajar a Valencia desde Alicante para el día (lm uno no) de septiembre en un Euromed .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Valencia .
+M3: ¿ Qué día desea salir ?
+U3: El día nueve de septiembre , en un Euromed .
+M4: ¿ Desea hacer el viaje en un Euromed ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Alicante destino Valencia saliendo el jueves , día 9 de septiembre de 2004 . Un momento por favor .
+M6: Hay varios trenes . El primero sale a las 6 y 55 de la mañana y el último a las 6 y 25 de la tarde ¿ Desea algo más ?
+U5: Sí , me gustaría saber cuál es el precio .
+M7: Los trenes son Euromed y en clase turista , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , también quiero el billete de vuelta para el día doce (p) de septiembre .
+M8: ¿ Quiere saber horarios ?
+U7: Sí , el horario y el precio (dq por (lm favor favó)) .
+M9: ¿ Desea hacer el viaje en un Euromed ?
+U8: Sí .
+M10: Le consulto horarios de trenes con salida en Valencia destino Alicante saliendo el domingo , día 12 de septiembre de 2004 . Un momento por favor .
+M11: Hay varios trenes . El primero sale a las 12 de la mañana y el último a las 9 de la noche ¿ Desea algo más ?
+U9: Sí ¿ cuál es el precio ?
+M12: Los trenes son Euromed y en clase turista , el billete cuesta 22 con 50 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U10: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

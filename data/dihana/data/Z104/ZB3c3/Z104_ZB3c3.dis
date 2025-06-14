@@ -1,0 +1,16 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Buenas tardes) , me gustarí(a a) (p) obtener (p) horario .
+M2: Lo siento . No he entendido bien ¿ puede repetir ?
+U2: Sí , me gustaría obtener horario (p) para ir (a a) Santander .
+M3: ¿ Qué día desea salir ?
+U3: (df Pues) el seis de abril .
+M4: Perdón . No consigo entenderle .
+U4: (df Pues) me gustaría salir el seis de abril (p) y llega(a r) (p) esa misma noche .
+M5: Quiere horarios de trenes a Santander ¿ desde Zaragoza ?
+U5: (df Pues) sí .
+M6: Le consulto horarios de trenes con salida en Zaragoza destino Santander saliendo el martes , día 6 de abril de 2004 . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde y llega a las 10 y 20 de la noche ¿ Desea algo más ?
+U6: Sí , me gustarí(a a) saber el precio .
+M8: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , (dc gracias) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

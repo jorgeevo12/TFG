@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días , querría saber el horario tren Madrid a Barcelona el próximo miércoles .
+Hola buenos días , querría saber el horario tren Madrid (U:Pregunta:Hora_salida:Origen) pal: 1 - 10
+a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 11 - 12
+el próximo miércoles . (U:Pregunta:Hora_salida:Dia) pal: 13 - 16
+
+M2: ¿ Quiere viajar a zaragoza ? .
+¿ Quiere viajar a zaragoza ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U2: No de Madrid a Barcelona .
+No (U:Negacion:Destino:Nil) pal: 1 - 1
+de Madrid (U:Respuesta:Hora_salida:Origen) pal: 2 - 3
+a Barcelona . (U:Respuesta:Hora_salida:Destino) pal: 4 - 6
+
+M3: ¿ Quiere llegar a barcelona ? .
+¿ Quiere llegar a barcelona ? . (M:Confirmacion:Destino:Destino) pal: 1 - 7
+
+U3: Sí .
+Sí . (U:Afirmacion:Destino:Nil) pal: 1 - 2
+
+M4: Le consulto horarios de trenes con salida en madrid destino barcelona saliendo el miércoles , día 31 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en madrid destino barcelona saliendo el miércoles , día 31 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 3 y 45 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 de la mañana y el último a las 3 y 45 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

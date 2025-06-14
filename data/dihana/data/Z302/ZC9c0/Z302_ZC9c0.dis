@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber los precios de los trenes con salida en Huelva (p) (fe) mañana por la tarde (na) .
+M2: ¿ A qué ciudad desea viajar ?
+U2: A Madrid .
+M3: ¿ Qué día desea salir ?
+U3: Mañana por la tarde (na) .
+M4: Quiere saber el precio a Madrid ¿ desde Zaragoza ?
+U4: No , quiero saberlo desde Huelva (na) .
+M5: Le consulto precios de Huelva a Madrid saliendo el jueves , día 6 de mayo de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Altaria y su precio en clase turista es 54 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: Sí , obtener el precio (p) d(a e) el viaje de vuelta para volver por la noche (na) .
+M7: Le consulto precios de Madrid a Huelva saliendo el jueves , día 6 de mayo de 2004 . Un momento por favor .
+M8: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: No , (dc gracias) (na) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

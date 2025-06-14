@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querría saber el horario y precio del viaje desde Bilbao (nw) a Vitoria .
+M2: ¿ Qué día desea salir ?
+U2: El veinte de marzo , (rs (m sobre) (c de)) doce a una (p) del mediodía .
+M3: ¿ Quiere salir entre las 12 de la mañana y la una de la tarde ?
+U3: Sí .
+M4: ¿ Qué día desea salir ?
+U4: Veinte de marzo .
+M5: ¿ Desea salir el domingo , día 20 de marzo de 2005 ?
+U5: Sí .
+M6: Le consulto horarios de Bilbao a Vitoria el domingo , día 20 de marzo de 2005 entre las 12 de la mañana y la una de la tarde . Un momento por favor .
+M7: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U6: Querría sali(a r) (p) el día veintitrés de marzo .
+M8: ¿ Desea salir el martes , día 23 de marzo de 2004 ?
+U7: Sí .
+M9: Le consulto horarios de Bilbao a Vitoria el martes , día 23 de marzo de 2004 entre las 12 de la mañana y la una de la tarde . Un momento por favor .
+M10: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: (fb) Desd(a e) las doce de la mañana (p) (a a) las cuatro de la tarde .
+M11: ¿ Quiere salir entre las 12 de la mañana y las 4 de la tarde ?
+U9: Sí .
+M12: Le consulto horarios de Bilbao a Vitoria el martes , día 23 de marzo de 2004 entre las 12 de la mañana y las 4 de la tarde . Un momento por favor .
+M13: El único tren que realiza el trayecto es un Talgo que sale a las 3 y 30 de la tarde ¿ Desea algo más ?
+U10: Querría saber el precio .
+M14: El único tren que realiza el trayecto es un Talgo y su precio en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U11: No .
+M15: Gracias por utilizar este servicio . Feliz viaje .

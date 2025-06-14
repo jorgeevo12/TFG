@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (lm Sí chí) (p) , quisiera horarios par(a a) el próximo sábado a Castellón .
+M2: Le consulto horarios de trenes con salida en Valencia destino Castellón saliendo el sábado , día 7 de febrero de 2004 . Un momento por favor .
+M3: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 9 y 35 de la noche ¿ Desea algo más ?
+U2: (df Pues) sí , me gustaría llegar antes de las dos y además que fuese barato .
+M4: Le consulto horarios . Un momento por favor .
+M5: Hay varios trenes . El primero llega a las 6 y 37 de la mañana y el último a la una y 50 de la tarde ¿ Desea algo más ?
+U3: Quisiera llegar antes de las dos .
+M6: Le consulto horarios . Un momento por favor .
+M7: Hay varios trenes . El primero llega a las 6 y 37 de la mañana y el último a la una y 50 de la tarde ¿ Desea algo más ?
+U4: (fe) ¿ Cuánto cuesta ?
+M8: Le consulto precios . Un momento por favor .
+M9: Hay varios trenes . En clase turista , el tren más caro es un Euromed que cuesta 14 con 50 euros la ida y el más barato es un Tren_Hotel que cuesta 12 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U5: No , (dc gracias) .
+M10: Gracias por utilizar este servicio . Feliz viaje .

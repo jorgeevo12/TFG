@@ -1,0 +1,122 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Hola , me gustaría saber los horarios y los precios para ir a Valencia .
+Hola , me gustaría saber los horarios y los precios para ir a Valencia . (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 15
+
+
+
+M2: ¿ Quiere salir desde valencia ? .
+¿ Quiere salir desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+
+U2: No , quiero ir a Valencia desde Bilbao .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero ir a Valencia (U:Respuesta:Hora_salida:Destino) pal: 3 - 6
+desde Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 7 - 9
+
+
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+
+U3: A finales de este mes .
+A finales de este mes . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+
+
+U4: A finales de este mes .
+A finales de este mes . (U:Respuesta:Dia:Dia) pal: 1 - 6
+
+
+
+M5: ¿ Desea salir el domingo , día 29 de febrero de 2004 ? .
+¿ Desea salir el domingo , día 29 de febrero de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+
+U5: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+
+
+M6: Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el domingo , día 29 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el domingo , día 29 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M7: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U6: Sí , ¿ el viernes veintisiete hay alguno ? .
+Sí , ¿ el viernes veintisiete hay alguno ? . (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+
+
+
+M8: Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el viernes , día 27 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U7: Sí , mira a ver el uno de marzo .
+Sí , mira a ver el uno de marzo . (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+
+
+
+M10: Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el lunes , día 1 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino valencia saliendo el lunes , día 1 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M11: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U8: ¿ La semana que viene hay algún tren ? .
+¿ La semana que viene hay algún tren ? . (U:Pregunta:Hora_salida:Dia) pal: 1 - 10
+
+
+
+M12: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+
+
+M13: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+
+
+U9: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+
+
+M14: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

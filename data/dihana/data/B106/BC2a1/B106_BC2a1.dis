@@ -1,0 +1,18 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) quería saber el horario de trenes de ida y vuelt(a a) a Madrid para pasado mañana .
+M2: ¿ Quiere viajar a Madrid ?
+U2: Sí .
+M3: ¿ Desea salir el miércoles , día 18 de febrero de 2004 ?
+U3: Sí .
+M4: ¿ Quiere saber horarios ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el miércoles , día 18 de febrero de 2004 . Un momento por favor .
+M6: Sólo hay dos trenes . El primero sale a las 4 y 30 de la tarde y el otro a las 11 y 5 de la noche ¿ Desea algo más ?
+U5: (na) Sí , quería el horari(a o) d(a e) vuelta para el viernes .
+M7: Le consulto horarios de trenes con salida en Madrid destino Bilbao saliendo el viernes , día 20 de febrero de 2004 . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 3 y 35 de la tarde y el otro a las 10 y 45 de la noche ¿ Desea algo más ?
+U6: (na) Sí , quería saber el precio y el tipo de tren .
+M9: Le consulto precios de Madrid a Bilbao . Un momento por favor .
+M10: Sólo hay dos trenes . En clase turista , el tren más caro es un Talgo que cuesta 29 con 50 euros la ida y el otro es un costa_vasca que cuesta 26 con 25 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U7: No , nada más (dc gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

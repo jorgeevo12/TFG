@@ -1,0 +1,23 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola buenas) quisiera i(a r) (p) en tren hasta Madrid en viaje de ida (p) el próximo miércoles (p) el horario sería el martes por la tarde (p) (a y) (p) (rr (m si) (c si)) hubiera literas .
+M2: Su frase ha sido demasiado larga . Repita por favor su consulta utilizando frases más cortas .
+U2: A ver .
+M3: ¿ Quiere saber horarios ?
+U3: Sí , quiero obtener (rr (m el (lu horario horaro)) (c el horario)) y el tipo de tren .
+M4: ¿ A qué ciudad desea viajar ?
+U4: A (lm Madrid Madrí) .
+M5: ¿ Qué día desea salir ?
+U5: E(a l) martes por la tarde .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U6: El martes por la tarde .
+M7: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U7: Sí , desde Zaragoza .
+M8: Le consulto horarios de Zaragoza a Madrid el martes , día 9 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 9 de la noche ¿ Desea algo más ?
+U8: Sí , quisiera saber el tipo de tren .
+M10: Hay varios tipos de trenes . El tren más rápido es un Intercity y el más lento es un río_aragón ¿ Desea algo más ?
+U9: Quisiera dormir en el tren si hubiera literas .
+M11: Un momento por favor .
+M12: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U10: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

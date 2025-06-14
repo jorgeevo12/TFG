@@ -1,0 +1,96 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quería saber el horario de un viaje de ida desde Bilbao hasta Alicante .
+Quería saber el horario de un viaje de ida (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 9
+desde Bilbao (U:Pregunta:Hora_salida:Origen) pal: 10 - 11
+hasta Alicante . (U:Pregunta:Hora_salida:Destino) pal: 12 - 14
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: Entre el veintiséis de marzo y el diecisiete de abril .
+Entre el veintiséis de marzo y el diecisiete de abril . (U:Respuesta:Dia:Dia) pal: 1 - 11
+
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: Me gustaría viajar de Bilbao a Alicante .
+Me gustaría viajar de Bilbao (U:Respuesta:Hora_salida:Origen) pal: 1 - 5
+a Alicante . (U:Respuesta:Hora_salida:Destino) pal: 6 - 8
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U4: Del cuatro de abril al diecisiete de abril .
+Del cuatro de abril al diecisiete de abril . (U:Respuesta:Dia:Dia) pal: 1 - 9
+
+M5: ¿ Desea salir el domingo , día 4 de abril de 2004 ? .
+¿ Desea salir el domingo , día 4 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U5: No , mejor el .
+No , mejor el . (U:Negacion:Dia:Nil) pal: 1 - 5
+
+M6: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U6: Sí , el día cinco , esto , el día cuatro .
+Sí , el día cinco , esto , el día cuatro . (U:Respuesta:Dia:Dia) pal: 1 - 12
+
+M7: ¿ Desea salir el lunes , día 5 de abril de 2004 ? .
+¿ Desea salir el lunes , día 5 de abril de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+U7: Sí .
+Sí . (U:Afirmacion:Dia:Nil) pal: 1 - 2
+
+M8: Le consulto horarios de trenes con salida en bilbao destino alicante saliendo el lunes , día 5 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino alicante saliendo el lunes , día 5 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M9: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+
+U8: Sí , de Bilbao a Santander .
+Sí , de Bilbao (U:Pregunta:Hora_salida:Origen) pal: 1 - 4
+a Santander . (U:Pregunta:Hora_salida:Destino) pal: 5 - 7
+
+M10: Le consulto horarios de trenes con salida en bilbao destino santander saliendo el lunes , día 5 de abril de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino santander saliendo el lunes , día 5 de abril de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M11: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U9: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+M12: Si . Desea algo más ? .
+Si . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+
+U10: Quiero un tren rápido .
+Quiero un tren rápido . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 5
+
+M13: El tren más rápido es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . Desea algo más ? .
+El tren más rápido es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Tipo_tren) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+U11: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+M14: Si . Desea algo más ? .
+Si . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+
+U12: El tren más cómodo .
+El tren más cómodo . (U:Pregunta:Hora_salida:Tipo_tren) pal: 1 - 5
+
+M15: El tren más rápido es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . Desea algo más ? .
+El tren más rápido es un intercity que sale a las 8 y 30 de la mañana y llega a las 3 y 1 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Tipo_tren) pal: 1 - 28
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 29 - 33
+
+U13: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+
+M16: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

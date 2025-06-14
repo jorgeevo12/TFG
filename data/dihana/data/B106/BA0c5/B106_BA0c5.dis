@@ -1,0 +1,8 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , (fe) quería saber (fe) si hay viajes para el próximo sábado (a a) Barcelona .
+M2: ¿ Qué día desea salir ?
+U2: El próximo sábado .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Barcelona saliendo el sábado , día 24 de enero de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un Miguel_de_Unamuno que llega a las 6 y 50 de la tarde ¿ Desea algo más ?
+U3: No , (dc gracias) .
+M5: Gracias por utilizar este servicio . Feliz viaje .

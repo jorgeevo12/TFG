@@ -1,0 +1,30 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola , quería saber a qué hora tengo tren para $C_DESTINO<Salamanca> este $FECHA<viernes> y qué tipo de tren sería .
+Hola , quería saber a qué hora tengo tren para $C_DESTINO<Salamanca> (U:Pregunta:Hora_salida,Tipo_tren:Destino) pal: 1 - 11
+este $FECHA<viernes> y qué tipo de tren sería . (U:Pregunta:Hora_salida,Tipo_tren:Dia) pal: 12 - 20
+M2: ¿ Quiere salir desde $C_ORIGEN<salamanca> ? .
+¿ Quiere salir desde $C_ORIGEN<salamanca> ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+U2: No , quiero llegar a $C_DESTINO<Salamanca> .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero llegar a $C_DESTINO<Salamanca> . (U:Respuesta:Hora_salida:Destino) pal: 3 - 7
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Quiero obtener el horario para ir a $C_DESTINO<Salamanca> el próximo $FECHA<viernes> .
+Quiero obtener el horario para ir a $C_DESTINO<Salamanca> (U:Pregunta:Hora_salida:Destino) pal: 1 - 8
+el próximo $FECHA<viernes> . (U:Pregunta:Hora_salida:Dia) pal: 9 - 12
+M4: Quiere horarios de trenes a $C_DESTINO<salamanca> , ¿ desde $C_ORIGEN<bilbao> ? .
+Quiere horarios de trenes a $C_DESTINO<salamanca> , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN<bilbao> ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M5: Le consulto horarios de trenes con salida en $C_ORIGEN<bilbao> destino $C_DESTINO<salamanca> saliendo el $FECHA<viernes , día 27 de febrero de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<bilbao> destino $C_DESTINO<salamanca> saliendo el $FECHA<viernes , día 27 de febrero de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: El único tren que realiza el trayecto es un $T_TREN<diurno> que sale a las $HSAL<2 y 5 de la tarde> . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN<diurno> que sale a las $HSAL<2 y 5 de la tarde> . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U5: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

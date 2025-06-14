@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) (do Hola) , me gustarí(a a) (p) saber el horario de un tren de Zaragoza a Madrid para el seis de marzo .
+M2: ¿ Qué día desea salir ?
+U2: (fe) El seis de marzo .
+M3: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U3: (fe) Sí , y si podría ser de Ave .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Madrid saliendo el domingo , día 6 de marzo de 2005 en Ave . Un momento por favor .
+M5: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U4: Sí , que no sea en Ave .
+M6: Le consulto horarios . Un momento por favor .
+M7: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche ¿ Desea algo más ?
+U5: (nw) No , (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

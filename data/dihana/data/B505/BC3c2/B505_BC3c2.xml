@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE
+	anotacion
+	SYSTEM
+	"http://www.ehu.es/~ljrf/resources/anotacion.dtd"
+>
+
+<anotacion
+	anotador="eti1+eti2"
+	fecha="23 September 2004 15:44:22"
+>
+
+<descripcion
+	base_de_datos="INFOTREN2"
+	lengua="español"
+	tipo_habla="espontánea"
+	registro="coloquial"
+	tipo_discurso="tarea"
+	frecuencia_kHz="8"
+	codificacion="lineal"
+	bits_muestra="16"
+	lugar="oficina"
+	canal="teléfono"
+	nivel_ruido="bajo"
+	fichero_audio=""
+/>
+
+<hablante id="sistema"/>
+
+<hablante
+id="usuario"
+nombre="B505"
+sexo="hombre"
+edad="adulto"
+/>
+
+<!-- Turno 1 sistema -->
+<turno id="M_001" hablante="sistema" fichero_audio_ss="">
+<t> Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ? </t>
+</turno>
+
+<!-- Turno 1 usuario -->
+<turno id="U_001" hablante="usuario" fichero_audio_ss="B505_BC3c2_T01u.ul">
+<t> <d tipo="abrir"> Buenos <l tipo="mal_pronunciada" palabra="días"> díes </l> </d> , <d tipo="rellenar"> mire </d> , necesito ir a Madrid a ver una exposición al museo Thyssen <p/> , además la exposición abre a las diez de la mañana <l tipo="mal_pronunciada" palabra="entonces"> etoes </l> me gustaría <f tipo="sin_identificar"/> ir este mismo sábado <p/> y me gustarí<a>a</a> ir a la mañana y volver a la noche . </t>
+</turno>
+
+<!-- Turno 2 sistema -->
+<turno id="M_002" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Quiere viajar a Madrid ? </t>
+</turno>
+
+<!-- Turno 2 usuario -->
+<turno id="U_002" hablante="usuario" fichero_audio_ss="B505_BC3c2_T02u.ul">
+<t> Sí , así es . </t>
+</turno>
+
+<!-- Turno 3 sistema -->
+<turno id="M_003" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid el sábado , día 3 de abril de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 4 sistema -->
+<turno id="M_004" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 9 y 50 de la mañana ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 3 usuario -->
+<turno id="U_003" hablante="usuario" fichero_audio_ss="B505_BC3c2_T03u.ul">
+<t> <f tipo="e"/> Quisiera saber a qué hora <p/> <f tipo="e"/> llega a Madrid <p/> y al mismo tiempo su precio . </t>
+</turno>
+
+<!-- Turno 5 sistema -->
+<turno id="M_005" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren sale a las 9 y 50 de la mañana y llega a las 4 y 53 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 4 usuario -->
+<turno id="U_004" hablante="usuario" fichero_audio_ss="B505_BC3c2_T04u.ul">
+<t> <f tipo="e"/> <r tipo="repetición"> <m> No me sirve </m> <c> no me sirve </c> </r> ese tren porqu<a>e</a> la exposición cierra <r tipo="repetición"> <m> a la una </m> <s> <p/> </s> <c> a la una </c> </r> <l tipo="mal_pronunciada" palabra="del"> d<a>e</a> </l> mediodía y <d tipo="rellenar"> entonces </d> , <d tipo="rellenar"> claro </d> , <d tipo="rellenar"> pues </d> <d tipo="rellenar"> <l tipo="mal_pronunciada" palabra="entonces"> entoes </l> </d> no puedo estar en la exposición ¿ No existe otro tren que llegue antes de las diez de la mañana o antes de las doce , <d tipo="editar"> vamos a decir </d> ? </t>
+</turno>
+
+<!-- Turno 6 sistema -->
+<turno id="M_006" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 10 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 7 sistema -->
+<turno id="M_007" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 5 usuario -->
+<turno id="U_005" hablante="usuario" fichero_audio_ss="B505_BC3c2_T05u.ul">
+<t> <f tipo="e"/> <d tipo="abrir"> Bueno </d> <d tipo="rellenar"> pues </d> <f tipo="e"/> aunque sea si puede ser que sin salir el sábado <r tipo="repetición"> <m> <r tipo="repetición"> <m> <l tipo="cortada" palabra="salga"> sal </l> </m> <c> <l tipo="cortada" palabra="salga"> sal </l> </c> </r> </m> <c> salga </c> </r> el viernes <p/> al atardecer y me dé la posibilidad de estar el sábado a la mañana <p/> en Madrid <d tipo="pedir"> por favor </d> . </t>
+</turno>
+
+<!-- Turno 8 sistema -->
+<turno id="M_008" hablante="sistema" fichero_audio_ss="">
+<t> ¿ Desea salir el viernes , día 2 de abril de 2004 ? </t>
+</turno>
+
+<!-- Turno 6 usuario -->
+<turno id="U_006" hablante="usuario" fichero_audio_ss="B505_BC3c2_T06u.ul">
+<t> <n fuente="hablante" tipo="labios"/> Sí , el viernes <a>a</a>l atardecer . </t>
+</turno>
+
+<!-- Turno 9 sistema -->
+<turno id="M_009" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de Bilbao a Madrid llegando el sábado , día 3 de abril de 2004 entre las 0 de la noche y las 10 de la mañana . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 10 sistema -->
+<turno id="M_010" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 7 usuario -->
+<turno id="U_007" hablante="usuario" fichero_audio_ss="B505_BC3c2_T07u.ul">
+<t> No entiendo ¿ Cómo no es posible que haya un tren que llegue <n fuente="hablante" tipo="aspiración"/> antes de las diez de la mañana a Madrid ? Eso es imposible <p/> , usted está totalmente confundida señorita , <f tipo="e"/> <d tipo="pedir"> por favor </d> <f tipo="e"/> , <n fuente="hablante" tipo="aspiración"/> <f tipo="e"/> mire las instrucciones como es debido . </t>
+</turno>
+
+<!-- Turno 11 sistema -->
+<turno id="M_011" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Bilbao destino Madrid saliendo el viernes , día 2 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 12 sistema -->
+<turno id="M_012" hablante="sistema" fichero_audio_ss="">
+<t> El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 8 usuario -->
+<turno id="U_008" hablante="usuario" fichero_audio_ss="B505_BC3c2_T08u.ul">
+<t> <n fuente="hablante" tipo="aspiración"/> Sí <f tipo="sin_identificar"/> dígame a qué hora llega a Madrid <p/> y cuánto cuesta el viaje . </t>
+</turno>
+
+<!-- Turno 13 sistema -->
+<turno id="M_013" hablante="sistema" fichero_audio_ss="">
+<t> Ese tren sale a las 4 y 30 de la tarde y llega a las 10 y 18 de la noche ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 9 usuario -->
+<turno id="U_009" hablante="usuario" fichero_audio_ss="B505_BC3c2_T09u.ul">
+<t> <f tipo="e"/> <b> Dígame <l tipo="mal_pronunciada" palabra="también"> tamien </l> </b> yo quería un viaje de ida y vuelta <d tipo="editar"> o sea </d> que el sábado a qué hora puede salir <n fuente="hablante" tipo="aspiración"/> de Madrid después de la una <p/> del mediodía y dígame cuál es el precio de la ida y vuelta . </t>
+</turno>
+
+<!-- Turno 14 sistema -->
+<turno id="M_014" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Madrid destino Bilbao saliendo el sábado , día 3 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 15 sistema -->
+<turno id="M_015" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 16 sistema -->
+<turno id="M_016" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 10 usuario -->
+<turno id="U_010" hablante="usuario" fichero_audio_ss="B505_BC3c2_T10u.ul">
+<t> ¿ Me está diciendo que no existe ningún tren que salga de Madrid <p/> <r tipo="sustitución"> <m> el sábado tres de </m> <s> <p/> </s> <c> el sábado día tres </c> </r> a partir de la <p/> una del mediodía <p/> , con dirección a Bilbao ? </t>
+</turno>
+
+<!-- Turno 17 sistema -->
+<turno id="M_017" hablante="sistema" fichero_audio_ss="">
+<t> Le consulto horarios de trenes con salida en Madrid destino Bilbao saliendo el sábado , día 3 de abril de 2004 . Un momento por favor . </t>
+</turno>
+
+<!-- Turno 18 sistema -->
+<turno id="M_018" hablante="sistema" fichero_audio_ss="">
+<t> No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ? </t>
+</turno>
+
+<!-- Turno 11 usuario -->
+<turno id="U_011" hablante="usuario" fichero_audio_ss="B505_BC3c2_T11u.ul">
+<t> <f tipo="e"/> <f tipo="sin_identificar"/> No <d tipo="cerrar"> gracias </d> <r tipo="inserción"> <m> <l tipo="cortada" palabra="suficiente"> sufici </l> </m> <c> es suficiente </c> </r> . Aunque si me diera <r tipo="repetición"> <m> el precio </m> <c> el precio </c> </r> del Talgo <p/> d<a>e</a> Bilbao a Madrid , le agradecería <n fuente="exterior" tipo="genérico"/> . </t>
+</turno>
+
+<!-- Turno 19 sistema -->
+<turno id="M_019" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 20 sistema -->
+<turno id="M_020" hablante="sistema" fichero_audio_ss="">
+<t> Un momento por favor . </t>
+</turno>
+
+<!-- Turno 21 sistema -->
+<turno id="M_021" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase turista es 29 con 50 euros el billete de ida y 47 con 20 euros el billete de ida y vuelta ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 12 usuario -->
+<turno id="U_012" hablante="usuario" fichero_audio_ss="B505_BC3c2_T12u.ul">
+<t> Y dígame cuál es el precio en clase preferente . </t>
+</turno>
+
+<!-- Turno 22 sistema -->
+<turno id="M_022" hablante="sistema" fichero_audio_ss="">
+<t> El precio de ese tren en clase preferente es 39 euros el billete de ida y 62 con 39 euros el billete de ida y vuelta ¿ Desea algo más ? </t>
+</turno>
+
+<!-- Turno 13 usuario -->
+<turno id="U_013" hablante="usuario" fichero_audio_ss="B505_BC3c2_T13u.ul">
+<t> No , <d tipo="cerrar"> gracias , adiós </d> . </t>
+</turno>
+
+<!-- Turno 23 sistema -->
+<turno id="M_023" hablante="sistema" fichero_audio_ss="">
+<t> Gracias por utilizar este servicio . Feliz viaje . </t>
+</turno>
+
+</anotacion>

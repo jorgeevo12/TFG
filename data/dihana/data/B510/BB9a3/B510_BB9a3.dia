@@ -1,0 +1,61 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+U1: Hola buenas tardes , me gustaría saber el precio de un viaje de ida desde Irún a Algeciras en tren litera , por favor .
+Hola buenas tardes , me gustaría saber el precio de un viaje de ida (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 14
+desde Irún (U:Pregunta:Precio:Origen) pal: 15 - 16
+a Algeciras (U:Pregunta:Precio:Destino) pal: 17 - 18
+en tren litera , por favor . (U:Pregunta:Precio:Clase_billete) pal: 19 - 25
+
+
+M2: ¿ Quiere salir desde valencia ? .
+¿ Quiere salir desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 1 - 7
+
+
+U2: No , quiero salir desde Irún .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero salir desde Irún . (U:Respuesta:Precio:Origen) pal: 3 - 7
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+U3: A Algeciras .
+A Algeciras . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+
+U4: Me gustaría salir el tres de agosto .
+Me gustaría salir el tres de agosto . (U:Respuesta:Dia:Dia) pal: 1 - 8
+
+
+M5: ¿ Desea salir el martes , día 3 de agosto de 2004 ? .
+¿ Desea salir el martes , día 3 de agosto de 2004 ? . (M:Confirmacion:Dia:Dia) pal: 1 - 14
+
+
+U5: Sí , en un tren litera por favor .
+Sí , (U:Afirmacion:Dia:Nil) pal: 1 - 2
+en un tren litera por favor . (U:Respuesta:Precio:Clase_billete) pal: 3 - 9
+
+
+M6: Le consulto precios de irún a algeciras en clase litera . Un momento por favor .
+Le consulto precios de irún a algeciras en clase litera . (M:Confirmacion:Precio:Clase_billete,Destino,Origen) pal: 1 - 11
+Un momento por favor . (M:Espera:Nil:Nil) pal: 12 - 16
+
+
+M7: El único tren que realiza el trayecto es un diurno y su precio en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El único tren que realiza el trayecto es un diurno y su precio en clase litera es 41 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Numero_trenes,Precio,Tipo_tren) pal: 1 - 43
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 44 - 48
+
+
+U6: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

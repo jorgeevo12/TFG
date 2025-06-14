@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (fe) Mire quisiera saber (p) (fe) los trenes que hay (lm para pa) viajar en primera (p) hacia Madrid .
+M2: ¿ Quiere saber horarios ?
+U2: (df Pues) sí .
+M3: ¿ Qué día desea salir ?
+U3: (df Pue(a s)) el viernes diecinueve de marzo por la mañana si es posible .
+M4: ¿ Desea salir el sábado , día 13 de marzo de 2004 ?
+U4: No (p) , quiero salir el viernes por la mañana , el viernes diecinueve por la mañana (a o) el jueves dieciocho por la tarde .
+M5: Le consulto horarios de Bilbao a Madrid el viernes , día 19 de marzo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M6: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U5: Sí , (fe) si es posible (df pues) el dieciocho a la tarde .
+M7: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ?
+U6: Sí .
+M8: Le consulto horarios de Bilbao a Madrid el jueves , día 18 de marzo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M9: El único tren que realiza el trayecto es un Talgo que sale a las 4 y 30 de la tarde ¿ Desea algo más ?
+U7: Sí , a ver cuánto cuesta .
+M10: El precio de ese tren en clase turista es 29 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Sí ¿ es posibl(a e) viajar en primera ?
+M11: Le consulto precios de Bilbao a Madrid en clase preferente . Un momento por favor .
+M12: El único tren que realiza el trayecto es un Talgo y su precio en clase preferente es 39 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No , (dc gracias) .
+M13: Gracias por utilizar este servicio . Feliz viaje .

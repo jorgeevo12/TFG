@@ -1,0 +1,56 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola , me gustaría obtener un horario para un viaje de $TVIAJE para ir a $C_DESTINO y es para la fecha del $FECHA antes de las $HORA .
+Hola , me gustaría obtener un horario para un viaje de $TVIAJE (U:Pregunta:Hora_salida:Tipo_viaje) pal: 1 - 12
+para ir a $C_DESTINO (U:Pregunta:Hora_salida:Destino) pal: 13 - 16
+y es para la fecha del $FECHA (U:Pregunta:Hora_salida:Dia) pal: 17 - 25
+antes de las $HORA . (U:Pregunta:Hora_salida:Hora_salida) pal: 26 - 30
+
+M2: Quiere horarios de trenes a $C_DESTINO , ¿ desde $C_ORIGEN ? .
+Quiere horarios de trenes a $C_DESTINO , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U2: No , le he dicho es para ir desde $C_ORIGEN a $C_DESTINO .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+le he dicho es para ir desde $C_ORIGEN (U:Respuesta:Origen:Origen) pal: 3 - 10
+a $C_DESTINO . (U:Respuesta:Hora_salida:Destino) pal: 11 - 13
+
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U3: El $FECHA .
+El $FECHA . (U:Respuesta:Dia:Dia) pal: 1 - 5
+
+M4: Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . Un momento por favor .
+Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre las $HORA y las $HORA . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M5: Hay varios trenes . El $NRORDEN sale a las $HSAL y el $NRORDEN a las $HORA . Desea algo más ? .
+Hay varios trenes . El $NRORDEN sale a las $HSAL y el $NRORDEN a las $HORA . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U4: Pues , es que el viaje el punto de salida es $CIUDAD . De $C_ORIGEN a $C_DESTINO .
+Pues , es que el viaje el punto de salida es $CIUDAD . De $C_ORIGEN (U:Pregunta:Hora_salida:Origen) pal: 1 - 15
+a $C_DESTINO . (U:Pregunta:Hora_salida:Destino) pal: 16 - 18
+
+M6: Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN destino $C_DESTINO saliendo el $FECHA . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M7: Hay varios trenes . El $NRORDEN sale a las $HSAL y el $NRORDEN a las $HORA . Desea algo más ? .
+Hay varios trenes . El $NRORDEN sale a las $HSAL y el $NRORDEN a las $HORA . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+
+U5: Sí , me gustaría saber a que hora llega el de las $HORA .
+Sí , me gustaría saber a que hora llega el de las $HORA . (U:Pregunta:Hora_llegada:Hora_salida) pal: 1 - 17
+
+M8: Ese tren sale a las $HSAL y llega a la $HLLEG . Desea algo más ? .
+Ese tren sale a las $HSAL y llega a la $HLLEG . (M:Respuesta:Hora_llegada:Hora_llegada,Hora_salida) pal: 1 - 22
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 23 - 27
+
+U6: No , gracias eso es todo .
+No , gracias eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 7
+
+M9: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

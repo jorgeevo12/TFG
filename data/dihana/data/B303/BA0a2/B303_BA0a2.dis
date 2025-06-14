@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola) , quería información sobre los horarios para hacer un viaje de ida a Pamplona y que sea en fin de semana .
+M2: ¿ Qué día desea salir ?
+U2: (df Pues) quería salir un sábado , a la mañana .
+M3: ¿ Desea salir el sábado , día 6 de marzo de 2004 ?
+U3: Sí , me va bien .
+M4: Le consulto horarios de trenes con salida en Bilbao destino Pamplona saliendo el sábado , día 6 de marzo de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche ¿ Desea algo más ?
+U4: No (dr eso es todo) , (dc muchas gracias) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

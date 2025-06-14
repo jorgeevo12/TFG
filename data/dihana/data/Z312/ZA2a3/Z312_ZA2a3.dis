@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Querí(a a) saber qué horarios hay y qué tipo de tren (fe) hay disponible par(a a) ir a Madrid (p) (a e)l día diecisiete de mayo (p) por la tarde o el dieciocho por la mañana .
+M2: ¿ Qué día desea salir ?
+U2: El día diecisiete de mayo por l(a a) tarde o el día dieciocho de mayo por la mañana .
+M3: Quiere horarios de trenes a Madrid ¿ desde Zaragoza ?
+U3: Sí , quiero horario de trenes de Madrid hasta Zaragoza .
+M4: Le consulto horarios de Zaragoza a Madrid el lunes , día 17 de mayo de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 8 de la tarde ¿ Desea algo más ?
+U4: Sí , quiero saber qué tipo de tren (fe) es el que hace este servicio .
+M6: Hay varios tipos de trenes . El tren más rápido es un Talgo y el más lento es un río_aragón ¿ Desea algo más ?
+U5: (fm) No , no deseo nada más .
+M7: Gracias por utilizar este servicio . Feliz viaje .

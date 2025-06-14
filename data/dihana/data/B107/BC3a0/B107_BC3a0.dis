@@ -1,0 +1,26 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , me gustaría saber el horario de trenes para ir de Bilbao a Valencia el día diecinueve de marzo (p) . En litera , si puede ser .
+M2: ¿ A qué ciudad desea viajar ?
+U2: Quisiera viaj(a a)r a Valencia .
+M3: Le consulto horarios de trenes con salida en Bilbao destino Valencia saliendo el viernes , día 19 de marzo de 2004 . Un momento por favor .
+M4: El único tren que realiza el trayecto es un sol_de_levante que sale a las 7 de la tarde ¿ Desea algo más ?
+U3: ¿ Tiene como servici(a o) litera ?
+M5: Ese tren dispone de clase litera ¿ Desea algo más ?
+U4: Sí , me gustaría saber a qué hora llega a Valencia .
+M6: Ese tren sale a las 7 de la tarde y llega a las 7 y 50 de la mañana ¿ Desea algo más ?
+U5: Sí , me gustaría saber cuál es s(a u) precio de ida y vuelta .
+M7: El precio de ese tren en litera es 47 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U6: Sí , me gustaría saber los horario de trenes para volver (na) el día veintiuno de marzo .
+M8: Le consulto horarios de trenes con salida en Valencia destino Bilbao saliendo el domingo , día 21 de marzo de 2004 . Un momento por favor .
+M9: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U7: (fe) Sí , (df pues) me gustarí(a a) volver (a e)l veinte de marzo .
+M10: Le consulto horarios de trenes con salida en Valencia destino Bilbao saliendo el sábado , día 20 de marzo de 2004 . Un momento por favor .
+M11: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U8: Sí , (df pues) (fe) algún día (fe) (rr (m el) (c el)) veinte de marzo .
+M12: Le consulto horarios . Un momento por favor .
+M13: Le consulto horarios . Un momento por favor .
+M14: No hay ningún tren que cumpla estos requerimientos ¿ Desea cambiar alguna de las características solicitadas ?
+U9: Sí , (fe) me gustaría ir en algún tip(a o) de tren . Me da igual qué tipo de tren sea .
+M15: Lo siento . No he entendido bien ¿ puede repetir ?
+U10: (fe) Nada más , (dc gracias) .
+M16: Gracias por utilizar este servicio . Feliz viaje .

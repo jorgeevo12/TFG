@@ -1,0 +1,12 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (do Hola) , quería saber (b e(a l)) (fb) a qué hora tengo tren para Salamanca este viernes (a y) qué tipo de tre(a n) sería .
+M2: ¿ Quiere salir desde Salamanca ?
+U2: No , quiero llegar a Salamanca (na) .
+M3: Lo siento . No he entendido bien ¿ puede repetir ?
+U3: Quiero obtener el horario para ir a Salamanca el próximo viernes .
+M4: Quiere horarios de trenes a Salamanca ¿ desde Bilbao ?
+U4: Sí .
+M5: Le consulto horarios de trenes con salida en Bilbao destino Salamanca saliendo el viernes , día 27 de febrero de 2004 . Un momento por favor .
+M6: El único tren que realiza el trayecto es un Diurno que sale a las 2 y 5 de la tarde ¿ Desea algo más ?
+U5: No .
+M7: Gracias por utilizar este servicio . Feliz viaje .

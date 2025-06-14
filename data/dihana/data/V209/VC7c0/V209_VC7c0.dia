@@ -1,0 +1,39 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días me gustaría preguntar por precios de viajes de Valencia a Cuenca .
+Hola buenos días me gustaría preguntar por precios de viajes de Valencia (U:Pregunta:Precio:Origen) pal: 1 - 12
+a Cuenca . (U:Pregunta:Precio:Destino) pal: 13 - 15
+
+M2: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+
+U2: Pues mañana .
+Pues mañana . (U:Respuesta:Dia:Dia) pal: 1 - 3
+
+M3: Le consulto precios de valencia a cuenca . Un momento por favor .
+Le consulto precios de valencia a cuenca . (M:Confirmacion:Precio:Destino,Origen) pal: 1 - 8
+Un momento por favor . (M:Espera:Nil:Nil) pal: 9 - 13
+
+M4: Los trenes son regional y en clase turista , el billete cuesta 9 con 84 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son regional y en clase turista , el billete cuesta 9 con 84 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 36
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 37 - 41
+
+U3: Pues me gustaría que me dieras un precio de un billete de ida y vuelta .
+Pues me gustaría que me dieras un precio de un billete de ida y vuelta . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 15
+
+M5: El precio de ese tren en clase turista es 9 con 84 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 9 con 84 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 35
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 36 - 40
+
+U4: ¿ Si compro un billete de ida y vuelta cuántos días tengo para volver ? ¿ O tiene que ser la vuelta en el mismo día ? .
+¿ Si compro un billete de ida y vuelta cuántos días tengo para volver ? ¿ O tiene que ser la vuelta en el mismo día ? . (U:Pregunta:Precio:Tipo_viaje) pal: 1 - 28
+
+M6: Este servicio no puede informarle sobre esa consulta .
+Este servicio no puede informarle sobre esa consulta . (M:Indefinida:Nil:Nil) pal: 1 - 9
+
+U5: Vale , pues nada , entonces ya está . Muchas gracias .
+ Vale , pues nada , entonces ya está . Muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 16
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

@@ -1,0 +1,48 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Hola buenas tardes , me gustaría saber el horario y el precio de los trenes con destino a Cáceres para mañana sábado por la tarde .
+Hola buenas tardes , me gustaría saber el horario y el precio de los trenes con destino a Cáceres (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 19
+para mañana sábado (U:Pregunta:Hora_salida,Precio:Dia) pal: 20 - 22
+por la tarde . (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 23 - 26
+M2: Quiere horarios de trenes a cáceres , ¿ desde zaragoza ? .
+Quiere horarios de trenes a cáceres , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U2: No , quiero horario de trenes a Cáceres desde Bilbao .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+quiero horario de trenes a Cáceres (U:Respuesta:Hora_salida:Destino) pal: 3 - 8
+desde Bilbao . (U:Respuesta:Hora_salida:Origen) pal: 9 - 11
+M3: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U3: Mañana sábado .
+Mañana sábado . (U:Respuesta:Dia:Dia) pal: 1 - 3
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U4: Mañana sábado .
+Mañana sábado . (U:Respuesta:Dia:Dia) pal: 1 - 3
+M5: Le consulto horarios de trenes con salida en bilbao destino cáceres saliendo el sábado , día 28 de febrero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino cáceres saliendo el sábado , día 28 de febrero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 10 y 3 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 27
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 28 - 32
+U5: Sí , quiero saber solamente los trenes que salen por la tarde .
+Sí , quiero saber solamente los trenes que salen por la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 13
+M7: ¿ Quiere salir entre la una de la tarde y las 9 de la noche ? .
+¿ Quiere salir entre la una de la tarde y las 9 de la noche ? . (M:Confirmacion:Hora_salida:Hora_salida) pal: 1 - 17
+U6: Sí .
+Sí . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+M8: Le consulto horarios de bilbao a cáceres el sábado , día 28 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de bilbao a cáceres el sábado , día 28 de febrero de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M9: El único tren que realiza el trayecto es un talgo que sale a las 3 y 30 de la tarde . Desea algo más ? .
+El único tren que realiza el trayecto es un talgo que sale a las 3 y 30 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U7: Sí , por favor , ¿ me dice cuál es el precio del billete ? .
+Sí , por favor , ¿ me dice cuál es el precio del billete ? . (U:Pregunta:Precio:Nil) pal: 1 - 16
+M10: El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+El precio de ese tren en clase turista es 44 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio) pal: 1 - 33
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 34 - 38
+U8: No , gracias , eso es todo .
+No , gracias , eso es todo . (U:Cierre:Nil:Nil) pal: 1 - 8
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

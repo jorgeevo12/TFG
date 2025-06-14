@@ -1,0 +1,20 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Querría obtener el horario y el precio para viajar a Castellón el próximo sábado antes de las catorce horas y bajar en un tren barato .
+Querría obtener el horario y el precio para viajar a Castellón (U:Pregunta:Hora_salida,Precio:Destino) pal: 1 - 11
+el próximo sábado (U:Pregunta:Hora_salida,Precio:Dia) pal: 12 - 14
+antes de las catorce horas (U:Pregunta:Hora_salida,Precio:Hora_salida) pal: 15 - 19
+y bajar en un tren barato . (U:Pregunta:Hora_salida,Precio:Precio) pal: 20 - 26
+M2: Le consulto horarios de trenes con salida en bilbao destino castellón saliendo el sábado , día 31 de enero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino castellón saliendo el sábado , día 31 de enero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M3: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+M4: No hay ningún tren que cumpla estos requerimientos . Desea cambiar alguna de las características solicitadas ? .
+No hay ningún tren que cumpla estos requerimientos . (M:Respuesta:Hora_salida:Numero_trenes) pal: 1 - 9
+Desea cambiar alguna de las características solicitadas ? . (M:Nueva_consulta:Nil:Nil) pal: 10 - 18
+U2: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M5: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

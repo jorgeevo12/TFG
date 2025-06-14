@@ -1,0 +1,35 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Deseo saber el precio del talgo a Segovia el dieciocho de agosto .
+Deseo saber el precio del talgo (U:Pregunta:Precio:Tipo_tren) pal: 1 - 6
+a Segovia (U:Pregunta:Precio:Destino) pal: 7 - 8
+el dieciocho de agosto . (U:Pregunta:Precio:Dia) pal: 9 - 13
+M2: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U2: Quiero saber el precio del talgo a Segovia el dieciocho de agosto .
+Quiero saber el precio del talgo (U:Pregunta:Precio:Tipo_tren) pal: 1 - 6
+a Segovia (U:Pregunta:Precio:Destino) pal: 7 - 8
+el dieciocho de agosto . (U:Pregunta:Precio:Dia) pal: 9 - 13
+M3: Quiere saber el precio a segovia , ¿ desde zaragoza ? .
+Quiere saber el precio a segovia , (M:Confirmacion:Precio:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M4: Le consulto precios de zaragoza a segovia en tipo tren talgo . Un momento por favor .
+Le consulto precios de zaragoza a segovia en tipo tren talgo . (M:Confirmacion:Precio:Destino,Origen,Tipo_tren) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 17
+M5: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+U4: Sí , que sea el dieciocho de agosto .
+Sí , que sea el dieciocho de agosto . (U:Pregunta:Precio:Dia) pal: 1 - 9
+M6: Le consulto precios de zaragoza a segovia saliendo el miércoles , día 18 de agosto de 2004 . Un momento por favor .
+Le consulto precios de zaragoza a segovia saliendo el miércoles , día 18 de agosto de 2004 . (M:Confirmacion:Precio:Destino,Dia,Origen) pal: 1 - 18
+Un momento por favor . (M:Espera:Nil:Nil) pal: 19 - 23
+M7: Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . Desea algo más ? .
+Los trenes son talgo y en clase turista , el billete cuesta 44 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento . (M:Respuesta:Precio:Clase_billete,Precio,Tipo_tren) pal: 1 - 34
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 35 - 39
+U5: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

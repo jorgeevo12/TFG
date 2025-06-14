@@ -1,0 +1,15 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera el horario de trenes que salen de Cáceres (p) y llegan a Tarragona (p) (fe) del viernes por la mañana .
+M2: ¿ Quiere viajar desde Cáceres ?
+U2: Sí , (fe) quiero llegar a Tarragona .
+M3: Quiere horarios de trenes a Tarragona ¿ saliendo de Cáceres ?
+U3: Sí , quiero también el tipo de tren .
+M4: Le consulto horarios de trenes con salida en Cáceres destino Tarragona saliendo el viernes , día 2 de abril de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 11 y 55 de la mañana y llega a las 7 y 5 de la tarde ¿ Desea algo más ?
+U4: (nl) Qué tipo de tren es el que (p) llega (b d(a e)) (p) a las once .
+M6: Lo siento . No he entendido bien ¿ puede repetir ?
+U5: (nl) Quiero saber qué tipo de tren sale a las once de Cáceres (na) .
+M7: Le consulto tipos de tren . Un momento por favor .
+M8: Dispone de un único tipo de tren con salida el viernes , día 2 de abril de 2004 , que es un Talgo ¿ Desea algo más ?
+U6: No (nw) .
+M9: Gracias por utilizar este servicio . Feliz viaje .

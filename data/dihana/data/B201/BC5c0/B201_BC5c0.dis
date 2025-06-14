@@ -1,0 +1,19 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Hola muy buenas tardes) , (da sí) , quisiera saber qué trenes hay desd(a e) Valencia (a a) Tarragon(a a) el martes que viene .
+M2: ¿ Desea salir el martes , día 24 de febrero de 2004 ?
+U2: Sí .
+M3: ¿ Quiere saber horarios ?
+U3: (nw) Sí , quiero ir y volver en el mismo día .
+M4: Le consulto horarios de trenes con salida en Valencia destino Tarragona saliendo el martes , día 24 de febrero de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a las 5 y 45 de la madrugada y el último a las 8 y 5 de la tarde ¿ Desea algo más ?
+U4: (nl) Sí , quiero e(a l) tren más barato y además quiero volver en el mismo día .
+M6: El tren más barato es un Regional_expres que sale a las 5 de la tarde y llega a las 8 y 56 de la tarde ¿ Desea algo más ?
+U5: (nl) Ese no me vale , porque tengo que volver (nw) en el mismo día .
+M7: ¿ Quiere saber horarios ?
+U6: Sí , deme horarios de trenes que vayan de Valencia a Tarragona por la mañana (p) y de trenes que (lm vengan vangan) de Tarragona a Valencia por la tarde (na) .
+M8: Le consulto horarios de Tarragona a Valencia el martes , día 24 de febrero de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+M9: Hay varios trenes . El primero sale a las 3 y 50 de la tarde y el último a las 8 y 22 de la tarde ¿ Desea algo más ?
+U7: Sí , quiero el tren más barato para ir de Valencia a Tarragona por la mañana y de Tarragona (rr (m a (lu Valencia Valen)) (c a Valencia)) por la tarde .
+M10: El tren más barato es un Arco y su precio en clase turista es 24 con 50 euros el billete de ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U8: Eso es todo , (dc muchísimas gracias) .
+M11: Gracias por utilizar este servicio . Feliz viaje .

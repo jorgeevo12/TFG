@@ -1,0 +1,13 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (nl) (do Buenos días) . (na) (fe) Desearía saber los horarios de trenes que hay desde Monz(a ó)n (a a) Barcelona (p) el diez de noviembre de este año entre las diez y las once de la mañana .
+M2: ¿ Qué día desea salir ?
+U2: El diez de noviembre .
+M3: Quiere horarios de trenes a Barcelona ¿ desde Zaragoza ?
+U3: (fe) Sí , (dr por favor) (na) .
+M4: Le consulto horarios de trenes con salida en Zaragoza destino Barcelona saliendo el miércoles , día 10 de noviembre de 2004 . Un momento por favor .
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde ¿ Desea algo más ?
+U4: Sí , (fe) ¿ hay algún tren entre las diez y las once de la mañana ?
+M6: Le consulto horarios de Zaragoza a Barcelona el miércoles , día 10 de noviembre de 2004 entre las 10 y las 11 de la mañana . Un momento por favor .
+M7: El único tren que realiza el trayecto es un Talgo que sale a las 10 de la mañana y llega a las 2 de la tarde ¿ Desea algo más ?
+U5: No , (df nada más) (dc gracias) .
+M8: Gracias por utilizar este servicio . Feliz viaje .

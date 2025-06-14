@@ -1,0 +1,98 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+
+
+U1: Hola buenos días , quería un billete para Sevilla para este viernes .
+Hola buenos días , quería un billete para Sevilla (U:Pregunta:Nil:Destino) pal: 1 - 9
+para este viernes . (U:Pregunta:Nil:Dia) pal: 10 - 13
+
+
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+U2: Sí , conocer el horario .
+Sí , conocer el horario . (U:Afirmacion:Hora_salida:Nil) pal: 1 - 6
+
+
+
+M3: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+
+
+
+U3: A Sevilla .
+A Sevilla . (U:Respuesta:Destino:Destino) pal: 1 - 3
+
+
+
+M4: Quiere horarios de trenes a sevilla , ¿ desde bilbao ? .
+Quiere horarios de trenes a sevilla , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde bilbao ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+
+
+U4: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+
+
+
+M5: Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el viernes , día 5 de marzo de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en bilbao destino sevilla saliendo el viernes , día 5 de marzo de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+
+
+M6: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y el último a las 11 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+
+
+U5: Sí .
+Sí . (U:Indefinida:Nil:Nil) pal: 1 - 2
+
+
+
+M7: Si . Desea algo más ? .
+Si . Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 1 - 7
+
+
+
+U6: Sí , no quiero llegar más tarde de las siete de la tarde .
+Sí , no quiero llegar más tarde de las siete de la tarde . (U:Pregunta:Hora_salida:Hora_llegada) pal: 1 - 14
+
+
+
+M8: ¿ Quiere llegar entre las 0 de la noche y las 7 de la tarde ? .
+¿ Quiere llegar entre las 0 de la noche y las 7 de la tarde ? . (M:Confirmacion:Hora_llegada:Hora_llegada) pal: 1 - 17
+
+
+
+U7: Sí .
+Sí . (U:Afirmacion:Hora_llegada:Nil) pal: 1 - 2
+
+
+
+M9: Le consulto horarios de bilbao a sevilla llegando el viernes , día 5 de marzo de 2004 entre las 0 de la noche y las 7 de la tarde . Un momento por favor .
+Le consulto horarios de bilbao a sevilla llegando el viernes , día 5 de marzo de 2004 entre las 0 de la noche y las 7 de la tarde . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_llegada,Origen) pal: 1 - 30
+Un momento por favor . (M:Espera:Nil:Nil) pal: 31 - 35
+
+
+
+M10: Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a las 7 y 3 de la mañana y llega a la una y 35 de la tarde y el último sale a las 10 y 30 de la mañana y llega a las 5 y 33 de la tarde . (M:Respuesta:Hora_salida:Hora_llegada,Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 48
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 49 - 53
+
+
+
+U8: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+
+
+M11: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

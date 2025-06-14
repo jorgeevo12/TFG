@@ -1,0 +1,57 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Quiero viajar a Madrid .
+Quiero viajar a Madrid . (U:Pregunta:Nil:Destino) pal: 1 - 5
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , del cuatro u el cinco de octubre .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+del cuatro u el cinco de octubre . (U:Respuesta:Hora_salida:Dia) pal: 3 - 10
+
+M3: Horarios de trenes con destino a madrid , ¿ desde zaragoza ? .
+Horarios de trenes con destino a madrid , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 8
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 9 - 13
+
+U3: Sí . El cinco de octubre por la tarde .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+El cinco de octubre (U:Respuesta:Hora_salida:Dia) pal: 3 - 6
+por la tarde . (U:Respuesta:Hora_salida:Hora_salida) pal: 7 - 10
+
+M4: Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el martes , día 5 de octubre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino madrid saliendo el martes , día 5 de octubre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 48 de la madrugada y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U4: Sí . Quiero saber específicamente por la tarde .
+Sí . Quiero saber específicamente por la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 9
+
+M6: Le consulto horarios de zaragoza a madrid el martes , día 5 de octubre de 2004 entre la una de la tarde y las 9 de la noche . Un momento por favor .
+Le consulto horarios de zaragoza a madrid el martes , día 5 de octubre de 2004 entre la una de la tarde y las 9 de la noche . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+
+M7: Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 9 de la noche . Desea algo más ? .
+Hay varios trenes . El primero sale a las 2 y 30 de la tarde y el último a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U5: Sí , me gustaría viajar a partir de las seis de la tarde .
+Sí , me gustaría viajar a partir de las seis de la tarde . (U:Pregunta:Hora_salida:Hora_salida) pal: 1 - 14
+
+M8: Le consulto horarios . Un momento por favor .
+Le consulto horarios . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 4
+Un momento por favor . (M:Espera:Nil:Nil) pal: 5 - 9
+
+M9: Sólo hay dos trenes . El primero sale a las 7 y 10 de la tarde y el otro a las 9 de la noche . Desea algo más ? .
+Sólo hay dos trenes . El primero sale a las 7 y 10 de la tarde y el otro a las 9 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 26
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 27 - 31
+
+U6: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+
+M10: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

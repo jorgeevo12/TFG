@@ -1,0 +1,10 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: (na) Me gustaría saber el precio para viajar desde Madrid a Sevilla .
+M2: ¿ Qué día desea salir ?
+U2: (na) (df Pues) me gustaría salir entre el doce y el quince de mayo y viajar en Ave si puede ser .
+M3: Precios desde Madrid ¿ saliendo el miércoles , día 12 de mayo de 2004 ?
+U3: (fe) Sí , (dq por favor) .
+M4: Le consulto precios . Un momento por favor .
+M5: Hay un único tipo de tren , que es Ave . En turista , el billete cuesta 64 euros la ida . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U4: No , nada más , (dc muchas gracias) (na) (nw) .
+M6: Gracias por utilizar este servicio . Feliz viaje .

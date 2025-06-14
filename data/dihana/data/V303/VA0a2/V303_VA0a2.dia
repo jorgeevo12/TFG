@@ -1,0 +1,34 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Sí , me gustaría Granada saliendo el treinta de enero .
+Sí , me gustaría Granada (U:Pregunta:Nil:Destino) pal: 1 - 5
+saliendo el treinta de enero . (U:Pregunta:Nil:Dia) pal: 6 - 11
+
+M2: ¿ Quiere saber horarios ? .
+¿ Quiere saber horarios ? . (M:Confirmacion:Hora_salida:Nil) pal: 1 - 6
+
+U2: Sí , saber el horario para el viernes treinta de enero .
+Sí , (U:Afirmacion:Hora_salida:Nil) pal: 1 - 2
+saber el horario para el viernes treinta de enero . (U:Pregunta:Hora_salida:Dia) pal: 3 - 12
+
+M3: Quiere horarios de trenes a granada , ¿ desde valencia ? .
+Quiere horarios de trenes a granada , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde valencia ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+
+U3: Sí , por .
+Sí , por . (U:Afirmacion:Origen:Nil) pal: 1 - 4
+
+M4: Le consulto horarios de trenes con salida en valencia destino granada saliendo el martes , día 13 de enero de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en valencia destino granada saliendo el martes , día 13 de enero de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M5: El único tren que realiza el trayecto es un trenhotel que sale a las 0 y 27 de la noche . Desea algo más ? .
+El único tren que realiza el trayecto es un trenhotel que sale a las 0 y 27 de la noche . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U4: No , muchas gracias .
+No , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 5
+
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

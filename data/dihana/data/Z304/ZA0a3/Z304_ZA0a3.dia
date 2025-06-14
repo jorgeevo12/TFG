@@ -1,0 +1,24 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero los horarios para ir a Barcelona en el mes de septiembre .
+Quiero los horarios para ir a Barcelona (U:Pregunta:Hora_salida:Destino) pal: 1 - 7
+en el mes de septiembre . (U:Pregunta:Hora_salida:Dia) pal: 8 - 13
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: A Barcelona .
+A Barcelona . (U:Respuesta:Destino:Destino) pal: 1 - 3
+M3: Quiere horarios de trenes a barcelona , ¿ desde zaragoza ? .
+Quiere horarios de trenes a barcelona , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde zaragoza ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U3: Sí .
+Sí . (U:Afirmacion:Origen:Nil) pal: 1 - 2
+M4: Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el miércoles , día 1 de septiembre de 2004 . Un momento por favor .
+Le consulto horarios de trenes con salida en zaragoza destino barcelona saliendo el miércoles , día 1 de septiembre de 2004 . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+M5: Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . Desea algo más ? .
+Hay varios trenes . El primero sale a la una y 50 de la madrugada y el último a las 7 de la tarde . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+U4: No .
+No . (U:Cierre:Nil:Nil) pal: 1 - 2
+M6: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

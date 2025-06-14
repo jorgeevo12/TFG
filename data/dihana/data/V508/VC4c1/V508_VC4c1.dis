@@ -1,0 +1,22 @@
+M1: Bienvenido al servicio de informacion de trenes ¿ En qué puedo ayudarle ?
+U1: Quisiera un billete de ida y vuelta a Madrid (p) con salida desde Vitoria a primera hora de la mañana (p) para el (lm catorce catogse) de mayo .
+M2: ¿ Quiere saber horarios ?
+U2: Sí .
+M3: ¿ A qué ciudad desea viajar ?
+U3: Madrid .
+M4: Quiere horarios de trenes a Madrid ¿ saliendo de Vitoria ?
+U4: Sí .
+M5: ¿ Qué día desea salir ?
+U5: (lm catorce catogse) de mayo .
+M6: ¿ Desea salir el viernes , día 14 de mayo de 2004 ?
+U6: Sí .
+M7: Le consulto horarios de Vitoria a Madrid el viernes , día 14 de mayo de 2004 entre las 5 de la madrugada y la una de la tarde . Un momento por favor .
+M8: Sólo hay dos trenes . El primero sale a las 7 y 25 de la mañana y llega a las 12 y 55 de la mañana y el otro sale a las 10 y 8 de la mañana y llega a las 2 y 55 de la tarde ¿ Desea algo más ?
+U7: Sí (p) ¿ a qué hora sale un tren de (lm Madrid Madrit) a Vitoria ?
+M9: Le consulto horarios de trenes con salida en Madrid destino Vitoria saliendo el viernes , día 14 de mayo de 2004 . Un momento por favor .
+M10: Hay varios trenes . El primero sale a las 8 y 30 de la mañana y llega a la una y 55 de la tarde y el último sale a las 10 y 45 de la noche y llega a las 4 y 54 de la madrugada ¿ Desea algo más ?
+U8: Sí ¿ cuál es el precio del billete (p) ida y vuelta a (lm Madrid Madrit) (p) desde Vitoria ?
+M11: Le consulto precios . Un momento por favor .
+M12: Hay varios trenes . En clase turista , el tren más caro es un Talgo que cuesta 27 con 50 euros la ida y el más barato es un costa_vasca que cuesta 24 con 50 euros . Recuerde que el billete de ida y vuelta siempre supone un ahorro del 20 por ciento ¿ Desea algo más ?
+U9: No .
+M13: Gracias por utilizar este servicio . Feliz viaje .

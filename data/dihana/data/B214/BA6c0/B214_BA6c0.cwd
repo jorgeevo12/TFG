@@ -1,0 +1,38 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+
+U1: Hola buenos días , quisiera obtener el horario para hacer un viaje desde $C_ORIGEN<Sevilla> a $C_DESTINO<Córdoba> el próximo $FECHA<viernes> por favor .
+Hola buenos días , quisiera obtener el horario para hacer un viaje desde $C_ORIGEN<Sevilla> (U:Pregunta:Hora_salida:Origen) pal: 1 - 14
+a $C_DESTINO<Córdoba> (U:Pregunta:Hora_salida:Destino) pal: 15 - 16
+el próximo $FECHA<viernes> por favor . (U:Pregunta:Hora_salida:Dia) pal: 17 - 22
+
+M2: Le consulto horarios de trenes con salida en $C_ORIGEN<sevilla> destino $C_DESTINO<córdoba> saliendo el $FECHA<viernes , día 5 de marzo de 2004> . Un momento por favor .
+Le consulto horarios de trenes con salida en $C_ORIGEN<sevilla> destino $C_DESTINO<córdoba> saliendo el $FECHA<viernes , día 5 de marzo de 2004> . (M:Confirmacion:Hora_salida:Destino,Dia,Origen) pal: 1 - 22
+Un momento por favor . (M:Espera:Nil:Nil) pal: 23 - 27
+
+M3: Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<6 y 30 de la mañana> y el $NRORDEN<último> a las $HORA<10 de la noche> . Desea algo más ? .
+Hay varios trenes . El $NRORDEN<primero> sale a las $HSAL<6 y 30 de la mañana> y el $NRORDEN<último> a las $HORA<10 de la noche> . (M:Respuesta:Hora_salida:Hora_salida,Numero_relativo_orden,Numero_trenes) pal: 1 - 25
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 26 - 30
+
+U2: Sí por favor , ¿ qué tipo de trenes son ? .
+Sí por favor , ¿ qué tipo de trenes son ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 12
+
+M4: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+
+U3: Por favor , me podría decir ¿ qué tipo de trenes realizan ese trayecto ? .
+Por favor , me podría decir ¿ qué tipo de trenes realizan ese trayecto ? . (U:Pregunta:Tipo_tren:Nil) pal: 1 - 16
+
+M5: Le consulto tipos de trenes para el trayecto $C_ORIGEN<sevilla> a $C_DESTINO<córdoba> . Un momento por favor .
+Le consulto tipos de trenes para el trayecto $C_ORIGEN<sevilla> a $C_DESTINO<córdoba> . (M:Confirmacion:Tipo_tren:Destino,Origen) pal: 1 - 12
+Un momento por favor . (M:Espera:Nil:Nil) pal: 13 - 16
+
+M6: Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<ave> y el $T_TREN<más lento> es un $T_TREN<andalucía_expres> . Desea algo más ? .
+Hay varios tipos de trenes . El tren $T_TREN<más rápido> es un $T_TREN<ave> y el $T_TREN<más lento> es un $T_TREN<andalucía_expres> . (M:Respuesta:Tipo_tren:Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+
+U4: gracias Eso es todo , muchas gracias .
+gracias Eso es todo , muchas gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+
+M7: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9

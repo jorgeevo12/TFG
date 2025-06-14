@@ -1,0 +1,34 @@
+M1: Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? .
+Bienvenido al servicio de información de trenes . ¿ En qué puedo ayudarle? . (M:Apertura:Nil:Nil) pal: 1 - 14
+U1: Quiero saber horarios de trenes entre $C_ORIGEN y $C_DESTINO .
+Quiero saber horarios de trenes entre $C_ORIGEN (U:Pregunta:Hora_salida:Origen) pal: 1 - 7
+y $C_DESTINO . (U:Pregunta:Hora_salida:Destino) pal: 8 - 10
+M2: ¿ A qué ciudad desea viajar ? .
+¿ A qué ciudad desea viajar ? . (M:Pregunta:Destino:Nil) pal: 1 - 8
+U2: Pues quiero viajar a $C_DESTINO y me gustaría hacerlo en el mes de mayo en la $FECHA y si puede ser .
+Pues quiero viajar a $C_DESTINO (U:Respuesta:Destino:Destino) pal: 1 - 5
+y me gustaría hacerlo en el mes de mayo en la $FECHA y si puede ser . (U:Respuesta:Hora_salida:Dia) pal: 6 - 23
+M3: Lo siento . No he entendido bien . puede repetir ? .
+Lo siento . No he entendido bien . puede repetir ? . (M:No_entendido:Nil:Nil) pal: 1 - 12
+U3: Sí , así es , pero sólo el viaje de $TVIAJE , por favor .
+Sí , así es , pero sólo el viaje de $TVIAJE , por favor . (U:Respuesta:Hora_salida:Tipo_viaje) pal: 1 - 15
+M4: ¿ Qué día desea salir ? .
+¿ Qué día desea salir ? . (M:Pregunta:Dia:Nil) pal: 1 - 7
+U4: No , gracias .
+No , gracias . (U:Cierre:Nil:Nil) pal: 1 - 4
+M5: Quiere horarios de trenes a $C_DESTINO , ¿ desde $C_ORIGEN ? .
+Quiere horarios de trenes a $C_DESTINO , (M:Confirmacion:Hora_salida:Destino) pal: 1 - 7
+¿ desde $C_ORIGEN ? . (M:Confirmacion:Origen:Origen) pal: 8 - 12
+U5: No , yo quiero salir desde $C_ORIGEN .
+No , (U:Negacion:Origen:Nil) pal: 1 - 2
+yo quiero salir desde $C_ORIGEN . (U:Respuesta:Hora_salida:Origen) pal: 3 - 8
+M6: Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre la $HORA y las $HORA . Un momento por favor .
+Le consulto horarios de $C_ORIGEN a $C_DESTINO el $FECHA entre la $HORA y las $HORA . (M:Confirmacion:Hora_salida:Destino,Dia,Hora_salida,Origen) pal: 1 - 29
+Un momento por favor . (M:Espera:Nil:Nil) pal: 30 - 34
+M7: El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . Desea algo más ? .
+El único tren que realiza el trayecto es un $T_TREN que sale a las $HSAL . (M:Respuesta:Hora_salida:Hora_salida,Numero_trenes,Tipo_tren) pal: 1 - 21
+Desea algo más ? . (M:Nueva_consulta:Nil:Nil) pal: 22 - 26
+U6: no perdone ya he acabado , gracias .
+no perdone ya he acabado , gracias . (U:Cierre:Nil:Nil) pal: 1 - 8
+M8: Gracias por utilizar este servicio . Feliz viaje .
+Gracias por utilizar este servicio . Feliz viaje . (M:Cierre:Nil:Nil) pal: 1 - 9
