@@ -22,7 +22,7 @@ You will receive the current `nlu.yml` content of a travel assistant that uses a
 
 ---
 
-📄 TASK:
+TASK:
 Improve and extend the `nlu.yml` content:
 - Ensure each of these intents has at least 10 high-quality, diverse training examples:
   - inform_date
@@ -38,7 +38,7 @@ Improve and extend the `nlu.yml` content:
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Return only valid YAML (Rasa 3.1 format).
 - Do not include markdown, code fences or explanations.
 - Do not regenerate the entire file from scratch — build on top of the existing examples provided.
@@ -62,5 +62,5 @@ if response.status_code == 200:
     result = response.json().get("response", "")
     print(result)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

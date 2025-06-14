@@ -36,7 +36,7 @@ def generate_structured_abstract_dialogues():
         })
 
     OUTPUT_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    print(f"✅ Saved structured dialogues with slots to {OUTPUT_FILE}")
+    print(f"Saved structured dialogues with slots to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     generate_structured_abstract_dialogues()

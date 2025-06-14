@@ -53,7 +53,7 @@ def process_all_dialogues():
     with OUTPUT_FILE.open("w", encoding="utf-8") as f:
         json.dump(all_dialogues, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {len(all_dialogues)} dialogues to {OUTPUT_FILE}")
+    print(f"Saved {len(all_dialogues)} dialogues to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     process_all_dialogues()

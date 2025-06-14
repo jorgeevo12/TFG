@@ -26,7 +26,7 @@ You will receive a list of Spanish conversations between a USER and a SYSTEM. Th
 
 ---
 
-🎯 Your task:
+Your task:
 Build a functional RASA 3.1 assistant based on these dialogues. You must infer:
 - intents (from USER utterances)
 - entities (relevant slot values)
@@ -37,9 +37,9 @@ Build a functional RASA 3.1 assistant based on these dialogues. You must infer:
 
 ---
 
-📁 You must generate 4 valid YAML files:
+You must generate 4 valid YAML files:
 
-📄 nlu.yml
+nlu.yml
 version: "3.1"
 nlu:
   - intent: intent_name
@@ -47,7 +47,7 @@ nlu:
       - sentence with [value](entity)
       - another example with [city](origin)
 
-📄 domain.yml
+domain.yml
 version: "3.1"
 intents:
   - ...
@@ -66,7 +66,7 @@ responses:
 actions:
   - utter_action_name
 
-📄 stories.yml
+stories.yml
 version: "3.1"
 stories:
   - story: short_description
@@ -76,7 +76,7 @@ stories:
       - slot_was_set:
           - slot: value
 
-📄 rules.yml
+rules.yml
 version: "3.1"
 rules:
   - rule: respond to intent
@@ -86,7 +86,7 @@ rules:
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Use only valid YAML syntax (no markdown, no explanations).
 - Use realistic slot values (e.g., [Madrid](origin), [8 AM](time), [40](price)€).
 - 1 intent ↔ 1 slot when possible.
@@ -95,7 +95,7 @@ rules:
 
 ---
 
-🗂 Dialogues:
+Dialogues:
 {chr(10).join(formatted_dialogs)}
 """
 
@@ -110,5 +110,5 @@ if response.status_code == 200:
     result = response.json().get("response", "")
     print(result)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

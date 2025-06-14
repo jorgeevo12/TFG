@@ -21,7 +21,7 @@ def generate_abstract_dialogues():
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(abstract_dialogues, indent=2, ensure_ascii=False))
-    print(f"✅ Saved {len(abstract_dialogues)} abstract dialogues to {OUTPUT_FILE}")
+    print(f"Saved {len(abstract_dialogues)} abstract dialogues to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     generate_abstract_dialogues()

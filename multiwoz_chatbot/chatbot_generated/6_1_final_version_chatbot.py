@@ -18,7 +18,7 @@ You will receive the current contents of domain.yml. Your task is to convert it 
 
 ---
 
-🎯 Your goals:
+Your goals:
 
 1. The assistant handles the following domains:
    - `restaurant`
@@ -61,7 +61,7 @@ You will receive the current contents of domain.yml. Your task is to convert it 
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Only return valid YAML (no markdown, no code fences).
 - Do not include domain descriptions or explanations.
 - Use only the slots provided in the original domain.yml.
@@ -86,5 +86,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

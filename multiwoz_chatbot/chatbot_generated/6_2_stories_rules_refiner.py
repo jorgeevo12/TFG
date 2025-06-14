@@ -33,7 +33,7 @@ Your task is to update ONLY the `rules.yml` and `stories.yml` so that:
 
 ---
 
-📄 RULES.YML:
+RULES.YML:
 For each form:
 - Add a rule to activate the form:
     - intent: <domain_request_intent>
@@ -49,7 +49,7 @@ Use valid Rasa 3.1 syntax: `action`, `active_loop`, `intent`.
 
 ---
 
-📄 STORIES.YML:
+STORIES.YML:
 For each form, write 1 story:
 - Start with triggering intent
 - Activate the form
@@ -71,7 +71,7 @@ Format:
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Do NOT modify domain.yml or nlu.yml.
 - Return only valid YAML.
 - No markdown, no comments.
@@ -109,5 +109,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

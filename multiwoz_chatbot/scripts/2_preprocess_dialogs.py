@@ -48,7 +48,7 @@ def preprocess_dialogues():
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(processed, indent=2, ensure_ascii=False))
-    print(f"✅ Processed {len(processed)} dialogues. Saved to {OUTPUT_FILE}")
+    print(f"Processed {len(processed)} dialogues. Saved to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     preprocess_dialogues()

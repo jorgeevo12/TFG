@@ -25,7 +25,7 @@ Your job is to fix and complete these files using valid RASA 3.1 format and logi
 
 ---
 
-🎯 OBJECTIVE:
+OBJECTIVE:
 Build a functional assistant using `trip_form` to gather 5 required pieces of travel information:
 
 1. User starts with `request_trip` intent
@@ -36,7 +36,7 @@ Build a functional assistant using `trip_form` to gather 5 required pieces of tr
 
 ---
 
-🛠 FIX THESE STRUCTURE ISSUES:
+FIX THESE STRUCTURE ISSUES:
 
 - **domain.yml**
   - Ensure it includes:
@@ -80,7 +80,7 @@ Build a functional assistant using `trip_form` to gather 5 required pieces of tr
     - One intent per slot (e.g., inform_date), with `slot_was_set` updates
     - Ends with: active_loop: null and `utter_confirm_all`
 
-- ❌ Remove any steps like:
+- Remove any steps like:
   - `action: ask_time`
   - `action: submit_trip_form`
   - `action: confirm_all`
@@ -88,7 +88,7 @@ Build a functional assistant using `trip_form` to gather 5 required pieces of tr
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Return only valid YAML (no markdown, no explanations).
 - Output files must appear in this order:
   1. domain.yml
@@ -128,5 +128,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

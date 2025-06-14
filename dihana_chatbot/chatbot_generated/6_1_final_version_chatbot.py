@@ -24,7 +24,7 @@ You will receive the current contents of domain.yml. Your task is to convert it 
 
 ---
 
-🎯 Your task:
+Your task:
 
 1. Add a `forms:` section with `trip_form` and the 5 required slots.
 2. Ensure that each slot is declared under `slots:` with mappings using `type: from_entity`.
@@ -37,7 +37,7 @@ You will receive the current contents of domain.yml. Your task is to convert it 
    - utter_confirm_all
 4. Ensure all structure and indentation follows RASA 3.1 syntax.
 
-❗ Do not return anything else. Only valid YAML for domain.yml.
+Do not return anything else. Only valid YAML for domain.yml.
 Do not include markdown or triple backticks.
 
 ---
@@ -60,5 +60,5 @@ if response.status_code == 200:
     result = response.json().get("response", "")
     print(result)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

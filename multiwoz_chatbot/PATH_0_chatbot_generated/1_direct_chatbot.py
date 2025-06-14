@@ -26,7 +26,7 @@ You will receive a set of English dialogue examples between a USER and a SYSTEM.
 
 ---
 
-🗂️ DIALOGUE DATA:
+DIALOGUE DATA:
 - Each conversation is a sequence of turns in format:
   - `user:` or `system:` followed by text
 - Dialogues cover multiple domains such as restaurant, hotel, train, taxi, etc.
@@ -34,7 +34,7 @@ You will receive a set of English dialogue examples between a USER and a SYSTEM.
 
 ---
 
-📁 OUTPUT FILES TO GENERATE (structured as separate YAML blocks):
+OUTPUT FILES TO GENERATE (structured as separate YAML blocks):
 
 1. `nlu.yml`:
    - Define all user intents with realistic examples (at least 5 per intent).
@@ -82,7 +82,7 @@ You will receive a set of English dialogue examples between a USER and a SYSTEM.
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Use only valid YAML per file — no markdown, no explanations, no multi-file merging.
 - Group each file under a clear header (e.g. `# nlu.yml`) before its content.
 - All content must follow RASA 3.1 syntax and conventions.
@@ -107,5 +107,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

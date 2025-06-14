@@ -25,7 +25,7 @@ You will receive 4 YAML files generated from raw dialogue data. These files cont
 
 ---
 
-🎯 TASKS (fix all of these):
+TASKS (fix all of these):
 
 1. nlu.yml:
 - Use header: `version: "3.1"`
@@ -72,7 +72,7 @@ You will receive 4 YAML files generated from raw dialogue data. These files cont
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Do NOT include markdown (no triple backticks).
 - Return ONLY fixed valid YAML.
 - Order: nlu.yml, domain.yml, stories.yml, rules.yml
@@ -104,5 +104,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

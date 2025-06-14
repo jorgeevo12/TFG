@@ -31,7 +31,7 @@ Your task is to extract structured training data and generate:
 
 ---
 
-📄 OUTPUT FORMAT:
+OUTPUT FORMAT:
 
 # nlu.yml
 nlu:
@@ -48,16 +48,16 @@ nlu:
 
 ---
 
-📌 INSTRUCTIONS:
-- 🔍 Extract the **maximum number of distinct intents and slots** from the utterances.
-- ❗ Each intent must include **only one entity/slot type**.
-- ✅ Each example must have exactly **one entity annotation**, using `[value](entity)` format.
-- ✅ Group utterances with similar purpose and same slot into one intent.
-- ❗ Do NOT include multiple slots per example or intent.
-- ✅ Use realistic values from MultiWOZ (e.g., [north](area), [Italian](food), [cheap](price), [2](people), [01223 351707](phone))
-- ❌ Do NOT include markdown, comments, or explanations.
-- ✅ Include at least 5 diverse examples per intent.
-- ❌ Do NOT include a `slots:` section in `nlu.yml`. Return it separately under `# slots`.
+INSTRUCTIONS:
+- Extract the **maximum number of distinct intents and slots** from the utterances.
+- Each intent must include **only one entity/slot type**.
+- Each example must have exactly **one entity annotation**, using `[value](entity)` format.
+- Group utterances with similar purpose and same slot into one intent.
+- Do NOT include multiple slots per example or intent.
+- Use realistic values from MultiWOZ (e.g., [north](area), [Italian](food), [cheap](price), [2](people), [01223 351707](phone))
+- Do NOT include markdown, comments, or explanations.
+- Include at least 5 diverse examples per intent.
+- Do NOT include a `slots:` section in `nlu.yml`. Return it separately under `# slots`.
 
 ---
 
@@ -85,5 +85,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

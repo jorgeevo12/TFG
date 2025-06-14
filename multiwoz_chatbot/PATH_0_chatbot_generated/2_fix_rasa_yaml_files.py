@@ -26,7 +26,7 @@ Your task is to correct and reformat them to be valid, clean, and executable for
 
 ---
 
-📄 REQUIRED STRUCTURE:
+REQUIRED STRUCTURE:
 
 1. nlu.yml
 - Must include:
@@ -79,7 +79,7 @@ Your task is to correct and reformat them to be valid, clean, and executable for
 
 ---
 
-‼️ RULES:
+RULES:
 - Do not return markdown, triple backticks or explanations.
 - Only return valid YAML, strictly following the RASA 3.1 structure.
 - All utter_* must include at least two text variants.
@@ -111,5 +111,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

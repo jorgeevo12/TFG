@@ -22,9 +22,9 @@ You will receive:
 - A list of user/system dialogue acts extracted from real Spanish train-related conversations
 
 Your task is to complete the assistant by generating:
-✅ `domain.yml`
-✅ `stories.yml`
-✅ `rules.yml`
+`domain.yml`
+`stories.yml`
+`rules.yml`
 
 --- CONTEXT ---
 
@@ -33,7 +33,7 @@ Each utter_* in domain must match the responses that a system would give to the 
 
 --- FORMAT ---
 
-📁 domain.yml:
+domain.yml:
 - version: "3.1"
 - intents: from `nlu.yml`
 - entities: from `nlu.yml` annotations
@@ -46,7 +46,7 @@ Each utter_* in domain must match the responses that a system would give to the 
 - responses: include utter_* with 2 variants each
 - actions: list all utter_* responses
 
-📁 stories.yml:
+stories.yml:
 version: "3.1"
 stories:
 - story: intent_name flow
@@ -56,7 +56,7 @@ stories:
         - date: "10th July"
     - action: utter_confirm_date
 
-📁 rules.yml:
+rules.yml:
 version: "3.1"
 rules:
 - rule: respond to user intent
@@ -103,5 +103,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

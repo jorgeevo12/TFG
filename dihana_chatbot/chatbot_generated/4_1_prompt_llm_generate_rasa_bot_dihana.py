@@ -26,7 +26,7 @@ Your goal is to create a **fully functional RASA chatbot** by generating these f
 
 ---
 
-📁 `nlu.yml`
+`nlu.yml`
 - List all user intents using this format:
 nlu:
 - intent: intent_name
@@ -36,7 +36,7 @@ nlu:
 
 ---
 
-📁 `domain.yml`
+`domain.yml`
 - Must contain:
   - intents (from nlu)
   - entities (used in nlu)
@@ -54,7 +54,7 @@ nlu:
 
 ---
 
-📁 `stories.yml`
+`stories.yml`
 - Format:
 version: "3.1"
 stories:
@@ -73,7 +73,7 @@ stories:
 
 ---
 
-📁 `rules.yml`
+`rules.yml`
 - Format:
 version: "3.1"
 rules:
@@ -84,7 +84,7 @@ rules:
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Generate 10 diverse training phrases per intent
 - Use realistic slot values (e.g., [Madrid](origin), [8 AM](time), [40](price)€)
 - Include entities in nlu.yml, slots in rules.yml and stories.yml and in domain.yml when data are being provided or handled, for example in the question, inform xxx dialogue acts
@@ -123,5 +123,5 @@ if response.status_code == 200:
     result = response.json().get("response", "")
     print(result)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

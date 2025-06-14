@@ -26,4 +26,4 @@ for dialog in dialogues[:10]:
 with OUTPUT_FILE.open("w", encoding="utf-8") as f:
     json.dump(formatted_dialogues, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Saved to: {OUTPUT_FILE}")
+print(f"Saved to: {OUTPUT_FILE}")

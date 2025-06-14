@@ -31,7 +31,7 @@ Your task is to FIX and STRUCTURE the assistant so it works in a fully guided sl
 
 ---
 
-🎯 OBJECTIVE:
+OBJECTIVE:
 - The assistant must:
   1. Start when the user expresses intent to plan a trip.
   2. Ask for and collect the following slots: date, time, origin, destination, price.
@@ -40,7 +40,7 @@ Your task is to FIX and STRUCTURE the assistant so it works in a fully guided sl
 
 ---
 
-📌 FILE INSTRUCTIONS:
+FILE INSTRUCTIONS:
 
 - `nlu.yml`:
   - Separate entity mentions into individual intents (one slot per intent).
@@ -82,7 +82,7 @@ Your task is to FIX and STRUCTURE the assistant so it works in a fully guided sl
 
 ---
 
-‼️ OUTPUT:
+OUTPUT:
 - Only return valid YAML (no markdown).
 - Output all 4 fixed files in this order:
   - nlu.yml
@@ -128,5 +128,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

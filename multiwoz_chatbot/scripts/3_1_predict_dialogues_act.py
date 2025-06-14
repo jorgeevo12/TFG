@@ -68,8 +68,8 @@ if response.status_code == 200:
         parsed = json.loads(result)
         print(json.dumps(parsed, indent=2, ensure_ascii=False))
     except json.JSONDecodeError:
-        print("⚠️ No se pudo interpretar la respuesta como JSON. Resultado en bruto:\n")
+        print("No se pudo interpretar la respuesta como JSON. Resultado en bruto:\n")
         print(result)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

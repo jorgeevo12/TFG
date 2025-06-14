@@ -28,4 +28,4 @@ OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 with OUTPUT_FILE.open("w", encoding="utf-8") as f:
     json.dump(processed, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Archivo generado en: {OUTPUT_FILE}")
+print(f"Archivo generado en: {OUTPUT_FILE}")

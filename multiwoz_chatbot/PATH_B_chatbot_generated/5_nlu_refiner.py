@@ -24,18 +24,18 @@ You will receive the current `nlu.yml` content of a multi-domain assistant based
 
 ---
 
-📄 TASK:
+TASK:
 Improve and extend the `nlu.yml` content:
 - Ensure each of these intents has at least 6 high-quality, diverse training examples:
 
-  🔹 Form activation (requests):
+  Form activation (requests):
     - request_restaurant
     - request_hotel
     - request_train
     - request_taxi
     - request_attraction
 
-  🔹 Slot provision (inform):
+  Slot provision (inform):
     - inform_price
     - inform_food
     - inform_phone
@@ -43,7 +43,7 @@ Improve and extend the `nlu.yml` content:
     - inform_people
     - inform_attraction
 
-📌 IMPORTANT:
+IMPORTANT:
 - All phrases must represent what the **user** would say. These examples should simulate user input — including both **requests to initiate a task** and **providing values for specific slots**.
 - For the `inform_people` intent, assume the user is providing their **name or people name**. Examples: "The booking is for [2](people)".
 - For `inform_attraction`, assume the user says things like: "I want to see the [museum](attraction)", "Let's visit the [botanical garden](attraction)", "Is there a [castle](attraction) nearby?"
@@ -54,7 +54,7 @@ Improve and extend the `nlu.yml` content:
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Return only valid YAML (Rasa 3.1 format).
 - Do not include markdown, code fences or explanations.
 - Do not regenerate the file from scratch — improve what is already present.
@@ -78,5 +78,5 @@ if response.status_code == 200:
     result = response.json().get("response", "")
     print(result)
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

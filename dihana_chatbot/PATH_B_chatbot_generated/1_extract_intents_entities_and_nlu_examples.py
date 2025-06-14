@@ -37,14 +37,14 @@ Your task is to create a complete RASA **nlu.yml** training file:
 
 ---
 
-📄 Output format:
+Output format:
 nlu:
   - intent: intent_name
     examples: |
       - phrase with [entity](slot)
       - another training example...
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Output only valid YAML.
 - Return only NLU format (no markdown, no explanations).
 - Utterances must be in **English**, even if input is Spanish.
@@ -71,5 +71,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

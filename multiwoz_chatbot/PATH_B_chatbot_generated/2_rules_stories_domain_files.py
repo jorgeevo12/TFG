@@ -33,13 +33,13 @@ You will receive:
 - A list of user/system dialogue acts extracted from MultiWOZ dialogues.
 
 Your task is to generate:
-✅ domain.yml
-✅ stories.yml
-✅ rules.yml
+domain.yml
+stories.yml
+rules.yml
 
 ---
 
-🧠 CONTEXT:
+CONTEXT:
 
 Each intent in `nlu.yml` represents a user goal (e.g., restaurant_food, hotel_rooms, taxi_phone).
 Each entity represents a slot that needs to be captured.
@@ -53,7 +53,7 @@ You MUST:
 
 ---
 
-📁 domain.yml:
+domain.yml:
 ```yaml
 version: "3.1"
 intents:
@@ -82,7 +82,7 @@ responses:
 actions:
   - utter_restaurant_food
 
-📁 stories.yml:
+stories.yml:
 
 version: "3.1"
 stories:
@@ -93,7 +93,7 @@ stories:
         - food: "Italian"
     - action: utter_restaurant_food
 
-📁 rules.yml:
+rules.yml:
 
 version: "3.1"
 rules:
@@ -102,7 +102,7 @@ rules:
     - intent: restaurant_food
     - action: utter_restaurant_food
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 
 Return only valid YAML (no markdown, no explanations).
 
@@ -152,5 +152,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

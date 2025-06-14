@@ -49,7 +49,7 @@ Your task is to **improve the assistant**, keeping the structure of each file in
 
 ---
 
-🗂️ Files to improve:
+Files to improve:
 
 # domain.yml
 {domain_content}
@@ -79,5 +79,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)

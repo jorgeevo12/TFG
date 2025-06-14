@@ -72,13 +72,13 @@ For every `inform` or `request` act, there is **at least one** slot.
 Do not use synonyms or paraphrased slot names — be consistent.
 Use the format: domain-dialogue_act [slot=slot_name]
 
-❌ NEVER generate:
+NEVER generate:
 - general-inform
 - general-request
 - ANY tag that ends with `-dialogue_act` (e.g. train-dialogue_act ❌)
 - ANY domain-act combination that is not in the VALID COMPONENTS table
 
-✅ General domain can ONLY be: general-greet, general-bye, general-welcome
+General domain can ONLY be: general-greet, general-bye, general-welcome
 
 CRITICAL RULES:
 1. GENERAL DOMAIN:
@@ -109,7 +109,7 @@ STRICT FORMAT RULES:
 - Single acts: domain1-act1
 - Multiple acts: domain1-act1,domain2-act2
 - If slot(s), append with [slot=name], [slot=name2]
-- ❌ NEVER use general-inform, general-request or anything ending in -dialogue_act
+- NEVER use general-inform, general-request or anything ending in -dialogue_act
 
 FINAL CLASSIFICATION:
 {speaker_role} utterance: "{utterance}"

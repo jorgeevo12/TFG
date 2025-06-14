@@ -21,7 +21,7 @@ Your task is to update ONLY the `rules.yml` and `stories.yml` so that the **syst
 
 ---
 
-📄 RULES.YML:
+RULES.YML:
 - Add a rule to activate the form:
   - intent: request_trip
   - action: trip_form
@@ -36,7 +36,7 @@ Your task is to update ONLY the `rules.yml` and `stories.yml` so that the **syst
 
 ---
 
-📄 STORIES.YML:
+STORIES.YML:
 - Add 2 stories showing the system asking and the user providing each slot.
 - Format:
   - intent: request_trip
@@ -58,7 +58,7 @@ Your task is to update ONLY the `rules.yml` and `stories.yml` so that the **syst
 
 ---
 
-‼️ INSTRUCTIONS:
+INSTRUCTIONS:
 - Do NOT modify domain.yml or nlu.yml.
 - Only return valid YAML.
 - Do not include markdown or comments.
@@ -94,5 +94,5 @@ response = requests.post(
 if response.status_code == 200:
     print(response.json().get("response", ""))
 else:
-    print("❌ Error:", response.status_code)
+    print("Error:", response.status_code)
     print(response.text)
